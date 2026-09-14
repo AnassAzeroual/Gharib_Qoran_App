@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 182,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "سُورَةُ الْأَحْزَابِ",
+      "left_normalized": "سورة الأحزاب"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْزَابِ",
+          "name_normalized": "سورة الأحزاب",
+          "order": 33,
+          "ayat_count": 73,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 51,
+            "word": "أَن تَقَرَّ أَعْيُنُهُنَّ",
+            "word_normalized": "أن تقر أعينهن",
+            "meaning": "أَنْ يَفْرَحْنَ.",
+            "meaning_normalized": "أن يفرحن"
+          },
+          {
+            "ayah_number": 52,
+            "word": "وَلَآ أَن تَبَدَّلَ",
+            "word_normalized": "ولا أن تبدل",
+            "meaning": "وَلَا أَنْ تُطَلِّقَ إِحْدَاهُنَّ لِتَسْتَبْدِلَهَا بِغَيْرِهَا.",
+            "meaning_normalized": "ولا أن تطلق إحداهن لتستبدلها بغيرها"
+          },
+          {
+            "ayah_number": 52,
+            "word": "رَّقِيبًا",
+            "word_normalized": "رقيبا",
+            "meaning": "مُطَّلِعًا لَا يَغِيبُ عَنْ عِلْمِهِ شَيْءٌ.",
+            "meaning_normalized": "مطلعا لا يغيب عن علمه شيء"
+          },
+          {
+            "ayah_number": 53,
+            "word": "نَٰظِرِينَ إِنَىٰهُ",
+            "word_normalized": "ناظرين إناه",
+            "meaning": "مُنْتَظِرِينَ نُضْجَهُ.",
+            "meaning_normalized": "منتظرين نضجه"
+          },
+          {
+            "ayah_number": 53,
+            "word": "مَتَٰعًا",
+            "word_normalized": "متاعا",
+            "meaning": "حَاجَةً مِنْ أَوَانِي الْبَيْتِ، وَنَحْوِهَا.",
+            "meaning_normalized": "حاجة من أواني البيت ونحوها"
+          },
+          {
+            "ayah_number": 55,
+            "word": "لَّا جُنَاحَ عَلَيْهِنَّ",
+            "word_normalized": "لا جناح عليهن",
+            "meaning": "لَا إِثْمَ عَلَيْهِنَّ فِي عَدَمِ الِاحْتِجَابِ.",
+            "meaning_normalized": "لا إثم عليهن في عدم الاحتجاب"
+          },
+          {
+            "ayah_number": 55,
+            "word": "وَلَا نِسَآئِهِنَّ",
+            "word_normalized": "ولا نسائهن",
+            "meaning": "أَيِ: النِّسَاءِ الْمُؤْمِنَاتِ.",
+            "meaning_normalized": "أي النساء المؤمنات"
+          },
+          {
+            "ayah_number": 55,
+            "word": "مَا مَلَكَتْ أَيْمَٰنُهُنَّ",
+            "word_normalized": "ما ملكت أيمانهن",
+            "meaning": "الْعَبِيدِ الْمَمْلُوكِينَ لَهُنَّ.",
+            "meaning_normalized": "العبيد المملوكين لهن"
+          },
+          {
+            "ayah_number": 56,
+            "word": "يُصَلُّونَ",
+            "word_normalized": "يصلون",
+            "meaning": "صَلَاةُ اللهِ: ثَنَاؤُهُ عَلَى عَبْدِهِ فِي الْمَلَإِ الْأَعْلَى، وَصَلَاةُ الْمَلَائِكَةِ: ثَنَاؤُهُمْ وَدُعَاؤُهُمْ.",
+            "meaning_normalized": "صلاة الله ثناؤه على عبده في الملإ الأعلى وصلاة الملائكة ثناؤهم ودعاؤهم"
+          },
+          {
+            "ayah_number": 57,
+            "word": "يُؤْذُونَ ٱللَّهَ",
+            "word_normalized": "يؤذون الله",
+            "meaning": "يُشْرِكُونَ بِهِ، وَيَعْصُونَهُ.",
+            "meaning_normalized": "يشركون به ويعصونه"
+          },
+          {
+            "ayah_number": 57,
+            "word": "لَعَنَهُمُ ٱللَّهُ",
+            "word_normalized": "لعنهم الله",
+            "meaning": "أَبْعَدَهُمْ، وَطَرَدَهُمْ مِنْ كُلِّ خَيْرٍ.",
+            "meaning_normalized": "أبعدهم وطردهم من كل خير"
+          },
+          {
+            "ayah_number": 58,
+            "word": "ٱحْتَمَلُوا۟",
+            "word_normalized": "احتملوا",
+            "meaning": "ارْتَكَبُوا.",
+            "meaning_normalized": "ارتكبوا"
+          },
+          {
+            "ayah_number": 58,
+            "word": "بُهْتَٰنًا",
+            "word_normalized": "بهتانا",
+            "meaning": "أَفْحَشَ الْكَذِبِ وَالزُّورِ.",
+            "meaning_normalized": "أفحش الكذب والزور"
+          },
+          {
+            "ayah_number": 59,
+            "word": "يُدْنِينَ عَلَيْهِنَّ",
+            "word_normalized": "يدنين عليهن",
+            "meaning": "يُرْخِينَ عَلَى رُؤُوسِهِنَّ وَوُجُوهِهِنَّ وَصُدُورِهِنَّ.",
+            "meaning_normalized": "يرخين على رؤوسهن ووجوههن وصدورهن"
+          },
+          {
+            "ayah_number": 59,
+            "word": "جَلَٰبِيبِهِنَّ",
+            "word_normalized": "جلابيبهن",
+            "meaning": "الْجِلْبَابُ: الرِّدَاءُ، وَالْمِلْحَفَةُ الَّتِي تَسْتُرُ بَدَنَ الْمَرْأَةِ وَزِينَتَهَا.",
+            "meaning_normalized": "الجلباب الرداء والملحفة التي تستر بدن المرأة وزينتها"
+          },
+          {
+            "ayah_number": 59,
+            "word": "أَدْنَىٰ",
+            "word_normalized": "أدنى",
+            "meaning": "أَقْرَبُ.",
+            "meaning_normalized": "أقرب"
+          }
+        ]
+      }
+    ]
+  }
+}

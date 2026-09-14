@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 184,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ سَبَإٍ",
+          "name_normalized": "سورة سبأ",
+          "order": 34,
+          "ayat_count": 54,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "يَلِجُ",
+            "word_normalized": "يلج",
+            "meaning": "يَدْخُلُ.",
+            "meaning_normalized": "يدخل"
+          },
+          {
+            "ayah_number": 2,
+            "word": "يَعْرُجُ",
+            "word_normalized": "يعرج",
+            "meaning": "يَصْعَدُ.",
+            "meaning_normalized": "يصعد"
+          },
+          {
+            "ayah_number": 3,
+            "word": "لَا يَعْزُبُ",
+            "word_normalized": "لا يعزب",
+            "meaning": "لَا يَغِيبُ.",
+            "meaning_normalized": "لا يغيب"
+          },
+          {
+            "ayah_number": 3,
+            "word": "مِثْقَالُ ذَرَّةٍ",
+            "word_normalized": "مثقال ذرة",
+            "meaning": "وَزْنُ نَمْلَةٍ صَغِيرَةٍ.",
+            "meaning_normalized": "وزن نملة صغيرة"
+          },
+          {
+            "ayah_number": 5,
+            "word": "مُعَٰجِزِينَ",
+            "word_normalized": "معاجزين",
+            "meaning": "مُشَاقِّينَ اللهَ، مُغَالِبِينَ أَمْرَهُ.",
+            "meaning_normalized": "مشاقين الله مغالبين أمره"
+          },
+          {
+            "ayah_number": 5,
+            "word": "عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ",
+            "word_normalized": "عذاب من رجز أليم",
+            "meaning": "أَسْوَأُ الْعَذَابِ، وَأَشَدُّهُ أَلَمًا.",
+            "meaning_normalized": "أسوأ العذاب وأشده ألما"
+          },
+          {
+            "ayah_number": 6,
+            "word": "صِرَٰطِ",
+            "word_normalized": "صراط",
+            "meaning": "طَرِيقِ.",
+            "meaning_normalized": "طريق"
+          },
+          {
+            "ayah_number": 7,
+            "word": "مُزِّقْتُمْ",
+            "word_normalized": "مزقتم",
+            "meaning": "مُتُّمْ، وَتَفَرَّقَتْ أَجْسَادُكُمْ فِي الْأَرْضِ.",
+            "meaning_normalized": "متم وتفرقت أجسادكم في الأرض"
+          },
+          {
+            "ayah_number": 8,
+            "word": "أَفْتَرَىٰ",
+            "word_normalized": "أفترى",
+            "meaning": "أَخْتَلَقَ؟",
+            "meaning_normalized": "أختلق"
+          },
+          {
+            "ayah_number": 8,
+            "word": "جِنَّةٌ",
+            "word_normalized": "جنة",
+            "meaning": "جُنُونٌ.",
+            "meaning_normalized": "جنون"
+          },
+          {
+            "ayah_number": 9,
+            "word": "نَخْسِفْ بِهِمُ",
+            "word_normalized": "نخسف بهم",
+            "meaning": "نُغَيِّبْهُمْ فِي الْأَرْضِ.",
+            "meaning_normalized": "نغيبهم في الأرض"
+          },
+          {
+            "ayah_number": 9,
+            "word": "كِسَفًا",
+            "word_normalized": "كسفا",
+            "meaning": "قِطَعًا مِنَ الْعَذَابِ.",
+            "meaning_normalized": "قطعا من العذاب"
+          },
+          {
+            "ayah_number": 9,
+            "word": "مُّنِيبٍ",
+            "word_normalized": "منيب",
+            "meaning": "رَاجِعٍ إِلَى رَبِّهِ بِالتَّوْبَةِ وَالطَّاعَةِ.",
+            "meaning_normalized": "راجع إلى ربه بالتوبة والطاعة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فَضْلًا",
+            "word_normalized": "فضلا",
+            "meaning": "نُبُوَّةً، وَعِلْمًا، وَكِتَابًا وَمُلْكًا.",
+            "meaning_normalized": "نبوة وعلما وكتابا وملكا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "أَوِّبِى مَعَهُۥ",
+            "word_normalized": "أوبي معه",
+            "meaning": "سَبِّحِي مَعَهُ.",
+            "meaning_normalized": "سبحي معه"
+          },
+          {
+            "ayah_number": 11,
+            "word": "سَٰبِغَٰتٍ",
+            "word_normalized": "سابغات",
+            "meaning": "دُرُوعًا تَامَّاتٍ وَاسِعَاتٍ.",
+            "meaning_normalized": "دروعا تامات واسعات"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَقَدِّرْ فِى ٱلسَّرْدِ",
+            "word_normalized": "وقدر في السرد",
+            "meaning": "قَدِّرِ الْمَسَامِيرَ فِي حَلَقِ الدُّرُوعِ بِأَلَّا تَكُونَ الْحَلَقُ صَغِيرَةً ضَعِيفَةً، وَلَا كَبِيرَةً ثَقِيلَةً.",
+            "meaning_normalized": "قدر المسامير في حلق الدروع بألا تكون الحلق صغيرة ضعيفة ولا كبيرة ثقيلة"
+          }
+        ]
+      }
+    ]
+  }
+}

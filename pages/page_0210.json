@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 210,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّمَرِ",
+          "name_normalized": "سورة الزمر",
+          "order": 39,
+          "ayat_count": 75,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 56,
+            "word": "جَنۢبِ ٱللَّهِ",
+            "word_normalized": "جنب الله",
+            "meaning": "طَاعَتِهِ، وَحَقِّهِ.",
+            "meaning_normalized": "طاعته وحقه"
+          },
+          {
+            "ayah_number": 56,
+            "word": "ٱلسَّٰخِرِينَ",
+            "word_normalized": "الساخرين",
+            "meaning": "الْمُسْتَهْزِئِينَ.",
+            "meaning_normalized": "المستهزئين"
+          },
+          {
+            "ayah_number": 57,
+            "word": "هَدَىٰنِى",
+            "word_normalized": "هداني",
+            "meaning": "أَرْشَدَنِي إِلَى دِينِهِ.",
+            "meaning_normalized": "أرشدني إلى دينه"
+          },
+          {
+            "ayah_number": 58,
+            "word": "كَرَّةً",
+            "word_normalized": "كرة",
+            "meaning": "رَجْعَةً.",
+            "meaning_normalized": "رجعة"
+          },
+          {
+            "ayah_number": 60,
+            "word": "مَثْوًى",
+            "word_normalized": "مثوى",
+            "meaning": "مَأْوًى، وَمَسْكَنٌ.",
+            "meaning_normalized": "مأوى ومسكن"
+          },
+          {
+            "ayah_number": 61,
+            "word": "بِمَفَازَتِهِمْ",
+            "word_normalized": "بمفازتهم",
+            "meaning": "بِفَوْزِهِمْ وَظَفَرِهِمْ بِالْمَطْلُوبِ.",
+            "meaning_normalized": "بفوزهم وظفرهم بالمطلوب"
+          },
+          {
+            "ayah_number": 63,
+            "word": "مَقَالِيدُ",
+            "word_normalized": "مقاليد",
+            "meaning": "مَفَاتِيحُ الْخَزَائِنِ.",
+            "meaning_normalized": "مفاتيح الخزائن"
+          },
+          {
+            "ayah_number": 65,
+            "word": "لَيَحْبَطَنَّ",
+            "word_normalized": "ليحبطن",
+            "meaning": "لَيَبْطُلَنَّ.",
+            "meaning_normalized": "ليبطلن"
+          },
+          {
+            "ayah_number": 67,
+            "word": "وَمَا قَدَرُوا۟",
+            "word_normalized": "وما قدروا",
+            "meaning": "مَا عَظَّمُوا.",
+            "meaning_normalized": "ما عظموا"
+          },
+          {
+            "ayah_number": 67,
+            "word": "قَبْضَتُهُۥ",
+            "word_normalized": "قبضته",
+            "meaning": "فِي قَبْضَةِ يَدِهِ.",
+            "meaning_normalized": "في قبضة يده"
+          },
+          {
+            "ayah_number": 67,
+            "word": "مَطْوِيَّٰتٌۢ",
+            "word_normalized": "مطويات",
+            "meaning": "يَطْوِيهَا وَيَلُفُّهَا بِيَدِهِ.",
+            "meaning_normalized": "يطويها ويلفها بيده"
+          },
+          {
+            "ayah_number": 67,
+            "word": "بِيَمِينِهِۦ",
+            "word_normalized": "بيمينه",
+            "meaning": "بِيَدِهِ الْيُمْنَى، وَكِلْتَا يَدَيْهِ يَمِينٌ، وَللهِ يَدَانِ لَائِقَتَانِ بِجَلَالِهِ نُثْبِتُهُمَا بِلَا تَكْيِيفٍ، وَلَا تَحْرِيفٍ، وَلَا تَمْثِيلٍ، وَلَا تَعْطِيلٍ.",
+            "meaning_normalized": "بيده اليمنى وكلتا يديه يمين ولله يدان لائقتان بجلاله نثبتهما بلا تكييف ولا تحريف ولا تمثيل ولا تعطيل"
+          },
+          {
+            "ayah_number": 67,
+            "word": "سُبْحَٰنَهُۥ",
+            "word_normalized": "سبحانه",
+            "meaning": "تَنَزَّهَ.",
+            "meaning_normalized": "تنزه"
+          },
+          {
+            "ayah_number": 67,
+            "word": "وَتَعَٰلَىٰ",
+            "word_normalized": "وتعالى",
+            "meaning": "تَعَاظَمَ.",
+            "meaning_normalized": "تعاظم"
+          },
+          {
+            "ayah_number": 68,
+            "word": "وَنُفِخَ",
+            "word_normalized": "ونفخ",
+            "meaning": "أَيِ: النَّفْخَةُ الْأُولَى الَّتِي يَمُوتُ بِهَا الْخَلْقُ؛ وَهِيَ نَفْخَةُ الصَّعْقِ.",
+            "meaning_normalized": "أي النفخة الأولى التي يموت بها الخلق وهي نفخة الصعق"
+          },
+          {
+            "ayah_number": 68,
+            "word": "ٱلصُّورِ",
+            "word_normalized": "الصور",
+            "meaning": "الْقَرْنِ الَّذِي يَنْفُخُ فِيهِ إِسْرَافِيلُ عَلَيْهِ السَّلَامُ لِلصَّعْقِ وَالْبَعْثِ.",
+            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل عليه السلام للصعق والبعث"
+          }
+        ]
+      }
+    ]
+  }
+}

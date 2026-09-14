@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 173,
+    "header": {
+      "right": "سُورَةُ لُقْمَانَ",
+      "right_normalized": "سورة لقمان",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرُّومِ",
+          "name_normalized": "سورة الروم",
+          "order": 30,
+          "ayat_count": 60,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 59,
+            "word": "يَطْبَعُ",
+            "word_normalized": "يطبع",
+            "meaning": "يَخْتِمُ.",
+            "meaning_normalized": "يختم"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَلَا يَسْتَخِفَّنَّكَ",
+            "word_normalized": "ولا يستخفنك",
+            "meaning": "لَا يَسْتَفِزَّنَّكَ، وَلَا يَحْمِلَنَّكَ عَلَى الْخِفَّةِ، وَالطَّيْشِ.",
+            "meaning_normalized": "لا يستفزنك ولا يحملنك على الخفة والطيش"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ لُقْمَانَ",
+          "name_normalized": "سورة لقمان",
+          "order": 31,
+          "ayat_count": 34,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 6,
+            "word": "لَهْوَ ٱلْحَدِيثِ",
+            "word_normalized": "لهو الحديث",
+            "meaning": "مَا يُلْهِي عَنْ طَاعَةِ اللهِ؛ كَالْغِنَاءِ.",
+            "meaning_normalized": "ما يلهي عن طاعة الله كالغناء"
+          },
+          {
+            "ayah_number": 6,
+            "word": "هُزُوًا",
+            "word_normalized": "هزوا",
+            "meaning": "سُخْرِيَةً.",
+            "meaning_normalized": "سخرية"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وَقْرًا",
+            "word_normalized": "وقرا",
+            "meaning": "صَمَمًا.",
+            "meaning_normalized": "صمما"
+          },
+          {
+            "ayah_number": 10,
+            "word": "رَوَٰسِيَ",
+            "word_normalized": "رواسي",
+            "meaning": "جِبَالًا ثَابِتَةً.",
+            "meaning_normalized": "جبالا ثابتة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "أَن تَمِيدَ",
+            "word_normalized": "أن تميد",
+            "meaning": "لِئَلَّا تَضْطَرِبَ وَتَتَحَرَّكَ.",
+            "meaning_normalized": "لئلا تضطرب وتتحرك"
+          },
+          {
+            "ayah_number": 10,
+            "word": "وَبَثَّ",
+            "word_normalized": "وبث",
+            "meaning": "نَشَرَ.",
+            "meaning_normalized": "نشر"
+          },
+          {
+            "ayah_number": 10,
+            "word": "زَوْجٍ كَرِيمٍ",
+            "word_normalized": "زوج كريم",
+            "meaning": "صِنْفٍ بَهِيجٍ نَافِعٍ حَسَنِ الْمَنْظَرِ.",
+            "meaning_normalized": "صنف بهيج نافع حسن المنظر"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ٱلْحِكْمَةَ",
+            "word_normalized": "الحكمة",
+            "meaning": "الْفِقْهَ فِي الدِّينِ، وَالْإِصَابَةَ فِي الْقَوْلِ.",
+            "meaning_normalized": "الفقه في الدين والإصابة في القول"
+          },
+          {
+            "ayah_number": 13,
+            "word": "وَهْنًا",
+            "word_normalized": "وهنا",
+            "meaning": "ضَعْفًا.",
+            "meaning_normalized": "ضعفا"
+          },
+          {
+            "ayah_number": 14,
+            "word": "وَفِصَٰلُهُۥ",
+            "word_normalized": "وفصاله",
+            "meaning": "فِطَامُهُ عَنِ الرَّضَاعَةِ.",
+            "meaning_normalized": "فطامه عن الرضاعة"
+          },
+          {
+            "ayah_number": 15,
+            "word": "سَبِيلَ",
+            "word_normalized": "سبيل",
+            "meaning": "طَرِيقَ.",
+            "meaning_normalized": "طريق"
+          },
+          {
+            "ayah_number": 15,
+            "word": "أَنَابَ",
+            "word_normalized": "أناب",
+            "meaning": "رَجَعَ، وَتَابَ.",
+            "meaning_normalized": "رجع وتاب"
+          },
+          {
+            "ayah_number": 16,
+            "word": "مِثْقَالَ",
+            "word_normalized": "مثقال",
+            "meaning": "وَزْنَ، وَمِقْدَارَ.",
+            "meaning_normalized": "وزن ومقدار"
+          },
+          {
+            "ayah_number": 16,
+            "word": "حَبَّةٍ مِّنْ خَرْدَلٍ",
+            "word_normalized": "حبة من خردل",
+            "meaning": "حَبَّةٍ صَغِيرَةٍ مُتَنَاهِيَةٍ فِي الصِّغَرِ.",
+            "meaning_normalized": "حبة صغيرة متناهية في الصغر"
+          }
+        ]
+      }
+    ]
+  }
+}

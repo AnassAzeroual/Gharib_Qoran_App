@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 187,
+    "header": {
+      "right": "سُورَةُ سَبَإٍ",
+      "right_normalized": "سورة سبأ",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ سَبَإٍ",
+          "name_normalized": "سورة سبأ",
+          "order": 34,
+          "ayat_count": 54,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 31,
+            "word": "وَلَا بِٱلَّذِى بَيْنَ يَدَيْهِ",
+            "word_normalized": "ولا بالذي بين يديه",
+            "meaning": "وَلَا بِالَّذِي تَقَدَّمَهُ مِنَ التَّوْرَاةِ وَالْإِنْجِيلِ وَالزَّبُورِ.",
+            "meaning_normalized": "ولا بالذي تقدمه من التوراة والإنجيل والزبور"
+          },
+          {
+            "ayah_number": 31,
+            "word": "مَوْقُوفُونَ",
+            "word_normalized": "موقوفون",
+            "meaning": "مَحْبُوسُونَ فِي مَوْقِفِ الْحِسَابِ.",
+            "meaning_normalized": "محبوسون في موقف الحساب"
+          },
+          {
+            "ayah_number": 31,
+            "word": "يَرْجِعُ",
+            "word_normalized": "يرجع",
+            "meaning": "يَرُدُّ بَعْضُهُمْ عَلَى بَعْضٍ.",
+            "meaning_normalized": "يرد بعضهم على بعض"
+          },
+          {
+            "ayah_number": 33,
+            "word": "بَلْ مَكْرُ ٱلَّيْلِ وَٱلنَّهَارِ",
+            "word_normalized": "بل مكر الليل والنهار",
+            "meaning": "بَلْ تَدْبِيرُ الشَّرِّ لَنَا بِاللَّيْلِ وَالنَّهَارِ هُوَ الَّذِي أَهْلَكَنَا.",
+            "meaning_normalized": "بل تدبير الشر لنا بالليل والنهار هو الذي أهلكنا"
+          },
+          {
+            "ayah_number": 33,
+            "word": "ٱلنَّدَامَةَ",
+            "word_normalized": "الندامة",
+            "meaning": "التَّحَسُّرَ.",
+            "meaning_normalized": "التحسر"
+          },
+          {
+            "ayah_number": 36,
+            "word": "يَبْسُطُ",
+            "word_normalized": "يبسط",
+            "meaning": "يُوسِعُ.",
+            "meaning_normalized": "يوسع"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَيَقْدِرُ",
+            "word_normalized": "ويقدر",
+            "meaning": "يُضَيِّقُ.",
+            "meaning_normalized": "يضيق"
+          },
+          {
+            "ayah_number": 37,
+            "word": "زُلْفَىٰ",
+            "word_normalized": "زلفى",
+            "meaning": "قُرْبَى.",
+            "meaning_normalized": "قربى"
+          },
+          {
+            "ayah_number": 37,
+            "word": "جَزَآءُ ٱلضِّعْفِ",
+            "word_normalized": "جزاء الضعف",
+            "meaning": "الثَّوَابُ الْمُضَاعَفُ.",
+            "meaning_normalized": "الثواب المضاعف"
+          },
+          {
+            "ayah_number": 37,
+            "word": "ٱلْغُرُفَٰتِ",
+            "word_normalized": "الغرفات",
+            "meaning": "الْمَنَازِلِ الرَّفِيعَةِ فِي الْجَنَّةِ.",
+            "meaning_normalized": "المنازل الرفيعة في الجنة"
+          },
+          {
+            "ayah_number": 38,
+            "word": "يَسْعَوْنَ فِىٓ ءَايَٰتِنَا",
+            "word_normalized": "يسعون في آياتنا",
+            "meaning": "يَجْهَدُونَ فِي إِبْطَالِ حُجَجِنَا.",
+            "meaning_normalized": "يجهدون في إبطال حججنا"
+          },
+          {
+            "ayah_number": 38,
+            "word": "مُعَٰجِزِينَ",
+            "word_normalized": "معاجزين",
+            "meaning": "مُشَاقِّينَ يَظُنُّونَ أَنَّهُمْ يَفُوتُونَنَا.",
+            "meaning_normalized": "مشاقين يظنون أنهم يفوتوننا"
+          },
+          {
+            "ayah_number": 38,
+            "word": "مُحْضَرُونَ",
+            "word_normalized": "محضرون",
+            "meaning": "تُحْضِرُهُمُ الزَّبَانِيَةُ إِلَى جَهَنَّمَ.",
+            "meaning_normalized": "تحضرهم الزبانية إلى جهنم"
+          },
+          {
+            "ayah_number": 39,
+            "word": "وَيَقْدِرُ لَهُۥ",
+            "word_normalized": "ويقدر له",
+            "meaning": "يُضَيِّقُهُ عَلَيْهِ.",
+            "meaning_normalized": "يضيقه عليه"
+          },
+          {
+            "ayah_number": 41,
+            "word": "سُبْحَٰنَكَ",
+            "word_normalized": "سبحانك",
+            "meaning": "نُنَزِّهُكَ.",
+            "meaning_normalized": "ننزهك"
+          },
+          {
+            "ayah_number": 41,
+            "word": "أَنتَ وَلِيُّنَا",
+            "word_normalized": "أنت ولينا",
+            "meaning": "أَنْتَ الَّذِي نُوَالِيهِ وَنَعْبُدُهُ.",
+            "meaning_normalized": "أنت الذي نواليه ونعبده"
+          },
+          {
+            "ayah_number": 43,
+            "word": "إِفْكٌ مُّفْتَرًى",
+            "word_normalized": "إفك مفترى",
+            "meaning": "كَذِبٌ مُخْتَلَقٌ.",
+            "meaning_normalized": "كذب مختلق"
+          },
+          {
+            "ayah_number": 44,
+            "word": "يَدْرُسُونَهَا",
+            "word_normalized": "يدرسونها",
+            "meaning": "يَقْرَؤُونَهَا.",
+            "meaning_normalized": "يقرؤونها"
+          },
+          {
+            "ayah_number": 45,
+            "word": "مِعْشَارَ مَآ ءَاتَيْنَٰهُمْ",
+            "word_normalized": "معشار ما آتيناهم",
+            "meaning": "عُشْرَ مَا أَعْطَيْنَاكُمْ مِنَ الْقُوَّةِ وَالنِّعَمِ.",
+            "meaning_normalized": "عشر ما أعطيناكم من القوة والنعم"
+          }
+        ]
+      }
+    ]
+  }
+}

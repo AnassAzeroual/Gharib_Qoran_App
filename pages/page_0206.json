@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 206,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ ص",
+          "name_normalized": "سورة ص",
+          "order": 38,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 79,
+            "word": "فَأَنظِرْنِى",
+            "word_normalized": "فأنظرني",
+            "meaning": "أَخِّرْنِي.",
+            "meaning_normalized": "أخرني"
+          },
+          {
+            "ayah_number": 82,
+            "word": "فَبِعِزَّتِكَ",
+            "word_normalized": "فبعزتك",
+            "meaning": "بِسُلْطَانِكَ، وَعَظَمَتِكَ.",
+            "meaning_normalized": "بسلطانك وعظمتك"
+          },
+          {
+            "ayah_number": 82,
+            "word": "لَأُغْوِيَنَّهُمْ",
+            "word_normalized": "لأغوينهم",
+            "meaning": "لَأُضِلَّنَّهُمْ.",
+            "meaning_normalized": "لأضلنهم"
+          },
+          {
+            "ayah_number": 83,
+            "word": "ٱلْمُخْلَصِينَ",
+            "word_normalized": "المخلصين",
+            "meaning": "الَّذِينَ أَخْلَصْتَهُمْ، وَاصْطَفَيْتَهُمْ لِعِبَادَتِكَ.",
+            "meaning_normalized": "الذين أخلصتهم واصطفيتهم لعبادتك"
+          },
+          {
+            "ayah_number": 86,
+            "word": "أَجْرٍ",
+            "word_normalized": "أجر",
+            "meaning": "جَزَاءٍ وَأُجْرَةٍ عَلَى الْهِدَايَةِ وَالدَّعْوَةِ.",
+            "meaning_normalized": "جزاء وأجرة على الهداية والدعوة"
+          },
+          {
+            "ayah_number": 86,
+            "word": "ٱلْمُتَكَلِّفِينَ",
+            "word_normalized": "المتكلفين",
+            "meaning": "الْمُتَصَنِّعِينَ الْمُتَقَوِّلِينَ عَلَى اللهِ.",
+            "meaning_normalized": "المتصنعين المتقولين على الله"
+          },
+          {
+            "ayah_number": 88,
+            "word": "نَبَأَهُ",
+            "word_normalized": "نبأه",
+            "meaning": "خَبَرَ الْقُرْآنِ وَصِدْقَهُ.",
+            "meaning_normalized": "خبر القرآن وصدقه"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّمَرِ",
+          "name_normalized": "سورة الزمر",
+          "order": 39,
+          "ayat_count": 75,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "مُخْلِصًا لَّهُ ٱلدِّينَ",
+            "word_normalized": "مخلصا له الدين",
+            "meaning": "مُوَحِّدًا لَهُ الْعِبَادَةَ وَالطَّاعَةَ.",
+            "meaning_normalized": "موحدا له العبادة والطاعة"
+          },
+          {
+            "ayah_number": 3,
+            "word": "ٱلدِّينُ ٱلْخَالِصُ",
+            "word_normalized": "الدين الخالص",
+            "meaning": "الطَّاعَةُ التَّامَّةُ السَّالِمَةُ مِنَ الشِّرْكِ.",
+            "meaning_normalized": "الطاعة التامة السالمة من الشرك"
+          },
+          {
+            "ayah_number": 3,
+            "word": "زُلْفَىٰ",
+            "word_normalized": "زلفى",
+            "meaning": "تَقَرُّبًا.",
+            "meaning_normalized": "تقربا"
+          },
+          {
+            "ayah_number": 4,
+            "word": "لَٱصْطَفَىٰ",
+            "word_normalized": "لاصطفى",
+            "meaning": "لَاخْتَارَ.",
+            "meaning_normalized": "لاختار"
+          },
+          {
+            "ayah_number": 5,
+            "word": "يُكَوِّرُ",
+            "word_normalized": "يكور",
+            "meaning": "يُدْخِلُ.",
+            "meaning_normalized": "يدخل"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَسَخَّرَ",
+            "word_normalized": "وسخر",
+            "meaning": "ذَلَّلَ.",
+            "meaning_normalized": "ذلل"
+          },
+          {
+            "ayah_number": 5,
+            "word": "ٱلْعَزِيزُ",
+            "word_normalized": "العزيز",
+            "meaning": "الْغَالِبُ عَلَى أَمْرِهِ، الْمُنْتَقِمُ مِنْ أَعْدَائِهِ.",
+            "meaning_normalized": "الغالب على أمره المنتقم من أعدائه"
+          },
+          {
+            "ayah_number": 6,
+            "word": "ثَمَٰنِيَةَ أَزْوَٰجٍ",
+            "word_normalized": "ثمانية أزواج",
+            "meaning": "ثَمَانِيَةَ أَنْوَاعٍ ذُكُورًا وَإِنَاثًا؛ مِنَ الْإِبِلِ وَالْبَقَرِ وَالضَّأْنِ وَالْمَعْزِ.",
+            "meaning_normalized": "ثمانية أنواع ذكورا وإناثا من الإبل والبقر والضأن والمعز"
+          },
+          {
+            "ayah_number": 6,
+            "word": "خَلْقًا مِّنۢ بَعْدِ خَلْقٍ",
+            "word_normalized": "خلقا من بعد خلق",
+            "meaning": "طَوْرًا مِنْ بَعْدِ طَوْرٍ.",
+            "meaning_normalized": "طورا من بعد طور"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 201,
+    "header": {
+      "right": "سُورَةُ ص",
+      "right_normalized": "سورة ص",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ ص",
+          "name_normalized": "سورة ص",
+          "order": 38,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 7,
+            "word": "ٱلْمِلَّةِ ٱلْآخِرَةِ",
+            "word_normalized": "الملة الآخرة",
+            "meaning": "دِينِ آبَائِنَا وَدِينِ النَّصَارَى.",
+            "meaning_normalized": "دين آبائنا ودين النصارى"
+          },
+          {
+            "ayah_number": 7,
+            "word": "ٱخْتِلَٰقٌ",
+            "word_normalized": "اختلاق",
+            "meaning": "كَذِبٌ، وَافْتِرَاءٌ.",
+            "meaning_normalized": "كذب وافتراء"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فَلْيَرْتَقُوا۟ فِى ٱلْأَسْبَٰبِ",
+            "word_normalized": "فليرتقوا في الأسباب",
+            "meaning": "فَلْيَأْخُذُوا بِالْأَسْبَابِ الْمُوصِلَةِ إِلَى السَّمَاءِ، وَلْيَمْنَعُوا الْوَحْيَ.",
+            "meaning_normalized": "فليأخذوا بالأسباب الموصلة إلى السماء وليمنعوا الوحي"
+          },
+          {
+            "ayah_number": 11,
+            "word": "جُندٌ مَّا",
+            "word_normalized": "جند ما",
+            "meaning": "جُنُودٌ قَلِيلُونَ حَقِيرُونَ.",
+            "meaning_normalized": "جنود قليلون حقيرون"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ذُو ٱلْأَوْتَادِ",
+            "word_normalized": "ذو الأوتاد",
+            "meaning": "صَاحِبُ الْجُنُودِ، وَالْقُوَّةِ الْعَظِيمَةِ.",
+            "meaning_normalized": "صاحب الجنود والقوة العظيمة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "وَأَصْحَٰبُ لْـَٔيْكَةِ",
+            "word_normalized": "وأصحاب لئيكة",
+            "meaning": "أَصْحَابُ الْأَشْجَارِ وَالْبَسَاتِينِ؛ وَهُمْ قَوْمُ شُعَيْبٍ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "أصحاب الأشجار والبساتين وهم قوم شعيب عليه السلام"
+          },
+          {
+            "ayah_number": 14,
+            "word": "فَحَقَّ عِقَابِ",
+            "word_normalized": "فحق عقاب",
+            "meaning": "فَوَجَبَ الْعِقَابُ عَلَيْهِمْ.",
+            "meaning_normalized": "فوجب العقاب عليهم"
+          },
+          {
+            "ayah_number": 15,
+            "word": "وَمَا يَنظُرُ",
+            "word_normalized": "وما ينظر",
+            "meaning": "مَا يَنْتَظِرُ.",
+            "meaning_normalized": "ما ينتظر"
+          },
+          {
+            "ayah_number": 15,
+            "word": "صَيْحَةً وَٰحِدَةً",
+            "word_normalized": "صيحة واحدة",
+            "meaning": "نَفْخَةَ الْقِيَامَةِ.",
+            "meaning_normalized": "نفخة القيامة"
+          },
+          {
+            "ayah_number": 15,
+            "word": "فَوَاقٍ",
+            "word_normalized": "فواق",
+            "meaning": "رُجُوعٍ.",
+            "meaning_normalized": "رجوع"
+          },
+          {
+            "ayah_number": 16,
+            "word": "قِطَّنَا",
+            "word_normalized": "قطنا",
+            "meaning": "نَصِيبَنَا مِنَ الْعَذَابِ.",
+            "meaning_normalized": "نصيبنا من العذاب"
+          },
+          {
+            "ayah_number": 17,
+            "word": "ذَا ٱلْأَيْدِ",
+            "word_normalized": "ذا الأيد",
+            "meaning": "صَاحِبَ الْقُوَّةِ عَلَى الطَّاعَةِ، وَفِي الْحَرْبِ.",
+            "meaning_normalized": "صاحب القوة على الطاعة وفي الحرب"
+          },
+          {
+            "ayah_number": 17,
+            "word": "أَوَّابٌ",
+            "word_normalized": "أواب",
+            "meaning": "كَثِيرُ الرُّجُوعِ إِلَى مَا يُرْضِي اللهَ.",
+            "meaning_normalized": "كثير الرجوع إلى ما يرضي الله"
+          },
+          {
+            "ayah_number": 18,
+            "word": "بِٱلْعَشِىِّ",
+            "word_normalized": "بالعشي",
+            "meaning": "آخِرِ النَّهَارِ.",
+            "meaning_normalized": "آخر النهار"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَٱلْإِشْرَاقِ",
+            "word_normalized": "والإشراق",
+            "meaning": "أَوَّلِ النَّهَارِ.",
+            "meaning_normalized": "أول النهار"
+          },
+          {
+            "ayah_number": 19,
+            "word": "مَحْشُورَةً",
+            "word_normalized": "محشورة",
+            "meaning": "مَجْمُوعَةً.",
+            "meaning_normalized": "مجموعة"
+          },
+          {
+            "ayah_number": 19,
+            "word": "أَوَّابٌ",
+            "word_normalized": "أواب",
+            "meaning": "مُطِيعٌ.",
+            "meaning_normalized": "مطيع"
+          },
+          {
+            "ayah_number": 20,
+            "word": "وَشَدَدْنَا مُلْكَهُۥ",
+            "word_normalized": "وشددنا ملكه",
+            "meaning": "قَوَّيْنَا مُلْكَهُ بِالْهَيْبَةِ، وَالتَّمْكِينِ، وَالنَّصْرِ.",
+            "meaning_normalized": "قوينا ملكه بالهيبة والتمكين والنصر"
+          },
+          {
+            "ayah_number": 20,
+            "word": "ٱلْحِكْمَةَ",
+            "word_normalized": "الحكمة",
+            "meaning": "النُّبُوَّةَ.",
+            "meaning_normalized": "النبوة"
+          }
+        ]
+      }
+    ]
+  }
+}

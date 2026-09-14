@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 204,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ ص",
+          "name_normalized": "سورة ص",
+          "order": 38,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 42,
+            "word": "مُغْتَسَلٌ بَارِدٌ",
+            "word_normalized": "مغتسل بارد",
+            "meaning": "مَاءٌ تَغْتَسِلُ بِهِ، فِيهِ شِفَاؤُكَ.",
+            "meaning_normalized": "ماء تغتسل به فيه شفاؤك"
+          },
+          {
+            "ayah_number": 43,
+            "word": "وَمِثْلَهُم مَّعَهُمْ",
+            "word_normalized": "ومثلهم معهم",
+            "meaning": "زِدْنَاهُ مِثْلَهُمْ مَعَهُمْ.",
+            "meaning_normalized": "زدناه مثلهم معهم"
+          },
+          {
+            "ayah_number": 43,
+            "word": "لِأُو۟لِى ٱلْأَلْبَٰبِ",
+            "word_normalized": "لأولي الألباب",
+            "meaning": "لِأَصْحَابِ الْعُقُولِ السَّلِيمَةِ.",
+            "meaning_normalized": "لأصحاب العقول السليمة"
+          },
+          {
+            "ayah_number": 44,
+            "word": "ضِغْثًا",
+            "word_normalized": "ضغثا",
+            "meaning": "حُزْمَةَ شَمَارِيخَ أَوْ قَبْضَةَ حَشِيشٍ.",
+            "meaning_normalized": "حزمة شماريخ أو قبضة حشيش"
+          },
+          {
+            "ayah_number": 44,
+            "word": "وَلَا تَحْنَثْ",
+            "word_normalized": "ولا تحنث",
+            "meaning": "لَا تَنْقُضْ يَمِينَكَ الَّتِي حَلَفْتَهَا بِضَرْبِ زَوْجَتِكَ.",
+            "meaning_normalized": "لا تنقض يمينك التي حلفتها بضرب زوجتك"
+          },
+          {
+            "ayah_number": 44,
+            "word": "أَوَّابٌ",
+            "word_normalized": "أواب",
+            "meaning": "رَجَّاعٌ إِلَى طَاعَةِ اللهِ.",
+            "meaning_normalized": "رجاع إلى طاعة الله"
+          },
+          {
+            "ayah_number": 45,
+            "word": "أُو۟لِى ٱلْأَيْدِى",
+            "word_normalized": "أولي الأيدي",
+            "meaning": "أَصْحَابَ الْقُوَّةِ فِي الطَّاعَةِ.",
+            "meaning_normalized": "أصحاب القوة في الطاعة"
+          },
+          {
+            "ayah_number": 45,
+            "word": "وَٱلْأَبْصَٰرِ",
+            "word_normalized": "والأبصار",
+            "meaning": "الْبَصِيرَةِ فِي الدِّينِ.",
+            "meaning_normalized": "البصيرة في الدين"
+          },
+          {
+            "ayah_number": 46,
+            "word": "أَخْلَصْنَٰهُم بِخَالِصَةٍ",
+            "word_normalized": "أخلصناهم بخالصة",
+            "meaning": "خَصَصْنَاهُمْ بِخَصْلَةٍ عَظِيمَةٍ.",
+            "meaning_normalized": "خصصناهم بخصلة عظيمة"
+          },
+          {
+            "ayah_number": 46,
+            "word": "ذِكْرَى ٱلدَّارِ",
+            "word_normalized": "ذكرى الدار",
+            "meaning": "تَذَكُّرُ الْآخِرَةِ فِي قُلُوبِهِمْ.",
+            "meaning_normalized": "تذكر الآخرة في قلوبهم"
+          },
+          {
+            "ayah_number": 47,
+            "word": "ٱلْمُصْطَفَيْنَ",
+            "word_normalized": "المصطفين",
+            "meaning": "الْمُخْتَارِينَ.",
+            "meaning_normalized": "المختارين"
+          },
+          {
+            "ayah_number": 49,
+            "word": "لَحُسْنَ مَـَٔابٍ",
+            "word_normalized": "لحسن مآب",
+            "meaning": "حُسْنَ مَرْجِعٍ فِي الْآخِرَةِ.",
+            "meaning_normalized": "حسن مرجع في الآخرة"
+          },
+          {
+            "ayah_number": 52,
+            "word": "قَٰصِرَٰتُ ٱلطَّرْفِ",
+            "word_normalized": "قاصرات الطرف",
+            "meaning": "لَا يَنْظُرْنَ إِلَى غَيْرِ أَزْوَاجِهِنَّ.",
+            "meaning_normalized": "لا ينظرن إلى غير أزواجهن"
+          },
+          {
+            "ayah_number": 53,
+            "word": "أَتْرَابٌ",
+            "word_normalized": "أتراب",
+            "meaning": "مُتَسَاوِيَاتُ السِّنِّ.",
+            "meaning_normalized": "متساويات السن"
+          },
+          {
+            "ayah_number": 54,
+            "word": "نَّفَادٍ",
+            "word_normalized": "نفاد",
+            "meaning": "انْقِطَاعٍ.",
+            "meaning_normalized": "انقطاع"
+          },
+          {
+            "ayah_number": 55,
+            "word": "لَشَرَّ مَـَٔابٍ",
+            "word_normalized": "لشر مآب",
+            "meaning": "أَسْوَأَ مَرْجِعٍ فِي الْآخِرَةِ.",
+            "meaning_normalized": "أسوأ مرجع في الآخرة"
+          },
+          {
+            "ayah_number": 56,
+            "word": "يَصْلَوْنَهَا",
+            "word_normalized": "يصلونها",
+            "meaning": "يَدْخُلُونَهَا وَيُقَاسُونَ حَرَّهَا.",
+            "meaning_normalized": "يدخلونها ويقاسون حرها"
+          },
+          {
+            "ayah_number": 56,
+            "word": "ٱلْمِهَادُ",
+            "word_normalized": "المهاد",
+            "meaning": "الْفِرَاشُ.",
+            "meaning_normalized": "الفراش"
+          },
+          {
+            "ayah_number": 57,
+            "word": "حَمِيمٌ",
+            "word_normalized": "حميم",
+            "meaning": "مَاءٌ شَدِيدُ الْحَرَارَةِ.",
+            "meaning_normalized": "ماء شديد الحرارة"
+          },
+          {
+            "ayah_number": 57,
+            "word": "وَغَسَّاقٌ",
+            "word_normalized": "وغساق",
+            "meaning": "صَدِيدٌ سَائِلٌ مِنْ أَجْسَادِ أَهْلِ النَّارِ.",
+            "meaning_normalized": "صديد سائل من أجساد أهل النار"
+          }
+        ]
+      }
+    ]
+  }
+}

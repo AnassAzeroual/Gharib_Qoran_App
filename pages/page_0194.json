@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 194,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يس",
+          "name_normalized": "سورة يس",
+          "order": 36,
+          "ayat_count": 83,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 51,
+            "word": "يَنسِلُونَ",
+            "word_normalized": "ينسلون",
+            "meaning": "يُسْرِعُونَ فِي الْخُرُوجِ.",
+            "meaning_normalized": "يسرعون في الخروج"
+          },
+          {
+            "ayah_number": 52,
+            "word": "مَّرْقَدِنَا",
+            "word_normalized": "مرقدنا",
+            "meaning": "قُبُورِنَا.",
+            "meaning_normalized": "قبورنا"
+          },
+          {
+            "ayah_number": 53,
+            "word": "صَيْحَةً وَٰحِدَةً",
+            "word_normalized": "صيحة واحدة",
+            "meaning": "نَفْخَةً وَاحِدَةً فِي الْقَرْنِ.",
+            "meaning_normalized": "نفخة واحدة في القرن"
+          },
+          {
+            "ayah_number": 53,
+            "word": "مُحْضَرُونَ",
+            "word_normalized": "محضرون",
+            "meaning": "مَاثِلُونَ لِلْحِسَابِ.",
+            "meaning_normalized": "ماثلون للحساب"
+          },
+          {
+            "ayah_number": 55,
+            "word": "فِى شُغُلٍ",
+            "word_normalized": "في شغل",
+            "meaning": "مَشْغُولُونَ بِالنَّعِيمِ عَمَّا سِوَاهُ.",
+            "meaning_normalized": "مشغولون بالنعيم عما سواه"
+          },
+          {
+            "ayah_number": 56,
+            "word": "ٱلْأَرَآئِكِ",
+            "word_normalized": "الأرائك",
+            "meaning": "الْأَسِرَّةِ الْمُزَيَّنَةِ.",
+            "meaning_normalized": "الأسرة المزينة"
+          },
+          {
+            "ayah_number": 59,
+            "word": "وَٱمْتَٰزُوا۟",
+            "word_normalized": "وامتازوا",
+            "meaning": "تَمَيَّزُوا وَانْفَصِلُوا عَنِ الْمُؤْمِنِينَ.",
+            "meaning_normalized": "تميزوا وانفصلوا عن المؤمنين"
+          },
+          {
+            "ayah_number": 61,
+            "word": "هَٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
+            "word_normalized": "هذا صراط مستقيم",
+            "meaning": "عِبَادَتِي وَمَعْصِيَةُ الشَّيْطَانِ طَرِيقٌ قَوِيمٌ.",
+            "meaning_normalized": "عبادتي ومعصية الشيطان طريق قويم"
+          },
+          {
+            "ayah_number": 62,
+            "word": "جِبِلًّا",
+            "word_normalized": "جبلا",
+            "meaning": "خَلْقًا.",
+            "meaning_normalized": "خلقا"
+          },
+          {
+            "ayah_number": 65,
+            "word": "نَخْتِمُ",
+            "word_normalized": "نختم",
+            "meaning": "نَطْبَعُ.",
+            "meaning_normalized": "نطبع"
+          },
+          {
+            "ayah_number": 66,
+            "word": "فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ",
+            "word_normalized": "فاستبقوا الصراط",
+            "meaning": "بَادَرُوا إِلَى الطَّرِيقِ؛ لِيَجْتَازُوهُ.",
+            "meaning_normalized": "بادروا إلى الطريق ليجتازوه"
+          },
+          {
+            "ayah_number": 67,
+            "word": "لَمَسَخْنَٰهُمْ",
+            "word_normalized": "لمسخناهم",
+            "meaning": "لَغَيَّرْنَا خَلْقَهُمْ.",
+            "meaning_normalized": "لغيرنا خلقهم"
+          },
+          {
+            "ayah_number": 67,
+            "word": "مَكَانَتِهِمْ",
+            "word_normalized": "مكانتهم",
+            "meaning": "أَمَاكِنِهِمْ.",
+            "meaning_normalized": "أماكنهم"
+          },
+          {
+            "ayah_number": 67,
+            "word": "مُضِيًّا",
+            "word_normalized": "مضيا",
+            "meaning": "أَنْ يَمْضُوا أَمَامَهُمْ.",
+            "meaning_normalized": "أن يمضوا أمامهم"
+          },
+          {
+            "ayah_number": 68,
+            "word": "نُعَمِّرْهُ",
+            "word_normalized": "نعمره",
+            "meaning": "نُطِلْ عُمُرَهُ.",
+            "meaning_normalized": "نطل عمره"
+          },
+          {
+            "ayah_number": 68,
+            "word": "نُنَكِّسْهُ فِى ٱلْخَلْقِ",
+            "word_normalized": "ننكسه في الخلق",
+            "meaning": "نُعِدْهُ إِلَى الْحَالَةِ الَّتِي ابْتَدَأَهَا؛ وَهِيَ الضَّعْفُ.",
+            "meaning_normalized": "نعده إلى الحالة التي ابتدأها وهي الضعف"
+          },
+          {
+            "ayah_number": 72,
+            "word": "وَذَلَّلْنَٰهَا",
+            "word_normalized": "وذللناها",
+            "meaning": "سَخَّرْنَاهَا.",
+            "meaning_normalized": "سخرناها"
+          },
+          {
+            "ayah_number": 72,
+            "word": "رَكُوبُهُمْ",
+            "word_normalized": "ركوبهم",
+            "meaning": "مَا يَرْكَبُونَهُ فِي الْأَسْفَارِ.",
+            "meaning_normalized": "ما يركبونه في الأسفار"
+          },
+          {
+            "ayah_number": 77,
+            "word": "خَصِيمٌ",
+            "word_normalized": "خصيم",
+            "meaning": "كَثِيرُ الْخِصَامِ.",
+            "meaning_normalized": "كثير الخصام"
+          },
+          {
+            "ayah_number": 78,
+            "word": "رَمِيمٌ",
+            "word_normalized": "رميم",
+            "meaning": "بَالِيَةٌ، مُتَفَتِّتَةٌ.",
+            "meaning_normalized": "بالية متفتتة"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 208,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّمَرِ",
+          "name_normalized": "سورة الزمر",
+          "order": 39,
+          "ayat_count": 75,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 21,
+            "word": "فَسَلَكَهُۥ يَنَٰبِيعَ",
+            "word_normalized": "فسلكه ينابيع",
+            "meaning": "أَدْخَلَهُ فِي عُيُونٍ وَمَجَارٍ.",
+            "meaning_normalized": "أدخله في عيون ومجار"
+          },
+          {
+            "ayah_number": 21,
+            "word": "يَهِيجُ",
+            "word_normalized": "يهيج",
+            "meaning": "يَيْبَسُ.",
+            "meaning_normalized": "ييبس"
+          },
+          {
+            "ayah_number": 21,
+            "word": "حُطَٰمًا",
+            "word_normalized": "حطاما",
+            "meaning": "مُتَكَسِّرًا مُتَفَتِّتًا.",
+            "meaning_normalized": "متكسرا متفتتا"
+          },
+          {
+            "ayah_number": 21,
+            "word": "لِأُو۟لِى ٱلْأَلْبَٰبِ",
+            "word_normalized": "لأولي الألباب",
+            "meaning": "لِأَصْحَابِ الْعُقُولِ السَّلِيمَةِ.",
+            "meaning_normalized": "لأصحاب العقول السليمة"
+          },
+          {
+            "ayah_number": 22,
+            "word": "فَوَيْلٌ",
+            "word_normalized": "فويل",
+            "meaning": "هَلَاكٌ، وَحَسْرَةٌ.",
+            "meaning_normalized": "هلاك وحسرة"
+          },
+          {
+            "ayah_number": 23,
+            "word": "مُّتَشَٰبِهًا",
+            "word_normalized": "متشابها",
+            "meaning": "يُشْبِهُ بَعْضُهُ بَعْضًا فِي الْحُسْنِ وَالْإِحْكَامِ.",
+            "meaning_normalized": "يشبه بعضه بعضا في الحسن والإحكام"
+          },
+          {
+            "ayah_number": 23,
+            "word": "مَّثَانِىَ",
+            "word_normalized": "مثاني",
+            "meaning": "تُثَنَّى وَتُكَرَّرُ فِيهِ الْأَحْكَامُ وَالْقَصَصُ وَالْحُجَجُ.",
+            "meaning_normalized": "تثنى وتكرر فيه الأحكام والقصص والحجج"
+          },
+          {
+            "ayah_number": 23,
+            "word": "تَقْشَعِرُّ",
+            "word_normalized": "تقشعر",
+            "meaning": "تَضْطَرِبُ، وَتَرْتَعِدُ.",
+            "meaning_normalized": "تضطرب وترتعد"
+          },
+          {
+            "ayah_number": 23,
+            "word": "تَلِينُ",
+            "word_normalized": "تلين",
+            "meaning": "تَسْكُنُ، وَتَطْمَئِنُّ.",
+            "meaning_normalized": "تسكن وتطمئن"
+          },
+          {
+            "ayah_number": 24,
+            "word": "يَتَّقِى بِوَجْهِهِۦ",
+            "word_normalized": "يتقي بوجهه",
+            "meaning": "يُلْقَى فِي النَّارِ مَغْلُولًا، فَيَتَلَقَّاهَا بِوَجْهِهِ.",
+            "meaning_normalized": "يلقى في النار مغلولا فيتلقاها بوجهه"
+          },
+          {
+            "ayah_number": 26,
+            "word": "ٱلْخِزْىَ",
+            "word_normalized": "الخزي",
+            "meaning": "الذُّلَّ، وَالْهَوَانَ.",
+            "meaning_normalized": "الذل والهوان"
+          },
+          {
+            "ayah_number": 27,
+            "word": "مِن كُلِّ مَثَلٍ",
+            "word_normalized": "من كل مثل",
+            "meaning": "مِنْ أَمْثَالِ الْقُرُونِ الْخَالِيَةِ، وَأَمْثَالِ التَّوْحِيدِ وَالشِّرْكِ وَغَيْرِهَا.",
+            "meaning_normalized": "من أمثال القرون الخالية وأمثال التوحيد والشرك وغيرها"
+          },
+          {
+            "ayah_number": 28,
+            "word": "عِوَجٍ",
+            "word_normalized": "عوج",
+            "meaning": "اضْطِرَابٍ، وَلَبْسٍ.",
+            "meaning_normalized": "اضطراب ولبس"
+          },
+          {
+            "ayah_number": 29,
+            "word": "رَّجُلًا",
+            "word_normalized": "رجلا",
+            "meaning": "عَبْدًا مَمْلُوكًا.",
+            "meaning_normalized": "عبدا مملوكا"
+          },
+          {
+            "ayah_number": 29,
+            "word": "مُّتَشَٰكِسُونَ",
+            "word_normalized": "متشاكسون",
+            "meaning": "مُتَنَازِعُونَ.",
+            "meaning_normalized": "متنازعون"
+          },
+          {
+            "ayah_number": 29,
+            "word": "سَلَمًا",
+            "word_normalized": "سلما",
+            "meaning": "خَالِصًا.",
+            "meaning_normalized": "خالصا"
+          },
+          {
+            "ayah_number": 29,
+            "word": "لِّرَجُلٍ",
+            "word_normalized": "لرجل",
+            "meaning": "لِمَالِكٍ وَاحِدٍ.",
+            "meaning_normalized": "لمالك واحد"
+          },
+          {
+            "ayah_number": 33,
+            "word": "بِٱلصِّدْقِ",
+            "word_normalized": "بالصدق",
+            "meaning": "بِالْحَقِّ.",
+            "meaning_normalized": "بالحق"
+          },
+          {
+            "ayah_number": 33,
+            "word": "مَثْوًى",
+            "word_normalized": "مثوى",
+            "meaning": "مَأْوًى وَمَسْكَنٌ.",
+            "meaning_normalized": "مأوى ومسكن"
+          }
+        ]
+      }
+    ]
+  }
+}

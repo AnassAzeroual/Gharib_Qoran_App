@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 183,
+    "header": {
+      "right": "سُورَةُ الْأَحْزَابِ",
+      "right_normalized": "سورة الأحزاب",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْزَابِ",
+          "name_normalized": "سورة الأحزاب",
+          "order": 33,
+          "ayat_count": 73,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 59,
+            "word": "أَن يُعْرَفْنَ",
+            "word_normalized": "أن يعرفن",
+            "meaning": "يُمَيَّزْنَ بِالسَّتْرِ وَالصِّيَانَةِ؛ فَلَا يُتَعَرَّضَ لَهُنَّ بِمَكْرُوهٍ.",
+            "meaning_normalized": "يميزن بالستر والصيانة فلا يتعرض لهن بمكروه"
+          },
+          {
+            "ayah_number": 60,
+            "word": "مَّرَضٌ",
+            "word_normalized": "مرض",
+            "meaning": "شَكٌّ، وَرِيبَةٌ.",
+            "meaning_normalized": "شك وريبة"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَٱلْمُرْجِفُونَ",
+            "word_normalized": "والمرجفون",
+            "meaning": "الَّذِينَ يَنْشُرُونَ الْأَخْبَارَ الْكَاذِبَةَ.",
+            "meaning_normalized": "الذين ينشرون الأخبار الكاذبة"
+          },
+          {
+            "ayah_number": 60,
+            "word": "لَنُغْرِيَنَّكَ بِهِمْ",
+            "word_normalized": "لنغرينك بهم",
+            "meaning": "لَنُسَلِّطَنَّكَ عَلَيْهِمْ.",
+            "meaning_normalized": "لنسلطنك عليهم"
+          },
+          {
+            "ayah_number": 60,
+            "word": "لَا يُجَاوِرُونَكَ",
+            "word_normalized": "لا يجاورونك",
+            "meaning": "لَا يُسَاكِنُونَكَ.",
+            "meaning_normalized": "لا يساكنونك"
+          },
+          {
+            "ayah_number": 61,
+            "word": "ثُقِفُوٓا۟",
+            "word_normalized": "ثقفوا",
+            "meaning": "وُجِدُوا.",
+            "meaning_normalized": "وجدوا"
+          },
+          {
+            "ayah_number": 62,
+            "word": "سُنَّةَ ٱللَّهِ",
+            "word_normalized": "سنة الله",
+            "meaning": "طَرِيقَتَهُ فِي الْمُنَافِقِينَ: الْقَتْلَ، وَالْأَسْرَ.",
+            "meaning_normalized": "طريقته في المنافقين القتل والأسر"
+          },
+          {
+            "ayah_number": 63,
+            "word": "خَلَوْا۟",
+            "word_normalized": "خلوا",
+            "meaning": "مَضَوْا.",
+            "meaning_normalized": "مضوا"
+          },
+          {
+            "ayah_number": 62,
+            "word": "تَبْدِيلًا",
+            "word_normalized": "تبديلا",
+            "meaning": "تَحْوِيلًا، وَتَغْيِيرًا.",
+            "meaning_normalized": "تحويلا وتغييرا"
+          },
+          {
+            "ayah_number": 64,
+            "word": "سَعِيرًا",
+            "word_normalized": "سعيرا",
+            "meaning": "نَارًا مُوقَدَةً، شَدِيدَةَ الْحَرَارَةِ.",
+            "meaning_normalized": "نارا موقدة شديدة الحرارة"
+          },
+          {
+            "ayah_number": 67,
+            "word": "ٱلسَّبِيلَا۠",
+            "word_normalized": "السبيلا",
+            "meaning": "طَرِيقَ الْهُدَى.",
+            "meaning_normalized": "طريق الهدى"
+          },
+          {
+            "ayah_number": 68,
+            "word": "ضِعْفَيْنِ",
+            "word_normalized": "ضعفين",
+            "meaning": "مِثْلَيْنِ.",
+            "meaning_normalized": "مثلين"
+          },
+          {
+            "ayah_number": 69,
+            "word": "وَجِيهًا",
+            "word_normalized": "وجيها",
+            "meaning": "عَظِيمَ الْقَدْرِ.",
+            "meaning_normalized": "عظيم القدر"
+          },
+          {
+            "ayah_number": 70,
+            "word": "سَدِيدًا",
+            "word_normalized": "سديدا",
+            "meaning": "مُوَافِقًا لِلْحَقِّ، خَالِيًا مِنَ الْكَذِبِ وَالْبَاطِلِ.",
+            "meaning_normalized": "موافقا للحق خاليا من الكذب والباطل"
+          },
+          {
+            "ayah_number": 72,
+            "word": "ٱلْأَمَانَةَ",
+            "word_normalized": "الأمانة",
+            "meaning": "مَا أَمَرَ اللهُ بِهِ، وَنَهَى عَنْهُ.",
+            "meaning_normalized": "ما أمر الله به ونهى عنه"
+          },
+          {
+            "ayah_number": 72,
+            "word": "فَأَبَيْنَ",
+            "word_normalized": "فأبين",
+            "meaning": "امْتَنَعْنَ.",
+            "meaning_normalized": "امتنعن"
+          },
+          {
+            "ayah_number": 72,
+            "word": "وَأَشْفَقْنَ",
+            "word_normalized": "وأشفقن",
+            "meaning": "خِفْنَ مِنَ الْخِيَانَةِ فِيهَا.",
+            "meaning_normalized": "خفن من الخيانة فيها"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 178,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "سُورَةُ الْأَحْزَابِ",
+      "left_normalized": "سورة الأحزاب"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْزَابِ",
+          "name_normalized": "سورة الأحزاب",
+          "order": 33,
+          "ayat_count": 73,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 11,
+            "word": "وَزُلْزِلُوا۟",
+            "word_normalized": "وزلزلوا",
+            "meaning": "اضْطَرَبُوا.",
+            "meaning_normalized": "اضطربوا"
+          },
+          {
+            "ayah_number": 12,
+            "word": "مَّرَضٌ",
+            "word_normalized": "مرض",
+            "meaning": "شَكٌّ، وَضَعْفُ إِيمَانٍ.",
+            "meaning_normalized": "شك وضعف إيمان"
+          },
+          {
+            "ayah_number": 13,
+            "word": "غُرُورًا",
+            "word_normalized": "غرورا",
+            "meaning": "بَاطِلًا خَادِعًا.",
+            "meaning_normalized": "باطلا خادعا"
+          },
+          {
+            "ayah_number": 13,
+            "word": "يَٰثْرِبَ",
+            "word_normalized": "يثرب",
+            "meaning": "هُوَ: الِاسْمُ الْجَاهِلِيُّ لِلْمَدِينَةِ.",
+            "meaning_normalized": "هو الاسم الجاهلي للمدينة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "لَا مُقَامَ لَكُمْ",
+            "word_normalized": "لا مقام لكم",
+            "meaning": "لَا إِقَامَةَ لَكُمْ فِي مَعْرَكَةٍ خَاسِرَةٍ.",
+            "meaning_normalized": "لا إقامة لكم في معركة خاسرة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "عَوْرَةٌ",
+            "word_normalized": "عورة",
+            "meaning": "غَيْرُ مُحَصَّنَةٍ.",
+            "meaning_normalized": "غير محصنة"
+          },
+          {
+            "ayah_number": 14,
+            "word": "أَقْطَارِهَا",
+            "word_normalized": "أقطارها",
+            "meaning": "جَوَانِبِ الْمَدِينَةِ.",
+            "meaning_normalized": "جوانب المدينة"
+          },
+          {
+            "ayah_number": 14,
+            "word": "ٱلْفِتْنَةَ",
+            "word_normalized": "الفتنة",
+            "meaning": "الشِّرْكَ بِاللهِ، وَالرُّجُوعَ عَنِ الْإِسْلَامِ.",
+            "meaning_normalized": "الشرك بالله والرجوع عن الإسلام"
+          },
+          {
+            "ayah_number": 14,
+            "word": "لَآتَوْهَا",
+            "word_normalized": "لآتوها",
+            "meaning": "لَأَجَابُوا إِلَى ذَلِكَ مُبَادِرِينَ.",
+            "meaning_normalized": "لأجابوا إلى ذلك مبادرين"
+          },
+          {
+            "ayah_number": 14,
+            "word": "تَلَبَّثُوا۟",
+            "word_normalized": "تلبثوا",
+            "meaning": "تَأَخَّرُوا.",
+            "meaning_normalized": "تأخروا"
+          },
+          {
+            "ayah_number": 15,
+            "word": "لَا يُوَلُّونَ ٱلْأَدْبَٰرَ",
+            "word_normalized": "لا يولون الأدبار",
+            "meaning": "لَا يَفِرُّونَ مِنَ الْمَعْرَكَةِ.",
+            "meaning_normalized": "لا يفرون من المعركة"
+          },
+          {
+            "ayah_number": 17,
+            "word": "يَعْصِمُكُم",
+            "word_normalized": "يعصمكم",
+            "meaning": "يَمْنَعُكُمْ.",
+            "meaning_normalized": "يمنعكم"
+          },
+          {
+            "ayah_number": 18,
+            "word": "ٱلْمُعَوِّقِينَ",
+            "word_normalized": "المعوقين",
+            "meaning": "الْمُثَبِّطِينَ عَنِ الْجِهَادِ.",
+            "meaning_normalized": "المثبطين عن الجهاد"
+          },
+          {
+            "ayah_number": 18,
+            "word": "هَلُمَّ إِلَيْنَا",
+            "word_normalized": "هلم إلينا",
+            "meaning": "تَعَالَوْا إِلَيْنَا.",
+            "meaning_normalized": "تعالوا إلينا"
+          },
+          {
+            "ayah_number": 18,
+            "word": "ٱلْبَأْسَ",
+            "word_normalized": "البأس",
+            "meaning": "الْقِتَالَ.",
+            "meaning_normalized": "القتال"
+          },
+          {
+            "ayah_number": 19,
+            "word": "أَشِحَّةً",
+            "word_normalized": "أشحة",
+            "meaning": "بُخَلَاءَ بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ وَجُهُودِهِمْ.",
+            "meaning_normalized": "بخلاء بأموالهم وأنفسهم وجهودهم"
+          },
+          {
+            "ayah_number": 19,
+            "word": "جَآءَ ٱلْخَوْفُ",
+            "word_normalized": "جاء الخوف",
+            "meaning": "حَضَرَ الْقِتَالُ.",
+            "meaning_normalized": "حضر القتال"
+          },
+          {
+            "ayah_number": 19,
+            "word": "تَدُورُ أَعْيُنُهُمْ",
+            "word_normalized": "تدور أعينهم",
+            "meaning": "خَوْفًا، وَهَلَعًا.",
+            "meaning_normalized": "خوفا وهلعا"
+          },
+          {
+            "ayah_number": 19,
+            "word": "سَلَقُوكُم",
+            "word_normalized": "سلقوكم",
+            "meaning": "رَمَوْكُمْ.",
+            "meaning_normalized": "رموكم"
+          },
+          {
+            "ayah_number": 19,
+            "word": "حِدَادٍ",
+            "word_normalized": "حداد",
+            "meaning": "ذَرِبَةٍ، سَلِيطَةٍ، مُؤْذِيَةٍ.",
+            "meaning_normalized": "ذربة سليطة مؤذية"
+          },
+          {
+            "ayah_number": 19,
+            "word": "أَشِحَّةً عَلَى ٱلْخَيْرِ",
+            "word_normalized": "أشحة على الخير",
+            "meaning": "بُخَلَاءَ، وَحَسَدَةً عِنْدَ قِسْمَةِ الْغَنَائِمِ.",
+            "meaning_normalized": "بخلاء وحسدة عند قسمة الغنائم"
+          }
+        ]
+      }
+    ]
+  }
+}

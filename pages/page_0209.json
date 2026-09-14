@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 209,
+    "header": {
+      "right": "سُورَةُ الزُّمَرِ",
+      "right_normalized": "سورة الزمر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّمَرِ",
+          "name_normalized": "سورة الزمر",
+          "order": 39,
+          "ayat_count": 75,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 38,
+            "word": "حَسْبِىَ",
+            "word_normalized": "حسبي",
+            "meaning": "كَافِينِي.",
+            "meaning_normalized": "كافيني"
+          },
+          {
+            "ayah_number": 39,
+            "word": "مَكَانَتِكُمْ",
+            "word_normalized": "مكانتكم",
+            "meaning": "حَالَتِكُمُ الَّتِي رَضِيتُمُوهَا لِأَنْفُسِكُمْ.",
+            "meaning_normalized": "حالتكم التي رضيتموها لأنفسكم"
+          },
+          {
+            "ayah_number": 40,
+            "word": "يُخْزِيهِ",
+            "word_normalized": "يخزيه",
+            "meaning": "يُذِلُّهُ، وَيُهِينُهُ.",
+            "meaning_normalized": "يذله ويهينه"
+          },
+          {
+            "ayah_number": 42,
+            "word": "يَتَوَفَّى",
+            "word_normalized": "يتوفى",
+            "meaning": "يَقْبِضُ.",
+            "meaning_normalized": "يقبض"
+          },
+          {
+            "ayah_number": 45,
+            "word": "ٱشْمَأَزَّتْ",
+            "word_normalized": "اشمأزت",
+            "meaning": "نَفَرَتْ.",
+            "meaning_normalized": "نفرت"
+          },
+          {
+            "ayah_number": 46,
+            "word": "فَاطِرَ",
+            "word_normalized": "فاطر",
+            "meaning": "خَالِقَ وَمُبْدِعَ.",
+            "meaning_normalized": "خالق ومبدع"
+          },
+          {
+            "ayah_number": 46,
+            "word": "ٱلْغَيْبِ وَٱلشَّهَٰدَةِ",
+            "word_normalized": "الغيب والشهادة",
+            "meaning": "السِّرِّ، وَالْعَلَانِيَةِ.",
+            "meaning_normalized": "السر والعلانية"
+          },
+          {
+            "ayah_number": 47,
+            "word": "يَحْتَسِبُونَ",
+            "word_normalized": "يحتسبون",
+            "meaning": "يَظُنُّونَ، وَيَتَوَقَّعُونَ.",
+            "meaning_normalized": "يظنون ويتوقعون"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَحَاقَ",
+            "word_normalized": "وحاق",
+            "meaning": "أَحَاطَ بِهِمْ مِنْ كُلِّ جَانِبٍ.",
+            "meaning_normalized": "أحاط بهم من كل جانب"
+          },
+          {
+            "ayah_number": 49,
+            "word": "خَوَّلْنَٰهُ",
+            "word_normalized": "خولناه",
+            "meaning": "أَعْطَيْنَاهُ، وَمَنَحْنَاهُ.",
+            "meaning_normalized": "أعطيناه ومنحناه"
+          },
+          {
+            "ayah_number": 49,
+            "word": "فِتْنَةٌ",
+            "word_normalized": "فتنة",
+            "meaning": "ابْتِلَاءٌ وَاخْتِبَارٌ.",
+            "meaning_normalized": "ابتلاء واختبار"
+          },
+          {
+            "ayah_number": 51,
+            "word": "بِمُعْجِزِينَ",
+            "word_normalized": "بمعجزين",
+            "meaning": "بِفَائِتِينَ اللهَ، وَلَا سَابِقِيهِ.",
+            "meaning_normalized": "بفائتين الله ولا سابقيه"
+          },
+          {
+            "ayah_number": 52,
+            "word": "يَبْسُطُ",
+            "word_normalized": "يبسط",
+            "meaning": "يُوَسِّعُ.",
+            "meaning_normalized": "يوسع"
+          },
+          {
+            "ayah_number": 52,
+            "word": "وَيَقْدِرُ",
+            "word_normalized": "ويقدر",
+            "meaning": "يُضَيِّقُ.",
+            "meaning_normalized": "يضيق"
+          },
+          {
+            "ayah_number": 53,
+            "word": "أَسْرَفُوا۟",
+            "word_normalized": "أسرفوا",
+            "meaning": "تَجَاوَزُوا الْحَدَّ فِي الْمَعَاصِي.",
+            "meaning_normalized": "تجاوزوا الحد في المعاصي"
+          },
+          {
+            "ayah_number": 53,
+            "word": "لَا تَقْنَطُوا۟",
+            "word_normalized": "لا تقنطوا",
+            "meaning": "لَا تَيْأَسُوا.",
+            "meaning_normalized": "لا تيأسوا"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَأَنِيبُوٓا۟",
+            "word_normalized": "وأنيبوا",
+            "meaning": "ارْجِعُوا إِلَى اللهِ بِالتَّوْبَةِ، وَالطَّاعَةِ.",
+            "meaning_normalized": "ارجعوا إلى الله بالتوبة والطاعة"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَأَسْلِمُوا۟",
+            "word_normalized": "وأسلموا",
+            "meaning": "اخْضَعُوا، وَانْقَادُوا.",
+            "meaning_normalized": "اخضعوا وانقادوا"
+          },
+          {
+            "ayah_number": 55,
+            "word": "بَغْتَةً",
+            "word_normalized": "بغتة",
+            "meaning": "فَجْأَةً.",
+            "meaning_normalized": "فجأة"
+          },
+          {
+            "ayah_number": 56,
+            "word": "يَٰحَسْرَتَىٰ",
+            "word_normalized": "يا حسرتى",
+            "meaning": "يَا نَدَامَتِي.",
+            "meaning_normalized": "يا ندامتي"
+          },
+          {
+            "ayah_number": 56,
+            "word": "فَرَّطتُ",
+            "word_normalized": "فرطت",
+            "meaning": "ضَيَّعْتُ.",
+            "meaning_normalized": "ضيعت"
+          }
+        ]
+      }
+    ]
+  }
+}

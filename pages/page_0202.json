@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 202,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ ص",
+          "name_normalized": "سورة ص",
+          "order": 38,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 20,
+            "word": "وَفَصْلَ ٱلْخِطَابِ",
+            "word_normalized": "وفصل الخطاب",
+            "meaning": "الْبَيَانَ الشَّافِيَ وَالْفَصْلَ فِي الْكَلَامِ وَالْحُكْمِ.",
+            "meaning_normalized": "البيان الشافي والفصل في الكلام والحكم"
+          },
+          {
+            "ayah_number": 21,
+            "word": "نَبَؤُا۟",
+            "word_normalized": "نبأ",
+            "meaning": "خَبَرُ.",
+            "meaning_normalized": "خبر"
+          },
+          {
+            "ayah_number": 21,
+            "word": "ٱلْخَصْمِ",
+            "word_normalized": "الخصم",
+            "meaning": "الْمُتَخَاصِمَيْنِ.",
+            "meaning_normalized": "المتخاصمين"
+          },
+          {
+            "ayah_number": 21,
+            "word": "ٱلْمِحْرَابَ",
+            "word_normalized": "المحراب",
+            "meaning": "مَكَانَ عِبَادَتِهِ.",
+            "meaning_normalized": "مكان عبادته"
+          },
+          {
+            "ayah_number": 22,
+            "word": "فَفَزِعَ",
+            "word_normalized": "ففزع",
+            "meaning": "ارْتَاعَ.",
+            "meaning_normalized": "ارتاع"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَلَا تُشْطِطْ",
+            "word_normalized": "ولا تشطط",
+            "meaning": "لَا تَجُرْ فِي حُكْمِكَ، وَلَا تَظْلِمْ.",
+            "meaning_normalized": "لا تجر في حكمك ولا تظلم"
+          },
+          {
+            "ayah_number": 22,
+            "word": "سَوَآءِ ٱلصِّرَٰطِ",
+            "word_normalized": "سواء الصراط",
+            "meaning": "وَسَطِ الطَّرِيقِ الصَّوَابِ.",
+            "meaning_normalized": "وسط الطريق الصواب"
+          },
+          {
+            "ayah_number": 23,
+            "word": "أَكْفِلْنِيهَا",
+            "word_normalized": "أكفلنيها",
+            "meaning": "أَعْطِنِيهَا، وَانْزِلْ لِي عَنْهَا.",
+            "meaning_normalized": "أعطنيها وانزل لي عنها"
+          },
+          {
+            "ayah_number": 23,
+            "word": "وَعَزَّنِى فِى ٱلْخِطَابِ",
+            "word_normalized": "وعزني في الخطاب",
+            "meaning": "غَلَبَنِي فِي الْكَلَامِ، وَاشْتَدَّ عَلَيَّ فِيهِ.",
+            "meaning_normalized": "غلبني في الكلام واشتد علي فيه"
+          },
+          {
+            "ayah_number": 24,
+            "word": "ٱلْخُلَطَآءِ",
+            "word_normalized": "الخلطاء",
+            "meaning": "الشُّرَكَاءِ.",
+            "meaning_normalized": "الشركاء"
+          },
+          {
+            "ayah_number": 24,
+            "word": "لَيَبْغِى",
+            "word_normalized": "ليبغي",
+            "meaning": "لَيَعْتَدِي.",
+            "meaning_normalized": "ليعتدي"
+          },
+          {
+            "ayah_number": 24,
+            "word": "وَظَنَّ",
+            "word_normalized": "وظن",
+            "meaning": "أَيْقَنَ.",
+            "meaning_normalized": "أيقن"
+          },
+          {
+            "ayah_number": 24,
+            "word": "فَتَنَّٰهُ",
+            "word_normalized": "فتناه",
+            "meaning": "ابْتَلَيْنَاهُ، وَامْتَحَنَّاهُ.",
+            "meaning_normalized": "ابتليناه وامتحناه"
+          },
+          {
+            "ayah_number": 24,
+            "word": "وَخَرَّ رَاكِعًا",
+            "word_normalized": "وخر راكعا",
+            "meaning": "سَجَدَ لِلَّهِ تَعَالَى.",
+            "meaning_normalized": "سجد لله تعالى"
+          },
+          {
+            "ayah_number": 24,
+            "word": "وَأَنَابَ",
+            "word_normalized": "وأناب",
+            "meaning": "رَجَعَ، وَتَابَ.",
+            "meaning_normalized": "رجع وتاب"
+          },
+          {
+            "ayah_number": 25,
+            "word": "لَزُلْفَىٰ",
+            "word_normalized": "لزلفى",
+            "meaning": "لَقُرْبَى وَمَكَانَةً.",
+            "meaning_normalized": "لقربى ومكانة"
+          },
+          {
+            "ayah_number": 25,
+            "word": "مَـَٔابٍ",
+            "word_normalized": "مآب",
+            "meaning": "مَرْجِعٍ.",
+            "meaning_normalized": "مرجع"
+          },
+          {
+            "ayah_number": 27,
+            "word": "بَٰطِلًا",
+            "word_normalized": "باطلا",
+            "meaning": "عَبَثًا وَلَهْوًا.",
+            "meaning_normalized": "عبثا ولهوا"
+          },
+          {
+            "ayah_number": 27,
+            "word": "فَوَيْلٌ",
+            "word_normalized": "فويل",
+            "meaning": "فَهَلَاكٌ.",
+            "meaning_normalized": "فهلاك"
+          },
+          {
+            "ayah_number": 30,
+            "word": "أَوَّابٌ",
+            "word_normalized": "أواب",
+            "meaning": "كَثِيرُ الرُّجُوعِ إِلَى اللهِ بِالتَّوْبَةِ، وَالطَّاعَةِ.",
+            "meaning_normalized": "كثير الرجوع إلى الله بالتوبة والطاعة"
+          },
+          {
+            "ayah_number": 31,
+            "word": "بِٱلْعَشِىِّ",
+            "word_normalized": "بالعشي",
+            "meaning": "عَصْرًا.",
+            "meaning_normalized": "عصرا"
+          }
+        ]
+      }
+    ]
+  }
+}

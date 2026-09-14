@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 211,
+    "header": {
+      "right": "سُورَةُ الزُّمَرِ",
+      "right_normalized": "سورة الزمر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّمَرِ",
+          "name_normalized": "سورة الزمر",
+          "order": 39,
+          "ayat_count": 75,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 68,
+            "word": "فَصَعِقَ",
+            "word_normalized": "فصعق",
+            "meaning": "مَاتَ.",
+            "meaning_normalized": "مات"
+          },
+          {
+            "ayah_number": 68,
+            "word": "ثُمَّ نُفِخَ",
+            "word_normalized": "ثم نفخ",
+            "meaning": "أَيِ: النَّفْخَةُ الثَّانِيَةُ؛ نَفْخَةُ الْبَعْثِ الَّتِي يَحْيَا بِهَا الْخَلْقُ.",
+            "meaning_normalized": "أي النفخة الثانية نفخة البعث التي يحيا بها الخلق"
+          },
+          {
+            "ayah_number": 69,
+            "word": "وَأَشْرَقَتِ",
+            "word_normalized": "وأشرقت",
+            "meaning": "أَضَاءَتْ.",
+            "meaning_normalized": "أضاءت"
+          },
+          {
+            "ayah_number": 69,
+            "word": "بِنُورِ رَبِّهَا",
+            "word_normalized": "بنور ربها",
+            "meaning": "عِنْدَ تَجَلِّيهِ لِلْخَلَائِقِ؛ لِفَصْلِ الْقَضَاءِ.",
+            "meaning_normalized": "عند تجليه للخلائق لفصل القضاء"
+          },
+          {
+            "ayah_number": 69,
+            "word": "وَوُضِعَ ٱلْكِتَٰبُ",
+            "word_normalized": "ووضع الكتاب",
+            "meaning": "نَشَرَتِ الْمَلَائِكَةُ صَحِيفَةَ كُلِّ فَرْدٍ.",
+            "meaning_normalized": "نشرت الملائكة صحيفة كل فرد"
+          },
+          {
+            "ayah_number": 69,
+            "word": "وَٱلشُّهَدَآءِ",
+            "word_normalized": "والشهداء",
+            "meaning": "مَنْ يَشْهَدُونَ عَلَى الْأُمَمِ.",
+            "meaning_normalized": "من يشهدون على الأمم"
+          },
+          {
+            "ayah_number": 69,
+            "word": "وَقُضِىَ",
+            "word_normalized": "وقضي",
+            "meaning": "حُكِمَ.",
+            "meaning_normalized": "حكم"
+          },
+          {
+            "ayah_number": 69,
+            "word": "بِٱلْحَقِّ",
+            "word_normalized": "بالحق",
+            "meaning": "بِالْعَدْلِ التَّامِّ.",
+            "meaning_normalized": "بالعدل التام"
+          },
+          {
+            "ayah_number": 71,
+            "word": "زُمَرًا",
+            "word_normalized": "زمرا",
+            "meaning": "جَمَاعَاتٍ.",
+            "meaning_normalized": "جماعات"
+          },
+          {
+            "ayah_number": 71,
+            "word": "خَزَنَتُهَا",
+            "word_normalized": "خزنتها",
+            "meaning": "الْمَلَائِكَةُ الْمُوَكَّلُونَ بِالنَّارِ.",
+            "meaning_normalized": "الملائكة الموكلون بالنار"
+          },
+          {
+            "ayah_number": 71,
+            "word": "حَقَّتْ",
+            "word_normalized": "حقت",
+            "meaning": "وَجَبَتْ.",
+            "meaning_normalized": "وجبت"
+          },
+          {
+            "ayah_number": 72,
+            "word": "فَبِئْسَ",
+            "word_normalized": "فبئس",
+            "meaning": "قَبُحَ.",
+            "meaning_normalized": "قبح"
+          },
+          {
+            "ayah_number": 72,
+            "word": "مَثْوًى",
+            "word_normalized": "مثوى",
+            "meaning": "مَصِيرُ، وَمَأْوًى.",
+            "meaning_normalized": "مصير ومأوى"
+          },
+          {
+            "ayah_number": 73,
+            "word": "طِبْتُمْ",
+            "word_normalized": "طبتم",
+            "meaning": "طَهُرْتُمْ مِنْ دَنَسِ الْمَعَاصِي.",
+            "meaning_normalized": "طهرتم من دنس المعاصي"
+          },
+          {
+            "ayah_number": 74,
+            "word": "ٱلْأَرْضَ",
+            "word_normalized": "الأرض",
+            "meaning": "أَرْضَ الْجَنَّةِ.",
+            "meaning_normalized": "أرض الجنة"
+          },
+          {
+            "ayah_number": 74,
+            "word": "نَتَبَوَّأُ",
+            "word_normalized": "نتبوأ",
+            "meaning": "نَنْزِلُ.",
+            "meaning_normalized": "ننزل"
+          },
+          {
+            "ayah_number": 75,
+            "word": "حَآفِّينَ",
+            "word_normalized": "حافين",
+            "meaning": "مُحْدِقِينَ، وَمُحِيطِينَ.",
+            "meaning_normalized": "محدقين ومحيطين"
+          },
+          {
+            "ayah_number": 75,
+            "word": "وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ",
+            "word_normalized": "وقضي بينهم بالحق",
+            "meaning": "حُكِمَ بَيْنَ الْخَلَائِقِ بِالْعَدْلِ.",
+            "meaning_normalized": "حكم بين الخلائق بالعدل"
+          }
+        ]
+      }
+    ]
+  }
+}

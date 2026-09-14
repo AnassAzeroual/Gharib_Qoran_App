@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 214,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ غَافِرٍ",
+          "name_normalized": "سورة غافر",
+          "order": 40,
+          "ayat_count": 85,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 29,
+            "word": "سَبِيلَ ٱلرَّشَادِ",
+            "word_normalized": "سبيل الرشاد",
+            "meaning": "طَرِيقَ الْحَقِّ وَالصَّوَابِ.",
+            "meaning_normalized": "طريق الحق والصواب"
+          },
+          {
+            "ayah_number": 30,
+            "word": "ٱلْأَحْزَابِ",
+            "word_normalized": "الأحزاب",
+            "meaning": "الْأُمَمِ الْمُتَحَزِّبَةِ عَلَى أَنْبِيَائِهَا، الْمُعَادِيَةِ لَهُمْ.",
+            "meaning_normalized": "الأمم المتحزبة على أنبيائها المعادية لهم"
+          },
+          {
+            "ayah_number": 31,
+            "word": "دَأْبِ قَوْمِ نُوحٍ",
+            "word_normalized": "دأب قوم نوح",
+            "meaning": "عَادَتِهِمْ فِي الْكُفْرِ وَالتَّكْذِيبِ.",
+            "meaning_normalized": "عادتهم في الكفر والتكذيب"
+          },
+          {
+            "ayah_number": 32,
+            "word": "يَوْمَ ٱلتَّنَادِ",
+            "word_normalized": "يوم التناد",
+            "meaning": "يَوْمَ الْقِيَامَةِ الَّذِي يُنَادِي النَّاسُ فِيهِ بَعْضُهُمْ بَعْضًا.",
+            "meaning_normalized": "يوم القيامة الذي ينادي الناس فيه بعضهم بعضا"
+          },
+          {
+            "ayah_number": 33,
+            "word": "مُدْبِرِينَ",
+            "word_normalized": "مدبرين",
+            "meaning": "هَارِبِينَ.",
+            "meaning_normalized": "هاربين"
+          },
+          {
+            "ayah_number": 33,
+            "word": "عَاصِمٍ",
+            "word_normalized": "عاصم",
+            "meaning": "مَانِعٍ يَمْنَعُكُمْ.",
+            "meaning_normalized": "مانع يمنعكم"
+          },
+          {
+            "ayah_number": 34,
+            "word": "شَكٍّ",
+            "word_normalized": "شك",
+            "meaning": "رِيبَةٍ.",
+            "meaning_normalized": "ريبة"
+          },
+          {
+            "ayah_number": 34,
+            "word": "هَلَكَ",
+            "word_normalized": "هلك",
+            "meaning": "مَاتَ.",
+            "meaning_normalized": "مات"
+          },
+          {
+            "ayah_number": 34,
+            "word": "مُسْرِفٌ",
+            "word_normalized": "مسرف",
+            "meaning": "مُتَجَاوِزٌ لِلْحَدِّ فِي الضَّلَالِ.",
+            "meaning_normalized": "متجاوز للحد في الضلال"
+          },
+          {
+            "ayah_number": 34,
+            "word": "مُّرْتَابٌ",
+            "word_normalized": "مرتاب",
+            "meaning": "شَاكٌّ فِي اللهِ.",
+            "meaning_normalized": "شاك في الله"
+          },
+          {
+            "ayah_number": 35,
+            "word": "سُلْطَٰنٍ",
+            "word_normalized": "سلطان",
+            "meaning": "حُجَّةٍ.",
+            "meaning_normalized": "حجة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "يَطْبَعُ",
+            "word_normalized": "يطبع",
+            "meaning": "يَخْتِمُ.",
+            "meaning_normalized": "يختم"
+          },
+          {
+            "ayah_number": 36,
+            "word": "صَرْحًا",
+            "word_normalized": "صرحا",
+            "meaning": "بِنَاءً عَظِيمًا.",
+            "meaning_normalized": "بناء عظيما"
+          },
+          {
+            "ayah_number": 36,
+            "word": "أَسْبَٰبَ ٱلسَّمَٰوَٰتِ",
+            "word_normalized": "أسباب السماوات",
+            "meaning": "أَبْوَابَ السَّمَوَاتِ، وَمَا يُوصِلُنِي إِلَيْهَا.",
+            "meaning_normalized": "أبواب السماوات وما يوصلني إليها"
+          },
+          {
+            "ayah_number": 37,
+            "word": "ٱلسَّبِيلِ",
+            "word_normalized": "السبيل",
+            "meaning": "طَرِيقِ الْحَقِّ.",
+            "meaning_normalized": "طريق الحق"
+          },
+          {
+            "ayah_number": 37,
+            "word": "كَيْدُ فِرْعَوْنَ",
+            "word_normalized": "كيد فرعون",
+            "meaning": "تَدْبِيرُهُ، وَاحْتِيَالُهُ.",
+            "meaning_normalized": "تدبيره واحتياله"
+          },
+          {
+            "ayah_number": 37,
+            "word": "تَبَابٍ",
+            "word_normalized": "تباب",
+            "meaning": "خَسَارٍ، وَبَوَارٍ.",
+            "meaning_normalized": "خسار وبوار"
+          },
+          {
+            "ayah_number": 40,
+            "word": "بِغَيْرِ حِسَابٍ",
+            "word_normalized": "بغير حساب",
+            "meaning": "بِلَا نِهَايَةٍ، وَلَا تَبِعَةٍ.",
+            "meaning_normalized": "بلا نهاية ولا تبعة"
+          },
+          {
+            "ayah_number": 43,
+            "word": "لَا جَرَمَ",
+            "word_normalized": "لا جرم",
+            "meaning": "حَقًّا.",
+            "meaning_normalized": "حقا"
+          }
+        ]
+      }
+    ]
+  }
+}

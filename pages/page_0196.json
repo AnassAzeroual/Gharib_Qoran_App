@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 196,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الصَّافَّاتِ",
+          "name_normalized": "سورة الصافات",
+          "order": 37,
+          "ayat_count": 182,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 28,
+            "word": "عَنِ ٱلْيَمِينِ",
+            "word_normalized": "عن اليمين",
+            "meaning": "مِنْ قِبَلِ الْحَقِّ وَالدِّينِ.",
+            "meaning_normalized": "من قبل الحق والدين"
+          },
+          {
+            "ayah_number": 30,
+            "word": "سُلْطَٰنٍ",
+            "word_normalized": "سلطان",
+            "meaning": "حُجَّةٍ، أَوْ قُوَّةٍ.",
+            "meaning_normalized": "حجة أو قوة"
+          },
+          {
+            "ayah_number": 30,
+            "word": "طَٰغِينَ",
+            "word_normalized": "طاغين",
+            "meaning": "مُجَاوِزِينَ الْحَدَّ فِي الْعِصْيَانِ.",
+            "meaning_normalized": "مجاوزين الحد في العصيان"
+          },
+          {
+            "ayah_number": 31,
+            "word": "فَحَقَّ عَلَيْنَا",
+            "word_normalized": "فحق علينا",
+            "meaning": "وَجَبَ عَلَيْنَا.",
+            "meaning_normalized": "وجب علينا"
+          },
+          {
+            "ayah_number": 40,
+            "word": "ٱلْمُخْلَصِينَ",
+            "word_normalized": "المخلصين",
+            "meaning": "الَّذِينَ أَخْلَصُوا فِي عِبَادَةِ اللهِ؛ فَأَخْلَصَهُمْ، وَاخْتَصَّهُمْ بِرَحْمَتِهِ.",
+            "meaning_normalized": "الذين أخلصوا في عبادة الله فأخلصهم واختصهم برحمته"
+          },
+          {
+            "ayah_number": 45,
+            "word": "بِكَأْسٍ",
+            "word_normalized": "بكأس",
+            "meaning": "بِخَمْرٍ.",
+            "meaning_normalized": "بخمر"
+          },
+          {
+            "ayah_number": 45,
+            "word": "مِّن مَّعِينٍ",
+            "word_normalized": "من معين",
+            "meaning": "مِنْ أَنْهَارٍ جَارِيَةٍ لَا يَخَافُونَ انْقِطَاعَهَا.",
+            "meaning_normalized": "من أنهار جارية لا يخافون انقطاعها"
+          },
+          {
+            "ayah_number": 47,
+            "word": "لَا فِيهَا غَوْلٌ",
+            "word_normalized": "لا فيها غول",
+            "meaning": "لَيْسَ فِيهَا مَا يَغْتَالُ عُقُولَهُمْ.",
+            "meaning_normalized": "ليس فيها ما يغتال عقولهم"
+          },
+          {
+            "ayah_number": 47,
+            "word": "وَلَا هُمْ عَنْهَا يُنزَفُونَ",
+            "word_normalized": "ولا هم عنها ينزفون",
+            "meaning": "لَا يَسْكَرُونَ، وَلَا تَضُرُّ أَبْدَانَهُمْ.",
+            "meaning_normalized": "لا يسكرون ولا تضر أبدانهم"
+          },
+          {
+            "ayah_number": 48,
+            "word": "قَٰصِرَٰتُ ٱلطَّرْفِ",
+            "word_normalized": "قاصرات الطرف",
+            "meaning": "عَفِيفَاتٌ لَا يَنْظُرْنَ إِلَى غَيْرِ أَزْوَاجِهِنَّ.",
+            "meaning_normalized": "عفيفات لا ينظرن إلى غير أزواجهن"
+          },
+          {
+            "ayah_number": 48,
+            "word": "عِينٌ",
+            "word_normalized": "عين",
+            "meaning": "حِسَانُ الْأَعْيُنِ.",
+            "meaning_normalized": "حسان الأعين"
+          },
+          {
+            "ayah_number": 49,
+            "word": "مَّكْنُونٌ",
+            "word_normalized": "مكنون",
+            "meaning": "لَمْ تَمَسَّهُ الْأَيْدِي.",
+            "meaning_normalized": "لم تمسه الأيدي"
+          },
+          {
+            "ayah_number": 51,
+            "word": "قَرِينٌ",
+            "word_normalized": "قرين",
+            "meaning": "صَاحِبٌ مُلَازِمٌ لِي.",
+            "meaning_normalized": "صاحب ملازم لي"
+          },
+          {
+            "ayah_number": 53,
+            "word": "لَمَدِينُونَ",
+            "word_normalized": "لمدينون",
+            "meaning": "لَمَجْزِيُّونَ، وَمُحَاسَبُونَ.",
+            "meaning_normalized": "لمجزيون ومحاسبون"
+          },
+          {
+            "ayah_number": 56,
+            "word": "إِن كِدتَّ",
+            "word_normalized": "إن كدت",
+            "meaning": "إِنَّكَ قَارَبْتَ.",
+            "meaning_normalized": "إنك قاربت"
+          },
+          {
+            "ayah_number": 56,
+            "word": "لَتُرْدِينِ",
+            "word_normalized": "لتردين",
+            "meaning": "لَتُهْلِكُنِي بِضَلَالِكَ، وَإِغْوَائِكَ.",
+            "meaning_normalized": "لتهلكني بضلالك وإغوائك"
+          },
+          {
+            "ayah_number": 57,
+            "word": "ٱلْمُحْضَرِينَ",
+            "word_normalized": "المحضرين",
+            "meaning": "مَنْ أُحْضِرُوا فِي الْعَذَابِ مَعَكَ.",
+            "meaning_normalized": "من أحضروا في العذاب معك"
+          },
+          {
+            "ayah_number": 62,
+            "word": "نُزُلًا",
+            "word_normalized": "نزلا",
+            "meaning": "ضِيَافَةً.",
+            "meaning_normalized": "ضيافة"
+          },
+          {
+            "ayah_number": 62,
+            "word": "شَجَرَةُ ٱلزَّقُّومِ",
+            "word_normalized": "شجرة الزقوم",
+            "meaning": "شَجَرَةٌ خَبِيثَةٌ، مَلْعُونَةٌ، مِنْ طَعَامِ أَهْلِ النَّارِ.",
+            "meaning_normalized": "شجرة خبيثة ملعونة من طعام أهل النار"
+          }
+        ]
+      }
+    ]
+  }
+}

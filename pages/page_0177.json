@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 177,
+    "header": {
+      "right": "سُورَةُ الْأَحْزَابِ",
+      "right_normalized": "سورة الأحزاب",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْزَابِ",
+          "name_normalized": "سورة الأحزاب",
+          "order": 33,
+          "ayat_count": 73,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "word": "أَدْعِيَآءَكُمْ",
+            "word_normalized": "أدعياءكم",
+            "meaning": "مَنْ تَبَنَّيْتُمُوهُ مِنْ أَوْلَادِ غَيْرِكُمْ.",
+            "meaning_normalized": "من تبنيتموه من أولاد غيركم"
+          },
+          {
+            "ayah_number": 4,
+            "word": "ٱلسَّبِيلَ",
+            "word_normalized": "السبيل",
+            "meaning": "طَرِيقَ الْحَقِّ وَالرَّشَادِ.",
+            "meaning_normalized": "طريق الحق والرشاد"
+          },
+          {
+            "ayah_number": 5,
+            "word": "أَقْسَطُ",
+            "word_normalized": "أقسط",
+            "meaning": "أَعْدَلُ وَأَقْوَمُ.",
+            "meaning_normalized": "أعدل وأقوم"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَمَوَٰلِيكُمْ",
+            "word_normalized": "ومواليكم",
+            "meaning": "أَوْلِيَاؤُكُمْ فِي الدِّينِ.",
+            "meaning_normalized": "أولياؤكم في الدين"
+          },
+          {
+            "ayah_number": 5,
+            "word": "جُنَاحٌ",
+            "word_normalized": "جناح",
+            "meaning": "إِثْمٌ.",
+            "meaning_normalized": "إثم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "أَوْلَىٰ بِٱلْمُؤْمِنِينَ",
+            "word_normalized": "أولى بالمؤمنين",
+            "meaning": "أَنْفَعُ، وَأَرْأَفُ، وَأَقْرَبُ لَهُمْ مِنْ أَنْفُسِهِمْ فِي الدِّينِ وَالدُّنْيَا.",
+            "meaning_normalized": "أنفع وأرأف وأقرب لهم من أنفسهم في الدين والدنيا"
+          },
+          {
+            "ayah_number": 6,
+            "word": "وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ",
+            "word_normalized": "وأزواجه أمهاتهم",
+            "meaning": "مِثْلُ أُمَّهَاتِهِمْ؛ فِي تَحْرِيمِ نِكَاحِهِنَّ، وَتَعْظِيمِ حَقِّهِنَّ.",
+            "meaning_normalized": "مثل أمهاتهم في تحريم نكاحهن وتعظيم حقهن"
+          },
+          {
+            "ayah_number": 6,
+            "word": "وَأُوْلُوا۟ ٱلْأَرْحَامِ",
+            "word_normalized": "وأولوا الأرحام",
+            "meaning": "ذَوُو الْقَرَابَةِ.",
+            "meaning_normalized": "ذوو القرابة"
+          },
+          {
+            "ayah_number": 6,
+            "word": "كِتَٰبِ ٱللَّهِ",
+            "word_normalized": "كتاب الله",
+            "meaning": "حُكْمِ اللهِ، وَشَرْعِهِ.",
+            "meaning_normalized": "حكم الله وشرعه"
+          },
+          {
+            "ayah_number": 6,
+            "word": "مَّعْرُوفًا",
+            "word_normalized": "معروفا",
+            "meaning": "بِرًّا، وَصِلَةً، وَإِحْسَانًا؛ فَلَيْسَ لَهُمْ حَقٌّ فِي الْمِيرَاثِ.",
+            "meaning_normalized": "برا وصلة وإحسانا فليس لهم حق في الميراث"
+          },
+          {
+            "ayah_number": 6,
+            "word": "ٱلْكِتَٰبِ",
+            "word_normalized": "الكتاب",
+            "meaning": "اللَّوْحِ الْمَحْفُوظِ.",
+            "meaning_normalized": "اللوح المحفوظ"
+          },
+          {
+            "ayah_number": 6,
+            "word": "مَسْطُورًا",
+            "word_normalized": "مسطورا",
+            "meaning": "مُقَدَّرًا مَكْتُوبًا.",
+            "meaning_normalized": "مقدرا مكتوبا"
+          },
+          {
+            "ayah_number": 7,
+            "word": "مِيثَٰقَهُمْ",
+            "word_normalized": "ميثاقهم",
+            "meaning": "الْعَهْدَ الْمُؤَكَّدَ بِتَبْلِيغِ الرِّسَالَةِ.",
+            "meaning_normalized": "العهد المؤكد بتبليغ الرسالة"
+          },
+          {
+            "ayah_number": 9,
+            "word": "جُنُودٌ",
+            "word_normalized": "جنود",
+            "meaning": "هُمُ: الْأَحْزَابُ حِينَ اجْتَمَعُوا فِي غَزْوَةِ الْخَنْدَقِ.",
+            "meaning_normalized": "هم الأحزاب حين اجتمعوا في غزوة الخندق"
+          },
+          {
+            "ayah_number": 10,
+            "word": "زَاغَتِ ٱلْأَبْصَٰرُ",
+            "word_normalized": "زاغت الأبصار",
+            "meaning": "شَخَصَتِ الْأَبْصَارُ؛ حَيْرَةً وَدَهْشَةً.",
+            "meaning_normalized": "شخصت الأبصار حيرة ودهشة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "ٱلظُّنُونَا۠",
+            "word_normalized": "الظنونا",
+            "meaning": "تَظُنُّونَ أَنَّ اللهَ لَا يَنْصُرُ دِينَهُ وَنَبِيَّهُ.",
+            "meaning_normalized": "تظنون أن الله لا ينصر دينه ونبيه"
+          },
+          {
+            "ayah_number": 11,
+            "word": "ٱبْتُلِىَ",
+            "word_normalized": "ابتلي",
+            "meaning": "امْتُحِنَ.",
+            "meaning_normalized": "امتحن"
+          }
+        ]
+      }
+    ]
+  }
+}

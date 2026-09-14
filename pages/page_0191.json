@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 191,
+    "header": {
+      "right": "سُورَةُ فَاطِرٍ",
+      "right_normalized": "سورة فاطر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ فَاطِرٍ",
+          "name_normalized": "سورة فاطر",
+          "order": 35,
+          "ayat_count": 45,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 32,
+            "word": "سَابِقٌ بِٱلْخَيْرَٰتِ",
+            "word_normalized": "سابق بالخيرات",
+            "meaning": "مُجْتَهِدٌ فِي عَمَلِ الصَّالِحَاتِ: فَرْضِهَا وَنَفْلِهَا.",
+            "meaning_normalized": "مجتهد في عمل الصالحات فرضها ونفلها"
+          },
+          {
+            "ayah_number": 33,
+            "word": "عَدْنٍ",
+            "word_normalized": "عدن",
+            "meaning": "إِقَامَةٍ.",
+            "meaning_normalized": "إقامة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "أَحَلَّنَا",
+            "word_normalized": "أحلنا",
+            "meaning": "أَنْزَلَنَا.",
+            "meaning_normalized": "أنزلنا"
+          },
+          {
+            "ayah_number": 35,
+            "word": "دَارَ ٱلْمُقَامَةِ",
+            "word_normalized": "دار المقامة",
+            "meaning": "دَارَ الْإِقَامَةِ الدَّائِمَةِ.",
+            "meaning_normalized": "دار الإقامة الدائمة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "نَصَبٌ",
+            "word_normalized": "نصب",
+            "meaning": "تَعَبٌ، وَمَشَقَّةٌ.",
+            "meaning_normalized": "تعب ومشقة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "لُغُوبٌ",
+            "word_normalized": "لغوب",
+            "meaning": "إِعْيَاءٌ وَتَعَبٌ.",
+            "meaning_normalized": "إعياء وتعب"
+          },
+          {
+            "ayah_number": 37,
+            "word": "يَصْطَرِخُونَ",
+            "word_normalized": "يصطرخون",
+            "meaning": "يَصِيحُونَ بِشِدَّةٍ، وَيَسْتَغِيثُونَ.",
+            "meaning_normalized": "يصيحون بشدة ويستغيثون"
+          },
+          {
+            "ayah_number": 37,
+            "word": "ٱلنَّذِيرُ",
+            "word_normalized": "النذير",
+            "meaning": "نَبِيُّنَا مُحَمَّدٌ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ.",
+            "meaning_normalized": "نبينا محمد صلى الله عليه وسلم"
+          },
+          {
+            "ayah_number": 39,
+            "word": "خَلَٰٓئِفَ",
+            "word_normalized": "خلائف",
+            "meaning": "يَخْلُفُ بَعْضُكُمْ بَعْضًا فِي الْأَرْضِ.",
+            "meaning_normalized": "يخلف بعضكم بعضا في الأرض"
+          },
+          {
+            "ayah_number": 39,
+            "word": "مَقْتًا",
+            "word_normalized": "مقتا",
+            "meaning": "بُغْضًا وَغَضَبًا.",
+            "meaning_normalized": "بغضا وغضبا"
+          },
+          {
+            "ayah_number": 40,
+            "word": "أَرَءَيْتُم",
+            "word_normalized": "أرأيتم",
+            "meaning": "أَخْبِرُونِي.",
+            "meaning_normalized": "أخبروني"
+          },
+          {
+            "ayah_number": 40,
+            "word": "بَيِّنَتٍ مِّنْهُ",
+            "word_normalized": "بينت منه",
+            "meaning": "حُجَّةٍ مِنْهُ.",
+            "meaning_normalized": "حجة منه"
+          },
+          {
+            "ayah_number": 40,
+            "word": "غُرُورًا",
+            "word_normalized": "غرورا",
+            "meaning": "خِدَاعًا وَبَاطِلًا.",
+            "meaning_normalized": "خداعا وباطلا"
+          },
+          {
+            "ayah_number": 42,
+            "word": "جَهْدَ أَيْمَٰنِهِمْ",
+            "word_normalized": "جهد أيمانهم",
+            "meaning": "مُجْتَهِدِينَ فِي الْحَلِفِ بِأَغْلَظِ الْأَيْمَانِ.",
+            "meaning_normalized": "مجتهدين في الحلف بأغلظ الأيمان"
+          },
+          {
+            "ayah_number": 42,
+            "word": "نَذِيرٌ",
+            "word_normalized": "نذير",
+            "meaning": "رَسُولٌ مِنْ عِنْدِ اللهِ تَعَالَى.",
+            "meaning_normalized": "رسول من عند الله تعالى"
+          },
+          {
+            "ayah_number": 43,
+            "word": "يَحِيقُ",
+            "word_normalized": "يحيق",
+            "meaning": "يُحِيطُ، وَيَنْزِلُ.",
+            "meaning_normalized": "يحيط وينزل"
+          },
+          {
+            "ayah_number": 43,
+            "word": "يَنظُرُونَ",
+            "word_normalized": "ينظرون",
+            "meaning": "يَنْتَظِرُونَ.",
+            "meaning_normalized": "ينتظرون"
+          },
+          {
+            "ayah_number": 43,
+            "word": "سُنَّتَ ٱلْأَوَّلِينَ",
+            "word_normalized": "سنت الأولين",
+            "meaning": "الْعَذَابَ الَّذِي نَزَلَ بِأَمْثَالِهِمْ.",
+            "meaning_normalized": "العذاب الذي نزل بأمثالهم"
+          }
+        ]
+      }
+    ]
+  }
+}

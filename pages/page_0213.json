@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 213,
+    "header": {
+      "right": "سُورَةُ غَافِرٍ",
+      "right_normalized": "سورة غافر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ غَافِرٍ",
+          "name_normalized": "سورة غافر",
+          "order": 40,
+          "ayat_count": 85,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 13,
+            "word": "يُنِيبُ",
+            "word_normalized": "ينيب",
+            "meaning": "يَرْجِعُ إِلَى طَاعَةِ اللهِ.",
+            "meaning_normalized": "يرجع إلى طاعة الله"
+          },
+          {
+            "ayah_number": 15,
+            "word": "رَفِيعُ ٱلدَّرَجَٰتِ",
+            "word_normalized": "رفيع الدرجات",
+            "meaning": "ارْتَفَعَتْ دَرَجَاتُهُ ارْتِفَاعًا بَايَنَ بِهِ مَخْلُوقَاتِهِ، وَارْتَفَعَ بِهِ قَدْرُهُ.",
+            "meaning_normalized": "ارتفعت درجاته ارتفاعا باين به مخلوقاته وارتفع به قدره"
+          },
+          {
+            "ayah_number": 15,
+            "word": "يُلْقِى ٱلرُّوحَ",
+            "word_normalized": "يلقي الروح",
+            "meaning": "يُنْزِلُ الْوَحْيَ.",
+            "meaning_normalized": "ينزل الوحي"
+          },
+          {
+            "ayah_number": 15,
+            "word": "يَوْمَ ٱلتَّلَاقِ",
+            "word_normalized": "يوم التلاق",
+            "meaning": "الْيَوْمُ الَّذِي يَلْتَقِي فِيهِ الْأَوَّلُونَ وَالْآخِرُونَ.",
+            "meaning_normalized": "اليوم الذي يلتقي فيه الأولون والآخرون"
+          },
+          {
+            "ayah_number": 16,
+            "word": "بَٰرِزُونَ",
+            "word_normalized": "بارزون",
+            "meaning": "ظَاهِرُونَ أَمَامَ رَبِّهِمْ.",
+            "meaning_normalized": "ظاهرون أمام ربهم"
+          },
+          {
+            "ayah_number": 18,
+            "word": "يَوْمَ ٱلْآزِفَةِ",
+            "word_normalized": "يوم الآزفة",
+            "meaning": "يَوْمَ الْقِيَامَةِ الْقَرِيبِ.",
+            "meaning_normalized": "يوم القيامة القريب"
+          },
+          {
+            "ayah_number": 18,
+            "word": "لَدَى ٱلْحَنَاجِرِ",
+            "word_normalized": "لدى الحناجر",
+            "meaning": "قُلُوبُهُمْ عِنْدَ حُلُوقِهِمْ مِنْ شِدَّةِ الْكَرْبِ.",
+            "meaning_normalized": "قلوبهم عند حلوقهم من شدة الكرب"
+          },
+          {
+            "ayah_number": 18,
+            "word": "كَٰظِمِينَ",
+            "word_normalized": "كاظمين",
+            "meaning": "مُمْتَلِئِينَ غَمًّا، وَحُزْنًا.",
+            "meaning_normalized": "ممتلئين غما وحزنا"
+          },
+          {
+            "ayah_number": 18,
+            "word": "حَمِيمٍ",
+            "word_normalized": "حميم",
+            "meaning": "قَرِيبٍ، وَصَاحِبٍ.",
+            "meaning_normalized": "قريب وصاحب"
+          },
+          {
+            "ayah_number": 19,
+            "word": "خَآئِنَةَ ٱلْأَعْيُنِ",
+            "word_normalized": "خائنة الأعين",
+            "meaning": "مَا تَخْتَلِسُهُ الْعُيُونُ مِنَ النَّظَرِ إِلَى مَا لَا يَحِلُّ.",
+            "meaning_normalized": "ما تختلسه العيون من النظر إلى ما لا يحل"
+          },
+          {
+            "ayah_number": 20,
+            "word": "يَقْضِى بِٱلْحَقِّ",
+            "word_normalized": "يقضي بالحق",
+            "meaning": "يَحْكُمُ بِالْعَدْلِ.",
+            "meaning_normalized": "يحكم بالعدل"
+          },
+          {
+            "ayah_number": 21,
+            "word": "وَاقٍ",
+            "word_normalized": "واق",
+            "meaning": "دَافِعٍ.",
+            "meaning_normalized": "دافع"
+          },
+          {
+            "ayah_number": 23,
+            "word": "وَسُلْطَٰنٍ مُّبِينٍ",
+            "word_normalized": "وسلطان مبين",
+            "meaning": "حُجَّةٍ بَيِّنَةٍ عَلَى صِدْقِهِ.",
+            "meaning_normalized": "حجة بينة على صدقه"
+          },
+          {
+            "ayah_number": 25,
+            "word": "ضَلَٰلٍ",
+            "word_normalized": "ضلال",
+            "meaning": "هَلَاكٍ، وَذَهَابٍ.",
+            "meaning_normalized": "هلاك وذهاب"
+          },
+          {
+            "ayah_number": 27,
+            "word": "عُذْتُ",
+            "word_normalized": "عذت",
+            "meaning": "اسْتَجَرْتُ.",
+            "meaning_normalized": "استجرت"
+          },
+          {
+            "ayah_number": 28,
+            "word": "مُسْرِفٌ",
+            "word_normalized": "مسرف",
+            "meaning": "مُتَجَاوِزٌ لِلْحَدِّ بِتَرْكِ الْحَقِّ، وَاتِّبَاعِ الْبَاطِلِ.",
+            "meaning_normalized": "متجاوز للحد بترك الحق واتباع الباطل"
+          },
+          {
+            "ayah_number": 29,
+            "word": "ظَٰهِرِينَ",
+            "word_normalized": "ظاهرين",
+            "meaning": "غَالِبِينَ عَالِينَ.",
+            "meaning_normalized": "غالبين عالين"
+          },
+          {
+            "ayah_number": 29,
+            "word": "بَأْسِ ٱللَّهِ",
+            "word_normalized": "بأس الله",
+            "meaning": "عَذَابِ اللهِ.",
+            "meaning_normalized": "عذاب الله"
+          },
+          {
+            "ayah_number": 29,
+            "word": "وَمَآ أُرِيكُمْ",
+            "word_normalized": "وما أريكم",
+            "meaning": "مَا أُشِيرُ عَلَيْكُمْ.",
+            "meaning_normalized": "ما أشير عليكم"
+          },
+          {
+            "ayah_number": 29,
+            "word": "أَهْدِيكُمْ",
+            "word_normalized": "أهديكم",
+            "meaning": "أَدْعُوكُمْ.",
+            "meaning_normalized": "أدعوكم"
+          }
+        ]
+      }
+    ]
+  }
+}

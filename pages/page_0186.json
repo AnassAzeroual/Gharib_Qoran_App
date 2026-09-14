@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 186,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "سُورَةُ سَبَإٍ",
+      "left_normalized": "سورة سبأ"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ سَبَإٍ",
+          "name_normalized": "سورة سبأ",
+          "order": 34,
+          "ayat_count": 54,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 16,
+            "word": "سَيْلَ ٱلْعَرِمِ",
+            "word_normalized": "سيل العرم",
+            "meaning": "السَّيْلَ الْجَارِفَ الشَّدِيدَ الَّذِي خَرَّبَ السَّدَّ، وَأَغْرَقَ الْبَسَاتِينَ.",
+            "meaning_normalized": "السيل الجارف الشديد الذي خرب السد وأغرق البساتين"
+          },
+          {
+            "ayah_number": 16,
+            "word": "ذَوَاتَىْ",
+            "word_normalized": "ذواتي",
+            "meaning": "صَاحِبَتَيْ.",
+            "meaning_normalized": "صاحبتي"
+          },
+          {
+            "ayah_number": 16,
+            "word": "أُكُلٍ خَمْطٍ",
+            "word_normalized": "أكل خمط",
+            "meaning": "ثَمَرٍ مُرٍّ، كَرِيهِ الطَّعْمِ.",
+            "meaning_normalized": "ثمر مر كريه الطعم"
+          },
+          {
+            "ayah_number": 16,
+            "word": "وَأَثْلٍ",
+            "word_normalized": "وأثل",
+            "meaning": "شَجَرٍ مَعْرُوفٍ شَبِيهٍ بِالطَّرْفَاءِ، لَا ثَمَرَ لَهُ.",
+            "meaning_normalized": "شجر معروف شبيه بالطرفاء لا ثمر له"
+          },
+          {
+            "ayah_number": 16,
+            "word": "سِدْرٍ",
+            "word_normalized": "سدر",
+            "meaning": "شَجَرِ النَّبِقِ، كَثِيرِ الشَّوْكِ.",
+            "meaning_normalized": "شجر النبق كثير الشوك"
+          },
+          {
+            "ayah_number": 18,
+            "word": "ٱلْقُرَى ٱلَّتِى بَٰرَكْنَا فِيهَا",
+            "word_normalized": "القرى التي باركنا فيها",
+            "meaning": "قُرَى الشَّامِ.",
+            "meaning_normalized": "قرى الشام"
+          },
+          {
+            "ayah_number": 18,
+            "word": "قُرًى ظَٰهِرَةً",
+            "word_normalized": "قرى ظاهرة",
+            "meaning": "مُدُنًا مُتَّصِلَةً يُرَى بَعْضُهَا مِنْ بَعْضٍ.",
+            "meaning_normalized": "مدنا متصلة يرى بعضها من بعض"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَقَدَّرْنَا فِيهَا ٱلسَّيْرَ",
+            "word_normalized": "وقدرنا فيها السير",
+            "meaning": "جَعَلْنَا السَّيْرَ بَيْنَهَا عَلَى مَرَاحِلَ مُتَقَارِبَةٍ.",
+            "meaning_normalized": "جعلنا السير بينها على مراحل متقاربة"
+          },
+          {
+            "ayah_number": 19,
+            "word": "فَجَعَلْنَٰهُمْ أَحَادِيثَ",
+            "word_normalized": "فجعلناهم أحاديث",
+            "meaning": "جَعَلْنَاهُمْ عِبَرًا وَأَحَادِيثَ لِمَنْ يَأْتِي بَعْدَهُمْ.",
+            "meaning_normalized": "جعلناهم عبرا وأحاديث لمن يأتي بعدهم"
+          },
+          {
+            "ayah_number": 19,
+            "word": "وَمَزَّقْنَٰهُمْ",
+            "word_normalized": "ومزقناهم",
+            "meaning": "فَرَّقْنَاهُمْ فِي الْبِلَادِ.",
+            "meaning_normalized": "فرقناهم في البلاد"
+          },
+          {
+            "ayah_number": 20,
+            "word": "صَدَّقَ عَلَيْهِمْ",
+            "word_normalized": "صدق عليهم",
+            "meaning": "حَقَّقَ عَلَيْهِمْ.",
+            "meaning_normalized": "حقق عليهم"
+          },
+          {
+            "ayah_number": 21,
+            "word": "سُلْطَٰنٍ",
+            "word_normalized": "سلطان",
+            "meaning": "قَهْرٍ عَلَى الْكُفْرِ.",
+            "meaning_normalized": "قهر على الكفر"
+          },
+          {
+            "ayah_number": 22,
+            "word": "مِثْقَالَ ذَرَّةٍ",
+            "word_normalized": "مثقال ذرة",
+            "meaning": "وَزْنَ نَمْلَةٍ صَغِيرَةٍ.",
+            "meaning_normalized": "وزن نملة صغيرة"
+          },
+          {
+            "ayah_number": 22,
+            "word": "شِرْكٍ",
+            "word_normalized": "شرك",
+            "meaning": "شَرَاكَةٍ فِي الْخَلْقِ.",
+            "meaning_normalized": "شراكة في الخلق"
+          },
+          {
+            "ayah_number": 22,
+            "word": "ظَهِيرٍ",
+            "word_normalized": "ظهير",
+            "meaning": "مُعِينٍ.",
+            "meaning_normalized": "معين"
+          },
+          {
+            "ayah_number": 23,
+            "word": "فُزِّعَ",
+            "word_normalized": "فزع",
+            "meaning": "زَالَ الْفَزَعُ عَنْ قُلُوبِهِمْ.",
+            "meaning_normalized": "زال الفزع عن قلوبهم"
+          },
+          {
+            "ayah_number": 26,
+            "word": "يَفْتَحُ",
+            "word_normalized": "يفتح",
+            "meaning": "يَقْضِي.",
+            "meaning_normalized": "يقضي"
+          },
+          {
+            "ayah_number": 26,
+            "word": "بِٱلْحَقِّ",
+            "word_normalized": "بالحق",
+            "meaning": "بِالْعَدْلِ.",
+            "meaning_normalized": "بالعدل"
+          },
+          {
+            "ayah_number": 26,
+            "word": "ٱلْفَتَّاحُ",
+            "word_normalized": "الفتاح",
+            "meaning": "الْحَاكِمُ بَيْنَ خَلْقِهِ.",
+            "meaning_normalized": "الحاكم بين خلقه"
+          }
+        ]
+      }
+    ]
+  }
+}

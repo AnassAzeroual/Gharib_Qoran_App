@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 200,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الصَّافَّاتِ",
+          "name_normalized": "سورة الصافات",
+          "order": 37,
+          "ayat_count": 182,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 165,
+            "word": "ٱلصَّآفُّونَ",
+            "word_normalized": "الصافون",
+            "meaning": "الْوَاقِفُونَ صُفُوفًا فِي عِبَادَةِ اللهِ.",
+            "meaning_normalized": "الواقفون صفوفا في عبادة الله"
+          },
+          {
+            "ayah_number": 166,
+            "word": "ٱلْمُسَبِّحُونَ",
+            "word_normalized": "المسبحون",
+            "meaning": "الْمُنَزِّهُونَ اللهَ عَنْ كُلِّ مَا لَا يَلِيقُ بِهِ.",
+            "meaning_normalized": "المنزهون الله عن كل ما لا يليق به"
+          },
+          {
+            "ayah_number": 168,
+            "word": "ذِكْرًا مِّنَ ٱلْأَوَّلِينَ",
+            "word_normalized": "ذكرا من الأولين",
+            "meaning": "كِتَابًا مِنْ كُتُبِ الْأَنْبِيَاءِ السَّابِقِينَ.",
+            "meaning_normalized": "كتابا من كتب الأنبياء السابقين"
+          },
+          {
+            "ayah_number": 174,
+            "word": "فَتَوَلَّ عَنْهُمْ",
+            "word_normalized": "فتول عنهم",
+            "meaning": "أَعْرِضْ عَمَّنْ عَانَدَ.",
+            "meaning_normalized": "أعرض عمن عاند"
+          },
+          {
+            "ayah_number": 177,
+            "word": "بِسَاحَتِهِمْ",
+            "word_normalized": "بساحتهم",
+            "meaning": "بِفِنَائِهِمْ.",
+            "meaning_normalized": "بفنائهم"
+          },
+          {
+            "ayah_number": 177,
+            "word": "فَسَآءَ",
+            "word_normalized": "فساء",
+            "meaning": "بِئْسَ.",
+            "meaning_normalized": "بئس"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ ص",
+          "name_normalized": "سورة ص",
+          "order": 38,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "ذِى ٱلذِّكْرِ",
+            "word_normalized": "ذي الذكر",
+            "meaning": "الْمُشْتَمِلِ عَلَى تَذْكِيرِ النَّاسِ بِمَا هُمْ عَنْهُ غَافِلُونَ.",
+            "meaning_normalized": "المشتمل على تذكير الناس بما هم عنه غافلون"
+          },
+          {
+            "ayah_number": 2,
+            "word": "عِزَّةٍ",
+            "word_normalized": "عزة",
+            "meaning": "تَكَبُّرٍ، وَحَمِيَّةٍ.",
+            "meaning_normalized": "تكبر وحمية"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَشِقَاقٍ",
+            "word_normalized": "وشقاق",
+            "meaning": "مُخَالَفَةٍ، وَعِنَادٍ.",
+            "meaning_normalized": "مخالفة وعناد"
+          },
+          {
+            "ayah_number": 3,
+            "word": "كَمْ أَهْلَكْنَا",
+            "word_normalized": "كم أهلكنا",
+            "meaning": "كَثِيرًا مِنَ الْأُمَمِ أَهْلَكْنَا.",
+            "meaning_normalized": "كثيرا من الأمم أهلكنا"
+          },
+          {
+            "ayah_number": 3,
+            "word": "قَرْنٍ",
+            "word_normalized": "قرن",
+            "meaning": "أُمَّةٍ سَابِقَةٍ.",
+            "meaning_normalized": "أمة سابقة"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَّلَاتَ حِينَ مَنَاصٍ",
+            "word_normalized": "ولات حين مناص",
+            "meaning": "لَيْسَ الْوَقْتُ وَقْتَ فِرَارٍ وَخَلَاصٍ.",
+            "meaning_normalized": "ليس الوقت وقت فرار وخلاص"
+          },
+          {
+            "ayah_number": 5,
+            "word": "عُجَابٌ",
+            "word_normalized": "عجاب",
+            "meaning": "عَجِيبٌ.",
+            "meaning_normalized": "عجيب"
+          },
+          {
+            "ayah_number": 6,
+            "word": "ٱلْمَلَأُ",
+            "word_normalized": "الملأ",
+            "meaning": "الْأَشْرَافُ، وَكِبَارُ الْقَوْمِ.",
+            "meaning_normalized": "الأشراف وكبار القوم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "ٱمْشُوا۟",
+            "word_normalized": "امشوا",
+            "meaning": "اسْتَمِرُّوا عَلَى دِينِكُمْ، وَشِرْكِكُمْ.",
+            "meaning_normalized": "استمروا على دينكم وشرككم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "لَشَىْءٌ يُرَادُ",
+            "word_normalized": "لشيء يراد",
+            "meaning": "مُدَبَّرٌ يُقْصَدُ مِنْهُ التَّرَؤُّسُ، وَالسِّيَادَةُ.",
+            "meaning_normalized": "مدبر يقصد منه الترؤس والسيادة"
+          }
+        ]
+      }
+    ]
+  }
+}

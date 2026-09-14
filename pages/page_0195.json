@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 195,
+    "header": {
+      "right": "سُورَةُ الصَّافَّاتِ",
+      "right_normalized": "سورة الصافات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الصَّافَّاتِ",
+          "name_normalized": "سورة الصافات",
+          "order": 37,
+          "ayat_count": 182,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "وَٱلصَّٰٓفَّٰتِ",
+            "word_normalized": "والصافات",
+            "meaning": "قَسَمٌ بِالْمَلَائِكَةِ حِينَ تَصُفُّ فِي عِبَادَتِهَا.",
+            "meaning_normalized": "قسم بالملائكة حين تصف في عبادتها"
+          },
+          {
+            "ayah_number": 2,
+            "word": "فَٱلزَّٰجِرَٰتِ",
+            "word_normalized": "فالزاجرات",
+            "meaning": "قَسَمٌ بِالْمَلَائِكَةِ حِينَ تَزْجُرُ السَّحَابَ، وَتَسُوقُهُ.",
+            "meaning_normalized": "قسم بالملائكة حين تزجر السحاب وتسوقه"
+          },
+          {
+            "ayah_number": 3,
+            "word": "فَٱلتَّٰلِيَٰتِ",
+            "word_normalized": "فالتاليات",
+            "meaning": "قَسَمٌ بِالْمَلَائِكَةِ حِينَ تَتْلُو ذِكْرَ اللهِ، وَكَلَامَهُ.",
+            "meaning_normalized": "قسم بالملائكة حين تتلو ذكر الله وكلامه"
+          },
+          {
+            "ayah_number": 7,
+            "word": "مَارِدٍ",
+            "word_normalized": "مارد",
+            "meaning": "جِنِّيٍّ مُتَمَرِّدٍ، خَارِجٍ عَنِ الطَّاعَةِ.",
+            "meaning_normalized": "جني متمرد خارج عن الطاعة"
+          },
+          {
+            "ayah_number": 8,
+            "word": "وَيُقْذَفُونَ",
+            "word_normalized": "ويقذفون",
+            "meaning": "يُرْجَمُونَ.",
+            "meaning_normalized": "يرجمون"
+          },
+          {
+            "ayah_number": 9,
+            "word": "دُحُورًا",
+            "word_normalized": "دحورا",
+            "meaning": "طَرْدًا لِلشَّيَاطِينِ عَنِ الِاسْتِمَاعِ.",
+            "meaning_normalized": "طردا للشياطين عن الاستماع"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَاصِبٌ",
+            "word_normalized": "واصب",
+            "meaning": "دَائِمٌ مُوجِعٌ.",
+            "meaning_normalized": "دائم موجع"
+          },
+          {
+            "ayah_number": 10,
+            "word": "خَطِفَ ٱلْخَطْفَةَ",
+            "word_normalized": "خطف الخطفة",
+            "meaning": "اخْتَلَسَ الْكَلِمَةَ؛ مُسَارَقَةً بِسُرْعَةٍ.",
+            "meaning_normalized": "اختلس الكلمة مسارقة بسرعة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "شِهَابٌ",
+            "word_normalized": "شهاب",
+            "meaning": "مَا يُرَى كَالْكَوْكَبِ يَنْقَضُّ مِنَ السَّمَاءِ بِسُرْعَةٍ.",
+            "meaning_normalized": "ما يرى كالكوكب ينقض من السماء بسرعة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "ثَاقِبٌ",
+            "word_normalized": "ثاقب",
+            "meaning": "مُضِيءٌ.",
+            "meaning_normalized": "مضيء"
+          },
+          {
+            "ayah_number": 11,
+            "word": "خَلَقْنَٰهُم",
+            "word_normalized": "خلقناهم",
+            "meaning": "خَلَقْنَا أَبَاهُمْ آدَمَ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "خلقنا أباهم آدم عليه السلام"
+          },
+          {
+            "ayah_number": 11,
+            "word": "لَّازِبٍ",
+            "word_normalized": "لازب",
+            "meaning": "لَزِجٍ يَلْتَصِقُ بَعْضُهُ بِبَعْضٍ.",
+            "meaning_normalized": "لزج يلتصق بعضه ببعض"
+          },
+          {
+            "ayah_number": 18,
+            "word": "دَٰخِرُونَ",
+            "word_normalized": "داخرون",
+            "meaning": "صَاغِرُونَ، أَذِلَّاءُ.",
+            "meaning_normalized": "صاغرون أذلاء"
+          },
+          {
+            "ayah_number": 19,
+            "word": "زَجْرَةٌ",
+            "word_normalized": "زجرة",
+            "meaning": "نَفْخَةٌ.",
+            "meaning_normalized": "نفخة"
+          },
+          {
+            "ayah_number": 22,
+            "word": "ٱحْشُرُوا۟",
+            "word_normalized": "احشروا",
+            "meaning": "اجْمَعُوا.",
+            "meaning_normalized": "اجمعوا"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَأَزْوَٰجَهُمْ",
+            "word_normalized": "وأزواجهم",
+            "meaning": "نُظَرَاءَهُمْ، وَقُرَنَاءَهُمْ فِي الدُّنْيَا.",
+            "meaning_normalized": "نظراءهم وقرناءهم في الدنيا"
+          },
+          {
+            "ayah_number": 23,
+            "word": "فَٱهْدُوهُمْ",
+            "word_normalized": "فاهدوهم",
+            "meaning": "سُوقُوهُمْ سَوْقًا عَنِيفًا.",
+            "meaning_normalized": "سوقوهم سوقا عنيفا"
+          },
+          {
+            "ayah_number": 24,
+            "word": "وَقِفُوهُمْ",
+            "word_normalized": "وقفوهم",
+            "meaning": "احْبِسُوهُمْ قَبْلَ أَنْ يَصِلُوا إِلَى جَهَنَّمَ.",
+            "meaning_normalized": "احبسوهم قبل أن يصلوا إلى جهنم"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 193,
+    "header": {
+      "right": "سُورَةُ يس",
+      "right_normalized": "سورة يس",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يس",
+          "name_normalized": "سورة يس",
+          "order": 36,
+          "ayat_count": 83,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 20,
+            "word": "يَسْعَىٰ",
+            "word_normalized": "يسعى",
+            "meaning": "يُسْرِعُ فِي مَشْيِهِ.",
+            "meaning_normalized": "يسرع في مشيه"
+          },
+          {
+            "ayah_number": 22,
+            "word": "فَطَرَنِى",
+            "word_normalized": "فطرني",
+            "meaning": "خَلَقَنِي.",
+            "meaning_normalized": "خلقني"
+          },
+          {
+            "ayah_number": 29,
+            "word": "خَٰمِدُونَ",
+            "word_normalized": "خامدون",
+            "meaning": "مَيِّتُونَ، هَامِدُونَ.",
+            "meaning_normalized": "ميتون هامدون"
+          },
+          {
+            "ayah_number": 31,
+            "word": "ٱلْقُرُونِ",
+            "word_normalized": "القرون",
+            "meaning": "الْأُمَمِ السَّابِقَةِ.",
+            "meaning_normalized": "الأمم السابقة"
+          },
+          {
+            "ayah_number": 32,
+            "word": "لَّمَّا",
+            "word_normalized": "لما",
+            "meaning": "إِلَّا.",
+            "meaning_normalized": "إلا"
+          },
+          {
+            "ayah_number": 32,
+            "word": "مُحْضَرُونَ",
+            "word_normalized": "محضرون",
+            "meaning": "نُحْضِرُهُمْ لِلْجَزَاءِ وَالْحِسَابِ.",
+            "meaning_normalized": "نحضرهم للجزاء والحساب"
+          },
+          {
+            "ayah_number": 36,
+            "word": "ٱلْأَزْوَٰجَ",
+            "word_normalized": "الأزواج",
+            "meaning": "الْأَصْنَافَ، وَالْأَنْوَاعَ.",
+            "meaning_normalized": "الأصناف والأنواع"
+          },
+          {
+            "ayah_number": 37,
+            "word": "نَسْلَخُ",
+            "word_normalized": "نسلخ",
+            "meaning": "نَنْزِعُ.",
+            "meaning_normalized": "ننزع"
+          },
+          {
+            "ayah_number": 39,
+            "word": "قَدَّرْنَٰهُ مَنَازِلَ",
+            "word_normalized": "قدرناه منازل",
+            "meaning": "قَدَّرْنَا سَيْرَهُ مِنْ أَوَّلِ الشَّهْرِ إِلَى آخِرِهِ فِي مَنَازِلَ.",
+            "meaning_normalized": "قدرنا سيره من أول الشهر إلى آخره في منازل"
+          },
+          {
+            "ayah_number": 39,
+            "word": "كَٱلْعُرْجُونِ ٱلْقَدِيمِ",
+            "word_normalized": "كالعرجون القديم",
+            "meaning": "مِثْلِ عِذْقِ النَّخْلَةِ الْمُتَقَوِّسِ فِي الرِّقَّةِ، وَالِانْحِنَاءِ، وَالصُّفْرَةِ؛ لِقِدَمِهِ.",
+            "meaning_normalized": "مثل عذق النخلة المتقوس في الرقة والانحناء والصفرة لقدمه"
+          },
+          {
+            "ayah_number": 40,
+            "word": "يَسْبَحُونَ",
+            "word_normalized": "يسبحون",
+            "meaning": "يَجْرُونَ.",
+            "meaning_normalized": "يجرون"
+          },
+          {
+            "ayah_number": 41,
+            "word": "حَمَلْنَا ذُرِّيَّتَهُمْ",
+            "word_normalized": "حملنا ذريتهم",
+            "meaning": "حَمَلْنَا مَنْ نَجَا مِنْ وَلَدِ آدَمَ عَلَيْهِ السَّلَامُ فِي سَفِينَةِ نُوحٍ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "حملنا من نجا من ولد آدم عليه السلام في سفينة نوح عليه السلام"
+          },
+          {
+            "ayah_number": 43,
+            "word": "فَلَا صَرِيخَ",
+            "word_normalized": "فلا صريخ",
+            "meaning": "فَلَا مُغِيثَ.",
+            "meaning_normalized": "فلا مغيث"
+          },
+          {
+            "ayah_number": 49,
+            "word": "مَا يَنظُرُونَ",
+            "word_normalized": "ما ينظرون",
+            "meaning": "مَا يَنْتَظِرُونَ.",
+            "meaning_normalized": "ما ينتظرون"
+          },
+          {
+            "ayah_number": 49,
+            "word": "صَيْحَةً وَٰحِدَةً",
+            "word_normalized": "صيحة واحدة",
+            "meaning": "هِيَ: نَفْخَةُ الْفَزَعِ عِنْدَ قِيَامِ السَّاعَةِ.",
+            "meaning_normalized": "هي نفخة الفزع عند قيام الساعة"
+          },
+          {
+            "ayah_number": 49,
+            "word": "يَخِصِّمُونَ",
+            "word_normalized": "يخصمون",
+            "meaning": "يَخْتَصِمُونَ فِي شُؤُونِ حَيَاتِهِمْ.",
+            "meaning_normalized": "يختصمون في شؤون حياتهم"
+          },
+          {
+            "ayah_number": 51,
+            "word": "ٱلصُّورِ",
+            "word_normalized": "الصور",
+            "meaning": "الْقَرْنِ الَّذِي يَنْفُخُ فِيهِ إِسْرَافِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل عليه السلام"
+          },
+          {
+            "ayah_number": 51,
+            "word": "ٱلْأَجْدَاثِ",
+            "word_normalized": "الأجداث",
+            "meaning": "الْقُبُورِ.",
+            "meaning_normalized": "القبور"
+          }
+        ]
+      }
+    ]
+  }
+}

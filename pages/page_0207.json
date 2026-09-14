@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 207,
+    "header": {
+      "right": "سُورَةُ الزُّمَرِ",
+      "right_normalized": "سورة الزمر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّمَرِ",
+          "name_normalized": "سورة الزمر",
+          "order": 39,
+          "ayat_count": 75,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 6,
+            "word": "فِى ظُلُمَٰتٍ ثَلَٰثٍ",
+            "word_normalized": "في ظلمات ثلاث",
+            "meaning": "ظُلْمَةِ الْبَطْنِ، وَالرَّحِمِ، وَالْمَشِيمَةِ.",
+            "meaning_normalized": "ظلمة البطن والرحم والمشيمة"
+          },
+          {
+            "ayah_number": 6,
+            "word": "فَأَنَّىٰ تُصْرَفُونَ",
+            "word_normalized": "فأنى تصرفون",
+            "meaning": "كَيْفَ تَعْدِلُونَ عَنْ عِبَادَتِهِ؟!",
+            "meaning_normalized": "كيف تعدلون عن عبادته"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وَلَا تَزِرُ وَازِرَةٌ",
+            "word_normalized": "ولا تزر وازرة",
+            "meaning": "لَا تَحْمِلُ نَفْسٌ آثِمَةٌ.",
+            "meaning_normalized": "لا تحمل نفس آثمة"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وِزْرَ أُخْرَىٰ",
+            "word_normalized": "وزر أخرى",
+            "meaning": "إِثْمَ نَفْسٍ أُخْرَى.",
+            "meaning_normalized": "إثم نفس أخرى"
+          },
+          {
+            "ayah_number": 8,
+            "word": "مُنِيبًا إِلَيْهِ",
+            "word_normalized": "منيبا إليه",
+            "meaning": "رَاجِعًا إِلَيْهِ، مُسْتَغِيثًا بِهِ.",
+            "meaning_normalized": "راجعا إليه مستغيثا به"
+          },
+          {
+            "ayah_number": 8,
+            "word": "خَوَّلَهُۥ",
+            "word_normalized": "خوله",
+            "meaning": "أَعْطَاهُ وَمَنَحَهُ.",
+            "meaning_normalized": "أعطاه ومنحه"
+          },
+          {
+            "ayah_number": 8,
+            "word": "أَندَادًا",
+            "word_normalized": "أندادا",
+            "meaning": "شُرَكَاءَ، وَأَمْثَالًا.",
+            "meaning_normalized": "شركاء وأمثالا"
+          },
+          {
+            "ayah_number": 9,
+            "word": "قَٰنِتٌ",
+            "word_normalized": "قانت",
+            "meaning": "مُطِيعٌ خَاضِعٌ لِلَّهِ.",
+            "meaning_normalized": "مطيع خاضع لله"
+          },
+          {
+            "ayah_number": 9,
+            "word": "ءَانَآءَ ٱلَّيْلِ",
+            "word_normalized": "آناء الليل",
+            "meaning": "سَاعَاتِ اللَّيْلِ.",
+            "meaning_normalized": "ساعات الليل"
+          },
+          {
+            "ayah_number": 9,
+            "word": "أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+            "word_normalized": "أولوا الألباب",
+            "meaning": "أَصْحَابُ الْعُقُولِ السَّدِيدَةِ.",
+            "meaning_normalized": "أصحاب العقول السديدة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "يُوَفَّىٰ",
+            "word_normalized": "يوفى",
+            "meaning": "يُعْطَى وَافِيًا.",
+            "meaning_normalized": "يعطى وافيا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "بِغَيْرِ حِسَابٍ",
+            "word_normalized": "بغير حساب",
+            "meaning": "لَا يُحَاسَبُونَ، أَوْ لَا نِهَايَةَ لِمَا يُعْطَوْنَ.",
+            "meaning_normalized": "لا يحاسبون أو لا نهاية لما يعطون"
+          },
+          {
+            "ayah_number": 16,
+            "word": "ظُلَلٌ مِّنَ ٱلنَّارِ",
+            "word_normalized": "ظلل من النار",
+            "meaning": "أَطْبَاقٌ مِنْ عَذَابِ النَّارِ كَهَيْئَةِ الظُّلَلِ الْمَبْنِيَّةِ.",
+            "meaning_normalized": "أطباق من عذاب النار كهيئة الظلل المبنية"
+          },
+          {
+            "ayah_number": 17,
+            "word": "ٱلطَّٰغُوتَ",
+            "word_normalized": "الطاغوت",
+            "meaning": "الْمَعْبُودَاتِ مِنْ دُونِ اللهِ؛ مِنَ الْأَوْثَانِ وَالشَّيَاطِينِ.",
+            "meaning_normalized": "المعبودات من دون الله من الأوثان والشياطين"
+          },
+          {
+            "ayah_number": 17,
+            "word": "وَأَنَابُوٓا۟",
+            "word_normalized": "وأنابوا",
+            "meaning": "رَجَعُوا إِلَى اللهِ بِالتَّوْبَةِ، وَالطَّاعَةِ.",
+            "meaning_normalized": "رجعوا إلى الله بالتوبة والطاعة"
+          },
+          {
+            "ayah_number": 17,
+            "word": "ٱلْبُشْرَىٰ",
+            "word_normalized": "البشرى",
+            "meaning": "الذِّكْرُ الْحَسَنُ، وَالتَّوْفِيقُ فِي الدُّنْيَا، وَالْجَنَّةُ فِي الْآخِرَةِ.",
+            "meaning_normalized": "الذكر الحسن والتوفيق في الدنيا والجنة في الآخرة"
+          },
+          {
+            "ayah_number": 18,
+            "word": "أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+            "word_normalized": "أولوا الألباب",
+            "meaning": "أَصْحَابُ الْعُقُولِ السَّدِيدَةِ.",
+            "meaning_normalized": "أصحاب العقول السديدة"
+          },
+          {
+            "ayah_number": 19,
+            "word": "حَقَّ عَلَيْهِ",
+            "word_normalized": "حق عليه",
+            "meaning": "وَجَبَ عَلَيْهِ.",
+            "meaning_normalized": "وجب عليه"
+          },
+          {
+            "ayah_number": 20,
+            "word": "غُرَفٌ",
+            "word_normalized": "غرف",
+            "meaning": "مَنَازِلُ رَفِيعَةٌ عَالِيَةٌ فِي الْجَنَّةِ.",
+            "meaning_normalized": "منازل رفيعة عالية في الجنة"
+          }
+        ]
+      }
+    ]
+  }
+}

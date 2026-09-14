@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 181,
+    "header": {
+      "right": "سُورَةُ الْأَحْزَابِ",
+      "right_normalized": "سورة الأحزاب",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْزَابِ",
+          "name_normalized": "سورة الأحزاب",
+          "order": 33,
+          "ayat_count": 73,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 37,
+            "word": "أَدْعِيَآئِهِمْ",
+            "word_normalized": "أدعيائهم",
+            "meaning": "مَنْ كَانُوا يَتَبَنَّوْنَهُمْ.",
+            "meaning_normalized": "من كانوا يتبنونهم"
+          },
+          {
+            "ayah_number": 37,
+            "word": "وَطَرًا",
+            "word_normalized": "وطرا",
+            "meaning": "حَاجَةً.",
+            "meaning_normalized": "حاجة"
+          },
+          {
+            "ayah_number": 38,
+            "word": "حَرَجٍ",
+            "word_normalized": "حرج",
+            "meaning": "إِثْمٍ.",
+            "meaning_normalized": "إثم"
+          },
+          {
+            "ayah_number": 42,
+            "word": "بُكْرَةً وَأَصِيلًا",
+            "word_normalized": "بكرة وأصيلا",
+            "meaning": "أَوَّلَ النَّهَارِ، وَآخِرَهُ.",
+            "meaning_normalized": "أول النهار وآخره"
+          },
+          {
+            "ayah_number": 49,
+            "word": "تَمَسُّوهُنَّ",
+            "word_normalized": "تمسوهن",
+            "meaning": "تَدْخُلُوا بِهِنَّ، وَتُجَامِعُوهُنَّ.",
+            "meaning_normalized": "تدخلوا بهن وتجامعوهن"
+          },
+          {
+            "ayah_number": 49,
+            "word": "عِدَّةٍ",
+            "word_normalized": "عدة",
+            "meaning": "مُدَّةٍ تَنْتَظِرُ فِيهَا الْمَرْأَةُ.",
+            "meaning_normalized": "مدة تنتظر فيها المرأة"
+          },
+          {
+            "ayah_number": 49,
+            "word": "تَعْتَدُّونَهَا",
+            "word_normalized": "تعتدونها",
+            "meaning": "تُحْصُونَهَا عَلَيْهِنَّ.",
+            "meaning_normalized": "تحصونها عليهن"
+          },
+          {
+            "ayah_number": 49,
+            "word": "فَمَتِّعُوهُنَّ",
+            "word_normalized": "فمتعوهن",
+            "meaning": "أَعْطُوهُنَّ مِنْ أَمْوَالِكُمْ مَا يَتَمَتَّعْنَ بِهِ بِحَسَبِ وُسْعِكُمْ؛ جَبْرًا لِخَوَاطِرِهِنَّ.",
+            "meaning_normalized": "أعطوهن من أموالكم ما يتمتعن به بحسب وسعكم جبرا لخواطرهن"
+          },
+          {
+            "ayah_number": 49,
+            "word": "وَسَرِّحُوهُنَّ",
+            "word_normalized": "وسرحوهن",
+            "meaning": "طَلِّقُوهُنَّ.",
+            "meaning_normalized": "طلقوهن"
+          },
+          {
+            "ayah_number": 49,
+            "word": "جَمِيلًا",
+            "word_normalized": "جميلا",
+            "meaning": "بِلَا أَذًى، أَوْ ضَرَرٍ.",
+            "meaning_normalized": "بلا أذى أو ضرر"
+          },
+          {
+            "ayah_number": 50,
+            "word": "وَمَا مَلَكَتْ يَمِينُكَ",
+            "word_normalized": "وما ملكت يمينك",
+            "meaning": "الْإِمَاءُ الَّتِي تَكُونُ مِلْكًا خَالِصًا لَكَ.",
+            "meaning_normalized": "الإماء التي تكون ملكا خالصا لك"
+          },
+          {
+            "ayah_number": 50,
+            "word": "أَفَآءَ ٱللَّهُ عَلَيْكَ",
+            "word_normalized": "أفاء الله عليك",
+            "meaning": "أَنْعَمَ بِهِ عَلَيْكَ بِالْجِهَادِ.",
+            "meaning_normalized": "أنعم به عليك بالجهاد"
+          },
+          {
+            "ayah_number": 50,
+            "word": "خَالِصَةً لَّكَ",
+            "word_normalized": "خالصة لك",
+            "meaning": "خَاصَّةً بِكَ.",
+            "meaning_normalized": "خاصة بك"
+          },
+          {
+            "ayah_number": 50,
+            "word": "حَرَجٌ",
+            "word_normalized": "حرج",
+            "meaning": "ضِيقٌ.",
+            "meaning_normalized": "ضيق"
+          },
+          {
+            "ayah_number": 51,
+            "word": "تُرْجِى",
+            "word_normalized": "ترجي",
+            "meaning": "تُؤَخِّرُ الْقَسْمَ فِي الْمَبِيتِ، عَمَّنْ شِئْتَ مِنْ زَوْجَاتِكَ.",
+            "meaning_normalized": "تؤخر القسم في المبيت عمن شئت من زوجاتك"
+          },
+          {
+            "ayah_number": 51,
+            "word": "وَتُـْٔوِىٓ",
+            "word_normalized": "وتؤوي",
+            "meaning": "تَضُمُّ فِي الْمَبِيتِ.",
+            "meaning_normalized": "تضم في المبيت"
+          },
+          {
+            "ayah_number": 51,
+            "word": "ٱبْتَغَيْتَ",
+            "word_normalized": "ابتغيت",
+            "meaning": "طَلَبْتَ الْمَبِيتَ عِنْدَهَا.",
+            "meaning_normalized": "طلبت المبيت عندها"
+          },
+          {
+            "ayah_number": 51,
+            "word": "عَزَلْتَ",
+            "word_normalized": "عزلت",
+            "meaning": "أَخَّرْتَ قَسْمَهَا.",
+            "meaning_normalized": "أخرت قسمها"
+          },
+          {
+            "ayah_number": 51,
+            "word": "أَدْنَىٰ",
+            "word_normalized": "أدنى",
+            "meaning": "أَقْرَبُ.",
+            "meaning_normalized": "أقرب"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 198,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الصَّافَّاتِ",
+          "name_normalized": "سورة الصافات",
+          "order": 37,
+          "ayat_count": 182,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 101,
+            "word": "بِغُلَٰمٍ حَلِيمٍ",
+            "word_normalized": "بغلام حليم",
+            "meaning": "هُوَ: إِسْمَاعِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "هو إسماعيل عليه السلام"
+          },
+          {
+            "ayah_number": 102,
+            "word": "بَلَغَ مَعَهُ ٱلسَّعْىَ",
+            "word_normalized": "بلغ معه السعي",
+            "meaning": "وَصَلَ دَرَجَةَ الْعَمَلِ مَعَهُ، وَقَضَاءِ حَوَائِجِهِ.",
+            "meaning_normalized": "وصل درجة العمل معه وقضاء حوائجه"
+          },
+          {
+            "ayah_number": 103,
+            "word": "أَسْلَمَا",
+            "word_normalized": "أسلما",
+            "meaning": "اسْتَسْلَمَا لِأَمْرِ اللهِ.",
+            "meaning_normalized": "استسلما لأمر الله"
+          },
+          {
+            "ayah_number": 103,
+            "word": "وَتَلَّهُۥ لِلْجَبِينِ",
+            "word_normalized": "وتله للجبين",
+            "meaning": "أَلْقَاهُ عَلَى جَانِبِ جَبْهَتِهِ عَلَى الْأَرْضِ.",
+            "meaning_normalized": "ألقاه على جانب جبهته على الأرض"
+          },
+          {
+            "ayah_number": 106,
+            "word": "ٱلْبَلَٰٓؤُا۟ ٱلْمُبِينُ",
+            "word_normalized": "البلاء المبين",
+            "meaning": "الِاخْتِبَارُ الشَّاقُّ الَّذِي أَبَانَ عَنْ صِدْقِ إِيمَانِهِ.",
+            "meaning_normalized": "الاختبار الشاق الذي أبان عن صدق إيمانه"
+          },
+          {
+            "ayah_number": 107,
+            "word": "وَفَدَيْنَٰهُ",
+            "word_normalized": "وفديناه",
+            "meaning": "جَعَلْنَا بَدِيلًا عَنْهُ.",
+            "meaning_normalized": "جعلنا بديلا عنه"
+          },
+          {
+            "ayah_number": 107,
+            "word": "بِذِبْحٍ",
+            "word_normalized": "بذبح",
+            "meaning": "بِكَبْشٍ.",
+            "meaning_normalized": "بكبش"
+          },
+          {
+            "ayah_number": 108,
+            "word": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْآخِرِينَ",
+            "word_normalized": "وتركنا عليه في الآخرين",
+            "meaning": "أَبْقَيْنَا لَهُ ذِكْرًا حَسَنًا فِيمَنْ جَاءَ بَعْدَهُ.",
+            "meaning_normalized": "أبقينا له ذكرا حسنا فيمن جاء بعده"
+          },
+          {
+            "ayah_number": 115,
+            "word": "ٱلْكَرْبِ ٱلْعَظِيمِ",
+            "word_normalized": "الكرب العظيم",
+            "meaning": "الْغَرَقِ فِي الْبَحْرِ، وَالْعُبُودِيَّةِ لِفِرْعَوْنَ.",
+            "meaning_normalized": "الغرق في البحر والعبودية لفرعون"
+          },
+          {
+            "ayah_number": 125,
+            "word": "أَتَدْعُونَ بَعْلًا",
+            "word_normalized": "أتدعون بعلا",
+            "meaning": "أَتَعْبُدُونَ الصَّنَمَ الْمُسَمَّى: «بَعْلًا».",
+            "meaning_normalized": "أتعبدون الصنم المسمى بعلا"
+          },
+          {
+            "ayah_number": 127,
+            "word": "لَمُحْضَرُونَ",
+            "word_normalized": "لمحضرون",
+            "meaning": "لَمَجْمُوعُونَ لِلْحِسَابِ، وَالْعِقَابِ.",
+            "meaning_normalized": "لمجموعون للحساب والعقاب"
+          },
+          {
+            "ayah_number": 130,
+            "word": "إِلْ يَاسِينَ",
+            "word_normalized": "إل ياسين",
+            "meaning": "هُوَ: إِلْيَاسُ نَفْسُهُ، أَوْ: هُوَ وَأَتْبَاعُهُ.",
+            "meaning_normalized": "هو إلياس نفسه أو هو وأتباعه"
+          },
+          {
+            "ayah_number": 135,
+            "word": "ٱلْغَٰبِرِينَ",
+            "word_normalized": "الغابرين",
+            "meaning": "الْبَاقِينَ فِي الْعَذَابِ.",
+            "meaning_normalized": "الباقين في العذاب"
+          },
+          {
+            "ayah_number": 140,
+            "word": "أَبَقَ",
+            "word_normalized": "أبق",
+            "meaning": "هَرَبَ مِنْ بَلَدِهِ مِنْ غَيْرِ إِذْنِ رَبِّهِ.",
+            "meaning_normalized": "هرب من بلده من غير إذن ربه"
+          },
+          {
+            "ayah_number": 140,
+            "word": "ٱلْفُلْكِ",
+            "word_normalized": "الفلك",
+            "meaning": "السَّفِينَةِ.",
+            "meaning_normalized": "السفينة"
+          },
+          {
+            "ayah_number": 140,
+            "word": "ٱلْمَشْحُونِ",
+            "word_normalized": "المشحون",
+            "meaning": "الْمَمْلُوءِ أَمْتِعَةً، وَرُكَّابًا.",
+            "meaning_normalized": "المملوء أمتعة وركابا"
+          },
+          {
+            "ayah_number": 141,
+            "word": "فَسَاهَمَ",
+            "word_normalized": "فساهم",
+            "meaning": "اقْتَرَعَ رُكَّابُ السَّفِينَةِ؛ لِتَخْفِيفِ الْحُمُولَةِ خَوْفَ الْغَرَقِ.",
+            "meaning_normalized": "اقترع ركاب السفينة لتخفيف الحمولة خوف الغرق"
+          },
+          {
+            "ayah_number": 141,
+            "word": "ٱلْمُدْحَضِينَ",
+            "word_normalized": "المدحضين",
+            "meaning": "الْمَغْلُوبِينَ بِالْقُرْعَةِ.",
+            "meaning_normalized": "المغلوبين بالقرعة"
+          },
+          {
+            "ayah_number": 142,
+            "word": "فَٱلْتَقَمَهُ",
+            "word_normalized": "فالتقمه",
+            "meaning": "ابْتَلَعَهُ.",
+            "meaning_normalized": "ابتلعه"
+          }
+        ]
+      }
+    ]
+  }
+}

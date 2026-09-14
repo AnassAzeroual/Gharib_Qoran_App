@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 180,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "سُورَةُ الْأَحْزَابِ",
+      "left_normalized": "سورة الأحزاب"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْزَابِ",
+          "name_normalized": "سورة الأحزاب",
+          "order": 33,
+          "ayat_count": 73,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 33,
+            "word": "وَقَرْنَ",
+            "word_normalized": "وقرن",
+            "meaning": "الزَمْنَ.",
+            "meaning_normalized": "الزمن"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَلَا تَبَرَّجْنَ",
+            "word_normalized": "ولا تبرجن",
+            "meaning": "لَا تُظْهِرْنَ مَحَاسِنَكُنَّ.",
+            "meaning_normalized": "لا تظهرن محاسنكن"
+          },
+          {
+            "ayah_number": 33,
+            "word": "ٱلْجَٰهِلِيَّةِ ٱلْأُولَىٰ",
+            "word_normalized": "الجاهلية الأولى",
+            "meaning": "الَّتِي قَبْلَ الْإِسْلَامِ.",
+            "meaning_normalized": "التي قبل الإسلام"
+          },
+          {
+            "ayah_number": 33,
+            "word": "ٱلرِّجْسَ",
+            "word_normalized": "الرجس",
+            "meaning": "الْأَذَى، وَالسُّوءَ، وَالْإِثْمَ.",
+            "meaning_normalized": "الأذى والسوء والإثم"
+          },
+          {
+            "ayah_number": 34,
+            "word": "وَٱلْحِكْمَةِ",
+            "word_normalized": "والحكمة",
+            "meaning": "أَحَادِيثِ الرَّسُولِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ.",
+            "meaning_normalized": "أحاديث الرسول صلى الله عليه وسلم"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَٱلْقَٰنِتِينَ",
+            "word_normalized": "والقانتين",
+            "meaning": "الْمُطِيعِينَ، الْخَاضِعِينَ للهِ.",
+            "meaning_normalized": "المطيعين الخاضعين لله"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَٱلْخَٰشِعِينَ",
+            "word_normalized": "والخاشعين",
+            "meaning": "الْخَائِفِينَ مِنَ اللهِ، الْمُتَوَاضِعِينَ.",
+            "meaning_normalized": "الخائفين من الله المتواضعين"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَٱلْحَٰفِظِينَ فُرُوجَهُمْ",
+            "word_normalized": "والحافظين فروجهم",
+            "meaning": "أَيْ: عَنِ الزِّنَى، وَمُقَدِّمَاتِهِ، وَعَنْ كَشْفِ الْعَوْرَةِ وَمَسِّهَا لِمَنْ لَا يَحِلُّ لَهُمْ.",
+            "meaning_normalized": "أي عن الزنى ومقدماته وعن كشف العورة ومسها لمن لا يحل لهم"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَمَا كَانَ",
+            "word_normalized": "وما كان",
+            "meaning": "لَا يَنْبَغِي.",
+            "meaning_normalized": "لا ينبغي"
+          },
+          {
+            "ayah_number": 36,
+            "word": "قَضَىٰ",
+            "word_normalized": "قضى",
+            "meaning": "حَكَمَ.",
+            "meaning_normalized": "حكم"
+          },
+          {
+            "ayah_number": 36,
+            "word": "ٱلْخِيَرَةُ",
+            "word_normalized": "الخيرة",
+            "meaning": "الِاخْتِيَارُ.",
+            "meaning_normalized": "الاختيار"
+          },
+          {
+            "ayah_number": 37,
+            "word": "أَنْعَمَ ٱللَّهُ عَلَيْهِ",
+            "word_normalized": "أنعم الله عليه",
+            "meaning": "بِالْإِسْلَامِ.",
+            "meaning_normalized": "بالإسلام"
+          },
+          {
+            "ayah_number": 37,
+            "word": "وَأَنْعَمْتَ عَلَيْهِ",
+            "word_normalized": "وأنعمت عليه",
+            "meaning": "بِالْعِتْقِ، وَهُوَ زَيْدُ بْنُ حَارِثَةَ رَضِيَ اللهُ عَنْهُ.",
+            "meaning_normalized": "بالعتق وهو زيد بن حارثة رضي الله عنه"
+          },
+          {
+            "ayah_number": 37,
+            "word": "وَتُخْفِى فِى نَفْسِكَ",
+            "word_normalized": "وتخفي في نفسك",
+            "meaning": "هُوَ: مَا أَوْحَاهُ اللهُ إِلَيْكَ مِنْ طَلَاقِ زَيْدٍ لِامْرَأَتِهِ، وَزَوَاجِكَ مِنْهَا.",
+            "meaning_normalized": "هو ما أوحاه الله إليك من طلاق زيد لامرأته وزواجك منها"
+          },
+          {
+            "ayah_number": 37,
+            "word": "مُبْدِيهِ",
+            "word_normalized": "مبديه",
+            "meaning": "مُظْهِرُهُ.",
+            "meaning_normalized": "مظهره"
+          },
+          {
+            "ayah_number": 37,
+            "word": "وَتَخْشَى ٱلنَّاسَ",
+            "word_normalized": "وتخشى الناس",
+            "meaning": "تَخَافُ مِنَ الْمُنَافِقِينَ أَنْ يَقُولُوا: تَزَوَّجَ مُحَمَّدٌ امْرَأَةَ مُتَبَنَّاهُ.",
+            "meaning_normalized": "تخاف من المنافقين أن يقولوا تزوج محمد امرأة متبناه"
+          },
+          {
+            "ayah_number": 37,
+            "word": "قَضَىٰ زَيْدٌ مِّنْهَا وَطَرًا",
+            "word_normalized": "قضى زيد منها وطرا",
+            "meaning": "طَلَّقَهَا.",
+            "meaning_normalized": "طلقها"
+          },
+          {
+            "ayah_number": 37,
+            "word": "حَرَجٌ",
+            "word_normalized": "حرج",
+            "meaning": "إِثْمٌ.",
+            "meaning_normalized": "إثم"
+          }
+        ]
+      }
+    ]
+  }
+}

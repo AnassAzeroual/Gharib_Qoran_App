@@ -1,0 +1,166 @@
+{
+  "page": {
+    "page_number": 176,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ السَّجْدَةِ",
+          "name_normalized": "سورة السجدة",
+          "order": 32,
+          "ayat_count": 30,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 16,
+            "word": "تَتَجَافَىٰ",
+            "word_normalized": "تتجافى",
+            "meaning": "تَرْتَفِعُ، وَتَتَنَحَّى لِلْعِبَادَةِ.",
+            "meaning_normalized": "ترتفع وتتنحى للعبادة"
+          },
+          {
+            "ayah_number": 16,
+            "word": "ٱلْمَضَاجِعِ",
+            "word_normalized": "المضاجع",
+            "meaning": "فُرُشِ النَّوْمِ.",
+            "meaning_normalized": "فرش النوم"
+          },
+          {
+            "ayah_number": 17,
+            "word": "مَّآ أُخْفِىَ لَهُم",
+            "word_normalized": "ما أخفي لهم",
+            "meaning": "مَا ادُّخِرَ لَهُمْ مِنَ الْجَزَاءِ.",
+            "meaning_normalized": "ما ادخر لهم من الجزاء"
+          },
+          {
+            "ayah_number": 17,
+            "word": "مِّن قُرَّةِ أَعْيُنٍ",
+            "word_normalized": "من قرة أعين",
+            "meaning": "مَا يُفْرِحُ، وَيَسُرُّ.",
+            "meaning_normalized": "ما يفرح ويسر"
+          },
+          {
+            "ayah_number": 19,
+            "word": "ٱلْمَأْوَىٰ",
+            "word_normalized": "المأوى",
+            "meaning": "الَّتِي يَأْوُونَ إِلَيْهَا، وَيُقِيمُونَ بِهَا.",
+            "meaning_normalized": "التي يأوون إليها ويقيمون بها"
+          },
+          {
+            "ayah_number": 19,
+            "word": "نُزُلًا",
+            "word_normalized": "نزلا",
+            "meaning": "ضِيَافَةً لَهُمْ.",
+            "meaning_normalized": "ضيافة لهم"
+          },
+          {
+            "ayah_number": 21,
+            "word": "ٱلْعَذَابِ ٱلْأَدْنَىٰ",
+            "word_normalized": "العذاب الأدنى",
+            "meaning": "الْبَلَايَا وَالْمَصَائِبِ فِي الدُّنْيَا.",
+            "meaning_normalized": "البلايا والمصائب في الدنيا"
+          },
+          {
+            "ayah_number": 23,
+            "word": "مِرْيَةٍ",
+            "word_normalized": "مرية",
+            "meaning": "شَكٍّ.",
+            "meaning_normalized": "شك"
+          },
+          {
+            "ayah_number": 23,
+            "word": "مِّن لِّقَآئِهِۦ",
+            "word_normalized": "من لقائه",
+            "meaning": "لِقَاءِ مُوسَى عَلَيْهِ السَّلَامُ لَيْلَةَ الْإِسْرَاءِ.",
+            "meaning_normalized": "لقاء موسى عليه السلام ليلة الإسراء"
+          },
+          {
+            "ayah_number": 26,
+            "word": "أَوَلَمْ يَهْدِ لَهُمْ",
+            "word_normalized": "أولم يهد لهم",
+            "meaning": "أَوَلَمْ يَتَبَيَّنْ لِهَؤُلَاءِ الْمُكَذِّبِينَ؟",
+            "meaning_normalized": "أولم يتبين لهؤلاء المكذبين"
+          },
+          {
+            "ayah_number": 26,
+            "word": "كَمْ أَهْلَكْنَا",
+            "word_normalized": "كم أهلكنا",
+            "meaning": "مَا أَكْثَرَ إِهْلَاكَنَا.",
+            "meaning_normalized": "ما أكثر إهلاكنا"
+          },
+          {
+            "ayah_number": 26,
+            "word": "مِنَ ٱلْقُرُونِ",
+            "word_normalized": "من القرون",
+            "meaning": "مِنَ الْأُمَمِ السَّابِقَةِ.",
+            "meaning_normalized": "من الأمم السابقة"
+          },
+          {
+            "ayah_number": 27,
+            "word": "ٱلْجُرُزِ",
+            "word_normalized": "الجرز",
+            "meaning": "الْيَابِسَةِ، الْغَلِيظَةِ الَّتِي لَا نَبَاتَ فِيهَا.",
+            "meaning_normalized": "اليابسة الغليظة التي لا نبات فيها"
+          },
+          {
+            "ayah_number": 28,
+            "word": "ٱلْفَتْحُ",
+            "word_normalized": "الفتح",
+            "meaning": "يَوْمُ الْعَذَابِ الَّذِي تَعِدُونَنَا.",
+            "meaning_normalized": "يوم العذاب الذي تعدوننا"
+          },
+          {
+            "ayah_number": 29,
+            "word": "يُنظَرُونَ",
+            "word_normalized": "ينظرون",
+            "meaning": "يُمْهَلُونَ.",
+            "meaning_normalized": "يمهلون"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْزَابِ",
+          "name_normalized": "سورة الأحزاب",
+          "order": 33,
+          "ayat_count": 73,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "word": "وَكِيلًا",
+            "word_normalized": "وكيلا",
+            "meaning": "حَافِظًا.",
+            "meaning_normalized": "حافظا"
+          },
+          {
+            "ayah_number": 4,
+            "word": "تُظَٰهِرُونَ مِنْهُنَّ",
+            "word_normalized": "تظاهرون منهن",
+            "meaning": "الظِّهَارُ: أَنْ يَقُولَ الرَّجُلُ لِامْرَأَتِهِ: أَنْتِ عَلَيَّ كَظَهْرِ أُمِّي.",
+            "meaning_normalized": "الظهار أن يقول الرجل لامرأته أنت علي كظهر أمي"
+          }
+        ]
+      }
+    ]
+  }
+}

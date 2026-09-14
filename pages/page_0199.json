@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 199,
+    "header": {
+      "right": "سُورَةُ الصَّافَّاتِ",
+      "right_normalized": "سورة الصافات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الصَّافَّاتِ",
+          "name_normalized": "سورة الصافات",
+          "order": 37,
+          "ayat_count": 182,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 142,
+            "word": "مُلِيمٌ",
+            "word_normalized": "مليم",
+            "meaning": "آتٍ بِمَا يُلَامُ عَلَيْهِ.",
+            "meaning_normalized": "آت بما يلام عليه"
+          },
+          {
+            "ayah_number": 143,
+            "word": "ٱلْمُسَبِّحِينَ",
+            "word_normalized": "المسبحين",
+            "meaning": "الْعَابِدِينَ الذَّاكِرِينَ، الَّذِينَ يَقُولُ أَحَدُهُمْ - إِذَا وَقَعَ فِي كُرْبَةٍ -: ﴿لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ﴾ [الأنبياء: 87].",
+            "meaning_normalized": "العابدين الذاكرين الذين يقول أحدهم إذا وقع في كربة لا إله إلا أنت سبحانك إني كنت من الظالمين الأنبياء 87"
+          },
+          {
+            "ayah_number": 145,
+            "word": "فَنَبَذْنَٰهُ",
+            "word_normalized": "فنبذناه",
+            "meaning": "فَطَرَحْنَاهُ مِنْ بَطْنِ الْحُوتِ.",
+            "meaning_normalized": "فطرحناه من بطن الحوت"
+          },
+          {
+            "ayah_number": 145,
+            "word": "بِٱلْعَرَآءِ",
+            "word_normalized": "بالعراء",
+            "meaning": "بِالْأَرْضِ الْخَالِيَةِ مِنَ الشَّجَرِ وَالْبِنَاءِ.",
+            "meaning_normalized": "بالأرض الخالية من الشجر والبناء"
+          },
+          {
+            "ayah_number": 145,
+            "word": "سَقِيمٌ",
+            "word_normalized": "سقيم",
+            "meaning": "ضَعِيفُ الْبَدَنِ.",
+            "meaning_normalized": "ضعيف البدن"
+          },
+          {
+            "ayah_number": 146,
+            "word": "يَقْطِينٍ",
+            "word_normalized": "يقطين",
+            "meaning": "قَرْعٍ.",
+            "meaning_normalized": "قرع"
+          },
+          {
+            "ayah_number": 147,
+            "word": "أَوْ يَزِيدُونَ",
+            "word_normalized": "أو يزيدون",
+            "meaning": "بَلْ يَزِيدُونَ.",
+            "meaning_normalized": "بل يزيدون"
+          },
+          {
+            "ayah_number": 148,
+            "word": "فَمَتَّعْنَٰهُمْ إِلَىٰ حِينٍ",
+            "word_normalized": "فمتعناهم إلى حين",
+            "meaning": "أَبْقَيْنَاهُمْ أَحْيَاءً مُتَمَتِّعِينَ إِلَى بُلُوغِ آجَالِهِمْ.",
+            "meaning_normalized": "أبقيناهم أحياء متمتعين إلى بلوغ آجالهم"
+          },
+          {
+            "ayah_number": 151,
+            "word": "إِفْكِهِمْ",
+            "word_normalized": "إفكهم",
+            "meaning": "كَذِبِهِمْ.",
+            "meaning_normalized": "كذبهم"
+          },
+          {
+            "ayah_number": 153,
+            "word": "أَصْطَفَى",
+            "word_normalized": "أصطفى",
+            "meaning": "أَيَخْتَارُ؟!",
+            "meaning_normalized": "أيختار"
+          },
+          {
+            "ayah_number": 154,
+            "word": "مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
+            "word_normalized": "ما لكم كيف تحكمون",
+            "meaning": "بِئْسَ الْحُكْمُ مَا تَحْكُمُونَهُ.",
+            "meaning_normalized": "بئس الحكم ما تحكمونه"
+          },
+          {
+            "ayah_number": 156,
+            "word": "سُلْطَٰنٌ",
+            "word_normalized": "سلطان",
+            "meaning": "حُجَّةٌ.",
+            "meaning_normalized": "حجة"
+          },
+          {
+            "ayah_number": 158,
+            "word": "ٱلْجِنَّةِ",
+            "word_normalized": "الجنة",
+            "meaning": "الْمَلَائِكَةِ، سُمُّوا بِذَلِكَ؛ لِاجْتِنَانِهِمْ عَنِ الْأَبْصَارِ.",
+            "meaning_normalized": "الملائكة سموا بذلك لاجتنانهم عن الأبصار"
+          },
+          {
+            "ayah_number": 158,
+            "word": "نَسَبًا",
+            "word_normalized": "نسبا",
+            "meaning": "قَرَابَةً.",
+            "meaning_normalized": "قرابة"
+          },
+          {
+            "ayah_number": 158,
+            "word": "لَمُحْضَرُونَ",
+            "word_normalized": "لمحضرون",
+            "meaning": "إِنَّ الْكُفَّارَ سَيُحْضَرُونَ لِلْعَذَابِ يَوْمَ الْقِيَامَةِ.",
+            "meaning_normalized": "إن الكفار سيحضرون للعذاب يوم القيامة"
+          },
+          {
+            "ayah_number": 159,
+            "word": "سُبْحَٰنَ ٱللَّهِ",
+            "word_normalized": "سبحان الله",
+            "meaning": "تَنْزِيهًا للهِ.",
+            "meaning_normalized": "تنزيها لله"
+          },
+          {
+            "ayah_number": 162,
+            "word": "بِفَٰتِنِينَ",
+            "word_normalized": "بفاتنين",
+            "meaning": "بِمُضِلِّينَ أَحَدًا.",
+            "meaning_normalized": "بمضلين أحدا"
+          },
+          {
+            "ayah_number": 163,
+            "word": "صَالِ ٱلْجَحِيمِ",
+            "word_normalized": "صال الجحيم",
+            "meaning": "مَنْ يَصْلَى الْجَحِيمَ بِدُخُولِهَا وَمُقَاسَاةِ حَرِّهَا.",
+            "meaning_normalized": "من يصلى الجحيم بدخولها ومقاساة حرها"
+          }
+        ]
+      }
+    ]
+  }
+}
