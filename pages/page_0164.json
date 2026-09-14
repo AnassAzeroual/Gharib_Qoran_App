@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 164,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَصَصِ",
+          "name_normalized": "سورة القصص",
+          "order": 28,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 44,
+            "word": "ٱلْغَرْبِيِّ",
+            "word_normalized": "الغربي",
+            "meaning": "الْجَبَلِ الْغَرْبِيِّ مِنْ مُوسَى عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "الجبل الغربي من موسى عليه السلام"
+          },
+          {
+            "ayah_number": 44,
+            "word": "قَضَيْنَآ",
+            "word_normalized": "قضينا",
+            "meaning": "عَهِدْنَا.",
+            "meaning_normalized": "عهدنا"
+          },
+          {
+            "ayah_number": 45,
+            "word": "أَنشَأْنَا",
+            "word_normalized": "أنشأنا",
+            "meaning": "خَلَقْنَا.",
+            "meaning_normalized": "خلقنا"
+          },
+          {
+            "ayah_number": 45,
+            "word": "قُرُونًا",
+            "word_normalized": "قرونا",
+            "meaning": "أُمَمًا.",
+            "meaning_normalized": "أمما"
+          },
+          {
+            "ayah_number": 45,
+            "word": "فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ",
+            "word_normalized": "فتطاول عليهم العمر",
+            "meaning": "فَمَكَثُوا زَمَنًا طَوِيلًا.",
+            "meaning_normalized": "فمكثوا زمنا طويلا"
+          },
+          {
+            "ayah_number": 45,
+            "word": "ثَاوِيًا",
+            "word_normalized": "ثاويا",
+            "meaning": "مُقِيمًا.",
+            "meaning_normalized": "مقيما"
+          },
+          {
+            "ayah_number": 45,
+            "word": "أَهْلِ مَدْيَنَ",
+            "word_normalized": "أهل مدين",
+            "meaning": "هُمْ قَوْمُ شُعَيْبٍ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "هم قوم شعيب عليه السلام"
+          },
+          {
+            "ayah_number": 46,
+            "word": "ٱلطُّورِ",
+            "word_normalized": "الطور",
+            "meaning": "جَبَلٍ بِسَيْنَاءَ كَلَّمَ اللهُ مُوسَى عَلَيْهِ السَّلَامُ بِجَانِبِهِ.",
+            "meaning_normalized": "جبل بسيناء كلم الله موسى عليه السلام بجانبه"
+          },
+          {
+            "ayah_number": 47,
+            "word": "تُصِيبَهُم مُّصِيبَةٌ",
+            "word_normalized": "تصيبهم مصيبة",
+            "meaning": "يَنْزِلَ بِهِمْ عَذَابٌ.",
+            "meaning_normalized": "ينزل بهم عذاب"
+          },
+          {
+            "ayah_number": 48,
+            "word": "سِحْرَانِ تَظَٰهَرَا",
+            "word_normalized": "سحران تظاهرا",
+            "meaning": "تَعَاوَنَا، يَقْصِدُونَ التَّوْرَاةَ وَالْقُرْآنَ.",
+            "meaning_normalized": "تعاونا يقصدون التوراة والقرآن"
+          },
+          {
+            "ayah_number": 51,
+            "word": "وَصَّلْنَا",
+            "word_normalized": "وصلنا",
+            "meaning": "فَصَّلْنَا وَبَيَّنَّا.",
+            "meaning_normalized": "فصلنا وبينا"
+          },
+          {
+            "ayah_number": 54,
+            "word": "مَرَّتَيْنِ",
+            "word_normalized": "مرتين",
+            "meaning": "لِإِيمَانِهِمْ بِكِتَابِهِمْ وَبِالْقُرْآنِ.",
+            "meaning_normalized": "لإيمانهم بكتابهم وبالقرآن"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَيَدْرَءُونَ",
+            "word_normalized": "ويدرءون",
+            "meaning": "يَدْفَعُونَ.",
+            "meaning_normalized": "يدفعون"
+          },
+          {
+            "ayah_number": 55,
+            "word": "ٱللَّغْوَ",
+            "word_normalized": "اللغو",
+            "meaning": "الْبَاطِلَ.",
+            "meaning_normalized": "الباطل"
+          },
+          {
+            "ayah_number": 55,
+            "word": "أَعْرَضُوا عَنْهُ",
+            "word_normalized": "أعرضوا عنه",
+            "meaning": "لَمْ يُصْغُوا إِلَيْهِ.",
+            "meaning_normalized": "لم يصغوا إليه"
+          },
+          {
+            "ayah_number": 55,
+            "word": "سَلَٰمٌ عَلَيْكُمْ",
+            "word_normalized": "سلام عليكم",
+            "meaning": "لَا تَسْمَعُونَ مِنَّا إِلَّا الْخَيْرَ؛ قَدْ سَلِمْتُمْ مِنَّا.",
+            "meaning_normalized": "لا تسمعون منا إلا الخير قد سلمتم منا"
+          },
+          {
+            "ayah_number": 55,
+            "word": "لَا نَبْتَغِى ٱلْجَٰهِلِينَ",
+            "word_normalized": "لا نبتغي الجاهلين",
+            "meaning": "لَا نُرِيدُ طَرِيقَةَ الْغَافِلِينَ عَنِ الْحِكْمَةِ وَالْحِلْمِ.",
+            "meaning_normalized": "لا نريد طريقة الغافلين عن الحكمة والحلم"
+          },
+          {
+            "ayah_number": 57,
+            "word": "نُتَخَطَّفْ",
+            "word_normalized": "نتخطف",
+            "meaning": "نُنْتَزَعْ بِسُرْعَةٍ بِالْقَتْلِ، وَالْأَسْرِ.",
+            "meaning_normalized": "ننتزع بسرعة بالقتل والأسر"
+          },
+          {
+            "ayah_number": 57,
+            "word": "يُجْبَىٰ",
+            "word_normalized": "يجبى",
+            "meaning": "يُجْلَبُ إِلَيْهِ.",
+            "meaning_normalized": "يجلب إليه"
+          },
+          {
+            "ayah_number": 58,
+            "word": "وَكَم",
+            "word_normalized": "وكم",
+            "meaning": "كَثِيرًا!",
+            "meaning_normalized": "كثيرا"
+          },
+          {
+            "ayah_number": 58,
+            "word": "بَطِرَتْ مَعِيشَتَهَا",
+            "word_normalized": "بطرت معيشتها",
+            "meaning": "طَغَتْ وَتَمَرَّدَتْ فِي حَيَاتِهَا.",
+            "meaning_normalized": "طغت وتمردت في حياتها"
+          }
+        ]
+      }
+    ]
+  }
+}

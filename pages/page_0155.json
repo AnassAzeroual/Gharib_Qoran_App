@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 155,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّعَرَاءِ",
+          "name_normalized": "سورة الشعراء",
+          "order": 26,
+          "ayat_count": 227,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 223,
+            "word": "يُلْقُونَ ٱلسَّمْعَ",
+            "word_normalized": "يلقون السمع",
+            "meaning": "تُلْقِي الشَّيَاطِينُ إِلَى الْكُهَّانِ مَا يَسْتَرِقُونَ مِنَ الْمَلَإِ الْأَعْلَى.",
+            "meaning_normalized": "تلقي الشياطين إلى الكهان ما يسترقون من الملإ الأعلى"
+          },
+          {
+            "ayah_number": 225,
+            "word": "وَادٍ",
+            "word_normalized": "واد",
+            "meaning": "فَنٍّ مِنْ فُنُونِ الْبَاطِلِ، وَالْكَذِبِ.",
+            "meaning_normalized": "فن من فنون الباطل والكذب"
+          },
+          {
+            "ayah_number": 225,
+            "word": "يَهِيمُونَ",
+            "word_normalized": "يهيمون",
+            "meaning": "يَخُوضُونَ.",
+            "meaning_normalized": "يخوضون"
+          },
+          {
+            "ayah_number": 227,
+            "word": "مُنقَلَبٍ",
+            "word_normalized": "منقلب",
+            "meaning": "مَرْجِعٍ.",
+            "meaning_normalized": "مرجع"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّمْلِ",
+          "name_normalized": "سورة النمل",
+          "order": 27,
+          "ayat_count": 93,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "word": "يَعْمَهُونَ",
+            "word_normalized": "يعمهون",
+            "meaning": "يَتَرَدَّدُونَ فِي أَعْمَالِهِمُ الْقَبِيحَةِ مُتَحَيِّرِينَ.",
+            "meaning_normalized": "يترددون في أعمالهم القبيحة متحيرين"
+          },
+          {
+            "ayah_number": 6,
+            "word": "لَتُلَقَّى",
+            "word_normalized": "لتلقى",
+            "meaning": "لَتَتَلَقَّى.",
+            "meaning_normalized": "لتتلقى"
+          },
+          {
+            "ayah_number": 6,
+            "word": "مِن لَّدُنْ",
+            "word_normalized": "من لدن",
+            "meaning": "مِنْ عِنْدِ.",
+            "meaning_normalized": "من عند"
+          },
+          {
+            "ayah_number": 7,
+            "word": "ءَانَسْتُ",
+            "word_normalized": "آنست",
+            "meaning": "أَبْصَرْتُ.",
+            "meaning_normalized": "أبصرت"
+          },
+          {
+            "ayah_number": 7,
+            "word": "بِشِهَابٍ قَبَسٍ",
+            "word_normalized": "بشهاب قبس",
+            "meaning": "بِشُعْلَةِ نَارٍ.",
+            "meaning_normalized": "بشعلة نار"
+          },
+          {
+            "ayah_number": 7,
+            "word": "تَصْطَلُونَ",
+            "word_normalized": "تصطلون",
+            "meaning": "تَسْتَدْفِئُونَ بِهَا مِنَ الْبَرْدِ.",
+            "meaning_normalized": "تستدفئون بها من البرد"
+          },
+          {
+            "ayah_number": 8,
+            "word": "بُورِكَ",
+            "word_normalized": "بورك",
+            "meaning": "قُدِّسَ وَطُهِّرَ.",
+            "meaning_normalized": "قدس وطهر"
+          },
+          {
+            "ayah_number": 8,
+            "word": "وَسُبْحَٰنَ ٱللَّهِ",
+            "word_normalized": "وسبحان الله",
+            "meaning": "تَنْزِيهًا لِلَّهِ عَمَّا لَا يَلِيقُ بِهِ.",
+            "meaning_normalized": "تنزيها لله عما لا يليق به"
+          },
+          {
+            "ayah_number": 10,
+            "word": "تَهْتَزُّ",
+            "word_normalized": "تهتز",
+            "meaning": "تَتَحَرَّكُ فِي خِفَّةٍ.",
+            "meaning_normalized": "تتحرك في خفة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "جَآنٌّ",
+            "word_normalized": "جان",
+            "meaning": "حَيَّةٌ خَفِيفَةٌ.",
+            "meaning_normalized": "حية خفيفة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "مُدْبِرًا",
+            "word_normalized": "مدبرا",
+            "meaning": "هَارِبًا.",
+            "meaning_normalized": "هاربا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "يُعَقِّبْ",
+            "word_normalized": "يعقب",
+            "meaning": "يَرْجِعْ عَلَى عَقِبِهِ.",
+            "meaning_normalized": "يرجع على عقبه"
+          }
+        ]
+      }
+    ]
+  }
+}

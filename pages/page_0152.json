@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 152,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّعَرَاءِ",
+          "name_normalized": "سورة الشعراء",
+          "order": 26,
+          "ayat_count": 227,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 63,
+            "word": "كَٱلطَّوْدِ",
+            "word_normalized": "كالطود",
+            "meaning": "كَالْجَبَلِ.",
+            "meaning_normalized": "كالجبل"
+          },
+          {
+            "ayah_number": 64,
+            "word": "وَأَزْلَفْنَا ثَمَّ ٱلْآخَرِينَ",
+            "word_normalized": "وأزلفنا ثم الآخرين",
+            "meaning": "قَرَّبْنَا هُنَاكَ، فِرْعَوْنَ، وَقَوْمَهُ.",
+            "meaning_normalized": "قربنا هناك فرعون وقومه"
+          },
+          {
+            "ayah_number": 71,
+            "word": "عَٰكِفِينَ",
+            "word_normalized": "عاكفين",
+            "meaning": "مُقِيمِينَ عَلَى عِبَادَتِهَا.",
+            "meaning_normalized": "مقيمين على عبادتها"
+          },
+          {
+            "ayah_number": 75,
+            "word": "أَفَرَءَيْتُم",
+            "word_normalized": "أفرأيتم",
+            "meaning": "أَبْصَرْتُمْ بِتَدَبُّرٍ.",
+            "meaning_normalized": "أبصرتم بتدبر"
+          },
+          {
+            "ayah_number": 83,
+            "word": "حُكْمًا",
+            "word_normalized": "حكما",
+            "meaning": "عِلْمًا وَفَهْمًا.",
+            "meaning_normalized": "علما وفهما"
+          },
+          {
+            "ayah_number": 84,
+            "word": "لِسَانَ صِدْقٍ",
+            "word_normalized": "لسان صدق",
+            "meaning": "ثَنَاءً حَسَنًا.",
+            "meaning_normalized": "ثناء حسنا"
+          },
+          {
+            "ayah_number": 84,
+            "word": "ٱلْآخِرِينَ",
+            "word_normalized": "الآخرين",
+            "meaning": "مَنْ يَأْتُونَ بَعْدِي إِلَى يَوْمِ الْقِيَامَةِ.",
+            "meaning_normalized": "من يأتون بعدي إلى يوم القيامة"
+          },
+          {
+            "ayah_number": 89,
+            "word": "سَلِيمٍ",
+            "word_normalized": "سليم",
+            "meaning": "سَالِمٍ مِنَ الشِّرْكِ وَالنِّفَاقِ وَالضَّغِينَةِ.",
+            "meaning_normalized": "سالم من الشرك والنفاق والضغينة"
+          },
+          {
+            "ayah_number": 90,
+            "word": "وَأُزْلِفَتِ",
+            "word_normalized": "وأزلفت",
+            "meaning": "قُرِّبَتْ.",
+            "meaning_normalized": "قربت"
+          },
+          {
+            "ayah_number": 91,
+            "word": "وَبُرِّزَتِ",
+            "word_normalized": "وبرزت",
+            "meaning": "أُظْهِرَتْ.",
+            "meaning_normalized": "أظهرت"
+          },
+          {
+            "ayah_number": 94,
+            "word": "فَكُبْكِبُوا",
+            "word_normalized": "فكبكبوا",
+            "meaning": "فَجُمِعُوا، وَأُلْقُوا.",
+            "meaning_normalized": "فجمعوا وألقوا"
+          },
+          {
+            "ayah_number": 101,
+            "word": "حَمِيمٍ",
+            "word_normalized": "حميم",
+            "meaning": "مُشْفِقٍ يَهْتَمُّ بِأَمْرِنَا.",
+            "meaning_normalized": "مشفق يهتم بأمرنا"
+          },
+          {
+            "ayah_number": 102,
+            "word": "كَرَّةً",
+            "word_normalized": "كرة",
+            "meaning": "رَجْعَةً إِلَى الدُّنْيَا.",
+            "meaning_normalized": "رجعة إلى الدنيا"
+          },
+          {
+            "ayah_number": 111,
+            "word": "ٱلْأَرْذَلُونَ",
+            "word_normalized": "الأرذلون",
+            "meaning": "السَّفَلَةُ مِنَ النَّاسِ.",
+            "meaning_normalized": "السفلة من الناس"
+          },
+          {
+            "ayah_number": 116,
+            "word": "ٱلْمَرْجُومِينَ",
+            "word_normalized": "المرجومين",
+            "meaning": "الْمَقْتُولِينَ رَمْيًا بِالْحِجَارَةِ.",
+            "meaning_normalized": "المقتولين رميا بالحجارة"
+          },
+          {
+            "ayah_number": 118,
+            "word": "فَٱفْتَحْ",
+            "word_normalized": "فافتح",
+            "meaning": "احْكُمْ.",
+            "meaning_normalized": "احكم"
+          },
+          {
+            "ayah_number": 119,
+            "word": "ٱلْمَشْحُونِ",
+            "word_normalized": "المشحون",
+            "meaning": "الْمَمْلُوءِ بِالنَّاسِ، وَالدَّوَابِّ، وَالْمَتَاعِ.",
+            "meaning_normalized": "المملوء بالناس والدواب والمتاع"
+          },
+          {
+            "ayah_number": 128,
+            "word": "رِيعٍ",
+            "word_normalized": "ريع",
+            "meaning": "مَكَانٍ مُرْتَفِعٍ.",
+            "meaning_normalized": "مكان مرتفع"
+          },
+          {
+            "ayah_number": 128,
+            "word": "ءَايَةً",
+            "word_normalized": "آية",
+            "meaning": "بِنَاءً عَالِيًا.",
+            "meaning_normalized": "بناء عاليا"
+          },
+          {
+            "ayah_number": 128,
+            "word": "تَعْبَثُونَ",
+            "word_normalized": "تعبثون",
+            "meaning": "تُشْرِفُونَ مِنْهُ فَتَسْخَرُونَ مِنَ الْمَارَّةِ.",
+            "meaning_normalized": "تشرفون منه فتسخرون من المارة"
+          },
+          {
+            "ayah_number": 129,
+            "word": "مَصَانِعَ",
+            "word_normalized": "مصانع",
+            "meaning": "قُصُورًا مَنِيعَةً وَحُصُونًا مُشَيَّدَةً.",
+            "meaning_normalized": "قصورا منيعة وحصونا مشيدة"
+          }
+        ]
+      }
+    ]
+  }
+}

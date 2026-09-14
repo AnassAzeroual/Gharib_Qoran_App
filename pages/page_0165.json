@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 165,
+    "header": {
+      "right": "سُورَةُ الْقَصَصِ",
+      "right_normalized": "سورة القصص",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَصَصِ",
+          "name_normalized": "سورة القصص",
+          "order": 28,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 59,
+            "word": "أُمِّهَا",
+            "word_normalized": "أمها",
+            "meaning": "أَعْظَمِهَا، وَهِيَ مَكَّةُ.",
+            "meaning_normalized": "أعظمها وهي مكة"
+          },
+          {
+            "ayah_number": 61,
+            "word": "ٱلْمُحْضَرِينَ",
+            "word_normalized": "المحضرين",
+            "meaning": "مِمَّنْ أُحْضِرُوا لِلنَّارِ.",
+            "meaning_normalized": "ممن أحضروا للنار"
+          },
+          {
+            "ayah_number": 63,
+            "word": "أَغْوَيْنَا",
+            "word_normalized": "أغوينا",
+            "meaning": "دَعَوْنَاهُمْ لِلْغَوَايَةِ فَاتَّبَعُونَا.",
+            "meaning_normalized": "دعوناهم للغواية فاتبعونا"
+          },
+          {
+            "ayah_number": 66,
+            "word": "فَعَمِيَتْ",
+            "word_normalized": "فعميت",
+            "meaning": "فَخَفِيَتْ.",
+            "meaning_normalized": "فخفيت"
+          },
+          {
+            "ayah_number": 66,
+            "word": "ٱلْأَنۢبَآءُ",
+            "word_normalized": "الأنباء",
+            "meaning": "الْحُجَجُ.",
+            "meaning_normalized": "الحجج"
+          },
+          {
+            "ayah_number": 68,
+            "word": "وَيَخْتَارُ",
+            "word_normalized": "ويختار",
+            "meaning": "يَصْطَفِي.",
+            "meaning_normalized": "يصطفي"
+          },
+          {
+            "ayah_number": 68,
+            "word": "ٱلْخِيَرَةُ",
+            "word_normalized": "الخيرة",
+            "meaning": "الِاخْتِيَارُ.",
+            "meaning_normalized": "الاختيار"
+          },
+          {
+            "ayah_number": 69,
+            "word": "تُكِنُّ",
+            "word_normalized": "تكن",
+            "meaning": "تُخْفِي.",
+            "meaning_normalized": "تخفي"
+          },
+          {
+            "ayah_number": 71,
+            "word": "أَرَءَيْتُمْ",
+            "word_normalized": "أرأيتم",
+            "meaning": "أَخْبِرُونِي.",
+            "meaning_normalized": "أخبروني"
+          },
+          {
+            "ayah_number": 71,
+            "word": "سَرْمَدًا",
+            "word_normalized": "سرمدا",
+            "meaning": "دَائِمًا بَاقِيًا.",
+            "meaning_normalized": "دائما باقيا"
+          },
+          {
+            "ayah_number": 75,
+            "word": "شَهِيدًا",
+            "word_normalized": "شهيدا",
+            "meaning": "رَسُولًا شَاهِدًا يَشْهَدُ عَلَى قَوْمِهِ بِشِرْكِهِمْ.",
+            "meaning_normalized": "رسولا شاهدا يشهد على قومه بشركهم"
+          },
+          {
+            "ayah_number": 75,
+            "word": "وَضَلَّ",
+            "word_normalized": "وضل",
+            "meaning": "ذَهَبَ.",
+            "meaning_normalized": "ذهب"
+          },
+          {
+            "ayah_number": 75,
+            "word": "يَفْتَرُونَ",
+            "word_normalized": "يفترون",
+            "meaning": "يَخْتَلِقُونَهُ مِنَ الْكَذِبِ.",
+            "meaning_normalized": "يختلقونه من الكذب"
+          },
+          {
+            "ayah_number": 76,
+            "word": "فَبَغَىٰ عَلَيْهِمْ",
+            "word_normalized": "فبغى عليهم",
+            "meaning": "تَجَاوَزَ حَدَّهُ فِي الْكِبْرِ وَالتَّجَبُّرِ عَلَيْهِمْ.",
+            "meaning_normalized": "تجاوز حده في الكبر والتجبر عليهم"
+          },
+          {
+            "ayah_number": 76,
+            "word": "ٱلْكُنُوزُ",
+            "word_normalized": "الكنوز",
+            "meaning": "خَزَائِنِ الْأَمْوَالِ.",
+            "meaning_normalized": "خزائن الأموال"
+          },
+          {
+            "ayah_number": 76,
+            "word": "مَفَاتِحَهُۥ",
+            "word_normalized": "مفاتحه",
+            "meaning": "مَفَاتِيحَ خَزَائِنِ مَالِهِ وَصَنَادِيقِهِ الْمُقْفَلَةِ.",
+            "meaning_normalized": "مفاتيح خزائن ماله وصناديقه المقفلة"
+          },
+          {
+            "ayah_number": 76,
+            "word": "لَتَنُوٓأُ بِٱلْعُصْبَةِ",
+            "word_normalized": "لتنوأ بالعصبة",
+            "meaning": "لَيَثْقُلُ حَمْلُهَا عَلَى الْجَمَاعَةِ الْكَثِيرَةِ.",
+            "meaning_normalized": "ليثقل حملها على الجماعة الكثيرة"
+          },
+          {
+            "ayah_number": 76,
+            "word": "لَا تَفْرَحْ",
+            "word_normalized": "لا تفرح",
+            "meaning": "لَا تَبْطَرْ.",
+            "meaning_normalized": "لا تبطر"
+          },
+          {
+            "ayah_number": 77,
+            "word": "وَٱبْتَغِ",
+            "word_normalized": "وابتغ",
+            "meaning": "الْتَمِسْ وَاطْلُبْ.",
+            "meaning_normalized": "التمس واطلب"
+          },
+          {
+            "ayah_number": 77,
+            "word": "وَلَا تَنسَ نَصِيبَكَ",
+            "word_normalized": "ولا تنس نصيبك",
+            "meaning": "لَا تَتْرُكْ حَظَّكَ.",
+            "meaning_normalized": "لا تترك حظك"
+          },
+          {
+            "ayah_number": 78,
+            "word": "ٱلْقُرُونِ",
+            "word_normalized": "القرون",
+            "meaning": "الْأُمَمِ.",
+            "meaning_normalized": "الأمم"
+          }
+        ]
+      }
+    ]
+  }
+}

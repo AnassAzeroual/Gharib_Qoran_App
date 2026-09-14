@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 170,
+    "header": {
+      "right": "سُورَةُ الرُّومِ",
+      "right_normalized": "سورة الروم",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرُّومِ",
+          "name_normalized": "سورة الروم",
+          "order": 30,
+          "ayat_count": 60,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "غُلِبَتِ ٱلرُّومُ",
+            "word_normalized": "غلبت الروم",
+            "meaning": "هَزَمَتْ فَارِسُ الرُّومَ.",
+            "meaning_normalized": "هزمت فارس الروم"
+          },
+          {
+            "ayah_number": 3,
+            "word": "أَدْنَى ٱلْأَرْضِ",
+            "word_normalized": "أدنى الأرض",
+            "meaning": "أَقْرَبَ أَرْضِ الشَّامِ إِلَى فَارِسَ.",
+            "meaning_normalized": "أقرب أرض الشام إلى فارس"
+          },
+          {
+            "ayah_number": 3,
+            "word": "غَلَبِهِمْ",
+            "word_normalized": "غلبهم",
+            "meaning": "كَوْنِهِمْ مَغْلُوبِينَ.",
+            "meaning_normalized": "كونهم مغلوبين"
+          },
+          {
+            "ayah_number": 4,
+            "word": "بِضْعِ سِنِينَ",
+            "word_normalized": "بضع سنين",
+            "meaning": "الْبِضْعُ: مُدَّةٌ لَا تَزِيدُ عَلَى عَشْرِ سَنَوَاتٍ، وَلَا تَنْقُصُ عَنْ ثَلَاثٍ.",
+            "meaning_normalized": "البضع مدة لا تزيد على عشر سنوات ولا تنقص عن ثلاث"
+          },
+          {
+            "ayah_number": 8,
+            "word": "وَأَجَلٍ مُّسَمًّى",
+            "word_normalized": "وأجل مسمى",
+            "meaning": "وَقْتٍ مُقَدَّرٍ تَنْتَهِي إِلَيْهِ.",
+            "meaning_normalized": "وقت مقدر تنتهي إليه"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَأَثَارُوا",
+            "word_normalized": "وأثاروا",
+            "meaning": "حَرَثُوا وَزَرَعُوا.",
+            "meaning_normalized": "حرثوا وزرعوا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "ٱلسُّوٓأَىٰٓ",
+            "word_normalized": "السوأى",
+            "meaning": "الْعُقُوبَةُ الْمُتَنَاهِيَةُ فِي السُّوءِ.",
+            "meaning_normalized": "العقوبة المتناهية في السوء"
+          },
+          {
+            "ayah_number": 12,
+            "word": "يُبْلِسُ",
+            "word_normalized": "يبلس",
+            "meaning": "يَيْأَسُ مِنَ النَّجَاةِ مِنَ الْعَذَابِ.",
+            "meaning_normalized": "ييأس من النجاة من العذاب"
+          },
+          {
+            "ayah_number": 15,
+            "word": "يُحْبَرُونَ",
+            "word_normalized": "يحبرون",
+            "meaning": "يُكْرَمُونَ، وَيُنَعَّمُونَ.",
+            "meaning_normalized": "يكرمون وينعمون"
+          },
+          {
+            "ayah_number": 16,
+            "word": "مُحْضَرُونَ",
+            "word_normalized": "محضرون",
+            "meaning": "مُقِيمُونَ.",
+            "meaning_normalized": "مقيمون"
+          },
+          {
+            "ayah_number": 18,
+            "word": "تُظْهِرُونَ",
+            "word_normalized": "تظهرون",
+            "meaning": "تَدْخُلُونَ وَقْتَ الظَّهِيرَةِ.",
+            "meaning_normalized": "تدخلون وقت الظهيرة"
+          },
+          {
+            "ayah_number": 22,
+            "word": "لِّلْعَٰلِمِينَ",
+            "word_normalized": "للعالمين",
+            "meaning": "جَمْعُ عَالِمٍ، وَهُمْ ذَوُو الْعِلْمِ وَالْبَصِيرَةِ.",
+            "meaning_normalized": "جمع عالم وهم ذوو العلم والبصيرة"
+          },
+          {
+            "ayah_number": 23,
+            "word": "وَٱبْتِغَآؤُكُم مِّن فَضْلِهِۦ",
+            "word_normalized": "وابتغاؤكم من فضله",
+            "meaning": "طَلَبُكُمْ لِلرِّزْقِ فِي النَّهَارِ.",
+            "meaning_normalized": "طلبكم للرزق في النهار"
+          },
+          {
+            "ayah_number": 24,
+            "word": "خَوْفًا وَطَمَعًا",
+            "word_normalized": "خوفا وطمعا",
+            "meaning": "تَخَافُونَ مِنَ الصَّوَاعِقِ، وَتَطْمَعُونَ فِي الْغَيْثِ.",
+            "meaning_normalized": "تخافون من الصواعق وتطمعون في الغيث"
+          },
+          {
+            "ayah_number": 26,
+            "word": "قَٰنِتُونَ",
+            "word_normalized": "قانتون",
+            "meaning": "مُطِيعُونَ مُنْقَادُونَ لِأَمْرِهِ.",
+            "meaning_normalized": "مطيعون منقادون لأمره"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَلَهُ ٱلْمَثَلُ ٱلْأَعْلَىٰ",
+            "word_normalized": "وله المثل الأعلى",
+            "meaning": "الْوَصْفُ الْأَعْلَى فِي كُلِّ مَا يُوصَفُ بِهِ.",
+            "meaning_normalized": "الوصف الأعلى في كل ما يوصف به"
+          },
+          {
+            "ayah_number": 28,
+            "word": "فَأَنتُمْ فِيهِ سَوَآءٌ",
+            "word_normalized": "فأنتم فيه سواء",
+            "meaning": "مُتَسَاوُونَ.",
+            "meaning_normalized": "متساوون"
+          }
+        ]
+      }
+    ]
+  }
+}

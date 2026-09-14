@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 168,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْعَنْكَبُوتِ",
+          "name_normalized": "سورة العنكبوت",
+          "order": 29,
+          "ayat_count": 69,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 31,
+            "word": "بِٱلْبُشْرَىٰ",
+            "word_normalized": "بالبشرى",
+            "meaning": "بِالْخَبَرِ السَّارِّ، وَهُوَ: الْبِشَارَةُ بِإِسْحَاقَ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "بالخبر السار وهو البشارة بإسحاق عليه السلام"
+          },
+          {
+            "ayah_number": 32,
+            "word": "ٱلْغَٰبِرِينَ",
+            "word_normalized": "الغابرين",
+            "meaning": "الْبَاقِينَ فِي الْعَذَابِ.",
+            "meaning_normalized": "الباقين في العذاب"
+          },
+          {
+            "ayah_number": 33,
+            "word": "سِىٓءَ بِهِمْ",
+            "word_normalized": "سيء بهم",
+            "meaning": "سَاءَهُ مَجِيئُهُمْ خَوْفًا عَلَيْهِمْ مِنْ قَوْمِهِ أَنْ يَفْعَلُوا بِهِمُ الْفَاحِشَةَ.",
+            "meaning_normalized": "ساءه مجيئهم خوفا عليهم من قومه أن يفعلوا بهم الفاحشة"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَضَاقَ بِهِمْ ذَرْعًا",
+            "word_normalized": "وضاق بهم ذرعا",
+            "meaning": "ضَاقَ صَدْرُهُ، وَحَزِنَ خَوْفًا عَلَيْهِمْ.",
+            "meaning_normalized": "ضاق صدره وحزن خوفا عليهم"
+          },
+          {
+            "ayah_number": 34,
+            "word": "رِجْزًا",
+            "word_normalized": "رجزا",
+            "meaning": "عَذَابًا شَدِيدًا.",
+            "meaning_normalized": "عذابا شديدا"
+          },
+          {
+            "ayah_number": 35,
+            "word": "تَّرَكْنَا مِنْهَآ",
+            "word_normalized": "تركنا منها",
+            "meaning": "أَبْقَيْنَا مِنْ دِيَارِهِمْ.",
+            "meaning_normalized": "أبقينا من ديارهم"
+          },
+          {
+            "ayah_number": 35,
+            "word": "ءَايَةً بَيِّنَةً",
+            "word_normalized": "آية بينة",
+            "meaning": "آثَارًا وَاضِحَةً.",
+            "meaning_normalized": "آثارا واضحة"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَٱرْجُوا ٱلْيَوْمَ ٱلْآخِرَ",
+            "word_normalized": "وارجوا اليوم الآخر",
+            "meaning": "اطْلُبُوا بِعِبَادَتِكُمْ جَزَاءَ الْآخِرَةِ.",
+            "meaning_normalized": "اطلبوا بعبادتكم جزاء الآخرة"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَلَا تَعْثَوْا",
+            "word_normalized": "ولا تعثوا",
+            "meaning": "لَا تُكْثِرُوا الْفَسَادَ.",
+            "meaning_normalized": "لا تكثروا الفساد"
+          },
+          {
+            "ayah_number": 37,
+            "word": "ٱلرَّجْفَةُ",
+            "word_normalized": "الرجفة",
+            "meaning": "الزَّلْزَلَةُ الشَّدِيدَةُ.",
+            "meaning_normalized": "الزلزلة الشديدة"
+          },
+          {
+            "ayah_number": 37,
+            "word": "جَٰثِمِينَ",
+            "word_normalized": "جاثمين",
+            "meaning": "صَرْعَى هَالِكِينَ.",
+            "meaning_normalized": "صرعى هالكين"
+          },
+          {
+            "ayah_number": 38,
+            "word": "مُّسْتَبْصِرِينَ",
+            "word_normalized": "مستبصرين",
+            "meaning": "عَارِفِينَ بِكُفْرِهِمْ مُعْجَبِينَ بِهِ.",
+            "meaning_normalized": "عارفين بكفرهم معجبين به"
+          },
+          {
+            "ayah_number": 39,
+            "word": "وَمَا كَانُوا سَٰبِقِينَ",
+            "word_normalized": "وما كانوا سابقين",
+            "meaning": "فَائِتِينَ مِنْ عَذَابِ اللهِ.",
+            "meaning_normalized": "فائتين من عذاب الله"
+          },
+          {
+            "ayah_number": 40,
+            "word": "أَخَذْنَا بِذَنۢبِهِۦ",
+            "word_normalized": "أخذنا بذنبه",
+            "meaning": "أَخَذْنَا الْمَذْكُورِينَ بِعَذَابِنَا بِسَبَبِ ذُنُوبِهِمْ.",
+            "meaning_normalized": "أخذنا المذكورين بعذابنا بسبب ذنوبهم"
+          },
+          {
+            "ayah_number": 40,
+            "word": "حَاصِبًا",
+            "word_normalized": "حاصبا",
+            "meaning": "حِجَارَةً مِنْ طِينٍ مَنْضُودٍ.",
+            "meaning_normalized": "حجارة من طين منضود"
+          },
+          {
+            "ayah_number": 40,
+            "word": "ٱلصَّيْحَةُ",
+            "word_normalized": "الصيحة",
+            "meaning": "صَوْتٌ مِنَ السَّمَاءِ مُهْلِكٌ.",
+            "meaning_normalized": "صوت من السماء مهلك"
+          },
+          {
+            "ayah_number": 41,
+            "word": "أَوْهَنَ",
+            "word_normalized": "أوهن",
+            "meaning": "أَضْعَفَ.",
+            "meaning_normalized": "أضعف"
+          },
+          {
+            "ayah_number": 43,
+            "word": "وَمَا يَعْقِلُهَآ",
+            "word_normalized": "وما يعقلها",
+            "meaning": "يَتَدَبَّرُهَا، وَيَفْهَمُهَا.",
+            "meaning_normalized": "يتدبرها ويفهمها"
+          },
+          {
+            "ayah_number": 45,
+            "word": "أَكْبَرُ",
+            "word_normalized": "أكبر",
+            "meaning": "أَعْظَمُ وَأَفْضَلُ مِنْ كُلِّ شَيْءٍ.",
+            "meaning_normalized": "أعظم وأفضل من كل شيء"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 135,
+    "header": {
+      "right": "سُورَةُ الْحَجِّ",
+      "right_normalized": "سورة الحج",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحَجِّ",
+          "name_normalized": "سورة الحج",
+          "order": 22,
+          "ayat_count": 78,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 33,
+            "word": "لَكُمْ فِيهَا مَنَٰفِعُ",
+            "word_normalized": "لكم فيها منافع",
+            "meaning": "يَحِلُّ الِانْتِفَاعُ بِهَا بِالرُّكُوبِ، وَشُرْبِ اللَّبَنِ.",
+            "meaning_normalized": "يحل الانتفاع بها بالركوب وشرب اللبن"
+          },
+          {
+            "ayah_number": 33,
+            "word": "مَحِلُّهَآ",
+            "word_normalized": "محلها",
+            "meaning": "وَقْتُ ذَبْحِهَا.",
+            "meaning_normalized": "وقت ذبحها"
+          },
+          {
+            "ayah_number": 33,
+            "word": "ٱلْبَيْتِ ٱلْعَتِيقِ",
+            "word_normalized": "البيت العتيق",
+            "meaning": "الْحَرَمِ.",
+            "meaning_normalized": "الحرم"
+          },
+          {
+            "ayah_number": 34,
+            "word": "مَنسَكًا",
+            "word_normalized": "منسكا",
+            "meaning": "نُسُكًا وَعِبَادَةً؛ بِذَبْحِ الْأَنْعَامِ تَقَرُّبًا لِلَّهِ.",
+            "meaning_normalized": "نسكا وعبادة بذبح الأنعام تقربا لله"
+          },
+          {
+            "ayah_number": 34,
+            "word": "ٱلْمُخْبِتِينَ",
+            "word_normalized": "المخبتين",
+            "meaning": "الْخَاضِعِينَ الْمُتَوَاضِعِينَ.",
+            "meaning_normalized": "الخاضعين المتواضعين"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَجِلَتْ",
+            "word_normalized": "وجلت",
+            "meaning": "خَافَتْ.",
+            "meaning_normalized": "خافت"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَٱلْبُدْنَ",
+            "word_normalized": "والبدن",
+            "meaning": "الْإِبِلَ، جَمْعُ بَدَنَةٍ.",
+            "meaning_normalized": "الإبل جمع بدنة"
+          },
+          {
+            "ayah_number": 36,
+            "word": "شَعَٰٓئِرِ ٱللَّهِ",
+            "word_normalized": "شعائر الله",
+            "meaning": "أَعْلَامِ دِينِهِ.",
+            "meaning_normalized": "أعلام دينه"
+          },
+          {
+            "ayah_number": 36,
+            "word": "صَوَآفَّ",
+            "word_normalized": "صواف",
+            "meaning": "قَائِمَاتٍ؛ قَدْ صُفَّتْ ثَلَاثٌ مِنْ قَوَائِمِهَا، وَقُيِّدَتِ الرَّابِعَةُ.",
+            "meaning_normalized": "قائمات قد صفت ثلاث من قوائمها وقيدت الرابعة"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَجَبَتْ",
+            "word_normalized": "وجبت",
+            "meaning": "سَقَطَتْ عَلَى الْأَرْضِ بَعْدَ النَّحْرِ.",
+            "meaning_normalized": "سقطت على الأرض بعد النحر"
+          },
+          {
+            "ayah_number": 36,
+            "word": "ٱلْقَانِعَ",
+            "word_normalized": "القانع",
+            "meaning": "الْفَقِيرَ الَّذِي لَمْ يَسْأَلْ تَعَفُّفًا.",
+            "meaning_normalized": "الفقير الذي لم يسأل تعففا"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَٱلْمُعْتَرَّ",
+            "word_normalized": "والمعتر",
+            "meaning": "الَّذِي يَسْأَلُ لِحَاجَتِهِ.",
+            "meaning_normalized": "الذي يسأل لحاجته"
+          },
+          {
+            "ayah_number": 37,
+            "word": "يَنَالَ ٱللَّهَ",
+            "word_normalized": "ينال الله",
+            "meaning": "يَصِلَ إِلَى اللهِ.",
+            "meaning_normalized": "يصل إلى الله"
+          },
+          {
+            "ayah_number": 38,
+            "word": "خَوَّانٍ",
+            "word_normalized": "خوان",
+            "meaning": "كَثِيرِ الْخِيَانَةِ لِأَمَانَةِ رَبِّهِ.",
+            "meaning_normalized": "كثير الخيانة لأمانة ربه"
+          },
+          {
+            "ayah_number": 40,
+            "word": "صَوَٰمِعُ",
+            "word_normalized": "صوامع",
+            "meaning": "مَعَابِدُ رُهْبَانِ النَّصَارَى.",
+            "meaning_normalized": "معابد رهبان النصارى"
+          },
+          {
+            "ayah_number": 40,
+            "word": "وَبِيَعٌ",
+            "word_normalized": "وبيع",
+            "meaning": "كَنَائِسُ النَّصَارَى.",
+            "meaning_normalized": "كنائس النصارى"
+          },
+          {
+            "ayah_number": 40,
+            "word": "وَصَلَوَٰتٌ",
+            "word_normalized": "وصلوات",
+            "meaning": "مَعَابِدُ الْيَهُودِ.",
+            "meaning_normalized": "معابد اليهود"
+          },
+          {
+            "ayah_number": 40,
+            "word": "وَمَسَٰجِدُ",
+            "word_normalized": "ومساجد",
+            "meaning": "مَعَابِدُ الْمُسْلِمِينَ.",
+            "meaning_normalized": "معابد المسلمين"
+          },
+          {
+            "ayah_number": 44,
+            "word": "فَأَمْلَيْتُ لِلْكَٰفِرِينَ",
+            "word_normalized": "فأمليت للكافرين",
+            "meaning": "فَأَمْهَلْتُ وَلَمْ أُعَاجِلْ بِالْعُقُوبَةِ.",
+            "meaning_normalized": "فأمهلت ولم أعاجل بالعقوبة"
+          },
+          {
+            "ayah_number": 44,
+            "word": "نَكِيرِ",
+            "word_normalized": "نكير",
+            "meaning": "إِنْكَارِي عَلَيْهِمْ كُفْرَهُمْ بِالْعَذَابِ وَالْهَلَاكِ.",
+            "meaning_normalized": "إنكاري عليهم كفرهم بالعذاب والهلاك"
+          }
+        ]
+      }
+    ]
+  }
+}

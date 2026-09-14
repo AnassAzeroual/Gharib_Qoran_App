@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 169,
+    "header": {
+      "right": "سُورَةُ الْعَنْكَبُوتِ",
+      "right_normalized": "سورة العنكبوت",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْعَنْكَبُوتِ",
+          "name_normalized": "سورة العنكبوت",
+          "order": 29,
+          "ayat_count": 69,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 46,
+            "word": "ظَلَمُوا مِنْهُمْ",
+            "word_normalized": "ظلموا منهم",
+            "meaning": "عَانَدُوا الْحَقَّ، وَأَعْلَنُوا الْحَرْبَ.",
+            "meaning_normalized": "عاندوا الحق وأعلنوا الحرب"
+          },
+          {
+            "ayah_number": 46,
+            "word": "مُسْلِمُونَ",
+            "word_normalized": "مسلمون",
+            "meaning": "خَاضِعُونَ مُتَذَلِّلُونَ بِالطَّاعَةِ.",
+            "meaning_normalized": "خاضعون متذللون بالطاعة"
+          },
+          {
+            "ayah_number": 47,
+            "word": "وَمِنْ هَٰٓؤُلَآءِ",
+            "word_normalized": "ومن هؤلاء",
+            "meaning": "الْعَرَبِ مِنْ قُرَيْشٍ.",
+            "meaning_normalized": "العرب من قريش"
+          },
+          {
+            "ayah_number": 50,
+            "word": "لَوْلَآ",
+            "word_normalized": "لولا",
+            "meaning": "هَلَّا.",
+            "meaning_normalized": "هلا"
+          },
+          {
+            "ayah_number": 50,
+            "word": "ءَايَٰتٌ",
+            "word_normalized": "آيات",
+            "meaning": "حُجَجٌ وَبَرَاهِينُ نُشَاهِدُهَا؛ كَنَاقَةِ صَالِحٍ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "حجج وبراهين نشاهدها كناقة صالح عليه السلام"
+          },
+          {
+            "ayah_number": 53,
+            "word": "أَجَلٌ مُّسَمًّى",
+            "word_normalized": "أجل مسمى",
+            "meaning": "وَقْتُ عَذَابِهِمُ الْمُقَدَّرُ عِنْدَ اللهِ.",
+            "meaning_normalized": "وقت عذابهم المقدر عند الله"
+          },
+          {
+            "ayah_number": 53,
+            "word": "بَغْتَةً",
+            "word_normalized": "بغتة",
+            "meaning": "فَجْأَةً.",
+            "meaning_normalized": "فجأة"
+          },
+          {
+            "ayah_number": 55,
+            "word": "يَغْشَىٰهُمُ",
+            "word_normalized": "يغشاهم",
+            "meaning": "يُحِيطُ بِهِمْ وَيَعْلُوهُمْ.",
+            "meaning_normalized": "يحيط بهم ويعلوهم"
+          },
+          {
+            "ayah_number": 58,
+            "word": "لَنُبَوِّئَنَّهُم",
+            "word_normalized": "لنبوئنهم",
+            "meaning": "لِنُنْزِلَنَّهُمْ.",
+            "meaning_normalized": "لننزلنهم"
+          },
+          {
+            "ayah_number": 58,
+            "word": "غُرَفًا",
+            "word_normalized": "غرفا",
+            "meaning": "مَنَازِلَ عَالِيَةً.",
+            "meaning_normalized": "منازل عالية"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَكَأَيِّن مِّن",
+            "word_normalized": "وكأين من",
+            "meaning": "وَكَمْ مِنْ؟",
+            "meaning_normalized": "وكم من"
+          },
+          {
+            "ayah_number": 60,
+            "word": "لَا تَحْمِلُ رِزْقَهَا",
+            "word_normalized": "لا تحمل رزقها",
+            "meaning": "لَا تَدَّخِرُهُ لِغَدٍ.",
+            "meaning_normalized": "لا تدخره لغد"
+          },
+          {
+            "ayah_number": 61,
+            "word": "فَأَنَّىٰ يُؤْفَكُونَ",
+            "word_normalized": "فأنى يؤفكون",
+            "meaning": "فَكَيْفَ يُصْرَفُونَ عَنِ الْإِيمَانِ؟",
+            "meaning_normalized": "فكيف يصرفون عن الإيمان"
+          },
+          {
+            "ayah_number": 62,
+            "word": "يَبْسُطُ",
+            "word_normalized": "يبسط",
+            "meaning": "يُوَسِّعُ.",
+            "meaning_normalized": "يوسع"
+          },
+          {
+            "ayah_number": 62,
+            "word": "وَيَقْدِرُ",
+            "word_normalized": "ويقدر",
+            "meaning": "يُضَيِّقُ.",
+            "meaning_normalized": "يضيق"
+          },
+          {
+            "ayah_number": 64,
+            "word": "ٱلْحَيَوَانُ",
+            "word_normalized": "الحيوان",
+            "meaning": "الْحَيَاةُ الْحَقِيقِيَّةُ الْكَامِلَةُ الدَّائِمَةُ.",
+            "meaning_normalized": "الحياة الحقيقية الكاملة الدائمة"
+          },
+          {
+            "ayah_number": 65,
+            "word": "ٱلْفُلْكِ",
+            "word_normalized": "الفلك",
+            "meaning": "السُّفُنِ.",
+            "meaning_normalized": "السفن"
+          },
+          {
+            "ayah_number": 67,
+            "word": "حَرَمًا ءَامِنًا",
+            "word_normalized": "حرما آمنا",
+            "meaning": "هِيَ: مَكَّةُ.",
+            "meaning_normalized": "هي مكة"
+          },
+          {
+            "ayah_number": 67,
+            "word": "وَيُتَخَطَّفُ ٱلنَّاسُ",
+            "word_normalized": "ويتخطف الناس",
+            "meaning": "يُسْتَلَبُونَ بِسُرْعَةٍ قَتْلًا وَأَسْرًا.",
+            "meaning_normalized": "يستلبون بسرعة قتلا وأسرا"
+          },
+          {
+            "ayah_number": 68,
+            "word": "مَثْوًى",
+            "word_normalized": "مثوى",
+            "meaning": "مَسْكَنٌ وَمُسْتَقَرٌّ.",
+            "meaning_normalized": "مسكن ومستقر"
+          }
+        ]
+      }
+    ]
+  }
+}

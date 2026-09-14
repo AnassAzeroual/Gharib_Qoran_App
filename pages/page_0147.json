@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 147,
+    "header": {
+      "right": "سُورَةُ الْفُرْقَانِ",
+      "right_normalized": "سورة الفرقان",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْفُرْقَانِ",
+          "name_normalized": "سورة الفرقان",
+          "order": 25,
+          "ayat_count": 77,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "word": "نُشُورًا",
+            "word_normalized": "نشورا",
+            "meaning": "بَعْثًا بَعْدَ الْمَوْتِ.",
+            "meaning_normalized": "بعثا بعد الموت"
+          },
+          {
+            "ayah_number": 4,
+            "word": "إِفْكٌ ٱفْتَرَىٰهُ",
+            "word_normalized": "إفك افتراه",
+            "meaning": "كَذِبٌ اخْتَرَعَهُ مِنْ عِنْدِ نَفْسِهِ.",
+            "meaning_normalized": "كذب اخترعه من عند نفسه"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَزُورًا",
+            "word_normalized": "وزورا",
+            "meaning": "كَذِبًا شَنِيعًا.",
+            "meaning_normalized": "كذبا شنيعا"
+          },
+          {
+            "ayah_number": 5,
+            "word": "أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+            "word_normalized": "أساطير الأولين",
+            "meaning": "أَحَادِيثُ الْأُمَمِ الْقَدِيمَةِ الْمُسَطَّرَةُ فِي كُتُبِهِمْ.",
+            "meaning_normalized": "أحاديث الأمم القديمة المسطرة في كتبهم"
+          },
+          {
+            "ayah_number": 5,
+            "word": "بُكْرَةً وَأَصِيلًا",
+            "word_normalized": "بكرة وأصيلا",
+            "meaning": "أَوَّلَ النَّهَارِ، وَآخِرَهُ.",
+            "meaning_normalized": "أول النهار وآخره"
+          },
+          {
+            "ayah_number": 8,
+            "word": "جَنَّةٌ",
+            "word_normalized": "جنة",
+            "meaning": "بُسْتَانٌ مُثْمِرٌ.",
+            "meaning_normalized": "بستان مثمر"
+          },
+          {
+            "ayah_number": 9,
+            "word": "ضَرَبُوا لَكَ ٱلْأَمْثَٰلَ",
+            "word_normalized": "ضربوا لك الأمثال",
+            "meaning": "قَالُوا فِي حَقِّكَ الْأَقْوَالَ الْعَجِيبَةَ الَّتِي تُشْبِهُ لِغَرَابَتِهَا الْأَمْثَالَ.",
+            "meaning_normalized": "قالوا في حقك الأقوال العجيبة التي تشبه لغرابتها الأمثال"
+          },
+          {
+            "ayah_number": 11,
+            "word": "سَعِيرًا",
+            "word_normalized": "سعيرا",
+            "meaning": "نَارًا حَارَّةً تُسَعَّرُ بِهِمْ.",
+            "meaning_normalized": "نارا حارة تسعر بهم"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَزَفِيرًا",
+            "word_normalized": "وزفيرا",
+            "meaning": "صَوْتًا شَدِيدًا مِنْ شِدَّةِ الْغَيْظِ.",
+            "meaning_normalized": "صوتا شديدا من شدة الغيظ"
+          },
+          {
+            "ayah_number": 13,
+            "word": "مُقَرَّنِينَ",
+            "word_normalized": "مقرنين",
+            "meaning": "قُرِنَتْ أَيْدِيهِمْ بِالسَّلَاسِلِ إِلَى أَعْنَاقِهِمْ.",
+            "meaning_normalized": "قرنت أيديهم بالسلاسل إلى أعناقهم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "ثُبُورًا",
+            "word_normalized": "ثبورا",
+            "meaning": "هَلَاكًا.",
+            "meaning_normalized": "هلاكا"
+          },
+          {
+            "ayah_number": 18,
+            "word": "بُورًا",
+            "word_normalized": "بورا",
+            "meaning": "هَالِكِينَ.",
+            "meaning_normalized": "هالكين"
+          },
+          {
+            "ayah_number": 19,
+            "word": "صَرْفًا",
+            "word_normalized": "صرفا",
+            "meaning": "دَفْعًا لِلْعَذَابِ.",
+            "meaning_normalized": "دفعا للعذاب"
+          },
+          {
+            "ayah_number": 20,
+            "word": "فِتْنَةً",
+            "word_normalized": "فتنة",
+            "meaning": "ابْتِلَاءً، وَاخْتِبَارًا.",
+            "meaning_normalized": "ابتلاء واختبارا"
+          },
+          {
+            "ayah_number": 21,
+            "word": "لَا يَرْجُونَ لِقَآءَنَا",
+            "word_normalized": "لا يرجون لقاءنا",
+            "meaning": "لَا يُؤْمِنُونَ بِالْيَوْمِ الْآخِرِ.",
+            "meaning_normalized": "لا يؤمنون باليوم الآخر"
+          },
+          {
+            "ayah_number": 21,
+            "word": "وَعَتَوْ",
+            "word_normalized": "وعتو",
+            "meaning": "تَجَاوَزُوا الْحَدَّ فِي الطُّغْيَانِ.",
+            "meaning_normalized": "تجاوزوا الحد في الطغيان"
+          },
+          {
+            "ayah_number": 22,
+            "word": "حِجْرًا مَّحْجُورًا",
+            "word_normalized": "حجرا محجورا",
+            "meaning": "تَقُولُ الْمَلَائِكَةُ لَهُمْ: الْجَنَّةُ مَكَانٌ مُحَرَّمٌ عَلَيْكُمْ.",
+            "meaning_normalized": "تقول الملائكة لهم الجنة مكان محرم عليكم"
+          },
+          {
+            "ayah_number": 23,
+            "word": "هَبَآءً",
+            "word_normalized": "هباء",
+            "meaning": "كَالْهَبَاءِ، وَهُوَ مَا يُرَى فِي ضَوْءِ الشَّمْسِ مِنْ خَفِيفِ الْغُبَارِ.",
+            "meaning_normalized": "كالهباء وهو ما يرى في ضوء الشمس من خفيف الغبار"
+          }
+        ]
+      }
+    ]
+  }
+}

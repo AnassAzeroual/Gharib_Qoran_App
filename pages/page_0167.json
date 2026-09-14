@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 167,
+    "header": {
+      "right": "سُورَةُ الْعَنْكَبُوتِ",
+      "right_normalized": "سورة العنكبوت",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْعَنْكَبُوتِ",
+          "name_normalized": "سورة العنكبوت",
+          "order": 29,
+          "ayat_count": 69,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 10,
+            "word": "فِتْنَةَ ٱلنَّاسِ",
+            "word_normalized": "فتنة الناس",
+            "meaning": "عَذَابَ النَّاسِ لَهُ، وَأَذَاهُمْ.",
+            "meaning_normalized": "عذاب الناس له وأذاهم"
+          },
+          {
+            "ayah_number": 12,
+            "word": "سَبِيلَنَا",
+            "word_normalized": "سبيلنا",
+            "meaning": "دِينَنَا.",
+            "meaning_normalized": "ديننا"
+          },
+          {
+            "ayah_number": 13,
+            "word": "أَثْقَالَهُمْ",
+            "word_normalized": "أثقالهم",
+            "meaning": "أَوْزَارَهُمْ.",
+            "meaning_normalized": "أوزارهم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "يَفْتَرُونَ",
+            "word_normalized": "يفترون",
+            "meaning": "يَخْتَلِقُونَ مِنَ الْكَذِبِ.",
+            "meaning_normalized": "يختلقون من الكذب"
+          },
+          {
+            "ayah_number": 17,
+            "word": "وَتَخْلُقُونَ إِفْكًا",
+            "word_normalized": "وتخلقون إفكا",
+            "meaning": "تَفْتَرُونَ كَذِبًا.",
+            "meaning_normalized": "تفترون كذبا"
+          },
+          {
+            "ayah_number": 17,
+            "word": "فَٱبْتَغُوا",
+            "word_normalized": "فابتغوا",
+            "meaning": "الْتَمِسُوا وَاطْلُبُوا.",
+            "meaning_normalized": "التمسوا واطلبوا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "بَدَأَ ٱلْخَلْقَ",
+            "word_normalized": "بدأ الخلق",
+            "meaning": "أَنْشَأَهُ.",
+            "meaning_normalized": "أنشأه"
+          },
+          {
+            "ayah_number": 21,
+            "word": "تُقْلَبُونَ",
+            "word_normalized": "تقلبون",
+            "meaning": "تُرَدُّونَ، وَتُرْجَعُونَ.",
+            "meaning_normalized": "تردون وترجعون"
+          },
+          {
+            "ayah_number": 22,
+            "word": "بِمُعْجِزِينَ",
+            "word_normalized": "بمعجزين",
+            "meaning": "فَائِتِينَ مِنْ عَذَابِهِ بِالْهَرَبِ وَغَيْرِهِ.",
+            "meaning_normalized": "فائتين من عذابه بالهرب وغيره"
+          },
+          {
+            "ayah_number": 25,
+            "word": "مَّوَدَّةَ بَيْنِكُمْ",
+            "word_normalized": "مودة بينكم",
+            "meaning": "تَتَحَابُّونَ عَلَى عِبَادَتِهَا، وَتَتَوَادُّونَ عَلَى خِدْمَتِهَا.",
+            "meaning_normalized": "تتحابون على عبادتها وتتوادون على خدمتها"
+          },
+          {
+            "ayah_number": 25,
+            "word": "يَكْفُرُ",
+            "word_normalized": "يكفر",
+            "meaning": "يَتَبَرَّأُ.",
+            "meaning_normalized": "يتبرأ"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وَمَأْوَىٰكُمُ",
+            "word_normalized": "ومأواكم",
+            "meaning": "مَصِيرُكُمْ.",
+            "meaning_normalized": "مصيركم"
+          },
+          {
+            "ayah_number": 26,
+            "word": "مُهَاجِرٌ",
+            "word_normalized": "مهاجر",
+            "meaning": "تَارِكٌ دَارَ قَوْمِي إِلَى أَرْضِ الشَّامِ الْمُبَارَكَةِ.",
+            "meaning_normalized": "تارك دار قومي إلى أرض الشام المباركة"
+          },
+          {
+            "ayah_number": 27,
+            "word": "أَجْرَهُۥ فِى ٱلدُّنْيَا",
+            "word_normalized": "أجره في الدنيا",
+            "meaning": "بِالذِّكْرِ الْحَسَنِ، وَالْوَلَدِ الصَّالِحِ وَالنُّبُوَّةِ فِي ذُرِّيَّتِهِ.",
+            "meaning_normalized": "بالذكر الحسن والولد الصالح والنبوة في ذريته"
+          },
+          {
+            "ayah_number": 29,
+            "word": "وَتَقْطَعُونَ ٱلسَّبِيلَ",
+            "word_normalized": "وتقطعون السبيل",
+            "meaning": "تَقْطَعُونَ طُرُقَ الْمُسَافِرِينَ بِفِعْلِكُمُ الْفَاحِشَةَ بِهِمْ.",
+            "meaning_normalized": "تقطعون طرق المسافرين بفعلكم الفاحشة بهم"
+          },
+          {
+            "ayah_number": 29,
+            "word": "نَادِيكُمُ",
+            "word_normalized": "ناديكم",
+            "meaning": "مَجْلِسِكُمُ الَّذِي تَجْتَمِعُونَ فِيهِ.",
+            "meaning_normalized": "مجلسكم الذي تجتمعون فيه"
+          },
+          {
+            "ayah_number": 29,
+            "word": "ٱلْمُنكَرَ",
+            "word_normalized": "المنكر",
+            "meaning": "الْأَعْمَالَ الْمُنْكَرَةَ؛ كَالسُّخْرِيَةِ مِنَ النَّاسِ، وَقَذْفِ الْمَارَّةِ.",
+            "meaning_normalized": "الأعمال المنكرة كالسخرية من الناس وقذف المارة"
+          }
+        ]
+      }
+    ]
+  }
+}

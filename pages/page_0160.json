@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 160,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّمْلِ",
+          "name_normalized": "سورة النمل",
+          "order": 27,
+          "ayat_count": 93,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 82,
+            "word": "تُكَلِّمُهُمْ",
+            "word_normalized": "تكلمهم",
+            "meaning": "تُحَدِّثُهُمْ فَتَقُولُ: إِنَّ النَّاسَ...",
+            "meaning_normalized": "تحدثهم فتقول إن الناس"
+          },
+          {
+            "ayah_number": 83,
+            "word": "نَحْشُرُ",
+            "word_normalized": "نحشر",
+            "meaning": "نَجْمَعُ.",
+            "meaning_normalized": "نجمع"
+          },
+          {
+            "ayah_number": 83,
+            "word": "فَوْجًا",
+            "word_normalized": "فوجا",
+            "meaning": "جَمَاعَةً.",
+            "meaning_normalized": "جماعة"
+          },
+          {
+            "ayah_number": 83,
+            "word": "يُوزَعُونَ",
+            "word_normalized": "يوزعون",
+            "meaning": "يُدْفَعُونَ أَوْ يُحْبَسُ أَوَّلُ الْمُكَذِّبِينَ مِنْ كُلِّ أُمَّةٍ عَلَى آخِرِهِمْ؛ لِيَجْتَمِعُوا، ثُمَّ يُسَاقُونَ إِلَى الْحِسَابِ.",
+            "meaning_normalized": "يدفعون أو يحبس أول المكذبين من كل أمة على آخرهم ليجتمعوا ثم يساقون إلى الحساب"
+          },
+          {
+            "ayah_number": 85,
+            "word": "وَوَقَعَ ٱلْقَوْلُ عَلَيْهِم",
+            "word_normalized": "ووقع القول عليهم",
+            "meaning": "حَقَّتْ عَلَيْهِمْ كَلِمَةُ الْعَذَابِ.",
+            "meaning_normalized": "حقت عليهم كلمة العذاب"
+          },
+          {
+            "ayah_number": 85,
+            "word": "لَا يَنطِقُونَ",
+            "word_normalized": "لا ينطقون",
+            "meaning": "لَا يَتَكَلَّمُونَ بِحُجَّةٍ تَدْفَعُ الْعَذَابَ عَنْهُمْ.",
+            "meaning_normalized": "لا يتكلمون بحجة تدفع العذاب عنهم"
+          },
+          {
+            "ayah_number": 86,
+            "word": "مُبْصِرًا",
+            "word_normalized": "مبصرا",
+            "meaning": "يُبْصِرُونَ فِيهِ.",
+            "meaning_normalized": "يبصرون فيه"
+          },
+          {
+            "ayah_number": 87,
+            "word": "ٱلصُّورِ",
+            "word_normalized": "الصور",
+            "meaning": "الْقَرْنِ الَّذِي يَنْفُخُ فِيهِ إِسْرَافِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل عليه السلام"
+          },
+          {
+            "ayah_number": 87,
+            "word": "دَٰخِرِينَ",
+            "word_normalized": "داخرين",
+            "meaning": "صَاغِرِينَ أَذِلَّاءَ.",
+            "meaning_normalized": "صاغرين أذلاء"
+          },
+          {
+            "ayah_number": 88,
+            "word": "وَتَرَى ٱلْجِبَالَ",
+            "word_normalized": "وترى الجبال",
+            "meaning": "تُبْصِرُ الْجِبَالَ يَوْمَ الْقِيَامَةِ.",
+            "meaning_normalized": "تبصر الجبال يوم القيامة"
+          },
+          {
+            "ayah_number": 88,
+            "word": "جَامِدَةً",
+            "word_normalized": "جامدة",
+            "meaning": "وَاقِفَةً مُسْتَقِرَّةً.",
+            "meaning_normalized": "واقفة مستقرة"
+          },
+          {
+            "ayah_number": 88,
+            "word": "تَمُرُّ",
+            "word_normalized": "تمر",
+            "meaning": "تَسِيرُ.",
+            "meaning_normalized": "تسير"
+          },
+          {
+            "ayah_number": 89,
+            "word": "بِٱلْحَسَنَةِ",
+            "word_normalized": "بالحسنة",
+            "meaning": "بِالتَّوْحِيدِ، وَالْإِيمَانِ، وَالْعِبَادَةِ.",
+            "meaning_normalized": "بالتوحيد والإيمان والعبادة"
+          },
+          {
+            "ayah_number": 90,
+            "word": "بِٱلسَّيِّئَةِ",
+            "word_normalized": "بالسيئة",
+            "meaning": "بِالشِّرْكِ وَالْكُفْرِ.",
+            "meaning_normalized": "بالشرك والكفر"
+          },
+          {
+            "ayah_number": 91,
+            "word": "ٱلْبَلْدَةِ",
+            "word_normalized": "البلدة",
+            "meaning": "مَكَّةَ.",
+            "meaning_normalized": "مكة"
+          },
+          {
+            "ayah_number": 91,
+            "word": "حَرَّمَهَا",
+            "word_normalized": "حرمها",
+            "meaning": "جَعَلَهَا حَرَامًا؛ فَلَا يُسْفَكُ فِيهَا دَمٌ، أَوْ يُصَادُ صَيْدٌ، أَوْ يُقْطَعُ شَجَرٌ.",
+            "meaning_normalized": "جعلها حراما فلا يسفك فيها دم أو يصاد صيد أو يقطع شجر"
+          }
+        ]
+      }
+    ]
+  }
+}

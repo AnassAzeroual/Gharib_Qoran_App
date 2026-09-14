@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 144,
+    "header": {
+      "right": "سُورَةُ النُّورِ",
+      "right_normalized": "سورة النور",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النُّورِ",
+          "name_normalized": "سورة النور",
+          "order": 24,
+          "ayat_count": 64,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 32,
+            "word": "ٱلْأَيَٰمَىٰ",
+            "word_normalized": "الأيامى",
+            "meaning": "مَنْ لَا زَوْجَ لَهُ.",
+            "meaning_normalized": "من لا زوج له"
+          },
+          {
+            "ayah_number": 33,
+            "word": "عِبَادِكُمْ",
+            "word_normalized": "عبادكم",
+            "meaning": "عَبِيدِكُمْ.",
+            "meaning_normalized": "عبيدكم"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَإِمَآئِكُمْ",
+            "word_normalized": "وإمائكم",
+            "meaning": "جَوَارِيكُمْ.",
+            "meaning_normalized": "جواريكم"
+          },
+          {
+            "ayah_number": 33,
+            "word": "يَبْتَغُونَ",
+            "word_normalized": "يبتغون",
+            "meaning": "يَطْلُبُونَ.",
+            "meaning_normalized": "يطلبون"
+          },
+          {
+            "ayah_number": 33,
+            "word": "ٱلْكِتَٰبَ",
+            "word_normalized": "الكتاب",
+            "meaning": "الْمُكَاتَبَةَ، بِأَنْ يَشْتَرُوا أَنْفُسَهُمْ مِنْ أَسْيَادِهِمْ بِمَالٍ مُقَسَّطٍ يُؤَدُّونَهُ إِلَيْهِمْ.",
+            "meaning_normalized": "المكاتبة بأن يشتروا أنفسهم من أسيادهم بمال مقسط يؤدونه إليهم"
+          },
+          {
+            "ayah_number": 33,
+            "word": "خَيْرًا",
+            "word_normalized": "خيرا",
+            "meaning": "رَشَدًا وَقُدْرَةً عَلَى الْكَسْبِ.",
+            "meaning_normalized": "رشدا وقدرة على الكسب"
+          },
+          {
+            "ayah_number": 33,
+            "word": "فَتَيَٰتِكُمْ",
+            "word_normalized": "فتياتكم",
+            "meaning": "جَوَارِيكُمْ.",
+            "meaning_normalized": "جواريكم"
+          },
+          {
+            "ayah_number": 33,
+            "word": "ٱلْبِغَآءِ",
+            "word_normalized": "البغاء",
+            "meaning": "الزِّنَى.",
+            "meaning_normalized": "الزنى"
+          },
+          {
+            "ayah_number": 33,
+            "word": "تَحَصُّنًا",
+            "word_normalized": "تحصنا",
+            "meaning": "تَعَفُّفًا.",
+            "meaning_normalized": "تعففا"
+          },
+          {
+            "ayah_number": 35,
+            "word": "نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+            "word_normalized": "نور السموات والأرض",
+            "meaning": "أَيْ: هُوَ نُورٌ، وَكِتَابُهُ نُورٌ، وَبِهِ اسْتَنَارَتِ السَّمَوَاتُ وَالْأَرْضُ، يُدَبِّرُ الْأَمْرَ فِيهِمَا، وَيَهْدِي أَهْلَهُمَا.",
+            "meaning_normalized": "أي هو نور وكتابه نور وبه استنارت السموات والأرض يدبر الأمر فيهما ويهدي أهلهما"
+          },
+          {
+            "ayah_number": 35,
+            "word": "كَمِشْكَوٰةٍ",
+            "word_normalized": "كمشكاة",
+            "meaning": "هِيَ: الْكُوَّةُ فِي الْحَائِطِ غَيْرُ النَّافِذَةِ.",
+            "meaning_normalized": "هي الكوة في الحائط غير النافذة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "دُرِّيٌّ",
+            "word_normalized": "دري",
+            "meaning": "مُضِيءٌ.",
+            "meaning_normalized": "مضيء"
+          },
+          {
+            "ayah_number": 36,
+            "word": "فِي بُيُوتٍ",
+            "word_normalized": "في بيوت",
+            "meaning": "هَذَا النُّورُ فِي مَسَاجِدَ.",
+            "meaning_normalized": "هذا النور في مساجد"
+          },
+          {
+            "ayah_number": 36,
+            "word": "تُرْفَعَ",
+            "word_normalized": "ترفع",
+            "meaning": "تُعَظَّمَ بِالتَّعْمِيرِ، وَالتَّطْهِيرِ.",
+            "meaning_normalized": "تعظم بالتعمير والتطهير"
+          },
+          {
+            "ayah_number": 36,
+            "word": "بِٱلْغُدُوِّ وَٱلْآصَالِ",
+            "word_normalized": "بالغدو والآصال",
+            "meaning": "أَوَّلِ النَّهَارِ، وَآخِرِهِ.",
+            "meaning_normalized": "أول النهار وآخره"
+          },
+          {
+            "ayah_number": 37,
+            "word": "يَوْمًا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ",
+            "word_normalized": "يوما تتقلب فيه القلوب",
+            "meaning": "أَيْ: بَيْنَ الرَّجَاءِ، وَالْخَوْفِ.",
+            "meaning_normalized": "أي بين الرجاء والخوف"
+          },
+          {
+            "ayah_number": 38,
+            "word": "بِغَيْرِ حِسَابٍ",
+            "word_normalized": "بغير حساب",
+            "meaning": "بِلَا عَدٍّ، وَيُعْطَى مِنَ الْأَجْرِ مَا لَا يَبْلُغُهُ عَمَلُ الْعَامِلِ.",
+            "meaning_normalized": "بلا عد ويعطى من الأجر ما لا يبلغه عمل العامل"
+          }
+        ]
+      }
+    ]
+  }
+}

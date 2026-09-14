@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 154,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّعَرَاءِ",
+          "name_normalized": "سورة الشعراء",
+          "order": 26,
+          "ayat_count": 227,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 183,
+            "word": "وَلَا تَبْخَسُوا",
+            "word_normalized": "ولا تبخسوا",
+            "meaning": "لَا تَنْقُصُوا.",
+            "meaning_normalized": "لا تنقصوا"
+          },
+          {
+            "ayah_number": 183,
+            "word": "وَلَا تَعْثَوْا",
+            "word_normalized": "ولا تعثوا",
+            "meaning": "لَا تُكْثِرُوا الْفَسَادَ.",
+            "meaning_normalized": "لا تكثروا الفساد"
+          },
+          {
+            "ayah_number": 184,
+            "word": "وَٱلْجِبِلَّةَ ٱلْأَوَّلِينَ",
+            "word_normalized": "والجبلة الأولين",
+            "meaning": "الْخَلِيقَةَ وَالْأُمَمَ الْمَاضِينَ.",
+            "meaning_normalized": "الخليقة والأمم الماضين"
+          },
+          {
+            "ayah_number": 185,
+            "word": "ٱلْمُسَحَّرِينَ",
+            "word_normalized": "المسحرين",
+            "meaning": "مَنْ أَصَابَهُمْ سِحْرٌ شَدِيدٌ، فَذَهَبَ بِعُقُولِهِمْ.",
+            "meaning_normalized": "من أصابهم سحر شديد فذهب بعقولهم"
+          },
+          {
+            "ayah_number": 187,
+            "word": "كِسَفًا",
+            "word_normalized": "كسفا",
+            "meaning": "قِطَعًا مِنَ الْعَذَابِ.",
+            "meaning_normalized": "قطعا من العذاب"
+          },
+          {
+            "ayah_number": 189,
+            "word": "ٱلظُّلَّةِ",
+            "word_normalized": "الظلة",
+            "meaning": "سَحَابَةٍ أَظَلَّتْهُمْ وَجَدُوا تَحْتَهَا بَرْدًا، فَلَمَّا اجْتَمَعُوا أَحْرَقَتْهُمْ بِنَارِهَا.",
+            "meaning_normalized": "سحابة أظلتهم وجدوا تحتها بردا فلما اجتمعوا أحرقتهم بنارها"
+          },
+          {
+            "ayah_number": 193,
+            "word": "ٱلرُّوحُ ٱلْأَمِينُ",
+            "word_normalized": "الروح الأمين",
+            "meaning": "جِبْرِيلُ ﵊.",
+            "meaning_normalized": "جبريل"
+          },
+          {
+            "ayah_number": 196,
+            "word": "زُبُرِ ٱلْأَوَّلِينَ",
+            "word_normalized": "زبر الأولين",
+            "meaning": "كُتُبِ الْأَنْبِيَاءِ السَّابِقِينَ.",
+            "meaning_normalized": "كتب الأنبياء السابقين"
+          },
+          {
+            "ayah_number": 197,
+            "word": "ءَايَةً",
+            "word_normalized": "آية",
+            "meaning": "عَلَامَةً عَلَى صِحَّةِ نُبُوَّتِكَ.",
+            "meaning_normalized": "علامة على صحة نبوتك"
+          },
+          {
+            "ayah_number": 198,
+            "word": "ٱلْأَعْجَمِينَ",
+            "word_normalized": "الأعجمين",
+            "meaning": "الَّذِينَ لَا يَتَكَلَّمُونَ الْعَرَبِيَّةَ.",
+            "meaning_normalized": "الذين لا يتكلمون العربية"
+          },
+          {
+            "ayah_number": 200,
+            "word": "سَلَكْنَٰهُ",
+            "word_normalized": "سلكناه",
+            "meaning": "أَدْخَلْنَا التَّكْذِيبَ.",
+            "meaning_normalized": "أدخلنا التكذيب"
+          },
+          {
+            "ayah_number": 202,
+            "word": "بَغْتَةً",
+            "word_normalized": "بغتة",
+            "meaning": "فَجْأَةً.",
+            "meaning_normalized": "فجأة"
+          },
+          {
+            "ayah_number": 203,
+            "word": "مُنظَرُونَ",
+            "word_normalized": "منظرون",
+            "meaning": "مُمْهَلُونَ مُؤَخَّرُونَ.",
+            "meaning_normalized": "ممهلون مؤخرون"
+          },
+          {
+            "ayah_number": 205,
+            "word": "أَفَرَءَيْتَ",
+            "word_normalized": "أفرأيت",
+            "meaning": "أَفَعَلِمْتَ؟",
+            "meaning_normalized": "أفعلمت"
+          },
+          {
+            "ayah_number": 212,
+            "word": "ٱلسَّمْعِ",
+            "word_normalized": "السمع",
+            "meaning": "اسْتِمَاعِ الْقُرْآنِ مِنَ السَّمَاءِ.",
+            "meaning_normalized": "استماع القرآن من السماء"
+          },
+          {
+            "ayah_number": 212,
+            "word": "لَمَعْزُولُونَ",
+            "word_normalized": "لمعزولون",
+            "meaning": "لَمَحْجُوبُونَ مَرْجُومُونَ بِالشُّهُبِ.",
+            "meaning_normalized": "لمحجوبون مرجومون بالشهب"
+          },
+          {
+            "ayah_number": 215,
+            "word": "وَٱخْفِضْ جَنَاحَكَ",
+            "word_normalized": "واخفض جناحك",
+            "meaning": "أَلِنْ جَانِبَكَ وَكَلَامَكَ تَوَاضُعًا.",
+            "meaning_normalized": "ألن جانبك وكلامك تواضعا"
+          },
+          {
+            "ayah_number": 218,
+            "word": "حِينَ تَقُومُ",
+            "word_normalized": "حين تقوم",
+            "meaning": "تُصَلِّي اللَّيْلَ وَحْدَكَ.",
+            "meaning_normalized": "تصلي الليل وحدك"
+          },
+          {
+            "ayah_number": 222,
+            "word": "أَفَّاكٍ",
+            "word_normalized": "أفاك",
+            "meaning": "كَذَّابٍ.",
+            "meaning_normalized": "كذاب"
+          },
+          {
+            "ayah_number": 222,
+            "word": "أَثِيمٍ",
+            "word_normalized": "أثيم",
+            "meaning": "كَثِيرِ الْآثَامِ.",
+            "meaning_normalized": "كثير الآثام"
+          }
+        ]
+      }
+    ]
+  }
+}

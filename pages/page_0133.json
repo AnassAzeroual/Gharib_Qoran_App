@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 133,
+    "header": {
+      "right": "سُورَةُ الْحَجِّ",
+      "right_normalized": "سورة الحج",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحَجِّ",
+          "name_normalized": "سورة الحج",
+          "order": 22,
+          "ayat_count": 78,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 11,
+            "word": "فِتْنَةٌ",
+            "word_normalized": "فتنة",
+            "meaning": "ابْتِلَاءٌ بِمَكْرُوهٍ وَشِدَّةٍ.",
+            "meaning_normalized": "ابتلاء بمكروه وشدة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "ٱلْمَوْلَىٰ",
+            "word_normalized": "المولى",
+            "meaning": "النَّاصِرُ.",
+            "meaning_normalized": "الناصر"
+          },
+          {
+            "ayah_number": 15,
+            "word": "بِسَبَبٍ إِلَى ٱلسَّمَآءِ",
+            "word_normalized": "بسبب إلى السماء",
+            "meaning": "بِحَبْلٍ إِلَى سَقْفِ بَيْتِهِ، فَلْيَخْنُقْ بِهِ نَفْسَهُ.",
+            "meaning_normalized": "بحبل إلى سقف بيته فليخنق به نفسه"
+          },
+          {
+            "ayah_number": 15,
+            "word": "ثُمَّ لْيَقْطَعْ",
+            "word_normalized": "ثم ليقطع",
+            "meaning": "أَيْ: لِيَقْطَعْ ذَلِكَ الْحَبْلَ.",
+            "meaning_normalized": "أي ليقطع ذلك الحبل"
+          },
+          {
+            "ayah_number": 17,
+            "word": "وَٱلصَّٰبِـِٔينَ",
+            "word_normalized": "والصابئين",
+            "meaning": "عَبَدَةَ الْمَلَائِكَةِ، أَوِ الْكَوَاكِبِ.",
+            "meaning_normalized": "عبدة الملائكة أو الكواكب"
+          },
+          {
+            "ayah_number": 17,
+            "word": "وَٱلْمَجُوسَ",
+            "word_normalized": "والمجوس",
+            "meaning": "عَبَدَةَ النَّارِ.",
+            "meaning_normalized": "عبدة النار"
+          },
+          {
+            "ayah_number": 17,
+            "word": "شَهِيدٌ",
+            "word_normalized": "شهيد",
+            "meaning": "عَالِمٌ بِهِ عِلْمَ مُشَاهَدَةٍ.",
+            "meaning_normalized": "عالم به علم مشاهدة"
+          },
+          {
+            "ayah_number": 19,
+            "word": "خَصْمَانِ",
+            "word_normalized": "خصمان",
+            "meaning": "فَرِيقَانِ مُخْتَلِفَانِ، وَهُمْ أَهْلُ إِيمَانٍ، وَأَهْلُ كُفْرَانٍ.",
+            "meaning_normalized": "فريقان مختلفان وهم أهل إيمان وأهل كفران"
+          },
+          {
+            "ayah_number": 19,
+            "word": "قُطِّعَتْ لَهُمْ ثِيَابٌ",
+            "word_normalized": "قطعت لهم ثياب",
+            "meaning": "جُعِلَتْ لَهُمْ ثِيَابٌ مِنَ النَّارِ يَلْبَسُونَهَا.",
+            "meaning_normalized": "جعلت لهم ثياب من النار يلبسونها"
+          },
+          {
+            "ayah_number": 19,
+            "word": "ٱلْحَمِيمُ",
+            "word_normalized": "الحميم",
+            "meaning": "الْمَاءُ الْمُتَنَاهِي فِي حَرِّهِ.",
+            "meaning_normalized": "الماء المتناهي في حره"
+          },
+          {
+            "ayah_number": 20,
+            "word": "يُصْهَرُ بِهِۦ",
+            "word_normalized": "يصهر به",
+            "meaning": "يُذَابُ بِهِ.",
+            "meaning_normalized": "يذاب به"
+          },
+          {
+            "ayah_number": 21,
+            "word": "مَّقَٰمِعُ",
+            "word_normalized": "مقامع",
+            "meaning": "مَطَارِقُ.",
+            "meaning_normalized": "مطارق"
+          },
+          {
+            "ayah_number": 22,
+            "word": "مِنْ غَمٍّ",
+            "word_normalized": "من غم",
+            "meaning": "مِنْ شِدَّةِ غَمِّهِمْ، وَكَرْبِهِمْ.",
+            "meaning_normalized": "من شدة غمهم وكربهم"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَذُوقُواْ",
+            "word_normalized": "وذوقوا",
+            "meaning": "وَقِيلَ لَهُمْ: ذُوقُوا.",
+            "meaning_normalized": "وقيل لهم ذوقوا"
+          },
+          {
+            "ayah_number": 23,
+            "word": "يُحَلَّوْنَ",
+            "word_normalized": "يحلون",
+            "meaning": "يُزَيَّنُونَ.",
+            "meaning_normalized": "يزينون"
+          },
+          {
+            "ayah_number": 24,
+            "word": "صِرَٰطِ ٱلْحَمِيدِ",
+            "word_normalized": "صراط الحميد",
+            "meaning": "طَرِيقِ الْإِسْلَامِ الْمَحْمُودِ.",
+            "meaning_normalized": "طريق الإسلام المحمود"
+          },
+          {
+            "ayah_number": 25,
+            "word": "ٱلْعَٰكِفُ فِيهِ",
+            "word_normalized": "العاكف فيه",
+            "meaning": "الْمُقِيمُ فِيهِ.",
+            "meaning_normalized": "المقيم فيه"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وَٱلْبَادِ",
+            "word_normalized": "والباد",
+            "meaning": "الْقَادِمُ إِلَيْهِ.",
+            "meaning_normalized": "القادم إليه"
+          },
+          {
+            "ayah_number": 25,
+            "word": "يُرِدْ",
+            "word_normalized": "يرد",
+            "meaning": "يَهُمَّ.",
+            "meaning_normalized": "يهم"
+          },
+          {
+            "ayah_number": 25,
+            "word": "بِإِلْحَادٍ بِظُلْمٍ",
+            "word_normalized": "بإلحاد بظلم",
+            "meaning": "بِمَيْلٍ عَنِ الْحَقِّ ظُلْمًا.",
+            "meaning_normalized": "بميل عن الحق ظلما"
+          }
+        ]
+      }
+    ]
+  }
+}

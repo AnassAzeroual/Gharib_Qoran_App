@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 145,
+    "header": {
+      "right": "سُورَةُ النُّورِ",
+      "right_normalized": "سورة النور",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النُّورِ",
+          "name_normalized": "سورة النور",
+          "order": 24,
+          "ayat_count": 64,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 39,
+            "word": "كَسَرَابٍ",
+            "word_normalized": "كسراب",
+            "meaning": "هُوَ مَا يُشَاهَدُ كَالْمَاءِ عَلَى الْأَرْضِ الْمُسْتَوِيَةِ فِي الظَّهِيرَةِ.",
+            "meaning_normalized": "هو ما يشاهد كالماء على الأرض المستوية في الظهيرة"
+          },
+          {
+            "ayah_number": 39,
+            "word": "بِقِيعَةٍ",
+            "word_normalized": "بقيعة",
+            "meaning": "الْأَرْضُ الْمُنْخَفِضَةُ الْمُسْتَوِيَةُ.",
+            "meaning_normalized": "الأرض المنخفضة المستوية"
+          },
+          {
+            "ayah_number": 40,
+            "word": "لُجِّيٍّ",
+            "word_normalized": "لجي",
+            "meaning": "عَمِيقٍ.",
+            "meaning_normalized": "عميق"
+          },
+          {
+            "ayah_number": 40,
+            "word": "يَغْشَىٰهُ",
+            "word_normalized": "يغشاه",
+            "meaning": "يَعْلُوهُ.",
+            "meaning_normalized": "يعلوه"
+          },
+          {
+            "ayah_number": 41,
+            "word": "صَٰٓفَّٰتٍ",
+            "word_normalized": "صافات",
+            "meaning": "بَاسِطَاتٍ أَجْنِحَتَهُنَّ فِي الْهَوَاءِ.",
+            "meaning_normalized": "باسطات أجنحتهن في الهواء"
+          },
+          {
+            "ayah_number": 43,
+            "word": "يُزْجِى",
+            "word_normalized": "يزجي",
+            "meaning": "يَسُوقُ.",
+            "meaning_normalized": "يسوق"
+          },
+          {
+            "ayah_number": 43,
+            "word": "يُؤَلِّفُ",
+            "word_normalized": "يؤلف",
+            "meaning": "يَجْمَعُ.",
+            "meaning_normalized": "يجمع"
+          },
+          {
+            "ayah_number": 43,
+            "word": "رُكَامًا",
+            "word_normalized": "ركاما",
+            "meaning": "مُتَرَاكِمًا.",
+            "meaning_normalized": "متراكما"
+          },
+          {
+            "ayah_number": 43,
+            "word": "ٱلْوَدْقَ",
+            "word_normalized": "الودق",
+            "meaning": "الْمَطَرَ.",
+            "meaning_normalized": "المطر"
+          },
+          {
+            "ayah_number": 43,
+            "word": "مِنْ خِلَٰلِهِ",
+            "word_normalized": "من خلاله",
+            "meaning": "مِنْ بَيْنِهِ.",
+            "meaning_normalized": "من بينه"
+          },
+          {
+            "ayah_number": 43,
+            "word": "سَنَا بَرْقِهِ",
+            "word_normalized": "سنا برقه",
+            "meaning": "ضَوْءُ الْبَرْقِ.",
+            "meaning_normalized": "ضوء البرق"
+          },
+          {
+            "ayah_number": 49,
+            "word": "مُذْعِنِينَ",
+            "word_normalized": "مذعنين",
+            "meaning": "طَائِعِينَ مُنْقَادِينَ.",
+            "meaning_normalized": "طائعين منقادين"
+          },
+          {
+            "ayah_number": 50,
+            "word": "مَّرَضٌ",
+            "word_normalized": "مرض",
+            "meaning": "نِفَاقٌ.",
+            "meaning_normalized": "نفاق"
+          },
+          {
+            "ayah_number": 50,
+            "word": "ٱرْتَابُوا",
+            "word_normalized": "ارتابوا",
+            "meaning": "شَكُّوا فِي النُّبُوَّةِ.",
+            "meaning_normalized": "شكوا في النبوة"
+          },
+          {
+            "ayah_number": 50,
+            "word": "يَحِيفَ",
+            "word_normalized": "يحيف",
+            "meaning": "يَجُورَ.",
+            "meaning_normalized": "يجور"
+          },
+          {
+            "ayah_number": 53,
+            "word": "جَهْدَ أَيْمَٰنِهِمْ",
+            "word_normalized": "جهد أيمانهم",
+            "meaning": "مُجْتَهِدِينَ فِي الْحَلِفِ بِالْأَيْمَانِ.",
+            "meaning_normalized": "مجتهدين في الحلف بالأيمان"
+          },
+          {
+            "ayah_number": 53,
+            "word": "طَاعَةٌ مَّعْرُوفَةٌ",
+            "word_normalized": "طاعة معروفة",
+            "meaning": "طَاعَتُكُمْ مَعْرُوفَةٌ بِأَنَّهَا بِاللِّسَانِ فَقَطْ.",
+            "meaning_normalized": "طاعتكم معروفة بأنها باللسان فقط"
+          },
+          {
+            "ayah_number": 54,
+            "word": "عَلَيْهِ مَا حُمِّلَ",
+            "word_normalized": "عليه ما حمل",
+            "meaning": "عَلَى الرَّسُولِ فِعْلُ مَا أُمِرَ بِهِ مِنْ تَبْلِيغِ الرِّسَالَةِ.",
+            "meaning_normalized": "على الرسول فعل ما أمر به من تبليغ الرسالة"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَعَلَيْكُم مَّا حُمِّلْتُمْ",
+            "word_normalized": "وعليكم ما حملتم",
+            "meaning": "عَلَيْكُمْ فِعْلُ مَا كُلِّفْتُمْ بِهِ مِنَ الِامْتِثَالِ.",
+            "meaning_normalized": "عليكم فعل ما كلفتم به من الامتثال"
+          }
+        ]
+      }
+    ]
+  }
+}

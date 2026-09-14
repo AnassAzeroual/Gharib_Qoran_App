@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 141,
+    "header": {
+      "right": "سُورَةُ الْمُؤْمِنُونَ",
+      "right_normalized": "سورة المؤمنون",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُؤْمِنُونَ",
+          "name_normalized": "سورة المؤمنون",
+          "order": 23,
+          "ayat_count": 118,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 72,
+            "word": "خَرْجًا",
+            "word_normalized": "خرجا",
+            "meaning": "أَجْرًا.",
+            "meaning_normalized": "أجرا"
+          },
+          {
+            "ayah_number": 72,
+            "word": "فَخَرَاجُ رَبِّكَ",
+            "word_normalized": "فخراج ربك",
+            "meaning": "فَثَوَابُهُ، وَعَطَاؤُهُ.",
+            "meaning_normalized": "فثوابه وعطاؤه"
+          },
+          {
+            "ayah_number": 74,
+            "word": "لَنَٰكِبُونَ",
+            "word_normalized": "لناكبون",
+            "meaning": "لَمَائِلُونَ.",
+            "meaning_normalized": "لمائلون"
+          },
+          {
+            "ayah_number": 75,
+            "word": "لَلَجُّوا",
+            "word_normalized": "للجوا",
+            "meaning": "لَتَمَادَوْا.",
+            "meaning_normalized": "لتمادوا"
+          },
+          {
+            "ayah_number": 75,
+            "word": "يَعْمَهُونَ",
+            "word_normalized": "يعمهون",
+            "meaning": "يَتَحَيَّرُونَ وَيَتَخَبَّطُونَ.",
+            "meaning_normalized": "يتحيرون ويتخبطون"
+          },
+          {
+            "ayah_number": 76,
+            "word": "ٱسْتَكَانُوا",
+            "word_normalized": "استكانوا",
+            "meaning": "خَضَعُوا.",
+            "meaning_normalized": "خضعوا"
+          },
+          {
+            "ayah_number": 77,
+            "word": "مُبْلِسُونَ",
+            "word_normalized": "مبلسون",
+            "meaning": "آيِسُونَ مِنْ كُلِّ خَيْرٍ مُتَحَيِّرُونَ.",
+            "meaning_normalized": "آيسون من كل خير متحيرون"
+          },
+          {
+            "ayah_number": 79,
+            "word": "ذَرَأَكُمْ",
+            "word_normalized": "ذرأكم",
+            "meaning": "خَلَقَكُمْ، وَبَثَّكُمْ.",
+            "meaning_normalized": "خلقكم وبثكم"
+          },
+          {
+            "ayah_number": 88,
+            "word": "يُجِيرُ",
+            "word_normalized": "يجير",
+            "meaning": "يَحْمِي وَيُغِيثُ مَنْ يَشَاءُ.",
+            "meaning_normalized": "يحمي ويغيث من يشاء"
+          },
+          {
+            "ayah_number": 88,
+            "word": "وَلَا يُجَارُ عَلَيْهِ",
+            "word_normalized": "ولا يجار عليه",
+            "meaning": "لَا يُغَاثُ أَحَدٌ وَيُحْمَى مِنْهُ.",
+            "meaning_normalized": "لا يغاث أحد ويحمى منه"
+          },
+          {
+            "ayah_number": 89,
+            "word": "فَأَنَّىٰ تُسْحَرُونَ",
+            "word_normalized": "فأنى تسحرون",
+            "meaning": "فَكَيْفَ تَذْهَبُ عُقُولُكُمْ وَتُخْدَعُونَ عَنْ تَوْحِيدِهِ؟!",
+            "meaning_normalized": "فكيف تذهب عقولكم وتخدعون عن توحيده"
+          },
+          {
+            "ayah_number": 91,
+            "word": "وَلَعَلَا",
+            "word_normalized": "ولعلا",
+            "meaning": "لَغَالَبَ وَطَلَبَ الْعُلُوَّ.",
+            "meaning_normalized": "لغالب وطلب العلو"
+          },
+          {
+            "ayah_number": 91,
+            "word": "عَمَّا يَصِفُونَ",
+            "word_normalized": "عما يصفون",
+            "meaning": "عَنْ وَصْفِهِمْ إِيَّاهُ بِالشَّرِيكِ، وَالْوَلَدِ.",
+            "meaning_normalized": "عن وصفهم إياه بالشريك والولد"
+          },
+          {
+            "ayah_number": 97,
+            "word": "هَمَزَٰتِ ٱلشَّيَٰطِينِ",
+            "word_normalized": "همزات الشياطين",
+            "meaning": "وَسَاوِسِهِمْ، وَنَزَغَاتِهِمْ.",
+            "meaning_normalized": "وساوسهم ونزغاتهم"
+          },
+          {
+            "ayah_number": 100,
+            "word": "بَرْزَخٌ",
+            "word_normalized": "برزخ",
+            "meaning": "حَاجِزٌ دُونَ الرَّجْعَةِ.",
+            "meaning_normalized": "حاجز دون الرجعة"
+          },
+          {
+            "ayah_number": 102,
+            "word": "ثَقُلَتْ مَوَٰزِينُهُ",
+            "word_normalized": "ثقلت موازينه",
+            "meaning": "كَثُرَتْ حَسَنَاتُهُ.",
+            "meaning_normalized": "كثرت حسناته"
+          },
+          {
+            "ayah_number": 104,
+            "word": "تَلْفَحُ",
+            "word_normalized": "تلفح",
+            "meaning": "تَحْرِقُ.",
+            "meaning_normalized": "تحرق"
+          },
+          {
+            "ayah_number": 104,
+            "word": "كَٰلِحُونَ",
+            "word_normalized": "كالحون",
+            "meaning": "عَابِسُونَ قَلَصَتْ شِفَاهُهُمْ، وَبَرَزَتْ أَسْنَانُهُمْ.",
+            "meaning_normalized": "عابسون قلصت شفاههم وبرزت أسنانهم"
+          },
+          {
+            "ayah_number": 108,
+            "word": "ٱخْسَـُٔوا",
+            "word_normalized": "اخسئوا",
+            "meaning": "امْكُثُوا أَذِلَّاءَ.",
+            "meaning_normalized": "امكثوا أذلاء"
+          },
+          {
+            "ayah_number": 110,
+            "word": "فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا",
+            "word_normalized": "فاتخذتموهم سخريا",
+            "meaning": "اشْتَغَلْتُمْ بِالِاسْتِهْزَاءِ بِهِمْ.",
+            "meaning_normalized": "اشتغلتم بالاستهزاء بهم"
+          },
+          {
+            "ayah_number": 113,
+            "word": "ٱلْعَآدِّينَ",
+            "word_normalized": "العادين",
+            "meaning": "الْحُسَّابَ الَّذِينَ يَعُدُّونَ الْأَيَّامَ.",
+            "meaning_normalized": "الحساب الذين يعدون الأيام"
+          }
+        ]
+      }
+    ]
+  }
+}

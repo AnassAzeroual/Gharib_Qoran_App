@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 151,
+    "header": {
+      "right": "سُورَةُ الشُّعَرَاءِ",
+      "right_normalized": "سورة الشعراء",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّعَرَاءِ",
+          "name_normalized": "سورة الشعراء",
+          "order": 26,
+          "ayat_count": 227,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 7,
+            "word": "زَوْجٍ كَرِيمٍ",
+            "word_normalized": "زوج كريم",
+            "meaning": "نَوْعٍ حَسَنٍ نَافِعٍ.",
+            "meaning_normalized": "نوع حسن نافع"
+          },
+          {
+            "ayah_number": 20,
+            "word": "ٱلضَّآلِّينَ",
+            "word_normalized": "الضالين",
+            "meaning": "الْجَاهِلِينَ، وَذَلِكَ قَبْلَ أَنْ يُوحَى إِلَيَّ.",
+            "meaning_normalized": "الجاهلين وذلك قبل أن يوحى إلي"
+          },
+          {
+            "ayah_number": 21,
+            "word": "حُكْمًا",
+            "word_normalized": "حكما",
+            "meaning": "النُّبُوَّةَ.",
+            "meaning_normalized": "النبوة"
+          },
+          {
+            "ayah_number": 22,
+            "word": "عَبَّدتَّ",
+            "word_normalized": "عبدت",
+            "meaning": "جَعَلْتَهُمْ عَبِيدًا.",
+            "meaning_normalized": "جعلتهم عبيدا"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَنَزَعَ يَدَهُ",
+            "word_normalized": "ونزع يده",
+            "meaning": "أَخْرَجَهَا مِنْ جَيْبِهِ.",
+            "meaning_normalized": "أخرجها من جيبه"
+          },
+          {
+            "ayah_number": 36,
+            "word": "أَرْجِهْ",
+            "word_normalized": "أرجه",
+            "meaning": "أَخِّرْهُ.",
+            "meaning_normalized": "أخره"
+          },
+          {
+            "ayah_number": 36,
+            "word": "حَٰشِرِينَ",
+            "word_normalized": "حاشرين",
+            "meaning": "جُنُودًا يَجْمَعُونَ السَّحَرَةَ.",
+            "meaning_normalized": "جنودا يجمعون السحرة"
+          },
+          {
+            "ayah_number": 44,
+            "word": "بِعِزَّةِ فِرْعَوْنَ",
+            "word_normalized": "بعزة فرعون",
+            "meaning": "أَقْسَمُوا بِعِزَّتِهِ، وَقُوَّتِهِ.",
+            "meaning_normalized": "أقسموا بعزته وقوته"
+          },
+          {
+            "ayah_number": 45,
+            "word": "تَلْقَفُ",
+            "word_normalized": "تلقف",
+            "meaning": "تَبْتَلِعُ بِسُرْعَةٍ.",
+            "meaning_normalized": "تبتلع بسرعة"
+          },
+          {
+            "ayah_number": 45,
+            "word": "مَا يَأْفِكُونَ",
+            "word_normalized": "ما يأفكون",
+            "meaning": "مَا يَفْعَلُونَهُ مِنَ الْكَذِبِ وَالتَّزْوِيرِ.",
+            "meaning_normalized": "ما يفعلونه من الكذب والتزوير"
+          },
+          {
+            "ayah_number": 49,
+            "word": "مِنْ خِلَٰفٍ",
+            "word_normalized": "من خلاف",
+            "meaning": "بِقَطْعِ الْيَدِ الْيُمْنَى وَالرِّجْلِ الْيُسْرَى، أَوْ عَكْسَ ذَلِكَ.",
+            "meaning_normalized": "بقطع اليد اليمنى والرجل اليسرى أو عكس ذلك"
+          },
+          {
+            "ayah_number": 50,
+            "word": "لَا ضَيْرَ",
+            "word_normalized": "لا ضير",
+            "meaning": "لَا ضَرَرَ.",
+            "meaning_normalized": "لا ضرر"
+          },
+          {
+            "ayah_number": 50,
+            "word": "مُنقَلِبُونَ",
+            "word_normalized": "منقلبون",
+            "meaning": "رَاجِعُونَ.",
+            "meaning_normalized": "راجعون"
+          },
+          {
+            "ayah_number": 53,
+            "word": "حَٰشِرِينَ",
+            "word_normalized": "حاشرين",
+            "meaning": "جَامِعِينَ لِلْجَيْشِ مِنَ الْمَدَائِنِ.",
+            "meaning_normalized": "جامعين للجيش من المدائن"
+          },
+          {
+            "ayah_number": 54,
+            "word": "لَشِرْذِمَةٌ",
+            "word_normalized": "لشرذمة",
+            "meaning": "لَطَائِفَةٌ حَقِيرَةٌ.",
+            "meaning_normalized": "لطائفة حقيرة"
+          },
+          {
+            "ayah_number": 58,
+            "word": "وَكُنُوزٍ",
+            "word_normalized": "وكنوز",
+            "meaning": "خَزَائِنِ الْأَمْوَالِ.",
+            "meaning_normalized": "خزائن الأموال"
+          },
+          {
+            "ayah_number": 58,
+            "word": "وَمَقَامٍ كَرِيمٍ",
+            "word_normalized": "ومقام كريم",
+            "meaning": "مَنَازِلَ حِسَانٍ.",
+            "meaning_normalized": "منازل حسان"
+          },
+          {
+            "ayah_number": 60,
+            "word": "مُّشْرِقِينَ",
+            "word_normalized": "مشرقين",
+            "meaning": "وَقْتَ شُرُوقِ الشَّمْسِ.",
+            "meaning_normalized": "وقت شروق الشمس"
+          },
+          {
+            "ayah_number": 61,
+            "word": "تَرَٰٓءَا ٱلْجَمْعَانِ",
+            "word_normalized": "تراءى الجمعان",
+            "meaning": "رَأَى كُلُّ فَرِيقٍ الْآخَرَ.",
+            "meaning_normalized": "رأى كل فريق الآخر"
+          },
+          {
+            "ayah_number": 63,
+            "word": "فِرْقٍ",
+            "word_normalized": "فرق",
+            "meaning": "قِطْعَةٍ مِنَ الْبَحْرِ.",
+            "meaning_normalized": "قطعة من البحر"
+          }
+        ]
+      }
+    ]
+  }
+}

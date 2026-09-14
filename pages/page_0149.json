@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 149,
+    "header": {
+      "right": "سُورَةُ الْفُرْقَانِ",
+      "right_normalized": "سورة الفرقان",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْفُرْقَانِ",
+          "name_normalized": "سورة الفرقان",
+          "order": 25,
+          "ayat_count": 77,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 53,
+            "word": "فُرَاتٌ",
+            "word_normalized": "فرات",
+            "meaning": "شَدِيدُ الْعُذُوبَةِ.",
+            "meaning_normalized": "شديد العذوبة"
+          },
+          {
+            "ayah_number": 53,
+            "word": "أُجَاجٌ",
+            "word_normalized": "أجاج",
+            "meaning": "شَدِيدُ الْمُلُوحَةِ.",
+            "meaning_normalized": "شديد الملوحة"
+          },
+          {
+            "ayah_number": 53,
+            "word": "بَرْزَخًا",
+            "word_normalized": "برزخا",
+            "meaning": "حَاجِزًا يَمْنَعُ إِفْسَادَ أَحَدِهِمَا لِلْآخَرِ.",
+            "meaning_normalized": "حاجزا يمنع إفساد أحدهما للآخر"
+          },
+          {
+            "ayah_number": 53,
+            "word": "وَحِجْرًا مَّحْجُورًا",
+            "word_normalized": "وحجرا محجورا",
+            "meaning": "سِتْرًا يَمْنَعُ وُصُولَ أَحَدِهِمَا إِلَى الْآخَرِ.",
+            "meaning_normalized": "سترا يمنع وصول أحدهما إلى الآخر"
+          },
+          {
+            "ayah_number": 54,
+            "word": "ٱلْمَآءِ",
+            "word_normalized": "الماء",
+            "meaning": "مَنِيِّ الرَّجُلِ وَالْمَرْأَةِ.",
+            "meaning_normalized": "مني الرجل والمرأة"
+          },
+          {
+            "ayah_number": 54,
+            "word": "نَسَبًا",
+            "word_normalized": "نسبا",
+            "meaning": "قَرَابَةَ النَّسَبِ.",
+            "meaning_normalized": "قرابة النسب"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَصِهْرًا",
+            "word_normalized": "وصهرا",
+            "meaning": "قَرَابَةَ الْمُصَاهَرَةِ.",
+            "meaning_normalized": "قرابة المصاهرة"
+          },
+          {
+            "ayah_number": 55,
+            "word": "ظَهِيرًا",
+            "word_normalized": "ظهيرا",
+            "meaning": "مُعِينًا لِلشَّيْطَانِ عَلَى رَبِّهِ؛ بِالشِّرْكِ، مُظَاهِرًا لَهُ فِي الْمَعْصِيَةِ.",
+            "meaning_normalized": "معينا للشيطان على ربه بالشرك مظاهرا له في المعصية"
+          },
+          {
+            "ayah_number": 59,
+            "word": "ٱسْتَوَىٰ",
+            "word_normalized": "استوى",
+            "meaning": "عَلَا وَارْتَفَعَ اسْتِوَاءً يَلِيقُ بِجَلَالِهِ.",
+            "meaning_normalized": "علا وارتفع استواء يليق بجلاله"
+          },
+          {
+            "ayah_number": 60,
+            "word": "نُفُورًا",
+            "word_normalized": "نفورا",
+            "meaning": "بُعْدًا.",
+            "meaning_normalized": "بعدا"
+          },
+          {
+            "ayah_number": 61,
+            "word": "بُرُوجًا",
+            "word_normalized": "بروجا",
+            "meaning": "نُجُومًا كِبَارًا بِمَنَازِلِهَا.",
+            "meaning_normalized": "نجوما كبارا بمنازلها"
+          },
+          {
+            "ayah_number": 61,
+            "word": "سِرَٰجًا",
+            "word_normalized": "سراجا",
+            "meaning": "شَمْسًا مُضِيئَةً.",
+            "meaning_normalized": "شمسا مضيئة"
+          },
+          {
+            "ayah_number": 62,
+            "word": "خِلْفَةً",
+            "word_normalized": "خلفة",
+            "meaning": "مُتَعَاقِبَيْنِ يَخْلُفُ أَحَدُهُمَا الْآخَرَ.",
+            "meaning_normalized": "متعاقبين يخلف أحدهما الآخر"
+          },
+          {
+            "ayah_number": 63,
+            "word": "هَوْنًا",
+            "word_normalized": "هونا",
+            "meaning": "بِسَكِينَةٍ، وَوَقَارٍ، وَتَوَاضُعٍ.",
+            "meaning_normalized": "بسكينة ووقار وتواضع"
+          },
+          {
+            "ayah_number": 63,
+            "word": "قَالُوا سَلَٰمًا",
+            "word_normalized": "قالوا سلاما",
+            "meaning": "خَاطَبُوا الْجَاهِلَ بِكَلَامٍ يَسْلَمُونَ فِيهِ مِنَ الْإِثْمِ، وَلَمْ يُقَابِلُوهُ بِجَهْلِهِ.",
+            "meaning_normalized": "خاطبوا الجاهل بكلام يسلمون فيه من الإثم ولم يقابلوه بجهله"
+          },
+          {
+            "ayah_number": 65,
+            "word": "غَرَامًا",
+            "word_normalized": "غراما",
+            "meaning": "مُلَازِمًا؛ كَالْغَرِيمِ (وَهُوَ الدَّائِنُ) يُلَازِمُ غَرِيمَهُ.",
+            "meaning_normalized": "ملازما كالغريم وهو الدائن يلازم غريمه"
+          },
+          {
+            "ayah_number": 67,
+            "word": "يَقْتُرُوا",
+            "word_normalized": "يقتروا",
+            "meaning": "يُضَيِّقُوا فِي النَّفَقَةِ.",
+            "meaning_normalized": "يضيقوا في النفقة"
+          },
+          {
+            "ayah_number": 67,
+            "word": "قَوَامًا",
+            "word_normalized": "قواما",
+            "meaning": "وَسَطًا.",
+            "meaning_normalized": "وسطا"
+          }
+        ]
+      }
+    ]
+  }
+}

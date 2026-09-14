@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 161,
+    "header": {
+      "right": "سُورَةُ الْقَصَصِ",
+      "right_normalized": "سورة القصص",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَصَصِ",
+          "name_normalized": "سورة القصص",
+          "order": 28,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "word": "عَلَا",
+            "word_normalized": "علا",
+            "meaning": "تَكَبَّرَ، وَطَغَى.",
+            "meaning_normalized": "تكبر وطغى"
+          },
+          {
+            "ayah_number": 4,
+            "word": "شِيَعًا",
+            "word_normalized": "شيعا",
+            "meaning": "طَوَائِفَ مُتَفَرِّقَةً.",
+            "meaning_normalized": "طوائف متفرقة"
+          },
+          {
+            "ayah_number": 5,
+            "word": "نَّمُنَّ",
+            "word_normalized": "نمن",
+            "meaning": "نَتَفَضَّلَ.",
+            "meaning_normalized": "نتفضل"
+          },
+          {
+            "ayah_number": 7,
+            "word": "ٱلْيَمِّ",
+            "word_normalized": "اليم",
+            "meaning": "النَّهْرِ، وَهُوَ نَهْرُ النِّيلِ.",
+            "meaning_normalized": "النهر وهو نهر النيل"
+          },
+          {
+            "ayah_number": 8,
+            "word": "خَٰطِـِٔينَ",
+            "word_normalized": "خاطئين",
+            "meaning": "آثِمِينَ.",
+            "meaning_normalized": "آثمين"
+          },
+          {
+            "ayah_number": 9,
+            "word": "قُرَّتُ عَيْنٍ لِّي",
+            "word_normalized": "قرت عين لي",
+            "meaning": "مَصْدَرُ سُرُورٍ لِي.",
+            "meaning_normalized": "مصدر سرور لي"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فَٰرِغًا",
+            "word_normalized": "فارغا",
+            "meaning": "خَالِيًا مِنْ كُلِّ شَيْءٍ إِلَّا هَمَّ مُوسَى عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "خاليا من كل شيء إلا هم موسى عليه السلام"
+          },
+          {
+            "ayah_number": 10,
+            "word": "لَتُبْدِى بِهِۦ",
+            "word_normalized": "لتبدي به",
+            "meaning": "تُصَرِّحُ بِأَنَّهُ ابْنُهَا.",
+            "meaning_normalized": "تصرح بأنه ابنها"
+          },
+          {
+            "ayah_number": 11,
+            "word": "قُصِّيهِ",
+            "word_normalized": "قصيه",
+            "meaning": "تَتَبَّعِي أَثَرَهُ.",
+            "meaning_normalized": "تتبعي أثره"
+          },
+          {
+            "ayah_number": 11,
+            "word": "عَن جُنُبٍ",
+            "word_normalized": "عن جنب",
+            "meaning": "عَنْ بُعْدٍ.",
+            "meaning_normalized": "عن بعد"
+          },
+          {
+            "ayah_number": 12,
+            "word": "يَكْفُلُونَهُ لَكُمْ",
+            "word_normalized": "يكفلونه لكم",
+            "meaning": "يَقُومُونَ بِتَرْبِيَتِهِ وَإِرْضَاعِهِ.",
+            "meaning_normalized": "يقومون بتربيته وإرضاعه"
+          },
+          {
+            "ayah_number": 14,
+            "word": "بَلَغَ أَشُدَّهُ",
+            "word_normalized": "بلغ أشده",
+            "meaning": "قَوِيَ بَدَنُهُ.",
+            "meaning_normalized": "قوي بدنه"
+          },
+          {
+            "ayah_number": 14,
+            "word": "وَٱسْتَوَىٰ",
+            "word_normalized": "واستوى",
+            "meaning": "تَكَامَلَ عَقْلُهُ.",
+            "meaning_normalized": "تكامل عقله"
+          },
+          {
+            "ayah_number": 15,
+            "word": "مِن شِيعَتِهِۦ",
+            "word_normalized": "من شيعته",
+            "meaning": "مِنْ قَوْمِ مُوسَى عَلَيْهِ السَّلَامُ، وَهُمْ بَنُو إِسْرَائِيلَ.",
+            "meaning_normalized": "من قوم موسى عليه السلام وهم بنو إسرائيل"
+          },
+          {
+            "ayah_number": 15,
+            "word": "فَوَكَزَهُۥ",
+            "word_normalized": "فوكزه",
+            "meaning": "ضَرَبَهُ بِجُمْعِ كَفِّهِ.",
+            "meaning_normalized": "ضربه بجمع كفه"
+          },
+          {
+            "ayah_number": 17,
+            "word": "ظَهِيرًا",
+            "word_normalized": "ظهيرا",
+            "meaning": "نَصِيرًا.",
+            "meaning_normalized": "نصيرا"
+          },
+          {
+            "ayah_number": 18,
+            "word": "يَتَرَقَّبُ",
+            "word_normalized": "يترقب",
+            "meaning": "يَتَوَقَّعُ الْمَكْرُوهَ.",
+            "meaning_normalized": "يتوقع المكروه"
+          },
+          {
+            "ayah_number": 18,
+            "word": "يَسْتَصْرِخُهُۥ",
+            "word_normalized": "يستصرخه",
+            "meaning": "يَطْلُبُ مِنْهُ النَّصْرَ.",
+            "meaning_normalized": "يطلب منه النصر"
+          },
+          {
+            "ayah_number": 18,
+            "word": "لَغَوِيٌّ",
+            "word_normalized": "لغوي",
+            "meaning": "كَثِيرُ الْغَوَايَةِ، ضَالٌّ عَنِ الرُّشْدِ.",
+            "meaning_normalized": "كثير الغواية ضال عن الرشد"
+          }
+        ]
+      }
+    ]
+  }
+}

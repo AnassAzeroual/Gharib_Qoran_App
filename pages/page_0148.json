@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 148,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْفُرْقَانِ",
+          "name_normalized": "سورة الفرقان",
+          "order": 25,
+          "ayat_count": 77,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 24,
+            "word": "مَقِيلًا",
+            "word_normalized": "مقيلا",
+            "meaning": "مَنْزِلًا مُرِيحًا.",
+            "meaning_normalized": "منزلا مريحا"
+          },
+          {
+            "ayah_number": 25,
+            "word": "بِٱلْغَمَٰمِ",
+            "word_normalized": "بالغمام",
+            "meaning": "بِالسَّحَابِ الْأَبْيَضِ الرَّقِيقِ.",
+            "meaning_normalized": "بالسحاب الأبيض الرقيق"
+          },
+          {
+            "ayah_number": 27,
+            "word": "سَبِيلًا",
+            "word_normalized": "سبيلا",
+            "meaning": "طَرِيقًا إِلَى الْجَنَّةِ.",
+            "meaning_normalized": "طريقا إلى الجنة"
+          },
+          {
+            "ayah_number": 32,
+            "word": "وَرَتَّلْنَٰهُ",
+            "word_normalized": "ورتلناه",
+            "meaning": "بَيَّنَّاهُ فِي تَثَبُّتٍ وَمُهْلَةٍ.",
+            "meaning_normalized": "بيناه في تثبت ومهلة"
+          },
+          {
+            "ayah_number": 38,
+            "word": "وَأَصْحَٰبَ ٱلرَّسِّ",
+            "word_normalized": "وأصحاب الرس",
+            "meaning": "أَصْحَابَ الْبِئْرِ.",
+            "meaning_normalized": "أصحاب البئر"
+          },
+          {
+            "ayah_number": 38,
+            "word": "وَقُرُونًا",
+            "word_normalized": "وقرونا",
+            "meaning": "أُمَمًا.",
+            "meaning_normalized": "أمما"
+          },
+          {
+            "ayah_number": 39,
+            "word": "ٱلْأَمْثَٰلَ",
+            "word_normalized": "الأمثال",
+            "meaning": "الْحُجَجَ.",
+            "meaning_normalized": "الحجج"
+          },
+          {
+            "ayah_number": 39,
+            "word": "تَبَّرْنَا",
+            "word_normalized": "تبرنا",
+            "meaning": "أَهْلَكْنَا وَدَمَّرْنَا.",
+            "meaning_normalized": "أهلكنا ودمرنا"
+          },
+          {
+            "ayah_number": 40,
+            "word": "مَطَرَ ٱلسَّوْءِ",
+            "word_normalized": "مطر السوء",
+            "meaning": "حِجَارَةً مِنَ السَّمَاءِ أَهْلَكَتْهُمْ.",
+            "meaning_normalized": "حجارة من السماء أهلكتهم"
+          },
+          {
+            "ayah_number": 42,
+            "word": "كَادَ لَيُضِلُّنَا",
+            "word_normalized": "كاد ليضلنا",
+            "meaning": "قَارَبَ أَنْ يَصْرِفَنَا عَنْ عِبَادَةِ أَصْنَامِنَا.",
+            "meaning_normalized": "قارب أن يصرفنا عن عبادة أصنامنا"
+          },
+          {
+            "ayah_number": 43,
+            "word": "أَرَءَيْتَ",
+            "word_normalized": "أرأيت",
+            "meaning": "أَخْبِرْنِي.",
+            "meaning_normalized": "أخبرني"
+          },
+          {
+            "ayah_number": 45,
+            "word": "مَدَّ ٱلظِّلَّ",
+            "word_normalized": "مد الظل",
+            "meaning": "بَسَطَهُ مِنْ طُلُوعِ الْفَجْرِ إِلَى طُلُوعِ الشَّمْسِ.",
+            "meaning_normalized": "بسطه من طلوع الفجر إلى طلوع الشمس"
+          },
+          {
+            "ayah_number": 45,
+            "word": "سَاكِنًا",
+            "word_normalized": "ساكنا",
+            "meaning": "ثَابِتًا مُسْتَقِرًّا.",
+            "meaning_normalized": "ثابتا مستقرا"
+          },
+          {
+            "ayah_number": 47,
+            "word": "لِبَاسًا",
+            "word_normalized": "لباسا",
+            "meaning": "سَاتِرًا لَكُمْ بِظَلَامِهِ.",
+            "meaning_normalized": "ساترا لكم بظلامه"
+          },
+          {
+            "ayah_number": 47,
+            "word": "سُبَاتًا",
+            "word_normalized": "سباتا",
+            "meaning": "رَاحَةً لِأَبْدَانِكُمْ.",
+            "meaning_normalized": "راحة لأبدانكم"
+          },
+          {
+            "ayah_number": 47,
+            "word": "نُشُورًا",
+            "word_normalized": "نشورا",
+            "meaning": "وَقْتًا لِلِانْتِشَارِ وَالسَّعْيِ فِي الْأَرْضِ.",
+            "meaning_normalized": "وقتا للانتشار والسعي في الأرض"
+          },
+          {
+            "ayah_number": 48,
+            "word": "بُشْرًا",
+            "word_normalized": "بشرا",
+            "meaning": "مُبَشِّرَاتٍ بِالرَّحْمَةِ، وَهِيَ الْمَطَرُ.",
+            "meaning_normalized": "مبشرات بالرحمة وهي المطر"
+          },
+          {
+            "ayah_number": 50,
+            "word": "صَرَّفْنَٰهُ",
+            "word_normalized": "صرفناه",
+            "meaning": "أَنْزَلْنَا الْمَطَرَ عَلَى أَرْضٍ دُونَ أُخْرَى.",
+            "meaning_normalized": "أنزلنا المطر على أرض دون أخرى"
+          },
+          {
+            "ayah_number": 52,
+            "word": "وَجَٰهِدْهُم بِهِ",
+            "word_normalized": "وجاهدهم به",
+            "meaning": "بَلِّغْهُمُ الْقُرْآنَ بَاذِلًا وُسْعَكَ.",
+            "meaning_normalized": "بلغهم القرآن باذلا وسعك"
+          },
+          {
+            "ayah_number": 52,
+            "word": "جِهَادًا كَبِيرًا",
+            "word_normalized": "جهادا كبيرا",
+            "meaning": "لَا يُخَالِطُهُ فُتُورٌ.",
+            "meaning_normalized": "لا يخالطه فتور"
+          },
+          {
+            "ayah_number": 53,
+            "word": "مَرَجَ",
+            "word_normalized": "مرج",
+            "meaning": "خَلَطَ.",
+            "meaning_normalized": "خلط"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 162,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَصَصِ",
+          "name_normalized": "سورة القصص",
+          "order": 28,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 22,
+            "word": "تِلْقَآءَ مَدْيَنَ",
+            "word_normalized": "تلقاء مدين",
+            "meaning": "جِهَتَهَا.",
+            "meaning_normalized": "جهتها"
+          },
+          {
+            "ayah_number": 22,
+            "word": "سَوَآءَ ٱلسَّبِيلِ",
+            "word_normalized": "سواء السبيل",
+            "meaning": "الطَّرِيقَ الْأَحْسَنَ إِلَى مَدْيَنَ.",
+            "meaning_normalized": "الطريق الأحسن إلى مدين"
+          },
+          {
+            "ayah_number": 23,
+            "word": "تَذُودَانِ",
+            "word_normalized": "تذودان",
+            "meaning": "تَحْبِسَانِ غَنَمَهُمَا عَنِ الْمَاءِ.",
+            "meaning_normalized": "تحبسان غنمهما عن الماء"
+          },
+          {
+            "ayah_number": 23,
+            "word": "مَا خَطْبُكُمَا",
+            "word_normalized": "ما خطبكما",
+            "meaning": "مَا شَأْنُكُمَا؟",
+            "meaning_normalized": "ما شأنكما"
+          },
+          {
+            "ayah_number": 23,
+            "word": "يُصْدِرَ ٱلرِّعَآءُ",
+            "word_normalized": "يصدر الرعاء",
+            "meaning": "يَنْصَرِفَ الرُّعَاةُ بِأَغْنَامِهِمْ عَنِ الْمَاءِ.",
+            "meaning_normalized": "ينصرف الرعاة بأغنامهم عن الماء"
+          },
+          {
+            "ayah_number": 23,
+            "word": "شَيْخٌ كَبِيرٌ",
+            "word_normalized": "شيخ كبير",
+            "meaning": "رَجُلٌ مُسِنٌّ وَلَيْسَ هُوَ شُعَيْبًا، خِلَافًا لِلْمَشْهُورِ.",
+            "meaning_normalized": "رجل مسن وليس هو شعيبا خلافا للمشهور"
+          },
+          {
+            "ayah_number": 27,
+            "word": "تَأْجُرَنِي",
+            "word_normalized": "تأجرني",
+            "meaning": "تَكُونَ أَجِيرًا لِي فِي رَعْيِ مَاشِيَتِي.",
+            "meaning_normalized": "تكون أجيرا لي في رعي ماشيتي"
+          },
+          {
+            "ayah_number": 27,
+            "word": "حِجَجٍ",
+            "word_normalized": "حجج",
+            "meaning": "سِنِينَ.",
+            "meaning_normalized": "سنين"
+          },
+          {
+            "ayah_number": 28,
+            "word": "ٱلْأَجَلَيْنِ",
+            "word_normalized": "الأجلين",
+            "meaning": "الْمُدَّتَيْنِ، الثَّمَانِ أَوِ الْعَشْرِ.",
+            "meaning_normalized": "المدتين الثمان أو العشر"
+          },
+          {
+            "ayah_number": 28,
+            "word": "فَلَا عُدْوَٰنَ عَلَيَّ",
+            "word_normalized": "فلا عدوان علي",
+            "meaning": "فَلَا أُطَالَبُ بِزِيَادَةٍ فِي الْمُدَّةِ.",
+            "meaning_normalized": "فلا أطالب بزيادة في المدة"
+          },
+          {
+            "ayah_number": 28,
+            "word": "وَكِيلٌ",
+            "word_normalized": "وكيل",
+            "meaning": "حَافِظٌ يُرَاقِبُنَا.",
+            "meaning_normalized": "حافظ يراقبنا"
+          },
+          {
+            "ayah_number": 29,
+            "word": "ءَانَسَ",
+            "word_normalized": "آنس",
+            "meaning": "أَبْصَرَ.",
+            "meaning_normalized": "أبصر"
+          },
+          {
+            "ayah_number": 29,
+            "word": "جَذْوَةٍ",
+            "word_normalized": "جذوة",
+            "meaning": "شُعْلَةٍ مِنَ النَّارِ.",
+            "meaning_normalized": "شعلة من النار"
+          },
+          {
+            "ayah_number": 29,
+            "word": "تَصْطَلُونَ",
+            "word_normalized": "تصطلون",
+            "meaning": "تَسْتَدْفِئُونَ.",
+            "meaning_normalized": "تستدفئون"
+          },
+          {
+            "ayah_number": 30,
+            "word": "شَٰطِئِ",
+            "word_normalized": "شاطئ",
+            "meaning": "جَانِبِ.",
+            "meaning_normalized": "جانب"
+          },
+          {
+            "ayah_number": 31,
+            "word": "تَهْتَزُّ",
+            "word_normalized": "تهتز",
+            "meaning": "تَتَحَرَّكُ، وَتَضْطَرِبُ.",
+            "meaning_normalized": "تتحرك وتضطرب"
+          },
+          {
+            "ayah_number": 31,
+            "word": "جَآنٌّ",
+            "word_normalized": "جان",
+            "meaning": "حَيَّةٌ خَفِيفَةٌ فِي سُرْعَةِ حَرَكَتِهَا.",
+            "meaning_normalized": "حية خفيفة في سرعة حركتها"
+          },
+          {
+            "ayah_number": 31,
+            "word": "مُدْبِرًا",
+            "word_normalized": "مدبرا",
+            "meaning": "هَارِبًا جَاعِلًا النَّارَ خَلْفَ ظَهْرِهِ.",
+            "meaning_normalized": "هاربا جاعلا النار خلف ظهره"
+          },
+          {
+            "ayah_number": 31,
+            "word": "وَلَمْ يُعَقِّبْ",
+            "word_normalized": "ولم يعقب",
+            "meaning": "لَمْ يَلْتَفِتْ.",
+            "meaning_normalized": "لم يلتفت"
+          },
+          {
+            "ayah_number": 32,
+            "word": "ٱسْلُكْ",
+            "word_normalized": "اسلك",
+            "meaning": "أَدْخِلْ.",
+            "meaning_normalized": "أدخل"
+          }
+        ]
+      }
+    ]
+  }
+}

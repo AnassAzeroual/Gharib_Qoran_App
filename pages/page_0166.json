@@ -1,0 +1,152 @@
+{
+  "page": {
+    "page_number": 166,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَصَصِ",
+          "name_normalized": "سورة القصص",
+          "order": 28,
+          "ayat_count": 88,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 78,
+            "word": "وَلَا يُسْـَٔلُ",
+            "word_normalized": "ولا يسأل",
+            "meaning": "أَيْ: لَا يُسْأَلُونَ سُؤَالَ اسْتِعْلَامٍ؛ بَلْ سُؤَالَ تَوْبِيخٍ وَتَقْرِيرٍ.",
+            "meaning_normalized": "أي لا يسألون سؤال استعلام بل سؤال توبيخ وتقرير"
+          },
+          {
+            "ayah_number": 80,
+            "word": "يُلَقَّىٰهَآ",
+            "word_normalized": "يلقاها",
+            "meaning": "يَتَقَبَّلُ النَّصِيحَةَ، وَيُوَفَّقُ لِلْعَمَلِ بِهَا.",
+            "meaning_normalized": "يتقبل النصيحة ويوفق للعمل بها"
+          },
+          {
+            "ayah_number": 81,
+            "word": "فِئَةٍ",
+            "word_normalized": "فئة",
+            "meaning": "جُنْدٍ، وَجَمَاعَةٍ.",
+            "meaning_normalized": "جند وجماعة"
+          },
+          {
+            "ayah_number": 82,
+            "word": "وَيْكَأَنَّ",
+            "word_normalized": "ويكأن",
+            "meaning": "كَلِمَةُ تَوَجُّعٍ، وَتَأَسُّفٍ، وَتَعَجُّبٍ.",
+            "meaning_normalized": "كلمة توجع وتأسف وتعجب"
+          },
+          {
+            "ayah_number": 82,
+            "word": "وَيَقْدِرُ",
+            "word_normalized": "ويقدر",
+            "meaning": "يُضَيِّقُ.",
+            "meaning_normalized": "يضيق"
+          },
+          {
+            "ayah_number": 82,
+            "word": "وَيْكَأَنَّهُۥ",
+            "word_normalized": "ويكأنه",
+            "meaning": "أَلَمْ تَعْلَمْ أَنَّهُ؟",
+            "meaning_normalized": "ألم تعلم أنه"
+          },
+          {
+            "ayah_number": 83,
+            "word": "عُلُوًّا",
+            "word_normalized": "علوا",
+            "meaning": "تَكَبُّرًا.",
+            "meaning_normalized": "تكبرا"
+          },
+          {
+            "ayah_number": 85,
+            "word": "فَرَضَ",
+            "word_normalized": "فرض",
+            "meaning": "أَنْزَلَ.",
+            "meaning_normalized": "أنزل"
+          },
+          {
+            "ayah_number": 85,
+            "word": "لَرَآدُّكَ إِلَىٰ مَعَادٍ",
+            "word_normalized": "لرادك إلى معاد",
+            "meaning": "لَمُرْجِعُكَ إِلَى الْمَوْضِعِ الَّذِي خَرَجْتَ مِنْهُ، وَهُوَ مَكَّةُ.",
+            "meaning_normalized": "لمرجعك إلى الموضع الذي خرجت منه وهو مكة"
+          },
+          {
+            "ayah_number": 86,
+            "word": "تَرْجُوا",
+            "word_normalized": "ترجوا",
+            "meaning": "تُؤَمِّلُ.",
+            "meaning_normalized": "تؤمل"
+          },
+          {
+            "ayah_number": 86,
+            "word": "يُلْقَىٰ",
+            "word_normalized": "يلقى",
+            "meaning": "يُنَزَّلَ.",
+            "meaning_normalized": "ينزل"
+          },
+          {
+            "ayah_number": 86,
+            "word": "ظَهِيرًا",
+            "word_normalized": "ظهيرا",
+            "meaning": "عَوْنًا.",
+            "meaning_normalized": "عونا"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْعَنْكَبُوتِ",
+          "name_normalized": "سورة العنكبوت",
+          "order": 29,
+          "ayat_count": 69,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "لَا يُفْتَنُونَ",
+            "word_normalized": "لا يفتنون",
+            "meaning": "لَا يُخْتَبَرُونَ بِالشَّدَائِدِ؛ لِيَتَبَيَّنَ الْمُؤْمِنُ مِنَ الْمُنَافِقِ.",
+            "meaning_normalized": "لا يختبرون بالشدائد ليتبين المؤمن من المنافق"
+          },
+          {
+            "ayah_number": 4,
+            "word": "يَسْبِقُونَا",
+            "word_normalized": "يسبقونا",
+            "meaning": "يُعْجِزُونَا، وَيَفُوتُونَا بِأَنْفُسِهِمْ.",
+            "meaning_normalized": "يعجزونا ويفوتونا بأنفسهم"
+          },
+          {
+            "ayah_number": 5,
+            "word": "أَجَلَ ٱللَّهِ",
+            "word_normalized": "أجل الله",
+            "meaning": "الْوَقْتَ الَّذِي حَدَّدَهُ اللهُ لِلْبَعْثِ.",
+            "meaning_normalized": "الوقت الذي حدده الله للبعث"
+          }
+        ]
+      }
+    ]
+  }
+}

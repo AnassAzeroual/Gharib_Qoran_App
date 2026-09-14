@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 158,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّمْلِ",
+          "name_normalized": "سورة النمل",
+          "order": 27,
+          "ayat_count": 93,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 44,
+            "word": "مُّمَرَّدٌ",
+            "word_normalized": "ممرد",
+            "meaning": "مُمَلَّسٌ مُسَوًّى.",
+            "meaning_normalized": "مملس مسوى"
+          },
+          {
+            "ayah_number": 44,
+            "word": "مِن قَوَارِيرَ",
+            "word_normalized": "من قوارير",
+            "meaning": "مِنْ زُجَاجٍ صَافٍ.",
+            "meaning_normalized": "من زجاج صاف"
+          },
+          {
+            "ayah_number": 47,
+            "word": "ٱطَّيَّرْنَا",
+            "word_normalized": "اطيرنا",
+            "meaning": "تَشَاءَمْنَا.",
+            "meaning_normalized": "تشاءمنا"
+          },
+          {
+            "ayah_number": 47,
+            "word": "طَٰئِرُكُمْ عِندَ ٱللَّهِ",
+            "word_normalized": "طائركم عند الله",
+            "meaning": "مَا أَصَابَكُمْ مِنْ خَيْرٍ، أَوْ شَرٍّ، فَاللهُ مُقَدِّرُهُ عَلَيْكُمْ.",
+            "meaning_normalized": "ما أصابكم من خير أو شر فالله مقدره عليكم"
+          },
+          {
+            "ayah_number": 47,
+            "word": "تُفْتَنُونَ",
+            "word_normalized": "تفتنون",
+            "meaning": "تُخْتَبَرُونَ بِالسَّرَّاءِ، وَالضَّرَّاءِ.",
+            "meaning_normalized": "تختبرون بالسراء والضراء"
+          },
+          {
+            "ayah_number": 48,
+            "word": "ٱلْمَدِينَةِ",
+            "word_normalized": "المدينة",
+            "meaning": "مَدِينَةِ صَالِحٍ عَلَيْهِ السَّلَامُ، وَهِيَ الْحِجْرُ شَمَالَ غَرْبِ الْجَزِيرَةِ الْعَرَبِيَّةِ.",
+            "meaning_normalized": "مدينة صالح عليه السلام وهي الحجر شمال غرب الجزيرة العربية"
+          },
+          {
+            "ayah_number": 49,
+            "word": "تَقَاسَمُوا",
+            "word_normalized": "تقاسموا",
+            "meaning": "حَلَفَ كُلُّ وَاحِدٍ مِنْهُمْ لِلْآخَرِ.",
+            "meaning_normalized": "حلف كل واحد منهم للآخر"
+          },
+          {
+            "ayah_number": 49,
+            "word": "لَنُبَيِّتَنَّهُ",
+            "word_normalized": "لنبيتنه",
+            "meaning": "لَنَأْتِيَنَّهُ بِاللَّيْلِ بَغْتَةً فَنَقْتُلُهُ.",
+            "meaning_normalized": "لنأتينه بالليل بغتة فنقتله"
+          },
+          {
+            "ayah_number": 49,
+            "word": "لِوَلِيِّهِ",
+            "word_normalized": "لوليه",
+            "meaning": "قَرِيبِهِ الَّذِي يُطَالِبُ بِدَمِهِ.",
+            "meaning_normalized": "قريبه الذي يطالب بدمه"
+          },
+          {
+            "ayah_number": 52,
+            "word": "خَاوِيَةً",
+            "word_normalized": "خاوية",
+            "meaning": "خَالِيَةً.",
+            "meaning_normalized": "خالية"
+          },
+          {
+            "ayah_number": 54,
+            "word": "ٱلْفَٰحِشَةَ",
+            "word_normalized": "الفاحشة",
+            "meaning": "الْفَعْلَةَ الْمُتَنَاهِيَةَ فِي الْقُبْحِ.",
+            "meaning_normalized": "الفعلة المتناهية في القبح"
+          },
+          {
+            "ayah_number": 54,
+            "word": "تُبْصِرُونَ",
+            "word_normalized": "تبصرون",
+            "meaning": "تَعْلَمُونَ قُبْحَهَا.",
+            "meaning_normalized": "تعلمون قبحها"
+          },
+          {
+            "ayah_number": 56,
+            "word": "يَتَطَهَّرُونَ",
+            "word_normalized": "يتطهرون",
+            "meaning": "يَتَنَزَّهُونَ عَنْ إِتْيَانِ الذُّكْرَانِ.",
+            "meaning_normalized": "يتنزهون عن إتيان الذكران"
+          },
+          {
+            "ayah_number": 57,
+            "word": "قَدَّرْنَاهَا",
+            "word_normalized": "قدرناها",
+            "meaning": "جَعَلْنَا امْرَأَةَ لُوطٍ.",
+            "meaning_normalized": "جعلنا امرأة لوط"
+          },
+          {
+            "ayah_number": 57,
+            "word": "ٱلْغَٰبِرِينَ",
+            "word_normalized": "الغابرين",
+            "meaning": "الْبَاقِينَ فِي الْعَذَابِ.",
+            "meaning_normalized": "الباقين في العذاب"
+          },
+          {
+            "ayah_number": 58,
+            "word": "مَطَرًا",
+            "word_normalized": "مطرا",
+            "meaning": "حِجَارَةً مِنَ السَّمَاءِ.",
+            "meaning_normalized": "حجارة من السماء"
+          },
+          {
+            "ayah_number": 58,
+            "word": "فَسَآءَ",
+            "word_normalized": "فساء",
+            "meaning": "قَبُحَ.",
+            "meaning_normalized": "قبح"
+          },
+          {
+            "ayah_number": 60,
+            "word": "ذَاتَ بَهْجَةٍ",
+            "word_normalized": "ذات بهجة",
+            "meaning": "ذَاتَ مَنْظَرٍ حَسَنٍ.",
+            "meaning_normalized": "ذات منظر حسن"
+          },
+          {
+            "ayah_number": 60,
+            "word": "يَعْدِلُونَ",
+            "word_normalized": "يعدلون",
+            "meaning": "يَجْعَلُونَ لِلَّهِ عِدْلًا وَنَظِيرًا.",
+            "meaning_normalized": "يجعلون لله عدلا ونظيرا"
+          }
+        ]
+      }
+    ]
+  }
+}

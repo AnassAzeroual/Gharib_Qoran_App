@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 140,
+    "header": {
+      "right": "سُورَةُ الْمُؤْمِنُونَ",
+      "right_normalized": "سورة المؤمنون",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُؤْمِنُونَ",
+          "name_normalized": "سورة المؤمنون",
+          "order": 23,
+          "ayat_count": 118,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 50,
+            "word": "وَءَاوَيْنَٰهُمَآ",
+            "word_normalized": "وآويناهما",
+            "meaning": "جَعَلْنَا لَهُمَا مَأْوًى وَمَسْكَنًا.",
+            "meaning_normalized": "جعلنا لهما مأوى ومسكنا"
+          },
+          {
+            "ayah_number": 50,
+            "word": "رَبْوَةٍ",
+            "word_normalized": "ربوة",
+            "meaning": "مَكَانٍ مُرْتَفِعٍ مِنَ الْأَرْضِ.",
+            "meaning_normalized": "مكان مرتفع من الأرض"
+          },
+          {
+            "ayah_number": 50,
+            "word": "ذَاتِ قَرَارٍ",
+            "word_normalized": "ذات قرار",
+            "meaning": "مُسْتَوٍ لِلِاسْتِقْرَارِ عَلَيْهِ.",
+            "meaning_normalized": "مستو للاستقرار عليه"
+          },
+          {
+            "ayah_number": 50,
+            "word": "وَمَعِينٍ",
+            "word_normalized": "ومعين",
+            "meaning": "مَاءٍ جَارٍ ظَاهِرٍ لِلْعُيُونِ.",
+            "meaning_normalized": "ماء جار ظاهر للعيون"
+          },
+          {
+            "ayah_number": 52,
+            "word": "أُمَّتُكُمْ",
+            "word_normalized": "أمتكم",
+            "meaning": "دِينُكُمْ يَا مَعْشَرَ الْأَنْبِيَاءِ.",
+            "meaning_normalized": "دينكم يا معشر الأنبياء"
+          },
+          {
+            "ayah_number": 52,
+            "word": "أُمَّةً وَٰحِدَةً",
+            "word_normalized": "أمة واحدة",
+            "meaning": "دِينًا وَاحِدًا هُوَ: الْإِسْلَامُ.",
+            "meaning_normalized": "دينا واحدا هو الإسلام"
+          },
+          {
+            "ayah_number": 53,
+            "word": "فَتَقَطَّعُوا أَمْرَهُم",
+            "word_normalized": "فتقطعوا أمرهم",
+            "meaning": "فَتَفَرَّقَ الْأَتْبَاعُ فِي الدِّينِ.",
+            "meaning_normalized": "فتفرق الأتباع في الدين"
+          },
+          {
+            "ayah_number": 53,
+            "word": "زُبُرًا",
+            "word_normalized": "زبرا",
+            "meaning": "شِيَعًا، وَأَحْزَابًا.",
+            "meaning_normalized": "شيعا وأحزابا"
+          },
+          {
+            "ayah_number": 54,
+            "word": "غَمْرَتِهِمْ",
+            "word_normalized": "غمرتهم",
+            "meaning": "ضَلَالَتِهِمْ، وَجَهْلِهِمْ.",
+            "meaning_normalized": "ضلالتهم وجهلهم"
+          },
+          {
+            "ayah_number": 54,
+            "word": "حَتَّىٰ حِينٍ",
+            "word_normalized": "حتى حين",
+            "meaning": "إِلَى وَقْتِ نُزُولِ الْعَذَابِ بِهِمْ.",
+            "meaning_normalized": "إلى وقت نزول العذاب بهم"
+          },
+          {
+            "ayah_number": 57,
+            "word": "مُّشْفِقُونَ",
+            "word_normalized": "مشفقون",
+            "meaning": "وَجِلُونَ.",
+            "meaning_normalized": "وجلون"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَجِلَةٌ",
+            "word_normalized": "وجلة",
+            "meaning": "خَائِفَةٌ مِنْ عَدَمِ الْقَبُولِ.",
+            "meaning_normalized": "خائفة من عدم القبول"
+          },
+          {
+            "ayah_number": 63,
+            "word": "غَمْرَةٍ مِّنْ هَٰذَا",
+            "word_normalized": "غمرة من هذا",
+            "meaning": "ضَلَالٍ عَنْ هَذَا الْقُرْآنِ.",
+            "meaning_normalized": "ضلال عن هذا القرآن"
+          },
+          {
+            "ayah_number": 64,
+            "word": "يَجْـَٔرُونَ",
+            "word_normalized": "يجأرون",
+            "meaning": "يَرْفَعُونَ أَصْوَاتَهُمْ مُتَضَرِّعِينَ.",
+            "meaning_normalized": "يرفعون أصواتهم متضرعين"
+          },
+          {
+            "ayah_number": 66,
+            "word": "عَلَىٰ أَعْقَٰبِكُمْ تَنكِصُونَ",
+            "word_normalized": "على أعقابكم تنكصون",
+            "meaning": "تَنْفِرُونَ مِنْ سَمَاعِ الْآيَاتِ كَالَّذِي يَرْجِعُ إِلَى الْوَرَاءِ.",
+            "meaning_normalized": "تنفرون من سماع الآيات كالذي يرجع إلى الوراء"
+          },
+          {
+            "ayah_number": 67,
+            "word": "مُسْتَكْبِرِينَ بِهِ",
+            "word_normalized": "مستكبرين به",
+            "meaning": "مُسْتَعْلِينَ عَلَى النَّاسِ بِسَبَبِ الْحَرَمِ؛ تَقُولُونَ: نَحْنُ أَهْلُهُ لَا نُغْلَبُ فِيهِ.",
+            "meaning_normalized": "مستعلين على الناس بسبب الحرم تقولون نحن أهله لا نغلب فيه"
+          },
+          {
+            "ayah_number": 67,
+            "word": "سَٰمِرًا تَهْجُرُونَ",
+            "word_normalized": "سامرا تهجرون",
+            "meaning": "تَتَسَامَرُونَ بِاللَّيْلِ حَوْلَ الْحَرَمِ بِالسَّيِّئِ مِنَ الْقَوْلِ.",
+            "meaning_normalized": "تتسامرون بالليل حول الحرم بالسيئ من القول"
+          },
+          {
+            "ayah_number": 71,
+            "word": "بِذِكْرِهِمْ",
+            "word_normalized": "بذكرهم",
+            "meaning": "بِمَا فِيهِ عِزُّهُمْ وَشَرَفُهُمْ، وَهُوَ الْقُرْآنُ.",
+            "meaning_normalized": "بما فيه عزهم وشرفهم وهو القرآن"
+          }
+        ]
+      }
+    ]
+  }
+}
