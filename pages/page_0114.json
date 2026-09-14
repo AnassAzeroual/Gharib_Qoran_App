@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 114,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْكَهْفِ",
+          "name_normalized": "سورة الكهف",
+          "order": 18,
+          "ayat_count": 110,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 77,
+            "word": "يُرِيدُ أَن يَنقَضَّ",
+            "word_normalized": "يريد أن ينقض",
+            "meaning": "يُوشِكُ أَنْ يَسْقُطَ.",
+            "meaning_normalized": "يوشك أن يسقط"
+          },
+          {
+            "ayah_number": 78,
+            "word": "بِتَأْوِيلِ",
+            "word_normalized": "بتأويل",
+            "meaning": "بِمَآلٍ، وَعَاقِبَةٍ.",
+            "meaning_normalized": "بمآل وعاقبة"
+          },
+          {
+            "ayah_number": 79,
+            "word": "وَرَآءَهُم",
+            "word_normalized": "وراءهم",
+            "meaning": "أَمَامَهُمْ.",
+            "meaning_normalized": "أمامهم"
+          },
+          {
+            "ayah_number": 79,
+            "word": "كُلَّ سَفِينَةٍ",
+            "word_normalized": "كل سفينة",
+            "meaning": "كُلَّ سَفِينَةٍ صَالِحَةٍ.",
+            "meaning_normalized": "كل سفينة صالحة"
+          },
+          {
+            "ayah_number": 80,
+            "word": "يُرْهِقَهُمَا",
+            "word_normalized": "يرهقهما",
+            "meaning": "يُكَلِّفَهُمَا، وَيُحَمِّلَهُمَا.",
+            "meaning_normalized": "يكلفهما ويحملهما"
+          },
+          {
+            "ayah_number": 81,
+            "word": "زَكَوٰةً",
+            "word_normalized": "زكاة",
+            "meaning": "صَلَاحًا، وَطَهَارَةً.",
+            "meaning_normalized": "صلاحا وطهارة"
+          },
+          {
+            "ayah_number": 81,
+            "word": "وَأَقْرَبَ رُحْمًا",
+            "word_normalized": "وأقرب رحما",
+            "meaning": "بِرًّا بِهِمَا، وَرَحْمَةً عَلَيْهِمَا.",
+            "meaning_normalized": "برا بهما ورحمة عليهما"
+          },
+          {
+            "ayah_number": 82,
+            "word": "يَبْلُغَآ أَشُدَّهُمَا",
+            "word_normalized": "يبلغا أشدهما",
+            "meaning": "يَكْبَرَا، وَيَبْلُغَا قُوَّتَهُمَا.",
+            "meaning_normalized": "يكبرا ويبلغا قوتهما"
+          },
+          {
+            "ayah_number": 82,
+            "word": "تَسْطِع",
+            "word_normalized": "تسطع",
+            "meaning": "تَسْتَطِعْ.",
+            "meaning_normalized": "تستطع"
+          },
+          {
+            "ayah_number": 83,
+            "word": "ذِى ٱلْقَرْنَيْنِ",
+            "word_normalized": "ذي القرنين",
+            "meaning": "مَلِكٍ صَالِحٍ عَادِلٍ مَلَكَ مَا بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ.",
+            "meaning_normalized": "ملك صالح عادل ملك ما بين المشرق والمغرب"
+          },
+          {
+            "ayah_number": 84,
+            "word": "سَبَبًا",
+            "word_normalized": "سببا",
+            "meaning": "أَسْبَابًا وَطُرُقًا تُوَصِّلُهُ إِلَى مَا يُرِيدُ مِنْ فَتْحِ الْمُدُنِ، وَقَهْرِ الْأَعْدَاءِ.",
+            "meaning_normalized": "أسبابا وطرقا توصله إلى ما يريد من فتح المدن وقهر الأعداء"
+          },
+          {
+            "ayah_number": 85,
+            "word": "فَأَتْبَعَ سَبَبًا",
+            "word_normalized": "فأتبع سببا",
+            "meaning": "أَخَذَ جَادًّا بِالْأَسْبَابِ وَالطُّرُقِ الْمُوصِلَةِ إِلَى مَا يُرِيدُ بِجِدٍّ.",
+            "meaning_normalized": "أخذ جادا بالأسباب والطرق الموصلة إلى ما يريد بجد"
+          },
+          {
+            "ayah_number": 86,
+            "word": "وَجَدَهَا",
+            "word_normalized": "وجدها",
+            "meaning": "أَيْ: وَجَدَهَا كَذَلِكَ فِي نَظَرِ الْعَيْنِ.",
+            "meaning_normalized": "أي وجدها كذلك في نظر العين"
+          },
+          {
+            "ayah_number": 86,
+            "word": "حَمِئَةٍ",
+            "word_normalized": "حمئة",
+            "meaning": "حَارَّةٍ ذَاتِ طِينٍ أَسْوَدَ.",
+            "meaning_normalized": "حارة ذات طين أسود"
+          },
+          {
+            "ayah_number": 87,
+            "word": "نُّكْرًا",
+            "word_normalized": "نكرا",
+            "meaning": "عَظِيمًا.",
+            "meaning_normalized": "عظيما"
+          },
+          {
+            "ayah_number": 88,
+            "word": "ٱلْحُسْنَىٰ",
+            "word_normalized": "الحسنى",
+            "meaning": "الْجَنَّةُ.",
+            "meaning_normalized": "الجنة"
+          },
+          {
+            "ayah_number": 91,
+            "word": "خُبْرًا",
+            "word_normalized": "خبرا",
+            "meaning": "عِلْمًا.",
+            "meaning_normalized": "علما"
+          },
+          {
+            "ayah_number": 93,
+            "word": "ٱلسَّدَّيْنِ",
+            "word_normalized": "السدين",
+            "meaning": "الْجَبَلَيْنِ الْحَاجِزَيْنِ لِمَا وَرَاءَهُمَا.",
+            "meaning_normalized": "الجبلين الحاجزين لما وراءهما"
+          }
+        ]
+      }
+    ]
+  }
+}

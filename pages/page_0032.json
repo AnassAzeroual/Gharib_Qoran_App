@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 32,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "٣٢",
+      "left_normalized": "32"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النِّسَاءِ",
+          "name_normalized": "سورة النساء",
+          "order": 4,
+          "ayat_count": 176,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 171,
+            "word": "وَلَا تَغلُوا",
+            "word_normalized": "ولا تغلوا",
+            "meaning": "لَا تَتَجَاوَزُوا الِاعتِقَادَ الحَقَّ",
+            "meaning_normalized": "لا تتجاوزوا الاعتقاد الحق"
+          },
+          {
+            "ayah_number": 171,
+            "word": "وَكَلِمَتُهُ",
+            "word_normalized": "وكلمته",
+            "meaning": "مَخلُوقَةٌ بِالكَلِمَةِ الَّتِي أَرسَلَ بِهَا جِبرِيلَ إِلَى مَريَمَ وَهِيَ: «كُن!» فَكَانَ",
+            "meaning_normalized": "مخلوقة بالكلمة التي أرسل بها جبريل إلى مريم وهي كن فكان"
+          },
+          {
+            "ayah_number": 172,
+            "word": "فَيَستَنكِفُ",
+            "word_normalized": "فيستنكف",
+            "meaning": "يَأنَفُ، وَيَمتَنِعُ",
+            "meaning_normalized": "يأنف ويمتنع"
+          },
+          {
+            "ayah_number": 174,
+            "word": "بُرهَانٌ",
+            "word_normalized": "برهان",
+            "meaning": "دَلِيلٌ صَادِقٌ، وَهُوَ مُحَمَّدٌ ﷺ",
+            "meaning_normalized": "دليل صادق وهو محمد ﷺ"
+          },
+          {
+            "ayah_number": 176,
+            "word": "الكَلَالَةُ",
+            "word_normalized": "الكلالة",
+            "meaning": "مَن مَاتَ وَلَيسَ لَهُ وَلَدٌ، وَلَا وَالِدٌ",
+            "meaning_normalized": "من مات وليس له ولد ولا والد"
+          },
+          {
+            "ayah_number": 176,
+            "word": "وَلَهُ أُختٌ",
+            "word_normalized": "وله أخت",
+            "meaning": "أَي: أُختٌ شَقِيقَةٌ، أَو لِأَبٍ",
+            "meaning_normalized": "أي أخت شقيقة أو لأب"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ المَائِدَةِ",
+          "name_normalized": "سورة المائدة",
+          "order": 5,
+          "ayat_count": 120,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "بِالعُقُودِ",
+            "word_normalized": "بالعقود",
+            "meaning": "العُهُودُ المُؤَكَّدَةُ مَعَ اللهِ، وَمَعَ خَلقِهِ",
+            "meaning_normalized": "العهود المؤكدة مع الله ومع خلقه"
+          },
+          {
+            "ayah_number": 2,
+            "word": "شَعَائِرَ اللهِ",
+            "word_normalized": "شعائر الله",
+            "meaning": "مُستَحَلِّينَ لِلصَّيدِ",
+            "meaning_normalized": "مستحلين للصيد"
+          },
+          {
+            "ayah_number": 2,
+            "word": "حُرُمٌ",
+            "word_normalized": "حرم",
+            "meaning": "مُحرِمُونَ",
+            "meaning_normalized": "محرمون"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَلَا تَحِلُّوا",
+            "word_normalized": "ولا تحلوا",
+            "meaning": "لَا تَنتَهِكُوا",
+            "meaning_normalized": "لا تنتهكوا"
+          },
+          {
+            "ayah_number": 2,
+            "word": "شَعَائِرَ اللهِ",
+            "word_normalized": "شعائر الله",
+            "meaning": "حُدُودَهُ، وَمَعَالِمَ دِينِهِ",
+            "meaning_normalized": "حدوده ومعالم دينه"
+          },
+          {
+            "ayah_number": 2,
+            "word": "الشَّهرَ الحَرَامَ",
+            "word_normalized": "الشهر الحرام",
+            "meaning": "ذَا القَعدَةِ، وَذَا الحِجَّةِ، وَالمُحَرَّمَ وَرَجَبًا",
+            "meaning_normalized": "ذا القعدة وذا الحجة والمحرم ورجبا"
+          },
+          {
+            "ayah_number": 2,
+            "word": "الهَديَ",
+            "word_normalized": "الهدي",
+            "meaning": "مَا يُهدَى لِلبَيتِ مِن الأَنعَامِ وَغَيرِهَا",
+            "meaning_normalized": "ما يهدى للبيت من الأنعام وغيرها"
+          },
+          {
+            "ayah_number": 2,
+            "word": "القَلَائِدَ",
+            "word_normalized": "القلائد",
+            "meaning": "مَا قَلَّدَ مِن الهَديِ؛ حَيثُ يُعَلِّفُونَ النِّعَالَ وَغَيرَهَا عَلَى رِقَابِهَا؛ عَلَامَةً عَلَى أَنَّهَا هَديٌ",
+            "meaning_normalized": "ما قلد من الهدي حيث يعلفون النعال وغيرها على رقابها علامة على أنها هدي"
+          },
+          {
+            "ayah_number": 2,
+            "word": "عَائِذِينَ",
+            "word_normalized": "عائذين",
+            "meaning": "قَاصِدِينَ",
+            "meaning_normalized": "قاصدين"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَلَا يَجرِمَنَّكُمْ",
+            "word_normalized": "ولا يجرمنكم",
+            "meaning": "لَا يَحمِلَنَّكُمْ",
+            "meaning_normalized": "لا يحملنكم"
+          }
+        ]
+      }
+    ]
+  }
+}

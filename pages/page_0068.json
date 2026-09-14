@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 68,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّوْبَةِ",
+          "name_normalized": "سورة التوبة",
+          "order": 9,
+          "ayat_count": 129,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 110,
+            "word": "رَيْبَةً",
+            "word_normalized": "ريبة",
+            "meaning": "شَكًّا، وَنِفَاقًا.",
+            "meaning_normalized": "شكا ونفاقا"
+          },
+          {
+            "ayah_number": 110,
+            "word": "تَقَطَّعَ قُلُوبُهُمْ",
+            "word_normalized": "تقطع قلوبهم",
+            "meaning": "بِالْمَوْتِ، أَوْ بِالنَّدَامَةِ وَالتَّوْبَةِ.",
+            "meaning_normalized": "بالموت أو بالندامة والتوبة"
+          },
+          {
+            "ayah_number": 111,
+            "word": "وَمَنْ أَوْفَى",
+            "word_normalized": "ومن أوفى",
+            "meaning": "لَا أَحَدَ أَوْفَى.",
+            "meaning_normalized": "لا أحد أوفى"
+          },
+          {
+            "ayah_number": 111,
+            "word": "فَاسْتَبْشِرُوا",
+            "word_normalized": "فاستبشروا",
+            "meaning": "أَظْهِرُوا السُّرُورَ.",
+            "meaning_normalized": "أظهروا السرور"
+          },
+          {
+            "ayah_number": 112,
+            "word": "السَّائِحُونَ",
+            "word_normalized": "السائحون",
+            "meaning": "الصَّائِمُونَ.",
+            "meaning_normalized": "الصائمون"
+          },
+          {
+            "ayah_number": 112,
+            "word": "سَاعَةُ الْمَسِيرُ",
+            "word_normalized": "ساعة المسير",
+            "meaning": "وَقْتَ السُّبْقَةِ، وَالْمُرَادُ: غَزْوَةٌ تُبُوكٍ.",
+            "meaning_normalized": "وقت السبقة والمراد غزوة تبوك"
+          },
+          {
+            "ayah_number": 117,
+            "word": "يَرِيغُ",
+            "word_normalized": "يريغ",
+            "meaning": "يَمِيلُ.",
+            "meaning_normalized": "يميل"
+          },
+          {
+            "ayah_number": 118,
+            "word": "رِمَا رَحِبَتْ",
+            "word_normalized": "رما رحبت",
+            "meaning": "مَعَ رَحْبِهَا وَسَعَتِهَا.",
+            "meaning_normalized": "مع رحبها وسعتها"
+          },
+          {
+            "ayah_number": 119,
+            "word": "وَلَا يُرْضِيَانِ السَّيْرَ عَنْ مَيْلِهِ",
+            "word_normalized": "ولا يرضيان السير عن ميله",
+            "meaning": "بِأَنْ لَا يَرْضُوا بِالرَّاحَةِ لِأَنْفُسِهِمْ مَعَ نَبِيِّهِ ﷺ.",
+            "meaning_normalized": "بأن لا يرضوا بالراحة لأنفسهم مع نبيه ﷺ"
+          },
+          {
+            "ayah_number": 120,
+            "word": "مَخْمَصَةٌ",
+            "word_normalized": "مخمصة",
+            "meaning": "نَصَبٌ.",
+            "meaning_normalized": "نصب"
+          },
+          {
+            "ayah_number": 120,
+            "word": "مَخْمَصَةٌ",
+            "word_normalized": "مخمصة",
+            "meaning": "مَجَاعَةٌ.",
+            "meaning_normalized": "مجاعة"
+          },
+          {
+            "ayah_number": 121,
+            "word": "يَبْطِئُهُ",
+            "word_normalized": "يبطئه",
+            "meaning": "بِعُضْبٍ، وَنِيَمٍ.",
+            "meaning_normalized": "بعضب ونيم"
+          },
+          {
+            "ayah_number": 122,
+            "word": "وَكَيْلًا",
+            "word_normalized": "وكيلا",
+            "meaning": "قَتْلًا، أَوْ هَزِيمَةً، أَوْ أَذَى.",
+            "meaning_normalized": "قتلا أو هزيمة أو أذى"
+          },
+          {
+            "ayah_number": 123,
+            "word": "لَيَسْتَوُنَ كَآفَّةً",
+            "word_normalized": "ليستون كآفة",
+            "meaning": "لِيَخْرُجُوا لِلْجِهَادِ جَمِيعًا.",
+            "meaning_normalized": "ليخرجوا للجهاد جميعا"
+          },
+          {
+            "ayah_number": 124,
+            "word": "الَّذِينَ الْقُرَيْبِينَ مِنْكُمْ",
+            "word_normalized": "الذين القريبين منكم",
+            "meaning": "الْقُرَيْبِينَ مِنْكُمْ.",
+            "meaning_normalized": "القريبين منكم"
+          },
+          {
+            "ayah_number": 125,
+            "word": "خَبَرٌ",
+            "word_normalized": "خبر",
+            "meaning": "شَكٌّ، وَنِفَاقٌ.",
+            "meaning_normalized": "شك ونفاق"
+          },
+          {
+            "ayah_number": 125,
+            "word": "رِجْسًا",
+            "word_normalized": "رجسا",
+            "meaning": "بَقَاءً وَتُبَكًا.",
+            "meaning_normalized": "بقاء وتبكا"
+          },
+          {
+            "ayah_number": 127,
+            "word": "يَتَسَاوَرُونَ",
+            "word_normalized": "يتساورون",
+            "meaning": "يَتَلَاوَّنَ بِالْخَطَأِ وَالشُّبْهَةِ، وَإِظْهَارِ مَا يُبْطِنُونَهُ مِنَ النِّفَاقِ.",
+            "meaning_normalized": "يتلاون بالخطأ والشبهة وإظهار ما يبطنونه من النفاق"
+          },
+          {
+            "ayah_number": 128,
+            "word": "عَزِيزٌ",
+            "word_normalized": "عزيز",
+            "meaning": "صَعْبٌ، وَشَاقٌ عَلَيْهِ.",
+            "meaning_normalized": "صعب وشاق عليه"
+          },
+          {
+            "ayah_number": 128,
+            "word": "مَا عَنِتُّمْ",
+            "word_normalized": "ما عنتم",
+            "meaning": "عَنْتُكُمْ، وَمَشَقَّتُكُمْ.",
+            "meaning_normalized": "عنتكم ومشقتكم"
+          },
+          {
+            "ayah_number": 129,
+            "word": "حَسْبِيَ",
+            "word_normalized": "حسبي",
+            "meaning": "كَافِيَ.",
+            "meaning_normalized": "كافي"
+          }
+        ]
+      }
+    ]
+  }
+}

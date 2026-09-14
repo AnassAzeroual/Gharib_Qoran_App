@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 36,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "٣٦",
+      "left_normalized": "36"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ المَائِدَةِ",
+          "name_normalized": "سورة المائدة",
+          "order": 5,
+          "ayat_count": 120,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 44,
+            "word": "وَالأَحبَارُ",
+            "word_normalized": "والأحبار",
+            "meaning": "عُلَمَاءُ اليَهُودِ",
+            "meaning_normalized": "علماء اليهود"
+          },
+          {
+            "ayah_number": 46,
+            "word": "وَقَفَّينَا",
+            "word_normalized": "وقفينا",
+            "meaning": "أَتبَعنَا",
+            "meaning_normalized": "أتبعنا"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَمُهَيمِنًا عَلَيهِ",
+            "word_normalized": "ومهيمنا عليه",
+            "meaning": "حَاكِمًا عَلَيهَا، شَاهِدًا بِصِحَّتِهَا، أَمِينًا عَلَيهَا",
+            "meaning_normalized": "حاكما عليها شاهدا بصحتها أمينا عليها"
+          },
+          {
+            "ayah_number": 48,
+            "word": "شِرعَةً وَمِنهَاجًا",
+            "word_normalized": "شرعة ومنهاجا",
+            "meaning": "شَرِيعَةً، وَطَرِيقًا وَاضِحًا فِي الدِّينِ",
+            "meaning_normalized": "شريعة وطريقا واضحا في الدين"
+          },
+          {
+            "ayah_number": 48,
+            "word": "لَيَبلُوَكُمْ",
+            "word_normalized": "ليبلوكم",
+            "meaning": "لِيَختَبِرَكُمْ",
+            "meaning_normalized": "ليختبركم"
+          },
+          {
+            "ayah_number": 50,
+            "word": "يُبَادِرُونَ فِيهِمْ",
+            "word_normalized": "يبادرون فيهم",
+            "meaning": "يُبَادِرُونَ فِي مَوَدَّةِ اليَهُودِ وَنَحوِهِمْ",
+            "meaning_normalized": "يبادرون في مودة اليهود ونحوهم"
+          },
+          {
+            "ayah_number": 52,
+            "word": "دَائِرَةٌ",
+            "word_normalized": "دائرة",
+            "meaning": "نَائِبَةٌ وَمُصِيبَةٌ تَدُورُ عَلَينَا",
+            "meaning_normalized": "نائبة ومصيبة تدور علينا"
+          },
+          {
+            "ayah_number": 53,
+            "word": "جَهدَ أَيمَانِهِمْ",
+            "word_normalized": "جهد أيمانهم",
+            "meaning": "مُجتَهِدِينَ فِي الحِلفِ بِأَوكَدِ الأَيمَانِ",
+            "meaning_normalized": "مجتهدين في الحلف بأوكد الأيمان"
+          },
+          {
+            "ayah_number": 53,
+            "word": "حَبِطَت",
+            "word_normalized": "حبطت",
+            "meaning": "بَطَلَت",
+            "meaning_normalized": "بطلت"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَأَذِلَّةٍ",
+            "word_normalized": "وأذلة",
+            "meaning": "رُحَمَاءَ",
+            "meaning_normalized": "رحماء"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَأَعِزَّةٍ",
+            "word_normalized": "وأعزة",
+            "meaning": "أَشِدَّاءَ",
+            "meaning_normalized": "أشداء"
+          },
+          {
+            "ayah_number": 54,
+            "word": "لَومَةَ لَائِمٍ",
+            "word_normalized": "لومة لائم",
+            "meaning": "اعتِرَاضَ مُعتَرِضٍ",
+            "meaning_normalized": "اعتراض معترض"
+          },
+          {
+            "ayah_number": 60,
+            "word": "مَثُوبَةً",
+            "word_normalized": "مثوبة",
+            "meaning": "جَزَاءً، وَعُقُوبَةً",
+            "meaning_normalized": "جزاء وعقوبة"
+          },
+          {
+            "ayah_number": 60,
+            "word": "الطَّاغُوتَ",
+            "word_normalized": "الطاغوت",
+            "meaning": "كُلَّ مَن عُبِدَ مِن دُونِ اللهِ",
+            "meaning_normalized": "كل من عبد من دون الله"
+          },
+          {
+            "ayah_number": 62,
+            "word": "السُّحتَ",
+            "word_normalized": "السحت",
+            "meaning": "الحَرَامَ؛ وَمِنهُ الرُّشوَةُ وَالرِّبَا",
+            "meaning_normalized": "الحرام ومنه الرشوة والربا"
+          },
+          {
+            "ayah_number": 64,
+            "word": "مَغلُولَةٌ",
+            "word_normalized": "مغلولة",
+            "meaning": "مَحبُوسَةٌ عَن فِعلِ الخَيرِ",
+            "meaning_normalized": "محبوسة عن فعل الخير"
+          },
+          {
+            "ayah_number": 66,
+            "word": "مُقتَصِدَةٌ",
+            "word_normalized": "مقتصدة",
+            "meaning": "مُعتَدِلَةٌ، ثَابِتَةٌ عَلَى الحَقِّ",
+            "meaning_normalized": "معتدلة ثابتة على الحق"
+          },
+          {
+            "ayah_number": 68,
+            "word": "فَيُمُوا",
+            "word_normalized": "فيموا",
+            "meaning": "تَعمَلُوا",
+            "meaning_normalized": "تعملوا"
+          },
+          {
+            "ayah_number": 68,
+            "word": "وَالصَّابِئُونَ",
+            "word_normalized": "والصابئون",
+            "meaning": "قَومٌ يَأخُذُونَ عَلَى فِطرَتِهِمْ، وَلَا دِينَ لَهُمْ يَتَجَوَّنُهُ",
+            "meaning_normalized": "قوم يأخذون على فطرتهم ولا دين لهم يتجونه"
+          },
+          {
+            "ayah_number": 71,
+            "word": "فِتنَةٌ",
+            "word_normalized": "فتنة",
+            "meaning": "عَذَابٌ، وَبَلَاءٌ",
+            "meaning_normalized": "عذاب وبلاء"
+          }
+        ]
+      }
+    ]
+  }
+}

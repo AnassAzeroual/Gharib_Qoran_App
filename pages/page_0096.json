@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 96,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّحْلِ",
+          "name_normalized": "سورة النحل",
+          "order": 16,
+          "ayat_count": 128,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 16,
+            "word": "وَعَلَٰمَٰتٍ",
+            "word_normalized": "وعلامات",
+            "meaning": "مَعَالِمَ مِنْ جِبَالٍ كِبَارٍ وَصِغَارٍ، تَسْتَدِلُّونَ بِهَا عَلَى الطَّرِيقِ نَهَارًا.",
+            "meaning_normalized": "معالم من جبال كبار وصغار تستدلون بها على الطريق نهارا"
+          },
+          {
+            "ayah_number": 21,
+            "word": "أَيَّانَ",
+            "word_normalized": "أيان",
+            "meaning": "وَقْتَ.",
+            "meaning_normalized": "وقت"
+          },
+          {
+            "ayah_number": 23,
+            "word": "لَا جَرَمَ",
+            "word_normalized": "لا جرم",
+            "meaning": "حَقًّا.",
+            "meaning_normalized": "حقا"
+          },
+          {
+            "ayah_number": 24,
+            "word": "أَسَٰطِيرُ",
+            "word_normalized": "أساطير",
+            "meaning": "قِصَصٌ، وَأَبَاطِيلُ.",
+            "meaning_normalized": "قصص وأباطيل"
+          },
+          {
+            "ayah_number": 25,
+            "word": "أَوْزَٰرَهُمْ",
+            "word_normalized": "أوزارهم",
+            "meaning": "آثَامَهُمْ.",
+            "meaning_normalized": "آثامهم"
+          },
+          {
+            "ayah_number": 26,
+            "word": "فَخَرَّ",
+            "word_normalized": "فخر",
+            "meaning": "فَسَقَطَ.",
+            "meaning_normalized": "فسقط"
+          },
+          {
+            "ayah_number": 27,
+            "word": "يُخْزِيهِمْ",
+            "word_normalized": "يخزيهم",
+            "meaning": "يَفْضَحُهُمْ، وَيُذِلُّهُمْ بِالْعَذَابِ.",
+            "meaning_normalized": "يفضحهم ويذلهم بالعذاب"
+          },
+          {
+            "ayah_number": 27,
+            "word": "تُشَٰٓقُّونَ فِيهِمْ",
+            "word_normalized": "تشاقون فيهم",
+            "meaning": "تُحَارِبُونَ، وَتُجَادِلُونَ الْأَنْبِيَاءَ لِأَجْلِهِمْ.",
+            "meaning_normalized": "تحاربون وتجادلون الأنبياء لأجلهم"
+          },
+          {
+            "ayah_number": 28,
+            "word": "فَأَلْقَوُا۟ ٱلسَّلَمَ",
+            "word_normalized": "فألقوا السلم",
+            "meaning": "فَاسْتَسْلَمُوا لِأَمْرِ اللهِ.",
+            "meaning_normalized": "فاستسلموا لأمر الله"
+          },
+          {
+            "ayah_number": 29,
+            "word": "مَثْوَى",
+            "word_normalized": "مثوى",
+            "meaning": "مَقَرُّ.",
+            "meaning_normalized": "مقر"
+          },
+          {
+            "ayah_number": 33,
+            "word": "يَنْظُرُونَ",
+            "word_normalized": "ينظرون",
+            "meaning": "يَنْتَظِرُونَ.",
+            "meaning_normalized": "ينتظرون"
+          },
+          {
+            "ayah_number": 34,
+            "word": "وَحَاقَ",
+            "word_normalized": "وحاق",
+            "meaning": "وَأَحَاطَ.",
+            "meaning_normalized": "وأحاط"
+          },
+          {
+            "ayah_number": 36,
+            "word": "الطَّٰغُوتَ",
+            "word_normalized": "الطاغوت",
+            "meaning": "مَا يُعْبَدُ مِنْ دُونِ اللهِ.",
+            "meaning_normalized": "ما يعبد من دون الله"
+          },
+          {
+            "ayah_number": 38,
+            "word": "جَهْدَ أَيْمَٰنِهِمْ",
+            "word_normalized": "جهد أيمانهم",
+            "meaning": "مُجْتَهِدِينَ بِالْحَلِفِ بِأَغْلَظِ الْأَيْمَانِ.",
+            "meaning_normalized": "مجتهدين بالحلف بأغلظ الأيمان"
+          },
+          {
+            "ayah_number": 41,
+            "word": "لَنُبَوِّئَنَّهُمْ",
+            "word_normalized": "لنبوئنهم",
+            "meaning": "لَنُسْكِنَنَّهُمْ.",
+            "meaning_normalized": "لنسكننهم"
+          },
+          {
+            "ayah_number": 41,
+            "word": "حَسَنَةً",
+            "word_normalized": "حسنة",
+            "meaning": "دَارًا طَيِّبَةً.",
+            "meaning_normalized": "دارا طيبة"
+          },
+          {
+            "ayah_number": 44,
+            "word": "وَالزُّبُرِ",
+            "word_normalized": "والزبر",
+            "meaning": "الْكُتُبِ السَّمَاوِيَّةِ.",
+            "meaning_normalized": "الكتب السماوية"
+          },
+          {
+            "ayah_number": 45,
+            "word": "مَكَرُوا۟ ٱلسَّيِّـَٔاتِ",
+            "word_normalized": "مكروا السيئات",
+            "meaning": "دَبَّرُوا الْمَكَايِدَ.",
+            "meaning_normalized": "دبروا المكايد"
+          },
+          {
+            "ayah_number": 46,
+            "word": "تَقَلُّبِهِمْ",
+            "word_normalized": "تقلبهم",
+            "meaning": "أَسْفَارِهِمْ، وَتَصَرُّفَاتِهِمْ.",
+            "meaning_normalized": "أسفارهم وتصرفاتهم"
+          },
+          {
+            "ayah_number": 47,
+            "word": "تَخَوُّفٍ",
+            "word_normalized": "تخوف",
+            "meaning": "حَالِ خَوْفٍ، وَنَقْصٍ فِي الْأَمْوَالِ وَالْأَنْفُسِ.",
+            "meaning_normalized": "حال خوف ونقص في الأموال والأنفس"
+          }
+        ]
+      }
+    ]
+  }
+}

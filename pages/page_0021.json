@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 21,
+    "header": {
+      "right": "سُورَةُ آلِ عِمرَانَ",
+      "right_normalized": "سورة آل عمران",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ آلِ عِمرَانَ",
+          "name_normalized": "سورة آل عمران",
+          "order": 3,
+          "ayat_count": 200,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 35,
+            "word": "نَذَرتُ لَكَ",
+            "word_normalized": "نذرت لك",
+            "meaning": "جَعَلتُ لَكَ",
+            "meaning_normalized": "جعلت لك"
+          },
+          {
+            "ayah_number": 35,
+            "word": "مُحَرَّرًا",
+            "word_normalized": "محررا",
+            "meaning": "خَالِصًا لِخِدمَةِ بَيتِ الْمَقدِسِ",
+            "meaning_normalized": "خالصا لخدمة بيت المقدس"
+          },
+          {
+            "ayah_number": 36,
+            "word": "الرَّجِيمِ",
+            "word_normalized": "الرجيم",
+            "meaning": "الْمَرجُومُ الْمُبعَدُ مِن رَحمَةِ اللهِ",
+            "meaning_normalized": "المرجوم المبعد من رحمة الله"
+          },
+          {
+            "ayah_number": 36,
+            "word": "أُعِيذُهَا",
+            "word_normalized": "أعيذها",
+            "meaning": "أُحصِنُهَا",
+            "meaning_normalized": "أحصنها"
+          },
+          {
+            "ayah_number": 37,
+            "word": "الْمِحرَابَ",
+            "word_normalized": "المحراب",
+            "meaning": "مَكَانَ الْعِبَادَةِ",
+            "meaning_normalized": "مكان العبادة"
+          },
+          {
+            "ayah_number": 38,
+            "word": "لَدُنكَ",
+            "word_normalized": "لدنك",
+            "meaning": "عِندَكَ",
+            "meaning_normalized": "عندك"
+          },
+          {
+            "ayah_number": 39,
+            "word": "وَحَصُورًا",
+            "word_normalized": "وحصورا",
+            "meaning": "لَا يَقرَبُ الذُّنُوبَ وَالشَّهَوَاتِ تَعَفُّفًا",
+            "meaning_normalized": "لا يقرب الذنوب والشهوات تعففا"
+          },
+          {
+            "ayah_number": 40,
+            "word": "عَاقِرٌ",
+            "word_normalized": "عاقر",
+            "meaning": "عَقِيمٌ لَا تَلِدُ",
+            "meaning_normalized": "عقيم لا تلد"
+          },
+          {
+            "ayah_number": 41,
+            "word": "آيَةً",
+            "word_normalized": "آية",
+            "meaning": "عَلَامَةً أَستَدِلُّ بِهَا عَلَى وُجُودِ الْوَلَدِ مِنِّي",
+            "meaning_normalized": "علامة أستدل بها على وجود الولد مني"
+          },
+          {
+            "ayah_number": 41,
+            "word": "رَمزًا",
+            "word_normalized": "رمزا",
+            "meaning": "إِشَارَةً",
+            "meaning_normalized": "إشارة"
+          },
+          {
+            "ayah_number": 41,
+            "word": "بِالْعَشِيِّ",
+            "word_normalized": "بالعشي",
+            "meaning": "آخِرَ النَّهَارِ",
+            "meaning_normalized": "آخر النهار"
+          },
+          {
+            "ayah_number": 43,
+            "word": "اقنُتِي",
+            "word_normalized": "اقنتي",
+            "meaning": "دَاوِمِي عَلَى الطَّاعَةِ",
+            "meaning_normalized": "داومي على الطاعة"
+          },
+          {
+            "ayah_number": 44,
+            "word": "يُلقُونَ أَقلَامَهُم",
+            "word_normalized": "يلقون أقلامهم",
+            "meaning": "يَطرَحُونَ سِهَامَهُم لِلاقتِرَاعِ",
+            "meaning_normalized": "يطرحون سهامهم للاقتراع"
+          },
+          {
+            "ayah_number": 49,
+            "word": "الْأَكمَهَ",
+            "word_normalized": "الأكمه",
+            "meaning": "مَن وُلِدَ أَعمَى",
+            "meaning_normalized": "من ولد أعمى"
+          },
+          {
+            "ayah_number": 52,
+            "word": "الْحَوَارِيُّونَ",
+            "word_normalized": "الحواريون",
+            "meaning": "أَصفِيَاءُ عِيسَى عَلَيهِ السَّلَامُ",
+            "meaning_normalized": "أصفياء عيسى عليه السلام"
+          },
+          {
+            "ayah_number": 55,
+            "word": "مُتَوَفِّيكَ",
+            "word_normalized": "متوفيك",
+            "meaning": "قَابِضُكَ مِنَ الْأَرضِ",
+            "meaning_normalized": "قابضك من الأرض"
+          },
+          {
+            "ayah_number": 61,
+            "word": "نَبتَهِل",
+            "word_normalized": "نبتهل",
+            "meaning": "نَدعُ بِاللَّعنَةِ عَلَى الْكَاذِبِ مِنَّا",
+            "meaning_normalized": "ندع باللعنة على الكاذب منا"
+          },
+          {
+            "ayah_number": 64,
+            "word": "كَلِمَةٍ سَوَاءٍ",
+            "word_normalized": "كلمة سواء",
+            "meaning": "كَلِمَةِ عَدلٍ، وَحَقٍّ نَلتَزِمُ بِهَا",
+            "meaning_normalized": "كلمة عدل وحق نلتزم بها"
+          },
+          {
+            "ayah_number": 67,
+            "word": "حَنِيفًا",
+            "word_normalized": "حنيفا",
+            "meaning": "مَائِلًا عَنِ الشِّركِ قَصدًا",
+            "meaning_normalized": "مائلا عن الشرك قصدا"
+          },
+          {
+            "ayah_number": 71,
+            "word": "تَلبِسُونَ",
+            "word_normalized": "تلبسون",
+            "meaning": "تَخلِطُونَ",
+            "meaning_normalized": "تخلطون"
+          },
+          {
+            "ayah_number": 72,
+            "word": "وَجهَ النَّهَارِ",
+            "word_normalized": "وجه النهار",
+            "meaning": "أَوَّلَهُ",
+            "meaning_normalized": "أوله"
+          }
+        ]
+      }
+    ]
+  }
+}

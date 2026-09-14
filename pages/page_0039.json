@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 39,
+    "header": {
+      "right": "سُورَةُ الأَنعَامِ",
+      "right_normalized": "سورة الأنعام",
+      "left": "٣٩",
+      "left_normalized": "39"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ المَائِدَةِ",
+          "name_normalized": "سورة المائدة",
+          "order": 5,
+          "ayat_count": 120,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 104,
+            "word": "حَسبُنَا",
+            "word_normalized": "حسبنا",
+            "meaning": "كَافِينَا",
+            "meaning_normalized": "كافينا"
+          },
+          {
+            "ayah_number": 105,
+            "word": "عَلَيكُمْ أَنفُسَكُمْ",
+            "word_normalized": "عليكم أنفسكم",
+            "meaning": "اِلزَمُوا أَنفُسَكُمُ العَمَلَ بِالطَّاعَةِ",
+            "meaning_normalized": "الزموا أنفسكم العمل بالطاعة"
+          },
+          {
+            "ayah_number": 106,
+            "word": "حَضَرَكُمْ فِي الأَرضِ",
+            "word_normalized": "حضركم في الأرض",
+            "meaning": "سَأَقرَمُ",
+            "meaning_normalized": "سأقرم"
+          },
+          {
+            "ayah_number": 107,
+            "word": "إِثمًا",
+            "word_normalized": "إثما",
+            "meaning": "جِنَايَةً",
+            "meaning_normalized": "جناية"
+          },
+          {
+            "ayah_number": 107,
+            "word": "وَالأَولَيَانِ",
+            "word_normalized": "والأوليان",
+            "meaning": "الأَقرَبَانِ لِلمَيِّتِ",
+            "meaning_normalized": "الأقربان للميت"
+          },
+          {
+            "ayah_number": 108,
+            "word": "أَدنَى",
+            "word_normalized": "أدنى",
+            "meaning": "أَقرَبُ",
+            "meaning_normalized": "أقرب"
+          },
+          {
+            "ayah_number": 108,
+            "word": "عَلَى وَجهِهَا",
+            "word_normalized": "على وجهها",
+            "meaning": "عَلَى حَقِيقَتِهَا",
+            "meaning_normalized": "على حقيقتها"
+          },
+          {
+            "ayah_number": 110,
+            "word": "وَأُذلِكَ",
+            "word_normalized": "وأذلك",
+            "meaning": "قَوَّيتُكَ",
+            "meaning_normalized": "قويتك"
+          },
+          {
+            "ayah_number": 110,
+            "word": "بِرُوحِ القُدُسِ",
+            "word_normalized": "بروح القدس",
+            "meaning": "جِبرِيلَ ﷺ",
+            "meaning_normalized": "جبريل ﷺ"
+          },
+          {
+            "ayah_number": 110,
+            "word": "وَالأَكمَهُ",
+            "word_normalized": "والأكمه",
+            "meaning": "مَن وُلِدَ أَعمَى",
+            "meaning_normalized": "من ولد أعمى"
+          },
+          {
+            "ayah_number": 112,
+            "word": "الحَوَارِيُّونَ",
+            "word_normalized": "الحواريون",
+            "meaning": "أَصفِيَاءُ عِيسَى ﷺ",
+            "meaning_normalized": "أصفياء عيسى ﷺ"
+          },
+          {
+            "ayah_number": 112,
+            "word": "تَكُونُ لَنَا عِيدًا",
+            "word_normalized": "تكون لنا عيدا",
+            "meaning": "تَتَّخِذُ يَومَ نُزُولِهَا عِيدًا نُعَظِّمُهُ نَحنُ، وَمَن بَعدَنَا",
+            "meaning_normalized": "تتخذ يوم نزولها عيدا نعظمه نحن ومن بعدنا"
+          },
+          {
+            "ayah_number": 114,
+            "word": "وَآيَةً مِنكَ",
+            "word_normalized": "وآية منك",
+            "meaning": "عَلَامَةً عَلَى وَحدَانِيَّتِكَ وَنُبُوَّتِي",
+            "meaning_normalized": "علامة على وحدانيتك ونبوتي"
+          },
+          {
+            "ayah_number": 117,
+            "word": "شَهِيدًا",
+            "word_normalized": "شهيدا",
+            "meaning": "شَاهِدًا",
+            "meaning_normalized": "شاهدا"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الأَنعَامِ",
+          "name_normalized": "سورة الأنعام",
+          "order": 6,
+          "ayat_count": 165,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "جَعَلَ",
+            "word_normalized": "جعل",
+            "meaning": "خَلَقَ",
+            "meaning_normalized": "خلق"
+          },
+          {
+            "ayah_number": 2,
+            "word": "يَعدِلُونَ",
+            "word_normalized": "يعدلون",
+            "meaning": "يُسَوُّونَ بِهِ غَيرَهُ، وَيُشرِكُونَ",
+            "meaning_normalized": "يسوون به غيره ويشركون"
+          }
+        ]
+      }
+    ]
+  }
+}

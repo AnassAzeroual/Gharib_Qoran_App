@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 14,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَقَرَةِ",
+          "name_normalized": "سورة البقرة",
+          "order": 2,
+          "ayat_count": 286,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 187,
+            "word": "بَاشِرُوهُنَّ",
+            "word_normalized": "باشروهن",
+            "meaning": "جَامِعُوهُنَّ",
+            "meaning_normalized": "جامعوهن"
+          },
+          {
+            "ayah_number": 187,
+            "word": "الْخَيطُ الْأَبيَضُ",
+            "word_normalized": "الخيط الأبيض",
+            "meaning": "نُورُ الْفَجرِ",
+            "meaning_normalized": "نور الفجر"
+          },
+          {
+            "ayah_number": 187,
+            "word": "الْخَيطُ الْأَسوَدُ",
+            "word_normalized": "الخيط الأسود",
+            "meaning": "سَوَادُ اللَّيلِ",
+            "meaning_normalized": "سواد الليل"
+          },
+          {
+            "ayah_number": 187,
+            "word": "عَاكِفُونَ",
+            "word_normalized": "عاكفون",
+            "meaning": "مُقِيمُونَ فِي الْمَسَاجِدِ؛ بِنِيَّةِ التَّقَرُّبِ إِلَى اللهِ",
+            "meaning_normalized": "مقيمون في المساجد بنية التقرب إلى الله"
+          },
+          {
+            "ayah_number": 187,
+            "word": "حُدُودُ اللهِ",
+            "word_normalized": "حدود الله",
+            "meaning": "مُحَرَّمَاتُهُ وَمَنهِيَّاتُهُ",
+            "meaning_normalized": "محرماته ومنهياته"
+          },
+          {
+            "ayah_number": 188,
+            "word": "وَتُدلُوا",
+            "word_normalized": "وتدلوا",
+            "meaning": "تَدفَعُوا",
+            "meaning_normalized": "تدفعوا"
+          },
+          {
+            "ayah_number": 189,
+            "word": "الْأَهِلَّةَ",
+            "word_normalized": "الأهلة",
+            "meaning": "جَمعُ هِلَالٍ؛ وَهُوَ الْقَمَرُ فِي بِدَايَةِ ظُهُورِهِ",
+            "meaning_normalized": "جمع هلال وهو القمر في بداية ظهوره"
+          },
+          {
+            "ayah_number": 191,
+            "word": "تَقِفُنَّمُوهُم",
+            "word_normalized": "تقفنموهم",
+            "meaning": "وَجَدتُّمُوهُم",
+            "meaning_normalized": "وجدتموهم"
+          },
+          {
+            "ayah_number": 191,
+            "word": "وَالْفِتنَةُ",
+            "word_normalized": "والفتنة",
+            "meaning": "أَذًى لِلمُسلِمِينَ، أَو شِركٌ بِاللهِ",
+            "meaning_normalized": "أذى للمسلمين أو شرك بالله"
+          },
+          {
+            "ayah_number": 195,
+            "word": "وَلَا تُلقُوا بِأَيدِيكُم",
+            "word_normalized": "ولا تلقوا بأيديكم",
+            "meaning": "لَا تُوقِعُوا أَنفُسَكُم",
+            "meaning_normalized": "لا توقعوا أنفسكم"
+          },
+          {
+            "ayah_number": 195,
+            "word": "التَّهلُكَةَ",
+            "word_normalized": "التهلكة",
+            "meaning": "الْهَلَاكُ بِتَركِ الْجِهَادِ، وَالْإِنفَاقِ فِيهِ",
+            "meaning_normalized": "الهلاك بترك الجهاد والإنفاق فيه"
+          },
+          {
+            "ayah_number": 196,
+            "word": "أُحصِرتُم",
+            "word_normalized": "أحصرتم",
+            "meaning": "مُنِعتُم لِمَرَضٍ، أَو عَدُوٍّ",
+            "meaning_normalized": "منعتم لمرض أو عدو"
+          },
+          {
+            "ayah_number": 196,
+            "word": "الْهَديَ",
+            "word_normalized": "الهدي",
+            "meaning": "مَا يُهدَى إِلَى الْبَيتِ مِنَ الْأَنعَامِ",
+            "meaning_normalized": "ما يهدى إلى البيت من الأنعام"
+          },
+          {
+            "ayah_number": 196,
+            "word": "نُسُكٍ",
+            "word_normalized": "نسك",
+            "meaning": "ذَبِيحَةٌ: شَاةٌ تُذبَحُ لِفُقَرَاءِ الْحَرَمِ",
+            "meaning_normalized": "ذبيحة شاة تذبح لفقراء الحرم"
+          },
+          {
+            "ayah_number": 196,
+            "word": "حَاضِرِي",
+            "word_normalized": "حاضري",
+            "meaning": "سَاكِنِي",
+            "meaning_normalized": "ساكني"
+          },
+          {
+            "ayah_number": 197,
+            "word": "أَشهُرٌ مَعلُومَاتٌ",
+            "word_normalized": "أشهر معلومات",
+            "meaning": "هِيَ: شَوَّالٌ، وَذُو الْقَعدَةِ، وَعَشرٌ مِن ذِي الْحِجَّةِ",
+            "meaning_normalized": "هي شوال وذو القعدة وعشر من ذي الحجة"
+          },
+          {
+            "ayah_number": 197,
+            "word": "رَفَثَ",
+            "word_normalized": "رفث",
+            "meaning": "الْجِمَاعُ وَمُقَدِّمَاتِهِ الْقَولِيَّةِ وَالْفِعلِيَّةِ",
+            "meaning_normalized": "الجماع ومقدماته القولية والفعلية"
+          },
+          {
+            "ayah_number": 198,
+            "word": "فَضلًا",
+            "word_normalized": "فضلا",
+            "meaning": "رِزقًا بِالتِّجَارَةِ",
+            "meaning_normalized": "رزقا بالتجارة"
+          },
+          {
+            "ayah_number": 198,
+            "word": "أَفَضتُم مِن عَرَفَاتٍ",
+            "word_normalized": "أفضتم من عرفات",
+            "meaning": "دَفَعتُم بَعدَ غُرُوبِ الشَّمسِ، رَاجِعِينَ مِن عَرَفَاتٍ",
+            "meaning_normalized": "دفعتم بعد غروب الشمس راجعين من عرفات"
+          }
+        ]
+      }
+    ]
+  }
+}

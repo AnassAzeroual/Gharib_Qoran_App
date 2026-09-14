@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 124,
+    "header": {
+      "right": "سُورَةُ طه",
+      "right_normalized": "سورة طه",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ طه",
+          "name_normalized": "سورة طه",
+          "order": 20,
+          "ayat_count": 135,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 90,
+            "word": "فُتِنتُم بِهِۦ",
+            "word_normalized": "فتنتم به",
+            "meaning": "اُخْتُبِرْتُمْ بِهِ.",
+            "meaning_normalized": "اختبرتم به"
+          },
+          {
+            "ayah_number": 91,
+            "word": "لَن نَّبْرَحَ",
+            "word_normalized": "لن نبرح",
+            "meaning": "لَنْ نَزَالَ.",
+            "meaning_normalized": "لن نزال"
+          },
+          {
+            "ayah_number": 91,
+            "word": "عَٰكِفِينَ",
+            "word_normalized": "عاكفين",
+            "meaning": "مُقِيمِينَ عَلَى عِبَادَتِهِ.",
+            "meaning_normalized": "مقيمين على عبادته"
+          },
+          {
+            "ayah_number": 94,
+            "word": "وَلَمْ تَرْقُبْ قَوْلِي",
+            "word_normalized": "ولم ترقب قولي",
+            "meaning": "لَمْ تَحْفَظْ وَصِيَّتِي بِحُسْنِ رِعَايَتِهِمْ.",
+            "meaning_normalized": "لم تحفظ وصيتي بحسن رعايتهم"
+          },
+          {
+            "ayah_number": 95,
+            "word": "فَمَا خَطْبُكَ",
+            "word_normalized": "فما خطبك",
+            "meaning": "فَمَا شَأْنُكَ الْخَطِيرُ؟",
+            "meaning_normalized": "فما شأنك الخطير"
+          },
+          {
+            "ayah_number": 96,
+            "word": "بَصُرْتُ",
+            "word_normalized": "بصرت",
+            "meaning": "رَأَيْتُ أَوْ عَلِمْتُ بِبَصِيرَتِي.",
+            "meaning_normalized": "رأيت أو علمت ببصيرتي"
+          },
+          {
+            "ayah_number": 96,
+            "word": "فَقَبَضْتُ قَبْضَةً",
+            "word_normalized": "فقبضت قبضة",
+            "meaning": "أَخَذْتُ بِكَفِّي تُرَابًا.",
+            "meaning_normalized": "أخذت بكفي ترابا"
+          },
+          {
+            "ayah_number": 96,
+            "word": "مِنْ أَثَرِ ٱلرَّسُولِ",
+            "word_normalized": "من أثر الرسول",
+            "meaning": "مِنْ أَثَرِ حَافِرِ فَرَسِ جِبْرِيلَ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "من أثر حافر فرس جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 96,
+            "word": "فَنَبَذْتُهَا",
+            "word_normalized": "فنبذتها",
+            "meaning": "أَلْقَيْتُهَا عَلَى الْحُلِيِّ.",
+            "meaning_normalized": "ألقيتها على الحلي"
+          },
+          {
+            "ayah_number": 96,
+            "word": "سَوَّلَتْ",
+            "word_normalized": "سولت",
+            "meaning": "زَيَّنَتْ.",
+            "meaning_normalized": "زينت"
+          },
+          {
+            "ayah_number": 97,
+            "word": "لَا مِسَاسَ",
+            "word_normalized": "لا مساس",
+            "meaning": "أَيْ: تَكُونَ مَنْبُوذًا؛ تَقُولُ لِكُلِّ وَاحِدٍ: لَا أَمَسُّكَ، وَلَا تَمَسُّنِي.",
+            "meaning_normalized": "أي تكون منبوذا تقول لكل واحد لا أمسك ولا تمسني"
+          },
+          {
+            "ayah_number": 97,
+            "word": "ظَلْتَ",
+            "word_normalized": "ظلت",
+            "meaning": "أَقَمْتَ.",
+            "meaning_normalized": "أقمت"
+          },
+          {
+            "ayah_number": 99,
+            "word": "مِن لَّدُنَّا",
+            "word_normalized": "من لدنا",
+            "meaning": "مِنْ عِنْدِنَا.",
+            "meaning_normalized": "من عندنا"
+          },
+          {
+            "ayah_number": 100,
+            "word": "وِزْرًا",
+            "word_normalized": "وزرا",
+            "meaning": "إِثْمًا عَظِيمًا.",
+            "meaning_normalized": "إثما عظيما"
+          },
+          {
+            "ayah_number": 102,
+            "word": "ٱلصُّورِ",
+            "word_normalized": "الصور",
+            "meaning": "الْقَرْنِ الَّذِي يُنْفَخُ فِيهِ إِسْرَافِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل عليه السلام"
+          },
+          {
+            "ayah_number": 102,
+            "word": "وَنَحْشُرُ",
+            "word_normalized": "ونحشر",
+            "meaning": "نَسُوقُ.",
+            "meaning_normalized": "نسوق"
+          },
+          {
+            "ayah_number": 102,
+            "word": "زُرْقًا",
+            "word_normalized": "زرقا",
+            "meaning": "زُرْقَ الْعُيُونِ مَعَ سَوَادِ وُجُوهِهِمْ.",
+            "meaning_normalized": "زرق العيون مع سواد وجوههم"
+          },
+          {
+            "ayah_number": 103,
+            "word": "يَتَخَٰفَتُونَ",
+            "word_normalized": "يتخافتون",
+            "meaning": "يَتَسَارُّونَ، وَيَتَهَامَسُونَ.",
+            "meaning_normalized": "يتسارون ويتهامسون"
+          },
+          {
+            "ayah_number": 104,
+            "word": "أَمْثَلُهُمْ طَرِيقَةً",
+            "word_normalized": "أمثلهم طريقة",
+            "meaning": "أَعْلَمُهُمْ، وَأَوْفَاهُمْ عَقْلًا.",
+            "meaning_normalized": "أعلمهم وأوفاهم عقلا"
+          },
+          {
+            "ayah_number": 105,
+            "word": "يَنسِفُهَا",
+            "word_normalized": "ينسفها",
+            "meaning": "يُزِيلُهَا عَنْ أَمَاكِنِهَا.",
+            "meaning_normalized": "يزيلها عن أماكنها"
+          }
+        ]
+      }
+    ]
+  }
+}

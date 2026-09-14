@@ -1,0 +1,166 @@
+{
+  "page": {
+    "page_number": 95,
+    "header": {
+      "right": "سُورَةُ النَّحْلِ",
+      "right_normalized": "سورة النحل",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحِجْرِ",
+          "name_normalized": "سورة الحجر",
+          "order": 15,
+          "ayat_count": 99,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 94,
+            "word": "فَاصْدَعْ",
+            "word_normalized": "فاصدع",
+            "meaning": "فَاجْهَرْ.",
+            "meaning_normalized": "فاجهر"
+          },
+          {
+            "ayah_number": 98,
+            "word": "السَّاجِدِينَ",
+            "word_normalized": "الساجدين",
+            "meaning": "الْعَابِدِينَ، الْمُصَلِّينَ.",
+            "meaning_normalized": "العابدين المصلين"
+          },
+          {
+            "ayah_number": 99,
+            "word": "الْيَقِينُ",
+            "word_normalized": "اليقين",
+            "meaning": "الْمَوْتُ.",
+            "meaning_normalized": "الموت"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّحْلِ",
+          "name_normalized": "سورة النحل",
+          "order": 16,
+          "ayat_count": 128,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "أَمْرُ اللهِ",
+            "word_normalized": "أمر الله",
+            "meaning": "قِيَامُ السَّاعَةِ.",
+            "meaning_normalized": "قيام الساعة"
+          },
+          {
+            "ayah_number": 2,
+            "word": "بِالرُّوحِ",
+            "word_normalized": "بالروح",
+            "meaning": "بِالْوَحْيِ.",
+            "meaning_normalized": "بالوحي"
+          },
+          {
+            "ayah_number": 4,
+            "word": "خَصِيمٌ",
+            "word_normalized": "خصيم",
+            "meaning": "شَدِيدُ الْخُصُومَةِ.",
+            "meaning_normalized": "شديد الخصومة"
+          },
+          {
+            "ayah_number": 6,
+            "word": "تُرِيحُونَ",
+            "word_normalized": "تريحون",
+            "meaning": "تَرُدُّونَهَا إِلَى مَبَارِكِهَا وَحَظَائِرِهَا فِي الْمَسَاءِ.",
+            "meaning_normalized": "تردونها إلى مباركها وحظائرها في المساء"
+          },
+          {
+            "ayah_number": 6,
+            "word": "تَسْرَحُونَ",
+            "word_normalized": "تسرحون",
+            "meaning": "تُخْرِجُونَهَا لِلْمَرْعَى فِي الصَّبَاحِ.",
+            "meaning_normalized": "تخرجونها للمرعى في الصباح"
+          },
+          {
+            "ayah_number": 7,
+            "word": "أَثْقَالَكُمْ",
+            "word_normalized": "أثقالكم",
+            "meaning": "أَمْتِعَتَكُمُ الثَّقِيلَةَ.",
+            "meaning_normalized": "أمتعتكم الثقيلة"
+          },
+          {
+            "ayah_number": 9,
+            "word": "قَصْدُ السَّبِيلِ",
+            "word_normalized": "قصد السبيل",
+            "meaning": "بَيَانُ الطَّرِيقِ الْمُسْتَقِيمِ.",
+            "meaning_normalized": "بيان الطريق المستقيم"
+          },
+          {
+            "ayah_number": 9,
+            "word": "جَائِرٌ",
+            "word_normalized": "جائر",
+            "meaning": "مَائِلٌ عَنِ الْحَقِّ.",
+            "meaning_normalized": "مائل عن الحق"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فِيهِ تُسِيمُونَ",
+            "word_normalized": "فيه تسيمون",
+            "meaning": "فِي الشَّجَرِ تَرْعَوْنَ دَوَابَّكُمْ.",
+            "meaning_normalized": "في الشجر ترعون دوابكم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "ذَرَأَ",
+            "word_normalized": "ذرأ",
+            "meaning": "خَلَقَ.",
+            "meaning_normalized": "خلق"
+          },
+          {
+            "ayah_number": 14,
+            "word": "لَحْمًا طَرِيًّا",
+            "word_normalized": "لحما طريا",
+            "meaning": "هُوَ: السَّمَكُ.",
+            "meaning_normalized": "هو السمك"
+          },
+          {
+            "ayah_number": 14,
+            "word": "مَوَاخِرَ فِيهِ",
+            "word_normalized": "مواخر فيه",
+            "meaning": "السُّفُنَ الْجَوَارِيَ فِيهِ تَشُقُّ وَجْهَ الْمَاءِ.",
+            "meaning_normalized": "السفن الجواري فيه تشق وجه الماء"
+          },
+          {
+            "ayah_number": 15,
+            "word": "رَوَاسِيَ",
+            "word_normalized": "رواسي",
+            "meaning": "جِبَالًا ثَوَابِتَ.",
+            "meaning_normalized": "جبالا ثوابت"
+          },
+          {
+            "ayah_number": 15,
+            "word": "أَنْ تَمِيدَ",
+            "word_normalized": "أن تميد",
+            "meaning": "لِئَلَّا تَمِيلَ، وَتَضْطَرِبَ.",
+            "meaning_normalized": "لئلا تميل وتضطرب"
+          }
+        ]
+      }
+    ]
+  }
+}

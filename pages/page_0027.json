@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 27,
+    "header": {
+      "right": "سُورَةُ النِّسَاءِ",
+      "right_normalized": "سورة النساء",
+      "left": "٢٧",
+      "left_normalized": "27"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النِّسَاءِ",
+          "name_normalized": "سورة النساء",
+          "order": 4,
+          "ayat_count": 176,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 25,
+            "word": "العَنَتُ",
+            "word_normalized": "العنت",
+            "meaning": "الوُقُوعُ فِي الزِّنَى",
+            "meaning_normalized": "الوقوع في الزنى"
+          },
+          {
+            "ayah_number": 26,
+            "word": "كَبَائِرُهُ",
+            "word_normalized": "كبائره",
+            "meaning": "الذُّنُوبُ الكَبِيرَةُ مِمَّا فِيهِ حَدٌّ، أَو لَعنَةٌ، أَو وَعِيدٌ",
+            "meaning_normalized": "الذنوب الكبيرة مما فيه حد أو لعنة أو وعيد"
+          },
+          {
+            "ayah_number": 31,
+            "word": "سَيِّئَاتِكُمْ",
+            "word_normalized": "سيئاتكم",
+            "meaning": "الذُّنُوبُ الصَّغِيرَةُ",
+            "meaning_normalized": "الذنوب الصغيرة"
+          },
+          {
+            "ayah_number": 32,
+            "word": "وَنِزلًا",
+            "word_normalized": "ونزلا",
+            "meaning": "وَرِزقًا",
+            "meaning_normalized": "ورزقا"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَالَّذِينَ عَقَدَت أَيمَانُكُمْ",
+            "word_normalized": "والذين عقدت أيمانكم",
+            "meaning": "مَن حَالَفتُمُوهُمْ عَلَى النُّصرَةِ",
+            "meaning_normalized": "من حالفتموهم على النصرة"
+          },
+          {
+            "ayah_number": 34,
+            "word": "فَعِظُوهُنَّ",
+            "word_normalized": "فعظوهن",
+            "meaning": "فُطِيعَاتٌ لِلهِ ـ تَعَالَى ـ ثُمَّ لِأَزوَاجِهِنَّ",
+            "meaning_normalized": "فطيعات لله تعالى ثم لأزواجهن"
+          },
+          {
+            "ayah_number": 34,
+            "word": "فَانتُرُوهُنَّ",
+            "word_normalized": "فانتروهن",
+            "meaning": "عَصَّائِهُنَّ وَتَرفُهُنَّ عَن طَاعَتِهِمْ",
+            "meaning_normalized": "عصائهن وترفهن عن طاعتهم"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَالجَارِ الجُنُبِ",
+            "word_normalized": "والجار الجنب",
+            "meaning": "الجَارُ غَيرُ القَرِيبِ",
+            "meaning_normalized": "الجار غير القريب"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَالصَّاحِبِ بِالجَنبِ",
+            "word_normalized": "والصاحب بالجنب",
+            "meaning": "الرَّفِيقُ فِي السَّفَرِ وَالحَضَرِ",
+            "meaning_normalized": "الرفيق في السفر والحضر"
+          },
+          {
+            "ayah_number": 36,
+            "word": "مُختَالًا",
+            "word_normalized": "مختالا",
+            "meaning": "مُتَكَبِّرًا، مُعجَبًا بِنَفسِهِ",
+            "meaning_normalized": "متكبرا معجبا بنفسه"
+          },
+          {
+            "ayah_number": 36,
+            "word": "فَخُورًا",
+            "word_normalized": "فخورا",
+            "meaning": "كَثِيرُ الِافتِخَارِ عَلَى النَّاسِ بِمَنَاقِبِهِ",
+            "meaning_normalized": "كثير الافتخار على الناس بمناقبه"
+          },
+          {
+            "ayah_number": 40,
+            "word": "تَكُ",
+            "word_normalized": "تك",
+            "meaning": "تَكُن",
+            "meaning_normalized": "تكن"
+          },
+          {
+            "ayah_number": 40,
+            "word": "لَدُنهُ",
+            "word_normalized": "لدنه",
+            "meaning": "عِندَهُ",
+            "meaning_normalized": "عنده"
+          },
+          {
+            "ayah_number": 43,
+            "word": "جُنُبًا",
+            "word_normalized": "جنبا",
+            "meaning": "عَلَى جَنَابَةٍ",
+            "meaning_normalized": "على جنابة"
+          },
+          {
+            "ayah_number": 43,
+            "word": "عَابِرِي سَبِيلٍ",
+            "word_normalized": "عابري سبيل",
+            "meaning": "مُجتَازِي المَسجِدِ مِن بَابٍ إِلَى بَابٍ",
+            "meaning_normalized": "مجتازي المسجد من باب إلى باب"
+          },
+          {
+            "ayah_number": 43,
+            "word": "لَامَسُتُمْ",
+            "word_normalized": "لامستم",
+            "meaning": "جَامَعتُمْ",
+            "meaning_normalized": "جامعتم"
+          },
+          {
+            "ayah_number": 43,
+            "word": "فَتَيَمَّمُوا",
+            "word_normalized": "فتيمموا",
+            "meaning": "اِقصِدُوا",
+            "meaning_normalized": "اقصدوا"
+          },
+          {
+            "ayah_number": 43,
+            "word": "صَعِيدًا",
+            "word_normalized": "صعيدا",
+            "meaning": "مَا كَانَ عَلَى وَجهِ الأَرضِ مِن تُرَابٍ، وَنَحوِهِ",
+            "meaning_normalized": "ما كان على وجه الأرض من تراب ونحوه"
+          },
+          {
+            "ayah_number": 44,
+            "word": "هَلُمَّتًا",
+            "word_normalized": "هلمتا",
+            "meaning": "طَاهِرًا",
+            "meaning_normalized": "طاهرا"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 127,
+    "header": {
+      "right": "سُورَةُ الْأَنْبِيَاءِ",
+      "right_normalized": "سورة الأنبياء",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْبِيَاءِ",
+          "name_normalized": "سورة الأنبياء",
+          "order": 21,
+          "ayat_count": 112,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 8,
+            "word": "جَسَدًا",
+            "word_normalized": "جسدا",
+            "meaning": "أَجْسَادًا خَارِجَةً عَنْ طِبَاعِ الْبَشَرِ.",
+            "meaning_normalized": "أجسادا خارجة عن طباع البشر"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فِيهِ ذِكْرُكُمْ",
+            "word_normalized": "فيه ذكركم",
+            "meaning": "فِيهِ عِزُّكُمْ، وَشَرَفُكُمْ، إِنِ اتَّعَظْتُمْ بِهِ.",
+            "meaning_normalized": "فيه عزكم وشرفكم إن اتعظتم به"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَكَمْ قَصَمْنَا",
+            "word_normalized": "وكم قصمنا",
+            "meaning": "كَثِيرًا أَهْلَكْنَا.",
+            "meaning_normalized": "كثيرا أهلكنا"
+          },
+          {
+            "ayah_number": 12,
+            "word": "أَحَسُّواْ",
+            "word_normalized": "أحسوا",
+            "meaning": "رَأَوْا.",
+            "meaning_normalized": "رأوا"
+          },
+          {
+            "ayah_number": 12,
+            "word": "بَأْسَنَآ",
+            "word_normalized": "بأسنا",
+            "meaning": "عَذَابَنَا.",
+            "meaning_normalized": "عذابنا"
+          },
+          {
+            "ayah_number": 12,
+            "word": "يَرْكُضُونَ",
+            "word_normalized": "يركضون",
+            "meaning": "يُسْرِعُونَ هَارِبِينَ مِنَ الْعَذَابِ.",
+            "meaning_normalized": "يسرعون هاربين من العذاب"
+          },
+          {
+            "ayah_number": 13,
+            "word": "أُتْرِفْتُمْ",
+            "word_normalized": "أترفتم",
+            "meaning": "نُعِّمْتُمْ فِيهِ فَبَطِرْتُمْ وَاسْتَكْبَرْتُمْ.",
+            "meaning_normalized": "نعمتم فيه فبطرتم واستكبرتم"
+          },
+          {
+            "ayah_number": 14,
+            "word": "يَٰوَيْلَنَآ",
+            "word_normalized": "يا ويلنا",
+            "meaning": "يَا هَلَاكَنَا.",
+            "meaning_normalized": "يا هلاكنا"
+          },
+          {
+            "ayah_number": 15,
+            "word": "حَصِيدًا",
+            "word_normalized": "حصيدا",
+            "meaning": "كَالزَّرْعِ الْمَحْصُودِ.",
+            "meaning_normalized": "كالزرع المحصود"
+          },
+          {
+            "ayah_number": 15,
+            "word": "خَٰمِدِينَ",
+            "word_normalized": "خامدين",
+            "meaning": "مَيِّتِينَ.",
+            "meaning_normalized": "ميتين"
+          },
+          {
+            "ayah_number": 18,
+            "word": "نَقْذِفُ بِٱلْحَقِّ",
+            "word_normalized": "نقذف بالحق",
+            "meaning": "نَرْمِي بِهِ، وَنُبَيِّنُهُ فَنَرُدُّ بِهِ الْبَاطِلَ.",
+            "meaning_normalized": "نرمي به ونبينه فنرد به الباطل"
+          },
+          {
+            "ayah_number": 18,
+            "word": "فَيَدْمَغُهُ",
+            "word_normalized": "فيدمغه",
+            "meaning": "يَمْحَقُهُ، وَيَدْحَضُهُ.",
+            "meaning_normalized": "يمحقه ويدحضه"
+          },
+          {
+            "ayah_number": 18,
+            "word": "زَاهِقٌ",
+            "word_normalized": "زاهق",
+            "meaning": "ذَاهِبٌ، مُضْمَحِلٌّ.",
+            "meaning_normalized": "ذاهب مضمحل"
+          },
+          {
+            "ayah_number": 18,
+            "word": "ٱلْوَيْلُ",
+            "word_normalized": "الويل",
+            "meaning": "الْعَذَابُ.",
+            "meaning_normalized": "العذاب"
+          },
+          {
+            "ayah_number": 19,
+            "word": "وَلَا يَسْتَحْسِرُونَ",
+            "word_normalized": "ولا يستحسرون",
+            "meaning": "لَا يَمَلُّونَ.",
+            "meaning_normalized": "لا يملون"
+          },
+          {
+            "ayah_number": 20,
+            "word": "لَا يَفْتُرُونَ",
+            "word_normalized": "لا يفترون",
+            "meaning": "لَا يَضْعُفُونَ، وَلَا يَسْأَمُونَ.",
+            "meaning_normalized": "لا يضعفون ولا يسأمون"
+          },
+          {
+            "ayah_number": 21,
+            "word": "هُمْ يُنشِرُونَ",
+            "word_normalized": "هم ينشرون",
+            "meaning": "هُمْ يُحْيُونَ الْمَوْتَى؟ كَلَّا!",
+            "meaning_normalized": "هم يحيون الموتى كلا"
+          },
+          {
+            "ayah_number": 22,
+            "word": "إِلَّا ٱللَّهُ لَفَسَدَتَا",
+            "word_normalized": "إلا الله لفسدتا",
+            "meaning": "غَيْرُ اللهِ لَاخْتَلَّ نِظَامُهُمَا، وَخَرِبَتَا؛ لِحُصُولِ التَّنَازُعِ.",
+            "meaning_normalized": "غير الله لاختل نظامهما وخربتا لحصول التنازع"
+          },
+          {
+            "ayah_number": 22,
+            "word": "فَسُبْحَٰنَ ٱللَّهِ",
+            "word_normalized": "فسبحان الله",
+            "meaning": "تَنَزَّهَ، وَتَقَدَّسَ.",
+            "meaning_normalized": "تنزه وتقدس"
+          },
+          {
+            "ayah_number": 24,
+            "word": "ذِكْرُ مَن مَّعِيَ",
+            "word_normalized": "ذكر من معي",
+            "meaning": "الْقُرْآنُ.",
+            "meaning_normalized": "القرآن"
+          }
+        ]
+      }
+    ]
+  }
+}

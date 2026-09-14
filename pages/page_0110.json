@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 110,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْكَهْفِ",
+          "name_normalized": "سورة الكهف",
+          "order": 18,
+          "ayat_count": 110,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 24,
+            "word": "إِلَّآ أَن يَشَآءَ ٱللَّهُ",
+            "word_normalized": "إلا أن يشاء الله",
+            "meaning": "إِلَّا أَنْ تُعَلِّقَ قَوْلَكَ بِالْمَشِيئَةِ، فَتَقُولَ: إِنْ شَاءَ اللهُ.",
+            "meaning_normalized": "إلا أن تعلق قولك بالمشيئة فتقول إن شاء الله"
+          },
+          {
+            "ayah_number": 26,
+            "word": "أَبْصِرْ بِهِۦ وَأَسْمِعْ",
+            "word_normalized": "أبصر به وأسمع",
+            "meaning": "مَا أَشَدَّ بَصَرَ اللهِ بِكُلِّ شَيْءٍ وَسَمْعَهُ لِكُلِّ شَيْءٍ.",
+            "meaning_normalized": "ما أشد بصر الله بكل شيء وسمعه لكل شيء"
+          },
+          {
+            "ayah_number": 27,
+            "word": "مُلْتَحَدًا",
+            "word_normalized": "ملتحدا",
+            "meaning": "مَلْجَأً تَلْجَأُ إِلَيْهِ.",
+            "meaning_normalized": "ملجأ تلجأ إليه"
+          },
+          {
+            "ayah_number": 28,
+            "word": "بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ",
+            "word_normalized": "بالغداة والعشي",
+            "meaning": "فِي الصَّبَاحِ وَالْمَسَاءِ.",
+            "meaning_normalized": "في الصباح والمساء"
+          },
+          {
+            "ayah_number": 28,
+            "word": "وَلَا تَعْدُ عَيْنَاكَ",
+            "word_normalized": "ولا تعد عيناك",
+            "meaning": "لَا تَصْرِفْ نَظَرَكَ.",
+            "meaning_normalized": "لا تصرف نظرك"
+          },
+          {
+            "ayah_number": 28,
+            "word": "فُرُطًا",
+            "word_normalized": "فرطا",
+            "meaning": "هَلَاكًا، وَضَيَاعًا.",
+            "meaning_normalized": "هلاكا وضياعا"
+          },
+          {
+            "ayah_number": 29,
+            "word": "سُرَادِقُهَا",
+            "word_normalized": "سرادقها",
+            "meaning": "سُورُهَا.",
+            "meaning_normalized": "سورها"
+          },
+          {
+            "ayah_number": 29,
+            "word": "كَٱلْمُهْلِ",
+            "word_normalized": "كالمهل",
+            "meaning": "كَالزَّيْتِ الْعَكِرِ.",
+            "meaning_normalized": "كالزيت العكر"
+          },
+          {
+            "ayah_number": 29,
+            "word": "وَسَآءَتْ مُرْتَفَقًا",
+            "word_normalized": "وساءت مرتفقا",
+            "meaning": "قَبُحَتْ مَنْزِلًا وَمَقَامًا.",
+            "meaning_normalized": "قبحت منزلا ومقاما"
+          },
+          {
+            "ayah_number": 31,
+            "word": "عَدْنٍ",
+            "word_normalized": "عدن",
+            "meaning": "إِقَامَةٍ.",
+            "meaning_normalized": "إقامة"
+          },
+          {
+            "ayah_number": 31,
+            "word": "سُندُسٍ",
+            "word_normalized": "سندس",
+            "meaning": "رَقِيقِ الْحَرِيرِ.",
+            "meaning_normalized": "رقيق الحرير"
+          },
+          {
+            "ayah_number": 31,
+            "word": "وَإِسْتَبْرَقٍ",
+            "word_normalized": "وإستبرق",
+            "meaning": "غَلِيظِ الْحَرِيرِ.",
+            "meaning_normalized": "غليظ الحرير"
+          },
+          {
+            "ayah_number": 31,
+            "word": "ٱلْأَرَآئِكِ",
+            "word_normalized": "الأرائك",
+            "meaning": "الْأَسِرَّةِ الْمُزَيَّنَةِ بِالسُّتُورِ الْجَمِيلَةِ.",
+            "meaning_normalized": "الأسرة المزينة بالستور الجميلة"
+          },
+          {
+            "ayah_number": 32,
+            "word": "جَنَّتَيْنِ",
+            "word_normalized": "جنتين",
+            "meaning": "حَدِيقَتَيْنِ.",
+            "meaning_normalized": "حديقتين"
+          },
+          {
+            "ayah_number": 32,
+            "word": "وَحَفَفْنَٰهُمَا",
+            "word_normalized": "وحففناهما",
+            "meaning": "أَحَطْنَاهُمَا.",
+            "meaning_normalized": "أحطناهما"
+          },
+          {
+            "ayah_number": 33,
+            "word": "ءَاتَتْ أُكُلَهَا",
+            "word_normalized": "آتت أكلها",
+            "meaning": "أَثْمَرَتْ ثَمَرَهَا.",
+            "meaning_normalized": "أثمرت ثمرها"
+          },
+          {
+            "ayah_number": 33,
+            "word": "تَظْلِم",
+            "word_normalized": "تظلم",
+            "meaning": "تَنْقُصْ.",
+            "meaning_normalized": "تنقص"
+          },
+          {
+            "ayah_number": 33,
+            "word": "خِلَٰلَهُمَا",
+            "word_normalized": "خلالهما",
+            "meaning": "بَيْنَهُمَا.",
+            "meaning_normalized": "بينهما"
+          },
+          {
+            "ayah_number": 34,
+            "word": "ثَمَرٌ",
+            "word_normalized": "ثمر",
+            "meaning": "ثِمَارٌ، وَأَمْوَالٌ أُخْرَى كَثِيرَةٌ.",
+            "meaning_normalized": "ثمار وأموال أخرى كثيرة"
+          }
+        ]
+      }
+    ]
+  }
+}

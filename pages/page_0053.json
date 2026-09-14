@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 53,
+    "header": {
+      "right": "سُورَةُ الْأَعْرَافِ",
+      "right_normalized": "سورة الأعراف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 137,
+            "word": "وَمَشْرِقَ الْأَرْضِ وَمَغْرِبَهَا",
+            "word_normalized": "ومشرق الأرض ومغربها",
+            "meaning": "بِلَادِ الشَّامِ.",
+            "meaning_normalized": "بلاد الشام"
+          },
+          {
+            "ayah_number": 137,
+            "word": "يَرْفِعُونَ",
+            "word_normalized": "يرفعون",
+            "meaning": "يَرْفَعُونَ مِنَ الْبِنَاءِ.",
+            "meaning_normalized": "يرفعون من البناء"
+          },
+          {
+            "ayah_number": 138,
+            "word": "وَجَوَزْنَا",
+            "word_normalized": "وجوزنا",
+            "meaning": "عَبَرْنَا.",
+            "meaning_normalized": "عبرنا"
+          },
+          {
+            "ayah_number": 138,
+            "word": "يَعْكُفُونَ",
+            "word_normalized": "يعكفون",
+            "meaning": "يُقِيمُونَ عَابِدِينَ.",
+            "meaning_normalized": "يقيمون عابدين"
+          },
+          {
+            "ayah_number": 138,
+            "word": "إِلَهًا",
+            "word_normalized": "إلها",
+            "meaning": "صَنَمًا.",
+            "meaning_normalized": "صنما"
+          },
+          {
+            "ayah_number": 139,
+            "word": "مُتَبَّرٌ",
+            "word_normalized": "متبر",
+            "meaning": "مُهْلِكٌ.",
+            "meaning_normalized": "مهلك"
+          },
+          {
+            "ayah_number": 145,
+            "word": "يَسُوءُكُمْ",
+            "word_normalized": "يسوءكم",
+            "meaning": "يُلْبِسُكُمْ، وَيُخْلِفُكُمْ.",
+            "meaning_normalized": "يلبسكم ويخلفكم"
+          },
+          {
+            "ayah_number": 142,
+            "word": "لِمِيقَاتِنَا",
+            "word_normalized": "لميقاتنا",
+            "meaning": "فِي الْوَقْتِ الَّذِي وَاعَدْنَاهُ فِيهِ.",
+            "meaning_normalized": "في الوقت الذي واعدناه فيه"
+          },
+          {
+            "ayah_number": 143,
+            "word": "صَعِقًا",
+            "word_normalized": "صعقا",
+            "meaning": "مَغْشِيًّا عَلَيْهِ.",
+            "meaning_normalized": "مغشيا عليه"
+          },
+          {
+            "ayah_number": 145,
+            "word": "الْأَلْوَاحِ",
+            "word_normalized": "الألواح",
+            "meaning": "أَلْوَاحَ التَّوْرَاةِ.",
+            "meaning_normalized": "ألواح التوراة"
+          },
+          {
+            "ayah_number": 147,
+            "word": "حَبِطَتْ",
+            "word_normalized": "حبطت",
+            "meaning": "بَطَلَتْ.",
+            "meaning_normalized": "بطلت"
+          },
+          {
+            "ayah_number": 148,
+            "word": "حُلِيِّهِمْ",
+            "word_normalized": "حليهم",
+            "meaning": "ذَهَبِهِمْ.",
+            "meaning_normalized": "ذهبهم"
+          },
+          {
+            "ayah_number": 148,
+            "word": "خُوَارٌ",
+            "word_normalized": "خوار",
+            "meaning": "صَوْتٌ مُسَمَّعٌ؛ كَصَوْتِ الْعَجْرِ.",
+            "meaning_normalized": "صوت مسمع كصوت العجر"
+          },
+          {
+            "ayah_number": 149,
+            "word": "هُنَعِدَتْ فِي أَيْدِيهِمْ",
+            "word_normalized": "هنعدت في أيديهم",
+            "meaning": "نَدِمُوا.",
+            "meaning_normalized": "ندموا"
+          },
+          {
+            "ayah_number": 150,
+            "word": "أَلْقَى",
+            "word_normalized": "ألقى",
+            "meaning": "حَرْبُنَا.",
+            "meaning_normalized": "حربنا"
+          },
+          {
+            "ayah_number": 150,
+            "word": "ابْنَ أُمَّ",
+            "word_normalized": "ابن أم",
+            "meaning": "يَا ابْنَ أُمِّي!",
+            "meaning_normalized": "يا ابن أمي"
+          },
+          {
+            "ayah_number": 150,
+            "word": "لَا تَشْمِتْ بِيَ الْأَعْدَاءَ",
+            "word_normalized": "لا تشمت بي الأعداء",
+            "meaning": "لَا تَسُرُّ الْأَعْدَاءَ بِمَا تَفْعَلُ بِي.",
+            "meaning_normalized": "لا تسر الأعداء بما تفعل بي"
+          },
+          {
+            "ayah_number": 154,
+            "word": "سَكَتَ",
+            "word_normalized": "سكت",
+            "meaning": "سَكَنَ.",
+            "meaning_normalized": "سكن"
+          },
+          {
+            "ayah_number": 155,
+            "word": "لِمِيقَاتِنَا",
+            "word_normalized": "لميقاتنا",
+            "meaning": "لِلْوَقْتِ وَالْأَجَلِ الَّذِي وَاعَدْنَاهُ فِيهِ.",
+            "meaning_normalized": "للوقت والأجل الذي واعدناه فيه"
+          },
+          {
+            "ayah_number": 155,
+            "word": "الرَّجْفَةُ",
+            "word_normalized": "الرجفة",
+            "meaning": "الزَّلْزَلَةُ الشَّدِيدَةُ.",
+            "meaning_normalized": "الزلزلة الشديدة"
+          },
+          {
+            "ayah_number": 156,
+            "word": "هُدْنَا",
+            "word_normalized": "هدنا",
+            "meaning": "رَجَعْنَا تَائِبِينَ إِلَيْكَ.",
+            "meaning_normalized": "رجعنا تائبين إليك"
+          }
+        ]
+      }
+    ]
+  }
+}

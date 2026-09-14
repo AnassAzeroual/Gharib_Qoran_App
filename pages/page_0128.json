@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 128,
+    "header": {
+      "right": "سُورَةُ الْأَنْبِيَاءِ",
+      "right_normalized": "سورة الأنبياء",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْبِيَاءِ",
+          "name_normalized": "سورة الأنبياء",
+          "order": 21,
+          "ayat_count": 112,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 24,
+            "word": "وَذِكْرُ مَن قَبْلِي",
+            "word_normalized": "وذكر من قبلي",
+            "meaning": "الْكُتُبُ السَّابِقَةُ.",
+            "meaning_normalized": "الكتب السابقة"
+          },
+          {
+            "ayah_number": 30,
+            "word": "رَتْقًا",
+            "word_normalized": "رتقا",
+            "meaning": "مُلْتَصِقَتَيْنِ.",
+            "meaning_normalized": "ملتصقتين"
+          },
+          {
+            "ayah_number": 30,
+            "word": "فَفَتَقْنَٰهُمَا",
+            "word_normalized": "ففتقناهما",
+            "meaning": "فَفَصَلْنَاهُمَا بِقُدْرَتِنَا.",
+            "meaning_normalized": "ففصلناهما بقدرتنا"
+          },
+          {
+            "ayah_number": 31,
+            "word": "رَوَٰسِيَ",
+            "word_normalized": "رواسي",
+            "meaning": "جِبَالًا تُثَبِّتُهَا.",
+            "meaning_normalized": "جبالا تثبتها"
+          },
+          {
+            "ayah_number": 31,
+            "word": "أَن تَمِيدَ",
+            "word_normalized": "أن تميد",
+            "meaning": "لِئَلَّا تَضْطَرِبَ.",
+            "meaning_normalized": "لئلا تضطرب"
+          },
+          {
+            "ayah_number": 31,
+            "word": "فِجَاجًا سُبُلًا",
+            "word_normalized": "فجاجا سبلا",
+            "meaning": "طُرُقًا وَاسِعَةً مَسْلُوكَةً.",
+            "meaning_normalized": "طرقا واسعة مسلوكة"
+          },
+          {
+            "ayah_number": 32,
+            "word": "سَقْفًا مَّحْفُوظًا",
+            "word_normalized": "سقفا محفوظا",
+            "meaning": "لَا تَسْقُطُ، وَلَا تَخْتَرِقُهَا الشَّيَاطِينُ.",
+            "meaning_normalized": "لا تسقط ولا تخترقها الشياطين"
+          },
+          {
+            "ayah_number": 33,
+            "word": "فِي فَلَكٍ يَسْبَحُونَ",
+            "word_normalized": "في فلك يسبحون",
+            "meaning": "فِي مَدَارٍ يَجْرِي فِيهِ لَا يَحِيدُ عَنْهُ.",
+            "meaning_normalized": "في مدار يجري فيه لا يحيد عنه"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَنَبْلُوكُم",
+            "word_normalized": "ونبلوكم",
+            "meaning": "نَخْتَبِرُكُمْ مَعَ عِلْمِنَا بِحَالِكُمْ.",
+            "meaning_normalized": "نختبركم مع علمنا بحالكم"
+          },
+          {
+            "ayah_number": 36,
+            "word": "يَذْكُرُ ءَالِهَتَكُمْ",
+            "word_normalized": "يذكر آلهتكم",
+            "meaning": "يَعِيبُهَا.",
+            "meaning_normalized": "يعيبها"
+          },
+          {
+            "ayah_number": 37,
+            "word": "مِنْ عَجَلٍ",
+            "word_normalized": "من عجل",
+            "meaning": "لِكَثْرَةِ اسْتِعْجَالِهِ فِي أَحْوَالِهِ؛ كَأَنَّهُ خُلِقَ مِنْ عَجَلٍ.",
+            "meaning_normalized": "لكثرة استعجاله في أحواله كأنه خلق من عجل"
+          },
+          {
+            "ayah_number": 39,
+            "word": "لَا يَكُفُّونَ",
+            "word_normalized": "لا يكفون",
+            "meaning": "لَا يَدْفَعُونَ.",
+            "meaning_normalized": "لا يدفعون"
+          },
+          {
+            "ayah_number": 40,
+            "word": "بَغْتَةً",
+            "word_normalized": "بغتة",
+            "meaning": "فَجْأَةً.",
+            "meaning_normalized": "فجأة"
+          },
+          {
+            "ayah_number": 40,
+            "word": "فَتَبْهَتُهُمْ",
+            "word_normalized": "فتبهتهم",
+            "meaning": "فَتُحَيِّرُهُمْ.",
+            "meaning_normalized": "فتحيرهم"
+          },
+          {
+            "ayah_number": 40,
+            "word": "يُنظَرُونَ",
+            "word_normalized": "ينظرون",
+            "meaning": "يُمْهَلُونَ.",
+            "meaning_normalized": "يمهلون"
+          },
+          {
+            "ayah_number": 41,
+            "word": "فَحَاقَ",
+            "word_normalized": "فحاق",
+            "meaning": "فَحَلَّ، وَأَحَاطَ.",
+            "meaning_normalized": "فحل وأحاط"
+          },
+          {
+            "ayah_number": 42,
+            "word": "يَكْلَؤُكُم",
+            "word_normalized": "يكلؤكم",
+            "meaning": "يَحْفَظُكُمْ، وَيَحْرُسُكُمْ.",
+            "meaning_normalized": "يحفظكم ويحرسكم"
+          },
+          {
+            "ayah_number": 43,
+            "word": "يُصْحَبُونَ",
+            "word_normalized": "يصحبون",
+            "meaning": "يُجَارُونَ، وَيُمْنَعُونَ.",
+            "meaning_normalized": "يجارون ويمنعون"
+          },
+          {
+            "ayah_number": 44,
+            "word": "نَنقُصُهَا مِنْ أَطْرَافِهَآ",
+            "word_normalized": "ننقصها من أطرافها",
+            "meaning": "يَنْقُصُ اللهُ الْأَرْضَ مِنْ جَوَانِبِهَا بِمَا يُنْزِلُهُ مِنْ عَذَابِهِ، وَهَزِيمَةٍ بِالْكُفَّارِ فِي كُلِّ نَاحِيَةٍ.",
+            "meaning_normalized": "ينقص الله الأرض من جوانبها بما ينزله من عذابه وهزيمة بالكفار في كل ناحية"
+          }
+        ]
+      }
+    ]
+  }
+}

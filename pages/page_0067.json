@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 67,
+    "header": {
+      "right": "سُورَةُ التَّوْبَةِ",
+      "right_normalized": "سورة التوبة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّوْبَةِ",
+          "name_normalized": "سورة التوبة",
+          "order": 9,
+          "ayat_count": 129,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 93,
+            "word": "فَفِيضٌ",
+            "word_normalized": "ففيض",
+            "meaning": "تَسِيلُ.",
+            "meaning_normalized": "تسيل"
+          },
+          {
+            "ayah_number": 93,
+            "word": "الدَّمْعِ",
+            "word_normalized": "الدمع",
+            "meaning": "الْإِثْمُ، وَاللَّوْمُ.",
+            "meaning_normalized": "الإثم واللوم"
+          },
+          {
+            "ayah_number": 94,
+            "word": "الْخَوَالِفَ",
+            "word_normalized": "الخوالف",
+            "meaning": "النِّسَاءَ، وَالصِّبْيَانَ.",
+            "meaning_normalized": "النساء والصبيان"
+          },
+          {
+            "ayah_number": 95,
+            "word": "وَلَا تُؤْمِنُ لَكُمْ",
+            "word_normalized": "ولا تؤمن لكم",
+            "meaning": "لَنْ نُصَدِّقَكُمْ.",
+            "meaning_normalized": "لن نصدقكم"
+          },
+          {
+            "ayah_number": 95,
+            "word": "وَالَّذِينَ غَفَمْ",
+            "word_normalized": "والذين غفم",
+            "meaning": "رَجْعُهُمْ.",
+            "meaning_normalized": "رجعهم"
+          },
+          {
+            "ayah_number": 95,
+            "word": "حَيْثُمَا",
+            "word_normalized": "حيثما",
+            "meaning": "خَبَثَاءُ الْبَوَاطِنِ.",
+            "meaning_normalized": "خبثاء البواطن"
+          },
+          {
+            "ayah_number": 97,
+            "word": "الْأَعْرَابُ",
+            "word_normalized": "الأعراب",
+            "meaning": "سُكَّانُ الْبَادِيَةِ.",
+            "meaning_normalized": "سكان البادية"
+          },
+          {
+            "ayah_number": 98,
+            "word": "وَالْمَدَرُ",
+            "word_normalized": "والمدر",
+            "meaning": "أَجْنَى، وَأَجْدَرَى.",
+            "meaning_normalized": "أجنى وأجدرى"
+          },
+          {
+            "ayah_number": 98,
+            "word": "مَغْرَمًا",
+            "word_normalized": "مغرما",
+            "meaning": "غُرَامَةً، وَخَسَارَةً.",
+            "meaning_normalized": "غرامة وخسارة"
+          },
+          {
+            "ayah_number": 98,
+            "word": "وَيَتَرَبَّصُ",
+            "word_normalized": "ويتربص",
+            "meaning": "يَتَنَظَّرُ.",
+            "meaning_normalized": "يتنظر"
+          },
+          {
+            "ayah_number": 98,
+            "word": "الدَّوَائِرُ",
+            "word_normalized": "الدوائر",
+            "meaning": "الْحَوَادِثُ وَالْآفَاتُ.",
+            "meaning_normalized": "الحوادث والآفات"
+          },
+          {
+            "ayah_number": 98,
+            "word": "عَلَيْهِمْ دَائِرَةُ السَّوْءِ",
+            "word_normalized": "عليهم دائرة السوء",
+            "meaning": "دُعَاءٌ بِالشَّرِّ وَالْعَذَابِ يَدُورُ عَلَيْهِمْ.",
+            "meaning_normalized": "دعاء بالشر والعذاب يدور عليهم"
+          },
+          {
+            "ayah_number": 99,
+            "word": "مَقْدَرًا لَهُ",
+            "word_normalized": "مقدرا له",
+            "meaning": "تَحَجُّوا فِيهِ، وَاسْتَمَرُّوا عَلَيْهِ، وَجَزَبُوا.",
+            "meaning_normalized": "تحجوا فيه واستمروا عليه وجزبوا"
+          },
+          {
+            "ayah_number": 103,
+            "word": "وَتَزَكِّيهِمْ بِهَا",
+            "word_normalized": "وتزكيهم بها",
+            "meaning": "تَرْفَعُهُمْ بِهَا عَنْ مَنَازِلِ الْمُنَافِقِينَ.",
+            "meaning_normalized": "ترفعهم بها عن منازل المنافقين"
+          },
+          {
+            "ayah_number": 103,
+            "word": "وَصَلِّ عَلَيْهِمْ",
+            "word_normalized": "وصل عليهم",
+            "meaning": "ادْعُ لَهُمْ بِالْمَغْفِرَةِ.",
+            "meaning_normalized": "ادع لهم بالمغفرة"
+          },
+          {
+            "ayah_number": 103,
+            "word": "سَكَنٌ لَهُمْ",
+            "word_normalized": "سكن لهم",
+            "meaning": "رَحْمَةٌ، وَطُمَأْنِينَةٌ لَهُمْ.",
+            "meaning_normalized": "رحمة وطمأنينة لهم"
+          },
+          {
+            "ayah_number": 106,
+            "word": "مُرْجَوْنَ",
+            "word_normalized": "مرجون",
+            "meaning": "مُؤَخَّرُونَ.",
+            "meaning_normalized": "مؤخرون"
+          },
+          {
+            "ayah_number": 107,
+            "word": "ضِرَارًا",
+            "word_normalized": "ضرارا",
+            "meaning": "مُضَارَّةً لِلْمُؤْمِنِينَ.",
+            "meaning_normalized": "مضارة للمؤمنين"
+          },
+          {
+            "ayah_number": 108,
+            "word": "وَارْتَصَادًا",
+            "word_normalized": "وارتصادا",
+            "meaning": "انْتِظَارًا.",
+            "meaning_normalized": "انتظارا"
+          },
+          {
+            "ayah_number": 109,
+            "word": "شَفَا",
+            "word_normalized": "شفا",
+            "meaning": "طَرَفٌ.",
+            "meaning_normalized": "طرف"
+          },
+          {
+            "ayah_number": 109,
+            "word": "جُرُفٍ هَارٍ",
+            "word_normalized": "جرف هار",
+            "meaning": "حُفْرَةٌ مُتَدَاعِيَةٌ لِلسُّقُوطِ.",
+            "meaning_normalized": "حفرة متداعية للسقوط"
+          }
+        ]
+      }
+    ]
+  }
+}

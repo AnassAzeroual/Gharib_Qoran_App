@@ -1,0 +1,166 @@
+{
+  "page": {
+    "page_number": 19,
+    "header": {
+      "right": "سُورَةُ آلِ عِمرَانَ",
+      "right_normalized": "سورة آل عمران",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَقَرَةِ",
+          "name_normalized": "سورة البقرة",
+          "order": 2,
+          "ayat_count": 286,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 282,
+            "word": "تَدَايَنتُم",
+            "word_normalized": "تداينتم",
+            "meaning": "تَعَامَلتُم بِالدُّيُونِ",
+            "meaning_normalized": "تعاملتم بالديون"
+          },
+          {
+            "ayah_number": 282,
+            "word": "وَلَا يَأبَ",
+            "word_normalized": "ولا يأب",
+            "meaning": "لَا يَمتَنِع",
+            "meaning_normalized": "لا يمتنع"
+          },
+          {
+            "ayah_number": 282,
+            "word": "وَليُملِلِ",
+            "word_normalized": "وليملل",
+            "meaning": "لِيُملِ، وَيُقِرَّ",
+            "meaning_normalized": "ليمل ويقر"
+          },
+          {
+            "ayah_number": 282,
+            "word": "يَبخَس",
+            "word_normalized": "يبخس",
+            "meaning": "يَنقُصُ",
+            "meaning_normalized": "ينقص"
+          },
+          {
+            "ayah_number": 282,
+            "word": "سَفِيهًا",
+            "word_normalized": "سفيها",
+            "meaning": "مَحجُورًا عَلَيهِ؛ لِتَبذِيرِهِ",
+            "meaning_normalized": "محجورا عليه لتبذيره"
+          },
+          {
+            "ayah_number": 282,
+            "word": "ضَعِيفًا",
+            "word_normalized": "ضعيفا",
+            "meaning": "كَالصَّغِيرِ وَالْمَجنُونِ",
+            "meaning_normalized": "كالصغير والمجنون"
+          },
+          {
+            "ayah_number": 282,
+            "word": "تَضِلَّ",
+            "word_normalized": "تضل",
+            "meaning": "تَنسَى",
+            "meaning_normalized": "تنسى"
+          },
+          {
+            "ayah_number": 282,
+            "word": "تَسأَمُوا",
+            "word_normalized": "تسأموا",
+            "meaning": "تَمَلُّوا",
+            "meaning_normalized": "تملوا"
+          },
+          {
+            "ayah_number": 282,
+            "word": "أَقسَطُ",
+            "word_normalized": "أقسط",
+            "meaning": "أَعدَلُ",
+            "meaning_normalized": "أعدل"
+          },
+          {
+            "ayah_number": 282,
+            "word": "وَأَقوَمُ لِلشَّهَادَةِ",
+            "word_normalized": "وأقوم للشهادة",
+            "meaning": "أَعظَمُ عَونًا عَلَى إِقَامَةِ الشَّهَادَةِ",
+            "meaning_normalized": "أعظم عونا على إقامة الشهادة"
+          },
+          {
+            "ayah_number": 282,
+            "word": "وَأَدنَى",
+            "word_normalized": "وأدنى",
+            "meaning": "أَقرَبُ",
+            "meaning_normalized": "أقرب"
+          },
+          {
+            "ayah_number": 282,
+            "word": "تَرتَابُوا",
+            "word_normalized": "ترتابوا",
+            "meaning": "تَشُكُّوا",
+            "meaning_normalized": "تشكوا"
+          },
+          {
+            "ayah_number": 282,
+            "word": "جُنَاحٌ",
+            "word_normalized": "جناح",
+            "meaning": "حَرَجٌ",
+            "meaning_normalized": "حرج"
+          },
+          {
+            "ayah_number": 282,
+            "word": "فَرِهَانٌ مَقبُوضَةٌ",
+            "word_normalized": "فرهان مقبوضة",
+            "meaning": "هُوَ أَن يَدفَعَ لِصَاحِبِ الْحَقِّ شَيئًا؛ لِيَضمَنَ حَقَّهُ حَتَّى يَرُدَّ الْمَدِينُ الدَّينَ",
+            "meaning_normalized": "هو أن يدفع لصاحب الحق شيئا ليضمن حقه حتى يرد المدين الدين"
+          },
+          {
+            "ayah_number": 283,
+            "word": "إِصرًا",
+            "word_normalized": "إصرا",
+            "meaning": "مَشَقَّةً وَثِقَلًا",
+            "meaning_normalized": "مشقة وثقلا"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ آلِ عِمرَانَ",
+          "name_normalized": "سورة آل عمران",
+          "order": 3,
+          "ayat_count": 200,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "الْقَيُّومُ",
+            "word_normalized": "القيوم",
+            "meaning": "الْقَائِمُ عَلَى كُلِّ شَيءٍ",
+            "meaning_normalized": "القائم على كل شيء"
+          },
+          {
+            "ayah_number": 4,
+            "word": "عَزِيزٌ",
+            "word_normalized": "عزيز",
+            "meaning": "غَالِبٌ، قَوِيٌّ لَا يُغَالَبُ",
+            "meaning_normalized": "غالب قوي لا يغالب"
+          }
+        ]
+      }
+    ]
+  }
+}

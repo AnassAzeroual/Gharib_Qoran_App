@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 99,
+    "header": {
+      "right": "سُورَةُ النَّحْلِ",
+      "right_normalized": "سورة النحل",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّحْلِ",
+          "name_normalized": "سورة النحل",
+          "order": 16,
+          "ayat_count": 128,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 81,
+            "word": "سَرَٰبِيلَ",
+            "word_normalized": "سرابيل",
+            "meaning": "ثِيَابًا.",
+            "meaning_normalized": "ثيابا"
+          },
+          {
+            "ayah_number": 81,
+            "word": "بَأْسَكُمْ",
+            "word_normalized": "بأسكم",
+            "meaning": "حَرْبَكُمْ.",
+            "meaning_normalized": "حربكم"
+          },
+          {
+            "ayah_number": 84,
+            "word": "شَهِيدًا",
+            "word_normalized": "شهيدا",
+            "meaning": "رَسُولًا شَاهِدًا عَلَيْهَا.",
+            "meaning_normalized": "رسولا شاهدا عليها"
+          },
+          {
+            "ayah_number": 84,
+            "word": "وَلَا هُمْ يُسْتَعْتَبُونَ",
+            "word_normalized": "ولا هم يستعتبون",
+            "meaning": "لَا يُطْلَبُ مِنْهُمْ إِرْضَاءُ رَبِّهِمْ بِالتَّوْبَةِ.",
+            "meaning_normalized": "لا يطلب منهم إرضاء ربهم بالتوبة"
+          },
+          {
+            "ayah_number": 85,
+            "word": "يُنْظَرُونَ",
+            "word_normalized": "ينظرون",
+            "meaning": "يُؤَخَّرُونَ، وَيُمْهَلُونَ.",
+            "meaning_normalized": "يؤخرون ويمهلون"
+          },
+          {
+            "ayah_number": 87,
+            "word": "ٱلسَّلَمَ",
+            "word_normalized": "السلم",
+            "meaning": "الِاسْتِسْلَامَ، وَالْخُضُوعَ.",
+            "meaning_normalized": "الاستسلام والخضوع"
+          },
+          {
+            "ayah_number": 87,
+            "word": "وَضَلَّ",
+            "word_normalized": "وضل",
+            "meaning": "غَابَ.",
+            "meaning_normalized": "غاب"
+          },
+          {
+            "ayah_number": 87,
+            "word": "يَفْتَرُونَ",
+            "word_normalized": "يفترون",
+            "meaning": "يَخْتَلِقُونَهُ مِنَ الْأَنْدَادِ وَالْآلِهَةِ.",
+            "meaning_normalized": "يختلقونه من الأنداد والآلهة"
+          },
+          {
+            "ayah_number": 90,
+            "word": "ٱلْفَحْشَآءِ",
+            "word_normalized": "الفحشاء",
+            "meaning": "مَا قَبُحَ مِنَ الْأَكَاذِيبِ.",
+            "meaning_normalized": "ما قبح من الأكاذيب"
+          },
+          {
+            "ayah_number": 90,
+            "word": "وَٱلْبَغْىِ",
+            "word_normalized": "والبغي",
+            "meaning": "الظُّلْمِ وَالتَّعَدِّي.",
+            "meaning_normalized": "الظلم والتعدي"
+          },
+          {
+            "ayah_number": 91,
+            "word": "كَفِيلًا",
+            "word_normalized": "كفيلا",
+            "meaning": "ضَامِنًا وَشَاهِدًا.",
+            "meaning_normalized": "ضامنا وشاهدا"
+          },
+          {
+            "ayah_number": 92,
+            "word": "أَنكَٰثًا",
+            "word_normalized": "أنكاثا",
+            "meaning": "أَنْقَاضًا بَعْدَ فَتْلِهَا.",
+            "meaning_normalized": "أنقاضا بعد فتلها"
+          },
+          {
+            "ayah_number": 92,
+            "word": "تَتَّخِذُونَ",
+            "word_normalized": "تتخذون",
+            "meaning": "تَجْعَلُونَ.",
+            "meaning_normalized": "تجعلون"
+          },
+          {
+            "ayah_number": 92,
+            "word": "دَخَلًا",
+            "word_normalized": "دخلا",
+            "meaning": "خَدِيعَةً وَمَكْرًا، وَالدَّخَلُ: مَا يَدْخُلُ فِي الشَّيْءِ لِلْفَسَادِ.",
+            "meaning_normalized": "خديعة ومكرا والدخل ما يدخل في الشيء للفساد"
+          },
+          {
+            "ayah_number": 92,
+            "word": "أَرْبَىٰ",
+            "word_normalized": "أربى",
+            "meaning": "أَكْثَرَ مَالًا وَمَنْفَعَةً.",
+            "meaning_normalized": "أكثر مالا ومنفعة"
+          },
+          {
+            "ayah_number": 93,
+            "word": "أُمَّةً وَٰحِدَةً",
+            "word_normalized": "أمة واحدة",
+            "meaning": "أَهْلَ دِينٍ وَاحِدٍ، وَهُوَ الْإِسْلَامُ.",
+            "meaning_normalized": "أهل دين واحد وهو الإسلام"
+          },
+          {
+            "ayah_number": 96,
+            "word": "يَنفَدُ",
+            "word_normalized": "ينفد",
+            "meaning": "يَذْهَبُ وَيَفْنَى.",
+            "meaning_normalized": "يذهب ويفنى"
+          },
+          {
+            "ayah_number": 98,
+            "word": "ٱلرَّجِيمِ",
+            "word_normalized": "الرجيم",
+            "meaning": "الْمَطْرُودِ مِنْ رَحْمَةِ اللهِ.",
+            "meaning_normalized": "المطرود من رحمة الله"
+          },
+          {
+            "ayah_number": 99,
+            "word": "سُلْطَٰنٌ",
+            "word_normalized": "سلطان",
+            "meaning": "تَسَلُّطٌ.",
+            "meaning_normalized": "تسلط"
+          },
+          {
+            "ayah_number": 100,
+            "word": "يَتَوَلَّوْنَهُ",
+            "word_normalized": "يتولونه",
+            "meaning": "يَتَّخِذُونَهُ وَلِيًّا مُطَاعًا.",
+            "meaning_normalized": "يتخذونه وليا مطاعا"
+          }
+        ]
+      }
+    ]
+  }
+}

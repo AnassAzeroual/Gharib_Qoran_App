@@ -1,0 +1,152 @@
+{
+  "page": {
+    "page_number": 120,
+    "header": {
+      "right": "سُورَةُ مَريَمَ",
+      "right_normalized": "سورة مريم",
+      "left": "سُورَةُ طه",
+      "left_normalized": "سورة طه"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ مَريَمَ",
+          "name_normalized": "سورة مريم",
+          "order": 19,
+          "ayat_count": 98,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 98,
+            "word": "قَرْنٍ",
+            "word_normalized": "قرن",
+            "meaning": "أُمَّةٍ.",
+            "meaning_normalized": "أمة"
+          },
+          {
+            "ayah_number": 98,
+            "word": "تُحِسُّ",
+            "word_normalized": "تحس",
+            "meaning": "تَرَى، وَتَجِدُ.",
+            "meaning_normalized": "ترى وتجد"
+          },
+          {
+            "ayah_number": 98,
+            "word": "رِكْزًا",
+            "word_normalized": "ركزا",
+            "meaning": "صَوْتًا خَفِيًّا.",
+            "meaning_normalized": "صوتا خفيا"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ طه",
+          "name_normalized": "سورة طه",
+          "order": 20,
+          "ayat_count": 135,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 5,
+            "word": "ٱسْتَوَىٰ",
+            "word_normalized": "استوى",
+            "meaning": "ارْتَفَعَ، وَعَلَا عَلَى الْعَرْشِ، اسْتِوَاءً يَلِيقُ بِجَلَالِهِ وَعَظَمَتِهِ.",
+            "meaning_normalized": "ارتفع وعلا على العرش استواء يليق بجلاله وعظمته"
+          },
+          {
+            "ayah_number": 6,
+            "word": "ٱلثَّرَىٰ",
+            "word_normalized": "الثرى",
+            "meaning": "التُّرَابِ النَّدِيِّ؛ وَالْمُرَادُ: الْأَرَضُونَ السَّبْعُ؛ لِأَنَّهَا تَحْتَهُ.",
+            "meaning_normalized": "التراب الندي والمراد الأرضون السبع لأنها تحته"
+          },
+          {
+            "ayah_number": 10,
+            "word": "ءَانَسْتُ",
+            "word_normalized": "آنست",
+            "meaning": "أَبْصَرْتُ.",
+            "meaning_normalized": "أبصرت"
+          },
+          {
+            "ayah_number": 10,
+            "word": "بِقَبَسٍ",
+            "word_normalized": "بقبس",
+            "meaning": "بِشُعْلَةٍ تَسْتَدْفِئُونَ بِهَا.",
+            "meaning_normalized": "بشعلة تستدفئون بها"
+          },
+          {
+            "ayah_number": 10,
+            "word": "هُدًى",
+            "word_normalized": "هدى",
+            "meaning": "هَادِيًا يَدُلُّنَا الطَّرِيقَ.",
+            "meaning_normalized": "هاديا يدلنا الطريق"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ٱلْمُقَدَّسِ",
+            "word_normalized": "المقدس",
+            "meaning": "الْمُبَارَكِ الْمُطَهَّرِ.",
+            "meaning_normalized": "المبارك المطهر"
+          },
+          {
+            "ayah_number": 14,
+            "word": "لِذِكْرِي",
+            "word_normalized": "لذكري",
+            "meaning": "لِتَذْكُرَنِي فِيهَا.",
+            "meaning_normalized": "لتذكرني فيها"
+          },
+          {
+            "ayah_number": 15,
+            "word": "أَكَادُ أُخْفِيهَا",
+            "word_normalized": "أكاد أخفيها",
+            "meaning": "أَقْرُبُ أَنْ أَسْتُرَهَا مِنْ نَفْسِي.",
+            "meaning_normalized": "أقرب أن أسترها من نفسي"
+          },
+          {
+            "ayah_number": 16,
+            "word": "فَتَرْدَىٰ",
+            "word_normalized": "فتردى",
+            "meaning": "فَتَهْلِكَ.",
+            "meaning_normalized": "فتهلك"
+          },
+          {
+            "ayah_number": 18,
+            "word": "أَتَوَكَّؤُاْ عَلَيْهَا",
+            "word_normalized": "أتوكأ عليها",
+            "meaning": "أَعْتَمِدُ عَلَيْهَا فِي الْمَشْيِ.",
+            "meaning_normalized": "أعتمد عليها في المشي"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَأَهُشُّ بِهَا عَلَىٰ غَنَمِي",
+            "word_normalized": "وأهش بها على غنمي",
+            "meaning": "أَهُزُّ بِهَا الشَّجَرَ؛ لِتَرْعَى غَنَمِي مَا يَتَسَاقَطُ مِنْ وَرَقِهِ.",
+            "meaning_normalized": "أهز بها الشجر لترعى غنمي ما يتساقط من ورقه"
+          },
+          {
+            "ayah_number": 18,
+            "word": "مَـَٔارِبُ",
+            "word_normalized": "مآرب",
+            "meaning": "مَنَافِعُ، وَحَاجَاتٌ.",
+            "meaning_normalized": "منافع وحاجات"
+          }
+        ]
+      }
+    ]
+  }
+}

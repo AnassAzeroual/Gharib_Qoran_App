@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": {
+      "right": "سُورَةُ يُوسُفَ",
+      "right_normalized": "سورة يوسف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يُوسُفَ",
+          "name_normalized": "سورة يوسف",
+          "order": 12,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 30,
+            "word": "شَغَفَهَا حُبًّا",
+            "word_normalized": "شغفها حبا",
+            "meaning": "بَلَغَ حُبُّهَا لَهُ شَغَافَ قَلْبِهَا وَهُوَ غِلَافُهُ.",
+            "meaning_normalized": "بلغ حبها له شغاف قلبها وهو غلافه"
+          },
+          {
+            "ayah_number": 31,
+            "word": "وَأَعْتَدَتْ",
+            "word_normalized": "وأعتدت",
+            "meaning": "هَيَّأَتْ.",
+            "meaning_normalized": "هيأت"
+          },
+          {
+            "ayah_number": 31,
+            "word": "مُتَّكَأً",
+            "word_normalized": "متكأ",
+            "meaning": "مَا يُتَّكَأُ عَلَيْهِ مِنَ الْوَسَائِدِ.",
+            "meaning_normalized": "ما يتكأ عليه من الوسائد"
+          },
+          {
+            "ayah_number": 31,
+            "word": "وَقَطَّعْنَ",
+            "word_normalized": "وقطعن",
+            "meaning": "جَرَحْنَ.",
+            "meaning_normalized": "جرحن"
+          },
+          {
+            "ayah_number": 31,
+            "word": "حَاشَ لِلَّهِ",
+            "word_normalized": "حاش لله",
+            "meaning": "تَنْزِيهًا لِلَّهِ.",
+            "meaning_normalized": "تنزيها لله"
+          },
+          {
+            "ayah_number": 32,
+            "word": "الصَّاغِرِينَ",
+            "word_normalized": "الصاغرين",
+            "meaning": "الْأَذِلَّاءِ.",
+            "meaning_normalized": "الأذلاء"
+          },
+          {
+            "ayah_number": 33,
+            "word": "أَصْبُ إِلَيْهِنَّ",
+            "word_normalized": "أصب إليهن",
+            "meaning": "أَمِلْ إِلَيْهِنَّ.",
+            "meaning_normalized": "أمل إليهن"
+          },
+          {
+            "ayah_number": 36,
+            "word": "أَعْصِرُ خَمْرًا",
+            "word_normalized": "أعصر خمرا",
+            "meaning": "أَعْصِرُ عِنَبًا؛ لِيَصِيرَ خَمْرًا.",
+            "meaning_normalized": "أعصر عنبا ليصير خمرا"
+          },
+          {
+            "ayah_number": 36,
+            "word": "بِتَأْوِيلِهِ",
+            "word_normalized": "بتأويله",
+            "meaning": "بِتَفْسِيرِهِ.",
+            "meaning_normalized": "بتفسيره"
+          },
+          {
+            "ayah_number": 39,
+            "word": "أَأَرْبَابٌ مُتَفَرِّقُونَ",
+            "word_normalized": "أأرباب متفرقون",
+            "meaning": "أَعِبَادَةُ آلِهَةٍ شَتَّى؟",
+            "meaning_normalized": "أعبادة آلهة شتى"
+          },
+          {
+            "ayah_number": 40,
+            "word": "سُلْطَانٍ",
+            "word_normalized": "سلطان",
+            "meaning": "حُجَّةٍ، وَبُرْهَانٍ.",
+            "meaning_normalized": "حجة وبرهان"
+          },
+          {
+            "ayah_number": 42,
+            "word": "رَبِّكَ",
+            "word_normalized": "ربك",
+            "meaning": "سَيِّدِكَ الْمَلِكِ.",
+            "meaning_normalized": "سيدك الملك"
+          },
+          {
+            "ayah_number": 43,
+            "word": "عِجَافٌ",
+            "word_normalized": "عجاف",
+            "meaning": "ضَعِيفَاتٌ، مَهَازِيلُ.",
+            "meaning_normalized": "ضعيفات مهازيل"
+          },
+          {
+            "ayah_number": 43,
+            "word": "تَعْبُرُونَ",
+            "word_normalized": "تعبرون",
+            "meaning": "تُفَسِّرُونَ.",
+            "meaning_normalized": "تفسرون"
+          },
+          {
+            "ayah_number": 44,
+            "word": "أَضْغَاثُ",
+            "word_normalized": "أضغاث",
+            "meaning": "أَخْلَاطٌ.",
+            "meaning_normalized": "أخلاط"
+          },
+          {
+            "ayah_number": 45,
+            "word": "وَادَّكَرَ",
+            "word_normalized": "وادكر",
+            "meaning": "تَذَكَّرَ.",
+            "meaning_normalized": "تذكر"
+          },
+          {
+            "ayah_number": 45,
+            "word": "بَعْدَ أُمَّةٍ",
+            "word_normalized": "بعد أمة",
+            "meaning": "بَعْدَ مُدَّةٍ.",
+            "meaning_normalized": "بعد مدة"
+          },
+          {
+            "ayah_number": 47,
+            "word": "دَأَبًا",
+            "word_normalized": "دأبا",
+            "meaning": "مُتَتَابِعَةً، وَأَنْتُمْ جَادُّونَ فِي الْعَمَلِ.",
+            "meaning_normalized": "متتابعة وأنتم جادون في العمل"
+          },
+          {
+            "ayah_number": 48,
+            "word": "تُحْصِنُونَ",
+            "word_normalized": "تحصنون",
+            "meaning": "تَحْفَظُونَ، وَتَدَّخِرُونَ.",
+            "meaning_normalized": "تحفظون وتدخرون"
+          },
+          {
+            "ayah_number": 49,
+            "word": "يَعْصِرُونَ",
+            "word_normalized": "يعصرون",
+            "meaning": "يَعْصِرُونَ الثِّمَارَ، لِكَثْرَةِ الْخِصْبِ.",
+            "meaning_normalized": "يعصرون الثمار لكثرة الخصب"
+          },
+          {
+            "ayah_number": 51,
+            "word": "خَطْبُكُنَّ",
+            "word_normalized": "خطبكن",
+            "meaning": "شَأْنُكُنَّ.",
+            "meaning_normalized": "شأنكن"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 56,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 173,
+            "word": "ذُرِّيَّةً",
+            "word_normalized": "ذرية",
+            "meaning": "صِغَارًا.",
+            "meaning_normalized": "صغارا"
+          },
+          {
+            "ayah_number": 175,
+            "word": "فَانْسَلَخَ مِنْهَا",
+            "word_normalized": "فانسلخ منها",
+            "meaning": "خَرَجَ مِنْهَا بُخُرُوهُ، وَنَبَذَهَا.",
+            "meaning_normalized": "خرج منها بخروه ونبذها"
+          },
+          {
+            "ayah_number": 175,
+            "word": "فَأَتْبَعَهُ الشَّيْطَانُ",
+            "word_normalized": "فأتبعه الشيطان",
+            "meaning": "لَحِقَهُ، وَصَارَ قَرِينَهُ، وَاسْتَحْوَذَ عَلَيْهِ.",
+            "meaning_normalized": "لحقه وصار قرينه واستحوذ عليه"
+          },
+          {
+            "ayah_number": 176,
+            "word": "أَخْلَدَ إِلَى الْأَرْضِ",
+            "word_normalized": "أخلد إلى الأرض",
+            "meaning": "رَكَنَ إِلَى الدُّنْيَا، وَرَضِيَ بِهَا.",
+            "meaning_normalized": "ركن إلى الدنيا ورضي بها"
+          },
+          {
+            "ayah_number": 176,
+            "word": "تَصَّلْ عَلَيْهِ",
+            "word_normalized": "تصل عليه",
+            "meaning": "تَطْرُدْهُ.",
+            "meaning_normalized": "تطرده"
+          },
+          {
+            "ayah_number": 176,
+            "word": "يَلْهَثْ",
+            "word_normalized": "يلهث",
+            "meaning": "يُخْرِجُ لِسَانَهُ لَا هَثًّا.",
+            "meaning_normalized": "يخرج لسانه لا هثا"
+          },
+          {
+            "ayah_number": 177,
+            "word": "سَاءَ",
+            "word_normalized": "ساء",
+            "meaning": "قَبُحَ.",
+            "meaning_normalized": "قبح"
+          },
+          {
+            "ayah_number": 178,
+            "word": "ذَرْنَاهُ",
+            "word_normalized": "ذرناه",
+            "meaning": "خَلَقْنَاهُ.",
+            "meaning_normalized": "خلقناه"
+          },
+          {
+            "ayah_number": 179,
+            "word": "وَلِلْحَدِيثِ",
+            "word_normalized": "وللحديث",
+            "meaning": "يُمِيلُونَ عَنِ الْحَقِّ فِي أَسْمَائِهِ؛ كَأَن يُسَمُّوا اللَّهَ هُمْ بِأَسْمَائِهِ، أَوْ فِي مَعَانِيهَا يُحَرِّفُونَهَا.",
+            "meaning_normalized": "يميلون عن الحق في أسمائه كأن يسموا الله هم بأسمائه أو في معانيها يحرفونها"
+          },
+          {
+            "ayah_number": 181,
+            "word": "يَدْلُوتُ",
+            "word_normalized": "يدلوت",
+            "meaning": "يَقْضُونَ، وَيَحْكُمُونَ.",
+            "meaning_normalized": "يقضون ويحكمون"
+          },
+          {
+            "ayah_number": 182,
+            "word": "سَتُسْتَدْرِجُهُمْ",
+            "word_normalized": "ستستدرجهم",
+            "meaning": "سَتَفْتَحُ لَهُمُ الْأَرْزَاقَ؛ لِيَغْتَرُّوا، ثُمَّ نُعَاجِئُهُمْ بِالْعُقُوبَةِ.",
+            "meaning_normalized": "ستفتح لهم الأرزاق ليغتروا ثم نعاجئهم بالعقوبة"
+          },
+          {
+            "ayah_number": 183,
+            "word": "وَأُمْلِي لَهُمْ",
+            "word_normalized": "وأملي لهم",
+            "meaning": "أُمْهِلُهُمْ.",
+            "meaning_normalized": "أمهلهم"
+          },
+          {
+            "ayah_number": 184,
+            "word": "مَتِينٌ",
+            "word_normalized": "متين",
+            "meaning": "قَوِيٌّ، شَدِيدٌ، لَا يَدْفَعُ بِقُوَّةٍ، وَلَا جِلَّةَ.",
+            "meaning_normalized": "قوي شديد لا يدفع بقوة ولا جلة"
+          },
+          {
+            "ayah_number": 186,
+            "word": "جَنَّةٌ",
+            "word_normalized": "جنة",
+            "meaning": "جُنُونٌ.",
+            "meaning_normalized": "جنون"
+          },
+          {
+            "ayah_number": 186,
+            "word": "يَتَعَذَّرُونَ",
+            "word_normalized": "يتعذرون",
+            "meaning": "يَتَعَذَّرُونَ، وَيَتَرَدَّدُونَ.",
+            "meaning_normalized": "يتعذرون ويترددون"
+          },
+          {
+            "ayah_number": 187,
+            "word": "أَيَّانَ مُرْسَاهَا",
+            "word_normalized": "أيان مرساها",
+            "meaning": "مَتَى وُقُوعُهَا.",
+            "meaning_normalized": "متى وقوعها"
+          },
+          {
+            "ayah_number": 187,
+            "word": "مَجْنُوهَا",
+            "word_normalized": "مجنوها",
+            "meaning": "ظُهُورُهَا.",
+            "meaning_normalized": "ظهورها"
+          },
+          {
+            "ayah_number": 187,
+            "word": "ثَقُلَتْ",
+            "word_normalized": "ثقلت",
+            "meaning": "عَظُمَ عِلْمُهَا، وَخَفِيَ.",
+            "meaning_normalized": "عظم علمها وخفي"
+          },
+          {
+            "ayah_number": 188,
+            "word": "حَرِيصٌ عَنْهَا",
+            "word_normalized": "حريص عنها",
+            "meaning": "حَرِيصٌ عَلَى الْعِلْمِ بِهَا.",
+            "meaning_normalized": "حريص على العلم بها"
+          }
+        ]
+      }
+    ]
+  }
+}

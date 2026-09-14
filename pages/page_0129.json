@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 129,
+    "header": {
+      "right": "سُورَةُ الْأَنْبِيَاءِ",
+      "right_normalized": "سورة الأنبياء",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْبِيَاءِ",
+          "name_normalized": "سورة الأنبياء",
+          "order": 21,
+          "ayat_count": 112,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 45,
+            "word": "أُنذِرُكُم",
+            "word_normalized": "أنذركم",
+            "meaning": "أُخَوِّفُكُمْ.",
+            "meaning_normalized": "أخوفكم"
+          },
+          {
+            "ayah_number": 46,
+            "word": "نَفْحَةٌ",
+            "word_normalized": "نفحة",
+            "meaning": "نَصِيبٌ يَسِيرٌ.",
+            "meaning_normalized": "نصيب يسير"
+          },
+          {
+            "ayah_number": 47,
+            "word": "ٱلْقِسْطَ",
+            "word_normalized": "القسط",
+            "meaning": "ذَوَاتِ الْعَدْلِ.",
+            "meaning_normalized": "ذوات العدل"
+          },
+          {
+            "ayah_number": 47,
+            "word": "مِثْقَالَ حَبَّةٍ",
+            "word_normalized": "مثقال حبة",
+            "meaning": "الْعَادِلَ أَوْ وَزْنَ ذَرَّةٍ.",
+            "meaning_normalized": "العادل أو وزن ذرة"
+          },
+          {
+            "ayah_number": 48,
+            "word": "ٱلْفُرْقَانَ",
+            "word_normalized": "الفرقان",
+            "meaning": "التَّوْرَاةَ الْفَارِقَةَ بَيْنَ الْحَقِّ وَالْبَاطِلِ.",
+            "meaning_normalized": "التوراة الفارقة بين الحق والباطل"
+          },
+          {
+            "ayah_number": 51,
+            "word": "رُشْدَهُ",
+            "word_normalized": "رشده",
+            "meaning": "هُدَاهُ.",
+            "meaning_normalized": "هداه"
+          },
+          {
+            "ayah_number": 52,
+            "word": "ٱلتَّمَاثِيلُ",
+            "word_normalized": "التماثيل",
+            "meaning": "الْأَصْنَامُ الَّتِي صَنَعْتُمُوهَا.",
+            "meaning_normalized": "الأصنام التي صنعتموها"
+          },
+          {
+            "ayah_number": 52,
+            "word": "عَٰكِفُونَ",
+            "word_normalized": "عاكفون",
+            "meaning": "مُقِيمُونَ عَلَى عِبَادَتِهَا، مُلَازِمُونَ لَهَا.",
+            "meaning_normalized": "مقيمون على عبادتها ملازمون لها"
+          },
+          {
+            "ayah_number": 56,
+            "word": "فَطَرَهُنَّ",
+            "word_normalized": "فطرهن",
+            "meaning": "خَلَقَهُنَّ.",
+            "meaning_normalized": "خلقهن"
+          },
+          {
+            "ayah_number": 57,
+            "word": "لَأَكِيدَنَّ",
+            "word_normalized": "لأكيدن",
+            "meaning": "لَأَمْكُرَنَّ، وَأُكَسِّرَنَّ.",
+            "meaning_normalized": "لأمكرن وأكسرن"
+          },
+          {
+            "ayah_number": 57,
+            "word": "مُدْبِرِينَ",
+            "word_normalized": "مدبرين",
+            "meaning": "ذَاهِبِينَ.",
+            "meaning_normalized": "ذاهبين"
+          },
+          {
+            "ayah_number": 58,
+            "word": "جُذَٰذًا",
+            "word_normalized": "جذاذا",
+            "meaning": "قِطَعًا صَغِيرَةً.",
+            "meaning_normalized": "قطعا صغيرة"
+          },
+          {
+            "ayah_number": 61,
+            "word": "عَلَىٰٓ أَعْيُنِ ٱلنَّاسِ",
+            "word_normalized": "على أعين الناس",
+            "meaning": "بِمَرْأًى مِنَ النَّاسِ.",
+            "meaning_normalized": "بمرأى من الناس"
+          },
+          {
+            "ayah_number": 65,
+            "word": "نُكِسُواْ عَلَىٰ رُءُوسِهِمْ",
+            "word_normalized": "نكسوا على رؤوسهم",
+            "meaning": "رَجَعُوا إِلَى عِنَادِهِمْ.",
+            "meaning_normalized": "رجعوا إلى عنادهم"
+          },
+          {
+            "ayah_number": 67,
+            "word": "أُفٍّ لَّكُمْ",
+            "word_normalized": "أف لكم",
+            "meaning": "قُبْحًا لَكُمْ.",
+            "meaning_normalized": "قبحا لكم"
+          },
+          {
+            "ayah_number": 71,
+            "word": "ٱلْأَرْضِ ٱلَّتِي بَٰرَكْنَا فِيهَا",
+            "word_normalized": "الأرض التي باركنا فيها",
+            "meaning": "أَرْضِ الشَّامِ.",
+            "meaning_normalized": "أرض الشام"
+          },
+          {
+            "ayah_number": 72,
+            "word": "نَافِلَةً",
+            "word_normalized": "نافلة",
+            "meaning": "زِيَادَةً عَمَّا سَأَلَ.",
+            "meaning_normalized": "زيادة عما سأل"
+          },
+          {
+            "ayah_number": 74,
+            "word": "قَوْمَ سَوْءٍ",
+            "word_normalized": "قوم سوء",
+            "meaning": "أَهْلَ فَسَادٍ وَقُبْحٍ.",
+            "meaning_normalized": "أهل فساد وقبح"
+          },
+          {
+            "ayah_number": 78,
+            "word": "يَحْكُمَانِ",
+            "word_normalized": "يحكمان",
+            "meaning": "يَقْضِيَانِ بَيْنَ خَصْمَيْنِ عَدَتْ غَنَمُ أَحَدِهِمَا عَلَى زَرْعِ الْآخَرِ.",
+            "meaning_normalized": "يقضيان بين خصمين عدت غنم أحدهما على زرع الآخر"
+          },
+          {
+            "ayah_number": 78,
+            "word": "ٱلْحَرْثِ",
+            "word_normalized": "الحرث",
+            "meaning": "الزَّرْعِ.",
+            "meaning_normalized": "الزرع"
+          }
+        ]
+      }
+    ]
+  }
+}

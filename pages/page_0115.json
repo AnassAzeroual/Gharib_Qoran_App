@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 115,
+    "header": {
+      "right": "سُورَةُ الْكَهْفِ",
+      "right_normalized": "سورة الكهف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْكَهْفِ",
+          "name_normalized": "سورة الكهف",
+          "order": 18,
+          "ayat_count": 110,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 94,
+            "word": "يَأْجُوجَ وَمَأْجُوجَ",
+            "word_normalized": "يأجوج ومأجوج",
+            "meaning": "هُمَا: أُمَّتَانِ عَظِيمَتَانِ كَثِيرَتَا الْعَدَدِ مِنْ بَنِي آدَمَ.",
+            "meaning_normalized": "هما أمتان عظيمتان كثيرتا العدد من بني آدم"
+          },
+          {
+            "ayah_number": 94,
+            "word": "خَرْجًا",
+            "word_normalized": "خرجا",
+            "meaning": "أَجْرًا.",
+            "meaning_normalized": "أجرا"
+          },
+          {
+            "ayah_number": 95,
+            "word": "رَدْمًا",
+            "word_normalized": "ردما",
+            "meaning": "سَدًّا.",
+            "meaning_normalized": "سدا"
+          },
+          {
+            "ayah_number": 96,
+            "word": "زُبَرَ ٱلْحَدِيدِ",
+            "word_normalized": "زبر الحديد",
+            "meaning": "قِطَعَ الْحَدِيدِ الْعَظِيمَةَ.",
+            "meaning_normalized": "قطع الحديد العظيمة"
+          },
+          {
+            "ayah_number": 96,
+            "word": "ٱلصَّدَفَيْنِ",
+            "word_normalized": "الصدفين",
+            "meaning": "جَانِبَيِ الْجَبَلَيْنِ.",
+            "meaning_normalized": "جانبي الجبلين"
+          },
+          {
+            "ayah_number": 96,
+            "word": "قِطْرًا",
+            "word_normalized": "قطرا",
+            "meaning": "نُحَاسًا مُذَابًا.",
+            "meaning_normalized": "نحاسا مذابا"
+          },
+          {
+            "ayah_number": 97,
+            "word": "يَظْهَرُوهُ",
+            "word_normalized": "يظهروه",
+            "meaning": "يَصْعَدُوا فَوْقَ السَّدِّ.",
+            "meaning_normalized": "يصعدوا فوق السد"
+          },
+          {
+            "ayah_number": 97,
+            "word": "نَقْبًا",
+            "word_normalized": "نقبا",
+            "meaning": "خَرْقًا.",
+            "meaning_normalized": "خرقا"
+          },
+          {
+            "ayah_number": 98,
+            "word": "دَكَّآءَ",
+            "word_normalized": "دكاء",
+            "meaning": "مُنْهَدِمًا مُسْتَوِيًا بِالْأَرْضِ.",
+            "meaning_normalized": "منهدما مستويا بالأرض"
+          },
+          {
+            "ayah_number": 99,
+            "word": "يَمُوجُ",
+            "word_normalized": "يموج",
+            "meaning": "يَخْتَلِطُ وَيَضْطَرِبُ.",
+            "meaning_normalized": "يختلط ويضطرب"
+          },
+          {
+            "ayah_number": 99,
+            "word": "وَنُفِخَ",
+            "word_normalized": "ونفخ",
+            "meaning": "هِيَ النَّفْخَةُ الثَّانِيَةُ؛ وَهِيَ نَفْخَةُ الْبَعْثِ.",
+            "meaning_normalized": "هي النفخة الثانية وهي نفخة البعث"
+          },
+          {
+            "ayah_number": 99,
+            "word": "ٱلصُّورِ",
+            "word_normalized": "الصور",
+            "meaning": "الْقَرْنِ الَّذِي يُنْفَخُ فِيهِ إِسْرَافِيلُ.",
+            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل"
+          },
+          {
+            "ayah_number": 100,
+            "word": "وَعَرَضْنَا",
+            "word_normalized": "وعرضنا",
+            "meaning": "أَبْرَزْنَا.",
+            "meaning_normalized": "أبرزنا"
+          },
+          {
+            "ayah_number": 102,
+            "word": "نُزُلًا",
+            "word_normalized": "نزلا",
+            "meaning": "مَنْزِلًا.",
+            "meaning_normalized": "منزلا"
+          },
+          {
+            "ayah_number": 105,
+            "word": "فَحَبِطَتْ",
+            "word_normalized": "فحبطت",
+            "meaning": "فَبَطَلَتْ.",
+            "meaning_normalized": "فبطلت"
+          },
+          {
+            "ayah_number": 105,
+            "word": "وَزْنًا",
+            "word_normalized": "وزنا",
+            "meaning": "قَدْرًا.",
+            "meaning_normalized": "قدرا"
+          },
+          {
+            "ayah_number": 107,
+            "word": "جَنَّٰتُ ٱلْفِرْدَوْسِ",
+            "word_normalized": "جنات الفردوس",
+            "meaning": "هِيَ أَعْلَى الْجَنَّةِ، وَأَوْسَطُهَا، وَأَفْضَلُهَا.",
+            "meaning_normalized": "هي أعلى الجنة وأوسطها وأفضلها"
+          },
+          {
+            "ayah_number": 108,
+            "word": "حِوَلًا",
+            "word_normalized": "حولا",
+            "meaning": "تَحَوُّلًا.",
+            "meaning_normalized": "تحولا"
+          },
+          {
+            "ayah_number": 109,
+            "word": "يَنفَدَ",
+            "word_normalized": "ينفد",
+            "meaning": "لَفَنِيَ وَفَرَغَ.",
+            "meaning_normalized": "لفني وفرغ"
+          },
+          {
+            "ayah_number": 109,
+            "word": "مَدَدًا",
+            "word_normalized": "مددا",
+            "meaning": "حِبْرًا.",
+            "meaning_normalized": "حبرا"
+          }
+        ]
+      }
+    ]
+  }
+}

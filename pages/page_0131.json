@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 131,
+    "header": {
+      "right": "سُورَةُ الْأَنْبِيَاءِ",
+      "right_normalized": "سورة الأنبياء",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْبِيَاءِ",
+          "name_normalized": "سورة الأنبياء",
+          "order": 21,
+          "ayat_count": 112,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 95,
+            "word": "لَا يَرْجِعُونَ",
+            "word_normalized": "لا يرجعون",
+            "meaning": "أَيْ: إِلَى الدُّنْيَا؛ لِيَسْتَدْرِكُوا مَا فَرَّطُوا فِيهِ.",
+            "meaning_normalized": "أي إلى الدنيا ليستدركوا ما فرطوا فيه"
+          },
+          {
+            "ayah_number": 96,
+            "word": "فُتِحَتْ يَأْجُوجُ",
+            "word_normalized": "فتحت يأجوج",
+            "meaning": "أَيْ: سَدُّ يَأْجُوجَ.",
+            "meaning_normalized": "أي سد يأجوج"
+          },
+          {
+            "ayah_number": 96,
+            "word": "حَدَبٍ",
+            "word_normalized": "حدب",
+            "meaning": "مُرْتَفِعٍ مِنَ الْأَرْضِ.",
+            "meaning_normalized": "مرتفع من الأرض"
+          },
+          {
+            "ayah_number": 96,
+            "word": "يَنسِلُونَ",
+            "word_normalized": "ينسلون",
+            "meaning": "يُسْرِعُونَ.",
+            "meaning_normalized": "يسرعون"
+          },
+          {
+            "ayah_number": 97,
+            "word": "ٱلْوَعْدُ ٱلْحَقُّ",
+            "word_normalized": "الوعد الحق",
+            "meaning": "يَوْمُ الْقِيَامَةِ.",
+            "meaning_normalized": "يوم القيامة"
+          },
+          {
+            "ayah_number": 97,
+            "word": "شَٰخِصَةٌ",
+            "word_normalized": "شاخصة",
+            "meaning": "مَفْتُوحَةٌ لَا تَكَادُ تَطْرِفُ.",
+            "meaning_normalized": "مفتوحة لا تكاد تطرف"
+          },
+          {
+            "ayah_number": 98,
+            "word": "حَصَبُ جَهَنَّمَ",
+            "word_normalized": "حصب جهنم",
+            "meaning": "وَقُودُهَا، وَحَطَبُهَا.",
+            "meaning_normalized": "وقودها وحطبها"
+          },
+          {
+            "ayah_number": 98,
+            "word": "وَٰرِدُونَ",
+            "word_normalized": "واردون",
+            "meaning": "دَاخِلُونَ.",
+            "meaning_normalized": "داخلون"
+          },
+          {
+            "ayah_number": 100,
+            "word": "زَفِيرٌ",
+            "word_normalized": "زفير",
+            "meaning": "تَنَفُّسٌ شَدِيدٌ تَنْتَفِخُ مِنْهُ الضُّلُوعُ يَدُلُّ عَلَى شِدَّةِ عَذَابِهِمْ.",
+            "meaning_normalized": "تنفس شديد تنتفخ منه الضلوع يدل على شدة عذابهم"
+          },
+          {
+            "ayah_number": 102,
+            "word": "حَسِيسَهَا",
+            "word_normalized": "حسيسها",
+            "meaning": "صَوْتَ لَهِيبِهَا، وَاحْتِرَاقِ الْأَجْسَادِ فِيهَا.",
+            "meaning_normalized": "صوت لهيبها واحتراق الأجساد فيها"
+          },
+          {
+            "ayah_number": 103,
+            "word": "ٱلْفَزَعُ ٱلْأَكْبَرُ",
+            "word_normalized": "الفزع الأكبر",
+            "meaning": "الْهَوْلُ الْأَعْظَمُ يَوْمَ الْقِيَامَةِ.",
+            "meaning_normalized": "الهول الأعظم يوم القيامة"
+          },
+          {
+            "ayah_number": 104,
+            "word": "كَطَيِّ ٱلسِّجِلِّ لِلْكُتُبِ",
+            "word_normalized": "كطي السجل للكتب",
+            "meaning": "كَمَا تُطْوَى الصَّحِيفَةُ عَلَى مَا كُتِبَ فِيهَا.",
+            "meaning_normalized": "كما تطوى الصحيفة على ما كتب فيها"
+          },
+          {
+            "ayah_number": 105,
+            "word": "ٱلزَّبُورِ",
+            "word_normalized": "الزبور",
+            "meaning": "الْكُتُبِ الْمُنَزَّلَةِ عَلَى الْأَنْبِيَاءِ.",
+            "meaning_normalized": "الكتب المنزلة على الأنبياء"
+          },
+          {
+            "ayah_number": 105,
+            "word": "ٱلذِّكْرِ",
+            "word_normalized": "الذكر",
+            "meaning": "اللَّوْحِ الْمَحْفُوظِ.",
+            "meaning_normalized": "اللوح المحفوظ"
+          },
+          {
+            "ayah_number": 109,
+            "word": "ءَاذَنتُكُمْ",
+            "word_normalized": "آذنتكم",
+            "meaning": "أَعْلَمْتُكُمْ مَا أُمِرْتُ بِهِ.",
+            "meaning_normalized": "أعلمتكم ما أمرت به"
+          },
+          {
+            "ayah_number": 109,
+            "word": "عَلَىٰ سَوَآءٍ",
+            "word_normalized": "على سواء",
+            "meaning": "أَنَا وَأَنْتُمْ مُسْتَوُونَ فِي الْعِلْمِ بِهِ.",
+            "meaning_normalized": "أنا وأنتم مستوون في العلم به"
+          },
+          {
+            "ayah_number": 111,
+            "word": "وَإِنْ أَدْرِي",
+            "word_normalized": "وإن أدري",
+            "meaning": "لَسْتُ أَدْرِي.",
+            "meaning_normalized": "لست أدري"
+          },
+          {
+            "ayah_number": 111,
+            "word": "لَعَلَّهُۥ فِتْنَةٌ",
+            "word_normalized": "لعله فتنة",
+            "meaning": "لَعَلَّ تَأْخِيرَ الْعَذَابِ الَّذِي اسْتَعْجَلْتُمُوهُ اسْتِدْرَاجٌ لَكُمْ.",
+            "meaning_normalized": "لعل تأخير العذاب الذي استعجلتموه استدراج لكم"
+          },
+          {
+            "ayah_number": 112,
+            "word": "ٱحْكُم بِٱلْحَقِّ",
+            "word_normalized": "احكم بالحق",
+            "meaning": "افْصِلْ بَيْنَنَا، وَبَيْنَ الْمُكَذِّبِينَ بِالْقَضَاءِ الْحَقِّ.",
+            "meaning_normalized": "افصل بيننا وبين المكذبين بالقضاء الحق"
+          }
+        ]
+      }
+    ]
+  }
+}

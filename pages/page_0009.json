@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 9,
+    "header": {
+      "right": "سُورَةُ الْبَقَرَةِ",
+      "right_normalized": "سورة البقرة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَقَرَةِ",
+          "name_normalized": "سورة البقرة",
+          "order": 2,
+          "ayat_count": 286,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 48,
+            "word": "عَدلٌ",
+            "word_normalized": "عدل",
+            "meaning": "فِديَةٌ",
+            "meaning_normalized": "فدية"
+          },
+          {
+            "ayah_number": 49,
+            "word": "يَسُومُونَكُم",
+            "word_normalized": "يسومونكم",
+            "meaning": "يُذِيقُونَكُم",
+            "meaning_normalized": "يذيقونكم"
+          },
+          {
+            "ayah_number": 49,
+            "word": "بَلَاءٌ",
+            "word_normalized": "بلاء",
+            "meaning": "اختِيَارٌ أَو نِعمَةٌ",
+            "meaning_normalized": "اختيار أو نعمة"
+          },
+          {
+            "ayah_number": 50,
+            "word": "فَرَقنَا",
+            "word_normalized": "فرقنا",
+            "meaning": "فَصَلنَا",
+            "meaning_normalized": "فصلنا"
+          },
+          {
+            "ayah_number": 53,
+            "word": "وَالْفُرقَانَ",
+            "word_normalized": "والفرقان",
+            "meaning": "الَّذِي يَفصِلُ بَينَ الْحَقِّ وَالْبَاطِلِ؛ وَهُوَ التَّورَاةُ",
+            "meaning_normalized": "الذي يفصل بين الحق والباطل وهو التوراة"
+          },
+          {
+            "ayah_number": 54,
+            "word": "بَارِئَكُم",
+            "word_normalized": "بارئكم",
+            "meaning": "خَالِقَكُم",
+            "meaning_normalized": "خالقكم"
+          },
+          {
+            "ayah_number": 55,
+            "word": "الصَّاعِقَةُ",
+            "word_normalized": "الصاعقة",
+            "meaning": "نَارٌ مِنَ السَّمَاءِ",
+            "meaning_normalized": "نار من السماء"
+          },
+          {
+            "ayah_number": 57,
+            "word": "وَظَلَّلنَا",
+            "word_normalized": "وظللنا",
+            "meaning": "جَعَلنَاهُ ظِلًّا مِن حَرِّ الشَّمسِ",
+            "meaning_normalized": "جعلناه ظلا من حر الشمس"
+          },
+          {
+            "ayah_number": 57,
+            "word": "الْغَمَامَ",
+            "word_normalized": "الغمام",
+            "meaning": "السَّحَابَ",
+            "meaning_normalized": "السحاب"
+          },
+          {
+            "ayah_number": 57,
+            "word": "الْمَنَّ",
+            "word_normalized": "المن",
+            "meaning": "شَيئًا يُشبِهُ الصَّمغَ كَالعَسَلِ",
+            "meaning_normalized": "شيئا يشبه الصمغ كالعسل"
+          },
+          {
+            "ayah_number": 57,
+            "word": "وَالسَّلوَى",
+            "word_normalized": "والسلوى",
+            "meaning": "طَيرًا يُشبِهُ السُّمَانَى",
+            "meaning_normalized": "طيرا يشبه السماني"
+          },
+          {
+            "ayah_number": 58,
+            "word": "وَقُولُوا حِطَّةٌ",
+            "word_normalized": "وقولوا حطة",
+            "meaning": "أَي: قُولُوا احطُط، وَضَع عَنَّا ذُنُوبَنَا",
+            "meaning_normalized": "أي قولوا احطط وضع عنا ذنوبنا"
+          },
+          {
+            "ayah_number": 59,
+            "word": "رِجزًا",
+            "word_normalized": "رجزا",
+            "meaning": "عَذَابًا",
+            "meaning_normalized": "عذابا"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَلَا تَعثَوا",
+            "word_normalized": "ولا تعثوا",
+            "meaning": "لَا تَسعَوا",
+            "meaning_normalized": "لا تسعوا"
+          },
+          {
+            "ayah_number": 61,
+            "word": "بَقلِهَا",
+            "word_normalized": "بقلها",
+            "meaning": "الْبُقُولِ وَالْخُضَرِ كَالنَّعنَاعِ",
+            "meaning_normalized": "البقول والخضر كالنعناع"
+          },
+          {
+            "ayah_number": 61,
+            "word": "وَقِثَّائِهَا",
+            "word_normalized": "وقثائها",
+            "meaning": "الْخِيَارِ",
+            "meaning_normalized": "الخيار"
+          },
+          {
+            "ayah_number": 61,
+            "word": "وَفُومِهَا",
+            "word_normalized": "وفومها",
+            "meaning": "الْحِنطَةِ، وَالْحُبُوبِ الَّتِي تُؤكَلُ",
+            "meaning_normalized": "الحنطة والحبوب التي تؤكل"
+          },
+          {
+            "ayah_number": 61,
+            "word": "مِصرًا",
+            "word_normalized": "مصرا",
+            "meaning": "بَلَدًا",
+            "meaning_normalized": "بلدا"
+          },
+          {
+            "ayah_number": 61,
+            "word": "وَالمَسكَنَةُ",
+            "word_normalized": "والمسكنة",
+            "meaning": "فَقرُ النَّفسِ",
+            "meaning_normalized": "فقر النفس"
+          },
+          {
+            "ayah_number": 61,
+            "word": "وَبَاءُو",
+            "word_normalized": "وباءوا",
+            "meaning": "رَجَعُوا",
+            "meaning_normalized": "رجعوا"
+          }
+        ]
+      }
+    ]
+  }
+}

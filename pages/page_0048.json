@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 48,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 20,
+            "word": "سَوْءَاتُهُمَا",
+            "word_normalized": "سوءاتهما",
+            "meaning": "عَوْرَاتُهُمَا.",
+            "meaning_normalized": "عوراتهما"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَفَاسَهُمَا",
+            "word_normalized": "وفاسهما",
+            "meaning": "أَقْسَمَ وَحَلَفَ لَهُمَا.",
+            "meaning_normalized": "أقسم وحلف لهما"
+          },
+          {
+            "ayah_number": 22,
+            "word": "فَدَلَّاهُمَا",
+            "word_normalized": "فدلاهما",
+            "meaning": "فَحَرَّكَهُمَا، وَعَرَّضَهُمَا.",
+            "meaning_normalized": "فحركهما وعرضهما"
+          },
+          {
+            "ayah_number": 22,
+            "word": "طَفِقَا",
+            "word_normalized": "طفقا",
+            "meaning": "شَرَعَا، وَأَخَذَا.",
+            "meaning_normalized": "شرعا وأخذا"
+          },
+          {
+            "ayah_number": 22,
+            "word": "يَخْصِفَانِ",
+            "word_normalized": "يخصفان",
+            "meaning": "يَلْزِقَانِ.",
+            "meaning_normalized": "يلزقان"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَرِيشَ سَوْءَاتِكُمْ",
+            "word_normalized": "وريش سوءاتكم",
+            "meaning": "يَسْتُرُ عَوْرَاتِكُمْ، وَهُوَ لِبَاسُ الضَّرُورَةِ.",
+            "meaning_normalized": "يستر عوراتكم وهو لباس الضرورة"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَرِيشًا",
+            "word_normalized": "وريشا",
+            "meaning": "لِبَاسُ الزِّينَةِ.",
+            "meaning_normalized": "لباس الزينة"
+          },
+          {
+            "ayah_number": 27,
+            "word": "يَنْزِعُنَّكُمْ",
+            "word_normalized": "ينزعنكم",
+            "meaning": "يُصْلِحُكُمْ، وَيَخْدَعُكُمْ.",
+            "meaning_normalized": "يصلحكم ويخدعكم"
+          },
+          {
+            "ayah_number": 27,
+            "word": "بِالْفَسْطِ",
+            "word_normalized": "بالفسط",
+            "meaning": "بِالْعَدْلِ.",
+            "meaning_normalized": "بالعدل"
+          },
+          {
+            "ayah_number": 29,
+            "word": "خَذْنَا رَيْئَكُمْ",
+            "word_normalized": "خذنا ريئكم",
+            "meaning": "سَاتِرِينَ عَوْرَاتِكُمْ، مُتَزَيِّنِينَ.",
+            "meaning_normalized": "ساترين عوراتكم متزينين"
+          },
+          {
+            "ayah_number": 37,
+            "word": "نَصِيبُهُمْ",
+            "word_normalized": "نصيبهم",
+            "meaning": "حَظُّهُمْ.",
+            "meaning_normalized": "حظهم"
+          },
+          {
+            "ayah_number": 37,
+            "word": "مِنَ الْكِتَابِ",
+            "word_normalized": "من الكتاب",
+            "meaning": "مَا كُتِبَ عَلَيْهِمْ فِي اللَّوْحِ مِنَ الْعَذَابِ.",
+            "meaning_normalized": "ما كتب عليهم في اللوح من العذاب"
+          },
+          {
+            "ayah_number": 38,
+            "word": "أُمَمٌ",
+            "word_normalized": "أمم",
+            "meaning": "نَظِيرَتُهَا الَّتِي اقْتَدَتْ بِهَا.",
+            "meaning_normalized": "نظيرتها التي اقتدت بها"
+          },
+          {
+            "ayah_number": 38,
+            "word": "فَرَادَّكَهَا",
+            "word_normalized": "فراددكها",
+            "meaning": "تَلَاحَقُوا.",
+            "meaning_normalized": "تلاحقوا"
+          },
+          {
+            "ayah_number": 38,
+            "word": "يَصَّدَّقُوا",
+            "word_normalized": "يصدقوا",
+            "meaning": "مُتَضَايِعًا.",
+            "meaning_normalized": "متضايعا"
+          },
+          {
+            "ayah_number": 40,
+            "word": "يَلِجُ",
+            "word_normalized": "يلج",
+            "meaning": "يَدْخُلُ.",
+            "meaning_normalized": "يدخل"
+          },
+          {
+            "ayah_number": 40,
+            "word": "سَمُّ الْخِيَاطِ",
+            "word_normalized": "سم الخياط",
+            "meaning": "ثُقْبُ الْإِبْرَةِ.",
+            "meaning_normalized": "ثقب الإبرة"
+          },
+          {
+            "ayah_number": 41,
+            "word": "مِهَادٌ",
+            "word_normalized": "مهاد",
+            "meaning": "فِرَاشٌ.",
+            "meaning_normalized": "فراش"
+          },
+          {
+            "ayah_number": 44,
+            "word": "غَوَايِبُ",
+            "word_normalized": "غوايب",
+            "meaning": "أَغْطِيَةٌ تَغْشَاهُمْ:",
+            "meaning_normalized": "أغطية تغشاهم"
+          },
+          {
+            "ayah_number": 46,
+            "word": "حِجَابٌ",
+            "word_normalized": "حجاب",
+            "meaning": "حَاجِزٌ، وَهُوَ سُورٌ بَيْنَهُمَا، يُقَالُ لَهُ: (الْأَعْرَافُ).",
+            "meaning_normalized": "حاجز وهو سور بينهما يقال له الأعراف"
+          }
+        ]
+      }
+    ]
+  }
+}

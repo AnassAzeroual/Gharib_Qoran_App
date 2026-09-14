@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 69,
+    "header": {
+      "right": "سُورَةُ يُونُسَ",
+      "right_normalized": "سورة يونس",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يُونُسَ",
+          "name_normalized": "سورة يونس",
+          "order": 10,
+          "ayat_count": 109,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "قَدَمَ صِدْقٍ",
+            "word_normalized": "قدم صدق",
+            "meaning": "أَجْرًا حَسَنًا بِمَا قَدَّمُوا مِنْ صَالِحِ الْأَعْمَالِ.",
+            "meaning_normalized": "أجرا حسنا بما قدموا من صالح الأعمال"
+          },
+          {
+            "ayah_number": 3,
+            "word": "اسْتَوَى عَلَى الْعَرْشِ",
+            "word_normalized": "استوى على العرش",
+            "meaning": "عَلَا عَلَى الْعَرْشِ عُلُوًّا يَلِيقُ بِجَلَالِهِ وَعَظَمَتِهِ.",
+            "meaning_normalized": "علا على العرش علوا يليق بجلاله وعظمته"
+          },
+          {
+            "ayah_number": 3,
+            "word": "بِالْقِسْطِ",
+            "word_normalized": "بالقسط",
+            "meaning": "بِالْعَدْلِ.",
+            "meaning_normalized": "بالعدل"
+          },
+          {
+            "ayah_number": 4,
+            "word": "حَمِيمٍ",
+            "word_normalized": "حميم",
+            "meaning": "مَاءٌ بَالِغٌ غَايَةَ الْحَرَارَةِ.",
+            "meaning_normalized": "ماء بالغ غاية الحرارة"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَقَدَّرَهُ مَنَازِلَ",
+            "word_normalized": "وقدره منازل",
+            "meaning": "صَيَّرَ الْقَمَرَ ذَا مَنَازِلَ يَسِيرُ فِيهَا.",
+            "meaning_normalized": "صير القمر ذا منازل يسير فيها"
+          },
+          {
+            "ayah_number": 6,
+            "word": "الْمُخْتَلِفُ",
+            "word_normalized": "المختلف",
+            "meaning": "تَعَاقُبُ.",
+            "meaning_normalized": "تعاقب"
+          },
+          {
+            "ayah_number": 7,
+            "word": "دَعَانِيَهُمْ",
+            "word_normalized": "دعانيهم",
+            "meaning": "دَعَاؤُهُمْ.",
+            "meaning_normalized": "دعاؤهم"
+          },
+          {
+            "ayah_number": 8,
+            "word": "يَغْمُرُونَ",
+            "word_normalized": "يغمرون",
+            "meaning": "يَتَرَدَّدُونَ حَائِرِينَ.",
+            "meaning_normalized": "يترددون حائرين"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَلَيَسْدُدَهُمْ",
+            "word_normalized": "وليسددهم",
+            "meaning": "مُضْطَرِبِينَا.",
+            "meaning_normalized": "مضطربينا"
+          },
+          {
+            "ayah_number": 11,
+            "word": "مَا",
+            "word_normalized": "ما",
+            "meaning": "اشْتَدَّ عَلَى كُفْرِهِ.",
+            "meaning_normalized": "اشتد على كفره"
+          },
+          {
+            "ayah_number": 12,
+            "word": "الضُّرُّونَ",
+            "word_normalized": "الضرون",
+            "meaning": "الْأُمَمُ الْمُكَذِّبَةُ.",
+            "meaning_normalized": "الأمم المكذبة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "جَعَلْنَاكُمْ خَلَائِفَ",
+            "word_normalized": "جعلناكم خلائف",
+            "meaning": "اسْتَخْلَفْنَاكُمْ مِنْ بَعْدِ إِهْلَاكِهِمْ.",
+            "meaning_normalized": "استخلفناكم من بعد إهلاكهم"
+          },
+          {
+            "ayah_number": 15,
+            "word": "بَيِّنَاتٍ تُبَوِّحُ",
+            "word_normalized": "بينات تبوح",
+            "meaning": "مِنْ قِبَلِ نَفْسِي.",
+            "meaning_normalized": "من قبل نفسي"
+          },
+          {
+            "ayah_number": 16,
+            "word": "وَأَدْرَكُمْ",
+            "word_normalized": "وأدركم",
+            "meaning": "أَعْلَمُكُمْ.",
+            "meaning_normalized": "أعلمكم"
+          },
+          {
+            "ayah_number": 16,
+            "word": "التِّلَاوَةَ",
+            "word_normalized": "التلاوة",
+            "meaning": "السُّنِنَ.",
+            "meaning_normalized": "السنن"
+          },
+          {
+            "ayah_number": 17,
+            "word": "عَاصِفٍ",
+            "word_normalized": "عاصف",
+            "meaning": "شَدِيدَةُ الْهُبُوبِ.",
+            "meaning_normalized": "شديدة الهبوب"
+          },
+          {
+            "ayah_number": 18,
+            "word": "يَغْوُنَ",
+            "word_normalized": "يغون",
+            "meaning": "يُفْسِدُونَ.",
+            "meaning_normalized": "يفسدون"
+          },
+          {
+            "ayah_number": 19,
+            "word": "خَبَرَّنَهَا",
+            "word_normalized": "خبرنها",
+            "meaning": "بَهَجَّتُهَا وَنَضَارَتُهَا.",
+            "meaning_normalized": "بهجتها ونضارتها"
+          },
+          {
+            "ayah_number": 24,
+            "word": "حَصِيدًا",
+            "word_normalized": "حصيدا",
+            "meaning": "مَحْصُودَةً، مَقْطُوعَةً.",
+            "meaning_normalized": "محصودة مقطوعة"
+          }
+        ]
+      }
+    ]
+  }
+}

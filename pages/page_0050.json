@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 50,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 64,
+            "word": "عُيُونٍ",
+            "word_normalized": "عيون",
+            "meaning": "عُمَى الْقُلُوبِ عَنْ رُؤْيَةِ الْحَقِّ.",
+            "meaning_normalized": "عمى القلوب عن رؤية الحق"
+          },
+          {
+            "ayah_number": 66,
+            "word": "سَفَاهَةٌ",
+            "word_normalized": "سفاهة",
+            "meaning": "خِفَّةُ عَقْلٍ.",
+            "meaning_normalized": "خفة عقل"
+          },
+          {
+            "ayah_number": 69,
+            "word": "بَسْطَةً",
+            "word_normalized": "بسطة",
+            "meaning": "قُوَّةً، وَضَخَامَةً.",
+            "meaning_normalized": "قوة وضخامة"
+          },
+          {
+            "ayah_number": 73,
+            "word": "بِلَاَةَ اللهِ",
+            "word_normalized": "بلاة الله",
+            "meaning": "نَعَمَ اللهِ.",
+            "meaning_normalized": "نعم الله"
+          },
+          {
+            "ayah_number": 71,
+            "word": "رِجْسٌ",
+            "word_normalized": "رجس",
+            "meaning": "عَذَابٌ.",
+            "meaning_normalized": "عذاب"
+          },
+          {
+            "ayah_number": 72,
+            "word": "وَتُلْحِمْنَا دَارِ ... ﴾",
+            "word_normalized": "وتلحمنا دار",
+            "meaning": "أَهْلَكْنَاهُمْ جَمِيعًا.",
+            "meaning_normalized": "أهلكناهم جميعا"
+          },
+          {
+            "ayah_number": 73,
+            "word": "وَرَبَاكُمْ",
+            "word_normalized": "ورباكم",
+            "meaning": "أَنشَأَكُمْ وَمَكَّنَ لَكُمْ.",
+            "meaning_normalized": "أنشأكم ومكن لكم"
+          },
+          {
+            "ayah_number": 78,
+            "word": "وَلَا تَبْخَسُوا",
+            "word_normalized": "ولا تبخسوا",
+            "meaning": "لَا تَسْمَعُوا.",
+            "meaning_normalized": "لا تسمعوا"
+          },
+          {
+            "ayah_number": 77,
+            "word": "فَعَقَرُوا",
+            "word_normalized": "فعقروا",
+            "meaning": "فَقَتَلُوا.",
+            "meaning_normalized": "فقتلوا"
+          },
+          {
+            "ayah_number": 78,
+            "word": "وَاكْتَسَبُوا",
+            "word_normalized": "واكتسبوا",
+            "meaning": "اسْتَحْوَذُوا.",
+            "meaning_normalized": "استحوذوا"
+          },
+          {
+            "ayah_number": 78,
+            "word": "الرَّجْفَةُ",
+            "word_normalized": "الرجفة",
+            "meaning": "الزَّلْزَلَةُ الشَّدِيدَةُ.",
+            "meaning_normalized": "الزلزلة الشديدة"
+          },
+          {
+            "ayah_number": 78,
+            "word": "جَاثِمِينَ",
+            "word_normalized": "جاثمين",
+            "meaning": "هَالِكِينَ، لَاصِقِينَ بِالْأَرْضِ عَلَى رُكَبِهِمْ، وَوُجُوهِهِمْ.",
+            "meaning_normalized": "هالكين لاصقين بالأرض على ركبهم ووجوههم"
+          },
+          {
+            "ayah_number": 82,
+            "word": "الْمُتَّهِرِينَ",
+            "word_normalized": "المتهرين",
+            "meaning": "الْهَالِكِينَ، الثَّابِتِينَ فِي الْعَذَابِ.",
+            "meaning_normalized": "الهالكين الثابتين في العذاب"
+          },
+          {
+            "ayah_number": 85,
+            "word": "وَلَا تَبْحَسُّوا",
+            "word_normalized": "ولا تبحسوا",
+            "meaning": "لَا تَنْقُصُوا.",
+            "meaning_normalized": "لا تنقصوا"
+          },
+          {
+            "ayah_number": 85,
+            "word": "صِرَاطٍ",
+            "word_normalized": "صراط",
+            "meaning": "طَرِيقٍ.",
+            "meaning_normalized": "طريق"
+          },
+          {
+            "ayah_number": 86,
+            "word": "تُوعِدُونَ",
+            "word_normalized": "توعدون",
+            "meaning": "تُوَعِّدُونَ النَّاسَ بِالْقَتْلِ.",
+            "meaning_normalized": "توعدون الناس بالقتل"
+          },
+          {
+            "ayah_number": 86,
+            "word": "وَتَصُدُّونَهَا عِوَجًا",
+            "word_normalized": "وتصدونها عوجا",
+            "meaning": "تُرِيدُونَهَا مُعْوَجَّةً، وَتَمِيلُونَهَا اتِّبَاعًا لِأَهْوَائِكُمْ.",
+            "meaning_normalized": "تريدونها معوجة وتميلونها اتباعا لأهوائكم"
+          },
+          {
+            "ayah_number": 86,
+            "word": "اذْكُرُوا",
+            "word_normalized": "اذكروا",
+            "meaning": "احْفَظُوا.",
+            "meaning_normalized": "احفظوا"
+          },
+          {
+            "ayah_number": 86,
+            "word": "الذَّرِيعِينَ",
+            "word_normalized": "الذريعين",
+            "meaning": "الْحَاكِمِينَ.",
+            "meaning_normalized": "الحاكمين"
+          }
+        ]
+      }
+    ]
+  }
+}

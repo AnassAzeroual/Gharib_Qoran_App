@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 10,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَقَرَةِ",
+          "name_normalized": "سورة البقرة",
+          "order": 2,
+          "ayat_count": 286,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 62,
+            "word": "وَالصَّابِئِينَ",
+            "word_normalized": "والصابئين",
+            "meaning": "قَومٌ بَاقُونَ عَلَى فِطرَتِهِم، وَلَا دِينَ لَهُم يَتَّبِعُونَهُ",
+            "meaning_normalized": "قوم باقون على فطرتهم ولا دين لهم يتبعونه"
+          },
+          {
+            "ayah_number": 63,
+            "word": "الطُّورَ",
+            "word_normalized": "الطور",
+            "meaning": "جَبَلًا بِسَينَاءَ",
+            "meaning_normalized": "جبلا بسيناء"
+          },
+          {
+            "ayah_number": 65,
+            "word": "خَاسِئِينَ",
+            "word_normalized": "خاسئين",
+            "meaning": "مَنبُوذِينَ",
+            "meaning_normalized": "منبوذين"
+          },
+          {
+            "ayah_number": 66,
+            "word": "نَكَالًا",
+            "word_normalized": "نكالا",
+            "meaning": "عِبرَةً",
+            "meaning_normalized": "عبرة"
+          },
+          {
+            "ayah_number": 68,
+            "word": "فَارِضٌ",
+            "word_normalized": "فارض",
+            "meaning": "مُسِنَّةٌ هَرِمَةٌ",
+            "meaning_normalized": "مسنة هرمة"
+          },
+          {
+            "ayah_number": 68,
+            "word": "بِكرٌ",
+            "word_normalized": "بكر",
+            "meaning": "صَغِيرَةٌ فَتِيَّةٌ",
+            "meaning_normalized": "صغيرة فتية"
+          },
+          {
+            "ayah_number": 68,
+            "word": "عَوَانٌ",
+            "word_normalized": "عوان",
+            "meaning": "مُتَوَسِّطَةٌ بَينَ الْمُسِنَّةِ وَالصَّغِيرَةِ",
+            "meaning_normalized": "متوسطة بين المسنة والصغيرة"
+          },
+          {
+            "ayah_number": 69,
+            "word": "فَاقِعٌ",
+            "word_normalized": "فاقع",
+            "meaning": "شَدِيدَةُ الصُّفرَةِ",
+            "meaning_normalized": "شديدة الصفرة"
+          },
+          {
+            "ayah_number": 71,
+            "word": "لَا ذَلُولٌ",
+            "word_normalized": "لا ذلول",
+            "meaning": "غَيرُ مُذَلَّلَةٍ لِلعَمَلِ فِي الْحِرَاثَةِ",
+            "meaning_normalized": "غير مذللة للعمل في الحراثة"
+          },
+          {
+            "ayah_number": 71,
+            "word": "مُسَلَّمَةٌ",
+            "word_normalized": "مسلمة",
+            "meaning": "خَالِيَةٌ مِنَ الْعُيُوبِ",
+            "meaning_normalized": "خالية من العيوب"
+          },
+          {
+            "ayah_number": 71,
+            "word": "لَا شِيَةَ",
+            "word_normalized": "لا شية",
+            "meaning": "لَيسَ فِيهَا عَلَامَةٌ مِن لَونٍ يُخَالِفُ لَونَهَا",
+            "meaning_normalized": "ليس فيها علامة من لون يخالف لونها"
+          },
+          {
+            "ayah_number": 72,
+            "word": "فَادَّارَأتُم",
+            "word_normalized": "فادارأتم",
+            "meaning": "تَنَازَعتُم، وَتَدَافَعتُم تُهمَةَ الْقَتلِ",
+            "meaning_normalized": "تنازعتم وتدافعتم تهمة القتل"
+          },
+          {
+            "ayah_number": 78,
+            "word": "أُمِّيُّونَ",
+            "word_normalized": "أميون",
+            "meaning": "يَجهَلُونَ الْقِرَاءَةَ وَالْكِتَابَةَ",
+            "meaning_normalized": "يجهلون القراءة والكتابة"
+          },
+          {
+            "ayah_number": 78,
+            "word": "أَمَانِيَّ",
+            "word_normalized": "أماني",
+            "meaning": "تِلَاوَةً أَو أَكَاذِيبَ تَلَقَّوهَا عَن أَحبَارِهِم",
+            "meaning_normalized": "تلاوة أو أكاذيب تلقوها عن أحبارهم"
+          },
+          {
+            "ayah_number": 79,
+            "word": "فَوَيلٌ",
+            "word_normalized": "فويل",
+            "meaning": "هَلَاكٌ، وَدَمَارٌ",
+            "meaning_normalized": "هلاك ودمار"
+          },
+          {
+            "ayah_number": 83,
+            "word": "مِيثَاقَ",
+            "word_normalized": "ميثاق",
+            "meaning": "الْعَهدَ الْمُؤَكَّدَ",
+            "meaning_normalized": "العهد المؤكد"
+          },
+          {
+            "ayah_number": 83,
+            "word": "حُسنًا",
+            "word_normalized": "حسنا",
+            "meaning": "كَلَامًا طَيِّبًا",
+            "meaning_normalized": "كلاما طيبا"
+          },
+          {
+            "ayah_number": 85,
+            "word": "تُفَندُوهُم",
+            "word_normalized": "تفندوهم",
+            "meaning": "تَسعَوا فِي تَحرِيرِهِم مِنَ الْأَسرِ",
+            "meaning_normalized": "تسعوا في تحريرهم من الأسر"
+          },
+          {
+            "ayah_number": 85,
+            "word": "خِزيٌ",
+            "word_normalized": "خزي",
+            "meaning": "ذُلٌّ، وَفَضِيحَةٌ",
+            "meaning_normalized": "ذل وفضيحة"
+          },
+          {
+            "ayah_number": 87,
+            "word": "وَقَفَّينَا",
+            "word_normalized": "وقفينا",
+            "meaning": "أَتبَعنَا",
+            "meaning_normalized": "أتبعنا"
+          }
+        ]
+      }
+    ]
+  }
+}

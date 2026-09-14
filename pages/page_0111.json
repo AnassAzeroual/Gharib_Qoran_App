@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 111,
+    "header": {
+      "right": "سُورَةُ الْكَهْفِ",
+      "right_normalized": "سورة الكهف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْكَهْفِ",
+          "name_normalized": "سورة الكهف",
+          "order": 18,
+          "ayat_count": 110,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 34,
+            "word": "نَفَرًا",
+            "word_normalized": "نفرا",
+            "meaning": "أَنْصَارًا، وَأَعْوَانًا.",
+            "meaning_normalized": "أنصارا وأعوانا"
+          },
+          {
+            "ayah_number": 35,
+            "word": "مَآ أَظُنُّ",
+            "word_normalized": "ما أظن",
+            "meaning": "لَا أَعْتَقِدُ.",
+            "meaning_normalized": "لا أعتقد"
+          },
+          {
+            "ayah_number": 35,
+            "word": "تَبِيدَ",
+            "word_normalized": "تبيد",
+            "meaning": "تَهْلِكَ.",
+            "meaning_normalized": "تهلك"
+          },
+          {
+            "ayah_number": 36,
+            "word": "مُنقَلَبًا",
+            "word_normalized": "منقلبا",
+            "meaning": "مَرْجِعًا وَمَرَدًّا.",
+            "meaning_normalized": "مرجعا ومردا"
+          },
+          {
+            "ayah_number": 38,
+            "word": "لَٰكِنَّا۠",
+            "word_normalized": "لكنا",
+            "meaning": "لَكِنْ أَنَا.",
+            "meaning_normalized": "لكن أنا"
+          },
+          {
+            "ayah_number": 40,
+            "word": "حُسْبَانًا",
+            "word_normalized": "حسبانا",
+            "meaning": "عَذَابًا.",
+            "meaning_normalized": "عذابا"
+          },
+          {
+            "ayah_number": 40,
+            "word": "صَعِيدًا زَلَقًا",
+            "word_normalized": "صعيدا زلقا",
+            "meaning": "أَرْضًا مَلْسَاءَ جَرْدَاءَ لَا تَثْبُتُ عَلَيْهَا قَدَمٌ، وَلَا تُنْبِتُ شَيْئًا.",
+            "meaning_normalized": "أرضا ملساء جرداء لا تثبت عليها قدم ولا تنبت شيئا"
+          },
+          {
+            "ayah_number": 41,
+            "word": "غَوْرًا",
+            "word_normalized": "غورا",
+            "meaning": "غَائِرًا ذَاهِبًا فِي عُمْقِ الْأَرْضِ.",
+            "meaning_normalized": "غائرا ذاهبا في عمق الأرض"
+          },
+          {
+            "ayah_number": 42,
+            "word": "وَأُحِيطَ بِثَمَرِهِۦ",
+            "word_normalized": "وأحيط بثمره",
+            "meaning": "أُهْلِكَتْ أَمْوَالُهُ، وَحَدِيقَتُهُ.",
+            "meaning_normalized": "أهلكت أمواله وحديقته"
+          },
+          {
+            "ayah_number": 42,
+            "word": "يُقَلِّبُ كَفَّيْهِ",
+            "word_normalized": "يقلب كفيه",
+            "meaning": "كِنَايَةٌ عَنِ النَّدَامَةِ وَالْحَسْرَةِ.",
+            "meaning_normalized": "كناية عن الندامة والحسرة"
+          },
+          {
+            "ayah_number": 42,
+            "word": "خَاوِيَةٌ عَلَىٰ عُرُوشِهَا",
+            "word_normalized": "خاوية على عروشها",
+            "meaning": "سَاقِطَةٌ بَعْضُهَا عَلَى بَعْضٍ.",
+            "meaning_normalized": "ساقطة بعضها على بعض"
+          },
+          {
+            "ayah_number": 43,
+            "word": "فِئَةٌ",
+            "word_normalized": "فئة",
+            "meaning": "جَمَاعَةٌ.",
+            "meaning_normalized": "جماعة"
+          },
+          {
+            "ayah_number": 44,
+            "word": "عُقْبًا",
+            "word_normalized": "عقبا",
+            "meaning": "عَاقِبَةً.",
+            "meaning_normalized": "عاقبة"
+          },
+          {
+            "ayah_number": 45,
+            "word": "هَشِيمًا",
+            "word_normalized": "هشيما",
+            "meaning": "يَابِسًا مُتَكَسِّرًا.",
+            "meaning_normalized": "يابسا متكسرا"
+          },
+          {
+            "ayah_number": 45,
+            "word": "تَذْرُوهُ",
+            "word_normalized": "تذروه",
+            "meaning": "تَنْسِفُهُ الرِّيَاحُ إِلَى كُلِّ جِهَةٍ.",
+            "meaning_normalized": "تنسفه الرياح إلى كل جهة"
+          },
+          {
+            "ayah_number": 46,
+            "word": "وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ",
+            "word_normalized": "والباقيات الصالحات",
+            "meaning": "الْأَعْمَالُ الصَّالِحَةُ.",
+            "meaning_normalized": "الأعمال الصالحة"
+          },
+          {
+            "ayah_number": 46,
+            "word": "وَخَيْرٌ أَمَلًا",
+            "word_normalized": "وخير أملا",
+            "meaning": "خَيْرُ مَا يُرْجَى عِنْدَ اللهِ.",
+            "meaning_normalized": "خير ما يرجى عند الله"
+          },
+          {
+            "ayah_number": 47,
+            "word": "بَارِزَةً",
+            "word_normalized": "بارزة",
+            "meaning": "ظَاهِرَةً لَيْسَ عَلَيْهَا مَا كَانَ يَسْتُرُهَا مِنَ الْمَخْلُوقَاتِ.",
+            "meaning_normalized": "ظاهرة ليس عليها ما كان يسترها من المخلوقات"
+          },
+          {
+            "ayah_number": 47,
+            "word": "وَحَشَرْنَٰهُمْ",
+            "word_normalized": "وحشرناهم",
+            "meaning": "جَمَعْنَاهُمْ.",
+            "meaning_normalized": "جمعناهم"
+          }
+        ]
+      }
+    ]
+  }
+}

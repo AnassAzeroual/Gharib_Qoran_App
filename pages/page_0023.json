@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 23,
+    "header": {
+      "right": "سُورَةُ آلِ عِمرَانَ",
+      "right_normalized": "سورة آل عمران",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ آلِ عِمرَانَ",
+          "name_normalized": "سورة آل عمران",
+          "order": 3,
+          "ayat_count": 200,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 119,
+            "word": "أُولَاءِ",
+            "word_normalized": "أولاء",
+            "meaning": "هَؤُلَاءِ",
+            "meaning_normalized": "هؤلاء"
+          },
+          {
+            "ayah_number": 121,
+            "word": "غَدَوتَ",
+            "word_normalized": "غدوت",
+            "meaning": "خَرَجتَ مِن أَوَّلِ النَّهَارِ",
+            "meaning_normalized": "خرجت من أول النهار"
+          },
+          {
+            "ayah_number": 121,
+            "word": "تُبَوِّئُ",
+            "word_normalized": "تبوئ",
+            "meaning": "تُنَزِّلُ",
+            "meaning_normalized": "تنزل"
+          },
+          {
+            "ayah_number": 122,
+            "word": "أَن تَفشَلَا",
+            "word_normalized": "أن تفشلا",
+            "meaning": "تَجبُنَا، وَتَضعُفَا",
+            "meaning_normalized": "تجبنا وتضعفا"
+          },
+          {
+            "ayah_number": 125,
+            "word": "فَورِهِم هَذَا",
+            "word_normalized": "فورهم هذا",
+            "meaning": "سَاعَتِهِم هَذِهِ",
+            "meaning_normalized": "ساعتهم هذه"
+          },
+          {
+            "ayah_number": 125,
+            "word": "مُسَوِّمِينَ",
+            "word_normalized": "مسومين",
+            "meaning": "مُعَلِّمِينَ أَنفُسَهُم، وَخُيُولَهُم بِعَلَامَاتٍ وَاضِحَاتٍ",
+            "meaning_normalized": "معلمين أنفسهم وخيولهم بعلامات واضحات"
+          },
+          {
+            "ayah_number": 127,
+            "word": "يَكبِتَهُم",
+            "word_normalized": "يكبتهم",
+            "meaning": "يُخزِيَهُم",
+            "meaning_normalized": "يخزيهم"
+          },
+          {
+            "ayah_number": 134,
+            "word": "السَّرَّاءِ وَالضَّرَّاءِ",
+            "word_normalized": "السراء والضراء",
+            "meaning": "الْيُسرِ، وَالْعُسرِ",
+            "meaning_normalized": "اليسر والعسر"
+          },
+          {
+            "ayah_number": 139,
+            "word": "وَلَا تَهِنُوا",
+            "word_normalized": "ولا تهنوا",
+            "meaning": "لَا تَضعُفُوا",
+            "meaning_normalized": "لا تضعفوا"
+          },
+          {
+            "ayah_number": 140,
+            "word": "قَرحٌ",
+            "word_normalized": "قرح",
+            "meaning": "جَرحٌ",
+            "meaning_normalized": "جرح"
+          },
+          {
+            "ayah_number": 140,
+            "word": "نُدَاوِلُهَا",
+            "word_normalized": "نداولها",
+            "meaning": "نُصَرِّفُهَا",
+            "meaning_normalized": "نصرفها"
+          },
+          {
+            "ayah_number": 144,
+            "word": "انقَلَبتُم عَلَى أَعقَابِكُم",
+            "word_normalized": "انقلبتم على أعقابكم",
+            "meaning": "رَجَعتُم عَن دِينِكُم",
+            "meaning_normalized": "رجعتم عن دينكم"
+          },
+          {
+            "ayah_number": 146,
+            "word": "رِبِّيُّونَ",
+            "word_normalized": "ربيون",
+            "meaning": "جُمُوعٌ كَثِيرَةٌ",
+            "meaning_normalized": "جموع كثيرة"
+          },
+          {
+            "ayah_number": 152,
+            "word": "تَحُسُّونَهُم",
+            "word_normalized": "تحسونهم",
+            "meaning": "تَقتُلُونَهُم",
+            "meaning_normalized": "تقتلونهم"
+          },
+          {
+            "ayah_number": 152,
+            "word": "فَشِلتُم",
+            "word_normalized": "فشلتم",
+            "meaning": "جَبُنتُم، وَضَعُفتُم عَنِ الْقِتَالِ",
+            "meaning_normalized": "جبنتم وضعفتم عن القتال"
+          },
+          {
+            "ayah_number": 153,
+            "word": "تُصعِدُونَ",
+            "word_normalized": "تصعدون",
+            "meaning": "تَضعَدُونَ فِي الْجَبَلِ هَارِبِينَ",
+            "meaning_normalized": "تضعدون في الجبل هاربين"
+          },
+          {
+            "ayah_number": 153,
+            "word": "وَلَا تَلتَفِتُونَ",
+            "word_normalized": "ولا تلتفتون",
+            "meaning": "لَا تَلتَفِتُونَ",
+            "meaning_normalized": "لا تلتفتون"
+          },
+          {
+            "ayah_number": 153,
+            "word": "فَأَثَابَكُم",
+            "word_normalized": "فأثابكم",
+            "meaning": "جَازَاكُم",
+            "meaning_normalized": "جازاكم"
+          },
+          {
+            "ayah_number": 154,
+            "word": "أَمَنَةً",
+            "word_normalized": "أمنة",
+            "meaning": "أَمنًا، وَعَدَمَ خَوفٍ",
+            "meaning_normalized": "أمنا وعدم خوف"
+          }
+        ]
+      }
+    ]
+  }
+}

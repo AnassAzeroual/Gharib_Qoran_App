@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 38,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "٣٨",
+      "left_normalized": "38"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ المَائِدَةِ",
+          "name_normalized": "سورة المائدة",
+          "order": 5,
+          "ayat_count": 120,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 93,
+            "word": "جُنَاحٌ",
+            "word_normalized": "جناح",
+            "meaning": "حَرَجٌ، وَإِثمٌ",
+            "meaning_normalized": "حرج وإثم"
+          },
+          {
+            "ayah_number": 95,
+            "word": "حُرُمٌ",
+            "word_normalized": "حرم",
+            "meaning": "مُحرِمُونَ",
+            "meaning_normalized": "محرمون"
+          },
+          {
+            "ayah_number": 95,
+            "word": "الأَنعَمِ",
+            "word_normalized": "الأنعم",
+            "meaning": "بَهِيمَةُ الأَنعَامِ؛ مِن الإِبِلِ وَالبَقَرِ وَالغَنَمِ",
+            "meaning_normalized": "بهيمة الأنعام من الإبل والبقر والغنم"
+          },
+          {
+            "ayah_number": 95,
+            "word": "ذُو عَدلٍ",
+            "word_normalized": "ذو عدل",
+            "meaning": "صَاحِبًا",
+            "meaning_normalized": "صاحبا"
+          },
+          {
+            "ayah_number": 95,
+            "word": "بَالِغَ الكَعبَةِ",
+            "word_normalized": "بالغ الكعبة",
+            "meaning": "يَصِلُ لِفُقَرَاءِ الحَرَمِ",
+            "meaning_normalized": "يصل لفقراء الحرم"
+          },
+          {
+            "ayah_number": 95,
+            "word": "وَبَالُ أَمرِهِ",
+            "word_normalized": "وبال أمره",
+            "meaning": "عَاقِبَةُ فِعلِهِ",
+            "meaning_normalized": "عاقبة فعله"
+          },
+          {
+            "ayah_number": 96,
+            "word": "صَيدُ البَحرِ",
+            "word_normalized": "صيد البحر",
+            "meaning": "مَا يُصَادُ حَيًّا",
+            "meaning_normalized": "ما يصاد حيا"
+          },
+          {
+            "ayah_number": 96,
+            "word": "وَطَعَامُهُ",
+            "word_normalized": "وطعامه",
+            "meaning": "مَا يُصَادُ مَيتًا",
+            "meaning_normalized": "ما يصاد ميتا"
+          },
+          {
+            "ayah_number": 96,
+            "word": "وَلِلسَّيَّارَةِ",
+            "word_normalized": "وللسيارة",
+            "meaning": "لِلمُسَافِرِينَ",
+            "meaning_normalized": "للمسافرين"
+          },
+          {
+            "ayah_number": 97,
+            "word": "قِيَمًا لِلنَّاسِ",
+            "word_normalized": "قيما للناس",
+            "meaning": "صَلَاحًا لِدِينِهِمْ، وَأَمنًا لِحَيَاتِهِمْ",
+            "meaning_normalized": "صلاحا لدينهم وأمنا لحياتهم"
+          },
+          {
+            "ayah_number": 97,
+            "word": "وَالهَديَ",
+            "word_normalized": "والهدي",
+            "meaning": "مَا يُهدَى لِلبَيتِ مِن الأَنعَامِ وَغَيرِهَا",
+            "meaning_normalized": "ما يهدى للبيت من الأنعام وغيرها"
+          },
+          {
+            "ayah_number": 97,
+            "word": "وَالقَلَائِدَ",
+            "word_normalized": "والقلائد",
+            "meaning": "هُوَ الهَديُ الَّذِي عُلِّقَ عَلَيهِ شَيءٌ؛ إِشعَارًا بِأَنَّهُ هَديٌ",
+            "meaning_normalized": "هو الهدي الذي علق عليه شيء إشعارا بأنه هدي"
+          },
+          {
+            "ayah_number": 103,
+            "word": "بَحِيرَةٌ",
+            "word_normalized": "بحيرة",
+            "meaning": "الَّتِي تُقطَعُ أُذُنُهَا، وَتُخَلَّى لِلطَّوَاغِيتِ؛ إِذَا وَلَدَت عَدَدًا مِن البُطُونِ",
+            "meaning_normalized": "التي تقطع أذنها وتخلى للطواغيت إذا ولدت عددا من البطون"
+          },
+          {
+            "ayah_number": 103,
+            "word": "سَائِبَةٌ",
+            "word_normalized": "سائبة",
+            "meaning": "الَّتِي تُترَكُ لِلأَصنَامِ؛ بِسَبَبِ نَذرٍ مِن مَرَضٍ، أَو نَجَاةٍ مِن هَلَاكٍ",
+            "meaning_normalized": "التي تترك للأصنام بسبب نذر من مرض أو نجاة من هلاك"
+          },
+          {
+            "ayah_number": 103,
+            "word": "وَوَصِيلَةٌ",
+            "word_normalized": "ووصيلة",
+            "meaning": "الَّتِي تَتَّصِلُ وِلَادَتُهَا يَأتِي بَعدَ أُنثَى؛ فَتُترَكُ لِلطَّوَاغِيتِ",
+            "meaning_normalized": "التي تتصل ولادتها يأتي بعد أنثى فتترك للطواغيت"
+          },
+          {
+            "ayah_number": 103,
+            "word": "حَامٍ",
+            "word_normalized": "حام",
+            "meaning": "الذَّكَرُ مِن الإِبِلِ إِذَا وَلَدَ مِن صُلبِهِ عَدَدٌ مِن الإِبِلِ، لَا يُركَبُ، وَلَا يُحمَلُ عَلَيهِ",
+            "meaning_normalized": "الذكر من الإبل إذا ولد من صلبه عدد من الإبل لا يركب ولا يحمل عليه"
+          }
+        ]
+      }
+    ]
+  }
+}

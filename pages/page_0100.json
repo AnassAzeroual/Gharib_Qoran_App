@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 100,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّحْلِ",
+          "name_normalized": "سورة النحل",
+          "order": 16,
+          "ayat_count": 128,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 101,
+            "word": "مُفْتَرٍ",
+            "word_normalized": "مفتر",
+            "meaning": "كَاذِبٌ، مُخْتَلِقٌ عَلَى اللهِ.",
+            "meaning_normalized": "كاذب مختلق على الله"
+          },
+          {
+            "ayah_number": 102,
+            "word": "رُوحُ ٱلْقُدُسِ",
+            "word_normalized": "روح القدس",
+            "meaning": "الرُّوحُ الْمُطَهَّرُ: جِبْرِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "الروح المطهر جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 103,
+            "word": "يُلْحِدُونَ إِلَيْهِ",
+            "word_normalized": "يلحدون إليه",
+            "meaning": "يَنْسُبُونَ إِلَيْهِ أَنَّهُ عَلَّمَ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ.",
+            "meaning_normalized": "ينسبون إليه أنه علم النبي صلى الله عليه وسلم"
+          },
+          {
+            "ayah_number": 108,
+            "word": "طَبَعَ",
+            "word_normalized": "طبع",
+            "meaning": "خَتَمَ.",
+            "meaning_normalized": "ختم"
+          },
+          {
+            "ayah_number": 109,
+            "word": "لَا جَرَمَ",
+            "word_normalized": "لا جرم",
+            "meaning": "حَقًّا.",
+            "meaning_normalized": "حقا"
+          },
+          {
+            "ayah_number": 110,
+            "word": "فُتِنُوا",
+            "word_normalized": "فتنوا",
+            "meaning": "عُذِّبُوا، وَابْتُلُوا.",
+            "meaning_normalized": "عذبوا وابتلوا"
+          },
+          {
+            "ayah_number": 111,
+            "word": "وَتُوَفَّىٰ",
+            "word_normalized": "وتوفى",
+            "meaning": "تُعْطَى الْجَزَاءَ وَافِيًا.",
+            "meaning_normalized": "تعطى الجزاء وافيا"
+          },
+          {
+            "ayah_number": 112,
+            "word": "رَغَدًا",
+            "word_normalized": "رغدا",
+            "meaning": "هَنِيئًا سَهْلًا.",
+            "meaning_normalized": "هنيئا سهلا"
+          },
+          {
+            "ayah_number": 115,
+            "word": "ٱلْمَيْتَةَ",
+            "word_normalized": "الميتة",
+            "meaning": "مَا مَاتَ بِغَيْرِ تَذْكِيَةٍ شَرْعِيَّةٍ.",
+            "meaning_normalized": "ما مات بغير تذكية شرعية"
+          },
+          {
+            "ayah_number": 115,
+            "word": "وَٱلدَّمَ",
+            "word_normalized": "والدم",
+            "meaning": "هُوَ الدَّمُ الْمَسْفُوحُ مِنَ الذَّبِيحَةِ عِنْدَ الذَّبْحِ.",
+            "meaning_normalized": "هو الدم المسفوح من الذبيحة عند الذبح"
+          },
+          {
+            "ayah_number": 115,
+            "word": "أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ",
+            "word_normalized": "أهل لغير الله به",
+            "meaning": "ذُكِرَ عِنْدَ الذَّبْحِ اسْمُ غَيْرِ اللهِ.",
+            "meaning_normalized": "ذكر عند الذبح اسم غير الله"
+          },
+          {
+            "ayah_number": 115,
+            "word": "غَيْرَ بَاغٍ",
+            "word_normalized": "غير باغ",
+            "meaning": "غَيْرَ مُرِيدٍ وَلَا طَالِبٍ لِلْمُحَرَّمِ.",
+            "meaning_normalized": "غير مريد ولا طالب للمحرم"
+          },
+          {
+            "ayah_number": 115,
+            "word": "وَلَا عَادٍ",
+            "word_normalized": "ولا عاد",
+            "meaning": "وَغَيْرَ مُتَجَاوِزٍ حَدَّ الضَّرُورَةِ مِمَّا يَسُدُّ الرَّمَقَ.",
+            "meaning_normalized": "وغير متجاوز حد الضرورة مما يسد الرمق"
+          },
+          {
+            "ayah_number": 116,
+            "word": "لِتَفْتَرُوا",
+            "word_normalized": "لتفتروا",
+            "meaning": "لِتَخْتَلِقُوا.",
+            "meaning_normalized": "لتختلقوا"
+          },
+          {
+            "ayah_number": 119,
+            "word": "بِجَهَٰلَةٍ",
+            "word_normalized": "بجهالة",
+            "meaning": "بِسَفَهٍ، وَجَهْلٍ لِعَاقِبَتِهَا، وَكُلُّ مَنْ عَصَى اللهَ فَهُوَ جَاهِلٌ.",
+            "meaning_normalized": "بسفه وجهل لعاقبتها وكل من عصى الله فهو جاهل"
+          },
+          {
+            "ayah_number": 120,
+            "word": "أُمَّةً",
+            "word_normalized": "أمة",
+            "meaning": "إِمَامًا، جَامِعًا لِخِصَالِ الْخَيْرِ.",
+            "meaning_normalized": "إماما جامعا لخصال الخير"
+          },
+          {
+            "ayah_number": 120,
+            "word": "قَانِتًا",
+            "word_normalized": "قانتا",
+            "meaning": "خَاضِعًا، مُدَاوِمًا عَلَى الطَّاعَةِ.",
+            "meaning_normalized": "خاضعا مداوما على الطاعة"
+          },
+          {
+            "ayah_number": 120,
+            "word": "حَنِيفًا",
+            "word_normalized": "حنيفا",
+            "meaning": "مَائِلًا عَنِ الشِّرْكِ إِلَى التَّوْحِيدِ قَصْدًا.",
+            "meaning_normalized": "مائلا عن الشرك إلى التوحيد قصدا"
+          },
+          {
+            "ayah_number": 121,
+            "word": "ٱجْتَبَٰهُ",
+            "word_normalized": "اجتباه",
+            "meaning": "اخْتَارَهُ.",
+            "meaning_normalized": "اختاره"
+          },
+          {
+            "ayah_number": 125,
+            "word": "سَبِيلِ رَبِّكَ",
+            "word_normalized": "سبيل ربك",
+            "meaning": "دِينِ رَبِّكَ، وَطَرِيقِهِ الْمُسْتَقِيمِ.",
+            "meaning_normalized": "دين ربك وطريقه المستقيم"
+          }
+        ]
+      }
+    ]
+  }
+}

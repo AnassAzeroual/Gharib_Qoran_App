@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 16,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَقَرَةِ",
+          "name_normalized": "سورة البقرة",
+          "order": 2,
+          "ayat_count": 286,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 224,
+            "word": "عُرضَةً",
+            "word_normalized": "عرضة",
+            "meaning": "مَانِعًا",
+            "meaning_normalized": "مانعا"
+          },
+          {
+            "ayah_number": 225,
+            "word": "بِاللَّغوِ فِي أَيمَانِكُم",
+            "word_normalized": "باللغو في أيمانكم",
+            "meaning": "الْيَمِينُ اللَّاغِيَةُ هِيَ: الْيَمِينُ الَّتِي لَا يَقصِدُهَا صَاحِبُهَا",
+            "meaning_normalized": "اليمين اللاغية هي اليمين التي لا يقصدها صاحبها"
+          },
+          {
+            "ayah_number": 226,
+            "word": "يُؤلُونَ",
+            "word_normalized": "يؤلون",
+            "meaning": "يَحلِفُونَ أَلَّا يُجَامِعُوا نِسَاءَهُم",
+            "meaning_normalized": "يحلفون ألا يجامعوا نساءهم"
+          },
+          {
+            "ayah_number": 226,
+            "word": "تَرَبُّصُ",
+            "word_normalized": "تربص",
+            "meaning": "انتِظَارٌ",
+            "meaning_normalized": "انتظار"
+          },
+          {
+            "ayah_number": 226,
+            "word": "فَاءُو",
+            "word_normalized": "فاءوا",
+            "meaning": "رَجَعُوا",
+            "meaning_normalized": "رجعوا"
+          },
+          {
+            "ayah_number": 228,
+            "word": "يَترَبَّصنَ",
+            "word_normalized": "يتربصن",
+            "meaning": "يَنتَظِرنَ",
+            "meaning_normalized": "ينتظرن"
+          },
+          {
+            "ayah_number": 228,
+            "word": "ثَلَاثَةَ قُرُوءٍ",
+            "word_normalized": "ثلاثة قروء",
+            "meaning": "ثَلَاثَ حِيَضٍ",
+            "meaning_normalized": "ثلاث حيض"
+          },
+          {
+            "ayah_number": 231,
+            "word": "ضِرَارًا",
+            "word_normalized": "ضرارا",
+            "meaning": "مُضَارَّةً",
+            "meaning_normalized": "مضارة"
+          },
+          {
+            "ayah_number": 231,
+            "word": "تَعضُلُوهُنَّ",
+            "word_normalized": "تعضلوهن",
+            "meaning": "تَمنَعُوهُنَّ",
+            "meaning_normalized": "تمنعوهن"
+          },
+          {
+            "ayah_number": 233,
+            "word": "فِصَالًا",
+            "word_normalized": "فصالا",
+            "meaning": "فِطَامًا",
+            "meaning_normalized": "فطاما"
+          },
+          {
+            "ayah_number": 235,
+            "word": "عَرَّضتُم",
+            "word_normalized": "عرضتم",
+            "meaning": "لَمَّحتُم",
+            "meaning_normalized": "لمحتم"
+          },
+          {
+            "ayah_number": 235,
+            "word": "أَكنَنتُم",
+            "word_normalized": "أكننتم",
+            "meaning": "أَضمَرتُم",
+            "meaning_normalized": "أضمرتم"
+          },
+          {
+            "ayah_number": 235,
+            "word": "عُقدَةَ النِّكَاحِ",
+            "word_normalized": "عقدة النكاح",
+            "meaning": "عَقدَ النِّكَاحِ",
+            "meaning_normalized": "عقد النكاح"
+          },
+          {
+            "ayah_number": 236,
+            "word": "تَفرِضُوا",
+            "word_normalized": "تفرضوا",
+            "meaning": "تُحَدِّدُوا",
+            "meaning_normalized": "تحددوا"
+          },
+          {
+            "ayah_number": 236,
+            "word": "فَرِيضَةً",
+            "word_normalized": "فريضة",
+            "meaning": "مَهرًا",
+            "meaning_normalized": "مهرا"
+          },
+          {
+            "ayah_number": 236,
+            "word": "وَمَتِّعُوهُنَّ",
+            "word_normalized": "ومتعوهن",
+            "meaning": "أَعطُوهُنَّ شَيئًا مِنَ الْمَالِ؛ جَبرًا لَهُنَّ",
+            "meaning_normalized": "أعطوهن شيئا من المال جبرا لهن"
+          },
+          {
+            "ayah_number": 238,
+            "word": "وَالصَّلَاةِ الْوُسطَى",
+            "word_normalized": "والصلاة الوسطى",
+            "meaning": "صَلَاةُ الْعَصرِ",
+            "meaning_normalized": "صلاة العصر"
+          },
+          {
+            "ayah_number": 238,
+            "word": "قَانِتِينَ",
+            "word_normalized": "قانتين",
+            "meaning": "مُطِيعِينَ خَاشِعِينَ",
+            "meaning_normalized": "مطيعين خاشعين"
+          },
+          {
+            "ayah_number": 239,
+            "word": "فَرِجَالًا",
+            "word_normalized": "فرجالا",
+            "meaning": "مَاشِينَ",
+            "meaning_normalized": "ماشين"
+          },
+          {
+            "ayah_number": 246,
+            "word": "هَل عَسَيتُم",
+            "word_normalized": "هل عسيتم",
+            "meaning": "هَل الْأَمرُ كَمَا أَتَوَقَّعُهُ؟",
+            "meaning_normalized": "هل الأمر كما أتوقعه"
+          }
+        ]
+      }
+    ]
+  }
+}

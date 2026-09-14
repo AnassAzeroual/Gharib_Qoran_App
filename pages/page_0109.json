@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 109,
+    "header": {
+      "right": "سُورَةُ الْكَهْفِ",
+      "right_normalized": "سورة الكهف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْكَهْفِ",
+          "name_normalized": "سورة الكهف",
+          "order": 18,
+          "ayat_count": 110,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 14,
+            "word": "وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ",
+            "word_normalized": "وربطنا على قلوبهم",
+            "meaning": "قَوَّيْنَا قُلُوبَهُمْ بِالْإِيمَانِ، وَشَدَدْنَا عَزِيمَتَهُمْ بِهِ.",
+            "meaning_normalized": "قوينا قلوبهم بالإيمان وشددنا عزيمتهم به"
+          },
+          {
+            "ayah_number": 14,
+            "word": "شَطَطًا",
+            "word_normalized": "شططا",
+            "meaning": "جَائِرًا، بَعِيدًا عَنِ الْحَقِّ.",
+            "meaning_normalized": "جائرا بعيدا عن الحق"
+          },
+          {
+            "ayah_number": 15,
+            "word": "بِسُلْطَٰنٍ بَيِّنٍ",
+            "word_normalized": "بسلطان بين",
+            "meaning": "بِحُجَّةٍ وَاضِحَةٍ.",
+            "meaning_normalized": "بحجة واضحة"
+          },
+          {
+            "ayah_number": 15,
+            "word": "ٱفْتَرَىٰ",
+            "word_normalized": "افترى",
+            "meaning": "اخْتَلَقَ.",
+            "meaning_normalized": "اختلق"
+          },
+          {
+            "ayah_number": 16,
+            "word": "مِرْفَقًا",
+            "word_normalized": "مرفقا",
+            "meaning": "مَا تَنْتَفِعُونَ بِهِ فِي حَيَاتِكُمْ مِنْ أَسْبَابِ الْعَيْشِ.",
+            "meaning_normalized": "ما تنتفعون به في حياتكم من أسباب العيش"
+          },
+          {
+            "ayah_number": 17,
+            "word": "تَزَٰوَرُ",
+            "word_normalized": "تزاور",
+            "meaning": "تَمِيلُ.",
+            "meaning_normalized": "تميل"
+          },
+          {
+            "ayah_number": 17,
+            "word": "تَقْرِضُهُمْ",
+            "word_normalized": "تقرضهم",
+            "meaning": "تَتْرُكُهُمْ، وَتَتَجَاوَزُ عَنْهُمْ.",
+            "meaning_normalized": "تتركهم وتتجاوز عنهم"
+          },
+          {
+            "ayah_number": 17,
+            "word": "فَجْوَةٍ",
+            "word_normalized": "فجوة",
+            "meaning": "مُتَّسَعٍ.",
+            "meaning_normalized": "متسع"
+          },
+          {
+            "ayah_number": 18,
+            "word": "بِٱلْوَصِيدِ",
+            "word_normalized": "بالوصيد",
+            "meaning": "بِفِنَاءِ الْكَهْفِ.",
+            "meaning_normalized": "بفناء الكهف"
+          },
+          {
+            "ayah_number": 18,
+            "word": "فِرَارًا",
+            "word_normalized": "فرارا",
+            "meaning": "هَرَبًا.",
+            "meaning_normalized": "هربا"
+          },
+          {
+            "ayah_number": 19,
+            "word": "بِوَرِقِكُمْ",
+            "word_normalized": "بورقكم",
+            "meaning": "بِنُقُودِكُمُ الْفِضِّيَّةِ.",
+            "meaning_normalized": "بنقودكم الفضية"
+          },
+          {
+            "ayah_number": 19,
+            "word": "أَزْكَىٰ",
+            "word_normalized": "أزكى",
+            "meaning": "أَحَلُّ، وَأَطْيَبُ.",
+            "meaning_normalized": "أحل وأطيب"
+          },
+          {
+            "ayah_number": 20,
+            "word": "يَظْهَرُوا۟",
+            "word_normalized": "يظهروا",
+            "meaning": "يَطَّلِعُوا.",
+            "meaning_normalized": "يطلعوا"
+          },
+          {
+            "ayah_number": 21,
+            "word": "أَعْثَرْنَا عَلَيْهِمْ",
+            "word_normalized": "أعثرنا عليهم",
+            "meaning": "أَطْلَعْنَا عَلَيْهِمْ أَهْلَ ذَلِكَ الزَّمَانِ.",
+            "meaning_normalized": "أطلعنا عليهم أهل ذلك الزمان"
+          },
+          {
+            "ayah_number": 21,
+            "word": "لَا رَيْبَ",
+            "word_normalized": "لا ريب",
+            "meaning": "لَا شَكَّ.",
+            "meaning_normalized": "لا شك"
+          },
+          {
+            "ayah_number": 21,
+            "word": "ٱلَّذِينَ غَلَبُوا۟",
+            "word_normalized": "الذين غلبوا",
+            "meaning": "أَصْحَابُ النُّفُوذِ فِيهِمْ.",
+            "meaning_normalized": "أصحاب النفوذ فيهم"
+          },
+          {
+            "ayah_number": 22,
+            "word": "رَجْمًۢا بِٱلْغَيْبِ",
+            "word_normalized": "رجما بالغيب",
+            "meaning": "قَوْلًا بِالظَّنِّ مِنْ غَيْرِ دَلِيلٍ.",
+            "meaning_normalized": "قولا بالظن من غير دليل"
+          },
+          {
+            "ayah_number": 22,
+            "word": "فَلَا تُمَارِ فِيهِمْ",
+            "word_normalized": "فلا تمار فيهم",
+            "meaning": "لَا تُجَادِلْ فِي عِدَّتِهِمْ.",
+            "meaning_normalized": "لا تجادل في عدتهم"
+          },
+          {
+            "ayah_number": 22,
+            "word": "إِلَّا مِرَآءً ظَٰهِرًا",
+            "word_normalized": "إلا مراء ظاهرا",
+            "meaning": "إِلَّا جِدَالًا ظَاهِرًا لَا عُمْقَ فِيهِ بِأَنْ تَتْلُوَ مَا أُوحِيَ إِلَيْكَ.",
+            "meaning_normalized": "إلا جدالا ظاهرا لا عمق فيه بأن تتلو ما أوحي إليك"
+          }
+        ]
+      }
+    ]
+  }
+}

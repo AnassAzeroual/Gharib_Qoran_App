@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 108,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْإِسْرَاءِ",
+          "name_normalized": "سورة الإسراء",
+          "order": 17,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 107,
+            "word": "يَخِرُّونَ لِلْأَذْقَانِ",
+            "word_normalized": "يخرون للأذقان",
+            "meaning": "يَسْجُدُونَ عَلَى وُجُوهِهِمْ.",
+            "meaning_normalized": "يسجدون على وجوههم"
+          },
+          {
+            "ayah_number": 110,
+            "word": "وَلَا تُخَافِتْ بِهَا",
+            "word_normalized": "ولا تخافت بها",
+            "meaning": "وَلَا تُسِرَّ بِهَا.",
+            "meaning_normalized": "ولا تسر بها"
+          },
+          {
+            "ayah_number": 110,
+            "word": "وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا",
+            "word_normalized": "وابتغ بين ذلك سبيلا",
+            "meaning": "كُنْ وَسَطًا فِي الْقِرَاءَةِ بَيْنَ الْجَهْرِ، وَالْمُخَافَتَةِ.",
+            "meaning_normalized": "كن وسطا في القراءة بين الجهر والمخافتة"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْكَهْفِ",
+          "name_normalized": "سورة الكهف",
+          "order": 18,
+          "ayat_count": 110,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "عِوَجًا",
+            "word_normalized": "عوجا",
+            "meaning": "مَيْلًا عَنِ الْحَقِّ.",
+            "meaning_normalized": "ميلا عن الحق"
+          },
+          {
+            "ayah_number": 2,
+            "word": "قَيِّمًا",
+            "word_normalized": "قيما",
+            "meaning": "مُسْتَقِيمًا مُعْتَدِلًا.",
+            "meaning_normalized": "مستقيما معتدلا"
+          },
+          {
+            "ayah_number": 2,
+            "word": "بَأْسًا",
+            "word_normalized": "بأسا",
+            "meaning": "عَذَابًا.",
+            "meaning_normalized": "عذابا"
+          },
+          {
+            "ayah_number": 2,
+            "word": "مِن لَّدُنْهُ",
+            "word_normalized": "من لدنه",
+            "meaning": "مِنْ عِنْدِهِ.",
+            "meaning_normalized": "من عنده"
+          },
+          {
+            "ayah_number": 6,
+            "word": "بَٰخِعٌ",
+            "word_normalized": "باخع",
+            "meaning": "مُهْلِكٌ.",
+            "meaning_normalized": "مهلك"
+          },
+          {
+            "ayah_number": 6,
+            "word": "أَسَفًا",
+            "word_normalized": "أسفا",
+            "meaning": "حَزَنًا، وَغَمًّا.",
+            "meaning_normalized": "حزنا وغما"
+          },
+          {
+            "ayah_number": 8,
+            "word": "صَعِيدًا جُرُزًا",
+            "word_normalized": "صعيدا جرزا",
+            "meaning": "تُرَابًا لَا نَبَاتَ فِيهِ.",
+            "meaning_normalized": "ترابا لا نبات فيه"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَٱلرَّقِيمِ",
+            "word_normalized": "والرقيم",
+            "meaning": "اللَّوْحِ الَّذِي كُتِبَتْ فِيهِ أَسْمَاؤُهُمْ.",
+            "meaning_normalized": "اللوح الذي كتبت فيه أسماؤهم"
+          },
+          {
+            "ayah_number": 10,
+            "word": "أَوَى",
+            "word_normalized": "أوى",
+            "meaning": "الْتَجَأَ.",
+            "meaning_normalized": "التجأ"
+          },
+          {
+            "ayah_number": 11,
+            "word": "فَضَرَبْنَا عَلَىٰٓ ءَاذَانِهِمْ",
+            "word_normalized": "فضربنا على آذانهم",
+            "meaning": "أَلْقَيْنَا عَلَيْهِمُ النَّوْمَ الْعَمِيقَ.",
+            "meaning_normalized": "ألقينا عليهم النوم العميق"
+          },
+          {
+            "ayah_number": 12,
+            "word": "بَعَثْنَٰهُمْ",
+            "word_normalized": "بعثناهم",
+            "meaning": "أَيْقَظْنَاهُمْ مِنْ نَوْمِهِمْ.",
+            "meaning_normalized": "أيقظناهم من نومهم"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ٱلْحِزْبَيْنِ",
+            "word_normalized": "الحزبين",
+            "meaning": "الطَّائِفَتَيْنِ الْمُتَنَازِعَتَيْنِ فِي مُدَّةِ لُبْثِهِمْ.",
+            "meaning_normalized": "الطائفتين المتنازعتين في مدة لبثهم"
+          },
+          {
+            "ayah_number": 12,
+            "word": "أَمَدًا",
+            "word_normalized": "أمدا",
+            "meaning": "مُدَّةً، وَغَايَةً.",
+            "meaning_normalized": "مدة وغاية"
+          }
+        ]
+      }
+    ]
+  }
+}

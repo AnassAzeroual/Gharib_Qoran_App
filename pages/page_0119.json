@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 119,
+    "header": {
+      "right": "سُورَةُ مَريَمَ",
+      "right_normalized": "سورة مريم",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ مَريَمَ",
+          "name_normalized": "سورة مريم",
+          "order": 19,
+          "ayat_count": 98,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 73,
+            "word": "مَقَامًا",
+            "word_normalized": "مقاما",
+            "meaning": "مَنْزِلًا.",
+            "meaning_normalized": "منزلا"
+          },
+          {
+            "ayah_number": 73,
+            "word": "نَدِيًّا",
+            "word_normalized": "نديا",
+            "meaning": "مَجْلِسًا.",
+            "meaning_normalized": "مجلسا"
+          },
+          {
+            "ayah_number": 74,
+            "word": "قَرْنٍ",
+            "word_normalized": "قرن",
+            "meaning": "أُمَّةٍ.",
+            "meaning_normalized": "أمة"
+          },
+          {
+            "ayah_number": 74,
+            "word": "أَثَٰثًا",
+            "word_normalized": "أثاثا",
+            "meaning": "مَتَاعًا.",
+            "meaning_normalized": "متاعا"
+          },
+          {
+            "ayah_number": 74,
+            "word": "وَرِءْيًا",
+            "word_normalized": "ورئيا",
+            "meaning": "مَنْظَرًا، وَمَرْأًى.",
+            "meaning_normalized": "منظرا ومرأى"
+          },
+          {
+            "ayah_number": 75,
+            "word": "فَلْيَمْدُدْ",
+            "word_normalized": "فليمدد",
+            "meaning": "فَلْيُمْهِلْهُ، وَلْيُمْلِ لَهُ؛ اسْتِدْرَاجًا.",
+            "meaning_normalized": "فليمهله وليمل له استدراجا"
+          },
+          {
+            "ayah_number": 76,
+            "word": "وَٱلْبَٰقِيَٰتُ",
+            "word_normalized": "والباقيات",
+            "meaning": "الْأَعْمَالُ الصَّالِحَاتُ.",
+            "meaning_normalized": "الأعمال الصالحات"
+          },
+          {
+            "ayah_number": 76,
+            "word": "مَرَدًّا",
+            "word_normalized": "مردا",
+            "meaning": "مَرْجِعًا، وَعَاقِبَةً.",
+            "meaning_normalized": "مرجعا وعاقبة"
+          },
+          {
+            "ayah_number": 77,
+            "word": "أَفَرَءَيْتَ",
+            "word_normalized": "أفرأيت",
+            "meaning": "أَعَلِمْتَ؟",
+            "meaning_normalized": "أعلمت"
+          },
+          {
+            "ayah_number": 79,
+            "word": "وَنَمُدُّ لَهُۥ",
+            "word_normalized": "ونمد له",
+            "meaning": "نَزِيدُ لَهُ.",
+            "meaning_normalized": "نزيد له"
+          },
+          {
+            "ayah_number": 81,
+            "word": "عِزًّا",
+            "word_normalized": "عزا",
+            "meaning": "شُفَعَاءَ، وَأَنْصَارًا.",
+            "meaning_normalized": "شفعاء وأنصارا"
+          },
+          {
+            "ayah_number": 83,
+            "word": "تَؤُزُّهُمْ أَزًّا",
+            "word_normalized": "تؤزهم أزا",
+            "meaning": "تَدْفَعُهُمْ عَنِ الطَّاعَةِ، وَتُغْرِيهِمْ بِالْمَعْصِيَةِ.",
+            "meaning_normalized": "تدفعهم عن الطاعة وتغريهم بالمعصية"
+          },
+          {
+            "ayah_number": 85,
+            "word": "نَحْشُرُ",
+            "word_normalized": "نحشر",
+            "meaning": "نَجْمَعُ.",
+            "meaning_normalized": "نجمع"
+          },
+          {
+            "ayah_number": 85,
+            "word": "وَفْدًا",
+            "word_normalized": "وفدا",
+            "meaning": "وُفُودًا مُكْرَمِينَ عَلَى الرِّكَابِ وَالرَّوَاحِلِ.",
+            "meaning_normalized": "وفودا مكرمين على الركاب والرواحل"
+          },
+          {
+            "ayah_number": 86,
+            "word": "وِرْدًا",
+            "word_normalized": "وردا",
+            "meaning": "مُشَاةً عِطَاشًا.",
+            "meaning_normalized": "مشاة عطاشا"
+          },
+          {
+            "ayah_number": 89,
+            "word": "إِدًّا",
+            "word_normalized": "إدا",
+            "meaning": "شَيْئًا عَظِيمًا مُنْكَرًا.",
+            "meaning_normalized": "شيئا عظيما منكرا"
+          },
+          {
+            "ayah_number": 90,
+            "word": "يَنفَطِرْنَ",
+            "word_normalized": "ينفطرن",
+            "meaning": "يَتَشَقَّقْنَ.",
+            "meaning_normalized": "يتشققن"
+          },
+          {
+            "ayah_number": 90,
+            "word": "وَتَخِرُّ ٱلْجِبَالُ هَدًّا",
+            "word_normalized": "وتخر الجبال هدا",
+            "meaning": "تَسْقُطُ سُقُوطًا شَدِيدًا.",
+            "meaning_normalized": "تسقط سقوطا شديدا"
+          },
+          {
+            "ayah_number": 92,
+            "word": "وَمَا يَنۢبَغِي",
+            "word_normalized": "وما ينبغي",
+            "meaning": "مَا يَلِيقُ، وَمَا يَصْلُحُ.",
+            "meaning_normalized": "ما يليق وما يصلح"
+          },
+          {
+            "ayah_number": 96,
+            "word": "وُدًّا",
+            "word_normalized": "ودا",
+            "meaning": "مَحَبَّةً فِي قُلُوبِ عِبَادِهِ.",
+            "meaning_normalized": "محبة في قلوب عباده"
+          },
+          {
+            "ayah_number": 97,
+            "word": "لُّدًّا",
+            "word_normalized": "لدا",
+            "meaning": "شَدِيدِي الْخُصُومَةِ بِالْبَاطِلِ.",
+            "meaning_normalized": "شديدي الخصومة بالباطل"
+          }
+        ]
+      }
+    ]
+  }
+}

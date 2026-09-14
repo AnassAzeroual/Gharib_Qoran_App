@@ -1,0 +1,152 @@
+{
+  "page": {
+    "page_number": 91,
+    "header": {
+      "right": "سُورَةُ الْحِجْرِ",
+      "right_normalized": "سورة الحجر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ إِبْرَاهِيمَ",
+          "name_normalized": "سورة إبراهيم",
+          "order": 14,
+          "ayat_count": 52,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 37,
+            "word": "تَهْوِي إِلَيْهِمْ",
+            "word_normalized": "تهوي إليهم",
+            "meaning": "تَمِيلُ إِلَيْهِمْ، وَتَحِنُّ.",
+            "meaning_normalized": "تميل إليهم وتحن"
+          },
+          {
+            "ayah_number": 42,
+            "word": "تَشْخَصُ",
+            "word_normalized": "تشخص",
+            "meaning": "تَرْتَفِعُ عُيُونُهُمْ فِيهِ، وَلَا تَغْمَضُ.",
+            "meaning_normalized": "ترتفع عيونهم فيه ولا تغمض"
+          },
+          {
+            "ayah_number": 43,
+            "word": "مُهْطِعِينَ",
+            "word_normalized": "مهطعين",
+            "meaning": "مُسْرِعِينَ.",
+            "meaning_normalized": "مسرعين"
+          },
+          {
+            "ayah_number": 43,
+            "word": "مُقْنِعِي رُؤُوسِهِمْ",
+            "word_normalized": "مقنعي رؤوسهم",
+            "meaning": "رَافِعِي رُؤُوسِهِمْ.",
+            "meaning_normalized": "رافعي رؤوسهم"
+          },
+          {
+            "ayah_number": 43,
+            "word": "وَأَفْئِدَتُهُمْ هَوَاءٌ",
+            "word_normalized": "وأفئدتهم هواء",
+            "meaning": "قُلُوبُهُمْ خَالِيَةٌ مِنْ شِدَّةِ الْهَوْلِ.",
+            "meaning_normalized": "قلوبهم خالية من شدة الهول"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَبَرَزُوا",
+            "word_normalized": "وبرزوا",
+            "meaning": "خَرَجُوا ظَاهِرِينَ.",
+            "meaning_normalized": "خرجوا ظاهرين"
+          },
+          {
+            "ayah_number": 49,
+            "word": "مُقَرَّنِينَ فِي الْأَصْفَادِ",
+            "word_normalized": "مقرنين في الأصفاد",
+            "meaning": "مُقَيَّدِينَ بِالْقُيُودِ، قَدْ قُرِنَتْ أَيْدِيهِمْ وَأَرْجُلُهُمْ بِالسَّلَاسِلِ.",
+            "meaning_normalized": "مقيدين بالقيود قد قرنت أيديهم وأرجلهم بالسلاسل"
+          },
+          {
+            "ayah_number": 50,
+            "word": "سَرَابِيلُهُمْ",
+            "word_normalized": "سرابيلهم",
+            "meaning": "ثِيَابُهُمْ.",
+            "meaning_normalized": "ثيابهم"
+          },
+          {
+            "ayah_number": 50,
+            "word": "قَطِرَانٍ",
+            "word_normalized": "قطران",
+            "meaning": "مَادَّةٍ شَدِيدَةِ الِاشْتِعَالِ، تُشْبِهُ الزِّفْتَ، سَوْدَاءِ اللَّوْنِ مُنْتِنَةِ الرِّيحِ.",
+            "meaning_normalized": "مادة شديدة الاشتعال تشبه الزفت سوداء اللون منتنة الريح"
+          },
+          {
+            "ayah_number": 50,
+            "word": "وَتَغْشَى",
+            "word_normalized": "وتغشى",
+            "meaning": "تَعْلُو، وَتَلْفَحُ.",
+            "meaning_normalized": "تعلو وتلفح"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحِجْرِ",
+          "name_normalized": "سورة الحجر",
+          "order": 15,
+          "ayat_count": 99,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "رُبَمَا",
+            "word_normalized": "ربما",
+            "meaning": "رُبَّمَا.",
+            "meaning_normalized": "ربما"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَيُلْهِهِمُ الْأَمَلُ",
+            "word_normalized": "ويلههم الأمل",
+            "meaning": "يَشْغَلُهُمُ الطَّمَعُ فِي الدُّنْيَا، وَطُولُ الْبَقَاءِ فِيهَا.",
+            "meaning_normalized": "يشغلهم الطمع في الدنيا وطول البقاء فيها"
+          },
+          {
+            "ayah_number": 4,
+            "word": "كِتَابٌ مَعْلُومٌ",
+            "word_normalized": "كتاب معلوم",
+            "meaning": "أَجَلٌ مُقَدَّرٌ.",
+            "meaning_normalized": "أجل مقدر"
+          },
+          {
+            "ayah_number": 7,
+            "word": "لَوْ مَا",
+            "word_normalized": "لو ما",
+            "meaning": "هَلَّا.",
+            "meaning_normalized": "هلا"
+          },
+          {
+            "ayah_number": 8,
+            "word": "مُنْظَرِينَ",
+            "word_normalized": "منظرين",
+            "meaning": "مُمْهَلِينَ، وَمُؤَخَّرِينَ.",
+            "meaning_normalized": "ممهلين ومؤخرين"
+          }
+        ]
+      }
+    ]
+  }
+}

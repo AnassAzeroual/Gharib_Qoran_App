@@ -1,0 +1,166 @@
+{
+  "page": {
+    "page_number": 47,
+    "header": {
+      "right": "سُورَةُ الْأَنْعَامِ",
+      "right_normalized": "سورة الأنعام",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْعَامِ",
+          "name_normalized": "سورة الأنعام",
+          "order": 6,
+          "ayat_count": null,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 165,
+            "word": "وِزْرَ",
+            "word_normalized": "وزر",
+            "meaning": "إِثْمَ.",
+            "meaning_normalized": "إثم"
+          },
+          {
+            "ayah_number": 165,
+            "word": "خَلَائِفَ الْأَرْضِ",
+            "word_normalized": "خلائف الأرض",
+            "meaning": "تَخْلُفُونَ مَنْ سَبَقَكُمْ.",
+            "meaning_normalized": "تخلفون من سبقكم"
+          },
+          {
+            "ayah_number": 165,
+            "word": "لِيَبْلُوَكُمْ",
+            "word_normalized": "ليبلوكم",
+            "meaning": "لِيَخْتَبِرَكُمْ.",
+            "meaning_normalized": "ليختبركم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "حَرَجٌ",
+            "word_normalized": "حرج",
+            "meaning": "شَكٌّ، وَضِيقٌ مِنْ تَبْلِيغِهِ.",
+            "meaning_normalized": "شك وضيق من تبليغه"
+          },
+          {
+            "ayah_number": 3,
+            "word": "فَانْسَاءٌ",
+            "word_normalized": "فانساء",
+            "meaning": "عَذَابُنَا.",
+            "meaning_normalized": "عذابنا"
+          },
+          {
+            "ayah_number": 4,
+            "word": "بَيَّتًا",
+            "word_normalized": "بيتا",
+            "meaning": "نَائِمِينَ لَيْلًا.",
+            "meaning_normalized": "نائمين ليلا"
+          },
+          {
+            "ayah_number": 4,
+            "word": "قَائِلُونَ",
+            "word_normalized": "قائلون",
+            "meaning": "نَائِمُونَ فِي نِصْفِ النَّهَارِ.",
+            "meaning_normalized": "نائمون في نصف النهار"
+          },
+          {
+            "ayah_number": 8,
+            "word": "الْمَوَازِينُ",
+            "word_normalized": "الموازين",
+            "meaning": "وَزْنُ أَعْمَالِ الْعِبَادِ.",
+            "meaning_normalized": "وزن أعمال العباد"
+          },
+          {
+            "ayah_number": 8,
+            "word": "الْحَقُّ",
+            "word_normalized": "الحق",
+            "meaning": "الْعَدْلُ.",
+            "meaning_normalized": "العدل"
+          },
+          {
+            "ayah_number": 10,
+            "word": "مَكَّنَّاكُمْ",
+            "word_normalized": "مكناكم",
+            "meaning": "مَكَّنَّا لَكُمْ فِيهَا، وَجَعَلْنَاهَا لَكُمْ قَرَارًا.",
+            "meaning_normalized": "مكنا لكم فيها وجعلناها لكم قرارا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "مَعَايِشَ",
+            "word_normalized": "معايش",
+            "meaning": "مَا تَعِيشُونَ بِهِ.",
+            "meaning_normalized": "ما تعيشون به"
+          },
+          {
+            "ayah_number": 12,
+            "word": "الصَّاغِرِينَ",
+            "word_normalized": "الصاغرين",
+            "meaning": "الْخَقِيرِينَ، الذَّلِيلِينَ.",
+            "meaning_normalized": "الخقيرين الذليلين"
+          },
+          {
+            "ayah_number": 14,
+            "word": "أَنْظِرْنِي",
+            "word_normalized": "أنظرني",
+            "meaning": "أَمْهِلْنِي.",
+            "meaning_normalized": "أمهلني"
+          },
+          {
+            "ayah_number": 16,
+            "word": "لَأَقْعُدَنَّ",
+            "word_normalized": "لأقعدن",
+            "meaning": "لَأَتَرَصَّدَنَّهُمْ، وَأُضِلَّنَّهُمْ.",
+            "meaning_normalized": "لأترصدنهم وأضلنهم"
+          },
+          {
+            "ayah_number": 18,
+            "word": "مَدْحُورًا",
+            "word_normalized": "مدحورا",
+            "meaning": "مَطْرُودًا، مَذْمُومًا.",
+            "meaning_normalized": "مطرودا مذموما"
+          },
+          {
+            "ayah_number": 18,
+            "word": "مَدْحُورًا",
+            "word_normalized": "مدحورا",
+            "meaning": "مَطْرُودًا.",
+            "meaning_normalized": "مطرودا"
+          },
+          {
+            "ayah_number": 19,
+            "word": "مَا وَرَى",
+            "word_normalized": "ما ورى",
+            "meaning": "مَا سَتَرَ، وَأَخْفَى.",
+            "meaning_normalized": "ما ستر وأخفى"
+          }
+        ]
+      }
+    ]
+  }
+}

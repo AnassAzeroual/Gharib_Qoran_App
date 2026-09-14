@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 130,
+    "header": {
+      "right": "سُورَةُ الْأَنْبِيَاءِ",
+      "right_normalized": "سورة الأنبياء",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْبِيَاءِ",
+          "name_normalized": "سورة الأنبياء",
+          "order": 21,
+          "ayat_count": 112,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 78,
+            "word": "نَفَشَتْ",
+            "word_normalized": "نفشت",
+            "meaning": "انْتَشَرَتْ فِيهِ لَيْلًا بِلَا رَاعٍ.",
+            "meaning_normalized": "انتشرت فيه ليلا بلا راع"
+          },
+          {
+            "ayah_number": 79,
+            "word": "يُسَبِّحْنَ",
+            "word_normalized": "يسبحن",
+            "meaning": "تُسَبِّحُ الْجِبَالُ مَعَهُ إِذَا سَبَّحَ.",
+            "meaning_normalized": "تسبح الجبال معه إذا سبح"
+          },
+          {
+            "ayah_number": 80,
+            "word": "صَنْعَةَ لَبُوسٍ",
+            "word_normalized": "صنعة لبوس",
+            "meaning": "صِنَاعَةَ الدُّرُوعِ يَعْمَلُهَا حِلَقًا مُتَشَابِكَةً.",
+            "meaning_normalized": "صناعة الدروع يعملها حلقا متشابكة"
+          },
+          {
+            "ayah_number": 80,
+            "word": "لِتُحْصِنَكُم",
+            "word_normalized": "لتحصنكم",
+            "meaning": "لِتَحْمِيَكُمْ.",
+            "meaning_normalized": "لتحميكم"
+          },
+          {
+            "ayah_number": 80,
+            "word": "بَأْسِكُمْ",
+            "word_normalized": "بأسكم",
+            "meaning": "حَرْبِكُمْ.",
+            "meaning_normalized": "حربكم"
+          },
+          {
+            "ayah_number": 81,
+            "word": "عَاصِفَةً",
+            "word_normalized": "عاصفة",
+            "meaning": "شَدِيدَةَ الْهُبُوبِ.",
+            "meaning_normalized": "شديدة الهبوب"
+          },
+          {
+            "ayah_number": 82,
+            "word": "يَغُوصُونَ لَهُۥ",
+            "word_normalized": "يغوصون له",
+            "meaning": "يَغُوصُونَ فِي الْبِحَارِ؛ لِاسْتِخْرَاجِ اللَّآلِئِ.",
+            "meaning_normalized": "يغوصون في البحار لاستخراج اللآلئ"
+          },
+          {
+            "ayah_number": 87,
+            "word": "وَذَا ٱلنُّونِ",
+            "word_normalized": "وذا النون",
+            "meaning": "وَصَاحِبَ الْحُوتِ، وَهُوَ يُونُسُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "وصاحب الحوت وهو يونس عليه السلام"
+          },
+          {
+            "ayah_number": 87,
+            "word": "أَن لَّن نَّقْدِرَ عَلَيْهِ",
+            "word_normalized": "أن لن نقدر عليه",
+            "meaning": "أَنْ لَنْ نُضَيِّقَ عَلَيْهِ فِي بَطْنِ الْحُوتِ، وَنُؤَاخِذَهُ.",
+            "meaning_normalized": "أن لن نضيق عليه في بطن الحوت ونؤاخذه"
+          },
+          {
+            "ayah_number": 89,
+            "word": "خَيْرُ ٱلْوَٰرِثِينَ",
+            "word_normalized": "خير الوارثين",
+            "meaning": "خَيْرُ الْبَاقِينَ، وَخَيْرُ مَنْ خَلَفَنِي بِخَيْرٍ.",
+            "meaning_normalized": "خير الباقين وخير من خلفني بخير"
+          },
+          {
+            "ayah_number": 90,
+            "word": "رَغَبًا وَرَهَبًا",
+            "word_normalized": "رغبا ورهبا",
+            "meaning": "رَجَاءً فِي الثَّوَابِ، وَخَوْفًا مِنَ الْعِقَابِ.",
+            "meaning_normalized": "رجاء في الثواب وخوفا من العقاب"
+          },
+          {
+            "ayah_number": 90,
+            "word": "خَٰشِعِينَ",
+            "word_normalized": "خاشعين",
+            "meaning": "خَاضِعِينَ، مُتَذَلِّلِينَ.",
+            "meaning_normalized": "خاضعين متذللين"
+          },
+          {
+            "ayah_number": 91,
+            "word": "أَحْصَنَتْ فَرْجَهَا",
+            "word_normalized": "أحصنت فرجها",
+            "meaning": "حَفِظَتْهُ مِنَ الْفَوَاحِشِ.",
+            "meaning_normalized": "حفظته من الفواحش"
+          },
+          {
+            "ayah_number": 91,
+            "word": "فَنَفَخْنَا",
+            "word_normalized": "فنفخنا",
+            "meaning": "نَفَخَ جِبْرِيلُ عَلَيْهِ السَّلَامُ فِي جَيْبِ قَمِيصِهَا، فَوَصَلَتِ النَّفْخَةُ إِلَى رَحِمِهَا.",
+            "meaning_normalized": "نفخ جبريل عليه السلام في جيب قميصها فوصلت النفخة إلى رحمها"
+          },
+          {
+            "ayah_number": 91,
+            "word": "مِن رُّوحِنَا",
+            "word_normalized": "من روحنا",
+            "meaning": "مِنْ جِهَةِ رُوحِنَا، وَهُوَ: جِبْرِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "من جهة روحنا وهو جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 91,
+            "word": "ءَايَةً",
+            "word_normalized": "آية",
+            "meaning": "عَلَامَةً عَلَى قُدْرَةِ اللهِ.",
+            "meaning_normalized": "علامة على قدرة الله"
+          },
+          {
+            "ayah_number": 92,
+            "word": "أُمَّتُكُمْ أُمَّةً وَٰحِدَةً",
+            "word_normalized": "أمتكم أمة واحدة",
+            "meaning": "مِلَّتُكُمْ مِلَّةً وَاحِدَةً، وَهِيَ: الْإِسْلَامُ.",
+            "meaning_normalized": "ملتكم ملة واحدة وهي الإسلام"
+          },
+          {
+            "ayah_number": 93,
+            "word": "وَتَقَطَّعُواْ أَمْرَهُم",
+            "word_normalized": "وتقطعوا أمرهم",
+            "meaning": "اخْتَلَفُوا عَلَى رُسُلِهِمْ، وَتَفَرَّقُوا.",
+            "meaning_normalized": "اختلفوا على رسلهم وتفرقوا"
+          },
+          {
+            "ayah_number": 94,
+            "word": "فَلَا كُفْرَانَ لِسَعْيِهِ",
+            "word_normalized": "فلا كفران لسعيه",
+            "meaning": "فَلَا جُحُودَ لِعَمَلِهِ.",
+            "meaning_normalized": "فلا جحود لعمله"
+          },
+          {
+            "ayah_number": 95,
+            "word": "وَحَرَٰمٌ",
+            "word_normalized": "وحرام",
+            "meaning": "مُمْتَنِعٌ.",
+            "meaning_normalized": "ممتنع"
+          }
+        ]
+      }
+    ]
+  }
+}

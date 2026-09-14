@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 113,
+    "header": {
+      "right": "سُورَةُ الْكَهْفِ",
+      "right_normalized": "سورة الكهف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْكَهْفِ",
+          "name_normalized": "سورة الكهف",
+          "order": 18,
+          "ayat_count": 110,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 60,
+            "word": "لَآ أَبْرَحُ",
+            "word_normalized": "لا أبرح",
+            "meaning": "لَا أَزَالُ أُتَابِعُ الْمَسِيرَ.",
+            "meaning_normalized": "لا أزال أتابع المسير"
+          },
+          {
+            "ayah_number": 60,
+            "word": "مَجْمَعَ",
+            "word_normalized": "مجمع",
+            "meaning": "مُلْتَقَى.",
+            "meaning_normalized": "ملتقى"
+          },
+          {
+            "ayah_number": 60,
+            "word": "حُقُبًا",
+            "word_normalized": "حقبا",
+            "meaning": "زَمَنًا طَوِيلًا.",
+            "meaning_normalized": "زمنا طويلا"
+          },
+          {
+            "ayah_number": 61,
+            "word": "فَٱتَّخَذَ سَبِيلَهُۥ",
+            "word_normalized": "فاتخذ سبيله",
+            "meaning": "فَأَصْبَحَ الْحُوتُ حَيًّا، وَاتَّخَذَ طَرِيقًا فِي الْبَحْرِ.",
+            "meaning_normalized": "فأصبح الحوت حيا واتخذ طريقا في البحر"
+          },
+          {
+            "ayah_number": 61,
+            "word": "سَرَبًا",
+            "word_normalized": "سربا",
+            "meaning": "طَرِيقًا مَفْتُوحًا فِي الْمَاءِ.",
+            "meaning_normalized": "طريقا مفتوحا في الماء"
+          },
+          {
+            "ayah_number": 62,
+            "word": "نَصَبًا",
+            "word_normalized": "نصبا",
+            "meaning": "تَعَبًا.",
+            "meaning_normalized": "تعبا"
+          },
+          {
+            "ayah_number": 63,
+            "word": "أَرَءَيْتَ",
+            "word_normalized": "أرأيت",
+            "meaning": "أَتَذْكُرُ؟",
+            "meaning_normalized": "أتذكر"
+          },
+          {
+            "ayah_number": 63,
+            "word": "أَوَىٰنَآ",
+            "word_normalized": "أوينا",
+            "meaning": "لَجَأْنَا.",
+            "meaning_normalized": "لجأنا"
+          },
+          {
+            "ayah_number": 64,
+            "word": "نَبْغِ",
+            "word_normalized": "نبغ",
+            "meaning": "نَطْلُبُ.",
+            "meaning_normalized": "نطلب"
+          },
+          {
+            "ayah_number": 64,
+            "word": "فَٱرْتَدَّا",
+            "word_normalized": "فارتدا",
+            "meaning": "فَرَجَعَا.",
+            "meaning_normalized": "فرجعا"
+          },
+          {
+            "ayah_number": 64,
+            "word": "عَلَىٰٓ ءَاثَارِهِمَا قَصَصًا",
+            "word_normalized": "على آثارهما قصصا",
+            "meaning": "يَتَتَبَّعَانِ آثَارَ مَشْيِهِمَا.",
+            "meaning_normalized": "يتتبعان آثار مشيهما"
+          },
+          {
+            "ayah_number": 65,
+            "word": "فَوَجَدَا عَبْدًا",
+            "word_normalized": "فوجدا عبدا",
+            "meaning": "هُوَ الْخِضْرُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "هو الخضر عليه السلام"
+          },
+          {
+            "ayah_number": 65,
+            "word": "مِن لَّدُنَّا",
+            "word_normalized": "من لدنا",
+            "meaning": "مِنْ عِنْدِنَا.",
+            "meaning_normalized": "من عندنا"
+          },
+          {
+            "ayah_number": 68,
+            "word": "مَا لَمْ تُحِطْ بِهِۦ خُبْرًا",
+            "word_normalized": "ما لم تحط به خبرا",
+            "meaning": "مَا يَخْفَى عَلَيْكَ عِلْمُهُ.",
+            "meaning_normalized": "ما يخفى عليك علمه"
+          },
+          {
+            "ayah_number": 71,
+            "word": "خَرَقَهَا",
+            "word_normalized": "خرقها",
+            "meaning": "قَلَعَ لَوْحًا مِنْ أَلْوَاحِهَا.",
+            "meaning_normalized": "قلع لوحا من ألواحها"
+          },
+          {
+            "ayah_number": 71,
+            "word": "إِمْرًا",
+            "word_normalized": "إمرا",
+            "meaning": "أَمْرًا مُنْكَرًا.",
+            "meaning_normalized": "أمرا منكرا"
+          },
+          {
+            "ayah_number": 73,
+            "word": "وَلَا تُرْهِقْنِى",
+            "word_normalized": "ولا ترهقني",
+            "meaning": "لَا تُكَلِّفْنِي.",
+            "meaning_normalized": "لا تكلفني"
+          },
+          {
+            "ayah_number": 74,
+            "word": "زَكِيَّةً",
+            "word_normalized": "زكية",
+            "meaning": "طَاهِرَةً لَمْ تَبْلُغْ حَدَّ التَّكْلِيفِ.",
+            "meaning_normalized": "طاهرة لم تبلغ حد التكليف"
+          },
+          {
+            "ayah_number": 74,
+            "word": "نُّكْرًا",
+            "word_normalized": "نكرا",
+            "meaning": "مُنْكَرًا عَظِيمًا.",
+            "meaning_normalized": "منكرا عظيما"
+          },
+          {
+            "ayah_number": 77,
+            "word": "ٱسْتَطْعَمَآ أَهْلَهَا",
+            "word_normalized": "استطعما أهلها",
+            "meaning": "طَلَبَا طَعَامًا عَلَى سَبِيلِ الضِّيَافَةِ.",
+            "meaning_normalized": "طلبا طعاما على سبيل الضيافة"
+          }
+        ]
+      }
+    ]
+  }
+}

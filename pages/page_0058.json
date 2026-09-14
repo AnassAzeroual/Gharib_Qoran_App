@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 58,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 205,
+            "word": "وَخِيفَةً",
+            "word_normalized": "وخيفة",
+            "meaning": "تَوَاضُعًا، وَخَوْفًا مِنْهُ.",
+            "meaning_normalized": "تواضعا وخوفا منه"
+          },
+          {
+            "ayah_number": 205,
+            "word": "بِالْغُدُوِّ",
+            "word_normalized": "بالغدو",
+            "meaning": "بِأَوَّلِ النَّهَارِ.",
+            "meaning_normalized": "بأول النهار"
+          },
+          {
+            "ayah_number": 205,
+            "word": "وَالْآصَالِ",
+            "word_normalized": "والآصال",
+            "meaning": "آخِرِ النَّهَارِ.",
+            "meaning_normalized": "آخر النهار"
+          },
+          {
+            "ayah_number": 206,
+            "word": "وَيُسَبِّحُونَهُ",
+            "word_normalized": "ويسبحونه",
+            "meaning": "يُنَزِّهُونَهُ عَمَّا لَا يَلِيقُ بِجَلَالِهِ.",
+            "meaning_normalized": "ينزهونه عما لا يليق بجلاله"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْفَالِ",
+          "name_normalized": "سورة الأنفال",
+          "order": 8,
+          "ayat_count": 75,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "الْأَنْفَالِ",
+            "word_normalized": "الأنفال",
+            "meaning": "الْغَنَائِمُ.",
+            "meaning_normalized": "الغنائم"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَجِلَتْ",
+            "word_normalized": "وجلت",
+            "meaning": "فَزِعَتْ.",
+            "meaning_normalized": "فزعت"
+          },
+          {
+            "ayah_number": 2,
+            "word": "الظَّالِمِينَ",
+            "word_normalized": "الظالمين",
+            "meaning": "عَبَرَ قُرَيْشٍ، وَمَا تَحْمِلُهُ مِنْ أَرْزَاقٍ، أَوِ الْخَيْرِ لِقِتَالِهِمْ.",
+            "meaning_normalized": "عبر قريش وما تحمله من أرزاق أو الخير لقتالهم"
+          },
+          {
+            "ayah_number": 7,
+            "word": "ذَاتِ الشَّوْكَةِ",
+            "word_normalized": "ذات الشوكة",
+            "meaning": "صَاحِبَةُ السِّلَاحِ، وَالْقُوَّةِ.",
+            "meaning_normalized": "صاحبة السلاح والقوة"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وَيَقْطَعَ",
+            "word_normalized": "ويقطع",
+            "meaning": "يَسْتَأْصِلَ.",
+            "meaning_normalized": "يستأصل"
+          },
+          {
+            "ayah_number": 7,
+            "word": "دَابِرَ الْكَافِرِينَ",
+            "word_normalized": "دابر الكافرين",
+            "meaning": "أَحْرَمَهُمْ، وَالْمُرَادُ: جَمِيعُهُمْ.",
+            "meaning_normalized": "أحرمهم والمراد جميعهم"
+          },
+          {
+            "ayah_number": 9,
+            "word": "مُرْدِيكُمْ",
+            "word_normalized": "مرديكم",
+            "meaning": "يَتْبَعُ بَعْضُهُمْ بَعْضًا.",
+            "meaning_normalized": "يتبع بعضهم بعضا"
+          },
+          {
+            "ayah_number": 9,
+            "word": "يَغْشِيكُمْ",
+            "word_normalized": "يغشيكم",
+            "meaning": "يُلْقِي النُّعَاسَ عَلَيْكُمْ؛ كَالْغِطَاءِ.",
+            "meaning_normalized": "يلقي النعاس عليكم كالغطاء"
+          },
+          {
+            "ayah_number": 11,
+            "word": "أَمَنَةً",
+            "word_normalized": "أمنة",
+            "meaning": "أَمَانًا.",
+            "meaning_normalized": "أمانا"
+          },
+          {
+            "ayah_number": 11,
+            "word": "رِجْزَ الشَّيْطَانِ",
+            "word_normalized": "رجز الشيطان",
+            "meaning": "وَسْوَاسُهُ وَتَخْوِيفُهُ إِيَّاهُ.",
+            "meaning_normalized": "وسواسه وتخويفه إياه"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَيُرْبِطَ",
+            "word_normalized": "ويربط",
+            "meaning": "يَشُدَّةُ.",
+            "meaning_normalized": "يشدة"
+          },
+          {
+            "ayah_number": 12,
+            "word": "بَنَانٍ",
+            "word_normalized": "بنان",
+            "meaning": "طَرَفٍ، وَمَفْصِلٍ.",
+            "meaning_normalized": "طرف ومفصل"
+          }
+        ]
+      }
+    ]
+  }
+}

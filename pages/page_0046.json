@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 46,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْعَامِ",
+          "name_normalized": "سورة الأنعام",
+          "order": 6,
+          "ayat_count": null,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 146,
+            "word": "الْحَوَايَا",
+            "word_normalized": "الحوايا",
+            "meaning": "الْأَمْعَاءُ.",
+            "meaning_normalized": "الأمعاء"
+          },
+          {
+            "ayah_number": 146,
+            "word": "مَا اخْتَلَطَ بِعَظْمٍ",
+            "word_normalized": "ما اختلط بعظم",
+            "meaning": "كَأَلْيَةِ الضَّأْنِ وَالْعَجُبِ.",
+            "meaning_normalized": "كألية الضأن والعجب"
+          },
+          {
+            "ayah_number": 149,
+            "word": "بَيِّنَةٌ",
+            "word_normalized": "بينة",
+            "meaning": "بِسَبَبِ عُيُوبِهِمُ السَّيِّئِ.",
+            "meaning_normalized": "بسبب عيوبهم السيئ"
+          },
+          {
+            "ayah_number": 147,
+            "word": "بَأْسُهُ",
+            "word_normalized": "بأسه",
+            "meaning": "عَذَابُهُ.",
+            "meaning_normalized": "عذابه"
+          },
+          {
+            "ayah_number": 148,
+            "word": "تُحْرِصُونَ",
+            "word_normalized": "تحرصون",
+            "meaning": "تُكَذِّبُونَ.",
+            "meaning_normalized": "تكذبون"
+          },
+          {
+            "ayah_number": 149,
+            "word": "هَلُمُّوا",
+            "word_normalized": "هلموا",
+            "meaning": "هَاتُوا.",
+            "meaning_normalized": "هاتوا"
+          },
+          {
+            "ayah_number": 150,
+            "word": "شُهَدَاءَكُمُ",
+            "word_normalized": "شهداءكم",
+            "meaning": "شُهُودَكُمْ.",
+            "meaning_normalized": "شهودكم"
+          },
+          {
+            "ayah_number": 150,
+            "word": "يَعْدِلُونَ",
+            "word_normalized": "يعدلون",
+            "meaning": "يُسَوُّونَ بِهِ غَيْرَهُ وَيُشْرِكُونَ.",
+            "meaning_normalized": "يسوون به غيره ويشركون"
+          },
+          {
+            "ayah_number": 151,
+            "word": "أَاتْلُ",
+            "word_normalized": "أاتل",
+            "meaning": "أَقْرَأُ.",
+            "meaning_normalized": "أقرأ"
+          },
+          {
+            "ayah_number": 151,
+            "word": "إِمْلَاقٍ",
+            "word_normalized": "إملاق",
+            "meaning": "فَقْرٍ.",
+            "meaning_normalized": "فقر"
+          },
+          {
+            "ayah_number": 151,
+            "word": "بَلَغَ أَشُدَّهُ",
+            "word_normalized": "بلغ أشده",
+            "meaning": "يَصِلُ إِلَى سِنِّ الْبُلُوغِ، وَيَكُونُ رَاشِدًا.",
+            "meaning_normalized": "يصل إلى سن البلوغ ويكون راشدا"
+          },
+          {
+            "ayah_number": 152,
+            "word": "بِالْقِسْطِ",
+            "word_normalized": "بالقسط",
+            "meaning": "بِالْعَدْلِ.",
+            "meaning_normalized": "بالعدل"
+          },
+          {
+            "ayah_number": 152,
+            "word": "وَذَرَاسِيمٍ",
+            "word_normalized": "وذراسيم",
+            "meaning": "قَرَاءَةٌ كَثِيرَةٌ.",
+            "meaning_normalized": "قراءة كثيرة"
+          },
+          {
+            "ayah_number": 153,
+            "word": "وَصَدَّكَ",
+            "word_normalized": "وصدك",
+            "meaning": "أَعْرَضَ.",
+            "meaning_normalized": "أعرض"
+          },
+          {
+            "ayah_number": 154,
+            "word": "هَدْيَةً",
+            "word_normalized": "هدية",
+            "meaning": "فَرْقًا، وَأَحْزَانًا.",
+            "meaning_normalized": "فرقا وأحزانا"
+          },
+          {
+            "ayah_number": 155,
+            "word": "فُرْمَا",
+            "word_normalized": "فرما",
+            "meaning": "قَائِمًا بِأَمْرِ الدُّنْيَا وَالْآخِرَةِ.",
+            "meaning_normalized": "قائما بأمر الدنيا والآخرة"
+          },
+          {
+            "ayah_number": 157,
+            "word": "حَجِيجًا",
+            "word_normalized": "حجيجا",
+            "meaning": "مَائِلًا عَنِ الشِّرْكِ إِلَى التَّوْحِيدِ.",
+            "meaning_normalized": "مائلا عن الشرك إلى التوحيد"
+          },
+          {
+            "ayah_number": 158,
+            "word": "وَنُسُكٍ",
+            "word_normalized": "ونسك",
+            "meaning": "ذَبِيحَتِي.",
+            "meaning_normalized": "ذبيحتي"
+          },
+          {
+            "ayah_number": 164,
+            "word": "تَكْسِبُ",
+            "word_normalized": "تكسب",
+            "meaning": "تَعْمَلُ سَيِّئًا.",
+            "meaning_normalized": "تعمل سيئا"
+          },
+          {
+            "ayah_number": 165,
+            "word": "وَلَا تَزِرُ",
+            "word_normalized": "ولا تزر",
+            "meaning": "لَا تَحْمِلُ.",
+            "meaning_normalized": "لا تحمل"
+          },
+          {
+            "ayah_number": 165,
+            "word": "وَازِرَةٌ",
+            "word_normalized": "وازرة",
+            "meaning": "نَفْسٌ آثِمَةٌ.",
+            "meaning_normalized": "نفس آثمة"
+          }
+        ]
+      }
+    ]
+  }
+}

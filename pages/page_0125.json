@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 125,
+    "header": {
+      "right": "سُورَةُ طه",
+      "right_normalized": "سورة طه",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ طه",
+          "name_normalized": "سورة طه",
+          "order": 20,
+          "ayat_count": 135,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 105,
+            "word": "نَسْفًا",
+            "word_normalized": "نسفا",
+            "meaning": "يَجْعَلُهَا هَبَاءً مُنْبَثًّا.",
+            "meaning_normalized": "يجعلها هباء منبثا"
+          },
+          {
+            "ayah_number": 106,
+            "word": "فَيَذَرُهَا",
+            "word_normalized": "فيذرها",
+            "meaning": "فَيَتْرُكُهَا.",
+            "meaning_normalized": "فيتركها"
+          },
+          {
+            "ayah_number": 106,
+            "word": "قَاعًا",
+            "word_normalized": "قاعا",
+            "meaning": "أَرْضًا مَلْسَاءَ لَا نَبَاتَ بِهَا.",
+            "meaning_normalized": "أرضا ملساء لا نبات بها"
+          },
+          {
+            "ayah_number": 106,
+            "word": "صَفْصَفًا",
+            "word_normalized": "صفصفا",
+            "meaning": "مُسْتَوِيَةً.",
+            "meaning_normalized": "مستوية"
+          },
+          {
+            "ayah_number": 107,
+            "word": "عِوَجًا",
+            "word_normalized": "عوجا",
+            "meaning": "انْخِفَاضًا.",
+            "meaning_normalized": "انخفاضا"
+          },
+          {
+            "ayah_number": 107,
+            "word": "أَمْتًا",
+            "word_normalized": "أمتا",
+            "meaning": "ارْتِفَاعًا.",
+            "meaning_normalized": "ارتفاعا"
+          },
+          {
+            "ayah_number": 108,
+            "word": "لَا عِوَجَ لَهُۥ",
+            "word_normalized": "لا عوج له",
+            "meaning": "لَا مَحِيدَ عَنْ دَعْوَةِ الدَّاعِي.",
+            "meaning_normalized": "لا محيد عن دعوة الداعي"
+          },
+          {
+            "ayah_number": 108,
+            "word": "وَخَشَعَتِ",
+            "word_normalized": "وخشعت",
+            "meaning": "سَكَنَتْ خُضُوعًا.",
+            "meaning_normalized": "سكنت خضوعا"
+          },
+          {
+            "ayah_number": 111,
+            "word": "وَعَنَتِ",
+            "word_normalized": "وعنت",
+            "meaning": "خَضَعَتْ، وَذَلَّتْ.",
+            "meaning_normalized": "خضعت وذلت"
+          },
+          {
+            "ayah_number": 111,
+            "word": "ٱلْقَيُّومُ",
+            "word_normalized": "القيوم",
+            "meaning": "الْقَائِمِ عَلَى شُؤُونِ خَلْقِهِ.",
+            "meaning_normalized": "القائم على شؤون خلقه"
+          },
+          {
+            "ayah_number": 111,
+            "word": "ظُلْمًا",
+            "word_normalized": "ظلما",
+            "meaning": "زِيَادَةً فِي سَيِّئَاتِهِ.",
+            "meaning_normalized": "زيادة في سيئاته"
+          },
+          {
+            "ayah_number": 112,
+            "word": "هَضْمًا",
+            "word_normalized": "هضما",
+            "meaning": "نَقْصًا مِنْ حَسَنَاتِهِ.",
+            "meaning_normalized": "نقصا من حسناته"
+          },
+          {
+            "ayah_number": 113,
+            "word": "وَصَرَّفْنَا",
+            "word_normalized": "وصرفنا",
+            "meaning": "فَصَّلْنَا فِيهِ أَنْوَاعًا مِنَ الْوَعِيدِ.",
+            "meaning_normalized": "فصلنا فيه أنواعا من الوعيد"
+          },
+          {
+            "ayah_number": 113,
+            "word": "ذِكْرًا",
+            "word_normalized": "ذكرا",
+            "meaning": "تَذْكِرَةً، وَعِظَةً.",
+            "meaning_normalized": "تذكرة وعظة"
+          },
+          {
+            "ayah_number": 114,
+            "word": "فَتَعَٰلَى",
+            "word_normalized": "فتعالى",
+            "meaning": "فَتَنَزَّهَ، وَارْتَفَعَ، وَتَقَدَّسَ عَنْ كُلِّ نَقْصٍ.",
+            "meaning_normalized": "فتنزه وارتفع وتقدس عن كل نقص"
+          },
+          {
+            "ayah_number": 115,
+            "word": "عَهِدْنَآ",
+            "word_normalized": "عهدنا",
+            "meaning": "وَصَّيْنَا.",
+            "meaning_normalized": "وصينا"
+          },
+          {
+            "ayah_number": 115,
+            "word": "عَزْمًا",
+            "word_normalized": "عزما",
+            "meaning": "حِفْظًا لِمَا أُمِرَ بِهِ.",
+            "meaning_normalized": "حفظا لما أمر به"
+          },
+          {
+            "ayah_number": 118,
+            "word": "وَلَا تَعْرَىٰ",
+            "word_normalized": "ولا تعرى",
+            "meaning": "لَا يُصِيبُكَ الْعُرْيُ.",
+            "meaning_normalized": "لا يصيبك العري"
+          },
+          {
+            "ayah_number": 119,
+            "word": "وَلَا تَضْحَىٰ",
+            "word_normalized": "ولا تضحى",
+            "meaning": "لَا يُصِيبُكَ حَرُّ الشَّمْسِ.",
+            "meaning_normalized": "لا يصيبك حر الشمس"
+          },
+          {
+            "ayah_number": 120,
+            "word": "لَّا يَبْلَىٰ",
+            "word_normalized": "لا يبلى",
+            "meaning": "لَا يَنْقَضِي، وَلَا يَنْقَطِعُ.",
+            "meaning_normalized": "لا ينقضي ولا ينقطع"
+          },
+          {
+            "ayah_number": 121,
+            "word": "سَوْءَٰتُهُمَا",
+            "word_normalized": "سوآتهما",
+            "meaning": "عَوْرَاتُهُمَا.",
+            "meaning_normalized": "عوراتهما"
+          }
+        ]
+      }
+    ]
+  }
+}

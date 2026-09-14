@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 105,
+    "header": {
+      "right": "سُورَةُ الْإِسْرَاءِ",
+      "right_normalized": "سورة الإسراء",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْإِسْرَاءِ",
+          "name_normalized": "سورة الإسراء",
+          "order": 17,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 64,
+            "word": "وَأَجْلِبْ",
+            "word_normalized": "وأجلب",
+            "meaning": "اجْمَعْ، وَصِحْ عَلَيْهِمْ.",
+            "meaning_normalized": "اجمع وصح عليهم"
+          },
+          {
+            "ayah_number": 64,
+            "word": "بِخَيْلِكَ وَرَجِلِكَ",
+            "word_normalized": "بخيلك ورجلك",
+            "meaning": "بِجُنُودِكَ الرَّاكِبِينَ، وَالرَّاجِلِينَ فِي مَعْصِيَةِ اللهِ.",
+            "meaning_normalized": "بجنودك الراكبين والراجلين في معصية الله"
+          },
+          {
+            "ayah_number": 64,
+            "word": "غُرُورًا",
+            "word_normalized": "غرورا",
+            "meaning": "بَاطِلًا وَخِدَاعًا.",
+            "meaning_normalized": "باطلا وخداعا"
+          },
+          {
+            "ayah_number": 66,
+            "word": "يُزْجِى",
+            "word_normalized": "يزجي",
+            "meaning": "يُسَيِّرُ، وَيُجْرِي.",
+            "meaning_normalized": "يسير ويجري"
+          },
+          {
+            "ayah_number": 66,
+            "word": "ٱلْفُلْكَ",
+            "word_normalized": "الفلك",
+            "meaning": "السُّفُنَ.",
+            "meaning_normalized": "السفن"
+          },
+          {
+            "ayah_number": 67,
+            "word": "ضَلَّ",
+            "word_normalized": "ضل",
+            "meaning": "غَابَ.",
+            "meaning_normalized": "غاب"
+          },
+          {
+            "ayah_number": 68,
+            "word": "حَاصِبًا",
+            "word_normalized": "حاصبا",
+            "meaning": "رِيحًا شَدِيدَةً تَرْمِيكُمْ بِالْحَصْبَاءِ.",
+            "meaning_normalized": "ريحا شديدة ترميكم بالحصباء"
+          },
+          {
+            "ayah_number": 68,
+            "word": "وَكِيلًا",
+            "word_normalized": "وكيلا",
+            "meaning": "حَافِظًا يَحْفَظُكُمْ.",
+            "meaning_normalized": "حافظا يحفظكم"
+          },
+          {
+            "ayah_number": 69,
+            "word": "قَاصِفًا مِّنَ ٱلرِّيحِ",
+            "word_normalized": "قاصفا من الريح",
+            "meaning": "رِيحًا شَدِيدَةً لَا تَمُرُّ عَلَى شَيْءٍ إِلَّا كَسَرَتْهُ.",
+            "meaning_normalized": "ريحا شديدة لا تمر على شيء إلا كسرته"
+          },
+          {
+            "ayah_number": 69,
+            "word": "تَبِيعًا",
+            "word_normalized": "تبيعا",
+            "meaning": "تَابِعًا، وَمُطَالِبًا يُطَالِبُ بِالثَّأْرِ مِنَّا.",
+            "meaning_normalized": "تابعا ومطالبا يطالب بالثأر منا"
+          },
+          {
+            "ayah_number": 71,
+            "word": "بِإِمَٰمِهِمْ",
+            "word_normalized": "بإمامهم",
+            "meaning": "بِمَنْ كَانُوا يَقْتَدُونَ بِهِ فِي الدُّنْيَا.",
+            "meaning_normalized": "بمن كانوا يقتدون به في الدنيا"
+          },
+          {
+            "ayah_number": 71,
+            "word": "وَلَا يُظْلَمُونَ",
+            "word_normalized": "ولا يظلمون",
+            "meaning": "لَا يُنْقَصُونَ.",
+            "meaning_normalized": "لا ينقصون"
+          },
+          {
+            "ayah_number": 71,
+            "word": "فَتِيلًا",
+            "word_normalized": "فتيلا",
+            "meaning": "قَدْرَ الْخَيْطِ الَّذِي يَكُونُ فِي شَقِّ النَّوَاةِ.",
+            "meaning_normalized": "قدر الخيط الذي يكون في شق النواة"
+          },
+          {
+            "ayah_number": 73,
+            "word": "كَادُوا۟",
+            "word_normalized": "كادوا",
+            "meaning": "قَارَبُوا.",
+            "meaning_normalized": "قاربوا"
+          },
+          {
+            "ayah_number": 73,
+            "word": "لَيَفْتِنُونَكَ",
+            "word_normalized": "ليفتنونك",
+            "meaning": "لَيَصْرِفُونَكَ، وَيُوقِعُونَكَ فِي الْفِتْنَةِ.",
+            "meaning_normalized": "ليصرفونك ويوقعونك في الفتنة"
+          },
+          {
+            "ayah_number": 73,
+            "word": "لِتَفْتَرِىَ",
+            "word_normalized": "لتفتري",
+            "meaning": "لِتَخْتَلِقَ، وَتَكْذِبَ.",
+            "meaning_normalized": "لتختلق وتكذب"
+          },
+          {
+            "ayah_number": 73,
+            "word": "خَلِيلًا",
+            "word_normalized": "خليلا",
+            "meaning": "حَبِيبًا خَالِصًا.",
+            "meaning_normalized": "حبيبا خالصا"
+          },
+          {
+            "ayah_number": 75,
+            "word": "ضِعْفَ ٱلْحَيَوٰةِ",
+            "word_normalized": "ضعف الحياة",
+            "meaning": "عَذَابًا مُضَاعَفًا فِي الدُّنْيَا.",
+            "meaning_normalized": "عذابا مضاعفا في الدنيا"
+          },
+          {
+            "ayah_number": 75,
+            "word": "وَضِعْفَ ٱلْمَمَاتِ",
+            "word_normalized": "وضعف الممات",
+            "meaning": "عَذَابًا مُضَاعَفًا فِي الْآخِرَةِ.",
+            "meaning_normalized": "عذابا مضاعفا في الآخرة"
+          },
+          {
+            "ayah_number": 76,
+            "word": "كَادُوا۟",
+            "word_normalized": "كادوا",
+            "meaning": "قَارَبُوا.",
+            "meaning_normalized": "قاربوا"
+          },
+          {
+            "ayah_number": 76,
+            "word": "لَيَسْتَفِزُّونَكَ",
+            "word_normalized": "ليستفزونك",
+            "meaning": "أَنْ يُخْرِجُوكَ مِنْ مَكَّةَ؛ بِإِزْعَاجِهِمْ إِيَّاكَ.",
+            "meaning_normalized": "أن يخرجوك من مكة بإزعاجهم إياك"
+          }
+        ]
+      }
+    ]
+  }
+}

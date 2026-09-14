@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 49,
+    "header": {
+      "right": "سُورَةُ الْأَعْرَافِ",
+      "right_normalized": "سورة الأعراف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 46,
+            "word": "بِسِيمَائِهِمْ",
+            "word_normalized": "بسيمائهم",
+            "meaning": "بِعَلَامَاتِهِمْ.",
+            "meaning_normalized": "بعلاماتهم"
+          },
+          {
+            "ayah_number": 47,
+            "word": "يَطْمَعُونَ",
+            "word_normalized": "يطمعون",
+            "meaning": "يَرْجُونَ دُخُولَهَا.",
+            "meaning_normalized": "يرجون دخولها"
+          },
+          {
+            "ayah_number": 47,
+            "word": "تِلْقَاءَ",
+            "word_normalized": "تلقاء",
+            "meaning": "جِهَةٌ.",
+            "meaning_normalized": "جهة"
+          },
+          {
+            "ayah_number": 48,
+            "word": "أَصْحَابُ الْأَعْرَافِ",
+            "word_normalized": "أصحاب الأعراف",
+            "meaning": "مَنِ اسْتَوَتْ حَسَنَاتُهُمْ وَسَيِّئَاتُهُمْ.",
+            "meaning_normalized": "من استوت حسناتهم وسيئاتهم"
+          },
+          {
+            "ayah_number": 51,
+            "word": "وَحَكَّتُهُمْ",
+            "word_normalized": "وحكتهم",
+            "meaning": "خَدَعَتْهُمْ.",
+            "meaning_normalized": "خدعتهم"
+          },
+          {
+            "ayah_number": 53,
+            "word": "يَنْظُرُونَ",
+            "word_normalized": "ينظرون",
+            "meaning": "يَتَطَلَّعُونَ.",
+            "meaning_normalized": "يتطلعون"
+          },
+          {
+            "ayah_number": 54,
+            "word": "تَأْوِيلَهُ",
+            "word_normalized": "تأويله",
+            "meaning": "مَا وُعِدُوا بِهِ فِي الْقُرْآنِ مِنَ الْعِقَابِ الَّذِي يَؤُولُ إِلَيْهِ أَمْرُهُمْ.",
+            "meaning_normalized": "ما وعدوا به في القرآن من العقاب الذي يؤول إليه أمرهم"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَسَخَّلَ",
+            "word_normalized": "وسخل",
+            "meaning": "ذَهَبَ، وَضَاعَ.",
+            "meaning_normalized": "ذهب وضاع"
+          },
+          {
+            "ayah_number": 54,
+            "word": "اسْتَوَى",
+            "word_normalized": "استوى",
+            "meaning": "عَلَا، وَارْتَفَعَ.",
+            "meaning_normalized": "علا وارتفع"
+          },
+          {
+            "ayah_number": 55,
+            "word": "تَضَرُّعًا",
+            "word_normalized": "تضرعا",
+            "meaning": "يُغْطِي، وَيُدَخِّلُ.",
+            "meaning_normalized": "يغطي ويدخل"
+          },
+          {
+            "ayah_number": 54,
+            "word": "حَثِيثًا",
+            "word_normalized": "حثيثا",
+            "meaning": "سَرِيعًا، دَائِمًا.",
+            "meaning_normalized": "سريعا دائما"
+          },
+          {
+            "ayah_number": 54,
+            "word": "تَبَارَكَ",
+            "word_normalized": "تبارك",
+            "meaning": "تَعَالَى، وَتَعَاظَمَ، وَتَبَرَّزَ.",
+            "meaning_normalized": "تعالى وتعاظم وتبرز"
+          },
+          {
+            "ayah_number": 55,
+            "word": "تَضَرُّعًا",
+            "word_normalized": "تضرعا",
+            "meaning": "مُتَذَلِّلِينَ.",
+            "meaning_normalized": "متذللين"
+          },
+          {
+            "ayah_number": 55,
+            "word": "وَخُفْيَةً",
+            "word_normalized": "وخفية",
+            "meaning": "سِرًّا.",
+            "meaning_normalized": "سرا"
+          },
+          {
+            "ayah_number": 57,
+            "word": "بُشْرًا",
+            "word_normalized": "بشرا",
+            "meaning": "مُبَشِّرَاتٍ بِالْغَيْثِ.",
+            "meaning_normalized": "مبشرات بالغيث"
+          },
+          {
+            "ayah_number": 57,
+            "word": "أَثْقَلَتْ",
+            "word_normalized": "أثقلت",
+            "meaning": "حَمَلَتْ.",
+            "meaning_normalized": "حملت"
+          },
+          {
+            "ayah_number": 57,
+            "word": "ثِقَالًا",
+            "word_normalized": "ثقالا",
+            "meaning": "مُحَمَّلَةً بِالْمَاءِ.",
+            "meaning_normalized": "محملة بالماء"
+          },
+          {
+            "ayah_number": 57,
+            "word": "لِبَلَدٍ مَيِّتٍ",
+            "word_normalized": "لبلد ميت",
+            "meaning": "لِبَلَدٍ مُجْدِبٍ.",
+            "meaning_normalized": "لبلد مجدب"
+          },
+          {
+            "ayah_number": 58,
+            "word": "نَكِدًا",
+            "word_normalized": "نكدا",
+            "meaning": "عَسِرًا، رَدِيئًا.",
+            "meaning_normalized": "عسرا رديئا"
+          },
+          {
+            "ayah_number": 59,
+            "word": "نَصْرِفُ",
+            "word_normalized": "نصرف",
+            "meaning": "نَنْوَعُ.",
+            "meaning_normalized": "ننوع"
+          }
+        ]
+      }
+    ]
+  }
+}

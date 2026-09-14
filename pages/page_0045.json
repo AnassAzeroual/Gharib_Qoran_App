@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 45,
+    "header": {
+      "right": "سُورَةُ الْأَنْعَامِ",
+      "right_normalized": "سورة الأنعام",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْعَامِ",
+          "name_normalized": "سورة الأنعام",
+          "order": 6,
+          "ayat_count": 165,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 139,
+            "word": "وَوَصَّفْتُمْ",
+            "word_normalized": "ووصفتم",
+            "meaning": "كَذَبْتُمْ عَلَى اللهِ؛ بِالتَّحْلِيلِ وَالتَّحْرِيمِ.",
+            "meaning_normalized": "كذبتم على الله بالتحليل والتحريم"
+          },
+          {
+            "ayah_number": 140,
+            "word": "سَفَهًا",
+            "word_normalized": "سفها",
+            "meaning": "جَهَالًا، وَنَقْصَ عَقْلٍ.",
+            "meaning_normalized": "جهالا ونقص عقل"
+          },
+          {
+            "ayah_number": 141,
+            "word": "أَنْشَأَ",
+            "word_normalized": "أنشأ",
+            "meaning": "أَوْجَدَ.",
+            "meaning_normalized": "أوجد"
+          },
+          {
+            "ayah_number": 141,
+            "word": "مَعْرُوشَاتٍ",
+            "word_normalized": "معروشات",
+            "meaning": "مُحْتَاجَةٍ إِلَى الْعَرِيشِ؛ كَالْعِنَبِ، وَالْعَرِيشُ: أَعْوَادٌ تُنْصَبُ لِيَتَمَدَّدَ عَلَيْهَا الشَّجَرُ، وَيَرْتَفِعَ عَنِ الْأَرْضِ.",
+            "meaning_normalized": "محتاجة إلى العريش كالعنب والعريش أعواد تنصب ليتمدد عليها الشجر ويرتفع عن الأرض"
+          },
+          {
+            "ayah_number": 141,
+            "word": "وَغَيْرَ مَعْرُوشَاتٍ",
+            "word_normalized": "وغير معروشات",
+            "meaning": "قَائِمَةٌ عَلَى سَاقِهَا؛ كَالنَّخْلِ.",
+            "meaning_normalized": "قائمة على ساقها كالنخل"
+          },
+          {
+            "ayah_number": 142,
+            "word": "حَمُولَةً",
+            "word_normalized": "حمولة",
+            "meaning": "مَا هُوَ مُهَيَّأٌ لِلْحَمْلِ عَلَيْهِ؛ كَالْإِبِلِ.",
+            "meaning_normalized": "ما هو مهيأ للحمل عليه كالإبل"
+          },
+          {
+            "ayah_number": 142,
+            "word": "وَفَرْشًا",
+            "word_normalized": "وفرشا",
+            "meaning": "مَا هُوَ مُهَيَّأٌ لِغَيْرِ الْحَمْلِ لِصِغَرِهِ، وَيُؤْكَلُ مِنَ الْأَرْضِ؛ كَالْغَنَمِ.",
+            "meaning_normalized": "ما هو مهيأ لغير الحمل لصغره ويؤكل من الأرض كالغنم"
+          },
+          {
+            "ayah_number": 142,
+            "word": "خُطُوَاتِ",
+            "word_normalized": "خطوات",
+            "meaning": "طُرُقَ الشَّيْطَانِ وَأَسَالِيبَهُ.",
+            "meaning_normalized": "طرق الشيطان وأساليبه"
+          },
+          {
+            "ayah_number": 143,
+            "word": "أَزْوَاجٍ",
+            "word_normalized": "أزواج",
+            "meaning": "أَصْنَافٍ.",
+            "meaning_normalized": "أصناف"
+          },
+          {
+            "ayah_number": 143,
+            "word": "شُهَدَاءَ",
+            "word_normalized": "شهداء",
+            "meaning": "شُهُودًا حَاضِرِينَ.",
+            "meaning_normalized": "شهودا حاضرين"
+          },
+          {
+            "ayah_number": 144,
+            "word": "وَرَصَدَكُمْ",
+            "word_normalized": "ورصدكم",
+            "meaning": "أَمَرَكُمْ.",
+            "meaning_normalized": "أمركم"
+          },
+          {
+            "ayah_number": 145,
+            "word": "وَدَمًا مَسْفُوحًا",
+            "word_normalized": "ودما مسفوحا",
+            "meaning": "دَمًا مُرَاقًا؛ وَهُوَ مَا يَخْرُجُ عِنْدَ الذَّبْحِ.",
+            "meaning_normalized": "دما مراقا وهو ما يخرج عند الذبح"
+          },
+          {
+            "ayah_number": 146,
+            "word": "رِجْسٌ",
+            "word_normalized": "رجس",
+            "meaning": "نَجِسٌ.",
+            "meaning_normalized": "نجس"
+          },
+          {
+            "ayah_number": 146,
+            "word": "أُهِلَّ لِغَيْرِ اللهِ بِهِ",
+            "word_normalized": "أهل لغير الله به",
+            "meaning": "ذُكِرَ عِنْدَ ذَبْحِهِ اسْمُ غَيْرِ اللهِ.",
+            "meaning_normalized": "ذكر عند ذبحه اسم غير الله"
+          },
+          {
+            "ayah_number": 146,
+            "word": "ظُفُرٍ",
+            "word_normalized": "ظفر",
+            "meaning": "طَالِبٌ بِأَكْلِهِ مَنْهُمَا التَّلَذُّذُ.",
+            "meaning_normalized": "طالب بأكله منهما التلذذ"
+          },
+          {
+            "ayah_number": 146,
+            "word": "عَادٍ",
+            "word_normalized": "عاد",
+            "meaning": "مُتَجَاوِزٌ حَدَّ الضَّرُورَةِ.",
+            "meaning_normalized": "متجاوز حد الضرورة"
+          },
+          {
+            "ayah_number": 146,
+            "word": "كُلَّ ذِي ظُفُرٍ",
+            "word_normalized": "كل ذي ظفر",
+            "meaning": "كُلُّ مَا لَمْ يَكُنْ مَشْقُوقَ الْأَصَابِعِ؛ كَالْإِبِلِ وَالنَّعَامِ.",
+            "meaning_normalized": "كل ما لم يكن مشقوق الأصابع كالإبل والنعام"
+          }
+        ]
+      }
+    ]
+  }
+}

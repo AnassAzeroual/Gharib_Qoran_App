@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 51,
+    "header": {
+      "right": "سُورَةُ الْأَعْرَافِ",
+      "right_normalized": "سورة الأعراف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 91,
+            "word": "الرَّجْفَةُ",
+            "word_normalized": "الرجفة",
+            "meaning": "الزَّلْزَلَةُ الشَّدِيدَةُ.",
+            "meaning_normalized": "الزلزلة الشديدة"
+          },
+          {
+            "ayah_number": 91,
+            "word": "جَاثِمِينَ",
+            "word_normalized": "جاثمين",
+            "meaning": "هَالِكِينَ، لَاصِقِينَ بِالْأَرْضِ عَلَى رُكَبِهِمْ، وَوُجُوهِهِمْ.",
+            "meaning_normalized": "هالكين لاصقين بالأرض على ركبهم ووجوههم"
+          },
+          {
+            "ayah_number": 92,
+            "word": "لَمْ يَغْنَوْا",
+            "word_normalized": "لم يغنوا",
+            "meaning": "لَمْ يُقِيمُوا فِي دِيَارِهِمْ.",
+            "meaning_normalized": "لم يقيموا في ديارهم"
+          },
+          {
+            "ayah_number": 93,
+            "word": "فَرَاحَ",
+            "word_normalized": "فراح",
+            "meaning": "أَعْرَضَ.",
+            "meaning_normalized": "أعرض"
+          },
+          {
+            "ayah_number": 94,
+            "word": "بِالْبَأْسَاءِ",
+            "word_normalized": "بالبأساء",
+            "meaning": "الْفَقْرُ وَالْبُؤْسُ.",
+            "meaning_normalized": "الفقر والبؤس"
+          },
+          {
+            "ayah_number": 94,
+            "word": "وَالضَّرَّاءِ",
+            "word_normalized": "والضراء",
+            "meaning": "الْمَرَضُ وَالْأَلَمُ.",
+            "meaning_normalized": "المرض والألم"
+          },
+          {
+            "ayah_number": 95,
+            "word": "بَدَّلْنَا يَصْرُفُونَ",
+            "word_normalized": "بدلنا يصرفون",
+            "meaning": "يَسْتَكْبِرُونَ، وَيَتَبَدَّلُونَ.",
+            "meaning_normalized": "يستكبرون ويتبدلون"
+          },
+          {
+            "ayah_number": 95,
+            "word": "الْسَّيِّئَةَ",
+            "word_normalized": "السيئة",
+            "meaning": "الْحَالَةُ السَّيِّئَةُ؛ مِنَ الْمَرَضِ، وَالْفَقْرِ.",
+            "meaning_normalized": "الحالة السيئة من المرض والفقر"
+          },
+          {
+            "ayah_number": 95,
+            "word": "الْحَسَنَةَ",
+            "word_normalized": "الحسنة",
+            "meaning": "الْحَالَةُ الْحَسَنَةُ؛ مِنَ الْعَافِيَةِ، وَالْغِنَى.",
+            "meaning_normalized": "الحالة الحسنة من العافية والغنى"
+          },
+          {
+            "ayah_number": 96,
+            "word": "عَنْوَا",
+            "word_normalized": "عنوا",
+            "meaning": "كَثُرُوا وَزَبُّوا عَدَدًا وَمَالًا.",
+            "meaning_normalized": "كثروا وزبوا عددا ومالا"
+          },
+          {
+            "ayah_number": 96,
+            "word": "بَغْتَةً",
+            "word_normalized": "بغتة",
+            "meaning": "فَجْأَةً.",
+            "meaning_normalized": "فجأة"
+          },
+          {
+            "ayah_number": 97,
+            "word": "بَأْسُنَا",
+            "word_normalized": "بأسنا",
+            "meaning": "عَذَابُنَا.",
+            "meaning_normalized": "عذابنا"
+          },
+          {
+            "ayah_number": 97,
+            "word": "بَيَاتًا",
+            "word_normalized": "بياتا",
+            "meaning": "لَيْلًا.",
+            "meaning_normalized": "ليلا"
+          },
+          {
+            "ayah_number": 98,
+            "word": "أَوَلَمْ يَهْدِ",
+            "word_normalized": "أولم يهد",
+            "meaning": "أَوَلَمْ يَتَبَيَّنْ.",
+            "meaning_normalized": "أولم يتبين"
+          },
+          {
+            "ayah_number": 99,
+            "word": "يَرْفِهُونَ",
+            "word_normalized": "يرفهون",
+            "meaning": "يَسْتَكْبِرُونَ.",
+            "meaning_normalized": "يستكبرون"
+          },
+          {
+            "ayah_number": 100,
+            "word": "وَطَبَعَ",
+            "word_normalized": "وطبع",
+            "meaning": "تُخْتَمُ.",
+            "meaning_normalized": "تختم"
+          },
+          {
+            "ayah_number": 105,
+            "word": "حَقِيقٌ",
+            "word_normalized": "حقيق",
+            "meaning": "جَدِيرٌ.",
+            "meaning_normalized": "جدير"
+          },
+          {
+            "ayah_number": 107,
+            "word": "ثُعْبَانٌ مُبِينٌ",
+            "word_normalized": "ثعبان مبين",
+            "meaning": "حَيَّةٌ عَظِيمَةٌ.",
+            "meaning_normalized": "حية عظيمة"
+          },
+          {
+            "ayah_number": 108,
+            "word": "وَنَزَعَ يَدَهُ",
+            "word_normalized": "ونزع يده",
+            "meaning": "نَزَعَهَا مِنْ جَيْبِهِ، أَوْ جَنَاحِهِ.",
+            "meaning_normalized": "نزعها من جيبه أو جناحه"
+          },
+          {
+            "ayah_number": 111,
+            "word": "أَرْجِهْ",
+            "word_normalized": "أرجه",
+            "meaning": "أَخِّرْهُ.",
+            "meaning_normalized": "أخره"
+          }
+        ]
+      }
+    ]
+  }
+}

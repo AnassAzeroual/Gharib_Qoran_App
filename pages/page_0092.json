@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 92,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحِجْرِ",
+          "name_normalized": "سورة الحجر",
+          "order": 15,
+          "ayat_count": 99,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 10,
+            "word": "شِيَعِ الْأَوَّلِينَ",
+            "word_normalized": "شيع الأولين",
+            "meaning": "فِرَقِ الْأُمَمِ السَّابِقِينَ.",
+            "meaning_normalized": "فرق الأمم السابقين"
+          },
+          {
+            "ayah_number": 12,
+            "word": "نَسْلُكُهُ",
+            "word_normalized": "نسلكه",
+            "meaning": "نُدْخِلُ الْكُفْرَ.",
+            "meaning_normalized": "ندخل الكفر"
+          },
+          {
+            "ayah_number": 13,
+            "word": "خَلَتْ",
+            "word_normalized": "خلت",
+            "meaning": "مَضَتْ.",
+            "meaning_normalized": "مضت"
+          },
+          {
+            "ayah_number": 14,
+            "word": "فَظَلُّوا",
+            "word_normalized": "فظلوا",
+            "meaning": "فَاسْتَمَرُّوا.",
+            "meaning_normalized": "فاستمروا"
+          },
+          {
+            "ayah_number": 14,
+            "word": "يَعْرُجُونَ",
+            "word_normalized": "يعرجون",
+            "meaning": "يَصْعَدُونَ.",
+            "meaning_normalized": "يصعدون"
+          },
+          {
+            "ayah_number": 15,
+            "word": "سُكِّرَتْ",
+            "word_normalized": "سكرت",
+            "meaning": "سُحِرَتْ.",
+            "meaning_normalized": "سحرت"
+          },
+          {
+            "ayah_number": 16,
+            "word": "بُرُوجًا",
+            "word_normalized": "بروجا",
+            "meaning": "مَنَازِلَ لِلْكَوَاكِبِ تَنْزِلُ فِيهَا.",
+            "meaning_normalized": "منازل للكواكب تنزل فيها"
+          },
+          {
+            "ayah_number": 17,
+            "word": "رَجِيمٍ",
+            "word_normalized": "رجيم",
+            "meaning": "مَطْرُودٍ مِنْ رَحْمَةِ اللهِ.",
+            "meaning_normalized": "مطرود من رحمة الله"
+          },
+          {
+            "ayah_number": 18,
+            "word": "اسْتَرَقَ السَّمْعَ",
+            "word_normalized": "استرق السمع",
+            "meaning": "اخْتَلَسَ الْوَحْيَ مِنَ السَّمَاءِ الدُّنْيَا.",
+            "meaning_normalized": "اختلس الوحي من السماء الدنيا"
+          },
+          {
+            "ayah_number": 18,
+            "word": "فَأَتْبَعَهُ",
+            "word_normalized": "فأتبعه",
+            "meaning": "فَأَدْرَكَهُ.",
+            "meaning_normalized": "فأدركه"
+          },
+          {
+            "ayah_number": 18,
+            "word": "شِهَابٌ",
+            "word_normalized": "شهاب",
+            "meaning": "كَوْكَبٌ مُضِيءٌ مُحْرِقٌ.",
+            "meaning_normalized": "كوكب مضيء محرق"
+          },
+          {
+            "ayah_number": 19,
+            "word": "رَوَاسِيَ",
+            "word_normalized": "رواسي",
+            "meaning": "رَاسِيَةً تُثَبِّتُهَا.",
+            "meaning_normalized": "راسية تثبتها"
+          },
+          {
+            "ayah_number": 20,
+            "word": "مَعَايِشَ",
+            "word_normalized": "معايش",
+            "meaning": "مَا تَعِيشُونَ بِهِ مِنْ مَعَادِنَ، وَحِجَارَةٍ، وَنَبَاتٍ.",
+            "meaning_normalized": "ما تعيشون به من معادن وحجارة ونبات"
+          },
+          {
+            "ayah_number": 22,
+            "word": "لَوَاقِحَ",
+            "word_normalized": "لواقح",
+            "meaning": "تُلْقِحُ السَّحَابَ؛ فَيَمْتَلِئُ بِالْمَاءِ.",
+            "meaning_normalized": "تلقح السحاب فيمتلئ بالماء"
+          },
+          {
+            "ayah_number": 26,
+            "word": "صَلْصَالٍ",
+            "word_normalized": "صلصال",
+            "meaning": "طِينٍ يَابِسٍ يُسْمَعُ لَهُ صَوْتٌ إِذَا نُقِرَ.",
+            "meaning_normalized": "طين يابس يسمع له صوت إذا نقر"
+          },
+          {
+            "ayah_number": 26,
+            "word": "حَمَإٍ",
+            "word_normalized": "حمإ",
+            "meaning": "طِينٍ أَسْوَدَ.",
+            "meaning_normalized": "طين أسود"
+          },
+          {
+            "ayah_number": 26,
+            "word": "مَسْنُونٍ",
+            "word_normalized": "مسنون",
+            "meaning": "مُتَغَيِّرٍ لَوْنُهُ وَرِيحُهُ.",
+            "meaning_normalized": "متغير لونه وريحه"
+          },
+          {
+            "ayah_number": 27,
+            "word": "نَارِ السَّمُومِ",
+            "word_normalized": "نار السموم",
+            "meaning": "نَارٍ شَدِيدَةِ الْحَرَارَةِ لَا دُخَانَ لَهَا.",
+            "meaning_normalized": "نار شديدة الحرارة لا دخان لها"
+          },
+          {
+            "ayah_number": 36,
+            "word": "فَأَنْظِرْنِي",
+            "word_normalized": "فأنظرني",
+            "meaning": "فَأَمْهِلْنِي.",
+            "meaning_normalized": "فأمهلني"
+          },
+          {
+            "ayah_number": 41,
+            "word": "صِرَاطٌ",
+            "word_normalized": "صراط",
+            "meaning": "طَرِيقٌ.",
+            "meaning_normalized": "طريق"
+          }
+        ]
+      }
+    ]
+  }
+}

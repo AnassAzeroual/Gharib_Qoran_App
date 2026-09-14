@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 107,
+    "header": {
+      "right": "سُورَةُ الْإِسْرَاءِ",
+      "right_normalized": "سورة الإسراء",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْإِسْرَاءِ",
+          "name_normalized": "سورة الإسراء",
+          "order": 17,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 93,
+            "word": "زُخْرُفٍ",
+            "word_normalized": "زخرف",
+            "meaning": "ذَهَبٍ.",
+            "meaning_normalized": "ذهب"
+          },
+          {
+            "ayah_number": 97,
+            "word": "وَبُكْمًا",
+            "word_normalized": "وبكما",
+            "meaning": "لَا يَنْطِقُونَ.",
+            "meaning_normalized": "لا ينطقون"
+          },
+          {
+            "ayah_number": 97,
+            "word": "خَبَتْ",
+            "word_normalized": "خبت",
+            "meaning": "سَكَنَ لَهِيبُهَا.",
+            "meaning_normalized": "سكن لهيبها"
+          },
+          {
+            "ayah_number": 98,
+            "word": "وَرُفَٰتًا",
+            "word_normalized": "ورفاتا",
+            "meaning": "أَجْزَاءً مُفَتَّتَةً.",
+            "meaning_normalized": "أجزاء مفتتة"
+          },
+          {
+            "ayah_number": 100,
+            "word": "قَتُورًا",
+            "word_normalized": "قتورا",
+            "meaning": "مُبَالِغًا فِي الْبُخْلِ.",
+            "meaning_normalized": "مبالغا في البخل"
+          },
+          {
+            "ayah_number": 101,
+            "word": "تِسْعَ ءَايَٰتٍ",
+            "word_normalized": "تسع آيات",
+            "meaning": "مُعْجِزَاتٍ؛ وَهِيَ: الْعَصَا، وَالْيَدُ، وَالسِّنُونَ (أَيِ: الْجَدْبُ)، وَنَقْصُ الثَّمَرَاتِ، وَالطُّوفَانُ، وَالْجَرَادُ، وَالْقُمَّلُ، وَالضَّفَادِعُ، وَالدَّمُ.",
+            "meaning_normalized": "معجزات وهي العصا واليد والسنون أي الجدب ونقص الثمرات والطوفان والجراد والقمل والضفادع والدم"
+          },
+          {
+            "ayah_number": 101,
+            "word": "مَسْحُورًا",
+            "word_normalized": "مسحورا",
+            "meaning": "مَغْلُوبًا عَلَى عَقْلِكَ بِالسِّحْرِ.",
+            "meaning_normalized": "مغلوبا على عقلك بالسحر"
+          },
+          {
+            "ayah_number": 102,
+            "word": "بَصَآئِرَ",
+            "word_normalized": "بصائر",
+            "meaning": "دَلَائِلَ تَدُلُّ أَهْلَ الْبَصِيرَةِ عَلَى وَحْدَانِيَّةِ اللهِ، وَعَلَى صِدْقِي.",
+            "meaning_normalized": "دلائل تدل أهل البصيرة على وحدانية الله وعلى صدقي"
+          },
+          {
+            "ayah_number": 102,
+            "word": "لَأَظُنُّكَ",
+            "word_normalized": "لأظنك",
+            "meaning": "لَأُوقِنُ أَنَّكَ.",
+            "meaning_normalized": "لأوقن أنك"
+          },
+          {
+            "ayah_number": 102,
+            "word": "مَثْبُورًا",
+            "word_normalized": "مثبورا",
+            "meaning": "هَالِكًا مَغْلُوبًا مَلْعُونًا.",
+            "meaning_normalized": "هالكا مغلوبا ملعونا"
+          },
+          {
+            "ayah_number": 103,
+            "word": "يَسْتَفِزَّهُمْ",
+            "word_normalized": "يستفزهم",
+            "meaning": "يُخْرِجَهُمْ.",
+            "meaning_normalized": "يخرجهم"
+          },
+          {
+            "ayah_number": 103,
+            "word": "مِنَ ٱلْأَرْضِ",
+            "word_normalized": "من الأرض",
+            "meaning": "أَرْضِ مِصْرَ.",
+            "meaning_normalized": "أرض مصر"
+          },
+          {
+            "ayah_number": 104,
+            "word": "ٱسْكُنُوا۟ ٱلْأَرْضَ",
+            "word_normalized": "اسكنوا الأرض",
+            "meaning": "اسْكُنُوا أَرْضَ الشَّامِ.",
+            "meaning_normalized": "اسكنوا أرض الشام"
+          },
+          {
+            "ayah_number": 104,
+            "word": "لَفِيفًا",
+            "word_normalized": "لفيفا",
+            "meaning": "جَمِيعًا.",
+            "meaning_normalized": "جميعا"
+          },
+          {
+            "ayah_number": 106,
+            "word": "فَرَقْنَٰهُ",
+            "word_normalized": "فرقناه",
+            "meaning": "بَيَّنَّاهُ، وَفَصَّلْنَاهُ فَارِقًا بَيْنَ الْهُدَى، وَالضَّلَالِ.",
+            "meaning_normalized": "بيناه وفصلناه فارقا بين الهدى والضلال"
+          },
+          {
+            "ayah_number": 106,
+            "word": "مُكْثٍ",
+            "word_normalized": "مكث",
+            "meaning": "تُؤَدَةٍ، وَتَمَهُّلٍ.",
+            "meaning_normalized": "تؤدة وتمهل"
+          },
+          {
+            "ayah_number": 106,
+            "word": "وَنَزَّلْنَٰهُ تَنزِيلًا",
+            "word_normalized": "ونزلناه تنزيلا",
+            "meaning": "أَنْزَلْنَاهُ شَيْئًا بَعْدَ شَيْءٍ عَلَى حَسَبِ الْمَصَالِحِ.",
+            "meaning_normalized": "أنزلناه شيئا بعد شيء على حسب المصالح"
+          }
+        ]
+      }
+    ]
+  }
+}

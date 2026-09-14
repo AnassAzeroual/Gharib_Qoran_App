@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 71,
+    "header": {
+      "right": "سُورَةُ يُونُسَ",
+      "right_normalized": "سورة يونس",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يُونُسَ",
+          "name_normalized": "سورة يونس",
+          "order": 10,
+          "ayat_count": 109,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 54,
+            "word": "الْمَنَّ",
+            "word_normalized": "المن",
+            "meaning": "أَبَعْدَمَا؟",
+            "meaning_normalized": "أبعدما"
+          },
+          {
+            "ayah_number": 53,
+            "word": "وَيَسْتَنْبِئُونَكَ",
+            "word_normalized": "ويستنبئونك",
+            "meaning": "يَسْتَخْبِرُونَكَ.",
+            "meaning_normalized": "يستخبرونك"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَبِالْقِسْطِ",
+            "word_normalized": "وبالقسط",
+            "meaning": "بِالْعَدْلِ.",
+            "meaning_normalized": "بالعدل"
+          },
+          {
+            "ayah_number": 59,
+            "word": "تَفْتَرُونَ",
+            "word_normalized": "تفترون",
+            "meaning": "تَكْذِبُونَ.",
+            "meaning_normalized": "تكذبون"
+          },
+          {
+            "ayah_number": 62,
+            "word": "شَأْنٍ",
+            "word_normalized": "شأن",
+            "meaning": "أَمْرٍ مِنْ أُمُورِكَ.",
+            "meaning_normalized": "أمر من أمورك"
+          },
+          {
+            "ayah_number": 64,
+            "word": "فَهُمْ يَشْعُرُونَ",
+            "word_normalized": "فهم يشعرون",
+            "meaning": "تَقْبَعُونَ فِيهِ، وَتَعْمَلُونَهُ.",
+            "meaning_normalized": "تقبعون فيه وتعملونه"
+          },
+          {
+            "ayah_number": 66,
+            "word": "يَمْرَحُ",
+            "word_normalized": "يمرح",
+            "meaning": "يُعِيبُ.",
+            "meaning_normalized": "يعيب"
+          },
+          {
+            "ayah_number": 67,
+            "word": "فَرَّقَالَ دَرَى",
+            "word_normalized": "فرقال درى",
+            "meaning": "رَزَقَّهُ نَعْمَةً صَغِيرَةً.",
+            "meaning_normalized": "رزقه نعمة صغيرة"
+          },
+          {
+            "ayah_number": 68,
+            "word": "مُسَخَّدَةٌ",
+            "word_normalized": "مسخدة",
+            "meaning": "مَزَّرَّةٌ، وَتُقَدَّسُ.",
+            "meaning_normalized": "مزرة وتقدس"
+          },
+          {
+            "ayah_number": 68,
+            "word": "سُلْطَانٍ",
+            "word_normalized": "سلطان",
+            "meaning": "حُجَّةٌ، وَدَلِيلٌ.",
+            "meaning_normalized": "حجة ودليل"
+          },
+          {
+            "ayah_number": 71,
+            "word": "رُكْنٍ",
+            "word_normalized": "ركن",
+            "meaning": "عُظَمٌ.",
+            "meaning_normalized": "عظم"
+          },
+          {
+            "ayah_number": 71,
+            "word": "فَأَجْمِعُوا",
+            "word_normalized": "فأجمعوا",
+            "meaning": "اعْزِمُوا، وَأَعِدُّوا.",
+            "meaning_normalized": "اعزموا وأعدوا"
+          },
+          {
+            "ayah_number": 71,
+            "word": "غُمَّةٌ",
+            "word_normalized": "غمة",
+            "meaning": "مُسْتَتِرًا.",
+            "meaning_normalized": "مستترا"
+          },
+          {
+            "ayah_number": 71,
+            "word": "افْقَضُوا إِلَيَّ",
+            "word_normalized": "افقضوا إلي",
+            "meaning": "اقْضُوا عَلَيَّ بِالْعُقُوبَةِ.",
+            "meaning_normalized": "اقضوا علي بالعقوبة"
+          },
+          {
+            "ayah_number": 71,
+            "word": "تُنْظِرُونَ",
+            "word_normalized": "تنظرون",
+            "meaning": "تُمْهِلُونَ.",
+            "meaning_normalized": "تمهلون"
+          },
+          {
+            "ayah_number": 72,
+            "word": "الْفُلْكِ",
+            "word_normalized": "الفلك",
+            "meaning": "السَّفِينَةِ.",
+            "meaning_normalized": "السفينة"
+          },
+          {
+            "ayah_number": 73,
+            "word": "خَلَائِفَ",
+            "word_normalized": "خلائف",
+            "meaning": "يَخْلُفُونَ الْمُكَذِّبِينَ فِي الْأَرْضِ.",
+            "meaning_normalized": "يخلفون المكذبين في الأرض"
+          },
+          {
+            "ayah_number": 74,
+            "word": "نُعْمِمُ",
+            "word_normalized": "نعمم",
+            "meaning": "نُحْيِي.",
+            "meaning_normalized": "نحيي"
+          },
+          {
+            "ayah_number": 75,
+            "word": "وَنِرْبِأَدِهِ",
+            "word_normalized": "ونربأده",
+            "meaning": "أَشْرَافُ قَوْمِهِ.",
+            "meaning_normalized": "أشراف قومه"
+          },
+          {
+            "ayah_number": 78,
+            "word": "لِتَصْرِفَنَا",
+            "word_normalized": "لتصرفنا",
+            "meaning": "لِتَصْرِفَنَا.",
+            "meaning_normalized": "لتصرفنا"
+          },
+          {
+            "ayah_number": 78,
+            "word": "الْكِبْرِيَاءُ",
+            "word_normalized": "الكبرياء",
+            "meaning": "الْعَظَمَةُ، وَالسُّلْطَانُ.",
+            "meaning_normalized": "العظمة والسلطان"
+          }
+        ]
+      }
+    ]
+  }
+}

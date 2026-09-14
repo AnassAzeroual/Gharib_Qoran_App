@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 74,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ هُودٍ",
+          "name_normalized": "سورة هود",
+          "order": 11,
+          "ayat_count": 123,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 10,
+            "word": "وَعَافٍ",
+            "word_normalized": "وعاف",
+            "meaning": "أَحَاطَ بِهِمْ مِنْ كُلِّ جَانِبٍ.",
+            "meaning_normalized": "أحاط بهم من كل جانب"
+          },
+          {
+            "ayah_number": 12,
+            "word": "لَإِيُّوسُ",
+            "word_normalized": "لإيوس",
+            "meaning": "شَدِيدُ الْيَأْسِ وَالْقُنُوطِ.",
+            "meaning_normalized": "شديد اليأس والقنوط"
+          },
+          {
+            "ayah_number": 13,
+            "word": "صَرْخَةٌ",
+            "word_normalized": "صرخة",
+            "meaning": "صَيْحَةٌ وَتَكْبِيرَةٌ.",
+            "meaning_normalized": "صيحة وتكبيرة"
+          },
+          {
+            "ayah_number": 20,
+            "word": "السَّيِّئَاتُ",
+            "word_normalized": "السيئات",
+            "meaning": "الضَّيِّقُ، وَالشَّدَائِدُ.",
+            "meaning_normalized": "الضيق والشدائد"
+          },
+          {
+            "ayah_number": 22,
+            "word": "مُلُحٍ",
+            "word_normalized": "ملح",
+            "meaning": "لَيَطِرَ بِالنَّعِمِ، مَغْرُورٌ بِهَا.",
+            "meaning_normalized": "ليطر بالنعم مغرور بها"
+          },
+          {
+            "ayah_number": 24,
+            "word": "مُفَمِرٌ",
+            "word_normalized": "مفمر",
+            "meaning": "مُبَالِغٌ فِي الشَّرِّ وَالتَّغَالِي عَلَى النَّاسِ.",
+            "meaning_normalized": "مبالغ في الشر والتغالي على الناس"
+          },
+          {
+            "ayah_number": 24,
+            "word": "كَثِيرٌ",
+            "word_normalized": "كثير",
+            "meaning": "مَالٌ كَثِيرٌ.",
+            "meaning_normalized": "مال كثير"
+          },
+          {
+            "ayah_number": 26,
+            "word": "لَا يَعْصِونَ",
+            "word_normalized": "لا يعصون",
+            "meaning": "لَا يَنْقُصُونَ شَيْئًا مِنْ جَزَائِهِمُ الدُّنْيَوِيِّ.",
+            "meaning_normalized": "لا ينقصون شيئا من جزائهم الدنيوي"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَرَكْسَهُ",
+            "word_normalized": "وركسه",
+            "meaning": "ذَهَبَ نَفْعُ مَا عَمِلُوهُ.",
+            "meaning_normalized": "ذهب نفع ما عملوه"
+          },
+          {
+            "ayah_number": 27,
+            "word": "يُدِينُهُ",
+            "word_normalized": "يدينه",
+            "meaning": "يَقِينَ.",
+            "meaning_normalized": "يقين"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَبَادِيُّهُ رَأْيٌ",
+            "word_normalized": "وباديه رأي",
+            "meaning": "هُوَ جَيْرِيلُ، أَوْ نَبِيُّنَا مُحَمَّدٌ، عَلَيْهِمَا الصَّلَاةُ وَالسَّلَامُ.",
+            "meaning_normalized": "هو جيريل أو نبينا محمد عليهما الصلاة والسلام"
+          },
+          {
+            "ayah_number": 27,
+            "word": "الْأَحْزَابُ",
+            "word_normalized": "الأحزاب",
+            "meaning": "الْكُفَّارُ الَّذِينَ تَحَزَّبُوا عَلَى نَبِيِّنَا مُحَمَّدٍ ﷺ.",
+            "meaning_normalized": "الكفار الذين تحزبوا على نبينا محمد ﷺ"
+          },
+          {
+            "ayah_number": 27,
+            "word": "فَلَا تَكُ",
+            "word_normalized": "فلا تك",
+            "meaning": "فَلَا تَكُنْ.",
+            "meaning_normalized": "فلا تكن"
+          },
+          {
+            "ayah_number": 27,
+            "word": "شَرْبَةٌ",
+            "word_normalized": "شربة",
+            "meaning": "شَكٍّ.",
+            "meaning_normalized": "شك"
+          },
+          {
+            "ayah_number": 29,
+            "word": "الْأَشْهَدُ",
+            "word_normalized": "الأشهد",
+            "meaning": "الْمَلَائِكَةُ، وَالنَّبِيُّونَ، وَالْجَوَارِحُ، الَّذِينَ يَشْهَدُونَ يَوْمَ الْقِيَامَةِ.",
+            "meaning_normalized": "الملائكة والنبيون والجوارح الذين يشهدون يوم القيامة"
+          },
+          {
+            "ayah_number": 30,
+            "word": "وَزَيْدَدُوَهَا",
+            "word_normalized": "وزيددوها",
+            "meaning": "يُرِيدُونَهَا.",
+            "meaning_normalized": "يريدونها"
+          },
+          {
+            "ayah_number": 39,
+            "word": "عَرْبًا",
+            "word_normalized": "عربا",
+            "meaning": "مُعَرَّجَةٌ، مُوَافِقَةٌ لِأَهْوَائِهِمْ.",
+            "meaning_normalized": "معرجة موافقة لأهوائهم"
+          },
+          {
+            "ayah_number": 40,
+            "word": "مُنْبَتِزِينَ",
+            "word_normalized": "منبتزين",
+            "meaning": "قَائِتِينَ مِنْ عَذَابِ اللهِ بِالْهَرَبِ.",
+            "meaning_normalized": "قائتين من عذاب الله بالهرب"
+          },
+          {
+            "ayah_number": 41,
+            "word": "وَسَلٍّ",
+            "word_normalized": "وسل",
+            "meaning": "ذَهَبَ.",
+            "meaning_normalized": "ذهب"
+          }
+        ]
+      }
+    ]
+  }
+}

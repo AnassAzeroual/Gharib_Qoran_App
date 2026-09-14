@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 26,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "٢٦",
+      "left_normalized": "26"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النِّسَاءِ",
+          "name_normalized": "سورة النساء",
+          "order": 4,
+          "ayat_count": 176,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 19,
+            "word": "وَلَا تَعضُلُوهُنَّ",
+            "word_normalized": "ولا تعضلوهن",
+            "meaning": "لَا تُمسِكُوهُنَّ مُضَارِّينَ لَهُنَّ",
+            "meaning_normalized": "لا تمسكوهن مضارين لهن"
+          },
+          {
+            "ayah_number": 20,
+            "word": "وَقِنطَارًا",
+            "word_normalized": "وقنطارا",
+            "meaning": "مَالًا كَثِيرًا",
+            "meaning_normalized": "مالا كثيرا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "وَبُهتَانًا",
+            "word_normalized": "وبهتانا",
+            "meaning": "كَذِبًا، وَظُلمًا",
+            "meaning_normalized": "كذبا وظلما"
+          },
+          {
+            "ayah_number": 21,
+            "word": "وَأَفضَى",
+            "word_normalized": "وأفضى",
+            "meaning": "اِستَمتَعَ بِالجِمَاعِ",
+            "meaning_normalized": "استمتع بالجماع"
+          },
+          {
+            "ayah_number": 21,
+            "word": "وَمِيثَاقًا",
+            "word_normalized": "وميثاقا",
+            "meaning": "تَبَيَّنًا بِفَتحِ اللهِ تَاعِلَةً",
+            "meaning_normalized": "تبينا بفتح الله تاعلة"
+          },
+          {
+            "ayah_number": 22,
+            "word": "سَبِيلًا",
+            "word_normalized": "سبيلا",
+            "meaning": "طَرِيقًا",
+            "meaning_normalized": "طريقا"
+          },
+          {
+            "ayah_number": 23,
+            "word": "رَبَائِبُكُمْ",
+            "word_normalized": "ربائبكم",
+            "meaning": "بَنَاتُ نِسَائِكُمْ الْآتِي يُرَبِّينَ غَالِبًا فِي بُيُوتِكُمْ",
+            "meaning_normalized": "بنات نسائكم الآتي يربين غالبا في بيوتكم"
+          },
+          {
+            "ayah_number": 23,
+            "word": "وَحَلَائِلُ",
+            "word_normalized": "وحلائل",
+            "meaning": "زَوجَاتٌ",
+            "meaning_normalized": "زوجات"
+          },
+          {
+            "ayah_number": 24,
+            "word": "وَالمُحصَنَاتُ",
+            "word_normalized": "والمحصنات",
+            "meaning": "المُزَوَّجَاتُ",
+            "meaning_normalized": "المزوجات"
+          },
+          {
+            "ayah_number": 24,
+            "word": "وَمَا مَلَكَت أَيمَانُكُمْ",
+            "word_normalized": "وما ملكت أيمانكم",
+            "meaning": "المُسَبَّيَاتُ، وَهُنَّ المَأخُوذَاتُ مِن نِسَاءِ الكُفَّارِ فِي الجِهَادِ",
+            "meaning_normalized": "المسبيات وهن المأخوذات من نساء الكفار في الجهاد"
+          },
+          {
+            "ayah_number": 24,
+            "word": "تَبتَغُوا",
+            "word_normalized": "تبتغوا",
+            "meaning": "تَطلُبُوا",
+            "meaning_normalized": "تطلبوا"
+          },
+          {
+            "ayah_number": 24,
+            "word": "مُحصِنِينَ",
+            "word_normalized": "محصنين",
+            "meaning": "أَعِفَّاءَ عَن الحَرَامِ",
+            "meaning_normalized": "أعفاء عن الحرام"
+          },
+          {
+            "ayah_number": 24,
+            "word": "مُسَافِحِينَ",
+            "word_normalized": "مسافحين",
+            "meaning": "زَانِينَ",
+            "meaning_normalized": "زانين"
+          },
+          {
+            "ayah_number": 24,
+            "word": "أُجُورَهُنَّ",
+            "word_normalized": "أجورهن",
+            "meaning": "مُهُورَهُنَّ",
+            "meaning_normalized": "مهورهن"
+          },
+          {
+            "ayah_number": 25,
+            "word": "طَولًا",
+            "word_normalized": "طولا",
+            "meaning": "عَيشًا، وَسَعَةً",
+            "meaning_normalized": "عيشا وسعة"
+          },
+          {
+            "ayah_number": 26,
+            "word": "المُحصَنَاتِ",
+            "word_normalized": "المحصنات",
+            "meaning": "الحَرَائِرِ",
+            "meaning_normalized": "الحرائر"
+          },
+          {
+            "ayah_number": 27,
+            "word": "يَترَبَّصُكُمْ",
+            "word_normalized": "يتربصكم",
+            "meaning": "إِمَائِكُمْ",
+            "meaning_normalized": "إمائكم"
+          },
+          {
+            "ayah_number": 28,
+            "word": "مُحصَنَاتٍ",
+            "word_normalized": "محصنات",
+            "meaning": "عَفِيفَاتٍ",
+            "meaning_normalized": "عفيفات"
+          },
+          {
+            "ayah_number": 29,
+            "word": "المُتَّخِذَاتِ أَخدَانٍ",
+            "word_normalized": "المتخذات أخدان",
+            "meaning": "فَصَّاحِبَاتُ أَصدِقَاءَ لِلزِّنَى سِرًّا",
+            "meaning_normalized": "فصاحبات أصدقاء للزنى سرا"
+          }
+        ]
+      }
+    ]
+  }
+}

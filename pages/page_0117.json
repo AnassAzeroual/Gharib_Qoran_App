@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 117,
+    "header": {
+      "right": "سُورَةُ مَريَمَ",
+      "right_normalized": "سورة مريم",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ مَريَمَ",
+          "name_normalized": "سورة مريم",
+          "order": 19,
+          "ayat_count": 98,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 17,
+            "word": "سَوِيًّا",
+            "word_normalized": "سويا",
+            "meaning": "تَامَّ الْخَلْقِ.",
+            "meaning_normalized": "تام الخلق"
+          },
+          {
+            "ayah_number": 19,
+            "word": "زَكِيًّا",
+            "word_normalized": "زكيا",
+            "meaning": "طَاهِرًا مِنَ الذُّنُوبِ مُبَارَكًا.",
+            "meaning_normalized": "طاهرا من الذنوب مباركا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "بَغِيًّا",
+            "word_normalized": "بغيا",
+            "meaning": "زَانِيَةً.",
+            "meaning_normalized": "زانية"
+          },
+          {
+            "ayah_number": 23,
+            "word": "فَأَجَآءَهَا",
+            "word_normalized": "فأجاءها",
+            "meaning": "فَأَلْجَأَهَا طَلْقُ الْحَمْلِ.",
+            "meaning_normalized": "فألجأها طلق الحمل"
+          },
+          {
+            "ayah_number": 23,
+            "word": "ٱلْمَخَاضُ",
+            "word_normalized": "المخاض",
+            "meaning": "الْحَمْلُ.",
+            "meaning_normalized": "الحمل"
+          },
+          {
+            "ayah_number": 24,
+            "word": "سَرِيًّا",
+            "word_normalized": "سريا",
+            "meaning": "جَدْوَلَ مَاءٍ.",
+            "meaning_normalized": "جدول ماء"
+          },
+          {
+            "ayah_number": 25,
+            "word": "جَنِيًّا",
+            "word_normalized": "جنيا",
+            "meaning": "غَضًّا جُنِيَ مِنْ سَاعَتِهِ.",
+            "meaning_normalized": "غضا جني من ساعته"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَقَرِّي عَيْنًا",
+            "word_normalized": "وقري عينا",
+            "meaning": "وَطِيبِي نَفْسًا.",
+            "meaning_normalized": "وطيبي نفسا"
+          },
+          {
+            "ayah_number": 27,
+            "word": "فَرِيًّا",
+            "word_normalized": "فريا",
+            "meaning": "أَمْرًا عَظِيمًا مُفْتَرًى.",
+            "meaning_normalized": "أمرا عظيما مفترى"
+          },
+          {
+            "ayah_number": 28,
+            "word": "بَغِيًّا",
+            "word_normalized": "بغيا",
+            "meaning": "زَانِيَةً.",
+            "meaning_normalized": "زانية"
+          },
+          {
+            "ayah_number": 31,
+            "word": "مُبَارَكًا",
+            "word_normalized": "مباركا",
+            "meaning": "عَظِيمَ الْخَيْرِ وَالنَّفْعِ.",
+            "meaning_normalized": "عظيم الخير والنفع"
+          },
+          {
+            "ayah_number": 34,
+            "word": "يَمْتَرُونَ",
+            "word_normalized": "يمترون",
+            "meaning": "يَشُكُّونَ.",
+            "meaning_normalized": "يشكون"
+          },
+          {
+            "ayah_number": 37,
+            "word": "ٱلْأَحْزَابُ",
+            "word_normalized": "الأحزاب",
+            "meaning": "الْفِرَقُ مِنْ أَهْلِ الْكِتَابِ.",
+            "meaning_normalized": "الفرق من أهل الكتاب"
+          },
+          {
+            "ayah_number": 37,
+            "word": "فَوَيْلٌ",
+            "word_normalized": "فويل",
+            "meaning": "فَهَلَاكٌ.",
+            "meaning_normalized": "فهلاك"
+          },
+          {
+            "ayah_number": 37,
+            "word": "مَشْهَدِ",
+            "word_normalized": "مشهد",
+            "meaning": "شُهُودِ.",
+            "meaning_normalized": "شهود"
+          },
+          {
+            "ayah_number": 38,
+            "word": "أَسْمِعْ بِهِمْ وَأَبْصِرْ",
+            "word_normalized": "أسمع بهم وأبصر",
+            "meaning": "مَا أَشَدَّ سَمْعَهُمْ وَبَصَرَهُمْ.",
+            "meaning_normalized": "ما أشد سمعهم وبصرهم"
+          },
+          {
+            "ayah_number": 39,
+            "word": "ٱلْحَسْرَةِ",
+            "word_normalized": "الحسرة",
+            "meaning": "النَّدَامَةِ.",
+            "meaning_normalized": "الندامة"
+          },
+          {
+            "ayah_number": 41,
+            "word": "صِدِّيقًا",
+            "word_normalized": "صديقا",
+            "meaning": "عَظِيمَ الصِّدْقِ لَا يَكْذِبُ.",
+            "meaning_normalized": "عظيم الصدق لا يكذب"
+          },
+          {
+            "ayah_number": 43,
+            "word": "صِرَٰطًا سَوِيًّا",
+            "word_normalized": "صراطا سويا",
+            "meaning": "طَرِيقًا لَا عِوَجَ فِيهِ.",
+            "meaning_normalized": "طريقا لا عوج فيه"
+          },
+          {
+            "ayah_number": 45,
+            "word": "وَلِيًّا",
+            "word_normalized": "وليا",
+            "meaning": "قَرِينًا فِي النَّارِ.",
+            "meaning_normalized": "قرينا في النار"
+          },
+          {
+            "ayah_number": 46,
+            "word": "مَلِيًّا",
+            "word_normalized": "مليا",
+            "meaning": "زَمَنًا طَوِيلًا.",
+            "meaning_normalized": "زمنا طويلا"
+          }
+        ]
+      }
+    ]
+  }
+}

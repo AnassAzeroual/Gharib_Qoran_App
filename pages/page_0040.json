@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 40,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "٤٠",
+      "left_normalized": "40"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الأَنعَامِ",
+          "name_normalized": "سورة الأنعام",
+          "order": 6,
+          "ayat_count": 165,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "word": "تَسِرُّونَ",
+            "word_normalized": "تسرون",
+            "meaning": "تُخفُونَ",
+            "meaning_normalized": "تخفون"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَهُمُ اللهِ",
+            "word_normalized": "وهم الله",
+            "meaning": "الإِلَهُ المَعبُودُ بِحَقٍّ",
+            "meaning_normalized": "الإله المعبود بحق"
+          },
+          {
+            "ayah_number": 6,
+            "word": "قُرُونٍ",
+            "word_normalized": "قرون",
+            "meaning": "أُمَمٌ مِن النَّاسِ",
+            "meaning_normalized": "أمم من الناس"
+          },
+          {
+            "ayah_number": 7,
+            "word": "مُندَرَاسًا",
+            "word_normalized": "مندراسا",
+            "meaning": "عَتِيقًا",
+            "meaning_normalized": "عتيقا"
+          },
+          {
+            "ayah_number": 8,
+            "word": "وَلَا يُنظَرُونَ",
+            "word_normalized": "ولا ينظرون",
+            "meaning": "لَا يُمهَلُونَ",
+            "meaning_normalized": "لا يمهلون"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَلَلَبَسنَا",
+            "word_normalized": "وللبسنا",
+            "meaning": "لَخَلَطنَا حَتَّى يَشتَبِهَ عَلَيهِمُ الأَمرُ",
+            "meaning_normalized": "لخلطنا حتى يشتبه عليهم الأمر"
+          },
+          {
+            "ayah_number": 10,
+            "word": "بِمَكَانَة",
+            "word_normalized": "بمكانة",
+            "meaning": "أَحَاطَ وَنَزَلَ",
+            "meaning_normalized": "أحاط ونزل"
+          },
+          {
+            "ayah_number": 17,
+            "word": "يَمسَسكَ",
+            "word_normalized": "يمسسك",
+            "meaning": "يُصِبكَ",
+            "meaning_normalized": "يصبك"
+          },
+          {
+            "ayah_number": 23,
+            "word": "فِتنَتُهُمْ",
+            "word_normalized": "فتنتهم",
+            "meaning": "احتِجَاجُهُمْ",
+            "meaning_normalized": "احتجاجهم"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وَأَكِنَّةً",
+            "word_normalized": "وأكنة",
+            "meaning": "أَغطِيَةً",
+            "meaning_normalized": "أغطية"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وِزرًا",
+            "word_normalized": "وزرا",
+            "meaning": "ثِقَلًا وَصَمَمًا",
+            "meaning_normalized": "ثقلا وصمما"
+          },
+          {
+            "ayah_number": 25,
+            "word": "أَسَاطِيرُ الأَوَّلِينَ",
+            "word_normalized": "أساطير الأولين",
+            "meaning": "حِكَايَاتُهُمُ الَّتِي لَا حَقِيقَةَ لَهَا",
+            "meaning_normalized": "حكاياتهم التي لا حقيقة لها"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَيَنهَوَّنَ",
+            "word_normalized": "وينهون",
+            "meaning": "يَتَبَاعَدُونَ",
+            "meaning_normalized": "يتباعدون"
+          },
+          {
+            "ayah_number": 31,
+            "word": "كُبرَ",
+            "word_normalized": "كبر",
+            "meaning": "عَظُمَ",
+            "meaning_normalized": "عظم"
+          },
+          {
+            "ayah_number": 37,
+            "word": "مَا قَرَّطنَا",
+            "word_normalized": "ما قرطنا",
+            "meaning": "مَا تَرَكنَا",
+            "meaning_normalized": "ما تركنا"
+          },
+          {
+            "ayah_number": 39,
+            "word": "صُمُّ",
+            "word_normalized": "صم",
+            "meaning": "الَّذِينَ لَا يَسمَعُونَ",
+            "meaning_normalized": "الذين لا يسمعون"
+          },
+          {
+            "ayah_number": 39,
+            "word": "وَبُكمٌ",
+            "word_normalized": "وبكم",
+            "meaning": "الَّذِينَ لَا يَتَكَلَّمُونَ",
+            "meaning_normalized": "الذين لا يتكلمون"
+          },
+          {
+            "ayah_number": 40,
+            "word": "أَو يَأتِيَكُمْ",
+            "word_normalized": "أو يأتيكم",
+            "meaning": "أَتُخبِرُونِي",
+            "meaning_normalized": "أتخبروني"
+          },
+          {
+            "ayah_number": 44,
+            "word": "بَابِالأَسَفُ",
+            "word_normalized": "بابالأسف",
+            "meaning": "الغَفلَةُ",
+            "meaning_normalized": "الغفلة"
+          },
+          {
+            "ayah_number": 44,
+            "word": "وَالقَترَةُ",
+            "word_normalized": "والقترة",
+            "meaning": "المَصِرَضُ",
+            "meaning_normalized": "المصرض"
+          },
+          {
+            "ayah_number": 44,
+            "word": "يَئسُونَ",
+            "word_normalized": "يئسون",
+            "meaning": "أَيسَرُونَ، مُنقَطِعُونَ مِن كُلِّ خَيرٍ",
+            "meaning_normalized": "أيسرون منقطعون من كل خير"
+          }
+        ]
+      }
+    ]
+  }
+}

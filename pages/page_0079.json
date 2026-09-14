@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 79,
+    "header": {
+      "right": "سُورَةُ هُودٍ",
+      "right_normalized": "سورة هود",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ هُودٍ",
+          "name_normalized": "سورة هود",
+          "order": 11,
+          "ayat_count": 123,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 86,
+            "word": "تَعَقِّيَلُ",
+            "word_normalized": "تعقيل",
+            "meaning": "رَقِيبٌ أَحْصِي أَعْمَالَكُمْ.",
+            "meaning_normalized": "رقيب أحصي أعمالكم"
+          },
+          {
+            "ayah_number": 88,
+            "word": "أَاثُوبُ",
+            "word_normalized": "ااثوب",
+            "meaning": "أَرْجِعُ بِالتَّوْبَةِ، وَالطَّاعَةِ.",
+            "meaning_normalized": "أرجع بالتوبة والطاعة"
+          },
+          {
+            "ayah_number": 86,
+            "word": "لَا يُرِدُكُمْ",
+            "word_normalized": "لا يردكم",
+            "meaning": "لَا يَحْمِلُكُمْ.",
+            "meaning_normalized": "لا يحملكم"
+          },
+          {
+            "ayah_number": 87,
+            "word": "شِقَاقٍ",
+            "word_normalized": "شقاق",
+            "meaning": "عَذَابِي.",
+            "meaning_normalized": "عذابي"
+          },
+          {
+            "ayah_number": 87,
+            "word": "شَعِيبًا",
+            "word_normalized": "شعيبا",
+            "meaning": "لَسْتَ مِنَ الْكُبَرَاءِ، وَلَا الرُّؤَسَاءِ.",
+            "meaning_normalized": "لست من الكبراء ولا الرؤساء"
+          },
+          {
+            "ayah_number": 91,
+            "word": "وَزَهُطَّكَ",
+            "word_normalized": "وزهطك",
+            "meaning": "عَشِيرَتَكَ.",
+            "meaning_normalized": "عشيرتك"
+          },
+          {
+            "ayah_number": 91,
+            "word": "وَفِي زِيرِي",
+            "word_normalized": "وفي زيري",
+            "meaning": "بِصَاحِبِ قَدْرٍ وَمَنْزِلَةٍ.",
+            "meaning_normalized": "بصاحب قدر ومنزلة"
+          },
+          {
+            "ayah_number": 93,
+            "word": "وَفَأَوَّاكُمْ تَالَرًا",
+            "word_normalized": "وفأواكم تالرا",
+            "meaning": "مَتَّدَوَا كَيَّا خَلْفَ ظُهُورِكُمْ.",
+            "meaning_normalized": "متدوا كيا خلف ظهوركم"
+          },
+          {
+            "ayah_number": 94,
+            "word": "فَمَا كَابِكُمْ",
+            "word_normalized": "فما كابكم",
+            "meaning": "طَرِيقَتِكُمْ وَحَالِكُمْ.",
+            "meaning_normalized": "طريقتكم وحالكم"
+          },
+          {
+            "ayah_number": 95,
+            "word": "حُبْدِيدُونَ",
+            "word_normalized": "حبديدون",
+            "meaning": "بَارِكِينَ عَلَى رُكُوبِهِمْ مُعَيَّنٍ.",
+            "meaning_normalized": "باركين على ركوبهم معين"
+          },
+          {
+            "ayah_number": 96,
+            "word": "فَأَنَ يَنِمُوا",
+            "word_normalized": "فأن ينموا",
+            "meaning": "لَمْ يَنْتَفِعُوا.",
+            "meaning_normalized": "لم ينتفعوا"
+          },
+          {
+            "ayah_number": 96,
+            "word": "بَعِيدًا",
+            "word_normalized": "بعيدا",
+            "meaning": "هَلَاكًا، وَإِبْعَادًا.",
+            "meaning_normalized": "هلاكا وإبعادا"
+          },
+          {
+            "ayah_number": 96,
+            "word": "وَتَسَلُطَنِي تَدِينُ",
+            "word_normalized": "وتسلطني تدين",
+            "meaning": "مُعْمِلًا تُظْهِرُ لَبْسَ عَابَّتُهَا.",
+            "meaning_normalized": "معملا تظهر لبس عابتها"
+          },
+          {
+            "ayah_number": 97,
+            "word": "فَتَارَدَدُّهُمْ",
+            "word_normalized": "فتارددهم",
+            "meaning": "فَأَدْخَلَهُمْ.",
+            "meaning_normalized": "فأدخلهم"
+          },
+          {
+            "ayah_number": 98,
+            "word": "الْوِرْدَةُ",
+            "word_normalized": "الوردة",
+            "meaning": "الْمَدْخَلُ.",
+            "meaning_normalized": "المدخل"
+          },
+          {
+            "ayah_number": 98,
+            "word": "الْمَوْرُودُ",
+            "word_normalized": "الموروث",
+            "meaning": "الْمَدْخُولُ فِيهِ، وَهُوَ هُنَا النَّارُ.",
+            "meaning_normalized": "المدخول فيه وهو هنا النار"
+          },
+          {
+            "ayah_number": 99,
+            "word": "الْأَزْلُ",
+            "word_normalized": "الأزل",
+            "meaning": "الْغَزِرُ، وَالْعَطَاءُ.",
+            "meaning_normalized": "الغزر والعطاء"
+          },
+          {
+            "ayah_number": 99,
+            "word": "الْمَرْفُودُ",
+            "word_normalized": "المرفود",
+            "meaning": "الْمُعْطَى لَهُمْ.",
+            "meaning_normalized": "المعطى لهم"
+          },
+          {
+            "ayah_number": 101,
+            "word": "قَابِيَةٌ",
+            "word_normalized": "قابية",
+            "meaning": "آلِهَةٌ بَاقِيَةٌ كَمَدَافِقِ صَالِحٌ.",
+            "meaning_normalized": "آلهة باقية كمدافق صالح"
+          },
+          {
+            "ayah_number": 101,
+            "word": "وَحَصِيدَةٍ",
+            "word_normalized": "وحصيدة",
+            "meaning": "مَحْصُودٌ قَدْ مَجِيئَتْ آثَارُهُ، وَلَمْ يَبْقَ مِنْهُ شَيْءٌ.",
+            "meaning_normalized": "محصود قد مجيئت آثاره ولم يبق منه شيء"
+          }
+        ]
+      }
+    ]
+  }
+}

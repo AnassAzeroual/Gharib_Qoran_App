@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 76,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ هُودٍ",
+          "name_normalized": "سورة هود",
+          "order": 11,
+          "ayat_count": 123,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 59,
+            "word": "وَاسْتَكْبَرُونَ",
+            "word_normalized": "واستكبرون",
+            "meaning": "رَسَتْ.",
+            "meaning_normalized": "رست"
+          },
+          {
+            "ayah_number": 60,
+            "word": "الْمَوْرُودُ",
+            "word_normalized": "الموروثي",
+            "meaning": "اسْمُ جَبَلٍ.",
+            "meaning_normalized": "اسم جبل"
+          },
+          {
+            "ayah_number": 61,
+            "word": "هَدَاكَا",
+            "word_normalized": "هداكا",
+            "meaning": "قَلَاكُمْ.",
+            "meaning_normalized": "قلاكم"
+          },
+          {
+            "ayah_number": 61,
+            "word": "فَأَعْطِيكُمْ أَوْ نَكْذِبُونَ",
+            "word_normalized": "فأعطيكم أو نكذبون",
+            "meaning": "أَعْطَاكَ لَقَبًا نَكُونُ.",
+            "meaning_normalized": "أعطاك لقبا نكون"
+          },
+          {
+            "ayah_number": 67,
+            "word": "وَأَعُوذُ بِكَ",
+            "word_normalized": "وأعوذ بك",
+            "meaning": "أَسْتَجِيرُ بِكَ.",
+            "meaning_normalized": "أستجير بك"
+          },
+          {
+            "ayah_number": 68,
+            "word": "مُدَبِّرُونَ",
+            "word_normalized": "مدبرون",
+            "meaning": "كَاذِبُونَ.",
+            "meaning_normalized": "كاذبون"
+          },
+          {
+            "ayah_number": 69,
+            "word": "مُدْبَارًا",
+            "word_normalized": "مدبارا",
+            "meaning": "مُتَبَابِعًا، كَثِيرًا!",
+            "meaning_normalized": "متبابعا كثيرا"
+          },
+          {
+            "ayah_number": 63,
+            "word": "مَنْ قَوْلِكَ",
+            "word_normalized": "من قولك",
+            "meaning": "مِنْ أَجْلِ قَوْلِكَ.",
+            "meaning_normalized": "من أجل قولك"
+          },
+          {
+            "ayah_number": 63,
+            "word": "فَأَعْتَدُّكَ",
+            "word_normalized": "فأعتدك",
+            "meaning": "أَصَابَكَ.",
+            "meaning_normalized": "أصابك"
+          },
+          {
+            "ayah_number": 65,
+            "word": "يَسْوُؤُ",
+            "word_normalized": "يسوؤ",
+            "meaning": "يُخَوِّنُونَ.",
+            "meaning_normalized": "يخونون"
+          },
+          {
+            "ayah_number": 65,
+            "word": "فَكِيدُونِ",
+            "word_normalized": "فكيدون",
+            "meaning": "فَاجْتَهِدُوا فِي إِيصَالِ الضُّرِّ إِلَيَّ.",
+            "meaning_normalized": "فاجتهدوا في إيصال الضر إلي"
+          },
+          {
+            "ayah_number": 65,
+            "word": "فُمَّ لَا تُنْظِرُونَ",
+            "word_normalized": "فم لا تنظرون",
+            "meaning": "لَا تُمْهِلُونِي.",
+            "meaning_normalized": "لا تمهلوني"
+          },
+          {
+            "ayah_number": 66,
+            "word": "وَاعِدَةٌ يَاسَيْئًا",
+            "word_normalized": "واعدة ياسيئا",
+            "meaning": "مَالِكُهَا، وَالْمُتَصَرِّفُ فِيهَا.",
+            "meaning_normalized": "مالكها والمتصرف فيها"
+          },
+          {
+            "ayah_number": 67,
+            "word": "وَتَسْتَخْلِفُ",
+            "word_normalized": "وتستخلف",
+            "meaning": "يَأْتِي بِقَوْمٍ آخَرِينَ يَخْلُفُونَكُمْ فِي دِيَارِكُمْ.",
+            "meaning_normalized": "يأتي بقوم آخرين يخلفونكم في دياركم"
+          },
+          {
+            "ayah_number": 68,
+            "word": "حَفِيظٌ",
+            "word_normalized": "حفيظ",
+            "meaning": "يَحْفَظُ مِنْ كُلِّ سُوءٍ.",
+            "meaning_normalized": "يحفظ من كل سوء"
+          },
+          {
+            "ayah_number": 68,
+            "word": "عَلِيُّا",
+            "word_normalized": "عليها",
+            "meaning": "شَدِيدٌ.",
+            "meaning_normalized": "شديد"
+          },
+          {
+            "ayah_number": 69,
+            "word": "جَابٍ",
+            "word_normalized": "جاب",
+            "meaning": "مُسْتَكْبِرٌ.",
+            "meaning_normalized": "مستكبر"
+          },
+          {
+            "ayah_number": 69,
+            "word": "عَنِيدٍ",
+            "word_normalized": "عنيد",
+            "meaning": "لَا يَقْبَلُ الْحَقَّ.",
+            "meaning_normalized": "لا يقبل الحق"
+          },
+          {
+            "ayah_number": 70,
+            "word": "أَنْكَرَهُمْ",
+            "word_normalized": "أنكرهم",
+            "meaning": "ابْتَدَأَ عَلَيْكُمْ.",
+            "meaning_normalized": "ابتدأ عليكم"
+          },
+          {
+            "ayah_number": 70,
+            "word": "وَاسْتَعْمَرَكُمْ فِيهَا",
+            "word_normalized": "واستعمركم فيها",
+            "meaning": "جَعَلَكُمْ عُمَّارًا لَهَا.",
+            "meaning_normalized": "جعلكم عمارا لها"
+          },
+          {
+            "ayah_number": 72,
+            "word": "كَانَتْ بِيَتًا مَرْبُوءًا",
+            "word_normalized": "كانت بيتا مربوءا",
+            "meaning": "مِمَّا تَرْجُو أَنْ يَكُونَ سَعِيدًا.",
+            "meaning_normalized": "مما ترجو أن يكون سعيدا"
+          }
+        ]
+      }
+    ]
+  }
+}

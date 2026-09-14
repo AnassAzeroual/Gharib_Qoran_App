@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 70,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يُونُسَ",
+          "name_normalized": "سورة يونس",
+          "order": 10,
+          "ayat_count": 109,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 24,
+            "word": "وَلَمْ تَكُنْ بِالْأَمْسِ",
+            "word_normalized": "ولم تكن بالأمس",
+            "meaning": "لَمْ تَكُنْ قَائِمَةً بِالْأَمْسِ.",
+            "meaning_normalized": "لم تكن قائمة بالأمس"
+          },
+          {
+            "ayah_number": 25,
+            "word": "دَارَ السَّلَامِ",
+            "word_normalized": "دار السلام",
+            "meaning": "الْجَنَّةَ.",
+            "meaning_normalized": "الجنة"
+          },
+          {
+            "ayah_number": 26,
+            "word": "الْحُسْنَى",
+            "word_normalized": "الحسنى",
+            "meaning": "الْجَنَّةَ.",
+            "meaning_normalized": "الجنة"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَزِيَادَةٌ",
+            "word_normalized": "وزيادة",
+            "meaning": "زَائِدَةٌ عَلَى الْجَنَّةِ وَهِيَ: النَّظَرُ إِلَى وَجْهِ اللهِ الْكَرِيمِ.",
+            "meaning_normalized": "زائدة على الجنة وهي النظر إلى وجه الله الكريم"
+          },
+          {
+            "ayah_number": 26,
+            "word": "قَزَمَهُ",
+            "word_normalized": "قزمه",
+            "meaning": "بِعْضَى.",
+            "meaning_normalized": "بعضى"
+          },
+          {
+            "ayah_number": 26,
+            "word": "قَتَرٌ",
+            "word_normalized": "قتر",
+            "meaning": "خُتَّارٌ.",
+            "meaning_normalized": "ختار"
+          },
+          {
+            "ayah_number": 27,
+            "word": "عَاصِيَةً",
+            "word_normalized": "عاصية",
+            "meaning": "مَانِعٌ يَمْنَعُ عَذَابَ اللهِ.",
+            "meaning_normalized": "مانع يمنع عذاب الله"
+          },
+          {
+            "ayah_number": 27,
+            "word": "أَلْمَبَتْ",
+            "word_normalized": "ألمبت",
+            "meaning": "أَلْبَتَتْ.",
+            "meaning_normalized": "ألبتت"
+          },
+          {
+            "ayah_number": 28,
+            "word": "مَكَانَكُمْ",
+            "word_normalized": "مكانكم",
+            "meaning": "الْنَزُورُ مَكَانَكُمْ.",
+            "meaning_normalized": "النزور مكانكم"
+          },
+          {
+            "ayah_number": 28,
+            "word": "وَرَرَّئْنَا",
+            "word_normalized": "وررئنا",
+            "meaning": "فَرَّقْنَا.",
+            "meaning_normalized": "فرقنا"
+          },
+          {
+            "ayah_number": 29,
+            "word": "تَيْلُوا",
+            "word_normalized": "تيلوا",
+            "meaning": "تَمَابَرُ، وَتَتَفَكَّدُ.",
+            "meaning_normalized": "تمابر وتتفكد"
+          },
+          {
+            "ayah_number": 29,
+            "word": "الْحَيُّ",
+            "word_normalized": "الحي",
+            "meaning": "اللهُ الَّذِي لَا رَيْبَ فِي رُبُوبِيَّتِهِ وَالُوهِيَّتِهِ.",
+            "meaning_normalized": "الله الذي لا ريب في ربوبيته والوهيته"
+          },
+          {
+            "ayah_number": 34,
+            "word": "حَقَّتْ",
+            "word_normalized": "حقت",
+            "meaning": "نَجَبَتْ، وَوَجَبَتْ.",
+            "meaning_normalized": "نجبت ووجبت"
+          },
+          {
+            "ayah_number": 34,
+            "word": "فَأَنَّى تُصْرَفُونَ",
+            "word_normalized": "فأنى تصرفون",
+            "meaning": "فَكَيْفَ تُصْرَفُونَ؟!",
+            "meaning_normalized": "فكيف تصرفون"
+          },
+          {
+            "ayah_number": 35,
+            "word": "لَا يَهْدِي",
+            "word_normalized": "لا يهدي",
+            "meaning": "لَا يَهْتَدِي.",
+            "meaning_normalized": "لا يهتدي"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَلَكِنَّ أَكْثَرَهُمْ تَأْوِيلُهُ",
+            "word_normalized": "ولكن أكثرهم تأويله",
+            "meaning": "وَلَمْ يَأْتِهِمْ بَعْدَ حَقِيقَةَ مَا وُعِدُوا بِهِ فِي الْكِتَابِ.",
+            "meaning_normalized": "ولم يأتهم بعد حقيقة ما وعدوا به في الكتاب"
+          },
+          {
+            "ayah_number": 39,
+            "word": "يَنْظُرُ إِلَيْكَ",
+            "word_normalized": "ينظر إليك",
+            "meaning": "يَنْصُرُّكَ، وَيُعَايِنُ أَدِلَّةَ نُبُوَّتِكَ الصَّادِقَةِ.",
+            "meaning_normalized": "ينصرك ويعاين أدلة نبوتك الصادقة"
+          },
+          {
+            "ayah_number": 51,
+            "word": "وَأَوْ يُسْبِهِمْ",
+            "word_normalized": "وأو يسبهم",
+            "meaning": "أَخْبِرُونِي.",
+            "meaning_normalized": "أخبروني"
+          },
+          {
+            "ayah_number": 53,
+            "word": "يَسْتَنِيَا",
+            "word_normalized": "يستنيا",
+            "meaning": "تُبَلَانَ.",
+            "meaning_normalized": "تبلان"
+          }
+        ]
+      }
+    ]
+  }
+}

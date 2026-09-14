@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 17,
+    "header": {
+      "right": "سُورَةُ الْبَقَرَةِ",
+      "right_normalized": "سورة البقرة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَقَرَةِ",
+          "name_normalized": "سورة البقرة",
+          "order": 2,
+          "ayat_count": 286,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 247,
+            "word": "بَسطَةً",
+            "word_normalized": "بسطة",
+            "meaning": "سَعَةً",
+            "meaning_normalized": "سعة"
+          },
+          {
+            "ayah_number": 248,
+            "word": "التَّابُوتُ",
+            "word_normalized": "التابوت",
+            "meaning": "الصُّندُوقُ الَّذِي فِيهِ التَّورَاةُ",
+            "meaning_normalized": "الصندوق الذي فيه التوراة"
+          },
+          {
+            "ayah_number": 249,
+            "word": "يَطعَنُونَ",
+            "word_normalized": "يطعنون",
+            "meaning": "يُوقِنُونَ",
+            "meaning_normalized": "يوقنون"
+          },
+          {
+            "ayah_number": 253,
+            "word": "وَأَيَّدنَاهُ",
+            "word_normalized": "وأيدناه",
+            "meaning": "قَوَّينَاهُ",
+            "meaning_normalized": "قويناه"
+          },
+          {
+            "ayah_number": 253,
+            "word": "بِرُوحِ الْقُدُسِ",
+            "word_normalized": "بروح القدس",
+            "meaning": "جِبرِيلُ عَلَيهِ السَّلَامُ",
+            "meaning_normalized": "جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 254,
+            "word": "خُلَّةٌ",
+            "word_normalized": "خلة",
+            "meaning": "صَدَاقَةٌ",
+            "meaning_normalized": "صداقة"
+          },
+          {
+            "ayah_number": 255,
+            "word": "الْقَيُّومُ",
+            "word_normalized": "القيوم",
+            "meaning": "الْقَائِمُ عَلَى كُلِّ شَيءٍ",
+            "meaning_normalized": "القائم على كل شيء"
+          },
+          {
+            "ayah_number": 255,
+            "word": "سِنَةٌ",
+            "word_normalized": "سنة",
+            "meaning": "نُعَاسٌ",
+            "meaning_normalized": "نعاس"
+          },
+          {
+            "ayah_number": 255,
+            "word": "كُرسِيُّهُ",
+            "word_normalized": "كرسيه",
+            "meaning": "مَوضِعُ قَدَمَي الرَّبِّ سُبحَانَهُ",
+            "meaning_normalized": "موضع قدمي الرب سبحانه"
+          },
+          {
+            "ayah_number": 255,
+            "word": "يَئُودُهُ",
+            "word_normalized": "يئوده",
+            "meaning": "يُثقِلُهُ",
+            "meaning_normalized": "يثقله"
+          },
+          {
+            "ayah_number": 256,
+            "word": "بِالطَّاغُوتِ",
+            "word_normalized": "بالطاغوت",
+            "meaning": "كُلُّ مَا عُبِدَ مِن دُونِ اللهِ",
+            "meaning_normalized": "كل ما عبد من دون الله"
+          },
+          {
+            "ayah_number": 256,
+            "word": "بِالعُروَةِ الْوُثقَى",
+            "word_normalized": "بالعروة الوثقى",
+            "meaning": "بِالعَقدِ الْمُحكَمِ",
+            "meaning_normalized": "بالعقد المحكم"
+          },
+          {
+            "ayah_number": 258,
+            "word": "فَبُهِتَ",
+            "word_normalized": "فبهت",
+            "meaning": "تَحَيَّرَ، وَانقَطَعَت حُجَّتُهُ",
+            "meaning_normalized": "تحير وانقطعت حجته"
+          },
+          {
+            "ayah_number": 259,
+            "word": "خَاوِيَةٌ",
+            "word_normalized": "خاوية",
+            "meaning": "مُتَهَدِّمَةٌ",
+            "meaning_normalized": "متهدمة"
+          },
+          {
+            "ayah_number": 259,
+            "word": "عُرُوشِهَا",
+            "word_normalized": "عروشها",
+            "meaning": "سُقُوفِهَا",
+            "meaning_normalized": "سقوفها"
+          },
+          {
+            "ayah_number": 259,
+            "word": "أَنَّى",
+            "word_normalized": "أنى",
+            "meaning": "كَيفَ؟",
+            "meaning_normalized": "كيف"
+          },
+          {
+            "ayah_number": 259,
+            "word": "يَتَسَنَّهُ",
+            "word_normalized": "يتسنه",
+            "meaning": "يَتَغَيَّرُ",
+            "meaning_normalized": "يتغير"
+          },
+          {
+            "ayah_number": 259,
+            "word": "نُنشِزُهَا",
+            "word_normalized": "ننشزها",
+            "meaning": "نَرفَعُهَا، وَنَصِلُ بَعضَهَا بِبَعضٍ",
+            "meaning_normalized": "نرفعها ونصل بعضها ببعض"
+          },
+          {
+            "ayah_number": 260,
+            "word": "فَصُرهُنَّ إِلَيكَ",
+            "word_normalized": "فصرهن إليك",
+            "meaning": "اضمُمهُنَّ إِلَيكَ، وَقَطِّعهُنَّ",
+            "meaning_normalized": "اضممهن إليك وقطعهن"
+          },
+          {
+            "ayah_number": 261,
+            "word": "مَنًّا",
+            "word_normalized": "منا",
+            "meaning": "عَدًّا لِلإِحسَانِ، وَإِظهَارًا لَهُ",
+            "meaning_normalized": "عدا للإحسان وإظهارا له"
+          },
+          {
+            "ayah_number": 264,
+            "word": "صَفوَانٍ",
+            "word_normalized": "صفوان",
+            "meaning": "حَجَرٌ أَملَسُ",
+            "meaning_normalized": "حجر أملس"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 123,
+    "header": {
+      "right": "سُورَةُ طه",
+      "right_normalized": "سورة طه",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ طه",
+          "name_normalized": "سورة طه",
+          "order": 20,
+          "ayat_count": 135,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 77,
+            "word": "دَرَكًا",
+            "word_normalized": "دركا",
+            "meaning": "إِدْرَاكًا.",
+            "meaning_normalized": "إدراكا"
+          },
+          {
+            "ayah_number": 78,
+            "word": "فَغَشِيَهُم",
+            "word_normalized": "فغشيهم",
+            "meaning": "فَغَمَرَهُمْ، وَغَطَّاهُمْ.",
+            "meaning_normalized": "فغمرهم وغطاهم"
+          },
+          {
+            "ayah_number": 78,
+            "word": "ٱلْيَمِّ",
+            "word_normalized": "اليم",
+            "meaning": "الْبَحْرِ.",
+            "meaning_normalized": "البحر"
+          },
+          {
+            "ayah_number": 80,
+            "word": "جَانِبَ ٱلطُّورِ",
+            "word_normalized": "جانب الطور",
+            "meaning": "جَانِبَ جَبَلِ الطُّورِ.",
+            "meaning_normalized": "جانب جبل الطور"
+          },
+          {
+            "ayah_number": 80,
+            "word": "ٱلْمَنَّ",
+            "word_normalized": "المن",
+            "meaning": "طَعَامًا؛ كَالْعَسَلِ.",
+            "meaning_normalized": "طعاما كالعسل"
+          },
+          {
+            "ayah_number": 80,
+            "word": "وَٱلسَّلْوَىٰ",
+            "word_normalized": "والسلوى",
+            "meaning": "طَيْرًا؛ كَالسُّمَانَى.",
+            "meaning_normalized": "طيرا كالسمانى"
+          },
+          {
+            "ayah_number": 81,
+            "word": "وَلَا تَطْغَوْاْ فِيهِ",
+            "word_normalized": "ولا تطغوا فيه",
+            "meaning": "لَا تَعْتَدُوا بِأَنْ يَظْلِمَ بَعْضُكُمْ بَعْضًا.",
+            "meaning_normalized": "لا تعتدوا بأن يظلم بعضكم بعضا"
+          },
+          {
+            "ayah_number": 81,
+            "word": "فَيَحِلَّ",
+            "word_normalized": "فيحل",
+            "meaning": "فَيَنْزِلَ.",
+            "meaning_normalized": "فينزل"
+          },
+          {
+            "ayah_number": 81,
+            "word": "هَوَىٰ",
+            "word_normalized": "هوى",
+            "meaning": "خَسِرَ، وَهَلَكَ.",
+            "meaning_normalized": "خسر وهلك"
+          },
+          {
+            "ayah_number": 84,
+            "word": "أُوْلَآءِ",
+            "word_normalized": "أولاء",
+            "meaning": "هَؤُلَاءِ.",
+            "meaning_normalized": "هؤلاء"
+          },
+          {
+            "ayah_number": 84,
+            "word": "عَلَىٰٓ أَثَرِي",
+            "word_normalized": "على أثري",
+            "meaning": "خَلْفِي سَوْفَ يَلْحَقُونَ بِي.",
+            "meaning_normalized": "خلفي سوف يلحقون بي"
+          },
+          {
+            "ayah_number": 86,
+            "word": "أَسِفًا",
+            "word_normalized": "أسفا",
+            "meaning": "حَزِينًا.",
+            "meaning_normalized": "حزينا"
+          },
+          {
+            "ayah_number": 86,
+            "word": "وَعْدًا حَسَنًا",
+            "word_normalized": "وعدا حسنا",
+            "meaning": "الْوَعْدَ بِإِنْزَالِ التَّوْرَاةِ.",
+            "meaning_normalized": "الوعد بإنزال التوراة"
+          },
+          {
+            "ayah_number": 87,
+            "word": "بِمَلْكِنَا",
+            "word_normalized": "بملكنا",
+            "meaning": "بِاخْتِيَارِنَا وَقُدْرَتِنَا.",
+            "meaning_normalized": "باختيارنا وقدرتنا"
+          },
+          {
+            "ayah_number": 87,
+            "word": "أَوْزَارًا",
+            "word_normalized": "أوزارا",
+            "meaning": "أَثْقَالًا.",
+            "meaning_normalized": "أثقالا"
+          },
+          {
+            "ayah_number": 87,
+            "word": "مِن زِينَةِ ٱلْقَوْمِ",
+            "word_normalized": "من زينة القوم",
+            "meaning": "مِنْ حُلِيِّ قَوْمِ فِرْعَوْنَ.",
+            "meaning_normalized": "من حلي قوم فرعون"
+          },
+          {
+            "ayah_number": 87,
+            "word": "فَقَذَفْنَٰهَا",
+            "word_normalized": "فقذفناها",
+            "meaning": "أَلْقَيْنَاهَا فِي حُفْرَةٍ فِيهَا نَارٌ.",
+            "meaning_normalized": "ألقيناها في حفرة فيها نار"
+          },
+          {
+            "ayah_number": 88,
+            "word": "فَأَخْرَجَ",
+            "word_normalized": "فأخرج",
+            "meaning": "فَصَنَعَ.",
+            "meaning_normalized": "فصنع"
+          },
+          {
+            "ayah_number": 88,
+            "word": "جَسَدًا",
+            "word_normalized": "جسدا",
+            "meaning": "مُجَسَّدًا مِنَ الذَّهَبِ.",
+            "meaning_normalized": "مجسدا من الذهب"
+          },
+          {
+            "ayah_number": 88,
+            "word": "لَّهُۥ خُوَارٌ",
+            "word_normalized": "له خوار",
+            "meaning": "لَهُ صَوْتٌ كَصَوْتِ الْبَقَرِ.",
+            "meaning_normalized": "له صوت كصوت البقر"
+          },
+          {
+            "ayah_number": 89,
+            "word": "أَلَّا يَرْجِعُ إِلَيْهِمْ قَوْلًا",
+            "word_normalized": "ألا يرجع إليهم قولا",
+            "meaning": "أَنْ لَا يَرُدُّ عَلَيْهِمْ جَوَابًا.",
+            "meaning_normalized": "أن لا يرد عليهم جوابا"
+          }
+        ]
+      }
+    ]
+  }
+}

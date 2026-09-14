@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 59,
+    "header": {
+      "right": "سُورَةُ الْأَنْفَالِ",
+      "right_normalized": "سورة الأنفال",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَنْفَالِ",
+          "name_normalized": "سورة الأنفال",
+          "order": 8,
+          "ayat_count": 75,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 19,
+            "word": "حَدْنًا",
+            "word_normalized": "حدنا",
+            "meaning": "مُتَقَارِبِينَ مِنْكُمْ، مُجْتَمِعِينَ؛ كَأَنَّهُمْ لِكَثْرَتِهِمْ يَرْحَمُونَ.",
+            "meaning_normalized": "متقاربين منكم مجتمعين كأنهم لكثرتهم يرحمون"
+          },
+          {
+            "ayah_number": 25,
+            "word": "الْأَذْبَارُ",
+            "word_normalized": "الأذبار",
+            "meaning": "الظُّهُورُ.",
+            "meaning_normalized": "الظهور"
+          },
+          {
+            "ayah_number": 26,
+            "word": "فَتَخَطَّفَكُمْ لِيُقَاتِلُ",
+            "word_normalized": "فتخطفكم ليقاتل",
+            "meaning": "مُطَهِّرًا الْفِرَارَ؛ خِدَاعَةً، ثُمَّ يَحُوءُ.",
+            "meaning_normalized": "مطهرا الفرار خداعة ثم يحوء"
+          },
+          {
+            "ayah_number": 26,
+            "word": "فَتَخَطَّفَكُمْ إِلَى فِئَةِ",
+            "word_normalized": "فتخطفكم إلى فئة",
+            "meaning": "مُنْحَازًا إِلَى جَمَاعَةِ الْمُسْلِمِينَ، سَوَاءٌ كَانُوا سَرِيَّةً فَانْحَازُوا لِلْجَيْشِ أَوِ انْحَازُوا لِلْإِمَامِ الْأَعْظَمِ.",
+            "meaning_normalized": "منحازا إلى جماعة المسلمين سواء كانوا سرية فانحازوا للجيش أو انحازوا للإمام الأعظم"
+          },
+          {
+            "ayah_number": 16,
+            "word": "حِدَّةً",
+            "word_normalized": "حدة",
+            "meaning": "رَجْعٌ.",
+            "meaning_normalized": "رجع"
+          },
+          {
+            "ayah_number": 19,
+            "word": "الْصَّيْرَ",
+            "word_normalized": "الصير",
+            "meaning": "الْمَرْجَعُ، وَالْمَآلُ.",
+            "meaning_normalized": "المرجع والمآل"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَإِلَى الرُّسُلِ الزَّبِيدِينَ",
+            "word_normalized": "وإلى الرسل الزبيدين",
+            "meaning": "لِيُنْعِمَ عَلَيْهِمْ بِالنَّصْرِ وَالْأَجْرِ.",
+            "meaning_normalized": "لينعم عليهم بالنصر والأجر"
+          },
+          {
+            "ayah_number": 28,
+            "word": "فِرْهِنٌ",
+            "word_normalized": "فرهن",
+            "meaning": "مُضَيِّفٌ.",
+            "meaning_normalized": "مضيف"
+          },
+          {
+            "ayah_number": 29,
+            "word": "فَسْتَغْفِحُوا",
+            "word_normalized": "فستغفحوا",
+            "meaning": "تَطْلُبُوا ـ أَيُّهَا الْكُفَّارُ ـ مِنَ اللهِ أَن يُوقِعَ بِأَسَهُ بِالْعَالِمِينَ.",
+            "meaning_normalized": "تطلبوا أيها الكفار من الله أن يوقع بأسه بالعالمين"
+          },
+          {
+            "ayah_number": 29,
+            "word": "وَيَجْمَعُكُمْ",
+            "word_normalized": "ويجمعكم",
+            "meaning": "جَمَاعَتُكُمْ.",
+            "meaning_normalized": "جماعتكم"
+          },
+          {
+            "ayah_number": 30,
+            "word": "الْصَّمُّ",
+            "word_normalized": "الصم",
+            "meaning": "الَّذِينَ سُدَّتْ آذَانُهُمْ عَنْ سَمَاعِ الْحَقِّ.",
+            "meaning_normalized": "الذين سدت آذانهم عن سماع الحق"
+          },
+          {
+            "ayah_number": 31,
+            "word": "الْأَيْكُمْ",
+            "word_normalized": "الأيكم",
+            "meaning": "الَّذِينَ خَرَسَتْ أَلْسِنَتُهُمْ عَنِ النُّطْقِ بِالْحَقِّ.",
+            "meaning_normalized": "الذين خرست أل��نتهم عن النطق بالحق"
+          },
+          {
+            "ayah_number": 35,
+            "word": "بُكْمَةً",
+            "word_normalized": "بكمة",
+            "meaning": "بَحْجَّةً.",
+            "meaning_normalized": "بحجة"
+          },
+          {
+            "ayah_number": 36,
+            "word": "يُحْظَكُمْ",
+            "word_normalized": "يحظكم",
+            "meaning": "بِأَخْذِكُمُ الْكُفَّارَ بِسُرْعَةٍ.",
+            "meaning_normalized": "بأخذكم الكفار بسرعة"
+          },
+          {
+            "ayah_number": 36,
+            "word": "فَثَاوِرُكُمْ",
+            "word_normalized": "فثاوركم",
+            "meaning": "أَسْكَنَكُمُ الْمَدِينَةَ.",
+            "meaning_normalized": "أسكنكم المدينة"
+          },
+          {
+            "ayah_number": 38,
+            "word": "بِفِيَةً",
+            "word_normalized": "بفية",
+            "meaning": "اخْتِيَارُ، وَإِيثَارُ؛ أَنْطِيعُوهُ، وَتَنْشُرُوهُ، أَمْ تَسْتَعْلِمُونَ بِهَا عَنْهُ؟",
+            "meaning_normalized": "اختيار وإيثار أنطيعوه وتنشروه أم تستعلمون بها عنه"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 64,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّوْبَةِ",
+          "name_normalized": "سورة التوبة",
+          "order": 9,
+          "ayat_count": 129,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 37,
+            "word": "لِيُوَاطِئُوا",
+            "word_normalized": "ليواطئوا",
+            "meaning": "لِيُوَافِقُوا.",
+            "meaning_normalized": "ليوافقوا"
+          },
+          {
+            "ayah_number": 37,
+            "word": "عِدَّةً",
+            "word_normalized": "عدة",
+            "meaning": "عَدَدَ.",
+            "meaning_normalized": "عدد"
+          },
+          {
+            "ayah_number": 38,
+            "word": "فَاثَّاقَلْتُمْ",
+            "word_normalized": "فاثاقلتم",
+            "meaning": "تَبَاطَأْتُمْ، وَتَكَاسَلْتُمْ.",
+            "meaning_normalized": "تباطأتم وتكاسلتم"
+          },
+          {
+            "ayah_number": 39,
+            "word": "وَلَا تَضُرُّوا",
+            "word_normalized": "ولا تضروا",
+            "meaning": "إِلَّا تَخْرُجُوا لِلْجِهَادِ.",
+            "meaning_normalized": "إلا تخرجوا للجهاد"
+          },
+          {
+            "ayah_number": 42,
+            "word": "خَرَجْنَا قَرِيبًا",
+            "word_normalized": "خرجنا قريبا",
+            "meaning": "مَتَاعًا مِنَ الدُّنْيَا، سَهْلَ الْمَأْخَذِ.",
+            "meaning_normalized": "متاعا من الدنيا سهل المأخذ"
+          },
+          {
+            "ayah_number": 42,
+            "word": "وَسَفَرًا قَاصِدًا",
+            "word_normalized": "وسفرا قاصدا",
+            "meaning": "مُتَوَسِّطًا بَيْنَ الْقَرِيبِ وَالْبَعِيدِ.",
+            "meaning_normalized": "متوسطا بين القريب والبعيد"
+          },
+          {
+            "ayah_number": 42,
+            "word": "الشُّقَّةُ",
+            "word_normalized": "الشقة",
+            "meaning": "الْمَسَافَةُ الَّتِي تُقْطَعُ بِمَشَقَّةٍ.",
+            "meaning_normalized": "المسافة التي تقطع بمشقة"
+          },
+          {
+            "ayah_number": 45,
+            "word": "وَارْتَابَتْ",
+            "word_normalized": "وارتابت",
+            "meaning": "شَكَّتْ.",
+            "meaning_normalized": "شكت"
+          },
+          {
+            "ayah_number": 45,
+            "word": "يَتَرَدَّدُونَ",
+            "word_normalized": "يترددون",
+            "meaning": "يَتَحَيَّرُونَ.",
+            "meaning_normalized": "يتحيرون"
+          },
+          {
+            "ayah_number": 46,
+            "word": "وَاعْتَدُّوا لَهُ، عُدَّةً",
+            "word_normalized": "واعتدوا له عدة",
+            "meaning": "تَأَهَّبُوا بِالزَّادِ وَالرَّاحِلَةِ.",
+            "meaning_normalized": "تأهبوا بالزاد والراحلة"
+          },
+          {
+            "ayah_number": 46,
+            "word": "وَأَيْمَانُهُمْ",
+            "word_normalized": "وأيمانهم",
+            "meaning": "خُرُوجُهُمْ لِلْجِهَادِ مَعَكَ.",
+            "meaning_normalized": "خروجهم للجهاد معك"
+          },
+          {
+            "ayah_number": 46,
+            "word": "فَثَبَّطَهُمْ",
+            "word_normalized": "فثبطهم",
+            "meaning": "ثَقَّلَ عَلَيْهِمُ الْخُرُوجَ.",
+            "meaning_normalized": "ثقل عليهم الخروج"
+          },
+          {
+            "ayah_number": 47,
+            "word": "خِبَالًا",
+            "word_normalized": "خبالا",
+            "meaning": "فَسَادًا، وَاضْطِرَابًا.",
+            "meaning_normalized": "فسادا واضطرابا"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَلَأَوْضَعُوا خِلَالَكُمْ",
+            "word_normalized": "ولأوضعوا خلالكم",
+            "meaning": "لَأَسْرَعُوا السَّيْرَ بَيْنَكُمْ بِالنَّمِيمَةِ.",
+            "meaning_normalized": "لأسرعوا السير بينكم بالنميمة"
+          },
+          {
+            "ayah_number": 48,
+            "word": "سَمَّاعُونَ لَكُمُ الْفِتْنَةَ",
+            "word_normalized": "سماعون لكم الفتنة",
+            "meaning": "يَطْلُبُونَ يَتَسَمَّعُونَ، وَفَسَادَ ذَاتِ بَيْنِكُمْ.",
+            "meaning_normalized": "يطلبون يتسمعون وفساد ذات بينكم"
+          },
+          {
+            "ayah_number": 48,
+            "word": "سَمَّاعُونَ",
+            "word_normalized": "سماعون",
+            "meaning": "جَوَاسِيسُ يَسْمَعُونَ أَخْبَارَكُمْ، وَيَنْقُلُونَهَا إِلَيْهِمْ.",
+            "meaning_normalized": "جواسيس يسمعون أخباركم وينقلونها إليهم"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَتَقَلَّبَ لَكَ الْأُمُورُ",
+            "word_normalized": "وتقلب لك الأمور",
+            "meaning": "دَبَّرُوا الْحِيَلَ.",
+            "meaning_normalized": "دبروا الحيل"
+          },
+          {
+            "ayah_number": 49,
+            "word": "فَرَّتَضَرُوكَ",
+            "word_normalized": "فرتضروك",
+            "meaning": "تَنْتَظِرُونَ.",
+            "meaning_normalized": "تنتظرون"
+          },
+          {
+            "ayah_number": 52,
+            "word": "إِحْدَى الْحُسْنَيَيْنِ",
+            "word_normalized": "إحدى الحسنيين",
+            "meaning": "الشَّهَادَةَ أَوِ النَّصْرِ.",
+            "meaning_normalized": "الشهادة أو النصر"
+          },
+          {
+            "ayah_number": 53,
+            "word": "وَنَزْهَقُ أَنْفُسَهُمْ",
+            "word_normalized": "ونزهق أنفسهم",
+            "meaning": "تَخْرُجُ أَرْوَاحُهُمْ.",
+            "meaning_normalized": "تخرج أرواحهم"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 28,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "٢٨",
+      "left_normalized": "28"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النِّسَاءِ",
+          "name_normalized": "سورة النساء",
+          "order": 4,
+          "ayat_count": 176,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 46,
+            "word": "وَاسمَع غَيرَ مُسمَعٍ",
+            "word_normalized": "واسمع غير مسمع",
+            "meaning": "يَدعُونَ عَلَى النَّبِيِّ ﷺ قَائِلِينَ: اِسمَع مِنَّا لَا سَمِعتَ!",
+            "meaning_normalized": "يدعون على النبي ﷺ قائلين اسمع منا لا سمعت"
+          },
+          {
+            "ayah_number": 46,
+            "word": "وَرَاعِنَا",
+            "word_normalized": "وراعنا",
+            "meaning": "اِفهَم عَنَّا، وَأَفهِمنَا",
+            "meaning_normalized": "افهم عنا وأفهمنا"
+          },
+          {
+            "ayah_number": 46,
+            "word": "لَيًّا بِأَلسِنَتِهِم",
+            "word_normalized": "ليا بألسنتهم",
+            "meaning": "يَلوُونَ أَلسِنَتَهُم بِذَلِكَ، وَهُم يُرِيدُونَ الدُّعَاءَ عَلَيهِ بِالرُّعُونَةِ حَسَبَ لُغَتِهِم",
+            "meaning_normalized": "يلوونألسنتهم بذلك وهم يريدون الدعاء عليه بالرعونة حسب لغتهم"
+          },
+          {
+            "ayah_number": 51,
+            "word": "وَأَقوَمُ",
+            "word_normalized": "وأقوم",
+            "meaning": "أَعدَلُ قَولًا",
+            "meaning_normalized": "أعدل قولا"
+          },
+          {
+            "ayah_number": 53,
+            "word": "نَقِيرًا",
+            "word_normalized": "نقيرا",
+            "meaning": "نُمحُو",
+            "meaning_normalized": "نمحو"
+          },
+          {
+            "ayah_number": 53,
+            "word": "وَمَردُّهَا",
+            "word_normalized": "ومردها",
+            "meaning": "نُحَوِّلُهَا",
+            "meaning_normalized": "نحولها"
+          },
+          {
+            "ayah_number": 58,
+            "word": "يَزِكُّونَ أَنفُسَهُمْ",
+            "word_normalized": "يزكون أنفسهم",
+            "meaning": "يُثنُونَ عَلَى أَنفُسِهِم وَأَعمَالِهِم",
+            "meaning_normalized": "يثنون على أنفسهم وأعمالهم"
+          },
+          {
+            "ayah_number": 59,
+            "word": "يَفتَرُونَ",
+            "word_normalized": "يفترون",
+            "meaning": "يَختَلِقُونَ وَيَكذِبُونَ",
+            "meaning_normalized": "يختلقون ويكذبون"
+          },
+          {
+            "ayah_number": 60,
+            "word": "بِالجِبتِ وَالطَّاغُوتِ",
+            "word_normalized": "بالجبت والطاغوت",
+            "meaning": "كُلُّ مَا يُعبَدُ مِن دُونِ اللهِ مِن الأَصنَامِ، وَشَيَاطِينِ الإِنسِ وَالجِنِّ",
+            "meaning_normalized": "كل ما يعبد من دون الله من الأصنام وشياطين الإنس والجن"
+          },
+          {
+            "ayah_number": 62,
+            "word": "فَتَيلًا",
+            "word_normalized": "فتيلا",
+            "meaning": "قَدرُ الفَترَةِ وَهِيَ الحُفرَةُ فِي ظَهرِ النَّوَاةِ",
+            "meaning_normalized": "قدر الفترة وهي الحفرة في ظهر النواة"
+          },
+          {
+            "ayah_number": 63,
+            "word": "قَلِيلًا",
+            "word_normalized": "قليلا",
+            "meaning": "كَيفًا، مُمَتَّدًا، دَائِمًا",
+            "meaning_normalized": "كيفا ممتدا دائما"
+          },
+          {
+            "ayah_number": 64,
+            "word": "نَّيًّا",
+            "word_normalized": "نيا",
+            "meaning": "بِنِعمَ مَا",
+            "meaning_normalized": "بنعم ما"
+          },
+          {
+            "ayah_number": 66,
+            "word": "قَتَابِيلًا",
+            "word_normalized": "قتابيلا",
+            "meaning": "عَائِفَةً، وَمَالًا",
+            "meaning_normalized": "عائفة ومالا"
+          },
+          {
+            "ayah_number": 68,
+            "word": "الطَّاعُونَ",
+            "word_normalized": "الطاعون",
+            "meaning": "البَاطِلُ الَّذِي لَم يَشرَعهُ اللهُ",
+            "meaning_normalized": "الباطل الذي لم يشرعه الله"
+          },
+          {
+            "ayah_number": 68,
+            "word": "حَرَجًا",
+            "word_normalized": "حرجا",
+            "meaning": "ضِيقًا",
+            "meaning_normalized": "ضيقا"
+          },
+          {
+            "ayah_number": 66,
+            "word": "وَأَشَدَّ تَثبِيتًا",
+            "word_normalized": "وأشد تثبيتا",
+            "meaning": "أَقوَى لِإِيمَانِهِمْ",
+            "meaning_normalized": "أقوى لإيمانهم"
+          },
+          {
+            "ayah_number": 68,
+            "word": "قَثَايَا",
+            "word_normalized": "قثايا",
+            "meaning": "جَمَاعَةً بَعدَ جَمَاعَةٍ",
+            "meaning_normalized": "جماعة بعد جماعة"
+          },
+          {
+            "ayah_number": 69,
+            "word": "أَمسَيتُهُ",
+            "word_normalized": "أمسيته",
+            "meaning": "يَتَأَخَّرُ عَن الخُرُوجِ مُتَثَاقِلًا، وَيَتَكَلَّفُ غَيرُهُ",
+            "meaning_normalized": "يتأخر عن الخروج متثاقلا ويتكلف غيره"
+          }
+        ]
+      }
+    ]
+  }
+}

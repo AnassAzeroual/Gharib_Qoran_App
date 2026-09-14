@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 104,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْإِسْرَاءِ",
+          "name_normalized": "سورة الإسراء",
+          "order": 17,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 46,
+            "word": "أَكِنَّةً",
+            "word_normalized": "أكنة",
+            "meaning": "أَغْطِيَةً.",
+            "meaning_normalized": "أغطية"
+          },
+          {
+            "ayah_number": 46,
+            "word": "وَقْرًا",
+            "word_normalized": "وقرا",
+            "meaning": "صَمَمًا وَثِقَلًا فِي السَّمْعِ.",
+            "meaning_normalized": "صمما وثقلا في السمع"
+          },
+          {
+            "ayah_number": 46,
+            "word": "نُفُورًا",
+            "word_normalized": "نفورا",
+            "meaning": "نَافِرِينَ.",
+            "meaning_normalized": "نافرين"
+          },
+          {
+            "ayah_number": 47,
+            "word": "هُمْ نَجْوَىٰٓ",
+            "word_normalized": "هم نجوى",
+            "meaning": "يَتَنَاجَوْنَ، وَيَتَحَدَّثُونَ فِيمَا بَيْنَهُمْ.",
+            "meaning_normalized": "يتناجون ويتحدثون فيما بينهم"
+          },
+          {
+            "ayah_number": 49,
+            "word": "وَرُفَٰتًا",
+            "word_normalized": "ورفاتا",
+            "meaning": "أَجْزَاءً مُفَتَّتَةً.",
+            "meaning_normalized": "أجزاء مفتتة"
+          },
+          {
+            "ayah_number": 51,
+            "word": "فَسَيُنْغِضُونَ",
+            "word_normalized": "فسينغضون",
+            "meaning": "يُحَرِّكُونَ مُسْتَهْزِئِينَ.",
+            "meaning_normalized": "يحركون مستهزئين"
+          },
+          {
+            "ayah_number": 53,
+            "word": "يَنزَغُ",
+            "word_normalized": "ينزغ",
+            "meaning": "يُفْسِدُ.",
+            "meaning_normalized": "يفسد"
+          },
+          {
+            "ayah_number": 57,
+            "word": "يَبْتَغُونَ",
+            "word_normalized": "يبتغون",
+            "meaning": "يَطْلُبُونَ.",
+            "meaning_normalized": "يطلبون"
+          },
+          {
+            "ayah_number": 57,
+            "word": "ٱلْوَسِيلَةَ",
+            "word_normalized": "الوسيلة",
+            "meaning": "الْقُرْبَةَ بِالطَّاعَةِ.",
+            "meaning_normalized": "القربة بالطاعة"
+          },
+          {
+            "ayah_number": 58,
+            "word": "ٱلْكِتَٰبِ",
+            "word_normalized": "الكتاب",
+            "meaning": "اللَّوْحِ الْمَحْفُوظِ.",
+            "meaning_normalized": "اللوح المحفوظ"
+          },
+          {
+            "ayah_number": 58,
+            "word": "مَسْطُورًا",
+            "word_normalized": "مسطورا",
+            "meaning": "مَكْتُوبًا.",
+            "meaning_normalized": "مكتوبا"
+          },
+          {
+            "ayah_number": 59,
+            "word": "مُبْصِرَةً",
+            "word_normalized": "مبصرة",
+            "meaning": "مُعْجِزَةً وَاضِحَةً.",
+            "meaning_normalized": "معجزة واضحة"
+          },
+          {
+            "ayah_number": 60,
+            "word": "ٱلرُّءْيَا",
+            "word_normalized": "الرؤيا",
+            "meaning": "مَا رَأَيْتَهُ لَيْلَةَ الْإِسْرَاءِ وَالْمِعْرَاجِ بِعَيْنِكَ مِنَ الْعَجَائِبِ.",
+            "meaning_normalized": "ما رأيته ليلة الإسراء والمعراج بعينك من العجائب"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ",
+            "word_normalized": "والشجرة الملعونة",
+            "meaning": "شَجَرَةَ الزَّقُّومِ.",
+            "meaning_normalized": "شجرة الزقوم"
+          },
+          {
+            "ayah_number": 62,
+            "word": "أَرَءَيْتَكَ",
+            "word_normalized": "أرأيتك",
+            "meaning": "أَخْبِرْنِي.",
+            "meaning_normalized": "أخبرني"
+          },
+          {
+            "ayah_number": 62,
+            "word": "لَأَحْتَنِكَنَّ",
+            "word_normalized": "لأحتنكن",
+            "meaning": "لَأَسْتَوْلِيَنَّ عَلَيْهِمْ.",
+            "meaning_normalized": "لأستولين عليهم"
+          },
+          {
+            "ayah_number": 63,
+            "word": "مَوْفُورًا",
+            "word_normalized": "موفورا",
+            "meaning": "وَافِرًا.",
+            "meaning_normalized": "وافرا"
+          },
+          {
+            "ayah_number": 64,
+            "word": "وَٱسْتَفْزِزْ",
+            "word_normalized": "واستفزز",
+            "meaning": "اسْتَخِفَّ، وَاسْتَعْجِلْ.",
+            "meaning_normalized": "استخف واستعجل"
+          },
+          {
+            "ayah_number": 64,
+            "word": "بِصَوْتِكَ",
+            "word_normalized": "بصوتك",
+            "meaning": "بِدُعَائِكَ إِيَّاهُمْ لِلْمَعَاصِي، وَبِالْغِنَاءِ وَالْمَزَامِيرِ.",
+            "meaning_normalized": "بدعائك إياهم للمعاصي وبالغناء والمزامير"
+          }
+        ]
+      }
+    ]
+  }
+}

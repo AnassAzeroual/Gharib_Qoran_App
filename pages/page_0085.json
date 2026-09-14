@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 85,
+    "header": {
+      "right": "سُورَةُ يُوسُفَ",
+      "right_normalized": "سورة يوسف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يُوسُفَ",
+          "name_normalized": "سورة يوسف",
+          "order": 12,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 72,
+            "word": "زَعِيمٌ",
+            "word_normalized": "زعيم",
+            "meaning": "ضَامِنٌ، وَكَافِلٌ.",
+            "meaning_normalized": "ضامن وكافل"
+          },
+          {
+            "ayah_number": 75,
+            "word": "فَهُوَ جَزَاؤُهُ",
+            "word_normalized": "فهو جزاؤه",
+            "meaning": "يَكُونُ السَّارِقُ عَبْدًا لِلْمَسْرُوقِ مِنْهُ.",
+            "meaning_normalized": "يكون السارق عبدا للمسروق منه"
+          },
+          {
+            "ayah_number": 76,
+            "word": "دِينِ الْمَلِكِ",
+            "word_normalized": "دين الملك",
+            "meaning": "حُكْمِهِ وَقَضَائِهِ؛ لِأَنَّهُ لَيْسَ فِيهِ اسْتِعْبَادُ السَّارِقِ.",
+            "meaning_normalized": "حكمه وقضائه لأنه ليس فيه استعباد السارق"
+          },
+          {
+            "ayah_number": 79,
+            "word": "مَعَاذَ اللهِ",
+            "word_normalized": "معاذ الله",
+            "meaning": "نَعْتَصِمُ بِاللهِ، وَنَسْتَجِيرُ بِهِ.",
+            "meaning_normalized": "نعتصم بالله ونستجير به"
+          },
+          {
+            "ayah_number": 80,
+            "word": "اسْتَيْأَسُوا",
+            "word_normalized": "استيأسوا",
+            "meaning": "يَئِسُوا وَانْقَطَعَ رَجَاؤُهُمْ.",
+            "meaning_normalized": "يئسوا وانقطع رجاؤهم"
+          },
+          {
+            "ayah_number": 80,
+            "word": "خَلَصُوا نَجِيًّا",
+            "word_normalized": "خلصوا نجيا",
+            "meaning": "انْفَرَدُوا يَتَشَاوَرُونَ.",
+            "meaning_normalized": "انفردوا يتشاورون"
+          },
+          {
+            "ayah_number": 80,
+            "word": "مَوْثِقًا",
+            "word_normalized": "موثقا",
+            "meaning": "عَهْدًا مُؤَكَّدًا.",
+            "meaning_normalized": "عهدا مؤكدا"
+          },
+          {
+            "ayah_number": 80,
+            "word": "فَرَّطْتُمْ",
+            "word_normalized": "فرطتم",
+            "meaning": "قَصَّرْتُمْ.",
+            "meaning_normalized": "قصرتم"
+          },
+          {
+            "ayah_number": 80,
+            "word": "أَبْرَحَ",
+            "word_normalized": "أبرح",
+            "meaning": "أُفَارِقَ.",
+            "meaning_normalized": "أفارق"
+          },
+          {
+            "ayah_number": 82,
+            "word": "وَالْعِيرَ",
+            "word_normalized": "والعير",
+            "meaning": "الْقَافِلَةَ.",
+            "meaning_normalized": "القافلة"
+          },
+          {
+            "ayah_number": 83,
+            "word": "سَوَّلَتْ",
+            "word_normalized": "سولت",
+            "meaning": "زَيَّنَتْ.",
+            "meaning_normalized": "زينت"
+          },
+          {
+            "ayah_number": 84,
+            "word": "كَظِيمٌ",
+            "word_normalized": "كظيم",
+            "meaning": "شَدِيدُ الْكِتْمَانِ لِحُزْنِهِ.",
+            "meaning_normalized": "شديد الكتمان لحزنه"
+          },
+          {
+            "ayah_number": 85,
+            "word": "تَفْتَأُ",
+            "word_normalized": "تفتأ",
+            "meaning": "مَا تَزَالُ.",
+            "meaning_normalized": "ما تزال"
+          },
+          {
+            "ayah_number": 85,
+            "word": "حَرَضًا",
+            "word_normalized": "حرضا",
+            "meaning": "تُشْرِفُ عَلَى الْهَلَاكِ.",
+            "meaning_normalized": "تشرف على الهلاك"
+          },
+          {
+            "ayah_number": 86,
+            "word": "بَثِّي",
+            "word_normalized": "بثي",
+            "meaning": "هَمِّي.",
+            "meaning_normalized": "همي"
+          },
+          {
+            "ayah_number": 87,
+            "word": "فَتَحَسَّسُوا",
+            "word_normalized": "فتحسسوا",
+            "meaning": "فَاسْتَقْصُوا خَبَرَهُ.",
+            "meaning_normalized": "فاستقصوا خبره"
+          },
+          {
+            "ayah_number": 87,
+            "word": "وَلَا تَيْأَسُوا",
+            "word_normalized": "ولا تيأسوا",
+            "meaning": "لَا تَقْطَعُوا رَجَاءَكُمْ.",
+            "meaning_normalized": "لا تقطعوا رجاءكم"
+          },
+          {
+            "ayah_number": 87,
+            "word": "رَوْحِ اللهِ",
+            "word_normalized": "روح الله",
+            "meaning": "رَحْمَةِ اللهِ.",
+            "meaning_normalized": "رحمة الله"
+          },
+          {
+            "ayah_number": 88,
+            "word": "الضُّرُّ",
+            "word_normalized": "الضر",
+            "meaning": "الْقَحْطُ، وَالْجَدْبُ.",
+            "meaning_normalized": "القحط والجدب"
+          }
+        ]
+      }
+    ]
+  }
+}

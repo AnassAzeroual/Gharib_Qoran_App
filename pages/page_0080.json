@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 80,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ هُودٍ",
+          "name_normalized": "سورة هود",
+          "order": 11,
+          "ayat_count": 123,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 101,
+            "word": "أَغْنَتْ",
+            "word_normalized": "أغنت",
+            "meaning": "نَفَعَتْ.",
+            "meaning_normalized": "نفعت"
+          },
+          {
+            "ayah_number": 101,
+            "word": "تَتْبِيبٍ",
+            "word_normalized": "تتبيب",
+            "meaning": "تَدْمِيرٍ، وَإِهْلَاكٍ، وَخُسْرَانٍ.",
+            "meaning_normalized": "تدمير وإهلاك وخسران"
+          },
+          {
+            "ayah_number": 106,
+            "word": "زَفِيرٌ",
+            "word_normalized": "زفير",
+            "meaning": "صَوْتٌ شَنِيعٌ، يُسْمَعُ عِنْدَ إِخْرَاجِ النَّفَسِ.",
+            "meaning_normalized": "صوت شنيع يسمع عند إخراج النفس"
+          },
+          {
+            "ayah_number": 106,
+            "word": "وَشَهِيقٌ",
+            "word_normalized": "وشهيق",
+            "meaning": "صَوْتٌ شَنِيعٌ يُسْمَعُ عِنْدَ إِدْخَالِ النَّفَسِ.",
+            "meaning_normalized": "صوت شنيع يسمع عند إدخال النفس"
+          },
+          {
+            "ayah_number": 108,
+            "word": "مَجْذُوذٍ",
+            "word_normalized": "مجذوذ",
+            "meaning": "مَقْطُوعٍ.",
+            "meaning_normalized": "مقطوع"
+          },
+          {
+            "ayah_number": 109,
+            "word": "فَلَا تَكُ",
+            "word_normalized": "فلا تك",
+            "meaning": "لَا تَكُنْ.",
+            "meaning_normalized": "لا تكن"
+          },
+          {
+            "ayah_number": 109,
+            "word": "مِرْيَةٍ",
+            "word_normalized": "مرية",
+            "meaning": "شَكٍّ.",
+            "meaning_normalized": "شك"
+          },
+          {
+            "ayah_number": 110,
+            "word": "مُرِيبٍ",
+            "word_normalized": "مريب",
+            "meaning": "مُوقِعٍ فِي الرِّيبَةِ، وَقَلَقِ النَّفْسِ.",
+            "meaning_normalized": "موقع في الريبة وقلق النفس"
+          },
+          {
+            "ayah_number": 112,
+            "word": "وَلَا تَطْغَوْا",
+            "word_normalized": "ولا تطغوا",
+            "meaning": "لَا تَتَجَاوَزُوا مَا حَدَّهُ اللهُ لَكُمْ.",
+            "meaning_normalized": "لا تتجاوزوا ما حده الله لكم"
+          },
+          {
+            "ayah_number": 113,
+            "word": "وَلَا تَرْكَنُوا",
+            "word_normalized": "ولا تركنوا",
+            "meaning": "لَا تَمِيلُوا.",
+            "meaning_normalized": "لا تميلوا"
+          },
+          {
+            "ayah_number": 114,
+            "word": "طَرَفَيِ النَّهَارِ",
+            "word_normalized": "طرفي النهار",
+            "meaning": "الصَّبَاحَ وَالْمَسَاءَ، وَقِيلَ: الْمُرَادُ بِهَا: صَلَاةُ الْفَجْرِ وَالظُّهْرِ وَالْعَصْرِ.",
+            "meaning_normalized": "الصباح والمساء وقيل المراد بها صلاة الفجر والظهر والعصر"
+          },
+          {
+            "ayah_number": 114,
+            "word": "وَزُلَفًا مِنَ اللَّيْلِ",
+            "word_normalized": "وزلفا من الليل",
+            "meaning": "سَاعَاتٍ مِنَ اللَّيْلِ، وَقِيلَ: الْمُرَادُ بِهَا: الْمَغْرِبُ وَالْعِشَاءُ أَوِ الْعِشَاءُ وَحْدَهَا.",
+            "meaning_normalized": "ساعات من الليل وقيل المراد بها المغرب والعشاء أو العشاء وحدها"
+          },
+          {
+            "ayah_number": 116,
+            "word": "فَلَوْلَا",
+            "word_normalized": "فلولا",
+            "meaning": "فَهَلَّا.",
+            "meaning_normalized": "فهلا"
+          },
+          {
+            "ayah_number": 116,
+            "word": "الْقُرُونِ",
+            "word_normalized": "القرون",
+            "meaning": "الْأُمَمِ الْمَاضِيَةِ.",
+            "meaning_normalized": "الأمم الماضية"
+          },
+          {
+            "ayah_number": 116,
+            "word": "أُولُوا بَقِيَّةٍ",
+            "word_normalized": "أولوا بقية",
+            "meaning": "بَقَايَا مِنْ أَهْلِ الْخَيْرِ وَالصَّلَاحِ.",
+            "meaning_normalized": "بقايا من أهل الخير والصلاح"
+          },
+          {
+            "ayah_number": 116,
+            "word": "أُتْرِفُوا فِيهِ",
+            "word_normalized": "أترفوا فيه",
+            "meaning": "مُتِّعُوا فِيهِ مِنْ لَذَّاتِ الدُّنْيَا.",
+            "meaning_normalized": "متعوا فيه من لذات الدنيا"
+          },
+          {
+            "ayah_number": 118,
+            "word": "أُمَّةً وَاحِدَةً",
+            "word_normalized": "أمة واحدة",
+            "meaning": "جَمَاعَةً وَاحِدَةً عَلَى دِينٍ وَاحِدٍ، وَهُوَ الْإِسْلَامُ.",
+            "meaning_normalized": "جماعة واحدة على دين واحد وهو الإسلام"
+          },
+          {
+            "ayah_number": 121,
+            "word": "مَكَانَتِكُمْ",
+            "word_normalized": "مكانتكم",
+            "meaning": "حَالَتِكُمْ، وَطَرِيقَتِكُمْ.",
+            "meaning_normalized": "حالتكم وطريقتكم"
+          }
+        ]
+      }
+    ]
+  }
+}

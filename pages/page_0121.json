@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 121,
+    "header": {
+      "right": "سُورَةُ طه",
+      "right_normalized": "سورة طه",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ طه",
+          "name_normalized": "سورة طه",
+          "order": 20,
+          "ayat_count": 135,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 20,
+            "word": "تَسْعَىٰ",
+            "word_normalized": "تسعى",
+            "meaning": "تَمْشِي بِسُرْعَةٍ وَخِفَّةٍ.",
+            "meaning_normalized": "تمشي بسرعة وخفة"
+          },
+          {
+            "ayah_number": 21,
+            "word": "سِيرَتَهَا",
+            "word_normalized": "سيرتها",
+            "meaning": "حَالَتَهَا.",
+            "meaning_normalized": "حالتها"
+          },
+          {
+            "ayah_number": 22,
+            "word": "جَنَاحِكَ",
+            "word_normalized": "جناحك",
+            "meaning": "جَنْبِكَ تَحْتَ الْعَضُدِ.",
+            "meaning_normalized": "جنبك تحت العضد"
+          },
+          {
+            "ayah_number": 22,
+            "word": "سُوٓءٍ",
+            "word_normalized": "سوء",
+            "meaning": "بَرَصٍ.",
+            "meaning_normalized": "برص"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَٱحْلُلْ عُقْدَةً",
+            "word_normalized": "واحلل عقدة",
+            "meaning": "أَطْلِقْ لِسَانِي بِفَصِيحِ الْمَنْطِقِ.",
+            "meaning_normalized": "أطلق لساني بفصيح المنطق"
+          },
+          {
+            "ayah_number": 31,
+            "word": "ٱشْدُدْ بِهِۦ أَزْرِي",
+            "word_normalized": "اشدد به أزري",
+            "meaning": "قَوِّنِي بِهِ، وَشُدَّ بِهِ ظَهْرِي.",
+            "meaning_normalized": "قوني به وشد به ظهري"
+          },
+          {
+            "ayah_number": 32,
+            "word": "أَمْرِي",
+            "word_normalized": "أمري",
+            "meaning": "النُّبُوَّةَ.",
+            "meaning_normalized": "النبوة"
+          },
+          {
+            "ayah_number": 39,
+            "word": "ٱلْيَمِّ",
+            "word_normalized": "اليم",
+            "meaning": "نَهْرِ النِّيلِ.",
+            "meaning_normalized": "نهر النيل"
+          },
+          {
+            "ayah_number": 40,
+            "word": "يَكْفُلُهُۥ",
+            "word_normalized": "يكفله",
+            "meaning": "يُرَبِّيهِ، وَيُرْضِعُهُ.",
+            "meaning_normalized": "يربيه ويرضعه"
+          },
+          {
+            "ayah_number": 40,
+            "word": "تَقَرَّ عَيْنُهَا",
+            "word_normalized": "تقر عينها",
+            "meaning": "تَطِيبُ نَفْسُهَا.",
+            "meaning_normalized": "تطيب نفسها"
+          },
+          {
+            "ayah_number": 40,
+            "word": "وَفَتَنَّٰكَ فُتُونًا",
+            "word_normalized": "وفتناك فتونا",
+            "meaning": "ابْتَلَيْنَاكَ ابْتِلَاءً.",
+            "meaning_normalized": "ابتليناك ابتلاء"
+          },
+          {
+            "ayah_number": 40,
+            "word": "عَلَىٰ قَدَرٍ",
+            "word_normalized": "على قدر",
+            "meaning": "عَلَى وَفْقِ الْوَقْتِ الْمُقَدَّرِ لِإِرْسَالِكَ.",
+            "meaning_normalized": "على وفق الوقت المقدر لإرسالك"
+          },
+          {
+            "ayah_number": 41,
+            "word": "وَٱصْطَنَعْتُكَ لِنَفْسِي",
+            "word_normalized": "واصطنعتك لنفسي",
+            "meaning": "اصْطَفَيْتُكَ لِرِسَالَتِي.",
+            "meaning_normalized": "اصطفيتك لرسالتي"
+          },
+          {
+            "ayah_number": 43,
+            "word": "وَلَا تَنِيَا",
+            "word_normalized": "ولا تنيا",
+            "meaning": "لَا تَفْتُرَا وَلَا تَضْعُفَا.",
+            "meaning_normalized": "لا تفترا ولا تضعفا"
+          },
+          {
+            "ayah_number": 45,
+            "word": "يَفْرُطَ عَلَيْنَآ",
+            "word_normalized": "يفرط علينا",
+            "meaning": "يُعَاجِلَنَا بِالْعُقُوبَةِ.",
+            "meaning_normalized": "يعاجلنا بالعقوبة"
+          },
+          {
+            "ayah_number": 50,
+            "word": "خَلْقَهُۥ",
+            "word_normalized": "خلقه",
+            "meaning": "صُورَتَهُ اللَّائِقَةَ بِخَاصَّتِهِ وَمَنْفَعَتِهِ.",
+            "meaning_normalized": "صورته اللائقة بخاصته ومنفعته"
+          },
+          {
+            "ayah_number": 51,
+            "word": "ٱلْقُرُونِ ٱلْأُولَىٰ",
+            "word_normalized": "القرون الأولى",
+            "meaning": "الْأُمَمِ الْمَاضِيَةِ.",
+            "meaning_normalized": "الأمم الماضية"
+          },
+          {
+            "ayah_number": 53,
+            "word": "مَهْدًا",
+            "word_normalized": "مهدا",
+            "meaning": "مُيَسَّرَةً لِلِانْتِفَاعِ بِهَا.",
+            "meaning_normalized": "ميسرة للانتفاع بها"
+          },
+          {
+            "ayah_number": 53,
+            "word": "سُبُلًا",
+            "word_normalized": "سبلا",
+            "meaning": "طُرُقًا.",
+            "meaning_normalized": "طرقا"
+          },
+          {
+            "ayah_number": 53,
+            "word": "أَزْوَٰجًا",
+            "word_normalized": "أزواجا",
+            "meaning": "أَنْوَاعًا مُخْتَلِفَةً.",
+            "meaning_normalized": "أنواعا مختلفة"
+          },
+          {
+            "ayah_number": 54,
+            "word": "لِّأُوْلِي ٱلنُّهَىٰ",
+            "word_normalized": "لأولي النهى",
+            "meaning": "لِذَوِي الْعُقُولِ السَّلِيمَةِ.",
+            "meaning_normalized": "لذوي العقول السليمة"
+          }
+        ]
+      }
+    ]
+  }
+}

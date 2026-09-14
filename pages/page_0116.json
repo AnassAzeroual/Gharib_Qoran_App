@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 116,
+    "header": {
+      "right": "سُورَةُ مَريَمَ",
+      "right_normalized": "سورة مريم",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ مَريَمَ",
+          "name_normalized": "سورة مريم",
+          "order": 19,
+          "ayat_count": 98,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "word": "نَادَىٰ",
+            "word_normalized": "نادى",
+            "meaning": "دَعَا.",
+            "meaning_normalized": "دعا"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَهَنَ",
+            "word_normalized": "وهن",
+            "meaning": "ضَعُفَ.",
+            "meaning_normalized": "ضعف"
+          },
+          {
+            "ayah_number": 5,
+            "word": "ٱلْمَوَٰلِيَ",
+            "word_normalized": "الموالي",
+            "meaning": "أَقَارِبِي وَعَصَبَتِي.",
+            "meaning_normalized": "أقاربي وعصبتي"
+          },
+          {
+            "ayah_number": 5,
+            "word": "عَاقِرًا",
+            "word_normalized": "عاقرا",
+            "meaning": "لَا تَلِدُ.",
+            "meaning_normalized": "لا تلد"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَلِيًّا",
+            "word_normalized": "وليا",
+            "meaning": "وَلَدًا وَارِثًا، وَمُعِينًا يَلِي الْأَمَرَ مِنْ بَعْدِي.",
+            "meaning_normalized": "ولدا وارثا ومعينا يلي الأمر من بعدي"
+          },
+          {
+            "ayah_number": 8,
+            "word": "أَنَّىٰ",
+            "word_normalized": "أنى",
+            "meaning": "كَيْفَ؟",
+            "meaning_normalized": "كيف"
+          },
+          {
+            "ayah_number": 8,
+            "word": "عِتِيًّا",
+            "word_normalized": "عتيا",
+            "meaning": "النِّهَايَةَ فِي الْكِبَرِ، وَالْيَبَسِ.",
+            "meaning_normalized": "النهاية في الكبر واليبس"
+          },
+          {
+            "ayah_number": 10,
+            "word": "ءَايَةً",
+            "word_normalized": "آية",
+            "meaning": "عَلَامَةً عَلَى تَحَقُّقِ مَا بَشَّرَتْنِي بِهِ الْمَلَائِكَةُ.",
+            "meaning_normalized": "علامة على تحقق ما بشرتني به الملائكة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "سَوِيًّا",
+            "word_normalized": "سويا",
+            "meaning": "صَحِيحًا، مُعَافًى.",
+            "meaning_normalized": "صحيحا معافى"
+          },
+          {
+            "ayah_number": 11,
+            "word": "ٱلْمِحْرَابِ",
+            "word_normalized": "المحراب",
+            "meaning": "الْمُصَلَّى الَّذِي يُتَعَبَّدُ فِيهِ.",
+            "meaning_normalized": "المصلى الذي يتعبد فيه"
+          },
+          {
+            "ayah_number": 11,
+            "word": "فَأَوْحَىٰ إِلَيْهِمْ",
+            "word_normalized": "فأوحى إليهم",
+            "meaning": "أَشَارَ إِلَيْهِمْ.",
+            "meaning_normalized": "أشار إليهم"
+          },
+          {
+            "ayah_number": 11,
+            "word": "بُكْرَةً وَعَشِيًّا",
+            "word_normalized": "بكرة وعشيا",
+            "meaning": "صَبَاحًا، وَمَسَاءً.",
+            "meaning_normalized": "صباحا ومساء"
+          },
+          {
+            "ayah_number": 12,
+            "word": "خُذِ ٱلْكِتَٰبَ",
+            "word_normalized": "خذ الكتاب",
+            "meaning": "التَّوْرَاةَ.",
+            "meaning_normalized": "التوراة"
+          },
+          {
+            "ayah_number": 12,
+            "word": "بِقُوَّةٍ",
+            "word_normalized": "بقوة",
+            "meaning": "بِجِدٍّ، وَاجْتِهَادٍ؛ حِفْظًا، وَفَهْمًا، وَعَمَلًا.",
+            "meaning_normalized": "بجد واجتهاد حفظا وفهما وعملا"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ٱلْحُكْمَ",
+            "word_normalized": "الحكم",
+            "meaning": "الْحِكْمَةَ وَحُسْنَ الْفَهْمِ وَالْعَمَلِ.",
+            "meaning_normalized": "الحكمة وحسن الفهم والعمل"
+          },
+          {
+            "ayah_number": 13,
+            "word": "وَحَنَانًا",
+            "word_normalized": "وحنانا",
+            "meaning": "رَحْمَةً وَمَحَبَّةً.",
+            "meaning_normalized": "رحمة ومحبة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "وَزَكَوٰةً",
+            "word_normalized": "وزكاة",
+            "meaning": "طَهَارَةً مِنَ الذُّنُوبِ وَبَرَكَةً.",
+            "meaning_normalized": "طهارة من الذنوب وبركة"
+          },
+          {
+            "ayah_number": 16,
+            "word": "ٱنتَبَذَتْ",
+            "word_normalized": "انتبذت",
+            "meaning": "اعْتَزَلَتْ وَابْتَعَدَتْ.",
+            "meaning_normalized": "اعتزلت وابتعدت"
+          },
+          {
+            "ayah_number": 17,
+            "word": "رُوحَنَا",
+            "word_normalized": "روحنا",
+            "meaning": "جِبْرِيلَ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "جبريل عليه السلام"
+          }
+        ]
+      }
+    ]
+  }
+}

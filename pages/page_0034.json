@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 34,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "٣٤",
+      "left_normalized": "34"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ المَائِدَةِ",
+          "name_normalized": "سورة المائدة",
+          "order": 5,
+          "ayat_count": 120,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 5,
+            "word": "مُحصِنِينَ",
+            "word_normalized": "محصنين",
+            "meaning": "عَفِيفِينَ",
+            "meaning_normalized": "عفيفين"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَلَا مُتَّخِذِي أَخدَانٍ",
+            "word_normalized": "ولا متخذي أخدان",
+            "meaning": "غَيرَ مُتَّخِذِي عَشِيقَاتٍ",
+            "meaning_normalized": "غير متخذي عشيقات"
+          },
+          {
+            "ayah_number": 5,
+            "word": "جُنُبًا",
+            "word_normalized": "جنبا",
+            "meaning": "عَلَى جَنَابَةٍ",
+            "meaning_normalized": "على جنابة"
+          },
+          {
+            "ayah_number": 6,
+            "word": "لَامَستُمْ",
+            "word_normalized": "لامستم",
+            "meaning": "جَامَعتُمْ",
+            "meaning_normalized": "جامعتم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "فَتَيَمَّمُوا",
+            "word_normalized": "فتيمموا",
+            "meaning": "فَأَقصِدُوا",
+            "meaning_normalized": "فأقصدوا"
+          },
+          {
+            "ayah_number": 6,
+            "word": "صَعِيدًا",
+            "word_normalized": "صعيدا",
+            "meaning": "مَا عَلَى وَجهِ الأَرضِ، مِن تُرَابٍ وَنَحوِهِ",
+            "meaning_normalized": "ما على وجه الأرض من تراب ونحوه"
+          },
+          {
+            "ayah_number": 6,
+            "word": "هَلُمَّتًا",
+            "word_normalized": "هلمتا",
+            "meaning": "طَاهِرًا",
+            "meaning_normalized": "طاهرا"
+          },
+          {
+            "ayah_number": 8,
+            "word": "شُهَدَاءَ بِالقِسطِ",
+            "word_normalized": "شهداء بالقسط",
+            "meaning": "شَاهِدِينَ بِالعَدلِ",
+            "meaning_normalized": "شاهدين بالعدل"
+          },
+          {
+            "ayah_number": 8,
+            "word": "وَلَا يَجرِمَنَّكُمْ",
+            "word_normalized": "ولا يجرمنكم",
+            "meaning": "لَا يَحمِلَنَّكُمْ",
+            "meaning_normalized": "لا يحملنكم"
+          },
+          {
+            "ayah_number": 8,
+            "word": "شَنَآنُ",
+            "word_normalized": "شنآن",
+            "meaning": "بُغضٌ",
+            "meaning_normalized": "بغض"
+          },
+          {
+            "ayah_number": 11,
+            "word": "بَسَطُوا إِلَيكُمْ",
+            "word_normalized": "بسطوا إليكم",
+            "meaning": "مَدُّوهَا بِكُمْ",
+            "meaning_normalized": "مدوها بكم"
+          },
+          {
+            "ayah_number": 12,
+            "word": "نَقِيبًا",
+            "word_normalized": "نقيبا",
+            "meaning": "عَرِيفًا يَتَعَرَّفُ أَخبَارَهُمْ وَيَنقُبُ عَن أَحوَالِهِمْ",
+            "meaning_normalized": "عريفا يتعرف أخبارهم وينقب عن أحوالهم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "قَوَتَرَدُّوهُمْ",
+            "word_normalized": "قوتردوهم",
+            "meaning": "نَصَرتُمُوهُمْ",
+            "meaning_normalized": "نصرتموهم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "فَنَسُوا",
+            "word_normalized": "فنسوا",
+            "meaning": "تَرَكُوا",
+            "meaning_normalized": "تركوا"
+          },
+          {
+            "ayah_number": 14,
+            "word": "حَظًّا",
+            "word_normalized": "حظا",
+            "meaning": "نَصِيبًا",
+            "meaning_normalized": "نصيبا"
+          },
+          {
+            "ayah_number": 15,
+            "word": "قَوَاعَرِهُمْ",
+            "word_normalized": "قواعرهم",
+            "meaning": "هَيَّجنَا، وَأَلقَينَا",
+            "meaning_normalized": "هيجنا وألقينا"
+          },
+          {
+            "ayah_number": 16,
+            "word": "سُبُلَ السَّلَامِ",
+            "word_normalized": "سبل السلام",
+            "meaning": "طُرُقَ الأَمنِ وَالسَّلَامَةِ",
+            "meaning_normalized": "طرق الأمن والسلامة"
+          },
+          {
+            "ayah_number": 16,
+            "word": "قَنُورٍ",
+            "word_normalized": "قنور",
+            "meaning": "قُتُورٍ وَانقِطَاعٍ، وَهِيَ المُدَّةُ بَينَ النَّبِيِّ عِيسَى وَنَبِيِّنَا مُحَمَّدٍ ـ عَلَيهِمَا الصَّلَاةُ وَالسَّلَامُ ـ",
+            "meaning_normalized": "قتور وانقطاع وهي المدة بين النبي عيسى ونبينا محمد عليهما الصلاة والسلام"
+          },
+          {
+            "ayah_number": 41,
+            "word": "هَادُوا",
+            "word_normalized": "هادوا",
+            "meaning": "تَملِكُونَ أَمرَكُمْ بَعدَ أَن كُنتُمْ مَملُوكِينَ لِفِرعَونَ وَقَومِهِ",
+            "meaning_normalized": "تملكون أمركم بعد أن كنتم مملوكين لفرعون وقومه"
+          }
+        ]
+      }
+    ]
+  }
+}

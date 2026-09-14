@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 88,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرَّعْدِ",
+          "name_normalized": "سورة الرعد",
+          "order": 13,
+          "ayat_count": 43,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 17,
+            "word": "زَبَدًا",
+            "word_normalized": "زبدا",
+            "meaning": "غُثَاءً لَا نَفْعَ فِيهِ.",
+            "meaning_normalized": "غثاء لا نفع فيه"
+          },
+          {
+            "ayah_number": 17,
+            "word": "رَابِيًا",
+            "word_normalized": "رابيا",
+            "meaning": "مُرْتَفِعًا.",
+            "meaning_normalized": "مرتفعا"
+          },
+          {
+            "ayah_number": 17,
+            "word": "جُفَاءً",
+            "word_normalized": "جفاء",
+            "meaning": "مُتَلَاشِيًا لَا بَقَاءَ لَهُ، أَوْ يُرْمَى بِهِ؛ إِذْ لَا فَائِدَةَ مِنْهُ.",
+            "meaning_normalized": "متلاشيا لا بقاء له أو يرمى به إذ لا فائدة منه"
+          },
+          {
+            "ayah_number": 18,
+            "word": "الْحُسْنَى",
+            "word_normalized": "الحسنى",
+            "meaning": "الْجَنَّةُ.",
+            "meaning_normalized": "الجنة"
+          },
+          {
+            "ayah_number": 18,
+            "word": "الْمِهَادُ",
+            "word_normalized": "المهاد",
+            "meaning": "الْفِرَاشُ، وَالْمُسْتَقَرُّ.",
+            "meaning_normalized": "الفراش والمستقر"
+          },
+          {
+            "ayah_number": 19,
+            "word": "الْأَلْبَابِ",
+            "word_normalized": "الألباب",
+            "meaning": "الْعُقُولِ.",
+            "meaning_normalized": "العقول"
+          },
+          {
+            "ayah_number": 20,
+            "word": "الْمِيثَاقَ",
+            "word_normalized": "الميثاق",
+            "meaning": "الْعَهْدَ الْمُؤَكَّدَ.",
+            "meaning_normalized": "العهد المؤكد"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَيَدْرَؤُونَ",
+            "word_normalized": "ويدرؤون",
+            "meaning": "يَدْفَعُونَ.",
+            "meaning_normalized": "يدفعون"
+          },
+          {
+            "ayah_number": 22,
+            "word": "عُقْبَى الدَّارِ",
+            "word_normalized": "عقبى الدار",
+            "meaning": "الْعَاقِبَةُ الْمَحْمُودَةُ فِي الْآخِرَةِ.",
+            "meaning_normalized": "العاقبة المحمودة في الآخرة"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَيَقْدِرُ",
+            "word_normalized": "ويقدر",
+            "meaning": "يُضَيِّقُ.",
+            "meaning_normalized": "يضيق"
+          },
+          {
+            "ayah_number": 26,
+            "word": "مَتَاعٌ",
+            "word_normalized": "متاع",
+            "meaning": "شَيْءٌ قَلِيلٌ يَتَمَتَّعُ بِهِ سُرْعَانَ مَا يَزُولُ.",
+            "meaning_normalized": "شيء قليل يتمتع به سرعان ما يزول"
+          },
+          {
+            "ayah_number": 29,
+            "word": "طُوبَى لَهُمْ",
+            "word_normalized": "طوبى لهم",
+            "meaning": "فَرَجٌ، وَقُرَّةُ عَيْنٍ، وَحَالٌ طَيِّبَةٌ.",
+            "meaning_normalized": "فرج وقرة عين وحال طيبة"
+          },
+          {
+            "ayah_number": 31,
+            "word": "يَيْأَسِ",
+            "word_normalized": "ييأس",
+            "meaning": "يَعْلَمْ وَيَتَبَيَّنْ.",
+            "meaning_normalized": "يعلم ويتبين"
+          },
+          {
+            "ayah_number": 31,
+            "word": "قَارِعَةٌ",
+            "word_normalized": "قارعة",
+            "meaning": "مُصِيبَةٌ.",
+            "meaning_normalized": "مصيبة"
+          },
+          {
+            "ayah_number": 32,
+            "word": "فَأَمْلَيْتُ",
+            "word_normalized": "فأمليت",
+            "meaning": "أَمْهَلْتُ.",
+            "meaning_normalized": "أمهلت"
+          },
+          {
+            "ayah_number": 33,
+            "word": "أَمْ بِظَاهِرٍ مِنَ الْقَوْلِ",
+            "word_normalized": "أم بظاهر من القول",
+            "meaning": "أَيْ: تُسَمُّونَهُمْ شُرَكَاءَ فِي ظَاهِرِ الْقَوْلِ، مِنْ غَيْرِ أَنْ يَكُونَ لَهُمْ حَقِيقَةٌ.",
+            "meaning_normalized": "أي تسمونهم شركاء في ظاهر القول من غير أن يكون لهم حقيقة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "أُكُلُهَا",
+            "word_normalized": "أكلها",
+            "meaning": "ثَمَرُهَا.",
+            "meaning_normalized": "ثمرها"
+          },
+          {
+            "ayah_number": 35,
+            "word": "عُقْبَى",
+            "word_normalized": "عقبى",
+            "meaning": "عَاقِبَةُ.",
+            "meaning_normalized": "عاقبة"
+          },
+          {
+            "ayah_number": 36,
+            "word": "الْأَحْزَابِ",
+            "word_normalized": "الأحزاب",
+            "meaning": "الْمُتَحَزِّبِينَ، الْمُتَجَمِّعِينَ عَلَى الْكُفْرِ.",
+            "meaning_normalized": "المتحزبين المتجمعين على الكفر"
+          }
+        ]
+      }
+    ]
+  }
+}

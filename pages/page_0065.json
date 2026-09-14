@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 65,
+    "header": {
+      "right": "سُورَةُ التَّوْبَةِ",
+      "right_normalized": "سورة التوبة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّوْبَةِ",
+          "name_normalized": "سورة التوبة",
+          "order": 9,
+          "ayat_count": 129,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 54,
+            "word": "يَنْفِقُونَ",
+            "word_normalized": "ينفقون",
+            "meaning": "يُعَاقِبُونَ.",
+            "meaning_normalized": "يعاقبون"
+          },
+          {
+            "ayah_number": 57,
+            "word": "مَلْجَئًا",
+            "word_normalized": "ملجئا",
+            "meaning": "مَأْمَنًا، وَحِصْنًا.",
+            "meaning_normalized": "مأمنا وحصنا"
+          },
+          {
+            "ayah_number": 57,
+            "word": "مُدْبَرًا بِهِ",
+            "word_normalized": "مدبرا به",
+            "meaning": "كَهْفًا فِي الْجِبَالِ.",
+            "meaning_normalized": "كهفا في الجبال"
+          },
+          {
+            "ayah_number": 57,
+            "word": "مُدَّعَلًا",
+            "word_normalized": "مدعلا",
+            "meaning": "نَفَقًا.",
+            "meaning_normalized": "نفقا"
+          },
+          {
+            "ayah_number": 57,
+            "word": "يَسْرَعُونَ",
+            "word_normalized": "يسرعون",
+            "meaning": "يُسْرِعُونَ.",
+            "meaning_normalized": "يسرعون"
+          },
+          {
+            "ayah_number": 58,
+            "word": "يَلْمِزُكَ",
+            "word_normalized": "يلمزك",
+            "meaning": "يَعِيبُكَ.",
+            "meaning_normalized": "يعيبك"
+          },
+          {
+            "ayah_number": 60,
+            "word": "حَسْبُنَا اللهُ",
+            "word_normalized": "حسبنا الله",
+            "meaning": "كَافِينَا اللهُ.",
+            "meaning_normalized": "كافينا الله"
+          },
+          {
+            "ayah_number": 60,
+            "word": "لِلْفُقَرَاءِ",
+            "word_normalized": "للفقراء",
+            "meaning": "لِلَّذِينَ لَا يَمْلِكُونَ شَيْئًا.",
+            "meaning_normalized": "للذين لا يملكون شيئا"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَالْمَسَاكِينِ",
+            "word_normalized": "والمساكين",
+            "meaning": "الَّذِينَ يَمْلِكُونَ دُونَ كِفَايَتِهِمْ.",
+            "meaning_normalized": "الذين يملكون دون كفايتهم"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَالْعَامِلِينَ عَلَيْهَا",
+            "word_normalized": "والعاملين عليها",
+            "meaning": "السُّعَاةِ الَّذِينَ يَجْمَعُونَ الزَّكَاةَ.",
+            "meaning_normalized": "السعاة الذين يجمعون الزكاة"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَالْمُؤَلَّفَةُ قُلُوبُهُمْ",
+            "word_normalized": "والمؤلفة قلوبهم",
+            "meaning": "مَنْ يُرْجَى إِسْلَامُهُمْ، أَوْ دَفْعُ شَرِّهِمْ.",
+            "meaning_normalized": "من يرجى إسلامهم أو دفع شرهم"
+          },
+          {
+            "ayah_number": 60,
+            "word": "الرِّقَابِ",
+            "word_normalized": "الرقاب",
+            "meaning": "عِتْقُ الرِّقَابِ، وَفَكَاكُ الْأَسْرَى.",
+            "meaning_normalized": "عتق الرقاب وفكاك الأسرى"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَالْغَارِمِينَ",
+            "word_normalized": "والغارمين",
+            "meaning": "الْمَدِينِينَ، وَمَنْ غَرِمُوا لِإِصْلَاحِ ذَاتِ الْبَيْنِ.",
+            "meaning_normalized": "المدينين ومن غرموا لإصلاح ذات البين"
+          },
+          {
+            "ayah_number": 60,
+            "word": "وَفِي سَبِيلِ اللهِ",
+            "word_normalized": "وفي سبيل الله",
+            "meaning": "فِي الْجِهَادِ.",
+            "meaning_normalized": "في الجهاد"
+          },
+          {
+            "ayah_number": 61,
+            "word": "وَابْنِ السَّبِيلِ",
+            "word_normalized": "وابن السبيل",
+            "meaning": "الْمُسَافِرِ، الْمُنْقَطِعِ.",
+            "meaning_normalized": "المسافر المنقطع"
+          },
+          {
+            "ayah_number": 61,
+            "word": "أُذُنٌ",
+            "word_normalized": "أذن",
+            "meaning": "يَسْتَمِعُ لِكُلِّ مَا يُقَالُ لَهُ، نَصِيحَةً.",
+            "meaning_normalized": "يستمع لكل ما يقال له نصيحة"
+          },
+          {
+            "ayah_number": 66,
+            "word": "وَنُزَيِّنُ لِلْمُؤْمِنِينَ",
+            "word_normalized": "ونزيين للمؤمنين",
+            "meaning": "يُصَدِّقُ الْمُؤْمِنِينَ فِيمَا يُخْبِرُونَهُ.",
+            "meaning_normalized": "يصدق المؤمنين فيما يخبرونه"
+          },
+          {
+            "ayah_number": 64,
+            "word": "يُحَاذِرُونَ",
+            "word_normalized": "يحاذرون",
+            "meaning": "يُنَافِقُ وَيُخَالِفُ.",
+            "meaning_normalized": "ينافق ويخالف"
+          },
+          {
+            "ayah_number": 68,
+            "word": "حَسْبُهُمْ",
+            "word_normalized": "حسبهم",
+            "meaning": "كَافِيهِمْ.",
+            "meaning_normalized": "كافيهم"
+          },
+          {
+            "ayah_number": 69,
+            "word": "فَاسْتَمْتَعْتُمْ بِظَلَلِهِمْ",
+            "word_normalized": "فاستمتعتم بظللهم",
+            "meaning": "تَمَتَّعُوا نَصِيبُهُمْ مِنْ مَلَاذِّ الدُّنْيَا.",
+            "meaning_normalized": "تمتعوا نصيبهم من ملاذ الدنيا"
+          },
+          {
+            "ayah_number": 79,
+            "word": "وَخَشَعَتُمْ",
+            "word_normalized": "وخشعتم",
+            "meaning": "دَخَلْتُمْ فِي الْكَذِبِ وَالْبَاطِلِ.",
+            "meaning_normalized": "دخلتم في الكذب والباطل"
+          }
+        ]
+      }
+    ]
+  }
+}

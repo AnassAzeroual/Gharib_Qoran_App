@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 106,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْإِسْرَاءِ",
+          "name_normalized": "سورة الإسراء",
+          "order": 17,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 77,
+            "word": "تَحْوِيلًا",
+            "word_normalized": "تحويلا",
+            "meaning": "تَغْيِيرًا.",
+            "meaning_normalized": "تغييرا"
+          },
+          {
+            "ayah_number": 78,
+            "word": "لِدُلُوكِ ٱلشَّمْسِ",
+            "word_normalized": "لدلوك الشمس",
+            "meaning": "مِنْ وَقْتِ زَوَالِ الشَّمْسِ عِنْدَ الظَّهِيرَةِ.",
+            "meaning_normalized": "من وقت زوال الشمس عند الظهيرة"
+          },
+          {
+            "ayah_number": 78,
+            "word": "غَسَقِ ٱلَّيْلِ",
+            "word_normalized": "غسق الليل",
+            "meaning": "ظُلْمَتِهِ.",
+            "meaning_normalized": "ظلمته"
+          },
+          {
+            "ayah_number": 78,
+            "word": "وَقُرْءَانَ ٱلْفَجْرِ",
+            "word_normalized": "وقرآن الفجر",
+            "meaning": "صَلَاةَ الصُّبْحِ الَّتِي تُطَالُ فِيهَا قِرَاءَةُ الْقُرْآنِ.",
+            "meaning_normalized": "صلاة الصبح التي تطال فيها قراءة القرآن"
+          },
+          {
+            "ayah_number": 78,
+            "word": "مَشْهُودًا",
+            "word_normalized": "مشهودا",
+            "meaning": "تَحْضُرُهَا مَلَائِكَةُ اللَّيْلِ وَالنَّهَارِ.",
+            "meaning_normalized": "تحضرها ملائكة الليل والنهار"
+          },
+          {
+            "ayah_number": 79,
+            "word": "فَتَهَجَّدْ",
+            "word_normalized": "فتهجد",
+            "meaning": "قُمْ مِنْ نَوْمِكَ فِي اللَّيْلِ لِلصَّلَاةِ.",
+            "meaning_normalized": "قم من نومك في الليل للصلاة"
+          },
+          {
+            "ayah_number": 79,
+            "word": "نَافِلَةً لَكَ",
+            "word_normalized": "نافلة لك",
+            "meaning": "زِيَادَةً لَكَ فِي عُلُوِّ الْقَدْرِ، وَرَفْعِ الدَّرَجَاتِ.",
+            "meaning_normalized": "زيادة لك في علو القدر ورفع الدرجات"
+          },
+          {
+            "ayah_number": 79,
+            "word": "مَقَامًا مَحْمُودًا",
+            "word_normalized": "مقاما محمودا",
+            "meaning": "مَقَامَ الشَّفَاعَةِ الْعُظْمَى لِفَصْلِ الْقَضَاءِ يَوْمَ الْقِيَامَةِ.",
+            "meaning_normalized": "مقام الشفاعة العظمى لفصل القضاء يوم القيامة"
+          },
+          {
+            "ayah_number": 80,
+            "word": "مُدْخَلَ صِدْقٍ",
+            "word_normalized": "مدخل صدق",
+            "meaning": "أَيْ: إِدْخَالًا مَرْضِيًّا.",
+            "meaning_normalized": "أي إدخالا مرضيا"
+          },
+          {
+            "ayah_number": 80,
+            "word": "سُلْطَٰنًا",
+            "word_normalized": "سلطانا",
+            "meaning": "حُجَّةً، وَقُوَّةً.",
+            "meaning_normalized": "حجة وقوة"
+          },
+          {
+            "ayah_number": 81,
+            "word": "وَزَهَقَ",
+            "word_normalized": "وزهق",
+            "meaning": "بَطَلَ، وَاضْمَحَلَّ.",
+            "meaning_normalized": "بطل واضمحل"
+          },
+          {
+            "ayah_number": 81,
+            "word": "زَهُوقًا",
+            "word_normalized": "زهوقا",
+            "meaning": "لَا بَقَاءَ لَهُ، وَلَا ثَبَاتَ.",
+            "meaning_normalized": "لا بقاء له ولا ثبات"
+          },
+          {
+            "ayah_number": 83,
+            "word": "وَنَـَٔا بِجَانِبِهِۦ",
+            "word_normalized": "ونأى بجانبه",
+            "meaning": "تَبَاعَدَ عَنْ طَاعَةِ رَبِّهِ كِبْرًا، وَعِنَادًا.",
+            "meaning_normalized": "تباعد عن طاعة ربه كبرا وعنادا"
+          },
+          {
+            "ayah_number": 83,
+            "word": "يَـُٔوسًا",
+            "word_normalized": "يئوسا",
+            "meaning": "قَنُوطًا مِنْ رَحْمَةِ اللهِ.",
+            "meaning_normalized": "قنوطا من رحمة الله"
+          },
+          {
+            "ayah_number": 84,
+            "word": "شَاكِلَتِهِۦ",
+            "word_normalized": "شاكلته",
+            "meaning": "طَرِيقَتِهِ، وَمَا يَلِيقُ بِهِ.",
+            "meaning_normalized": "طريقته وما يليق به"
+          },
+          {
+            "ayah_number": 88,
+            "word": "ظَهِيرًا",
+            "word_normalized": "ظهيرا",
+            "meaning": "مُعِينًا.",
+            "meaning_normalized": "معينا"
+          },
+          {
+            "ayah_number": 89,
+            "word": "صَرَّفْنَا",
+            "word_normalized": "صرفنا",
+            "meaning": "نَوَّعْنَا وَبَيَّنَّا.",
+            "meaning_normalized": "نوعنا وبينا"
+          },
+          {
+            "ayah_number": 90,
+            "word": "يَنۢبُوعًا",
+            "word_normalized": "ينبوعا",
+            "meaning": "عَيْنًا جَارِيَةً.",
+            "meaning_normalized": "عينا جارية"
+          },
+          {
+            "ayah_number": 92,
+            "word": "كِسَفًا",
+            "word_normalized": "كسفا",
+            "meaning": "قِطَعًا.",
+            "meaning_normalized": "قطعا"
+          },
+          {
+            "ayah_number": 92,
+            "word": "قَبِيلًا",
+            "word_normalized": "قبيلا",
+            "meaning": "نُشَاهِدُهُمْ مُقَابَلَةً وَعِيَانًا.",
+            "meaning_normalized": "نشاهدهم مقابلة وعيانا"
+          }
+        ]
+      }
+    ]
+  }
+}

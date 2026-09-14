@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 66,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّوْبَةِ",
+          "name_normalized": "سورة التوبة",
+          "order": 9,
+          "ayat_count": 129,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 74,
+            "word": "خَسِلَتْ",
+            "word_normalized": "خسلت",
+            "meaning": "بَطَلَتْ.",
+            "meaning_normalized": "بطلت"
+          },
+          {
+            "ayah_number": 75,
+            "word": "وَالْمُقَوِّيَاتِ",
+            "word_normalized": "والمقويات",
+            "meaning": "قُرَى قَوْمٍ لُوطٍ، سُمِّيَتْ بِذَلِكَ؛ لِأَنَّ اللهَ قَلَبَهَا عَلَيْهِمْ.",
+            "meaning_normalized": "قرى قوم لوط سميت بذلك لأن الله قلبها عليهم"
+          },
+          {
+            "ayah_number": 72,
+            "word": "عَدْنٍ",
+            "word_normalized": "عدن",
+            "meaning": "إِقَامَةٌ.",
+            "meaning_normalized": "إقامة"
+          },
+          {
+            "ayah_number": 72,
+            "word": "فَتَجَزَّرُوا",
+            "word_normalized": "فتجزروا",
+            "meaning": "كَرِهُوا، وَعَابُوا.",
+            "meaning_normalized": "كرهوا وعابوا"
+          },
+          {
+            "ayah_number": 77,
+            "word": "فَأَعْقَبَهُمْ",
+            "word_normalized": "فأعقبهم",
+            "meaning": "فَصَيَّرَ عَاقِبَتَهُمْ وَجَزَاءَهُمْ.",
+            "meaning_normalized": "فصير عاقبتهم وجزاءهم"
+          },
+          {
+            "ayah_number": 78,
+            "word": "يَلْمِزُونَ",
+            "word_normalized": "يلمزون",
+            "meaning": "يَعِيبُونَ.",
+            "meaning_normalized": "يعيبون"
+          },
+          {
+            "ayah_number": 79,
+            "word": "الْمُطَّوِّعِينَ",
+            "word_normalized": "المطوعين",
+            "meaning": "الَّذِينَ يَتَطَوَّعُونَ بِالصَّدَقَةِ بِالْمَالِ الْكَثِيرِ.",
+            "meaning_normalized": "الذين يتطوعون بالصدقة بالمال الكثير"
+          },
+          {
+            "ayah_number": 80,
+            "word": "يَعْقُودُهُمْ",
+            "word_normalized": "يعقودهم",
+            "meaning": "بِعُقُودِهِمْ.",
+            "meaning_normalized": "بعقودهم"
+          },
+          {
+            "ayah_number": 81,
+            "word": "خِلَافُ",
+            "word_normalized": "خلاف",
+            "meaning": "مُخَالَفِينَ.",
+            "meaning_normalized": "مخالفين"
+          },
+          {
+            "ayah_number": 82,
+            "word": "الْمُتَخَلِّفُونَ",
+            "word_normalized": "المتخلفون",
+            "meaning": "الْمُتَخَلِّفِينَ عَنِ الْجِهَادِ.",
+            "meaning_normalized": "المتخلفين عن الجهاد"
+          },
+          {
+            "ayah_number": 83,
+            "word": "وَأُولُوا الطَّوْلِ",
+            "word_normalized": "وأولوا الطول",
+            "meaning": "أَصْحَابُ الْقُوَى وَالسَّعَةِ.",
+            "meaning_normalized": "أصحاب القوى والسعة"
+          },
+          {
+            "ayah_number": 87,
+            "word": "الْخَوَالِفُ",
+            "word_normalized": "الخوالف",
+            "meaning": "الْقَاعِدِينَ، الْمُتَخَلِّفِينَ؛ مِنَ النِّسَاءِ، وَالصِّبْيَانِ، وَأَصْحَابِ الْأَعْذَارِ.",
+            "meaning_normalized": "القاعدين المتخلفين من النساء والصبيان وأصحاب الأعذار"
+          },
+          {
+            "ayah_number": 87,
+            "word": "وَطُبِعَ",
+            "word_normalized": "وطبع",
+            "meaning": "خُتِمَ.",
+            "meaning_normalized": "ختم"
+          },
+          {
+            "ayah_number": 90,
+            "word": "الْمُعَذِّرُونَ",
+            "word_normalized": "المعذرون",
+            "meaning": "الْمُعْتَذِرُونَ.",
+            "meaning_normalized": "المعتذرون"
+          },
+          {
+            "ayah_number": 90,
+            "word": "الْأَعْرَابِ",
+            "word_normalized": "الأعراب",
+            "meaning": "كَالْبَدْوِ.",
+            "meaning_normalized": "كالبدو"
+          },
+          {
+            "ayah_number": 92,
+            "word": "حَرَجٌ",
+            "word_normalized": "حرج",
+            "meaning": "إِثْمٌ.",
+            "meaning_normalized": "إثم"
+          },
+          {
+            "ayah_number": 92,
+            "word": "يَنْتَصِرُوا بِهِ",
+            "word_normalized": "ينتصروا به",
+            "meaning": "أَخْلَصُوا للهِ، وَلَمْ يَنْفَقُوا، وَعَلِمَ اللهُ مِنْ قُلُوبِهِمْ أَنَّهُمْ لَوْ لَمْ يَجِدُوا الْعُذْرَ لَجَاهَدُوا.",
+            "meaning_normalized": "أخلصوا لله ولم ينفقوا وعلم الله من قلوبهم أنهم لو لم يجدوا العذر لجاهدوا"
+          },
+          {
+            "ayah_number": 93,
+            "word": "لَيُحْمِلَهُمْ",
+            "word_normalized": "ليحملهم",
+            "meaning": "لِتَجِدَ لَهُمْ دَوَابَّ يَرْكَبُونَهَا لِلْجِهَادِ.",
+            "meaning_normalized": "لتجد لهم دواب يركبونها للجهاد"
+          }
+        ]
+      }
+    ]
+  }
+}

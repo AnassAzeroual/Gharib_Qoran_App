@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 84,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يُوسُفَ",
+          "name_normalized": "سورة يوسف",
+          "order": 12,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 51,
+            "word": "حَاشَ لِلَّهِ",
+            "word_normalized": "حاش لله",
+            "meaning": "تَنْزِيهًا لِلَّهِ.",
+            "meaning_normalized": "تنزيها لله"
+          },
+          {
+            "ayah_number": 51,
+            "word": "حَصْحَصَ الْحَقُّ",
+            "word_normalized": "حصحص الحق",
+            "meaning": "ظَهَرَ بَعْدَ خَفَائِهِ.",
+            "meaning_normalized": "ظهر بعد خفائه"
+          },
+          {
+            "ayah_number": 53,
+            "word": "لَأَمَّارَةٌ بِالسُّوءِ",
+            "word_normalized": "لأمارة بالسوء",
+            "meaning": "كَثِيرَةُ الْأَمْرِ بِالْمَعَاصِي.",
+            "meaning_normalized": "كثيرة الأمر بالمعاصي"
+          },
+          {
+            "ayah_number": 54,
+            "word": "أَسْتَخْلِصْهُ",
+            "word_normalized": "أستخلصه",
+            "meaning": "أَجْعَلْهُ مِنْ خُلَصَائِي، وَأَهْلِ مَشُورَتِي.",
+            "meaning_normalized": "أجعله من خلصائي وأهل مشورتي"
+          },
+          {
+            "ayah_number": 54,
+            "word": "مَكِينٌ",
+            "word_normalized": "مكين",
+            "meaning": "عَظِيمُ الْمَكَانَةِ.",
+            "meaning_normalized": "عظيم المكانة"
+          },
+          {
+            "ayah_number": 56,
+            "word": "يَتَبَوَّأُ",
+            "word_normalized": "يتبوأ",
+            "meaning": "يَنْزِلُ.",
+            "meaning_normalized": "ينزل"
+          },
+          {
+            "ayah_number": 59,
+            "word": "جَهَّزَهُمْ بِجَهَازِهِمْ",
+            "word_normalized": "جهزهم بجهازهم",
+            "meaning": "أَعْطَاهُمْ مَا طَلَبُوا، وَوَفَّى الْكَيْلَ لَهُمْ.",
+            "meaning_normalized": "أعطاهم ما طلبوا ووفى الكيل لهم"
+          },
+          {
+            "ayah_number": 61,
+            "word": "سَنُرَاوِدُ عَنْهُ أَبَاهُ",
+            "word_normalized": "سنراود عنه أباه",
+            "meaning": "سَنَبْذُلُ جُهْدَنَا، لِإِقْنَاعِ أَبِيهِ.",
+            "meaning_normalized": "سنبذل جهدنا لإقناع أبيه"
+          },
+          {
+            "ayah_number": 62,
+            "word": "بِضَاعَتَهُمْ",
+            "word_normalized": "بضاعتهم",
+            "meaning": "الثَّمَنَ الَّذِي دَفَعُوهُ.",
+            "meaning_normalized": "الثمن الذي دفعوه"
+          },
+          {
+            "ayah_number": 62,
+            "word": "رِحَالِهِمْ",
+            "word_normalized": "رحالهم",
+            "meaning": "أَمْتِعَتِهِمْ، وَأَوْعِيَتِهِمْ.",
+            "meaning_normalized": "أمتعتهم وأوعيتهم"
+          },
+          {
+            "ayah_number": 65,
+            "word": "مَتَاعَهُمْ",
+            "word_normalized": "متاعهم",
+            "meaning": "أَوْعِيَتَهُمْ.",
+            "meaning_normalized": "أوعيتهم"
+          },
+          {
+            "ayah_number": 65,
+            "word": "مَا نَبْغِي",
+            "word_normalized": "ما نبغي",
+            "meaning": "مَاذَا نَطْلُبُ أَكْثَرَ مِنْ هَذَا؟",
+            "meaning_normalized": "ماذا نطلب أكثر من هذا"
+          },
+          {
+            "ayah_number": 65,
+            "word": "بِضَاعَتُنَا",
+            "word_normalized": "بضاعتنا",
+            "meaning": "الثَّمَنُ الَّذِي دَفَعْنَاهُ.",
+            "meaning_normalized": "الثمن الذي دفعناه"
+          },
+          {
+            "ayah_number": 65,
+            "word": "وَنَمِيرُ",
+            "word_normalized": "ونمير",
+            "meaning": "نَجْلِبُ طَعَامًا وَفِيرًا.",
+            "meaning_normalized": "نجلب طعاما وفيرا"
+          },
+          {
+            "ayah_number": 65,
+            "word": "كَيْلَ بَعِيرٍ",
+            "word_normalized": "كيل بعير",
+            "meaning": "حِمْلَ بَعِيرٍ.",
+            "meaning_normalized": "حمل بعير"
+          },
+          {
+            "ayah_number": 69,
+            "word": "آوَى",
+            "word_normalized": "آوى",
+            "meaning": "ضَمَّ.",
+            "meaning_normalized": "ضم"
+          },
+          {
+            "ayah_number": 69,
+            "word": "فَلَا تَبْتَئِسْ",
+            "word_normalized": "فلا تبتئس",
+            "meaning": "فَلَا تَغْتَمَّ.",
+            "meaning_normalized": "فلا تغتم"
+          },
+          {
+            "ayah_number": 70,
+            "word": "السِّقَايَةَ",
+            "word_normalized": "السقاية",
+            "meaning": "الْإِنَاءَ الَّذِي كَانَ يَكِيلُ بِهِ لِلنَّاسِ.",
+            "meaning_normalized": "الإناء الذي كان يكيل به للناس"
+          },
+          {
+            "ayah_number": 70,
+            "word": "رَحْلِ",
+            "word_normalized": "رحل",
+            "meaning": "مَتَاعٍ.",
+            "meaning_normalized": "متاع"
+          },
+          {
+            "ayah_number": 70,
+            "word": "الْعِيرُ",
+            "word_normalized": "العير",
+            "meaning": "الْقَافِلَةُ فِيهَا الْأَحْمَالُ.",
+            "meaning_normalized": "القافلة فيها الأحمال"
+          },
+          {
+            "ayah_number": 72,
+            "word": "صُوَاعَ",
+            "word_normalized": "صواع",
+            "meaning": "صَاعَ.",
+            "meaning_normalized": "صاع"
+          }
+        ]
+      }
+    ]
+  }
+}

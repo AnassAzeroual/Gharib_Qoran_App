@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 43,
+    "header": {
+      "right": "سُورَةُ الأَنعَامِ",
+      "right_normalized": "سورة الأنعام",
+      "left": "٤٣",
+      "left_normalized": "43"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الأَنعَامِ",
+          "name_normalized": "سورة الأنعام",
+          "order": 6,
+          "ayat_count": 165,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 98,
+            "word": "وَمُستَودَعٌ",
+            "word_normalized": "ومستودع",
+            "meaning": "صُلبُ الرَّجُلِ؛ تُحفَظُ فِيهِ النُّطفَةُ",
+            "meaning_normalized": "صلب الرجل تحفظ فيه النطفة"
+          },
+          {
+            "ayah_number": 99,
+            "word": "مُختَلِفًا",
+            "word_normalized": "مختلفا",
+            "meaning": "رِزعًا، وَشَجَرًا أَخضَرَ",
+            "meaning_normalized": "رزعا وشجرا أخضر"
+          },
+          {
+            "ayah_number": 99,
+            "word": "مُتَرَاكِبًا",
+            "word_normalized": "متراكبا",
+            "meaning": "يَركَبُ بَعضُهُ فَوقَ بَعضٍ",
+            "meaning_normalized": "يركب بعضه فوق بعض"
+          },
+          {
+            "ayah_number": 99,
+            "word": "طَلعِهَا",
+            "word_normalized": "طلعها",
+            "meaning": "مَا تَفتَأُ فِيهِ عُذُوقُ الرُّطَبِ",
+            "meaning_normalized": "ما تفتأ فيه عذوق الرطب"
+          },
+          {
+            "ayah_number": 99,
+            "word": "وَقِنوَانٌ دَانِيَةٌ",
+            "word_normalized": "وقنوان دانية",
+            "meaning": "عُذُوقٌ قَرِيبَةُ التَّنَاوُلِ",
+            "meaning_normalized": "عذوق قريبة التناول"
+          },
+          {
+            "ayah_number": 99,
+            "word": "وَيَنعِهِ",
+            "word_normalized": "وينعه",
+            "meaning": "نُضجِهِ، وَبُلُوغِهِ حَتَّى يَنعَمَ",
+            "meaning_normalized": "نضجه وبلوغه حتى ينعم"
+          },
+          {
+            "ayah_number": 100,
+            "word": "جَعَلُوهُ",
+            "word_normalized": "جعلوه",
+            "meaning": "اِختَلَقُوا وَاتَّخَذُوا لَهُ شُبَهَاءَ",
+            "meaning_normalized": "اختلقوا واتخذوا له شبهاء"
+          },
+          {
+            "ayah_number": 101,
+            "word": "بَدِيعُ",
+            "word_normalized": "بديع",
+            "meaning": "خَالِقٌ، وَمُبدِعٌ",
+            "meaning_normalized": "خالق ومبدع"
+          },
+          {
+            "ayah_number": 103,
+            "word": "لَا تُدرِكُهُ الأَبصَارُ",
+            "word_normalized": "لا تدركه الأبصار",
+            "meaning": "يُبصِرُهَا، وَيُحِيطُ بِهَا عِلمًا",
+            "meaning_normalized": "يبصرها ويحيط بها علما"
+          },
+          {
+            "ayah_number": 104,
+            "word": "بَصَائِرُ",
+            "word_normalized": "بصائر",
+            "meaning": "بَرَاهِينُ",
+            "meaning_normalized": "براهين"
+          },
+          {
+            "ayah_number": 105,
+            "word": "نُصَرِّفُ",
+            "word_normalized": "نصرف",
+            "meaning": "نُبَيِّنُ",
+            "meaning_normalized": "نبين"
+          },
+          {
+            "ayah_number": 105,
+            "word": "دَرَستَ",
+            "word_normalized": "درست",
+            "meaning": "تَعَلَّمتَ",
+            "meaning_normalized": "تعلمت"
+          },
+          {
+            "ayah_number": 108,
+            "word": "عَدوًا",
+            "word_normalized": "عدوا",
+            "meaning": "اِعتِدَاءً",
+            "meaning_normalized": "اعتداء"
+          },
+          {
+            "ayah_number": 109,
+            "word": "جَهدَ أَيمَانِهِمْ",
+            "word_normalized": "جهد أيمانهم",
+            "meaning": "بِأَيمَانٍ مُؤَكَّدَةٍ",
+            "meaning_normalized": "بأيمان مؤكدة"
+          },
+          {
+            "ayah_number": 109,
+            "word": "يَشعُرُكُمْ",
+            "word_normalized": "يشعركم",
+            "meaning": "يُدرِيكُمْ",
+            "meaning_normalized": "يدريكم"
+          },
+          {
+            "ayah_number": 110,
+            "word": "يَعمَهُونَ",
+            "word_normalized": "يعمهون",
+            "meaning": "يَتَحَيَّرُونَ",
+            "meaning_normalized": "يتحيرون"
+          },
+          {
+            "ayah_number": 111,
+            "word": "وَحَشَرنَا",
+            "word_normalized": "وحشرنا",
+            "meaning": "جَمَعنَا",
+            "meaning_normalized": "جمعنا"
+          },
+          {
+            "ayah_number": 112,
+            "word": "قُبُلًا",
+            "word_normalized": "قبلا",
+            "meaning": "مُوَاجَهَةً",
+            "meaning_normalized": "مواجهة"
+          },
+          {
+            "ayah_number": 112,
+            "word": "زُخرُفَ القَولِ",
+            "word_normalized": "زخرف القول",
+            "meaning": "القَولَ البَاطِلَ الَّذِي زَيَّنَهُ قَائِلُوهُ",
+            "meaning_normalized": "القول الباطل الذي زينه قائلوه"
+          },
+          {
+            "ayah_number": 113,
+            "word": "غُرُورًا",
+            "word_normalized": "غرورا",
+            "meaning": "خِدَاعًا",
+            "meaning_normalized": "خداعا"
+          },
+          {
+            "ayah_number": 113,
+            "word": "يَفتَرُونَ",
+            "word_normalized": "يفترون",
+            "meaning": "يَختَلِقُونَ مِن كَذِبٍ وَزُورٍ",
+            "meaning_normalized": "يختلقون من كذب وزور"
+          }
+        ]
+      }
+    ]
+  }
+}

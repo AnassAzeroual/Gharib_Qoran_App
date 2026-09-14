@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 33,
+    "header": {
+      "right": "سُورَةُ المَائِدَةِ",
+      "right_normalized": "سورة المائدة",
+      "left": "٣٣",
+      "left_normalized": "33"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ المَائِدَةِ",
+          "name_normalized": "سورة المائدة",
+          "order": 5,
+          "ayat_count": 120,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "شَنَآنُ",
+            "word_normalized": "شنآن",
+            "meaning": "بُغضٌ",
+            "meaning_normalized": "بغض"
+          },
+          {
+            "ayah_number": 3,
+            "word": "المَيتَةُ",
+            "word_normalized": "الميتة",
+            "meaning": "الحَيَوَانُ الَّذِي مَاتَ حَتفَ أَنفِهِ بِدُونِ ذَكَاءٍ",
+            "meaning_normalized": "الحيوان الذي مات حتف أنفه بدون ذكاء"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَأُهِلَّ لِغَيرِ اللهِ بِهِ",
+            "word_normalized": "وأهل لغير الله به",
+            "meaning": "ذُكِرَ عَلَيهِ اسمٌ غَيرُ اللهِ عِندَ الذَّبحِ",
+            "meaning_normalized": "ذكر عليه اسم غير الله عند الذبح"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَالمُنخَنِقَةُ",
+            "word_normalized": "والمنخنقة",
+            "meaning": "هِيَ: الَّتِي حُبِسَ نَفَسُهَا حَتَّى مَاتَت",
+            "meaning_normalized": "هي التي حبس نفسها حتى ماتت"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَالمَوقُوذَةُ",
+            "word_normalized": "والموقوذة",
+            "meaning": "هِيَ: الَّتِي ضُرِبَت بِعَصًا أَو حَجَرٍ حَتَّى مَاتَت",
+            "meaning_normalized": "هي التي ضربت بعصا أو حجر حتى ماتت"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَالمُتَرَدِّيَةُ",
+            "word_normalized": "والمتردية",
+            "meaning": "هِيَ: الَّتِي سَقَطَت مِن مَكَانٍ عَالٍ فَمَاتَت",
+            "meaning_normalized": "هي التي سقطت من مكان عال فماتت"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَالنَّطِيحَةُ",
+            "word_normalized": "والنطيحة",
+            "meaning": "هِيَ: الَّتِي ضَرَبَتهَا أُخرَى بِقَرنِهَا فَمَاتَت",
+            "meaning_normalized": "هي التي ضربتها أخرى بقرنها فماتت"
+          },
+          {
+            "ayah_number": 3,
+            "word": "النُّصُبُ",
+            "word_normalized": "النصب",
+            "meaning": "مَا يُوضَعُ لِلعِبَادَةِ مِن حَجَرٍ أَو غَيرِهِ",
+            "meaning_normalized": "ما يوضع للعبادة من حجر أو غيره"
+          },
+          {
+            "ayah_number": 3,
+            "word": "قَتَستَقسِمُوا",
+            "word_normalized": "قتستقسموا",
+            "meaning": "تَطلُبُوا مَعرِفَةَ مَا قَسَمَ لَكُمْ",
+            "meaning_normalized": "تطلبوا معرفة ما قسم لكم"
+          },
+          {
+            "ayah_number": 3,
+            "word": "بِالأَزلَامِ",
+            "word_normalized": "بالأزلام",
+            "meaning": "قِدَاحٌ مُعَيَّنَةٌ كَانُوا يَستَقسِمُونَ بِهَا؛ يَكتُبُونَ عَلَى أَحَدِهَا: (افعَل)، وَعَلَى الآخَرِ: (لَا تَفعَل)، ثُمَّ يُحَرِّكُونَهَا، فَأَيُّهَا خَرَجَ، عَمِلُوا بِهِ",
+            "meaning_normalized": "قداح معينة كانوا يستقسمون بها يكتبون على أحدها افعل وعلى الآخر لا تفعل ثم يحركونها فأيها خرج عملوا به"
+          },
+          {
+            "ayah_number": 4,
+            "word": "مُحَصَّمَة",
+            "word_normalized": "محصمة",
+            "meaning": "مُحَاعَةً",
+            "meaning_normalized": "محاعة"
+          },
+          {
+            "ayah_number": 4,
+            "word": "مُتَعَانِدِينَ",
+            "word_normalized": "متعاندين",
+            "meaning": "مَائِلٌ، عَمدًا",
+            "meaning_normalized": "مائل عمدا"
+          },
+          {
+            "ayah_number": 4,
+            "word": "الجَوَارِحِ",
+            "word_normalized": "الجوارح",
+            "meaning": "ذَوَاتُ الأَنيَابِ وَالمَخَالِبِ؛ كَالكِلَابِ وَالطُّيُورِ",
+            "meaning_normalized": "ذوات الأنياب والمخالب كالكلاب والطيور"
+          },
+          {
+            "ayah_number": 4,
+            "word": "مُكَلِّبِينَ",
+            "word_normalized": "مكلبين",
+            "meaning": "مُعَلِّمِينَ لَهَا الصَّيدَ",
+            "meaning_normalized": "معلمين لها الصيد"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَطَعَامُ الَّذِينَ أُوتُوا الكِتَابَ",
+            "word_normalized": "وطعام الذين أوتوا الكتاب",
+            "meaning": "ذَبَائِحُهُمْ",
+            "meaning_normalized": "ذبائحهم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "وَالمُحصَنَاتُ",
+            "word_normalized": "والمحصنات",
+            "meaning": "الحَرَائِرُ، العَفِيفَاتُ",
+            "meaning_normalized": "الحرائر العفيفات"
+          }
+        ]
+      }
+    ]
+  }
+}

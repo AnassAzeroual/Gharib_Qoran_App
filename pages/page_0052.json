@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 52,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْرَافِ",
+          "name_normalized": "سورة الأعراف",
+          "order": 7,
+          "ayat_count": 206,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 116,
+            "word": "وَاسْتَرْهَبُوهُمْ",
+            "word_normalized": "واسترهبوهم",
+            "meaning": "خَوَّفُوهُمْ، وَأَرْهَبُوهُمْ.",
+            "meaning_normalized": "خوفوهم وأرهبوهم"
+          },
+          {
+            "ayah_number": 116,
+            "word": "فَانْتَبَذُوا",
+            "word_normalized": "فانتبذوا",
+            "meaning": "انْصَرَفُوا.",
+            "meaning_normalized": "انصرفوا"
+          },
+          {
+            "ayah_number": 119,
+            "word": "مُدْحَرِينَ",
+            "word_normalized": "مدحرين",
+            "meaning": "أَذِلَّاءَ، مَطْرُودِينَ.",
+            "meaning_normalized": "أذلاء مطرودين"
+          },
+          {
+            "ayah_number": 125,
+            "word": "يَنْقَلِبُونَ",
+            "word_normalized": "ينقلبون",
+            "meaning": "رَاجِعُونَ.",
+            "meaning_normalized": "راجعون"
+          },
+          {
+            "ayah_number": 126,
+            "word": "أَفْرِغْ",
+            "word_normalized": "أفرغ",
+            "meaning": "أَفِضْ، وَصُبَّ.",
+            "meaning_normalized": "أفض وصب"
+          },
+          {
+            "ayah_number": 127,
+            "word": "بِالْقِسْطِ",
+            "word_normalized": "بالقسط",
+            "meaning": "بِالْقِسْطِ، وَالْجَذْبِ.",
+            "meaning_normalized": "بالقسط والجذب"
+          },
+          {
+            "ayah_number": 127,
+            "word": "الْمَسْكِنَةُ",
+            "word_normalized": "المسكنة",
+            "meaning": "الْخُضُوعُ، وَالرِّزْقُ.",
+            "meaning_normalized": "الخضوع والرزق"
+          },
+          {
+            "ayah_number": 131,
+            "word": "سَيِّئَةٌ",
+            "word_normalized": "سيئة",
+            "meaning": "قَحْطٌ، وَجَدْبٌ.",
+            "meaning_normalized": "قحط وجدب"
+          },
+          {
+            "ayah_number": 132,
+            "word": "يَطَّيَّرُوا",
+            "word_normalized": "يطيروا",
+            "meaning": "يَتَشَاءَمُوا.",
+            "meaning_normalized": "يتشاءموا"
+          },
+          {
+            "ayah_number": 133,
+            "word": "عَلَيْهِمْ عِنْدَ اللهِ",
+            "word_normalized": "عليهم عند الله",
+            "meaning": "مَا أَصَابَهُمْ مِنَ الْقَحْطِ بِقَدَرِ اللهِ.",
+            "meaning_normalized": "ما أصابهم من القحط بقدر الله"
+          },
+          {
+            "ayah_number": 133,
+            "word": "الطُّوفَانَ",
+            "word_normalized": "الطوفان",
+            "meaning": "السَّيْلُ الْجَارِفُ الَّذِي أَغْرَقَ زُرُوعَهُمْ.",
+            "meaning_normalized": "السيل الجارف الذي أغرق زروعهم"
+          },
+          {
+            "ayah_number": 133,
+            "word": "وَالْجَرَادَ",
+            "word_normalized": "والجراد",
+            "meaning": "الَّذِي أَكَلَ زَرْعَهُمْ، وَأَشْيَاءَهُمْ.",
+            "meaning_normalized": "الذي أكل زرعهم وأشياءهم"
+          },
+          {
+            "ayah_number": 133,
+            "word": "وَالنَّمْلَ",
+            "word_normalized": "والنمل",
+            "meaning": "الَّذِي يُفْسِدُ الثِّمَارَ، وَيَقْضِي عَلَى الْحَيَوَانِ وَالنَّبَاتِ.",
+            "meaning_normalized": "الذي يفسد الثمار ويقضي على الحيوان والنبات"
+          },
+          {
+            "ayah_number": 134,
+            "word": "وَالضَّفَادِعَ",
+            "word_normalized": "والضفادع",
+            "meaning": "الَّتِي مَلَأَتْ آنِيَتَهُمْ، وَمَضَاجِعَهُمْ.",
+            "meaning_normalized": "التي ملأت آنيتهم ومضاجعهم"
+          },
+          {
+            "ayah_number": 135,
+            "word": "وَالدَّمَ",
+            "word_normalized": "والدم",
+            "meaning": "الَّذِي اخْتَلَطَ بِمِيَاهِهِمْ.",
+            "meaning_normalized": "الذي اختلط بمياههم"
+          },
+          {
+            "ayah_number": 138,
+            "word": "مُنْكَذِبٌ",
+            "word_normalized": "منكذب",
+            "meaning": "مُسْتَأْصِلٌ.",
+            "meaning_normalized": "مستأصل"
+          },
+          {
+            "ayah_number": 138,
+            "word": "الزِّبْرُ",
+            "word_normalized": "الزبر",
+            "meaning": "الْعَذَابُ.",
+            "meaning_normalized": "العذاب"
+          },
+          {
+            "ayah_number": 138,
+            "word": "عُهْدٌ",
+            "word_normalized": "عهد",
+            "meaning": "أَوْحَى.",
+            "meaning_normalized": "أوحى"
+          },
+          {
+            "ayah_number": 145,
+            "word": "يَنْكُثُونَ",
+            "word_normalized": "ينكثون",
+            "meaning": "يَنْقُضُونَ عَهْدَهُمْ.",
+            "meaning_normalized": "ينقضون عهدهم"
+          },
+          {
+            "ayah_number": 136,
+            "word": "الْيَمِّ",
+            "word_normalized": "اليم",
+            "meaning": "الْبَحْرِ.",
+            "meaning_normalized": "البحر"
+          }
+        ]
+      }
+    ]
+  }
+}

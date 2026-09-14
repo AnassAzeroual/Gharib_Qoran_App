@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 77,
+    "header": {
+      "right": "سُورَةُ هُودٍ",
+      "right_normalized": "سورة هود",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ هُودٍ",
+          "name_normalized": "سورة هود",
+          "order": 11,
+          "ayat_count": 123,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 72,
+            "word": "عَرِيبٌ",
+            "word_normalized": "عريب",
+            "meaning": "مُوقِعٌ فِي الرَّيْبِ وَالشَّكِّ.",
+            "meaning_normalized": "موقع في الريب والشك"
+          },
+          {
+            "ayah_number": 73,
+            "word": "أَوَ تُعْتَبُونَ",
+            "word_normalized": "أو تعتبون",
+            "meaning": "أَخْبِرُونِي.",
+            "meaning_normalized": "أخبروني"
+          },
+          {
+            "ayah_number": 74,
+            "word": "يُغْتَسِبُ",
+            "word_normalized": "يغتسب",
+            "meaning": "تَضْلِيلُ، وَإِبْعَادُ عَنِ الْخَيْرِ.",
+            "meaning_normalized": "تضليل وإبعاد عن الخير"
+          },
+          {
+            "ayah_number": 74,
+            "word": "رَابَنَّةً",
+            "word_normalized": "رابنة",
+            "meaning": "عَلَامَةٌ عَلَى صِدْقِي.",
+            "meaning_normalized": "علامة على صدقي"
+          },
+          {
+            "ayah_number": 74,
+            "word": "يَسُوءُ",
+            "word_normalized": "يسوء",
+            "meaning": "يُنْحَرُ أَوْ ضَرْبُ.",
+            "meaning_normalized": "ينحر أو ضرب"
+          },
+          {
+            "ayah_number": 75,
+            "word": "فَتَعْرِفُهَا",
+            "word_normalized": "فتعرفها",
+            "meaning": "فَنَحَرُوهَا.",
+            "meaning_normalized": "فنحروها"
+          },
+          {
+            "ayah_number": 76,
+            "word": "فَتَسَمَّعُوا فِي دَارِكُمْ",
+            "word_normalized": "فتسمعوا في داركم",
+            "meaning": "اسْتَمْتِعُوا بِجِنَايَتِكُمْ فِي بِلَادِكُمْ.",
+            "meaning_normalized": "استمتعوا بجنايتكم في بلادكم"
+          },
+          {
+            "ayah_number": 78,
+            "word": "حَرِّجِي بَيُوتَهُ",
+            "word_normalized": "حرجي بيوته",
+            "meaning": "هَوَانُ ذَلِكَ الْيَوْمِ، وَذِلَّتُهُ.",
+            "meaning_normalized": "هوان ذلك اليوم وذلته"
+          },
+          {
+            "ayah_number": 77,
+            "word": "الصَّيْحَةُ",
+            "word_normalized": "الصيحة",
+            "meaning": "صَوْتٌ عَظِيمٌ هَلَكَ مِنَ السَّمَاءِ.",
+            "meaning_normalized": "صوت عظيم هلك من السماء"
+          },
+          {
+            "ayah_number": 77,
+            "word": "حَبْدِيرُونَ",
+            "word_normalized": "حبديرون",
+            "meaning": "هَامِدِينَ، سَاقِطِينَ عَلَى وُجُوهِهِمْ.",
+            "meaning_normalized": "هامدين ساقطين على وجوههم"
+          },
+          {
+            "ayah_number": 78,
+            "word": "لَمْ يَعْتَمُوا",
+            "word_normalized": "لم يعتموا",
+            "meaning": "لَمْ يُعِنُّوا، وَيُقِيمُوا.",
+            "meaning_normalized": "لم يعنوا ويقيموا"
+          },
+          {
+            "ayah_number": 79,
+            "word": "هَلْمَا",
+            "word_normalized": "هلما",
+            "meaning": "هَلَاكًا، وَطَرْدًا.",
+            "meaning_normalized": "هلاكا وطردا"
+          },
+          {
+            "ayah_number": 82,
+            "word": "حَبِيبَةٌ",
+            "word_normalized": "حبيبة",
+            "meaning": "مَشْوِيٌّ بِالْحِجَارَةِ الْمُحْمَاةِ.",
+            "meaning_normalized": "مشوي بالحجارة المحماة"
+          },
+          {
+            "ayah_number": 77,
+            "word": "لَيُكْمَكُمْ",
+            "word_normalized": "ليكمكم",
+            "meaning": "أَنْكَرَ ذَلِكَ مِنْهُمْ.",
+            "meaning_normalized": "أنكر ذلك منهم"
+          },
+          {
+            "ayah_number": 77,
+            "word": "وَأَوْحَسَّ مِنْهُمْ جَنَّةً",
+            "word_normalized": "وأوحس منهم جنة",
+            "meaning": "أَحَسَّ فِي نَفْسِهِ خَوْفًا مِنْهُمْ.",
+            "meaning_normalized": "أحس في نفسه خوفا منهم"
+          },
+          {
+            "ayah_number": 78,
+            "word": "وَمِنْ وَلَدٍ",
+            "word_normalized": "ومن ولد",
+            "meaning": "وَمِنْ بَعْدِ.",
+            "meaning_normalized": "ومن بعد"
+          },
+          {
+            "ayah_number": 77,
+            "word": "لَكِرْبُونَكَ",
+            "word_normalized": "لكربونك",
+            "meaning": "كَلِمَةٌ تَعَجُّبٍ.",
+            "meaning_normalized": "كلمة تعجب"
+          },
+          {
+            "ayah_number": 77,
+            "word": "تَعْلِي",
+            "word_normalized": "تعلي",
+            "meaning": "زَوْجِي.",
+            "meaning_normalized": "زوجي"
+          },
+          {
+            "ayah_number": 74,
+            "word": "حَمِيدٌ",
+            "word_normalized": "حميد",
+            "meaning": "مَحْمُودُ الصِّفَاتِ وَالْأَفْعَالِ.",
+            "meaning_normalized": "محمود الصفات والأفعال"
+          },
+          {
+            "ayah_number": 74,
+            "word": "مَجِيدٌ",
+            "word_normalized": "مجيد",
+            "meaning": "ذُو عَظَمَةٍ.",
+            "meaning_normalized": "ذو عظمة"
+          },
+          {
+            "ayah_number": 75,
+            "word": "الرُّوعُ",
+            "word_normalized": "الروع",
+            "meaning": "الْخَوْفُ.",
+            "meaning_normalized": "الخوف"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 93,
+    "header": {
+      "right": "سُورَةُ الْحِجْرِ",
+      "right_normalized": "سورة الحجر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحِجْرِ",
+          "name_normalized": "سورة الحجر",
+          "order": 15,
+          "ayat_count": 99,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 42,
+            "word": "سُلْطَانٌ",
+            "word_normalized": "سلطان",
+            "meaning": "قُوَّةٌ.",
+            "meaning_normalized": "قوة"
+          },
+          {
+            "ayah_number": 46,
+            "word": "بِسَلَامٍ",
+            "word_normalized": "بسلام",
+            "meaning": "سَالِمِينَ مِنْ كُلِّ سُوءٍ.",
+            "meaning_normalized": "سالمين من كل سوء"
+          },
+          {
+            "ayah_number": 47,
+            "word": "غِلٍّ",
+            "word_normalized": "غل",
+            "meaning": "حِقْدٍ.",
+            "meaning_normalized": "حقد"
+          },
+          {
+            "ayah_number": 48,
+            "word": "نَصَبٌ",
+            "word_normalized": "نصب",
+            "meaning": "تَعَبٌ.",
+            "meaning_normalized": "تعب"
+          },
+          {
+            "ayah_number": 48,
+            "word": "نَبِّئْ",
+            "word_normalized": "نبئ",
+            "meaning": "أَخْبِرْ.",
+            "meaning_normalized": "أخبر"
+          },
+          {
+            "ayah_number": 52,
+            "word": "وَجِلُونَ",
+            "word_normalized": "وجلون",
+            "meaning": "فَزِعُونَ، خَائِفُونَ.",
+            "meaning_normalized": "فزعون خائفون"
+          },
+          {
+            "ayah_number": 55,
+            "word": "الْقَانِطِينَ",
+            "word_normalized": "القانطين",
+            "meaning": "الْيَائِسِينَ.",
+            "meaning_normalized": "اليائسين"
+          },
+          {
+            "ayah_number": 57,
+            "word": "فَمَا خَطْبُكُمْ",
+            "word_normalized": "فما خطبكم",
+            "meaning": "فَمَا شَأْنُكُمُ الْخَطِيرُ؟",
+            "meaning_normalized": "فما شأنكم الخطير"
+          },
+          {
+            "ayah_number": 60,
+            "word": "قَدَّرْنَا",
+            "word_normalized": "قدرنا",
+            "meaning": "قَضَيْنَا.",
+            "meaning_normalized": "قضينا"
+          },
+          {
+            "ayah_number": 60,
+            "word": "الْغَابِرِينَ",
+            "word_normalized": "الغابرين",
+            "meaning": "الْبَاقِينَ فِي الْعَذَابِ.",
+            "meaning_normalized": "الباقين في العذاب"
+          },
+          {
+            "ayah_number": 62,
+            "word": "مُنْكَرُونَ",
+            "word_normalized": "منكرون",
+            "meaning": "غَيْرُ مَعْرُوفِينَ لِي.",
+            "meaning_normalized": "غير معروفين لي"
+          },
+          {
+            "ayah_number": 63,
+            "word": "يَمْتَرُونَ",
+            "word_normalized": "يمترون",
+            "meaning": "يَشُكُّونَ.",
+            "meaning_normalized": "يشكون"
+          },
+          {
+            "ayah_number": 65,
+            "word": "بِقِطْعٍ",
+            "word_normalized": "بقطع",
+            "meaning": "بِجُزْءٍ.",
+            "meaning_normalized": "بجزء"
+          },
+          {
+            "ayah_number": 65,
+            "word": "وَاتَّبِعْ أَدْبَارَهُمْ",
+            "word_normalized": "واتبع أدبارهم",
+            "meaning": "سِرْ وَرَاءَهُمْ.",
+            "meaning_normalized": "سر وراءهم"
+          },
+          {
+            "ayah_number": 65,
+            "word": "وَامْضُوا",
+            "word_normalized": "وامضوا",
+            "meaning": "سِيرُوا.",
+            "meaning_normalized": "سيروا"
+          },
+          {
+            "ayah_number": 66,
+            "word": "وَقَضَيْنَا",
+            "word_normalized": "وقضينا",
+            "meaning": "أَوْحَيْنَا.",
+            "meaning_normalized": "أوحينا"
+          },
+          {
+            "ayah_number": 66,
+            "word": "دَابِرَ",
+            "word_normalized": "دابر",
+            "meaning": "آخِرَ.",
+            "meaning_normalized": "آخر"
+          },
+          {
+            "ayah_number": 66,
+            "word": "مَقْطُوعٌ",
+            "word_normalized": "مقطوع",
+            "meaning": "مُهْلَكٌ بِالْعَذَابِ.",
+            "meaning_normalized": "مهلك بالعذاب"
+          },
+          {
+            "ayah_number": 72,
+            "word": "لَعَمْرُكَ",
+            "word_normalized": "لعمرك",
+            "meaning": "قَسَمٌ مِنَ اللهِ بِحَيَاةِ نَبِيِّنَا مُحَمَّدٍ ﷺ.",
+            "meaning_normalized": "قسم من الله بحياة نبينا محمد"
+          },
+          {
+            "ayah_number": 72,
+            "word": "سَكْرَتِهِمْ",
+            "word_normalized": "سكرتهم",
+            "meaning": "غَفْلَتِهِمْ.",
+            "meaning_normalized": "غفلتهم"
+          },
+          {
+            "ayah_number": 72,
+            "word": "يَعْمَهُونَ",
+            "word_normalized": "يعمهون",
+            "meaning": "يَتَرَدَّدُونَ مُتَحَيِّرِينَ.",
+            "meaning_normalized": "يترددون متحيرين"
+          }
+        ]
+      }
+    ]
+  }
+}

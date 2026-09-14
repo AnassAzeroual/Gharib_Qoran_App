@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 41,
+    "header": {
+      "right": "سُورَةُ الأَنعَامِ",
+      "right_normalized": "سورة الأنعام",
+      "left": "٤١",
+      "left_normalized": "41"
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الأَنعَامِ",
+          "name_normalized": "سورة الأنعام",
+          "order": 6,
+          "ayat_count": 165,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 45,
+            "word": "قُطِعَ",
+            "word_normalized": "قطع",
+            "meaning": "اُستُؤصِلَ",
+            "meaning_normalized": "استؤصل"
+          },
+          {
+            "ayah_number": 45,
+            "word": "دَابِرُ القَومِ",
+            "word_normalized": "دابر القوم",
+            "meaning": "آخِرُهُمْ",
+            "meaning_normalized": "آخرهم"
+          },
+          {
+            "ayah_number": 46,
+            "word": "تَصرِفُ",
+            "word_normalized": "تصرف",
+            "meaning": "تُنَوِّعُ",
+            "meaning_normalized": "تنوع"
+          },
+          {
+            "ayah_number": 46,
+            "word": "يَصدِفُونَ",
+            "word_normalized": "يصدفون",
+            "meaning": "يُعرِضُونَ",
+            "meaning_normalized": "يعرضون"
+          },
+          {
+            "ayah_number": 52,
+            "word": "بِالغَدَاةِ",
+            "word_normalized": "بالغداة",
+            "meaning": "أَوَّلَ النَّهَارِ",
+            "meaning_normalized": "أول النهار"
+          },
+          {
+            "ayah_number": 52,
+            "word": "وَالعَشِيِّ",
+            "word_normalized": "والعشي",
+            "meaning": "آخِرَ النَّهَارِ",
+            "meaning_normalized": "آخر النهار"
+          },
+          {
+            "ayah_number": 52,
+            "word": "فَتَكُونَ",
+            "word_normalized": "فتكون",
+            "meaning": "اِفتَلَينَا بِإِختِلَافِ الأَرزَاقِ وَغَيرِهَا",
+            "meaning_normalized": "افتلينا بإختلاف الأرزاق وغيرها"
+          },
+          {
+            "ayah_number": 52,
+            "word": "بِجَدَّبَازِ",
+            "word_normalized": "بجدباز",
+            "meaning": "سَفَاهَةً، وَكُلُّ عَاصٍ لِلهِ فَهُوَ جَاهِلٌ",
+            "meaning_normalized": "سفاهة وكل عاص لله فهو جاهل"
+          },
+          {
+            "ayah_number": 52,
+            "word": "مَثَانِيَ الضَّيبِ",
+            "word_normalized": "مثاني الضيب",
+            "meaning": "جَزَاءُ الذَّنبِ؛ وَهِيَ جَهَنَّمُ مَذكُورَةٌ فِي آخِرِ لُقمَانَ",
+            "meaning_normalized": "جزاء الذنب وهي جهنم مذكورة في آخر لقمان"
+          },
+          {
+            "ayah_number": 60,
+            "word": "جَرَّحَكُمْ",
+            "word_normalized": "جرحكم",
+            "meaning": "اِكتَسَبتُمْ",
+            "meaning_normalized": "اكتسبتم"
+          },
+          {
+            "ayah_number": 61,
+            "word": "وَلَا يَفرِطُونَ",
+            "word_normalized": "ولا يفرطون",
+            "meaning": "لَا يُضَيِّعُونَ، وَلَا يُقَصِّرُونَ",
+            "meaning_normalized": "لا يضيعون ولا يقصرون"
+          },
+          {
+            "ayah_number": 63,
+            "word": "ضَرَّعًا",
+            "word_normalized": "ضرعا",
+            "meaning": "مُظهِرِينَ الضَّرَاعَةَ؛ وَهِيَ شِدَّةُ الفَقرِ إِلَى الشَّيءِ وَالحَاجَةِ",
+            "meaning_normalized": "مظهرين الضراعة وهي شدة الفقر إلى الشيء والحاجة"
+          },
+          {
+            "ayah_number": 63,
+            "word": "وَخُفيَةً",
+            "word_normalized": "وخفية",
+            "meaning": "مُسِرِّينَ بِالدُّعَاءِ",
+            "meaning_normalized": "مسرين بالدعاء"
+          },
+          {
+            "ayah_number": 65,
+            "word": "وَيُلبِسَكُمْ شِيَعًا",
+            "word_normalized": "ويلبسكم شيعا",
+            "meaning": "يَخلِطَكُمْ فِرَقًا مُتَفَارِقَةً",
+            "meaning_normalized": "يخلطكم فرقا متفارقة"
+          },
+          {
+            "ayah_number": 65,
+            "word": "تَصرِفُ",
+            "word_normalized": "تصرف",
+            "meaning": "تُنَوِّعُ",
+            "meaning_normalized": "تنوع"
+          },
+          {
+            "ayah_number": 67,
+            "word": "مُستَقَرُّ",
+            "word_normalized": "مستقر",
+            "meaning": "نِهَايَةٌ يُعرَفُ بِهَا أَحَقٌّ، أَم بَاطِلٌ",
+            "meaning_normalized": "نهاية يعرف بها أحق أم باطل"
+          },
+          {
+            "ayah_number": 68,
+            "word": "يَخُوضُونَ",
+            "word_normalized": "يخوضون",
+            "meaning": "يَتَكَلَّمُونَ مُستَهزِئِينَ",
+            "meaning_normalized": "يتكلمون مستهزئين"
+          },
+          {
+            "ayah_number": 70,
+            "word": "بِلَهسَل",
+            "word_normalized": "بلهسل",
+            "meaning": "تُرهَنُ، وَتَحبَسُ",
+            "meaning_normalized": "ترهن وتحبس"
+          },
+          {
+            "ayah_number": 70,
+            "word": "قَتَردَل",
+            "word_normalized": "قتردل",
+            "meaning": "تَفتَدِيَ",
+            "meaning_normalized": "تفتدي"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 81,
+    "header": {
+      "right": "سُورَةُ يُوسُفَ",
+      "right_normalized": "سورة يوسف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ يُوسُفَ",
+          "name_normalized": "سورة يوسف",
+          "order": 12,
+          "ayat_count": 111,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "word": "لَمِنَ الْغَافِلِينَ",
+            "word_normalized": "لمن الغافلين",
+            "meaning": "أَيْ: لَا تَدْرِي عَنْ قَصَصِ السَّابِقِينَ شَيْئًا.",
+            "meaning_normalized": "أي لا تدري عن قصص السابقين شيئا"
+          },
+          {
+            "ayah_number": 6,
+            "word": "يَجْتَبِيكَ",
+            "word_normalized": "يجتبيك",
+            "meaning": "يَصْطَفِيكَ.",
+            "meaning_normalized": "يصطفيك"
+          },
+          {
+            "ayah_number": 8,
+            "word": "عُصْبَةٌ",
+            "word_normalized": "عصبة",
+            "meaning": "جَمَاعَةٌ ذَوُو عَدَدٍ.",
+            "meaning_normalized": "جماعة ذوو عدد"
+          },
+          {
+            "ayah_number": 8,
+            "word": "ضَلَالٍ",
+            "word_normalized": "ضلال",
+            "meaning": "خَطَإٍ.",
+            "meaning_normalized": "خطإ"
+          },
+          {
+            "ayah_number": 9,
+            "word": "يَخْلُ",
+            "word_normalized": "يخل",
+            "meaning": "يَخْلُصْ.",
+            "meaning_normalized": "يخلص"
+          },
+          {
+            "ayah_number": 10,
+            "word": "غَيَابَتِ الْجُبِّ",
+            "word_normalized": "غيابت الجب",
+            "meaning": "جَوْفِ الْبِئْرِ، وَالْجُبُّ: هُوَ الْبِئْرُ الَّذِي قُطِعَ مِنَ الْأَرْضِ دُونَ بِنَاءٍ يَحْمِيهِ مِنَ الِانْهِيَارِ.",
+            "meaning_normalized": "جوف البئر والجب هو البئر الذي قطع من الأرض دون بناء يحميه من الانهيار"
+          },
+          {
+            "ayah_number": 10,
+            "word": "السَّيَّارَةِ",
+            "word_normalized": "السيارة",
+            "meaning": "الْمَارَّةِ مِنَ الْمُسَافِرِينَ.",
+            "meaning_normalized": "المارة من المسافرين"
+          },
+          {
+            "ayah_number": 12,
+            "word": "يَرْتَعْ",
+            "word_normalized": "يرتع",
+            "meaning": "يَأْكُلْ مَا لَذَّ وَطَابَ.",
+            "meaning_normalized": "يأكل ما لذ وطاب"
+          },
+          {
+            "ayah_number": 14,
+            "word": "عُصْبَةٌ",
+            "word_normalized": "عصبة",
+            "meaning": "جَمَاعَةٌ قَوِيَّةٌ.",
+            "meaning_normalized": "جماعة قوية"
+          },
+          {
+            "ayah_number": 15,
+            "word": "وَأَجْمَعُوا",
+            "word_normalized": "وأجمعوا",
+            "meaning": "عَزَمُوا وَصَمَّمُوا.",
+            "meaning_normalized": "عزموا وصمموا"
+          },
+          {
+            "ayah_number": 17,
+            "word": "نَسْتَبِقُ",
+            "word_normalized": "نستبق",
+            "meaning": "نَتَسَابَقُ فِي الْجَرْيِ، وَالرَّمْيِ بِالسِّهَامِ.",
+            "meaning_normalized": "نتسابق في الجري والرمي بالسهام"
+          },
+          {
+            "ayah_number": 17,
+            "word": "بِمُؤْمِنٍ لَنَا",
+            "word_normalized": "بمؤمن لنا",
+            "meaning": "بِمُقِرٍّ لَنَا، وَمُصَدِّقٍ لَنَا.",
+            "meaning_normalized": "بمقر لنا ومصدق لنا"
+          },
+          {
+            "ayah_number": 18,
+            "word": "سَوَّلَتْ",
+            "word_normalized": "سولت",
+            "meaning": "زَيَّنَتْ.",
+            "meaning_normalized": "زينت"
+          },
+          {
+            "ayah_number": 18,
+            "word": "فَصَبْرٌ جَمِيلٌ",
+            "word_normalized": "فصبر جميل",
+            "meaning": "احْتِمَالٌ لِلْمُصِيبَةِ لَا شَكْوَى مَعَهُ لِأَحَدٍ مِنَ الْخَلْقِ.",
+            "meaning_normalized": "احتمال للمصيبة لا شكوى معه لأحد من الخلق"
+          },
+          {
+            "ayah_number": 19,
+            "word": "سَيَّارَةٌ",
+            "word_normalized": "سيارة",
+            "meaning": "جَمَاعَةٌ مِنَ الْمُسَافِرِينَ.",
+            "meaning_normalized": "جماعة من المسافرين"
+          },
+          {
+            "ayah_number": 19,
+            "word": "وَارِدَهُمْ",
+            "word_normalized": "واردهم",
+            "meaning": "مَنْ يَتَقَدَّمُهُمْ لِطَلَبِ الْمَاءِ.",
+            "meaning_normalized": "من يتقدمهم لطلب الماء"
+          },
+          {
+            "ayah_number": 19,
+            "word": "فَأَدْلَى دَلْوَهُ",
+            "word_normalized": "فأدلى دلوه",
+            "meaning": "فَأَرْسَلَ دَلْوَهُ فِي الْبِئْرِ؛ لِيَمْلَأَهَا بِالْمَاءِ.",
+            "meaning_normalized": "فأرسل دلوه في البئر ليملأها بالماء"
+          }
+        ]
+      }
+    ]
+  }
+}
