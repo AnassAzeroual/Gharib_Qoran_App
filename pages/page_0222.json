@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 222,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ فُصِّلَتْ",
+          "name_normalized": "سورة فصلت",
+          "order": 41,
+          "ayat_count": 54,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 52,
+            "word": "مَنْ أَضَلُّ",
+            "word_normalized": "من أضل",
+            "meaning": "لَا أَحَدَ أَضَلُّ.",
+            "meaning_normalized": "لا أحد أضل"
+          },
+          {
+            "ayah_number": 52,
+            "word": "شِقَاقٍ بَعِيدٍ",
+            "word_normalized": "شقاق بعيد",
+            "meaning": "خِلَافٍ بَعِيدٍ عَنِ الْحَقِّ.",
+            "meaning_normalized": "خلاف بعيد عن الحق"
+          },
+          {
+            "ayah_number": 53,
+            "word": "ٱلْءَافَاقِ",
+            "word_normalized": "الآفاق",
+            "meaning": "أَقْطَارِ السَّمَوَاتِ، وَالْأَرْضِ.",
+            "meaning_normalized": "أقطار السموات والأرض"
+          },
+          {
+            "ayah_number": 53,
+            "word": "أَنَّهُ ٱلْحَقُّ",
+            "word_normalized": "أنه الحق",
+            "meaning": "أَنَّ الْقُرْآنَ حَقٌّ لَا رَيْبَ فِيهِ.",
+            "meaning_normalized": "أن القرآن حق لا ريب فيه"
+          },
+          {
+            "ayah_number": 53,
+            "word": "أَوَلَمْ يَكْفِ بِرَبِّكَ",
+            "word_normalized": "أولم يكف بربك",
+            "meaning": "أَلَا يَكْفِيهِمْ دَلَالَةً عَلَى أَنَّ الْقُرْآنَ حَقٌّ: شَهَادَةُ اللهِ لَهُ بِذَلِكَ؟!",
+            "meaning_normalized": "ألا يكفيهم دلالة على أن القرآن حق شهادة الله له بذلك"
+          },
+          {
+            "ayah_number": 54,
+            "word": "مِرْيَةٍ",
+            "word_normalized": "مرية",
+            "meaning": "شَكٍّ عَظِيمٍ.",
+            "meaning_normalized": "شك عظيم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّورَىٰ",
+          "name_normalized": "سورة الشورى",
+          "order": 42,
+          "ayat_count": 53,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 5,
+            "word": "يَتَفَطَّرْنَ",
+            "word_normalized": "يتفطرن",
+            "meaning": "يَتَشَقَّقْنَ.",
+            "meaning_normalized": "يتشققن"
+          },
+          {
+            "ayah_number": 6,
+            "word": "أَوْلِيَآءَ",
+            "word_normalized": "أولياء",
+            "meaning": "آلِهَةً يَتَوَلَّوْنَهَا، وَيَعْبُدُونَهَا.",
+            "meaning_normalized": "آلهة يتولونها ويعبدونها"
+          },
+          {
+            "ayah_number": 6,
+            "word": "حَفِيظٌ",
+            "word_normalized": "حفيظ",
+            "meaning": "رَقِيبٌ عَتِيدٌ.",
+            "meaning_normalized": "رقيب عتيد"
+          },
+          {
+            "ayah_number": 7,
+            "word": "أُمَّ ٱلْقُرَىٰ",
+            "word_normalized": "أم القرى",
+            "meaning": "مَكَّةَ؛ وَالْمُرَادُ أَهْلُهَا.",
+            "meaning_normalized": "مكة والمراد أهلها"
+          },
+          {
+            "ayah_number": 7,
+            "word": "لَا رَيْبَ فِيهِ",
+            "word_normalized": "لا ريب فيه",
+            "meaning": "لَا شَكَّ فِي مَجِيئِهِ.",
+            "meaning_normalized": "لا شك في مجيئه"
+          },
+          {
+            "ayah_number": 8,
+            "word": "أُمَّةً وَٰحِدَةً",
+            "word_normalized": "أمة واحدة",
+            "meaning": "مُجْتَمِعِينَ عَلَى الْهُدَى.",
+            "meaning_normalized": "مجتمعين على الهدى"
+          },
+          {
+            "ayah_number": 10,
+            "word": "وَإِلَيْهِ أُنِيبُ",
+            "word_normalized": "وإليه أنيب",
+            "meaning": "إِلَيْهِ أَرْجِعُ فِي كُلِّ الْأُمُورِ.",
+            "meaning_normalized": "إليه أرجع في كل الأمور"
+          },
+          {
+            "ayah_number": 11,
+            "word": "فَاطِرُ",
+            "word_normalized": "فاطر",
+            "meaning": "خَالِقٌ، وَمُبْدِعٌ.",
+            "meaning_normalized": "خالق ومبدع"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَمِنَ ٱلْأَنْعَٰمِ أَزْوَٰجًا",
+            "word_normalized": "ومن الأنعام أزواجا",
+            "meaning": "أَنْوَاعًا؛ ذُكُورًا، وَإِنَاثًا.",
+            "meaning_normalized": "أنواعا ذكورا وإناثا"
+          },
+          {
+            "ayah_number": 11,
+            "word": "يَذْرَؤُكُمْ فِيهِ",
+            "word_normalized": "يذرؤكم فيه",
+            "meaning": "يُكَثِّرُكُمْ؛ بِسَبَبِ التَّزْوِيجِ.",
+            "meaning_normalized": "يكثركم بسبب التزويج"
+          }
+        ]
+      }
+    ]
+  }
+}

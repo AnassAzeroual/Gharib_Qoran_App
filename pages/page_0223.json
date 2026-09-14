@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 223,
+    "header": {
+      "right": "سُورَةُ الشُّورَىٰ",
+      "right_normalized": "سورة الشورى",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّورَىٰ",
+          "name_normalized": "سورة الشورى",
+          "order": 42,
+          "ayat_count": 53,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 12,
+            "word": "مَقَالِيدُ ٱلسَّمَٰوَٰتِ",
+            "word_normalized": "مقاليد السموات",
+            "meaning": "مِلْكُهَا، وَمَفَاتِيحُ خَزَائِنِهَا.",
+            "meaning_normalized": "ملكها ومفاتيح خزائنها"
+          },
+          {
+            "ayah_number": 12,
+            "word": "يَبْسُطُ",
+            "word_normalized": "يبسط",
+            "meaning": "يُوَسِّعُ.",
+            "meaning_normalized": "يوسع"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَيَقْدِرُ",
+            "word_normalized": "ويقدر",
+            "meaning": "يُضَيِّقُ.",
+            "meaning_normalized": "يضيق"
+          },
+          {
+            "ayah_number": 13,
+            "word": "كَبُرَ",
+            "word_normalized": "كبر",
+            "meaning": "عَظُمَ.",
+            "meaning_normalized": "عظم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "يَجْتَبِىٓ إِلَيْهِ",
+            "word_normalized": "يجتبي إليه",
+            "meaning": "يَصْطَفِي لِتَوْحِيدِهِ، وَدِينِهِ.",
+            "meaning_normalized": "يصطفي لتوحيده ودينه"
+          },
+          {
+            "ayah_number": 13,
+            "word": "يُنِيبُ",
+            "word_normalized": "ينيب",
+            "meaning": "يَرْجِعُ إِلَيْهِ بِالطَّاعَةِ.",
+            "meaning_normalized": "يرجع إليه بالطاعة"
+          },
+          {
+            "ayah_number": 14,
+            "word": "بَغْيًۢا",
+            "word_normalized": "بغيا",
+            "meaning": "عِنَادًا، وَظُلْمًا.",
+            "meaning_normalized": "عنادا وظلما"
+          },
+          {
+            "ayah_number": 14,
+            "word": "كَلِمَةٌ سَبَقَتْ",
+            "word_normalized": "كلمة سبقت",
+            "meaning": "بِتَأْخِيرِ الْعَذَابِ.",
+            "meaning_normalized": "بتأخير العذاب"
+          },
+          {
+            "ayah_number": 14,
+            "word": "ٱلْكِتَٰبَ",
+            "word_normalized": "الكتاب",
+            "meaning": "التَّوْرَاةَ، وَالْإِنْجِيلَ.",
+            "meaning_normalized": "التوراة والإنجيل"
+          },
+          {
+            "ayah_number": 14,
+            "word": "مُرِيبٍ",
+            "word_normalized": "مريب",
+            "meaning": "مُوقِعٍ فِي الرِّيبَةِ، وَالِاخْتِلَافِ الْمَذْمُومِ.",
+            "meaning_normalized": "موقع في الريبة والاختلاف المذموم"
+          },
+          {
+            "ayah_number": 15,
+            "word": "فَلِذَٰلِكَ فَٱدْعُ",
+            "word_normalized": "فلذلك فادع",
+            "meaning": "قُمْ بِالدَّعْوَةِ إِلَى ذَلِكَ الدِّينِ.",
+            "meaning_normalized": "قم بالدعوة إلى ذلك الدين"
+          },
+          {
+            "ayah_number": 15,
+            "word": "لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ",
+            "word_normalized": "لا حجة بيننا وبينكم",
+            "meaning": "لَا جِدَالَ بَيْنَنَا وَبَيْنَكُمْ؛ بَعْدَمَا تَبَيَّنَ الْحَقُّ.",
+            "meaning_normalized": "لا جدال بيننا وبينكم بعدما تبين الحق"
+          },
+          {
+            "ayah_number": 15,
+            "word": "ٱلْمَصِيرُ",
+            "word_normalized": "المصير",
+            "meaning": "الْمَرْجِعُ.",
+            "meaning_normalized": "المرجع"
+          },
+          {
+            "ayah_number": 16,
+            "word": "يُحَآجُّونَ فِى ٱللَّهِ",
+            "word_normalized": "يحاجون في الله",
+            "meaning": "يُخَاصِمُونَ فِي دِينِ اللهِ.",
+            "meaning_normalized": "يخاصمون في دين الله"
+          },
+          {
+            "ayah_number": 16,
+            "word": "دَاحِضَةٌ",
+            "word_normalized": "داحضة",
+            "meaning": "ذَاهِبَةٌ بَاطِلَةٌ.",
+            "meaning_normalized": "ذاهبة باطلة"
+          },
+          {
+            "ayah_number": 17,
+            "word": "بِٱلْحَقِّ",
+            "word_normalized": "بالحق",
+            "meaning": "بِالصِّدْقِ.",
+            "meaning_normalized": "بالصدق"
+          },
+          {
+            "ayah_number": 17,
+            "word": "وَٱلْمِيزَانَ",
+            "word_normalized": "والميزان",
+            "meaning": "الْعَدْلَ.",
+            "meaning_normalized": "العدل"
+          },
+          {
+            "ayah_number": 18,
+            "word": "مُشْفِقُونَ مِنْهَا",
+            "word_normalized": "مشفقون منها",
+            "meaning": "خَائِفُونَ مِنْ قِيَامِهَا.",
+            "meaning_normalized": "خائفون من قيامها"
+          },
+          {
+            "ayah_number": 18,
+            "word": "يُمَارُونَ",
+            "word_normalized": "يمارون",
+            "meaning": "يُجَادِلُونَ.",
+            "meaning_normalized": "يجادلون"
+          },
+          {
+            "ayah_number": 20,
+            "word": "حَرْثَ ٱلْءَاخِرَةِ",
+            "word_normalized": "حرث الآخرة",
+            "meaning": "ثَوَابَهَا.",
+            "meaning_normalized": "ثوابها"
+          },
+          {
+            "ayah_number": 21,
+            "word": "كَلِمَةُ ٱلْفَصْلِ",
+            "word_normalized": "كلمة الفصل",
+            "meaning": "قَضَاؤُهُ بِإِمْهَالِهِمْ وَعَدَمِ مُعَاجَلَتِهِمْ بِالْعُقُوبَةِ.",
+            "meaning_normalized": "قضاؤه بإمهالهم وعدم معاجلتهم بالعقوبة"
+          }
+        ]
+      }
+    ]
+  }
+}

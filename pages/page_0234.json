@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 234,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْجَاثِيَةِ",
+          "name_normalized": "سورة الجاثية",
+          "order": 45,
+          "ayat_count": 37,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 7,
+            "word": "وَيْلٌ",
+            "word_normalized": "ويل",
+            "meaning": "هَلَاكٌ، وَدَمَارٌ.",
+            "meaning_normalized": "هلاك ودمار"
+          },
+          {
+            "ayah_number": 7,
+            "word": "أَفَّاكٍ",
+            "word_normalized": "أفاك",
+            "meaning": "كَذَّابٍ.",
+            "meaning_normalized": "كذاب"
+          },
+          {
+            "ayah_number": 7,
+            "word": "أَثِيمٍ",
+            "word_normalized": "أثيم",
+            "meaning": "كَثِيرِ الْإِثْمِ.",
+            "meaning_normalized": "كثير الإثم"
+          },
+          {
+            "ayah_number": 9,
+            "word": "هُزُوًا",
+            "word_normalized": "هزوا",
+            "meaning": "سُخْرِيَةً.",
+            "meaning_normalized": "سخرية"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ٱلْفُلْكُ",
+            "word_normalized": "الفلك",
+            "meaning": "السُّفُنُ.",
+            "meaning_normalized": "السفن"
+          },
+          {
+            "ayah_number": 14,
+            "word": "لَا يَرْجُونَ أَيَّامَ ٱللَّهِ",
+            "word_normalized": "لا يرجون أيام الله",
+            "meaning": "لَا يَتَوَقَّعُونَ وَقَائِعَهُ وَعَذَابَهُ بِأَعْدَائِهِ.",
+            "meaning_normalized": "لا يتوقعون وقائعه وعذابه بأعدائه"
+          },
+          {
+            "ayah_number": 16,
+            "word": "ٱلْكِتَٰبَ",
+            "word_normalized": "الكتاب",
+            "meaning": "التَّوْرَاةَ، وَالْإِنْجِيلَ.",
+            "meaning_normalized": "التوراة والإنجيل"
+          },
+          {
+            "ayah_number": 16,
+            "word": "وَٱلْحُكْمَ",
+            "word_normalized": "والحكم",
+            "meaning": "تَحْكِيمَهُمَا.",
+            "meaning_normalized": "تحكيمهما"
+          },
+          {
+            "ayah_number": 17,
+            "word": "بَيِّنَٰتٍ مِّنَ ٱلْأَمْرِ",
+            "word_normalized": "بينات من الأمر",
+            "meaning": "شَرَائِعَ وَاضِحَاتٍ فِي الْحَلَالِ، وَالْحَرَامِ، وَدَلَالَاتٍ تُبَيِّنُ الْحَقَّ مِنَ الْبَاطِلِ.",
+            "meaning_normalized": "شرائع واضحات في الحلال والحرام ودلالات تبين الحق من الباطل"
+          },
+          {
+            "ayah_number": 17,
+            "word": "بَغْيًۢا بَيْنَهُمْ",
+            "word_normalized": "بغيا بينهم",
+            "meaning": "حَسَدًا وَعَدَاوَةً بَيْنَهُمْ.",
+            "meaning_normalized": "حسدا وعداوة بينهم"
+          },
+          {
+            "ayah_number": 18,
+            "word": "شَرِيعَةٍ مِّنَ ٱلْأَمْرِ",
+            "word_normalized": "شريعة من الأمر",
+            "meaning": "مِنْهَاجٍ وَاضِحٍ مِنْ أَمْرِ الدِّينِ.",
+            "meaning_normalized": "منهاج واضح من أمر الدين"
+          },
+          {
+            "ayah_number": 19,
+            "word": "لَن يُغْنُوا۟ عَنكَ",
+            "word_normalized": "لن يغنوا عنك",
+            "meaning": "لَنْ يَدْفَعُوا عَنْكَ.",
+            "meaning_normalized": "لن يدفعوا عنك"
+          },
+          {
+            "ayah_number": 20,
+            "word": "بَصَٰٓئِرُ",
+            "word_normalized": "بصائر",
+            "meaning": "يُبْصِرُ بِهِ النَّاسُ الْحَقَّ.",
+            "meaning_normalized": "يبصر به الناس الحق"
+          },
+          {
+            "ayah_number": 21,
+            "word": "أَمْ حَسِبَ",
+            "word_normalized": "أم حسب",
+            "meaning": "بَلْ ظَنَّ.",
+            "meaning_normalized": "بل ظن"
+          },
+          {
+            "ayah_number": 21,
+            "word": "ٱجْتَرَحُوا۟",
+            "word_normalized": "اجترحوا",
+            "meaning": "اكْتَسَبُوا.",
+            "meaning_normalized": "اكتسبوا"
+          },
+          {
+            "ayah_number": 23,
+            "word": "أَفَرَءَيْتَ",
+            "word_normalized": "أفرأيت",
+            "meaning": "أَخْبِرْنِي.",
+            "meaning_normalized": "أخبرني"
+          },
+          {
+            "ayah_number": 23,
+            "word": "وَخَتَمَ",
+            "word_normalized": "وختم",
+            "meaning": "طَبَعَ.",
+            "meaning_normalized": "طبع"
+          },
+          {
+            "ayah_number": 23,
+            "word": "غِشَٰوَةً",
+            "word_normalized": "غشاوة",
+            "meaning": "غِطَاءً.",
+            "meaning_normalized": "غطاء"
+          },
+          {
+            "ayah_number": 26,
+            "word": "لَا رَيْبَ فِيهِ",
+            "word_normalized": "لا ريب فيه",
+            "meaning": "لَا شَكَّ فِيهِ.",
+            "meaning_normalized": "لا شك فيه"
+          },
+          {
+            "ayah_number": 32,
+            "word": "إِن نَّظُنُّ إِلَّا ظَنًّا",
+            "word_normalized": "إن نظن إلا ظنا",
+            "meaning": "مَا نَتَوَقَّعُ وُقُوعَهَا إِلَّا تَوَهُّمًا.",
+            "meaning_normalized": "ما نتوقع وقوعها إلا توهما"
+          }
+        ]
+      }
+    ]
+  }
+}

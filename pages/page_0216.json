@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 216,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ غَافِرٍ",
+          "name_normalized": "سورة غافر",
+          "order": 40,
+          "ayat_count": 85,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 56,
+            "word": "مَا هُم بِبَٰلِغِيهِ",
+            "word_normalized": "ما هم ببالغيه",
+            "meaning": "لَيْسُوا بِوَاصِلِينَ لِلْعُلُوِّ عَلَيْكَ، وَلَا لِلْفَضْلِ الَّذِي خَصَّكَ اللهُ بِهِ.",
+            "meaning_normalized": "ليسوا بواصلين للعلو عليك ولا للفضل الذي خصك الله به"
+          },
+          {
+            "ayah_number": 56,
+            "word": "فَٱسْتَعِذْ",
+            "word_normalized": "فاستعذ",
+            "meaning": "اعْتَصِمْ.",
+            "meaning_normalized": "اعتصم"
+          },
+          {
+            "ayah_number": 59,
+            "word": "لَّا رَيْبَ فِيهَا",
+            "word_normalized": "لا ريب فيها",
+            "meaning": "لَا شَكَّ فِيهَا.",
+            "meaning_normalized": "لا شك فيها"
+          },
+          {
+            "ayah_number": 60,
+            "word": "دَاخِرِينَ",
+            "word_normalized": "داخرين",
+            "meaning": "صَاغِرِينَ، حَقِيرِينَ.",
+            "meaning_normalized": "صاغرين حقيرين"
+          },
+          {
+            "ayah_number": 61,
+            "word": "لِتَسْكُنُوا۟",
+            "word_normalized": "لتسكنوا",
+            "meaning": "لِتَرْتَاحُوا.",
+            "meaning_normalized": "لترتاحوا"
+          },
+          {
+            "ayah_number": 61,
+            "word": "مُبْصِرًا",
+            "word_normalized": "مبصرا",
+            "meaning": "مُضِيئًا.",
+            "meaning_normalized": "مضيئا"
+          },
+          {
+            "ayah_number": 61,
+            "word": "فَأَنَّىٰ تُؤْفَكُونَ",
+            "word_normalized": "فأنى تؤفكون",
+            "meaning": "كَيْفَ تَنْصَرِفُونَ عَنِ الْإِيمَانِ بِهِ؟!",
+            "meaning_normalized": "كيف تنصرفون عن الإيمان به"
+          },
+          {
+            "ayah_number": 63,
+            "word": "يُؤْفَكُ",
+            "word_normalized": "يؤفك",
+            "meaning": "يُصْرَفُ.",
+            "meaning_normalized": "يصرف"
+          },
+          {
+            "ayah_number": 64,
+            "word": "فَتَبَارَكَ",
+            "word_normalized": "فتبارك",
+            "meaning": "تَكَاثَرَ خَيْرُهُ وَفَضْلُهُ.",
+            "meaning_normalized": "تكاثر خيره وفضله"
+          },
+          {
+            "ayah_number": 66,
+            "word": "أَنْ أُسْلِمَ",
+            "word_normalized": "أن أسلم",
+            "meaning": "أَنْ أَخْضَعَ وَأَنْقَادَ بِالطَّاعَةِ.",
+            "meaning_normalized": "أن أخضع وأنقاد بالطاعة"
+          },
+          {
+            "ayah_number": 67,
+            "word": "عَلَقَةٍ",
+            "word_normalized": "علقة",
+            "meaning": "الدَّمُ الْغَلِيظُ؛ الْمُتَعَلِّقُ بِجِدَارِ الرَّحِمِ، وَهُوَ أَحَدُ أَطْوَارِ الْجَنِينِ.",
+            "meaning_normalized": "الدم الغليظ المتعلق بجدار الرحم وهو أحد أطوار الجنين"
+          },
+          {
+            "ayah_number": 67,
+            "word": "لِتَبْلُغُوٓا۟ أَشُدَّكُمْ",
+            "word_normalized": "لتبلغوا أشدكم",
+            "meaning": "لِتَتَكَامَلَ قُوَّتُكُمْ.",
+            "meaning_normalized": "لتتكامل قوتكم"
+          },
+          {
+            "ayah_number": 67,
+            "word": "أَجَلًا مُّسَمًّى",
+            "word_normalized": "أجلا مسمى",
+            "meaning": "مُدَّةً مُقَدَّرَةً تَنْتَهِي بِهَا أَعْمَارُكُمْ.",
+            "meaning_normalized": "مدة مقدرة تنتهي بها أعماركم"
+          },
+          {
+            "ayah_number": 69,
+            "word": "أَنَّىٰ يُصْرَفُونَ",
+            "word_normalized": "أنى يصرفون",
+            "meaning": "كَيْفَ يَعْدِلُونَ عَنْهَا مَعَ صِحَّتِهَا؟!",
+            "meaning_normalized": "كيف يعدلون عنها مع صحتها"
+          },
+          {
+            "ayah_number": 70,
+            "word": "بِٱلْكِتَٰبِ",
+            "word_normalized": "بالكتاب",
+            "meaning": "بِالْقُرْآنِ.",
+            "meaning_normalized": "بالقرآن"
+          },
+          {
+            "ayah_number": 71,
+            "word": "وَٱلسَّلَٰسِلُ",
+            "word_normalized": "والسلاسل",
+            "meaning": "الْقُيُودُ فِي الْأَرْجُلِ.",
+            "meaning_normalized": "القيود في الأرجل"
+          },
+          {
+            "ayah_number": 72,
+            "word": "ٱلْحَمِيمِ",
+            "word_normalized": "الحميم",
+            "meaning": "الْمَاءُ الَّذِي بَلَغَ غَايَةَ الْحَرَارَةِ.",
+            "meaning_normalized": "الماء الذي بلغ غاية الحرارة"
+          },
+          {
+            "ayah_number": 72,
+            "word": "يُسْجَرُونَ",
+            "word_normalized": "يسجرون",
+            "meaning": "يُوقَدُ عَلَيْهِمْ.",
+            "meaning_normalized": "يوقد عليهم"
+          },
+          {
+            "ayah_number": 74,
+            "word": "ضَلُّوا۟ عَنَّا",
+            "word_normalized": "ضلوا عنا",
+            "meaning": "غَابُوا عَنْ عُيُونِنَا.",
+            "meaning_normalized": "غابوا عن عيوننا"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 231,
+    "header": {
+      "right": "سُورَةُ الدُّخَانِ",
+      "right_normalized": "سورة الدخان",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّخْرُفِ",
+          "name_normalized": "سورة الزخرف",
+          "order": 43,
+          "ayat_count": 89,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 85,
+            "word": "وَتَبَارَكَ",
+            "word_normalized": "وتبارك",
+            "meaning": "تَكَاثَرَتْ بَرَكَةُ اللهِ، وَكَثُرَ خَيْرُهُ.",
+            "meaning_normalized": "تكاثرت بركة الله وكثر خيره"
+          },
+          {
+            "ayah_number": 86,
+            "word": "شَهِدَ بِٱلْحَقِّ",
+            "word_normalized": "شهد بالحق",
+            "meaning": "أَقَرَّ بِتَوْحِيدِ اللهِ، وَنُبُوَّةِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ.",
+            "meaning_normalized": "أقر بتوحيد الله ونبوة نبينا محمد صلى الله عليه وسلم"
+          },
+          {
+            "ayah_number": 87,
+            "word": "فَأَنَّىٰ يُؤْفَكُونَ",
+            "word_normalized": "فأنى يؤفكون",
+            "meaning": "كَيْفَ يَنْصَرِفُونَ عَنْ عِبَادَةِ اللهِ؟!",
+            "meaning_normalized": "كيف ينصرفون عن عبادة الله"
+          },
+          {
+            "ayah_number": 88,
+            "word": "وَقِيلِهِۦ",
+            "word_normalized": "وقيله",
+            "meaning": "وَقَوْلِ مُحَمَّدٍ فِي شَكْوَاهُ.",
+            "meaning_normalized": "وقول محمد في شكواه"
+          },
+          {
+            "ayah_number": 89,
+            "word": "فَٱصْفَحْ",
+            "word_normalized": "فاصفح",
+            "meaning": "أَعْرِضْ عَنْ أَذَاهُمْ.",
+            "meaning_normalized": "أعرض عن أذاهم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الدُّخَانِ",
+          "name_normalized": "سورة الدخان",
+          "order": 44,
+          "ayat_count": 59,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "word": "لَيْلَةٍ مُّبَٰرَكَةٍ",
+            "word_normalized": "ليلة مباركة",
+            "meaning": "هِيَ: لَيْلَةُ الْقَدْرِ مِنْ شَهْرِ رَمَضَانَ.",
+            "meaning_normalized": "هي ليلة القدر من شهر رمضان"
+          },
+          {
+            "ayah_number": 4,
+            "word": "يُفْرَقُ",
+            "word_normalized": "يفرق",
+            "meaning": "يُقْضَى وَيُفْصَلُ مِنَ اللَّوْحِ الْمَحْفُوظِ إِلَى الْكَتَبَةِ مِنَ الْمَلَائِكَةِ.",
+            "meaning_normalized": "يقضى ويفصل من اللوح المحفوظ إلى الكتبة من الملائكة"
+          },
+          {
+            "ayah_number": 4,
+            "word": "أَمْرٍ حَكِيمٍ",
+            "word_normalized": "أمر حكيم",
+            "meaning": "أَمْرٍ مُحْكَمٍ؛ مِنَ الْآجَالِ، وَالْأَرْزَاقِ، فِي تِلْكَ السَّنَةِ.",
+            "meaning_normalized": "أمر محكم من الآجال والأرزاق في تلك السنة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فَٱرْتَقِبْ",
+            "word_normalized": "فارتقب",
+            "meaning": "انْتَظِرْ بِهَؤُلَاءِ الْمُشْرِكِينَ.",
+            "meaning_normalized": "انتظر بهؤلاء المشركين"
+          },
+          {
+            "ayah_number": 11,
+            "word": "يَغْشَى",
+            "word_normalized": "يغشى",
+            "meaning": "يَعُمُّ.",
+            "meaning_normalized": "يعم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "أَنَّىٰ لَهُمُ ٱلذِّكْرَىٰ",
+            "word_normalized": "أنى لهم الذكرى",
+            "meaning": "كَيْفَ يَكُونُ لَهُمُ التَّذَكُّرُ وَالِاتِّعَاظُ؟!",
+            "meaning_normalized": "كيف يكون لهم التذكر والاتعاظ"
+          },
+          {
+            "ayah_number": 13,
+            "word": "وَرَسُولٌ مُّبِينٌ",
+            "word_normalized": "ورسول مبين",
+            "meaning": "بَيِّنُ الرِّسَالَةِ؛ وَهُوَ نَبِيُّنَا مُحَمَّدٌ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ.",
+            "meaning_normalized": "بين الرسالة وهو نبينا محمد صلى الله عليه وسلم"
+          },
+          {
+            "ayah_number": 14,
+            "word": "تَوَلَّوْا۟",
+            "word_normalized": "تولوا",
+            "meaning": "أَعْرَضُوا.",
+            "meaning_normalized": "أعرضوا"
+          },
+          {
+            "ayah_number": 14,
+            "word": "مُّعَلَّمٌ",
+            "word_normalized": "معلم",
+            "meaning": "عَلَّمَهُ بَشَرٌ، أَوْ شَيْطَانٌ.",
+            "meaning_normalized": "علمه بشر أو شيطان"
+          },
+          {
+            "ayah_number": 16,
+            "word": "ٱلْبَطْشَةَ ٱلْكُبْرَىٰ",
+            "word_normalized": "البطشة الكبرى",
+            "meaning": "الْعَذَابُ الْأَكْبَرُ يَوْمَ الْقِيَامَةِ.",
+            "meaning_normalized": "العذاب الأكبر يوم القيامة"
+          },
+          {
+            "ayah_number": 17,
+            "word": "فَتَنَّا",
+            "word_normalized": "فتنا",
+            "meaning": "اخْتَبَرْنَا وَابْتَلَيْنَا.",
+            "meaning_normalized": "اختبرنا وابتلينا"
+          }
+        ]
+      }
+    ]
+  }
+}

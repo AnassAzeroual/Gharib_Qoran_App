@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 227,
+    "header": {
+      "right": "سُورَةُ الزُّخْرُفِ",
+      "right_normalized": "سورة الزخرف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّخْرُفِ",
+          "name_normalized": "سورة الزخرف",
+          "order": 43,
+          "ayat_count": 89,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 11,
+            "word": "بِقَدَرٍ",
+            "word_normalized": "بقدر",
+            "meaning": "بِمِقْدَارٍ، وَوَزْنٍ مَعْلُومٍ.",
+            "meaning_normalized": "بمقدار ووزن معلوم"
+          },
+          {
+            "ayah_number": 11,
+            "word": "فَأَنشَرْنَا",
+            "word_normalized": "فأنشرنا",
+            "meaning": "أَحْيَيْنَا.",
+            "meaning_normalized": "أحيينا"
+          },
+          {
+            "ayah_number": 11,
+            "word": "مَّيْتًا",
+            "word_normalized": "ميتا",
+            "meaning": "مُقْفِرَةً مِنَ النَّبَاتِ.",
+            "meaning_normalized": "مقفرة من النبات"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ٱلْأَزْوَٰجَ",
+            "word_normalized": "الأزواج",
+            "meaning": "الْأَصْنَافَ؛ مِنْ نَبَاتٍ، وَحَيَوَانٍ.",
+            "meaning_normalized": "الأصناف من نبات وحيوان"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ٱلْفُلْكِ",
+            "word_normalized": "الفلك",
+            "meaning": "السُّفُنِ.",
+            "meaning_normalized": "السفن"
+          },
+          {
+            "ayah_number": 13,
+            "word": "مُقْرِنِينَ",
+            "word_normalized": "مقرنين",
+            "meaning": "مُطِيقِينَ.",
+            "meaning_normalized": "مطيقين"
+          },
+          {
+            "ayah_number": 15,
+            "word": "جُزْءًا",
+            "word_normalized": "جزءا",
+            "meaning": "نَصِيبًا.",
+            "meaning_normalized": "نصيبا"
+          },
+          {
+            "ayah_number": 15,
+            "word": "لَكَفُورٌ",
+            "word_normalized": "لكفور",
+            "meaning": "لَجَحُودٌ لِنِعَمِ رَبِّهِ.",
+            "meaning_normalized": "لجحود لنعم ربه"
+          },
+          {
+            "ayah_number": 16,
+            "word": "وَأَصْفَىٰكُم",
+            "word_normalized": "وأصفاكم",
+            "meaning": "خَصَّكُمْ.",
+            "meaning_normalized": "خصكم"
+          },
+          {
+            "ayah_number": 17,
+            "word": "بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا",
+            "word_normalized": "بما ضرب للرحمن مثلا",
+            "meaning": "بِالْأُنْثَى الَّتِي نَسَبَهَا لِلرَّحْمَٰنِ؛ حِينَ زَعَمَ أَنَّ الْمَلَائِكَةَ بَنَاتُ اللهِ.",
+            "meaning_normalized": "بالأنثى التي نسبها للرحمن حين زعم أن الملائكة بنات الله"
+          },
+          {
+            "ayah_number": 17,
+            "word": "ظَلَّ",
+            "word_normalized": "ظل",
+            "meaning": "صَارَ.",
+            "meaning_normalized": "صار"
+          },
+          {
+            "ayah_number": 17,
+            "word": "كَظِيمٌ",
+            "word_normalized": "كظيم",
+            "meaning": "مُمْتَلِئٌ حُزْنًا، وَغَمًّا.",
+            "meaning_normalized": "ممتلئ حزنا وغما"
+          },
+          {
+            "ayah_number": 18,
+            "word": "يُنَشَّؤُا۟",
+            "word_normalized": "ينشأ",
+            "meaning": "يُرَبَّى.",
+            "meaning_normalized": "يربى"
+          },
+          {
+            "ayah_number": 18,
+            "word": "ٱلْحِلْيَةِ",
+            "word_normalized": "الحلية",
+            "meaning": "الزِّينَةِ.",
+            "meaning_normalized": "الزينة"
+          },
+          {
+            "ayah_number": 18,
+            "word": "ٱلْخِصَامِ",
+            "word_normalized": "الخصام",
+            "meaning": "الْجِدَالِ.",
+            "meaning_normalized": "الجدال"
+          },
+          {
+            "ayah_number": 18,
+            "word": "غَيْرُ مُبِينٍ",
+            "word_normalized": "غير مبين",
+            "meaning": "غَيْرُ وَاضِحٍ، وَبَيِّنٍ.",
+            "meaning_normalized": "غير واضح وبين"
+          },
+          {
+            "ayah_number": 20,
+            "word": "يَخْرُصُونَ",
+            "word_normalized": "يخرصون",
+            "meaning": "يَتَقَوَّلُونَ عَلَى اللهِ الْكَذِبَ.",
+            "meaning_normalized": "يتقولون على الله الكذب"
+          },
+          {
+            "ayah_number": 22,
+            "word": "أُمَّةٍ",
+            "word_normalized": "أمة",
+            "meaning": "طَرِيقَةٍ، وَدِينٍ.",
+            "meaning_normalized": "طريقة ودين"
+          },
+          {
+            "ayah_number": 26,
+            "word": "بَرَآءٌ",
+            "word_normalized": "براء",
+            "meaning": "بَرِيءٌ.",
+            "meaning_normalized": "بريء"
+          },
+          {
+            "ayah_number": 27,
+            "word": "فَطَرَنِى",
+            "word_normalized": "فطرني",
+            "meaning": "خَلَقَنِي.",
+            "meaning_normalized": "خلقني"
+          }
+        ]
+      }
+    ]
+  }
+}

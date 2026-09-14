@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 218,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ فُصِّلَتْ",
+          "name_normalized": "سورة فصلت",
+          "order": 41,
+          "ayat_count": 54,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 8,
+            "word": "غَيْرُ مَمْنُونٍ",
+            "word_normalized": "غير ممنون",
+            "meaning": "غَيْرُ مَقْطُوعٍ، وَلَا مَمْنُوعٍ.",
+            "meaning_normalized": "غير مقطوع ولا ممنوع"
+          },
+          {
+            "ayah_number": 9,
+            "word": "أَندَادًا",
+            "word_normalized": "أندادا",
+            "meaning": "شُرَكَاءَ، وَنُظَرَاءَ.",
+            "meaning_normalized": "شركاء ونظراء"
+          },
+          {
+            "ayah_number": 10,
+            "word": "رَوَٰسِىَ",
+            "word_normalized": "رواسي",
+            "meaning": "جِبَالًا ثَوَابِتَ.",
+            "meaning_normalized": "جبالا ثوابت"
+          },
+          {
+            "ayah_number": 10,
+            "word": "أَقْوَٰتَهَا",
+            "word_normalized": "أقواتها",
+            "meaning": "أَرْزَاقَ أَهْلِهَا.",
+            "meaning_normalized": "أرزاق أهلها"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فِىٓ أَرْبَعَةِ أَيَّامٍ",
+            "word_normalized": "في أربعة أيام",
+            "meaning": "يَوْمَانِ لِخَلْقِ الْأَرْضِ، وَيَوْمَانِ لِخَلْقِ الرَّوَاسِي، وَتَقْدِيرِ الْأَقْوَاتِ.",
+            "meaning_normalized": "يومان لخلق الأرض ويومان لخلق الرواسي وتقدير الأقوات"
+          },
+          {
+            "ayah_number": 10,
+            "word": "سَوَآءً",
+            "word_normalized": "سواء",
+            "meaning": "فِي تَمَامِ أَرْبَعَةِ أَيَّامٍ مُسْتَوِيَةٍ؛ بِلَا زِيَادَةٍ، وَلَا نُقْصَانٍ.",
+            "meaning_normalized": "في تمام أربعة أيام مستوية بلا زيادة ولا نقصان"
+          },
+          {
+            "ayah_number": 11,
+            "word": "ٱسْتَوَىٰٓ",
+            "word_normalized": "استوى",
+            "meaning": "قَصَدَ.",
+            "meaning_normalized": "قصد"
+          },
+          {
+            "ayah_number": 12,
+            "word": "فَقَضَىٰهُنَّ",
+            "word_normalized": "فقضاهن",
+            "meaning": "فَخَلَقَهُنَّ، وَأَبْدَعَهُنَّ.",
+            "meaning_normalized": "فخلقهن وأبدعهن"
+          },
+          {
+            "ayah_number": 12,
+            "word": "بِمَصَٰبِيحَ",
+            "word_normalized": "بمصابيح",
+            "meaning": "بِنُجُومٍ مُضِيئَةٍ.",
+            "meaning_normalized": "بنجوم مضيئة"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَحِفْظًا",
+            "word_normalized": "وحفظا",
+            "meaning": "حَرَسًا مِنَ الشَّيَاطِينِ.",
+            "meaning_normalized": "حرسا من الشياطين"
+          },
+          {
+            "ayah_number": 13,
+            "word": "أَنذَرْتُكُمْ",
+            "word_normalized": "أنذرتكم",
+            "meaning": "خَوَّفْتُكُمْ.",
+            "meaning_normalized": "خوفتكم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "صَٰعِقَةً",
+            "word_normalized": "صاعقة",
+            "meaning": "عَذَابًا هَائِلًا.",
+            "meaning_normalized": "عذابا هائلا"
+          },
+          {
+            "ayah_number": 16,
+            "word": "صَرْصَرًا",
+            "word_normalized": "صرصرا",
+            "meaning": "شَدِيدَةَ الْبُرُودَةِ، عَالِيَةَ الصَّوْتِ.",
+            "meaning_normalized": "شديدة البرودة عالية الصوت"
+          },
+          {
+            "ayah_number": 16,
+            "word": "نَّحِسَاتٍ",
+            "word_normalized": "نحسات",
+            "meaning": "مَشْؤُومَاتٍ.",
+            "meaning_normalized": "مشؤومات"
+          },
+          {
+            "ayah_number": 16,
+            "word": "ٱلْخِزْىِ",
+            "word_normalized": "الخزي",
+            "meaning": "الذُّلُّ وَالْهَوَانِ.",
+            "meaning_normalized": "الذل والهوان"
+          },
+          {
+            "ayah_number": 17,
+            "word": "فَهَدَيْنَٰهُمْ",
+            "word_normalized": "فهديناهم",
+            "meaning": "فَبَيَّنَّا لَهُمْ سَبِيلَ الْحَقِّ.",
+            "meaning_normalized": "فبينا لهم سبيل الحق"
+          },
+          {
+            "ayah_number": 17,
+            "word": "فَٱسْتَحَبُّوا۟",
+            "word_normalized": "فاستحبوا",
+            "meaning": "فَاخْتَارُوا.",
+            "meaning_normalized": "فاختاروا"
+          },
+          {
+            "ayah_number": 17,
+            "word": "ٱلْهُونِ",
+            "word_normalized": "الهون",
+            "meaning": "الْمُهِينِ.",
+            "meaning_normalized": "المهين"
+          },
+          {
+            "ayah_number": 19,
+            "word": "يُوزَعُونَ",
+            "word_normalized": "يوزعون",
+            "meaning": "يُرَدُّ أَوَّلُهُمْ عَلَى آخِرِهِمْ.",
+            "meaning_normalized": "يرد أولهم على آخرهم"
+          }
+        ]
+      }
+    ]
+  }
+}

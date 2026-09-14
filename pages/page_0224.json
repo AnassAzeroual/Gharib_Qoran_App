@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 224,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّورَىٰ",
+          "name_normalized": "سورة الشورى",
+          "order": 42,
+          "ayat_count": 53,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 23,
+            "word": "إِلَّا ٱلْمَوَدَّةَ فِى ٱلْقُرْبَىٰ",
+            "word_normalized": "إلا المودة في القربى",
+            "meaning": "لَا تُؤْذُونِي فِي تَبْلِيغِ الدَّعْوَةِ؛ لِمَا بَيْنِي وَبَيْنَكُمْ مِنَ الْقَرَابَةِ.",
+            "meaning_normalized": "لا تؤذوني في تبليغ الدعوة لما بيني وبينكم من القرابة"
+          },
+          {
+            "ayah_number": 23,
+            "word": "يَقْتَرِفْ حَسَنَةً",
+            "word_normalized": "يقترف حسنة",
+            "meaning": "يَكْتَسِبْ طَاعَةً.",
+            "meaning_normalized": "يكتسب طاعة"
+          },
+          {
+            "ayah_number": 24,
+            "word": "ٱفْتَرَىٰ",
+            "word_normalized": "افترى",
+            "meaning": "اخْتَلَقَ.",
+            "meaning_normalized": "اختلق"
+          },
+          {
+            "ayah_number": 24,
+            "word": "يَخْتِمْ",
+            "word_normalized": "يختم",
+            "meaning": "يَطْبَعْ.",
+            "meaning_normalized": "يطبع"
+          },
+          {
+            "ayah_number": 27,
+            "word": "لَبَغَوْا۟",
+            "word_normalized": "لبغوا",
+            "meaning": "لَطَغَوْا وَتَجَبَّرُوا.",
+            "meaning_normalized": "لطغوا وتجبروا"
+          },
+          {
+            "ayah_number": 27,
+            "word": "قَنَطُوا۟",
+            "word_normalized": "قنطوا",
+            "meaning": "يَئِسُوا مِنْ نُزُولِهِ.",
+            "meaning_normalized": "يئسوا من نزوله"
+          },
+          {
+            "ayah_number": 28,
+            "word": "وَيَنشُرُ رَحْمَتَهُۥ",
+            "word_normalized": "وينشر رحمته",
+            "meaning": "يَبْسُطُ مَطَرَهُ.",
+            "meaning_normalized": "يبسط مطره"
+          },
+          {
+            "ayah_number": 28,
+            "word": "ٱلْوَلِىُّ",
+            "word_normalized": "الولي",
+            "meaning": "الَّذِي يَتَوَلَّى عِبَادَهُ بِإِحْسَانِهِ.",
+            "meaning_normalized": "الذي يتولى عباده بإحسانه"
+          },
+          {
+            "ayah_number": 29,
+            "word": "بَثَّ",
+            "word_normalized": "بث",
+            "meaning": "فَرَّقَ، وَنَشَرَ.",
+            "meaning_normalized": "فرق ونشر"
+          },
+          {
+            "ayah_number": 29,
+            "word": "دَآبَّةٍ",
+            "word_normalized": "دابة",
+            "meaning": "مَا يَدِبُّ عَلَى الْأَرْضِ؛ مِنْ إِنْسٍ، وَحَيَوَانٍ، وَغَيْرِهِمَا.",
+            "meaning_normalized": "ما يدب على الأرض من إنس وحيوان وغيرهما"
+          },
+          {
+            "ayah_number": 31,
+            "word": "بِمُعْجِزِينَ",
+            "word_normalized": "بمعجزين",
+            "meaning": "بِفَائِتِينَ مِنَ الْعَذَابِ.",
+            "meaning_normalized": "بفائتين من العذاب"
+          },
+          {
+            "ayah_number": 32,
+            "word": "ٱلْجَوَارِ",
+            "word_normalized": "الجوار",
+            "meaning": "السُّفُنُ الْجَارِيَةُ.",
+            "meaning_normalized": "السفن الجارية"
+          },
+          {
+            "ayah_number": 32,
+            "word": "كَٱلْأَعْلَٰمِ",
+            "word_normalized": "كالأعلام",
+            "meaning": "كَالْجِبَالِ فِي عِظَمِهَا.",
+            "meaning_normalized": "كالجبال في عظمها"
+          },
+          {
+            "ayah_number": 33,
+            "word": "فَيَظْلَلْنَ",
+            "word_normalized": "فيظللن",
+            "meaning": "يَصِرْنَ وَيَبْقَيْنَ.",
+            "meaning_normalized": "يصرن ويبقين"
+          },
+          {
+            "ayah_number": 33,
+            "word": "رَوَاكِدَ",
+            "word_normalized": "رواكد",
+            "meaning": "ثَوَابِتَ لَا تَجْرِي.",
+            "meaning_normalized": "ثوابت لا تجري"
+          },
+          {
+            "ayah_number": 34,
+            "word": "يُوبِقْهُنَّ",
+            "word_normalized": "يوبقهن",
+            "meaning": "يُهْلِكِ السُّفُنَ بِالْغَرَقِ.",
+            "meaning_normalized": "يهلك السفن بالغرق"
+          },
+          {
+            "ayah_number": 35,
+            "word": "مَحِيصٍ",
+            "word_normalized": "محيص",
+            "meaning": "مَهْرَبٍ، وَمَلْجَإٍ.",
+            "meaning_normalized": "مهرب وملجإ"
+          },
+          {
+            "ayah_number": 37,
+            "word": "وَٱلْفَوَٰحِشَ",
+            "word_normalized": "والفواحش",
+            "meaning": "مَا عَظُمَ قُبْحُهُ مِنَ الْمَعَاصِي.",
+            "meaning_normalized": "ما عظم قبحه من المعاصي"
+          },
+          {
+            "ayah_number": 39,
+            "word": "ٱلْبَغْىُ",
+            "word_normalized": "البغي",
+            "meaning": "الظُّلْمُ، وَالْعُدْوَانُ.",
+            "meaning_normalized": "الظلم والعدوان"
+          }
+        ]
+      }
+    ]
+  }
+}

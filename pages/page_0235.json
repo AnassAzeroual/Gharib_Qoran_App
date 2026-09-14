@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 235,
+    "header": {
+      "right": "سُورَةُ الْأَحْقَافِ",
+      "right_normalized": "سورة الأحقاف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْجَاثِيَةِ",
+          "name_normalized": "سورة الجاثية",
+          "order": 45,
+          "ayat_count": 37,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 33,
+            "word": "وَحَاقَ بِهِم",
+            "word_normalized": "وحاق بهم",
+            "meaning": "نَزَلَ بِهِمْ.",
+            "meaning_normalized": "نزل بهم"
+          },
+          {
+            "ayah_number": 34,
+            "word": "نَنسَىٰكُمْ",
+            "word_normalized": "ننساكم",
+            "meaning": "نَتْرُكُكُمْ فِي الْعَذَابِ.",
+            "meaning_normalized": "نترككم في العذاب"
+          },
+          {
+            "ayah_number": 34,
+            "word": "وَمَأْوَىٰكُمُ",
+            "word_normalized": "ومأواكم",
+            "meaning": "مَنْزِلُكُمْ وَمَقَرُّكُمْ.",
+            "meaning_normalized": "منزلكم ومقركم"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَغَرَّتْكُمُ",
+            "word_normalized": "وغرتكم",
+            "meaning": "خَدَعَتْكُمْ.",
+            "meaning_normalized": "خدعتكم"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَلَا هُمْ يُسْتَعْتَبُونَ",
+            "word_normalized": "ولا هم يستعتبون",
+            "meaning": "لَا يُطْلَبُ مِنْهُمْ أَنْ يُرْضُوا رَبَّهُمْ بِالتَّوْبَةِ، وَالطَّاعَةِ.",
+            "meaning_normalized": "لا يطلب منهم أن يرضوا ربهم بالتوبة والطاعة"
+          },
+          {
+            "ayah_number": 37,
+            "word": "ٱلْكِبْرِيَآءُ",
+            "word_normalized": "الكبرياء",
+            "meaning": "الْعَظَمَةُ، وَالسُّلْطَانُ، وَالْقُدْرَةُ.",
+            "meaning_normalized": "العظمة والسلطان والقدرة"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْقَافِ",
+          "name_normalized": "سورة الأحقاف",
+          "order": 46,
+          "ayat_count": 35,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "word": "وَأَجَلٍ مُّسَمًّى",
+            "word_normalized": "وأجل مسمى",
+            "meaning": "هُوَ: وَقْتُ فَنَائِهِمَا إِذَا قَامَتِ الْقِيَامَةُ.",
+            "meaning_normalized": "هو وقت فنائهما إذا قامت القيامة"
+          },
+          {
+            "ayah_number": 4,
+            "word": "أَمْ لَهُمْ شِرْكٌ",
+            "word_normalized": "أم لهم شرك",
+            "meaning": "شِرْكَةٌ وَنَصِيبٌ مَعَ اللهِ تَعَالَى فِي خَلْقِ السَّمَوَاتِ.",
+            "meaning_normalized": "شركة ونصيب مع الله تعالى في خلق السموات"
+          },
+          {
+            "ayah_number": 4,
+            "word": "أَثَٰرَةٍ",
+            "word_normalized": "أثارة",
+            "meaning": "بَقِيَّةٍ.",
+            "meaning_normalized": "بقية"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَمَنْ أَضَلُّ",
+            "word_normalized": "ومن أضل",
+            "meaning": "لَا أَحَدَ أَضَلُّ، وَأَجْهَلُ.",
+            "meaning_normalized": "لا أحد أضل وأجهل"
+          },
+          {
+            "ayah_number": 8,
+            "word": "ٱفْتَرَىٰهُ",
+            "word_normalized": "افتراه",
+            "meaning": "اخْتَلَقَهُ.",
+            "meaning_normalized": "اختلقه"
+          },
+          {
+            "ayah_number": 8,
+            "word": "تُفِيضُونَ فِيهِ",
+            "word_normalized": "تفيضون فيه",
+            "meaning": "تَقُولُونَ فِي الْقُرْآنِ.",
+            "meaning_normalized": "تقولون في القرآن"
+          },
+          {
+            "ayah_number": 9,
+            "word": "بِدْعًا مِّنَ ٱلرُّسُلِ",
+            "word_normalized": "بدعا من الرسل",
+            "meaning": "أَوَّلَ رُسُلِ اللهِ إِلَى خَلْقِهِ.",
+            "meaning_normalized": "أول رسل الله إلى خلقه"
+          },
+          {
+            "ayah_number": 10,
+            "word": "أَرَءَيْتُمْ",
+            "word_normalized": "أرأيتم",
+            "meaning": "أَخْبِرُونِي.",
+            "meaning_normalized": "أخبروني"
+          },
+          {
+            "ayah_number": 10,
+            "word": "وَشَهِدَ شَاهِدٌ",
+            "word_normalized": "وشهد شاهد",
+            "meaning": "كَعَبْدِ اللهِ بْنِ سَلَامٍ رَضِيَ اللهُ عَنْهُ.",
+            "meaning_normalized": "كعبد الله بن سلام رضي الله عنه"
+          },
+          {
+            "ayah_number": 11,
+            "word": "إِفْكٌ قَدِيمٌ",
+            "word_normalized": "إفك قديم",
+            "meaning": "كَذِبٌ مَأْثُورٌ عَنِ النَّاسِ الْأَقْدَمِينَ.",
+            "meaning_normalized": "كذب مأثور عن الناس الأقدمين"
+          }
+        ]
+      }
+    ]
+  }
+}

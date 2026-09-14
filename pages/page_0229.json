@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 229,
+    "header": {
+      "right": "سُورَةُ الزُّخْرُفِ",
+      "right_normalized": "سورة الزخرف",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّخْرُفِ",
+          "name_normalized": "سورة الزخرف",
+          "order": 43,
+          "ayat_count": 89,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 49,
+            "word": "ٱلسَّاحِرُ",
+            "word_normalized": "الساحر",
+            "meaning": "الْعَالِمُ (وَكَانَ السَّاحِرُ فِيهِمْ عَظِيمًا يُوَقِّرُونَهُ، وَلَمْ يَكُنْ صِفَةَ ذَمٍّ).",
+            "meaning_normalized": "العالم وكان الساحر فيهم عظيما يوقرونه ولم يكن صفة ذم"
+          },
+          {
+            "ayah_number": 49,
+            "word": "بِمَا عَهِدَ عِندَكَ",
+            "word_normalized": "بما عهد عندك",
+            "meaning": "بِعَهْدِهِ الَّذِي عَهِدَ إِلَيْكَ، وَمَا خَصَّكَ بِهِ مِنَ الْفَضَائِلِ.",
+            "meaning_normalized": "بعهده الذي عهد إليك وما خصك به من الفضائل"
+          },
+          {
+            "ayah_number": 50,
+            "word": "يَنكُثُونَ",
+            "word_normalized": "ينكثون",
+            "meaning": "يَغْدِرُونَ، وَيُصِرُّونَ عَلَى الْكُفْرِ.",
+            "meaning_normalized": "يغدرون ويصرون على الكفر"
+          },
+          {
+            "ayah_number": 52,
+            "word": "مَهِينٌ",
+            "word_normalized": "مهين",
+            "meaning": "ضَعِيفٌ لَا عِزَّ لَهُ.",
+            "meaning_normalized": "ضعيف لا عز له"
+          },
+          {
+            "ayah_number": 52,
+            "word": "وَلَا يَكَادُ يُبِينُ",
+            "word_normalized": "ولا يكاد يبين",
+            "meaning": "لَا يَكَادُ يُفْصِحُ فِي كَلَامِهِ.",
+            "meaning_normalized": "لا يكاد يفصح في كلامه"
+          },
+          {
+            "ayah_number": 53,
+            "word": "مُقْتَرِنِينَ",
+            "word_normalized": "مقترنين",
+            "meaning": "مَقْرُونِينَ مَعَهُ يُصَدِّقُونَهُ.",
+            "meaning_normalized": "مقرونين معه يصدقونه"
+          },
+          {
+            "ayah_number": 54,
+            "word": "فَٱسْتَخَفَّ قَوْمَهُۥ",
+            "word_normalized": "فاستخف قومه",
+            "meaning": "اسْتَخَفَّ بِعُقُولِهِمْ.",
+            "meaning_normalized": "استخف بعقولهم"
+          },
+          {
+            "ayah_number": 55,
+            "word": "ءَاسَفُونَا",
+            "word_normalized": "آسفونا",
+            "meaning": "أَغْضَبُونَا.",
+            "meaning_normalized": "أغضبونا"
+          },
+          {
+            "ayah_number": 56,
+            "word": "سَلَفًا",
+            "word_normalized": "سلفا",
+            "meaning": "قُدْوَةً لِمَنْ يَعْمَلُ مِثْلَ عَمَلِهِمْ؛ فَيَسْتَحِقُّ الْعُقُوبَةَ.",
+            "meaning_normalized": "قدوة لمن يعمل مثل عملهم فيستحق العقوبة"
+          },
+          {
+            "ayah_number": 56,
+            "word": "وَمَثَلًا",
+            "word_normalized": "ومثلا",
+            "meaning": "عِظَةً، وَعِبْرَةً.",
+            "meaning_normalized": "عظة وعبرة"
+          },
+          {
+            "ayah_number": 57,
+            "word": "يَصِدُّونَ",
+            "word_normalized": "يصدون",
+            "meaning": "يَضِجُّونَ وَيَصِيحُونَ، فَرَحًا، وَجَذَلًا.",
+            "meaning_normalized": "يضجون ويصيحون فرحا وجذلا"
+          },
+          {
+            "ayah_number": 58,
+            "word": "خَصِمُونَ",
+            "word_normalized": "خصمون",
+            "meaning": "شَدِيدُو الْخُصُومَةِ بِالْبَاطِلِ.",
+            "meaning_normalized": "شديدو الخصومة بالباطل"
+          },
+          {
+            "ayah_number": 59,
+            "word": "مَثَلًا",
+            "word_normalized": "مثلا",
+            "meaning": "عِبْرَةً، وَآيَةً.",
+            "meaning_normalized": "عبرة وآية"
+          },
+          {
+            "ayah_number": 60,
+            "word": "لَجَعَلْنَا مِنكُم",
+            "word_normalized": "لجعلنا منكم",
+            "meaning": "لَجَعَلْنَا بَدَلَكُمْ.",
+            "meaning_normalized": "لجعلنا بدلكم"
+          },
+          {
+            "ayah_number": 60,
+            "word": "يَخْلُفُونَ",
+            "word_normalized": "يخلفون",
+            "meaning": "يَخْلُفُ بَعْضُهُمْ بَعْضًا، بَدَلًا مِنْ بَنِي آدَمَ.",
+            "meaning_normalized": "يخلف بعضهم بعضا بدلا من بني آدم"
+          },
+          {
+            "ayah_number": 61,
+            "word": "لَعِلْمٌ لِّلسَّاعَةِ",
+            "word_normalized": "لعلم للساعة",
+            "meaning": "إِنَّ نُزُولَ عِيسَى عَلَيْهِ السَّلَامُ لَدَلِيلٌ عَلَى قُرْبِ وُقُوعِ السَّاعَةِ.",
+            "meaning_normalized": "إن نزول عيسى عليه السلام لدليل على قرب وقوع الساعة"
+          },
+          {
+            "ayah_number": 61,
+            "word": "فَلَا تَمْتَرُنَّ",
+            "word_normalized": "فلا تمترن",
+            "meaning": "لَا تَشُكُّوا.",
+            "meaning_normalized": "لا تشكوا"
+          }
+        ]
+      }
+    ]
+  }
+}

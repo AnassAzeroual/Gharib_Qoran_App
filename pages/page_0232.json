@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 232,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الدُّخَانِ",
+          "name_normalized": "سورة الدخان",
+          "order": 44,
+          "ayat_count": 59,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 18,
+            "word": "أَنْ أَدُّوٓا۟ إِلَىَّ",
+            "word_normalized": "أن أدوا إلي",
+            "meaning": "سَلِّمُوا لِي عِبَادَ اللهِ مِنْ بَنِي إِسْرَائِيلَ.",
+            "meaning_normalized": "سلموا لي عباد الله من بني إسرائيل"
+          },
+          {
+            "ayah_number": 19,
+            "word": "وَأَن لَّا تَعْلُوا۟",
+            "word_normalized": "وأن لا تعلوا",
+            "meaning": "أَلَّا تَتَكَبَّرُوا.",
+            "meaning_normalized": "ألا تتكبروا"
+          },
+          {
+            "ayah_number": 19,
+            "word": "بِسُلْطَٰنٍ",
+            "word_normalized": "بسلطان",
+            "meaning": "بِبُرْهَانٍ، وَحُجَّةٍ.",
+            "meaning_normalized": "ببرهان وحجة"
+          },
+          {
+            "ayah_number": 20,
+            "word": "عُذْتُ",
+            "word_normalized": "عذت",
+            "meaning": "اسْتَجَرْتُ.",
+            "meaning_normalized": "استجرت"
+          },
+          {
+            "ayah_number": 20,
+            "word": "أَن تَرْجُمُونِ",
+            "word_normalized": "أن ترجمون",
+            "meaning": "أَنْ تَقْتُلُونِي رَجْمًا بِالْحِجَارَةِ.",
+            "meaning_normalized": "أن تقتلوني رجما بالحجارة"
+          },
+          {
+            "ayah_number": 24,
+            "word": "رَهْوًا",
+            "word_normalized": "رهوا",
+            "meaning": "سَاكِنًا غَيْرَ مُضْطَرِبٍ.",
+            "meaning_normalized": "ساكنا غير مضطرب"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَمَقَامٍ كَرِيمٍ",
+            "word_normalized": "ومقام كريم",
+            "meaning": "مَنَازِلَ جَمِيلَةٍ.",
+            "meaning_normalized": "منازل جميلة"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَنَعْمَةٍ",
+            "word_normalized": "ونعمة",
+            "meaning": "عِيشَةٍ، وَتَنَعُّمٍ.",
+            "meaning_normalized": "عيشة وتنعم"
+          },
+          {
+            "ayah_number": 27,
+            "word": "فَٰكِهِينَ",
+            "word_normalized": "فاكهين",
+            "meaning": "نَاعِمِينَ مُتْرَفِينَ.",
+            "meaning_normalized": "ناعمين مترفين"
+          },
+          {
+            "ayah_number": 28,
+            "word": "قَوْمًا ءَاخَرِينَ",
+            "word_normalized": "قوما آخرين",
+            "meaning": "هُمْ: بَنُو إِسْرَائِيلَ؛ خَلَفُوا الْأَقْبَاطَ عَلَى بِلَادِهِمْ.",
+            "meaning_normalized": "هم بنو إسرائيل خلفوا الأقباط على بلادهم"
+          },
+          {
+            "ayah_number": 29,
+            "word": "مُنظَرِينَ",
+            "word_normalized": "منظرين",
+            "meaning": "مُؤَخَّرِينَ عَنِ الْعُقُوبَةِ.",
+            "meaning_normalized": "مؤخرين عن العقوبة"
+          },
+          {
+            "ayah_number": 30,
+            "word": "ٱلْعَذَابِ ٱلْمُهِينِ",
+            "word_normalized": "العذاب المهين",
+            "meaning": "الْمُذِلِّ؛ وَهُوَ قَتْلُ أَبْنَائِهِمْ، وَاسْتِخْدَامُ نِسَائِهِمْ.",
+            "meaning_normalized": "المذل وهو قتل أبنائهم واستخدام نسائهم"
+          },
+          {
+            "ayah_number": 31,
+            "word": "عَالِيًا",
+            "word_normalized": "عاليا",
+            "meaning": "مُتَكَبِّرًا جَبَّارًا.",
+            "meaning_normalized": "متكبرا جبارا"
+          },
+          {
+            "ayah_number": 32,
+            "word": "ٱخْتَرْنَٰهُمْ",
+            "word_normalized": "اخترناهم",
+            "meaning": "اصْطَفَيْنَاهُمْ.",
+            "meaning_normalized": "اصطفيناهم"
+          },
+          {
+            "ayah_number": 32,
+            "word": "عَلَى ٱلْعَٰلَمِينَ",
+            "word_normalized": "على العالمين",
+            "meaning": "عَالَمِي زَمَانِهِمْ.",
+            "meaning_normalized": "عالمي زمانهم"
+          },
+          {
+            "ayah_number": 33,
+            "word": "بَلَٰٓؤٌا۟ مُّبِينٌ",
+            "word_normalized": "بلاء مبين",
+            "meaning": "اخْتِبَارٌ بَيْنَ الرَّخَاءِ، وَالشِّدَّةِ.",
+            "meaning_normalized": "اختبار بين الرخاء والشدة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "بِمُنشَرِينَ",
+            "word_normalized": "بمنشرين",
+            "meaning": "بِمَبْعُوثِينَ.",
+            "meaning_normalized": "بمبعوثين"
+          },
+          {
+            "ayah_number": 41,
+            "word": "لَا يُغْنِى مَوْلًى",
+            "word_normalized": "لا يغني مولى",
+            "meaning": "لَا يَدْفَعُ صَاحِبٌ.",
+            "meaning_normalized": "لا يدفع صاحب"
+          },
+          {
+            "ayah_number": 44,
+            "word": "ٱلْأَثِيمِ",
+            "word_normalized": "الأثيم",
+            "meaning": "صَاحِبِ الْآثَامِ الْكَبِيرَةِ.",
+            "meaning_normalized": "صاحب الآثام الكبيرة"
+          }
+        ]
+      }
+    ]
+  }
+}

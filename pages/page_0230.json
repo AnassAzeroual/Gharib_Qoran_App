@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 230,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّخْرُفِ",
+          "name_normalized": "سورة الزخرف",
+          "order": 43,
+          "ayat_count": 89,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 61,
+            "word": "صِرَٰطٌ مُّسْتَقِيمٌ",
+            "word_normalized": "صراط مستقيم",
+            "meaning": "طَرِيقٌ قَوِيمٌ إِلَى الْجَنَّةِ لَا عِوَجَ فِيهِ.",
+            "meaning_normalized": "طريق قويم إلى الجنة لا عوج فيه"
+          },
+          {
+            "ayah_number": 63,
+            "word": "بِٱلْحِكْمَةِ",
+            "word_normalized": "بالحكمة",
+            "meaning": "بِالنُّبُوَّةِ.",
+            "meaning_normalized": "بالنبوة"
+          },
+          {
+            "ayah_number": 65,
+            "word": "ٱلْأَحْزَابُ",
+            "word_normalized": "الأحزاب",
+            "meaning": "الْفِرَقُ.",
+            "meaning_normalized": "الفرق"
+          },
+          {
+            "ayah_number": 65,
+            "word": "فَوَيْلٌ",
+            "word_normalized": "فويل",
+            "meaning": "هَلَاكٌ، وَدَمَارٌ.",
+            "meaning_normalized": "هلاك ودمار"
+          },
+          {
+            "ayah_number": 66,
+            "word": "يَنظُرُونَ",
+            "word_normalized": "ينظرون",
+            "meaning": "يَنْتَظِرُونَ.",
+            "meaning_normalized": "ينتظرون"
+          },
+          {
+            "ayah_number": 66,
+            "word": "بَغْتَةً",
+            "word_normalized": "بغتة",
+            "meaning": "فَجْأَةً.",
+            "meaning_normalized": "فجأة"
+          },
+          {
+            "ayah_number": 67,
+            "word": "ٱلْأَخِلَّآءُ",
+            "word_normalized": "الأخلاء",
+            "meaning": "الْأَصْدِقَاءُ، وَالْأَحْبَابُ.",
+            "meaning_normalized": "الأصدقاء والأحباب"
+          },
+          {
+            "ayah_number": 70,
+            "word": "تُحْبَرُونَ",
+            "word_normalized": "تحبرون",
+            "meaning": "تُنَعَّمُونَ، وَتُسَرُّونَ.",
+            "meaning_normalized": "تنعمون وتسرون"
+          },
+          {
+            "ayah_number": 71,
+            "word": "بِصِحَافٍ",
+            "word_normalized": "بصحاف",
+            "meaning": "بِأَوَانٍ.",
+            "meaning_normalized": "بأوان"
+          },
+          {
+            "ayah_number": 75,
+            "word": "لَا يُفَتَّرُ عَنْهُمْ",
+            "word_normalized": "لا يفتر عنهم",
+            "meaning": "لَا يُخَفَّفُ عَنْهُمْ.",
+            "meaning_normalized": "لا يخفف عنهم"
+          },
+          {
+            "ayah_number": 75,
+            "word": "مُبْلِسُونَ",
+            "word_normalized": "مبلسون",
+            "meaning": "آيِسُونَ مِنْ رَحْمَةِ اللهِ.",
+            "meaning_normalized": "آيسون من رحمة الله"
+          },
+          {
+            "ayah_number": 77,
+            "word": "يَٰمَٰلِكُ",
+            "word_normalized": "يا مالك",
+            "meaning": "هُوَ: خَازِنُ جَهَنَّمَ.",
+            "meaning_normalized": "هو خازن جهنم"
+          },
+          {
+            "ayah_number": 77,
+            "word": "لِيَقْضِ",
+            "word_normalized": "ليقض",
+            "meaning": "لِيُمِتْنَا.",
+            "meaning_normalized": "ليمتنا"
+          },
+          {
+            "ayah_number": 79,
+            "word": "أَمْ أَبْرَمُوٓا۟ أَمْرًا",
+            "word_normalized": "أم أبرموا أمرا",
+            "meaning": "أَحْكَمُوا أَمْرًا فِي كَيْدِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ.",
+            "meaning_normalized": "أحكموا أمرا في كيد نبينا محمد صلى الله عليه وسلم"
+          },
+          {
+            "ayah_number": 80,
+            "word": "يَحْسَبُونَ",
+            "word_normalized": "يحسبون",
+            "meaning": "يَظُنُّونَ.",
+            "meaning_normalized": "يظنون"
+          },
+          {
+            "ayah_number": 80,
+            "word": "وَنَجْوَىٰهُمْ",
+            "word_normalized": "ونجواهم",
+            "meaning": "مَا تَكَلَّمُوا فِيهِ فِيمَا بَيْنَهُمْ.",
+            "meaning_normalized": "ما تكلموا فيه فيما بينهم"
+          },
+          {
+            "ayah_number": 80,
+            "word": "وَرُسُلُنَا",
+            "word_normalized": "ورسلنا",
+            "meaning": "مَلَائِكَتُنَا الْكِرَامُ الْحَفَظَةُ.",
+            "meaning_normalized": "ملائكتنا الكرام الحفظة"
+          },
+          {
+            "ayah_number": 82,
+            "word": "عَمَّا يَصِفُونَ",
+            "word_normalized": "عما يصفون",
+            "meaning": "عَمَّا يَصِفُونَ اللهَ بِهِ؛ مِنَ الصَّاحِبَةِ، وَالْوَلَدِ.",
+            "meaning_normalized": "عما يصفون الله به من الصاحبة والولد"
+          },
+          {
+            "ayah_number": 83,
+            "word": "فَذَرْهُمْ",
+            "word_normalized": "فذرهم",
+            "meaning": "اتْرُكْهُمْ.",
+            "meaning_normalized": "اتركهم"
+          },
+          {
+            "ayah_number": 83,
+            "word": "يَخُوضُوا۟",
+            "word_normalized": "يخوضوا",
+            "meaning": "يَتَكَلَّمُوا بِبَاطِلِهِمْ.",
+            "meaning_normalized": "يتكلموا بباطلهم"
+          },
+          {
+            "ayah_number": 84,
+            "word": "إِلَٰهٌ",
+            "word_normalized": "إله",
+            "meaning": "مَعْبُودٌ بِحَقٍّ.",
+            "meaning_normalized": "معبود بحق"
+          }
+        ]
+      }
+    ]
+  }
+}

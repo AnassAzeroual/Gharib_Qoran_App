@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 221,
+    "header": {
+      "right": "سُورَةُ فُصِّلَتْ",
+      "right_normalized": "سورة فصلت",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ فُصِّلَتْ",
+          "name_normalized": "سورة فصلت",
+          "order": 41,
+          "ayat_count": 54,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 44,
+            "word": "ءَا۬عْجَمِىٌّ وَعَرَبِىٌّ",
+            "word_normalized": "أأعجمي وعربي",
+            "meaning": "لَقَالُوا: كَيْفَ يَكُونُ الْقُرْآنُ أَعْجَمِيًّا، وَلِسَانُ الَّذِي أُنْزِلَ عَلَيْهِ الْقُرْآنُ عَرَبِيٌّ؟!",
+            "meaning_normalized": "لقالوا كيف يكون القرآن أعجميا ولسان الذي أنزل عليه القرآن عربي"
+          },
+          {
+            "ayah_number": 44,
+            "word": "وَقْرٌ",
+            "word_normalized": "وقر",
+            "meaning": "صَمَمٌ.",
+            "meaning_normalized": "صمم"
+          },
+          {
+            "ayah_number": 44,
+            "word": "يُنَادَوْنَ",
+            "word_normalized": "ينادون",
+            "meaning": "كَمَنْ يُنَادَى.",
+            "meaning_normalized": "كمن ينادى"
+          },
+          {
+            "ayah_number": 44,
+            "word": "مِن مَّكَانٍ بَعِيدٍ",
+            "word_normalized": "من مكان بعيد",
+            "meaning": "فَلَا يَسْمَعُ دَاعِيًا، وَلَا يُجِيبُ مُنَادِيًا.",
+            "meaning_normalized": "فلا يسمع داعيا ولا يجيب مناديا"
+          },
+          {
+            "ayah_number": 45,
+            "word": "كَلِمَةٌ",
+            "word_normalized": "كلمة",
+            "meaning": "بِتَأْجِيلِ الْعَذَابِ.",
+            "meaning_normalized": "بتأجيل العذاب"
+          },
+          {
+            "ayah_number": 45,
+            "word": "مُرِيبٍ",
+            "word_normalized": "مريب",
+            "meaning": "شَدِيدِ الرِّيبَةِ مُقْلِقٍ.",
+            "meaning_normalized": "شديد الريبة مقلق"
+          },
+          {
+            "ayah_number": 47,
+            "word": "أَكْمَامِهَا",
+            "word_normalized": "أكمامها",
+            "meaning": "أَوْعِيَتِهَا.",
+            "meaning_normalized": "أوعيتها"
+          },
+          {
+            "ayah_number": 47,
+            "word": "ءَاذَنَّٰكَ",
+            "word_normalized": "آذناك",
+            "meaning": "أَعْلَمْنَاكَ.",
+            "meaning_normalized": "أعلمناك"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَضَلَّ",
+            "word_normalized": "وضل",
+            "meaning": "ذَهَبَ، وَغَابَ.",
+            "meaning_normalized": "ذهب وغاب"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَظَنُّوا۟",
+            "word_normalized": "وظنوا",
+            "meaning": "أَيْقَنُوا.",
+            "meaning_normalized": "أيقنوا"
+          },
+          {
+            "ayah_number": 48,
+            "word": "مَحِيصٍ",
+            "word_normalized": "محيص",
+            "meaning": "مَلْجَإٍ، وَمَهْرَبٍ.",
+            "meaning_normalized": "ملجإ ومهرب"
+          },
+          {
+            "ayah_number": 49,
+            "word": "لَّا يَسْـَٔمُ",
+            "word_normalized": "لا يسأم",
+            "meaning": "لَا يَمَلُّ.",
+            "meaning_normalized": "لا يمل"
+          },
+          {
+            "ayah_number": 49,
+            "word": "مِن دُعَآءِ ٱلْخَيْرِ",
+            "word_normalized": "من دعاء الخير",
+            "meaning": "طَلَبِ الزِّيَادَةِ فِي الدُّنْيَا.",
+            "meaning_normalized": "طلب الزيادة في الدنيا"
+          },
+          {
+            "ayah_number": 49,
+            "word": "ٱلشَّرُّ",
+            "word_normalized": "الشر",
+            "meaning": "الْفَقْرُ، وَالْمَرَضُ، وَالْخَوْفُ.",
+            "meaning_normalized": "الفقر والمرض والخوف"
+          },
+          {
+            "ayah_number": 50,
+            "word": "وَمَآ أَظُنُّ",
+            "word_normalized": "وما أظن",
+            "meaning": "مَا أَعْتَقِدُ.",
+            "meaning_normalized": "ما أعتقد"
+          },
+          {
+            "ayah_number": 50,
+            "word": "غَلِيظٍ",
+            "word_normalized": "غليظ",
+            "meaning": "شَدِيدٍ.",
+            "meaning_normalized": "شديد"
+          },
+          {
+            "ayah_number": 51,
+            "word": "وَنَـَٔا بِجَانِبِهِۦ",
+            "word_normalized": "ونأى بجانبه",
+            "meaning": "تَبَاعَدَ عَنْ شُكْرِ النِّعْمَةِ، وَاتِّبَاعِ الْحَقِّ؛ تَكَبُّرًا.",
+            "meaning_normalized": "تباعد عن شكر النعمة واتباع الحق تكبرا"
+          },
+          {
+            "ayah_number": 51,
+            "word": "فَذُو دُعَآءٍ عَرِيضٍ",
+            "word_normalized": "فذو دعاء عريض",
+            "meaning": "صَاحِبُ دُعَاءٍ بِكَشْفِ الضُّرِّ كَثِيرٍ.",
+            "meaning_normalized": "صاحب دعاء بكشف الضر كثير"
+          },
+          {
+            "ayah_number": 52,
+            "word": "أَرَءَيْتُمْ",
+            "word_normalized": "أرأيتم",
+            "meaning": "أَخْبِرُونِي.",
+            "meaning_normalized": "أخبروني"
+          }
+        ]
+      }
+    ]
+  }
+}

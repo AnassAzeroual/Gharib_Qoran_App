@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 228,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزُّخْرُفِ",
+          "name_normalized": "سورة الزخرف",
+          "order": 43,
+          "ayat_count": 89,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 28,
+            "word": "كَلِمَةً بَاقِيَةً",
+            "word_normalized": "كلمة باقية",
+            "meaning": "أَيْ: لَا إِلَهَ إِلَّا اللهُ: بَاقِيَةٌ.",
+            "meaning_normalized": "أي لا إله إلا الله باقية"
+          },
+          {
+            "ayah_number": 28,
+            "word": "عَقِبِهِۦ",
+            "word_normalized": "عقبه",
+            "meaning": "ذُرِّيَّتِهِ.",
+            "meaning_normalized": "ذريته"
+          },
+          {
+            "ayah_number": 29,
+            "word": "مَتَّعْتُ هَٰٓؤُلَآءِ",
+            "word_normalized": "متعت هؤلاء",
+            "meaning": "لَمْ أُعَاجِلْهُمْ بِالْعُقُوبَةِ.",
+            "meaning_normalized": "لم أعاجلهم بالعقوبة"
+          },
+          {
+            "ayah_number": 31,
+            "word": "لَوْلَا",
+            "word_normalized": "لولا",
+            "meaning": "هَلَّا.",
+            "meaning_normalized": "هلا"
+          },
+          {
+            "ayah_number": 31,
+            "word": "ٱلْقَرْيَتَيْنِ",
+            "word_normalized": "القريتين",
+            "meaning": "مَكَّةَ، وَالطَّائِفِ.",
+            "meaning_normalized": "مكة والطائف"
+          },
+          {
+            "ayah_number": 32,
+            "word": "رَحْمَتَ رَبِّكَ",
+            "word_normalized": "رحمت ربك",
+            "meaning": "النُّبُوَّةَ.",
+            "meaning_normalized": "النبوة"
+          },
+          {
+            "ayah_number": 32,
+            "word": "سُخْرِيًّا",
+            "word_normalized": "سخريا",
+            "meaning": "مُسَخَّرًا فِي الْعَمَلِ.",
+            "meaning_normalized": "مسخرا في العمل"
+          },
+          {
+            "ayah_number": 32,
+            "word": "وَرَحْمَتُ رَبِّكَ",
+            "word_normalized": "ورحمت ربك",
+            "meaning": "الْجَنَّةُ.",
+            "meaning_normalized": "الجنة"
+          },
+          {
+            "ayah_number": 33,
+            "word": "أُمَّةً وَٰحِدَةً",
+            "word_normalized": "أمة واحدة",
+            "meaning": "جَمَاعَةً وَاحِدَةً عَلَى الْكُفْرِ.",
+            "meaning_normalized": "جماعة واحدة على الكفر"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَمَعَارِجَ",
+            "word_normalized": "ومعارج",
+            "meaning": "سَلَالِمَ مِنْ فِضَّةٍ.",
+            "meaning_normalized": "سلالم من فضة"
+          },
+          {
+            "ayah_number": 33,
+            "word": "يَظْهَرُونَ",
+            "word_normalized": "يظهرون",
+            "meaning": "يَصْعَدُونَ.",
+            "meaning_normalized": "يصعدون"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَزُخْرُفًا",
+            "word_normalized": "وزخرفا",
+            "meaning": "ذَهَبًا.",
+            "meaning_normalized": "ذهبا"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَإِن كُلُّ ذَٰلِكَ لَمَّا",
+            "word_normalized": "وإن كل ذلك لما",
+            "meaning": "مَا كُلُّ ذَلِكَ إِلَّا.",
+            "meaning_normalized": "ما كل ذلك إلا"
+          },
+          {
+            "ayah_number": 36,
+            "word": "يَعْشُ",
+            "word_normalized": "يعش",
+            "meaning": "يُعْرِضْ.",
+            "meaning_normalized": "يعرض"
+          },
+          {
+            "ayah_number": 36,
+            "word": "نُقَيِّضْ",
+            "word_normalized": "نقيض",
+            "meaning": "نُهَيِّئْ، وَنُيَسِّرْ.",
+            "meaning_normalized": "نهيئ ونيسر"
+          },
+          {
+            "ayah_number": 36,
+            "word": "قَرِينٌ",
+            "word_normalized": "قرين",
+            "meaning": "مُلَازِمٌ، وَمُصَاحِبٌ.",
+            "meaning_normalized": "ملازم ومصاحب"
+          },
+          {
+            "ayah_number": 38,
+            "word": "بُعْدَ ٱلْمَشْرِقَيْنِ",
+            "word_normalized": "بعد المشرقين",
+            "meaning": "مِثْلَ تَبَاعُدِ مَا بَيْنَ الْمَشْرِقِ، وَالْمَغْرِبِ.",
+            "meaning_normalized": "مثل تباعد ما بين المشرق والمغرب"
+          },
+          {
+            "ayah_number": 44,
+            "word": "لَذِكْرٌ",
+            "word_normalized": "لذكر",
+            "meaning": "لَشَرَفٌ؛ لِأَنَّهُ أُنْزِلَ بِلُغَتِهِمْ.",
+            "meaning_normalized": "لشرف لأنه أنزل بلغتهم"
+          },
+          {
+            "ayah_number": 46,
+            "word": "وَمَلَإِي۟هِۦ",
+            "word_normalized": "وملئه",
+            "meaning": "أَشْرَافُ قَوْمِهِ.",
+            "meaning_normalized": "أشراف قومه"
+          },
+          {
+            "ayah_number": 48,
+            "word": "ءَايَةٍ",
+            "word_normalized": "آية",
+            "meaning": "حُجَّةٍ عَلَى صِدْقِ دَعْوَتِهِ.",
+            "meaning_normalized": "حجة على صدق دعوته"
+          },
+          {
+            "ayah_number": 48,
+            "word": "بِٱلْعَذَابِ",
+            "word_normalized": "بالعذاب",
+            "meaning": "مِنَ الْجَرَادِ، وَالْقُمَّلِ، وَالضَّفَادِعِ، وَنَحْوِهَا.",
+            "meaning_normalized": "من الجراد والقمل والضفادع ونحوها"
+          }
+        ]
+      }
+    ]
+  }
+}

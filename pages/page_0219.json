@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 219,
+    "header": {
+      "right": "سُورَةُ فُصِّلَتْ",
+      "right_normalized": "سورة فصلت",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ فُصِّلَتْ",
+          "name_normalized": "سورة فصلت",
+          "order": 41,
+          "ayat_count": 54,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 22,
+            "word": "تَسْتَتِرُونَ",
+            "word_normalized": "تستترون",
+            "meaning": "تَسْتَخْفُونَ عِنْدَ ارْتِكَابِكُمُ الْمَعَاصِيَ.",
+            "meaning_normalized": "تستخفون عند ارتكابكم المعاصي"
+          },
+          {
+            "ayah_number": 22,
+            "word": "أَن يَشْهَدَ",
+            "word_normalized": "أن يشهد",
+            "meaning": "خَوْفًا مِنْ أَنْ يَشْهَدَ.",
+            "meaning_normalized": "خوفا من أن يشهد"
+          },
+          {
+            "ayah_number": 23,
+            "word": "أَرْدَىٰكُمْ",
+            "word_normalized": "أرداكم",
+            "meaning": "أَهْلَكَكُمْ.",
+            "meaning_normalized": "أهلككم"
+          },
+          {
+            "ayah_number": 24,
+            "word": "مَثْوًى",
+            "word_normalized": "مثوى",
+            "meaning": "مَأْوًى وَمَسْكَنٌ.",
+            "meaning_normalized": "مأوى ومسكن"
+          },
+          {
+            "ayah_number": 24,
+            "word": "يَسْتَعْتِبُوا۟",
+            "word_normalized": "يستعتبوا",
+            "meaning": "يَطْلُبُوا الْعُتْبَى وَهِيَ الْمَغْفِرَةُ.",
+            "meaning_normalized": "يطلبوا العتبى وهي المغفرة"
+          },
+          {
+            "ayah_number": 24,
+            "word": "فَمَا هُم مِّنَ ٱلْمُعْتَبِينَ",
+            "word_normalized": "فما هم من المعتبين",
+            "meaning": "مَا هُمْ مِنَ الْمُجَابِينَ إِلَى مَا طَلَبُوا.",
+            "meaning_normalized": "ما هم من المجابين إلى ما طلبوا"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وَقَيَّضْنَا",
+            "word_normalized": "وقيضنا",
+            "meaning": "هَيَّأْنَا.",
+            "meaning_normalized": "هيأنا"
+          },
+          {
+            "ayah_number": 25,
+            "word": "قُرَنَآءَ",
+            "word_normalized": "قرناء",
+            "meaning": "مُصَاحِبِينَ مِنْ شَيَاطِينِ الْإِنْسِ وَالْجِنِّ.",
+            "meaning_normalized": "مصاحبين من شياطين الإنس والجن"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ",
+            "word_normalized": "وحق عليهم القول",
+            "meaning": "وَجَبَ عَلَيْهِمُ الْوَعِيدُ بِالْعَذَابِ.",
+            "meaning_normalized": "وجب عليهم الوعيد بالعذاب"
+          },
+          {
+            "ayah_number": 25,
+            "word": "خَلَتْ",
+            "word_normalized": "خلت",
+            "meaning": "مَضَتْ.",
+            "meaning_normalized": "مضت"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَٱلْغَوْا۟ فِيهِ",
+            "word_normalized": "والغوا فيه",
+            "meaning": "ائْتُوا بِاللَّغْوِ؛ مِنَ الصَّفِيرِ، وَالصِّيَاحِ، وَالْجَلَبَةِ، عِنْدَ قِرَاءَتِهِ.",
+            "meaning_normalized": "ائتوا باللغو من الصفير والصياح والجلبة عند قراءته"
+          },
+          {
+            "ayah_number": 29,
+            "word": "ٱلْأَسْفَلِينَ",
+            "word_normalized": "الأسفلين",
+            "meaning": "فِي الدَّرْكِ الْأَسْفَلِ مِنَ النَّارِ.",
+            "meaning_normalized": "في الدرك الأسفل من النار"
+          },
+          {
+            "ayah_number": 30,
+            "word": "ٱسْتَقَٰمُوا۟",
+            "word_normalized": "استقاموا",
+            "meaning": "ثَبَتُوا عَلَى الْحَقِّ عِلْمًا، وَعَمَلًا.",
+            "meaning_normalized": "ثبتوا على الحق علما وعملا"
+          },
+          {
+            "ayah_number": 30,
+            "word": "تَتَنَزَّلُ عَلَيْهِمُ",
+            "word_normalized": "تتنزل عليهم",
+            "meaning": "تَنْزِلُ عِنْدَ الْمَوْتِ.",
+            "meaning_normalized": "تنزل عند الموت"
+          },
+          {
+            "ayah_number": 31,
+            "word": "أَوْلِيَآؤُكُمْ",
+            "word_normalized": "أولياؤكم",
+            "meaning": "أَنْصَارُكُمْ.",
+            "meaning_normalized": "أنصاركم"
+          },
+          {
+            "ayah_number": 31,
+            "word": "تَدَّعُونَ",
+            "word_normalized": "تدعون",
+            "meaning": "تَطْلُبُونَ.",
+            "meaning_normalized": "تطلبون"
+          },
+          {
+            "ayah_number": 32,
+            "word": "نُزُلًا",
+            "word_normalized": "نزلا",
+            "meaning": "ضِيَافَةً، وَإِنْعَامًا.",
+            "meaning_normalized": "ضيافة وإنعاما"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَمَنْ أَحْسَنُ",
+            "word_normalized": "ومن أحسن",
+            "meaning": "لَا أَحَدَ أَفْضَلُ.",
+            "meaning_normalized": "لا أحد أفضل"
+          },
+          {
+            "ayah_number": 34,
+            "word": "وَلِىٌّ حَمِيمٌ",
+            "word_normalized": "ولي حميم",
+            "meaning": "قَرِيبٌ لَكَ، شَفِيقٌ عَلَيْكَ.",
+            "meaning_normalized": "قريب لك شفيق عليك"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَمَا يُلَقَّىٰهَآ",
+            "word_normalized": "وما يلقاها",
+            "meaning": "مَا يُوَفَّقُ لَهَا.",
+            "meaning_normalized": "ما يوفق لها"
+          }
+        ]
+      }
+    ]
+  }
+}
