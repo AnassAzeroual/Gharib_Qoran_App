@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 240,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ مُحَمَّدٍ",
+          "name_normalized": "سورة محمد",
+          "order": 47,
+          "ayat_count": 38,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 18,
+            "word": "جَآءَ أَشْرَاطُهَا",
+            "word_normalized": "جاء أشراطها",
+            "meaning": "ظَهَرَتْ عَلَامَاتُهَا.",
+            "meaning_normalized": "ظهرت علاماتها"
+          },
+          {
+            "ayah_number": 18,
+            "word": "فَأَنَّىٰ",
+            "word_normalized": "فأنى",
+            "meaning": "مِنْ أَيْنَ لَهُمْ؟!",
+            "meaning_normalized": "من أين لهم"
+          },
+          {
+            "ayah_number": 18,
+            "word": "ذِكْرَىٰهُمْ",
+            "word_normalized": "ذكراهم",
+            "meaning": "تَذَكُّرُهُمْ.",
+            "meaning_normalized": "تذكرهم"
+          },
+          {
+            "ayah_number": 19,
+            "word": "مُتَقَلَّبَكُمْ",
+            "word_normalized": "متقلبكم",
+            "meaning": "تَصَرُّفَكُمْ فِي يَقَظَتِكُمْ نَهَارًا.",
+            "meaning_normalized": "تصرفكم في يقظتكم نهارا"
+          },
+          {
+            "ayah_number": 19,
+            "word": "وَمَثْوَىٰكُمْ",
+            "word_normalized": "ومثواكم",
+            "meaning": "مُسْتَقَرَّكُمْ فِي نَوْمِكُمْ لَيْلًا.",
+            "meaning_normalized": "مستقركم في نومكم ليلا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "مَّرَضٌ",
+            "word_normalized": "مرض",
+            "meaning": "شَكٌّ، وَنِفَاقٌ.",
+            "meaning_normalized": "شك ونفاق"
+          },
+          {
+            "ayah_number": 20,
+            "word": "الْمَغْشِيِّ عَلَيْهِ",
+            "word_normalized": "المغشي عليه",
+            "meaning": "الْمُغْمَى عَلَيْهِ مِنْ شِدَّةِ الْخَوْفِ.",
+            "meaning_normalized": "المغمى عليه من شدة الخوف"
+          },
+          {
+            "ayah_number": 21,
+            "word": "عَزَمَ الْأَمْرُ",
+            "word_normalized": "عزم الأمر",
+            "meaning": "وَجَبَ الْقِتَالُ.",
+            "meaning_normalized": "وجب القتال"
+          },
+          {
+            "ayah_number": 22,
+            "word": "فَهَلْ عَسَيْتُمْ",
+            "word_normalized": "فهل عسيتم",
+            "meaning": "لَعَلَّكُمْ.",
+            "meaning_normalized": "لعلكم"
+          },
+          {
+            "ayah_number": 23,
+            "word": "تَوَلَّيْتُمْ",
+            "word_normalized": "توليتم",
+            "meaning": "أَعْرَضْتُمْ عَنِ الْإِيمَانِ.",
+            "meaning_normalized": "أعرضتم عن الإيمان"
+          },
+          {
+            "ayah_number": 24,
+            "word": "أَمْ",
+            "word_normalized": "أم",
+            "meaning": "بَلْ.",
+            "meaning_normalized": "بل"
+          },
+          {
+            "ayah_number": 24,
+            "word": "عَلَىٰ قُلُوبٍ أَقْفَالُهَا",
+            "word_normalized": "على قلوب أقفالها",
+            "meaning": "مُغْلَقَةٌ؛ فَلَا تَفْهَمُ الْقُرْآنَ.",
+            "meaning_normalized": "مغلقة فلا تفهم القرآن"
+          },
+          {
+            "ayah_number": 25,
+            "word": "ارْتَدُّوا عَلَىٰ أَدْبَٰرِهِم",
+            "word_normalized": "ارتدوا على أدبارهم",
+            "meaning": "رَجَعُوا كُفَّارًا.",
+            "meaning_normalized": "رجعوا كفارا"
+          },
+          {
+            "ayah_number": 25,
+            "word": "سَوَّلَ لَهُمْ",
+            "word_normalized": "سول لهم",
+            "meaning": "زَيَّنَ لَهُمْ خَطَايَاهُمْ.",
+            "meaning_normalized": "زين لهم خطاياهم"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وَأَمْلَىٰ لَهُمْ",
+            "word_normalized": "وأملى لهم",
+            "meaning": "مَدَّ لَهُمْ فِي الْأَمَلِ.",
+            "meaning_normalized": "مد لهم في الأمل"
+          },
+          {
+            "ayah_number": 26,
+            "word": "لِلَّذِينَ كَرِهُوا",
+            "word_normalized": "للذين كرهوا",
+            "meaning": "هُمُ الْيَهُودُ.",
+            "meaning_normalized": "هم اليهود"
+          },
+          {
+            "ayah_number": 26,
+            "word": "إِسْرَارَهُمْ",
+            "word_normalized": "إسرارهم",
+            "meaning": "مَا يُخْفُونَهُ، وَيُسِرُّونَهُ.",
+            "meaning_normalized": "ما يخفونه ويسرونه"
+          },
+          {
+            "ayah_number": 28,
+            "word": "فَأَحْبَطَ أَعْمَٰلَهُمْ",
+            "word_normalized": "فأحبط أعمالهم",
+            "meaning": "أَبْطَلَ ثَوَابَ أَعْمَالِهِمْ.",
+            "meaning_normalized": "أبطل ثواب أعمالهم"
+          },
+          {
+            "ayah_number": 29,
+            "word": "أَمْ حَسِبَ",
+            "word_normalized": "أم حسب",
+            "meaning": "بَلْ ظَنَّ.",
+            "meaning_normalized": "بل ظن"
+          },
+          {
+            "ayah_number": 29,
+            "word": "مَّرَضٌ",
+            "word_normalized": "مرض",
+            "meaning": "نِفَاقٌ، وَشَكٌّ.",
+            "meaning_normalized": "نفاق وشك"
+          },
+          {
+            "ayah_number": 29,
+            "word": "أَضْغَٰنَهُمْ",
+            "word_normalized": "أضغانهم",
+            "meaning": "أَحْقَادَهُمْ.",
+            "meaning_normalized": "أحقادهم"
+          }
+        ]
+      }
+    ]
+  }
+}

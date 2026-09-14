@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 255,
+    "header": {
+      "right": "سُورَةُ النَّجْمِ",
+      "right_normalized": "سورة النجم",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الطُّورِ",
+          "name_normalized": "سورة الطور",
+          "order": 52,
+          "ayat_count": 49,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 49,
+            "word": "فَسَبِّحْهُ",
+            "word_normalized": "فسبحه",
+            "meaning": "نَزِّهْهُ، وَعَظِّمْهُ، وَصَلِّ لَهُ.",
+            "meaning_normalized": "نزهه وعظمه وصل له"
+          },
+          {
+            "ayah_number": 49,
+            "word": "وَإِدْبَٰرَ النُّجُومِ",
+            "word_normalized": "وإدبار النجوم",
+            "meaning": "نَزِّهْهُ، وَصَلِّ لَهُ صَلَاةَ الصُّبْحِ وَقْتَ غَيْبَةِ النُّجُومِ.",
+            "meaning_normalized": "نزهه وصل له صلاة الصبح وقت غيبة النجوم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّجْمِ",
+          "name_normalized": "سورة النجم",
+          "order": 53,
+          "ayat_count": 62,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "وَالنَّجْمِ إِذَا هَوَىٰ",
+            "word_normalized": "والنجم إذا هوى",
+            "meaning": "قَسَمٌ بِالثُّرَيَّا إِذَا غَابَتْ.",
+            "meaning_normalized": "قسم بالثريا إذا غابت"
+          },
+          {
+            "ayah_number": 2,
+            "word": "مَا ضَلَّ",
+            "word_normalized": "ما ضل",
+            "meaning": "مَا حَادَ عَنِ الْحَقِّ.",
+            "meaning_normalized": "ما حاد عن الحق"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَمَا غَوَىٰ",
+            "word_normalized": "وما غوى",
+            "meaning": "مَا اعْتَقَدَ بَاطِلًا قَطُّ.",
+            "meaning_normalized": "ما اعتقد باطلا قط"
+          },
+          {
+            "ayah_number": 4,
+            "word": "إِنْ هُوَ",
+            "word_normalized": "إن هو",
+            "meaning": "أَيِ: الْقُرْآنُ، وَالسُّنَّةُ.",
+            "meaning_normalized": "أي القرآن والسنة"
+          },
+          {
+            "ayah_number": 5,
+            "word": "شَدِيدُ الْقُوَىٰ",
+            "word_normalized": "شديد القوى",
+            "meaning": "مَلَكٌ شَدِيدُ الْقُوَّةِ؛ وَهُوَ جِبْرِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "ملك شديد القوة وهو جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 6,
+            "word": "ذُو مِرَّةٍ",
+            "word_normalized": "ذو مرة",
+            "meaning": "صَاحِبُ قُوَّةٍ، وَمَنْظَرٍ حَسَنٍ.",
+            "meaning_normalized": "صاحب قوة ومنظر حسن"
+          },
+          {
+            "ayah_number": 6,
+            "word": "فَاسْتَوَىٰ",
+            "word_normalized": "فاستوى",
+            "meaning": "ظَهَرَ مُسْتَوِيًا عَلَى صُورَتِهِ الْحَقِيقِيَّةِ لِلرَّسُولِ ﷺ.",
+            "meaning_normalized": "ظهر مستويا على صورته الحقيقية للرسول"
+          },
+          {
+            "ayah_number": 7,
+            "word": "بِالْأُفُقِ الْأَعْلَىٰ",
+            "word_normalized": "بالأفق الأعلى",
+            "meaning": "أُفُقِ الشَّمْسِ عِنْدَ مَطْلَعِهَا.",
+            "meaning_normalized": "أفق الشمس عند مطلعها"
+          },
+          {
+            "ayah_number": 8,
+            "word": "دَنَا",
+            "word_normalized": "دنا",
+            "meaning": "اقْتَرَبَ جِبْرِيلُ عَلَيْهِ السَّلَامُ مِنْ نَبِيِّنَا مُحَمَّدٍ ﷺ.",
+            "meaning_normalized": "اقترب جبريل عليه السلام من نبينا محمد"
+          },
+          {
+            "ayah_number": 8,
+            "word": "فَتَدَلَّىٰ",
+            "word_normalized": "فتدلى",
+            "meaning": "زَادَ فِي الْقُرْبِ.",
+            "meaning_normalized": "زاد في القرب"
+          },
+          {
+            "ayah_number": 9,
+            "word": "قَابَ قَوْسَيْنِ",
+            "word_normalized": "قاب قوسين",
+            "meaning": "كَانَ دُنُوُّهُ مِقْدَارَ قَوْسَيْنِ.",
+            "meaning_normalized": "كان دنوه مقدار قوسين"
+          },
+          {
+            "ayah_number": 10,
+            "word": "عَبْدِهِ",
+            "word_normalized": "عبده",
+            "meaning": "عَبْدِ اللهِ؛ وَهُوَ نَبِيُّنَا مُحَمَّدٌ ﷺ.",
+            "meaning_normalized": "عبد الله وهو نبينا محمد"
+          },
+          {
+            "ayah_number": 12,
+            "word": "أَفَتُمَٰرُونَهُ",
+            "word_normalized": "أفتمارونه",
+            "meaning": "أَتُكَذِّبُونَ مُحَمَّدًا ﷺ؛ فَتُجَادِلُونَهُ؟!",
+            "meaning_normalized": "أتكذبون محمدا فتجادلونه"
+          },
+          {
+            "ayah_number": 13,
+            "word": "نَزْلَةً أُخْرَىٰ",
+            "word_normalized": "نزلة أخرى",
+            "meaning": "مَرَّةً أُخْرَى فِي صُورَتِهِ الْخِلْقِيَّةِ.",
+            "meaning_normalized": "مرة أخرى في صورته الخلقية"
+          }
+        ]
+      }
+    ]
+  }
+}

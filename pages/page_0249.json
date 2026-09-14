@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 249,
+    "header": {
+      "right": "سُورَةُ الذَّارِيَاتِ",
+      "right_normalized": "سورة الذاريات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ ق",
+          "name_normalized": "سورة ق",
+          "order": 50,
+          "ayat_count": 45,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 39,
+            "word": "وَسَبِّحْ بِحَمْدِ رَبِّكَ",
+            "word_normalized": "وسبح بحمد ربك",
+            "meaning": "صَلِّ حَامِدًا لَهُ.",
+            "meaning_normalized": "صل حامدا له"
+          },
+          {
+            "ayah_number": 39,
+            "word": "قَبْلَ طُلُوعِ الشَّمْسِ",
+            "word_normalized": "قبل طلوع الشمس",
+            "meaning": "صَلَاةَ الْفَجْرِ.",
+            "meaning_normalized": "صلاة الفجر"
+          },
+          {
+            "ayah_number": 39,
+            "word": "وَقَبْلَ الْغُرُوبِ",
+            "word_normalized": "وقبل الغروب",
+            "meaning": "صَلَاةَ الْعَصْرِ.",
+            "meaning_normalized": "صلاة العصر"
+          },
+          {
+            "ayah_number": 40,
+            "word": "وَأَدْبَٰرَ السُّجُودِ",
+            "word_normalized": "وأدبار السجود",
+            "meaning": "سَبِّحْ عَقِبَ الصَّلَوَاتِ، أَوْ صَلِّ النَّوَافِلَ بَعْدَ الْفَرَائِضِ.",
+            "meaning_normalized": "سبح عقب الصلوات أو صل النوافل بعد الفرائض"
+          },
+          {
+            "ayah_number": 41,
+            "word": "الْمُنَادِ",
+            "word_normalized": "المناد",
+            "meaning": "الْمَلَكُ الْمُوَكَّلُ بِالنَّفْخِ فِي الصُّورِ؛ وَهُوَ: إِسْرَافِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "الملك الموكل بالنفخ في الصور وهو إسرافيل عليه السلام"
+          },
+          {
+            "ayah_number": 42,
+            "word": "الصَّيْحَةَ",
+            "word_normalized": "الصيحة",
+            "meaning": "نَفْخَةَ الْبَعْثِ.",
+            "meaning_normalized": "نفخة البعث"
+          },
+          {
+            "ayah_number": 42,
+            "word": "يَوْمُ الْخُرُوجِ",
+            "word_normalized": "يوم الخروج",
+            "meaning": "أَيْ: مِنَ الْقُبُورِ.",
+            "meaning_normalized": "أي من القبور"
+          },
+          {
+            "ayah_number": 43,
+            "word": "الْمَصِيرُ",
+            "word_normalized": "المصير",
+            "meaning": "الْمَرْجِعُ، وَالْمَآلُ.",
+            "meaning_normalized": "المرجع والمآل"
+          },
+          {
+            "ayah_number": 44,
+            "word": "تَشَقَّقُ الْأَرْضُ",
+            "word_normalized": "تشقق الأرض",
+            "meaning": "تَتَصَدَّعُ.",
+            "meaning_normalized": "تتصدع"
+          },
+          {
+            "ayah_number": 44,
+            "word": "سِرَاعًا",
+            "word_normalized": "سراعا",
+            "meaning": "يَخْرُجُونَ مُسْرِعِينَ.",
+            "meaning_normalized": "يخرجون مسرعين"
+          },
+          {
+            "ayah_number": 45,
+            "word": "بِجَبَّارٍ",
+            "word_normalized": "بجبار",
+            "meaning": "بِمُسَلَّطٍ تُجْبِرُهُمْ عَلَى الْإِيمَانِ.",
+            "meaning_normalized": "بمسلط تجبرهم على الإيمان"
+          },
+          {
+            "ayah_number": 45,
+            "word": "يَخَافُ وَعِيدِ",
+            "word_normalized": "يخاف وعيد",
+            "meaning": "يَخْشَى وَعِيدِي.",
+            "meaning_normalized": "يخشى وعيدي"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الذَّارِيَاتِ",
+          "name_normalized": "سورة الذاريات",
+          "order": 51,
+          "ayat_count": 60,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "وَالذَّٰرِيَٰتِ",
+            "word_normalized": "والذاريات",
+            "meaning": "قَسَمٌ بِالرِّيَاحِ، الْمُثِيرَاتِ لِلتُّرَابِ.",
+            "meaning_normalized": "قسم بالرياح المثيرات للتراب"
+          },
+          {
+            "ayah_number": 2,
+            "word": "فَالْحَٰمِلَٰتِ وِقْرًا",
+            "word_normalized": "فالحاملات وقرا",
+            "meaning": "فَالسُّحُبِ الْحَامِلَاتِ ثِقَلًا عَظِيمًا مِنَ الْمَاءِ.",
+            "meaning_normalized": "فالسحب الحاملات ثقلا عظيما من الماء"
+          },
+          {
+            "ayah_number": 3,
+            "word": "فَالْجَٰرِيَٰتِ يُسْرًا",
+            "word_normalized": "فالجاريات يسرا",
+            "meaning": "فَالسُّفُنِ الَّتِي تَجْرِي فِي الْبِحَارِ بِيُسْرٍ.",
+            "meaning_normalized": "فالسفن التي تجري في البحار بيسر"
+          },
+          {
+            "ayah_number": 4,
+            "word": "فَالْمُقَسِّمَٰتِ أَمْرًا",
+            "word_normalized": "فالمقسمات أمرا",
+            "meaning": "فَالْمَلَائِكَةِ الَّتِي تُقَسِّمُ أَمْرَ اللهِ فِي خَلْقِهِ.",
+            "meaning_normalized": "فالملائكة التي تقسم أمر الله في خلقه"
+          }
+        ]
+      }
+    ]
+  }
+}

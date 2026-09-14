@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 253,
+    "header": {
+      "right": "سُورَةُ الطُّورِ",
+      "right_normalized": "سورة الطور",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الطُّورِ",
+          "name_normalized": "سورة الطور",
+          "order": 52,
+          "ayat_count": 49,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 16,
+            "word": "اصْلَوْهَا",
+            "word_normalized": "اصلوها",
+            "meaning": "ادْخُلُوهَا وَذُوقُوا حَرَّهَا.",
+            "meaning_normalized": "ادخلوها وذوقوا حرها"
+          },
+          {
+            "ayah_number": 18,
+            "word": "فَٰكِهِينَ",
+            "word_normalized": "فاكهين",
+            "meaning": "مُتَلَذِّذِينَ، نَاعِمِينَ، مَسْرُورِينَ.",
+            "meaning_normalized": "متلذذين ناعمين مسرورين"
+          },
+          {
+            "ayah_number": 20,
+            "word": "مَّصْفُوفَةٍ",
+            "word_normalized": "مصفوفة",
+            "meaning": "مُتَقَابِلَةٍ، وَبَعْضُهَا إِلَى جَنْبِ بَعْضٍ.",
+            "meaning_normalized": "متقابلة وبعضها إلى جنب بعض"
+          },
+          {
+            "ayah_number": 20,
+            "word": "بِحُورٍ",
+            "word_normalized": "بحور",
+            "meaning": "نِسَاءٍ بِيضٍ.",
+            "meaning_normalized": "نساء بيض"
+          },
+          {
+            "ayah_number": 20,
+            "word": "عِينٍ",
+            "word_normalized": "عين",
+            "meaning": "وَاسِعَاتِ الْعُيُونِ، حِسَانِهَا.",
+            "meaning_normalized": "واسعات العيون حسانها"
+          },
+          {
+            "ayah_number": 21,
+            "word": "وَمَآ أَلَتْنَٰهُم",
+            "word_normalized": "وما ألتناهم",
+            "meaning": "مَا نَقَصْنَا الْآبَاءَ بِهَذَا الْإِلْحَاقِ.",
+            "meaning_normalized": "ما نقصنا الآباء بهذا الإلحاق"
+          },
+          {
+            "ayah_number": 21,
+            "word": "رَهِينٌ",
+            "word_normalized": "رهين",
+            "meaning": "مَرْهُونٌ بِعَمَلِهِ، لَا يَحْمِلُ ذَنْبَ غَيْرِهِ.",
+            "meaning_normalized": "مرهون بعمله لا يحمل ذنب غيره"
+          },
+          {
+            "ayah_number": 23,
+            "word": "يَتَنَٰزَعُونَ",
+            "word_normalized": "يتنازعون",
+            "meaning": "يَتَعَاطَوْنَ بَيْنَهُمْ، وَيُنَاوِلُ بَعْضُهُمْ بَعْضًا.",
+            "meaning_normalized": "يتعاطون بينهم ويناول بعضهم بعضا"
+          },
+          {
+            "ayah_number": 23,
+            "word": "كَأْسًا",
+            "word_normalized": "كأسا",
+            "meaning": "مِنَ الْخَمْرِ.",
+            "meaning_normalized": "من الخمر"
+          },
+          {
+            "ayah_number": 23,
+            "word": "لَّا لَغْوٌ فِيهَا",
+            "word_normalized": "لا لغو فيها",
+            "meaning": "لَا كَلَامٌ سَاقِطٌ أَثْنَاءَ شُرْبِهَا.",
+            "meaning_normalized": "لا كلام ساقط أثناء شربها"
+          },
+          {
+            "ayah_number": 23,
+            "word": "وَلَا تَأْثِيمٌ",
+            "word_normalized": "ولا تأثيم",
+            "meaning": "وَلَا يَقَعُ بِسَبَبِهَا إِثْمٌ فِي قَوْلٍ أَوْ فِعْلٍ.",
+            "meaning_normalized": "ولا يقع بسببها إثم في قول أو فعل"
+          },
+          {
+            "ayah_number": 24,
+            "word": "مَكْنُونٌ",
+            "word_normalized": "مكنون",
+            "meaning": "مَصُونٌ، مَسْتُورٌ فِي أَصْدَافِهِ.",
+            "meaning_normalized": "مصون مستور في أصدافه"
+          },
+          {
+            "ayah_number": 26,
+            "word": "مُشْفِقِينَ",
+            "word_normalized": "مشفقين",
+            "meaning": "خَائِفِينَ مِنَ الْعَذَابِ.",
+            "meaning_normalized": "خائفين من العذاب"
+          },
+          {
+            "ayah_number": 27,
+            "word": "عَذَابَ السَّمُومِ",
+            "word_normalized": "عذاب السموم",
+            "meaning": "عَذَابَ النَّارِ الَّتِي تَنْفُذُ فِي الْمَسَامِّ.",
+            "meaning_normalized": "عذاب النار التي تنفذ في المسام"
+          },
+          {
+            "ayah_number": 28,
+            "word": "الْبَرُّ",
+            "word_normalized": "البر",
+            "meaning": "الْمُحْسِنُ، كَثِيرُ الْخَيْرِ.",
+            "meaning_normalized": "المحسن كثير الخير"
+          },
+          {
+            "ayah_number": 29,
+            "word": "بِنِعْمَتِ رَبِّكَ",
+            "word_normalized": "بنعمت ربك",
+            "meaning": "بِسَبَبِ إِنْعَامِ اللهِ عَلَيْكَ بِالنُّبُوَّةِ، وَرَجَاحَةِ الْعَقْلِ.",
+            "meaning_normalized": "بسبب إنعام الله عليك بالنبوة ورجاحة العقل"
+          },
+          {
+            "ayah_number": 29,
+            "word": "بِكَاهِنٍ",
+            "word_normalized": "بكاهن",
+            "meaning": "يَدَّعِي عِلْمَ الْغَيْبِ.",
+            "meaning_normalized": "يدعي علم الغيب"
+          },
+          {
+            "ayah_number": 30,
+            "word": "أَمْ",
+            "word_normalized": "أم",
+            "meaning": "بَلْ.",
+            "meaning_normalized": "بل"
+          },
+          {
+            "ayah_number": 30,
+            "word": "نَّتَرَبَّصُ بِهِ",
+            "word_normalized": "نتربص به",
+            "meaning": "نَنْتَظِرُ بِهِ.",
+            "meaning_normalized": "ننتظر به"
+          },
+          {
+            "ayah_number": 30,
+            "word": "رَيْبَ الْمَنُونِ",
+            "word_normalized": "ريب المنون",
+            "meaning": "نُزُولَ الْمَوْتِ، وَحَوَادِثَ الدَّهْرِ.",
+            "meaning_normalized": "نزول الموت وحوادث الدهر"
+          }
+        ]
+      }
+    ]
+  }
+}

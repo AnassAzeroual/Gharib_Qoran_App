@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 250,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الذَّارِيَاتِ",
+          "name_normalized": "سورة الذاريات",
+          "order": 51,
+          "ayat_count": 60,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 6,
+            "word": "الدِّينَ",
+            "word_normalized": "الدين",
+            "meaning": "الْحِسَابَ، وَالْجَزَاءَ.",
+            "meaning_normalized": "الحساب والجزاء"
+          },
+          {
+            "ayah_number": 7,
+            "word": "ذَاتِ الْحُبُكِ",
+            "word_normalized": "ذات الحبك",
+            "meaning": "ذَاتِ الْخَلْقِ الْحَسَنِ، وَذَاتِ الطُّرُقِ الَّتِي تَسِيرُ فِيهَا الْكَوَاكِبُ.",
+            "meaning_normalized": "ذات الخلق الحسن وذات الطرق التي تسير فيها الكواكب"
+          },
+          {
+            "ayah_number": 8,
+            "word": "قَوْلٍ مُّخْتَلِفٍ",
+            "word_normalized": "قول مختلف",
+            "meaning": "مُتَنَاقِضٍ، مُضْطَرِبٍ فِي الْقُرْآنِ وَالرَّسُولِ ﷺ.",
+            "meaning_normalized": "متناقض مضطرب في القرآن والرسول"
+          },
+          {
+            "ayah_number": 9,
+            "word": "يُؤْفَكُ عَنْهُ",
+            "word_normalized": "يؤفك عنه",
+            "meaning": "يُصْرَفُ عَنِ الْقُرْآنِ وَالرَّسُولِ ﷺ.",
+            "meaning_normalized": "يصرف عن القرآن والرسول"
+          },
+          {
+            "ayah_number": 10,
+            "word": "قُتِلَ الْخَرَّٰصُونَ",
+            "word_normalized": "قتل الخراصون",
+            "meaning": "قُتِلَ، وَلُعِنَ الْكَذَّابُونَ، الظَّانُّونَ غَيْرَ الْحَقِّ.",
+            "meaning_normalized": "قتل ولعن الكذابون الظانون غير الحق"
+          },
+          {
+            "ayah_number": 11,
+            "word": "غَمْرَةٍ",
+            "word_normalized": "غمرة",
+            "meaning": "جَهْلٍ يَغْمُرُهُمْ.",
+            "meaning_normalized": "جهل يغمرهم"
+          },
+          {
+            "ayah_number": 11,
+            "word": "سَاهُونَ",
+            "word_normalized": "ساهون",
+            "meaning": "غَافِلُونَ عَنْ أَمْرِ الْآخِرَةِ.",
+            "meaning_normalized": "غافلون عن أمر الآخرة"
+          },
+          {
+            "ayah_number": 12,
+            "word": "يَسْـَٔلُونَ",
+            "word_normalized": "يسألون",
+            "meaning": "سُؤَالَ اسْتِبْعَادٍ وَإِنْكَارٍ.",
+            "meaning_normalized": "سؤال استبعاد وإنكار"
+          },
+          {
+            "ayah_number": 12,
+            "word": "أَيَّانَ يَوْمُ الدِّينِ",
+            "word_normalized": "أيان يوم الدين",
+            "meaning": "مَتَى يَوْمُ الْجَزَاءِ؟!",
+            "meaning_normalized": "متى يوم الجزاء"
+          },
+          {
+            "ayah_number": 13,
+            "word": "يُفْتَنُونَ",
+            "word_normalized": "يفتنون",
+            "meaning": "يُحْرَقُونَ، وَيُعَذَّبُونَ.",
+            "meaning_normalized": "يحرقون ويعذبون"
+          },
+          {
+            "ayah_number": 14,
+            "word": "فِتْنَتَكُمْ",
+            "word_normalized": "فتنتكم",
+            "meaning": "عَذَابَكُمْ.",
+            "meaning_normalized": "عذابكم"
+          },
+          {
+            "ayah_number": 17,
+            "word": "يَهْجَعُونَ",
+            "word_normalized": "يهجعون",
+            "meaning": "يَنَامُونَ.",
+            "meaning_normalized": "ينامون"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَبِالْأَسْحَارِ",
+            "word_normalized": "وبالأسحار",
+            "meaning": "آخِرِ اللَّيْلِ، قُبَيْلَ الْفَجْرِ.",
+            "meaning_normalized": "آخر الليل قبيل الفجر"
+          },
+          {
+            "ayah_number": 19,
+            "word": "لِّلسَّآئِلِ",
+            "word_normalized": "للسائل",
+            "meaning": "لِلْمُحْتَاجِ الَّذِي يَسْأَلُ النَّاسَ.",
+            "meaning_normalized": "للمحتاج الذي يسأل الناس"
+          },
+          {
+            "ayah_number": 19,
+            "word": "وَالْمَحْرُومِ",
+            "word_normalized": "والمحروم",
+            "meaning": "الَّذِي لَا يَسْأَلُ النَّاسَ حَيَاءً.",
+            "meaning_normalized": "الذي لا يسأل الناس حياء"
+          },
+          {
+            "ayah_number": 23,
+            "word": "إِنَّهُ لَحَقٌّ",
+            "word_normalized": "إنه لحق",
+            "meaning": "إِنَّ مَا وَعَدَكُمْ بِهِ مِنَ الْجَزَاءِ لَحَقٌّ ثَابِتٌ.",
+            "meaning_normalized": "إن ما وعدكم به من الجزاء لحق ثابت"
+          },
+          {
+            "ayah_number": 24,
+            "word": "ضَيْفِ إِبْرَٰهِيمَ",
+            "word_normalized": "ضيف إبراهيم",
+            "meaning": "أَضْيَافِهِ مِنَ الْمَلَائِكَةِ.",
+            "meaning_normalized": "أضيافه من الملائكة"
+          },
+          {
+            "ayah_number": 25,
+            "word": "مُّنكَرُونَ",
+            "word_normalized": "منكرون",
+            "meaning": "غُرَبَاءُ لَا تُعْرَفُونَ.",
+            "meaning_normalized": "غرباء لا تعرفون"
+          },
+          {
+            "ayah_number": 26,
+            "word": "فَرَاغَ",
+            "word_normalized": "فراغ",
+            "meaning": "مَالَ، وَعَدَلَ بِخُفْيَةٍ.",
+            "meaning_normalized": "مال وعدل بخفية"
+          },
+          {
+            "ayah_number": 28,
+            "word": "فَأَوْجَسَ مِنْهُمْ",
+            "word_normalized": "فأوجس منهم",
+            "meaning": "أَحَسَّ فِي نَفْسِهِ مِنْهُمْ.",
+            "meaning_normalized": "أحس في نفسه منهم"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 241,
+    "header": {
+      "right": "سُورَةُ الْفَتْحِ",
+      "right_normalized": "سورة الفتح",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ مُحَمَّدٍ",
+          "name_normalized": "سورة محمد",
+          "order": 47,
+          "ayat_count": 38,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 30,
+            "word": "بِسِيمَٰهُمْ",
+            "word_normalized": "بسيماهم",
+            "meaning": "عَلَامَاتِهِمُ الظَّاهِرَةِ.",
+            "meaning_normalized": "علاماتهم الظاهرة"
+          },
+          {
+            "ayah_number": 30,
+            "word": "لَحْنِ الْقَوْلِ",
+            "word_normalized": "لحن القول",
+            "meaning": "مَا يَبْدُو مِنْ كَلَامِهِمُ الَّذِي يَدُلُّ عَلَى مَقَاصِدِهِمْ.",
+            "meaning_normalized": "ما يبدو من كلامهم الذي يدل على مقاصدهم"
+          },
+          {
+            "ayah_number": 31,
+            "word": "وَلَنَبْلُوَنَّكُمْ",
+            "word_normalized": "ولنبلونكم",
+            "meaning": "لَنَخْتَبِرَنَّكُمْ.",
+            "meaning_normalized": "لنختبرنكم"
+          },
+          {
+            "ayah_number": 31,
+            "word": "وَنَبْلُوَا أَخْبَارَكُمْ",
+            "word_normalized": "ونبلوا أخباركم",
+            "meaning": "نَخْتَبِرَ أَقْوَالَكُمْ وَأَفْعَالَكُمْ.",
+            "meaning_normalized": "نختبر أقوالكم وأفعالكم"
+          },
+          {
+            "ayah_number": 32,
+            "word": "وَشَآقُّوا الرَّسُولَ",
+            "word_normalized": "وشاقوا الرسول",
+            "meaning": "خَالَفُوهُ، وَحَارَبُوهُ.",
+            "meaning_normalized": "خالفوه وحاربوه"
+          },
+          {
+            "ayah_number": 35,
+            "word": "فَلَا تَهِنُوا",
+            "word_normalized": "فلا تهنوا",
+            "meaning": "لَا تَضْعُفُوا، وَتَجْبُنُوا عَنْ مُقَاتَلَةِ الْكُفَّارِ.",
+            "meaning_normalized": "لا تضعفوا وتجبنوا عن مقاتلة الكفار"
+          },
+          {
+            "ayah_number": 35,
+            "word": "السَّلْمِ",
+            "word_normalized": "السلم",
+            "meaning": "الصُّلْحِ، وَالْمُسَالَمَةِ.",
+            "meaning_normalized": "الصلح والمسالمة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "يَتِرَكُمْ أَعْمَٰلَكُمْ",
+            "word_normalized": "يتركم أعمالكم",
+            "meaning": "يَنْقُصَكُمْ ثَوَابَ أَعْمَالِكُمْ.",
+            "meaning_normalized": "ينقصكم ثواب أعمالكم"
+          },
+          {
+            "ayah_number": 37,
+            "word": "فَيُحْفِكُمْ",
+            "word_normalized": "فيحفكم",
+            "meaning": "يُلِحَّ عَلَيْكُمْ، وَيُجْهِدْكُمْ.",
+            "meaning_normalized": "يلح عليكم ويجهدكم"
+          },
+          {
+            "ayah_number": 37,
+            "word": "أَضْغَٰنَكُمْ",
+            "word_normalized": "أضغانكم",
+            "meaning": "أَحْقَادَكُمْ.",
+            "meaning_normalized": "أحقادكم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْفَتْحِ",
+          "name_normalized": "سورة الفتح",
+          "order": 48,
+          "ayat_count": 29,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "فَتْحًا مُّبِينًا",
+            "word_normalized": "فتحا مبينا",
+            "meaning": "هُوَ: صُلْحُ الْحُدَيْبِيَةِ عَامَ سِتَّةٍ مِنَ الْهِجْرَةِ.",
+            "meaning_normalized": "هو صلح الحديبية عام ستة من الهجرة"
+          },
+          {
+            "ayah_number": 2,
+            "word": "صِرَٰطًا مُّسْتَقِيمًا",
+            "word_normalized": "صراطا مستقيما",
+            "meaning": "طَرِيقًا، وَدِينًا لَا عِوَجَ فِيهِ.",
+            "meaning_normalized": "طريقا ودينا لا عوج فيه"
+          },
+          {
+            "ayah_number": 3,
+            "word": "عَزِيزًا",
+            "word_normalized": "عزيزا",
+            "meaning": "قَوِيًّا لَا ضَعْفَ فِيهِ.",
+            "meaning_normalized": "قويا لا ضعف فيه"
+          },
+          {
+            "ayah_number": 4,
+            "word": "السَّكِينَةَ",
+            "word_normalized": "السكينة",
+            "meaning": "الطُّمَأْنِينَةَ، وَالثَّبَاتَ.",
+            "meaning_normalized": "الطمأنينة والثبات"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَيُكَفِّرَ",
+            "word_normalized": "ويكفر",
+            "meaning": "يَمْحُو.",
+            "meaning_normalized": "يمحو"
+          },
+          {
+            "ayah_number": 6,
+            "word": "ظَنَّ السَّوْءِ",
+            "word_normalized": "ظن السوء",
+            "meaning": "الظَّنَّ السَّيِّئَ؛ وَهُوَ: الظَّنُّ بِأَنْ لَنْ يَنْصُرَ اللهُ دِينَهُ.",
+            "meaning_normalized": "الظن السيئ وهو الظن بأن لن ينصر الله دينه"
+          }
+        ]
+      }
+    ]
+  }
+}

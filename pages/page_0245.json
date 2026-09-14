@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 245,
+    "header": {
+      "right": "سُورَةُ الْحُجُرَاتِ",
+      "right_normalized": "سورة الحجرات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحُجُرَاتِ",
+          "name_normalized": "سورة الحجرات",
+          "order": 49,
+          "ayat_count": 18,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 7,
+            "word": "لَعَنِتُّمْ",
+            "word_normalized": "لعنتم",
+            "meaning": "لَأَدَّى إِلَى مَشَقَّتِكُمْ، وَعَنَتِكُمْ.",
+            "meaning_normalized": "لأدى إلى مشقتكم وعنتكم"
+          },
+          {
+            "ayah_number": 8,
+            "word": "بَغَتْ",
+            "word_normalized": "بغت",
+            "meaning": "اعْتَدَتْ.",
+            "meaning_normalized": "اعتدت"
+          },
+          {
+            "ayah_number": 9,
+            "word": "تَفِيءَ",
+            "word_normalized": "تفيء",
+            "meaning": "تَرْجِعَ إِلَى حُكْمِ اللهِ وَرَسُولِهِ.",
+            "meaning_normalized": "ترجع إلى حكم الله ورسوله"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَأَقْسِطُوا",
+            "word_normalized": "وأقسطوا",
+            "meaning": "اعْدِلُوا.",
+            "meaning_normalized": "اعدلوا"
+          },
+          {
+            "ayah_number": 9,
+            "word": "الْمُقْسِطِينَ",
+            "word_normalized": "المقسطين",
+            "meaning": "الْعَادِلِينَ فِي أَحْكَامِهِمْ.",
+            "meaning_normalized": "العادلين في أحكامهم"
+          },
+          {
+            "ayah_number": 11,
+            "word": "لَا يَسْخَرْ",
+            "word_normalized": "لا يسخر",
+            "meaning": "لَا يَهْزَأْ، وَيَنْتَقِصْ.",
+            "meaning_normalized": "لا يهزأ وينتقص"
+          },
+          {
+            "ayah_number": 11,
+            "word": "قَوْمٌ",
+            "word_normalized": "قوم",
+            "meaning": "رِجَالٌ.",
+            "meaning_normalized": "رجال"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَلَا تَلْمِزُوا",
+            "word_normalized": "ولا تلمزوا",
+            "meaning": "لَا يَعِبْ، وَلَا يَطْعَنْ بَعْضُكُمْ بَعْضًا.",
+            "meaning_normalized": "لا يعب ولا يطعن بعضكم بعضا"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَلَا تَنَابَزُوا بِالْأَلْقَٰبِ",
+            "word_normalized": "ولا تنابزوا بالألقاب",
+            "meaning": "لَا يَدْعُ بَعْضُكُمْ بَعْضًا بِمَا يَكْرَهُ مِنَ الْأَلْقَابِ.",
+            "meaning_normalized": "لا يدع بعضكم بعضا بما يكره من الألقاب"
+          },
+          {
+            "ayah_number": 11,
+            "word": "بِئْسَ الِاسْمُ الْفُسُوقُ",
+            "word_normalized": "بئس الاسم الفسوق",
+            "meaning": "قَبُحَ الِاسْمُ وَالصِّفَةُ الْفُسُوقُ؛ وَهُوَ: السُّخْرِيَّةُ، وَاللَّمْزُ، وَالتَّنَابُزُ.",
+            "meaning_normalized": "قبح الاسم والصفة الفسوق وهو السخرية واللمز والتنابز"
+          },
+          {
+            "ayah_number": 11,
+            "word": "بَعْدَ الْإِيمَٰنِ",
+            "word_normalized": "بعد الإيمان",
+            "meaning": "بَعْدَمَا دَخَلْتُمْ فِي الْإِسْلَامِ.",
+            "meaning_normalized": "بعدما دخلتم في الإسلام"
+          },
+          {
+            "ayah_number": 12,
+            "word": "كَثِيرًا مِّنَ الظَّنِّ",
+            "word_normalized": "كثيرا من الظن",
+            "meaning": "هُوَ ظَنُّ السَّوْءِ بِالْمُؤْمِنِينَ.",
+            "meaning_normalized": "هو ظن السوء بالمؤمنين"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَلَا تَجَسَّسُوا",
+            "word_normalized": "ولا تجسسوا",
+            "meaning": "لَا تُفَتِّشُوا عَنْ عَوْرَاتِ الْمُسْلِمِينَ.",
+            "meaning_normalized": "لا تفتشوا عن عورات المسلمين"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَلَا يَغْتَب",
+            "word_normalized": "ولا يغتب",
+            "meaning": "لَا يَقُلْ أَحَدُكُمْ فِي أَخِيهِ الْغَائِبِ مَا يَكْرَهُ.",
+            "meaning_normalized": "لا يقل أحدكم في أخيه الغائب ما يكره"
+          },
+          {
+            "ayah_number": 13,
+            "word": "وَقَبَآئِلَ",
+            "word_normalized": "وقبائل",
+            "meaning": "الْقَبِيلَةُ: الْجَمَاعَةُ دُونَ الشَّعْبِ.",
+            "meaning_normalized": "القبيلة الجماعة دون الشعب"
+          },
+          {
+            "ayah_number": 14,
+            "word": "الْأَعْرَابُ",
+            "word_normalized": "الأعراب",
+            "meaning": "الْبَدْوُ.",
+            "meaning_normalized": "البدو"
+          },
+          {
+            "ayah_number": 14,
+            "word": "لَا يَلِتْكُم مِّنْ أَعْمَٰلِكُمْ",
+            "word_normalized": "لا يلتكم من أعمالكم",
+            "meaning": "لَا يَنْقُصْكُمْ مِنْ ثَوَابِ أَعْمَالِكُمْ.",
+            "meaning_normalized": "لا ينقصكم من ثواب أعمالكم"
+          },
+          {
+            "ayah_number": 15,
+            "word": "لَمْ يَرْتَابُوا",
+            "word_normalized": "لم يرتابوا",
+            "meaning": "لَمْ يَشُكُّوا.",
+            "meaning_normalized": "لم يشكوا"
+          }
+        ]
+      }
+    ]
+  }
+}

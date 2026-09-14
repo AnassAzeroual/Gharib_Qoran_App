@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 246,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ ق",
+          "name_normalized": "سورة ق",
+          "order": 50,
+          "ayat_count": 45,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "الْمَجِيدِ",
+            "word_normalized": "المجيد",
+            "meaning": "ذِي الْمَجْدِ وَالشَّرَفِ.",
+            "meaning_normalized": "ذي المجد والشرف"
+          },
+          {
+            "ayah_number": 3,
+            "word": "رَجْعٌ بَعِيدٌ",
+            "word_normalized": "رجع بعيد",
+            "meaning": "رُجُوعٌ إِلَى الْحَيَاةِ بَعْدَ الْمَوْتِ، بَعِيدُ الْوُقُوعِ.",
+            "meaning_normalized": "رجوع إلى الحياة بعد الموت بعيد الوقوع"
+          },
+          {
+            "ayah_number": 4,
+            "word": "نَقُصُ",
+            "word_normalized": "نقص",
+            "meaning": "تُفْنِي مِنْ أَجْسَادِهِمْ.",
+            "meaning_normalized": "تفني من أجسادهم"
+          },
+          {
+            "ayah_number": 4,
+            "word": "كِتَٰبٌ حَفِيظٌ",
+            "word_normalized": "كتاب حفيظ",
+            "meaning": "حَافِظٌ لِجَمِيعِ أَفْعَالِهِمْ؛ وَهُوَ اللَّوْحُ الْمَحْفُوظُ.",
+            "meaning_normalized": "حافظ لجميع أفعالهم وهو اللوح المحفوظ"
+          },
+          {
+            "ayah_number": 5,
+            "word": "مَرِيجٍ",
+            "word_normalized": "مريج",
+            "meaning": "مُضْطَرِبٍ، مُخْتَلِطٍ، لَا يَثْبُتُونَ عَلَى شَيْءٍ.",
+            "meaning_normalized": "مضطرب مختلط لا يثبتون على شيء"
+          },
+          {
+            "ayah_number": 6,
+            "word": "فُرُوجٍ",
+            "word_normalized": "فروج",
+            "meaning": "فُتُوقٍ، وَشُقُوقٍ.",
+            "meaning_normalized": "فتوق وشقوق"
+          },
+          {
+            "ayah_number": 7,
+            "word": "مَدَدْنَٰهَا",
+            "word_normalized": "مددناها",
+            "meaning": "وَسَّعْنَاهَا، وَفَرَشْنَاهَا.",
+            "meaning_normalized": "وسعناها وفرشناها"
+          },
+          {
+            "ayah_number": 7,
+            "word": "رَوَٰسِيَ",
+            "word_normalized": "رواسي",
+            "meaning": "جِبَالًا ثَوَابِتَ.",
+            "meaning_normalized": "جبالا ثوابت"
+          },
+          {
+            "ayah_number": 7,
+            "word": "زَوْجٍ بَهِيجٍ",
+            "word_normalized": "زوج بهيج",
+            "meaning": "نَوْعٍ حَسَنِ الْمَنْظَرِ.",
+            "meaning_normalized": "نوع حسن المنظر"
+          },
+          {
+            "ayah_number": 8,
+            "word": "تَبْصِرَةً",
+            "word_normalized": "تبصرة",
+            "meaning": "عِبْرَةً يَتَبَصَّرُ بِهَا مِنْ عَمَى الْجَهْلِ.",
+            "meaning_normalized": "عبرة يتبصر بها من عمى الجهل"
+          },
+          {
+            "ayah_number": 8,
+            "word": "مُنِيبٍ",
+            "word_normalized": "منيب",
+            "meaning": "رَجَّاعٍ إِلَى اللهِ تَعَالَى.",
+            "meaning_normalized": "رجاع إلى الله تعالى"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَحَبَّ الْحَصِيدِ",
+            "word_normalized": "وحب الحصيد",
+            "meaning": "حَبَّ الزَّرْعِ الَّذِي يُحْصَدُ.",
+            "meaning_normalized": "حب الزرع الذي يحصد"
+          },
+          {
+            "ayah_number": 10,
+            "word": "بَاسِقَٰتٍ",
+            "word_normalized": "باسقات",
+            "meaning": "طِوَالًا.",
+            "meaning_normalized": "طوالا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "طَلْعٌ نَّضِيدٌ",
+            "word_normalized": "طلع نضيد",
+            "meaning": "ثَمَرٌ مُتَرَاكِبٌ بَعْضُهُ فَوْقَ بَعْضٍ.",
+            "meaning_normalized": "ثمر متراكب بعضه فوق بعض"
+          },
+          {
+            "ayah_number": 13,
+            "word": "الرَّسِّ",
+            "word_normalized": "الرس",
+            "meaning": "الْبِئْرُ.",
+            "meaning_normalized": "البئر"
+          },
+          {
+            "ayah_number": 14,
+            "word": "وَأَصْحَٰبُ الْأَيْكَةِ",
+            "word_normalized": "وأصحاب الأيكة",
+            "meaning": "أَصْحَابُ الشَّجَرِ الْكَثِيفِ الْمُلْتَفِّ بَعْضُهُ عَلَى بَعْضٍ؛ وَهُمْ قَوْمُ شُعَيْبٍ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "أصحاب الشجر الكثيف الملتف بعضه على بعض وهم قوم شعيب عليه السلام"
+          }
+        ]
+      }
+    ]
+  }
+}

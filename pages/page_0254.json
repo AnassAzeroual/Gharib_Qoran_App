@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 254,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الطُّورِ",
+          "name_normalized": "سورة الطور",
+          "order": 52,
+          "ayat_count": 49,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 32,
+            "word": "أَحْلَٰمُهُم",
+            "word_normalized": "أحلامهم",
+            "meaning": "عُقُولُهُمْ.",
+            "meaning_normalized": "عقولهم"
+          },
+          {
+            "ayah_number": 32,
+            "word": "طَاغُونَ",
+            "word_normalized": "طاغون",
+            "meaning": "مُتَجَاوِزُونَ الْحَدَّ فِي الْعِصْيَانِ.",
+            "meaning_normalized": "متجاوزون الحد في العصيان"
+          },
+          {
+            "ayah_number": 33,
+            "word": "تَقَوَّلَهُ",
+            "word_normalized": "تقوله",
+            "meaning": "اخْتَلَقَ الْقُرْآنَ مِنْ عِنْدِ نَفْسِهِ.",
+            "meaning_normalized": "اختلق القرآن من عند نفسه"
+          },
+          {
+            "ayah_number": 37,
+            "word": "خَزَآئِنُ رَبِّكَ",
+            "word_normalized": "خزائن ربك",
+            "meaning": "خَزَائِنُ رِزْقِهِ وَرَحْمَتِهِ.",
+            "meaning_normalized": "خزائن رزقه ورحمته"
+          },
+          {
+            "ayah_number": 37,
+            "word": "الْمُصَيْطِرُونَ",
+            "word_normalized": "المصيطرون",
+            "meaning": "الْمُتَسَلِّطُونَ، الْجَبَّارُونَ.",
+            "meaning_normalized": "المتسلطون الجبارون"
+          },
+          {
+            "ayah_number": 38,
+            "word": "سُلَّمٌ",
+            "word_normalized": "سلم",
+            "meaning": "مِصْعَدٌ إِلَى السَّمَاءِ.",
+            "meaning_normalized": "مصعد إلى السماء"
+          },
+          {
+            "ayah_number": 38,
+            "word": "بِسُلْطَٰنٍ مُّبِينٍ",
+            "word_normalized": "بسلطان مبين",
+            "meaning": "بِحُجَّةٍ بَيِّنَةٍ تُصَدِّقُ دَعْوَاهُ.",
+            "meaning_normalized": "بحجة بينة تصدق دعواه"
+          },
+          {
+            "ayah_number": 40,
+            "word": "مِن مَّغْرَمٍ",
+            "word_normalized": "من مغرم",
+            "meaning": "مِنِ الْتِزَامِ غَرَامَةٍ تَطْلُبُهَا مِنْهُمْ.",
+            "meaning_normalized": "من التزام غرامة تطلبها منهم"
+          },
+          {
+            "ayah_number": 40,
+            "word": "مُّثْقَلُونَ",
+            "word_normalized": "مثقلون",
+            "meaning": "مُتْعَبُونَ، مُجْهَدُونَ.",
+            "meaning_normalized": "متعبون مجهدون"
+          },
+          {
+            "ayah_number": 42,
+            "word": "كَيْدًا",
+            "word_normalized": "كيدا",
+            "meaning": "مَكْرًا.",
+            "meaning_normalized": "مكرا"
+          },
+          {
+            "ayah_number": 42,
+            "word": "الْمَكِيدُونَ",
+            "word_normalized": "المكيدون",
+            "meaning": "يَرْجِعُ مَكْرُهُمْ عَلَى أَنْفُسِهِمْ.",
+            "meaning_normalized": "يرجع مكرهم على أنفسهم"
+          },
+          {
+            "ayah_number": 44,
+            "word": "كِسْفًا",
+            "word_normalized": "كسفا",
+            "meaning": "قِطَعًا.",
+            "meaning_normalized": "قطعا"
+          },
+          {
+            "ayah_number": 44,
+            "word": "مَّرْكُومٌ",
+            "word_normalized": "مركوم",
+            "meaning": "مُتَرَاكِمٌ بَعْضُهُ فَوْقَ بَعْضٍ.",
+            "meaning_normalized": "متراكم بعضه فوق بعض"
+          },
+          {
+            "ayah_number": 45,
+            "word": "يُصْعَقُونَ",
+            "word_normalized": "يصعقون",
+            "meaning": "يُهْلَكُونَ.",
+            "meaning_normalized": "يهلكون"
+          },
+          {
+            "ayah_number": 46,
+            "word": "لَا يُغْنِي عَنْهُمْ",
+            "word_normalized": "لا يغني عنهم",
+            "meaning": "لَا يَدْفَعُ عَنْهُمْ.",
+            "meaning_normalized": "لا يدفع عنهم"
+          },
+          {
+            "ayah_number": 47,
+            "word": "دُونَ ذَٰلِكَ",
+            "word_normalized": "دون ذلك",
+            "meaning": "قَبْلَ ذَلِكَ يَقَعُ فِي الدُّنْيَا عَلَيْهِمْ.",
+            "meaning_normalized": "قبل ذلك يقع في الدنيا عليهم"
+          },
+          {
+            "ayah_number": 48,
+            "word": "بِأَعْيُنِنَا",
+            "word_normalized": "بأعيننا",
+            "meaning": "بِمَرْأًى مِنَّا، وَحِفْظٍ، وَاعْتِنَاءٍ؛ وَفِيهِ: إِثْبَاتُ صِفَةِ الْعَيْنَيْنِ للهِ؛ كَمَا يَلِيقُ بِهِ؛ بِلَا تَكْيِيفٍ، وَلَا تَمْثِيلٍ، وَجَاءَتْ بِصِيغَةِ الْجَمْعِ لِلتَّعْظِيمِ.",
+            "meaning_normalized": "بمرأى منا وحفظ واعتناء وفيه إثبات صفة العينين لله كما يليق به بلا تكييف ولا تمثيل وجاءت بصيغة الجمع للتعظيم"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَسَبِّحْ بِحَمْدِ رَبِّكَ",
+            "word_normalized": "وسبح بحمد ربك",
+            "meaning": "نَزِّهْ رَبَّكَ، حَامِدًا لَهُ.",
+            "meaning_normalized": "نزه ربك حامدا له"
+          },
+          {
+            "ayah_number": 48,
+            "word": "حِينَ تَقُومُ",
+            "word_normalized": "حين تقوم",
+            "meaning": "لِلصَّلَاةِ، وَمِنْ نَوْمِكَ.",
+            "meaning_normalized": "للصلاة ومن نومك"
+          }
+        ]
+      }
+    ]
+  }
+}

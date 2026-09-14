@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 242,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْفَتْحِ",
+          "name_normalized": "سورة الفتح",
+          "order": 48,
+          "ayat_count": 29,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 6,
+            "word": "عَلَيْهِمْ دَآئِرَةُ السَّوْءِ",
+            "word_normalized": "عليهم دائرة السوء",
+            "meaning": "دُعَاءٌ عَلَيْهِمْ بِأَنْ تَدُورَ عَلَيْهِمْ دَائِرَةُ الْعَذَابِ، وَكُلُّ مَا يَسُوءُ.",
+            "meaning_normalized": "دعاء عليهم بأن تدور عليهم دائرة العذاب وكل ما يسوء"
+          },
+          {
+            "ayah_number": 6,
+            "word": "مَصِيرًا",
+            "word_normalized": "مصيرا",
+            "meaning": "مَنْزِلًا يَصِيرُونَ إِلَيْهِ.",
+            "meaning_normalized": "منزلا يصيرون إليه"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَتُعَزِّرُوهُ",
+            "word_normalized": "وتعزروه",
+            "meaning": "تَنْصُرُوا اللهَ.",
+            "meaning_normalized": "تنصروا الله"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَتُوَقِّرُوهُ",
+            "word_normalized": "وتوقروه",
+            "meaning": "تُعَظِّمُوا اللهَ.",
+            "meaning_normalized": "تعظموا الله"
+          },
+          {
+            "ayah_number": 9,
+            "word": "بُكْرَةً وَأَصِيلًا",
+            "word_normalized": "بكرة وأصيلا",
+            "meaning": "أَوَّلَ النَّهَارِ، وَآخِرَهُ.",
+            "meaning_normalized": "أول النهار وآخره"
+          },
+          {
+            "ayah_number": 10,
+            "word": "نَكَثَ",
+            "word_normalized": "نكث",
+            "meaning": "نَقَضَ بَيْعَتَهُ.",
+            "meaning_normalized": "نقض بيعته"
+          },
+          {
+            "ayah_number": 11,
+            "word": "الْمُخَلَّفُونَ",
+            "word_normalized": "المخلفون",
+            "meaning": "الَّذِينَ تَخَلَّفُوا عَنِ الْخُرُوجِ مَعَكَ إِلَى مَكَّةَ.",
+            "meaning_normalized": "الذين تخلفوا عن الخروج معك إلى مكة"
+          },
+          {
+            "ayah_number": 11,
+            "word": "الْأَعْرَابِ",
+            "word_normalized": "الأعراب",
+            "meaning": "الْبَدْوِ.",
+            "meaning_normalized": "البدو"
+          },
+          {
+            "ayah_number": 12,
+            "word": "لَّن يَنقَلِبَ",
+            "word_normalized": "لن ينقلب",
+            "meaning": "لَنْ يَرْجِعَ.",
+            "meaning_normalized": "لن يرجع"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ظَنَّ السَّوْءِ",
+            "word_normalized": "ظن السوء",
+            "meaning": "الظَّنَّ السَّيِّئَ؛ وَهُوَ: أَلَّا يَنْصُرَ اللهُ نَبِيَّهُ ﷺ.",
+            "meaning_normalized": "الظن السيئ وهو ألا ينصر الله نبيه"
+          },
+          {
+            "ayah_number": 12,
+            "word": "بُورًا",
+            "word_normalized": "بورا",
+            "meaning": "هَلْكَى لَا خَيْرَ فِيهِمْ.",
+            "meaning_normalized": "هلكى لا خير فيهم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "أَعْتَدْنَا",
+            "word_normalized": "أعتدنا",
+            "meaning": "أَعْدَدْنَا.",
+            "meaning_normalized": "أعددنا"
+          },
+          {
+            "ayah_number": 15,
+            "word": "مَغَانِمَ",
+            "word_normalized": "مغانم",
+            "meaning": "غَنَائِمِ خَيْبَرَ الَّتِي وَعَدَكُمُ اللهُ بِهَا.",
+            "meaning_normalized": "غنائم خيبر التي وعدكم الله بها"
+          },
+          {
+            "ayah_number": 15,
+            "word": "ذَرُونَا",
+            "word_normalized": "ذرونا",
+            "meaning": "اتْرُكُونَا.",
+            "meaning_normalized": "اتركونا"
+          },
+          {
+            "ayah_number": 16,
+            "word": "أُوْلِي بَأْسٍ",
+            "word_normalized": "أولي بأس",
+            "meaning": "أَصْحَابِ شِدَّةٍ وَقُوَّةٍ فِي الْحَرْبِ.",
+            "meaning_normalized": "أصحاب شدة وقوة في الحرب"
+          },
+          {
+            "ayah_number": 17,
+            "word": "حَرَجٌ",
+            "word_normalized": "حرج",
+            "meaning": "إِثْمٌ فِي تَرْكِ الْجِهَادِ.",
+            "meaning_normalized": "إثم في ترك الجهاد"
+          },
+          {
+            "ayah_number": 18,
+            "word": "يُبَايِعُونَكَ",
+            "word_normalized": "يبايعونك",
+            "meaning": "بَيْعَةَ الرِّضْوَانِ بِالْحُدَيْبِيَةِ.",
+            "meaning_normalized": "بيعة الرضوان بالحديبية"
+          },
+          {
+            "ayah_number": 18,
+            "word": "السَّكِينَةَ",
+            "word_normalized": "السكينة",
+            "meaning": "الطُّمَأْنِينَةَ، وَالثَّبَاتَ.",
+            "meaning_normalized": "الطمأنينة والثبات"
+          },
+          {
+            "ayah_number": 18,
+            "word": "فَتْحًا قَرِيبًا",
+            "word_normalized": "فتحا قريبا",
+            "meaning": "فَتْحَ خَيْبَرَ.",
+            "meaning_normalized": "فتح خيبر"
+          },
+          {
+            "ayah_number": 21,
+            "word": "أَحَاطَ اللهُ بِهَا",
+            "word_normalized": "أحاط الله بها",
+            "meaning": "قَادِرٌ عَلَيْهَا قَدْ وَعَدَكُمْ بِهَا، وَسَيُنْجِزُ وَعْدَهُ.",
+            "meaning_normalized": "قادر عليها قد وعدكم بها وسينجز وعده"
+          }
+        ]
+      }
+    ]
+  }
+}

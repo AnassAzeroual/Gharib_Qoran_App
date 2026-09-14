@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 251,
+    "header": {
+      "right": "سُورَةُ الذَّارِيَاتِ",
+      "right_normalized": "سورة الذاريات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الذَّارِيَاتِ",
+          "name_normalized": "سورة الذاريات",
+          "order": 51,
+          "ayat_count": 60,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 28,
+            "word": "بِغُلَٰمٍ",
+            "word_normalized": "بغلام",
+            "meaning": "هُوَ: إِسْحَاقُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "هو إسحاق عليه السلام"
+          },
+          {
+            "ayah_number": 29,
+            "word": "امْرَأَتُهُ",
+            "word_normalized": "امرأته",
+            "meaning": "هِيَ: سَارَةُ.",
+            "meaning_normalized": "هي سارة"
+          },
+          {
+            "ayah_number": 29,
+            "word": "صَرَّةٍ",
+            "word_normalized": "صرة",
+            "meaning": "صَيْحَةٍ، وَضَجَّةٍ.",
+            "meaning_normalized": "صيحة وضجة"
+          },
+          {
+            "ayah_number": 29,
+            "word": "فَصَكَّتْ وَجْهَهَا",
+            "word_normalized": "فصكت وجهها",
+            "meaning": "لَطَمَتْهُ بِيَدِهَا تَعَجُّبًا.",
+            "meaning_normalized": "لطمته بيدها تعجبا"
+          },
+          {
+            "ayah_number": 29,
+            "word": "عَقِيمٌ",
+            "word_normalized": "عقيم",
+            "meaning": "لَا يُولَدُ لِي وَلَدٌ.",
+            "meaning_normalized": "لا يولد لي ولد"
+          },
+          {
+            "ayah_number": 31,
+            "word": "فَمَا خَطْبُكُمْ",
+            "word_normalized": "فما خطبكم",
+            "meaning": "مَا شَأْنُكُمْ؟",
+            "meaning_normalized": "ما شأنكم"
+          },
+          {
+            "ayah_number": 34,
+            "word": "مُّسَوَّمَةً",
+            "word_normalized": "مسومة",
+            "meaning": "مُعَلَّمَةً بِأَنَّهَا لِعَذَابِ الْمُسْرِفِينَ.",
+            "meaning_normalized": "معلمة بأنها لعذاب المسرفين"
+          },
+          {
+            "ayah_number": 37,
+            "word": "فِيهَآ ءَايَةً",
+            "word_normalized": "فيها آية",
+            "meaning": "فِي قَرْيَتِهِمْ أَثَرًا مِنَ الْعَذَابِ بَاقِيًا؛ عَلَامَةً عَلَى قُدْرَةِ اللهِ.",
+            "meaning_normalized": "في قريتهم أثرا من العذاب باقيا علامة على قدرة الله"
+          },
+          {
+            "ayah_number": 38,
+            "word": "وَفِي مُوسَىٰ",
+            "word_normalized": "وفي موسى",
+            "meaning": "فِي إِرْسَالِنَا مُوسَى عَلَيْهِ السَّلَامُ: آيَةٌ لِلَّذِينَ يَخَافُونَ الْعَذَابَ.",
+            "meaning_normalized": "في إرسالنا موسى عليه السلام آية للذين يخافون العذاب"
+          },
+          {
+            "ayah_number": 38,
+            "word": "بِسُلْطَٰنٍ مُّبِينٍ",
+            "word_normalized": "بسلطان مبين",
+            "meaning": "بِآيَاتٍ، وَمُعْجِزَاتٍ ظَاهِرَةٍ.",
+            "meaning_normalized": "بآيات ومعجزات ظاهرة"
+          },
+          {
+            "ayah_number": 39,
+            "word": "فَتَوَلَّىٰ بِرُكْنِهِ",
+            "word_normalized": "فتولى بركنه",
+            "meaning": "أَعْرَضَ فِرْعَوْنُ؛ مُغْتَرًّا بِقُوَّتِهِ وَجَانِبِهِ.",
+            "meaning_normalized": "أعرض فرعون مغترا بقوته وجانبه"
+          },
+          {
+            "ayah_number": 40,
+            "word": "فَنَبَذْنَٰهُمْ فِي الْيَمِّ",
+            "word_normalized": "فنبذناهم في اليم",
+            "meaning": "طَرَحْنَاهُمْ فِي الْبَحْرِ.",
+            "meaning_normalized": "طرحناهم في البحر"
+          },
+          {
+            "ayah_number": 40,
+            "word": "مُلِيمٌ",
+            "word_normalized": "مليم",
+            "meaning": "آتٍ بِمَا يُلَامُ عَلَيْهِ.",
+            "meaning_normalized": "آت بما يلام عليه"
+          },
+          {
+            "ayah_number": 41,
+            "word": "الْعَقِيمَ",
+            "word_normalized": "العقيم",
+            "meaning": "الَّتِي لَا بَرَكَةَ فِيهَا، وَلَا تَأْتِي بِخَيْرٍ.",
+            "meaning_normalized": "التي لا بركة فيها ولا تأتي بخير"
+          },
+          {
+            "ayah_number": 42,
+            "word": "مَا تَذَرُ",
+            "word_normalized": "ما تذر",
+            "meaning": "مَا تَدَعُ.",
+            "meaning_normalized": "ما تدع"
+          },
+          {
+            "ayah_number": 42,
+            "word": "كَالرَّمِيمِ",
+            "word_normalized": "كالرميم",
+            "meaning": "كَالشَّيْءِ الْبَالِي.",
+            "meaning_normalized": "كالشيء البالي"
+          },
+          {
+            "ayah_number": 43,
+            "word": "تَمَتَّعُوا حَتَّىٰ حِينٍ",
+            "word_normalized": "تمتعوا حتى حين",
+            "meaning": "انْتَفِعُوا بِحَيَاتِكُمْ حَتَّى تَنْتَهِيَ آجَالُكُمْ.",
+            "meaning_normalized": "انتفعوا بحياتكم حتى تنتهي آجالكم"
+          },
+          {
+            "ayah_number": 44,
+            "word": "فَعَتَوْا",
+            "word_normalized": "فعتوا",
+            "meaning": "تَكَبَّرُوا، وَعَصَوْا.",
+            "meaning_normalized": "تكبروا وعصوا"
+          },
+          {
+            "ayah_number": 44,
+            "word": "الصَّٰعِقَةُ",
+            "word_normalized": "الصاعقة",
+            "meaning": "الصَّيْحَةُ الْمُهْلِكَةُ.",
+            "meaning_normalized": "الصيحة المهلكة"
+          }
+        ]
+      }
+    ]
+  }
+}

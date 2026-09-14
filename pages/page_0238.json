@@ -1,0 +1,145 @@
+{
+  "page": {
+    "page_number": 238,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَحْقَافِ",
+          "name_normalized": "سورة الأحقاف",
+          "order": 46,
+          "ayat_count": 35,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 32,
+            "word": "أَوْلِيَآءُ",
+            "word_normalized": "أولياء",
+            "meaning": "أَنْصَارٌ يَمْنَعُونَهُ مِنْ عَذَابِ اللهِ.",
+            "meaning_normalized": "أنصار يمنعونه من عذاب الله"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَلَمْ يَعْيَ بِخَلْقِهِنَّ",
+            "word_normalized": "ولم يعي بخلقهن",
+            "meaning": "لَمْ يَعْجِزْ عَنْ خَلْقِهِنَّ، وَلَمْ يَتْعَبْ بِهِ.",
+            "meaning_normalized": "لم يعجز عن خلقهن ولم يتعب به"
+          },
+          {
+            "ayah_number": 35,
+            "word": "أُوْلُوا الْعَزْمِ",
+            "word_normalized": "أولو العزم",
+            "meaning": "ذَوُو الثَّبَاتِ وَالصَّبْرِ؛ وَهُمْ: نُوحٌ، وَإِبْرَاهِيمُ، وَمُوسَى، وَعِيسَى، وَمُحَمَّدٌ؛ عَلَيْهِمُ الصَّلَاةُ وَالسَّلَامُ.",
+            "meaning_normalized": "ذوو الثبات والصبر وهم نوح وإبراهيم وموسى وعيسى ومحمد عليهم الصلاة والسلام"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَلَا تَسْتَعْجِل لَّهُمْ",
+            "word_normalized": "ولا تستعجل لهم",
+            "meaning": "لَا تَتَعَجَّلْ بِطَلَبِ عُقُوبَتِهِمْ.",
+            "meaning_normalized": "لا تتعجل بطلب عقوبتهم"
+          },
+          {
+            "ayah_number": 35,
+            "word": "بَلَٰغٌ",
+            "word_normalized": "بلاغ",
+            "meaning": "هَذَا تَبْلِيغٌ مِنَ اللهِ لَهُمْ.",
+            "meaning_normalized": "هذا تبليغ من الله لهم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ مُحَمَّدٍ",
+          "name_normalized": "سورة محمد",
+          "order": 47,
+          "ayat_count": 38,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "أَضَلَّ أَعْمَٰلَهُمْ",
+            "word_normalized": "أضل أعمالهم",
+            "meaning": "أَحْبَطَهَا، وَأَبْطَلَهَا.",
+            "meaning_normalized": "أحبطها وأبطلها"
+          },
+          {
+            "ayah_number": 2,
+            "word": "كَفَّرَ",
+            "word_normalized": "كفر",
+            "meaning": "أَزَالَ، وَمَحَا.",
+            "meaning_normalized": "أزال ومحا"
+          },
+          {
+            "ayah_number": 2,
+            "word": "بَالَهُمْ",
+            "word_normalized": "بالهم",
+            "meaning": "حَالَهُمْ وَشَأْنَهُمْ فِي الدُّنْيَا وَالْآخِرَةِ.",
+            "meaning_normalized": "حالهم وشأنهم في الدنيا والآخرة"
+          },
+          {
+            "ayah_number": 3,
+            "word": "الْبَٰطِلَ",
+            "word_normalized": "الباطل",
+            "meaning": "الشَّيْطَانَ.",
+            "meaning_normalized": "الشيطان"
+          },
+          {
+            "ayah_number": 4,
+            "word": "فَضَرْبَ الرِّقَابِ",
+            "word_normalized": "فضرب الرقاب",
+            "meaning": "اضْرِبُوا مِنْهُمُ الْأَعْنَاقَ.",
+            "meaning_normalized": "اضربوا منهم الأعناق"
+          },
+          {
+            "ayah_number": 4,
+            "word": "أَثْخَنتُمُوهُمْ",
+            "word_normalized": "أثخنتموهم",
+            "meaning": "أَضْعَفْتُمُوهُمْ بِكَثْرَةِ الْقِتَالِ، وَكَسَرْتُمْ شَوْكَتَهُمْ.",
+            "meaning_normalized": "أضعفتموهم بكثرة القتال وكسرتم شوكتهم"
+          },
+          {
+            "ayah_number": 4,
+            "word": "فَشُدُّوا الْوَثَاقَ",
+            "word_normalized": "فشدوا الوثاق",
+            "meaning": "أَحْكِمُوا قَيْدَ الْأَسْرَى.",
+            "meaning_normalized": "أحكموا قيد الأسرى"
+          },
+          {
+            "ayah_number": 4,
+            "word": "مَنًّا",
+            "word_normalized": "منا",
+            "meaning": "تَمُنُّونَ عَلَيْهِمْ بِإِطْلَاقِ الْأَسْرَى مِنْ غَيْرِ عِوَضٍ.",
+            "meaning_normalized": "تمنون عليهم بإطلاق الأسرى من غير عوض"
+          },
+          {
+            "ayah_number": 4,
+            "word": "فِدَآءً",
+            "word_normalized": "فداء",
+            "meaning": "تَطْلُبُونَ مِنْهُمْ فِدْيَةً تُخَلِّصُهُمْ مِنَ الْأَسْرِ.",
+            "meaning_normalized": "تطلبون منهم فدية تخلصهم من الأسر"
+          }
+        ]
+      }
+    ]
+  }
+}
