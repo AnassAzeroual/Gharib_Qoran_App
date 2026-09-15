@@ -1,0 +1,166 @@
+{
+  "page": {
+    "page_number": 274,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُجَادَلَةِ",
+          "name_normalized": "سورة المجادلة",
+          "order": 58,
+          "ayat_count": 22,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 11,
+            "word": "انْشُزُوا",
+            "word_normalized": "انشزوا",
+            "meaning": "قُومُوا مِنْ مَجَالِسِكُمْ لِأَمْرٍ فِيهِ خَيْرٌ لَكُمْ.",
+            "meaning_normalized": "قوموا من مجالسكم لأمر فيه خير لكم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "أَأَشْفَقْتُمْ",
+            "word_normalized": "أأشفقتم",
+            "meaning": "أَخَشِيتُمُ الْفَقْرَ؟",
+            "meaning_normalized": "أخشيتم الفقر"
+          },
+          {
+            "ayah_number": 14,
+            "word": "الَّذِينَ تَوَلَّوْا قَوْمًا",
+            "word_normalized": "الذين تولوا قوما",
+            "meaning": "الْمُنَافِقِينَ اتَّخَذُوا الْيَهُودَ أَصْدِقَاءَ، وَالَوْهُمْ.",
+            "meaning_normalized": "المنافقين اتخذوا اليهود أصدقاء والوهم"
+          },
+          {
+            "ayah_number": 16,
+            "word": "جُنَّةً",
+            "word_normalized": "جنة",
+            "meaning": "وِقَايَةً لَهُمْ مِنَ الْقَتْلِ.",
+            "meaning_normalized": "وقاية لهم من القتل"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَيَحْسَبُونَ",
+            "word_normalized": "ويحسبون",
+            "meaning": "يَعْتَقِدُونَ.",
+            "meaning_normalized": "يعتقدون"
+          },
+          {
+            "ayah_number": 19,
+            "word": "اسْتَحْوَذَ",
+            "word_normalized": "استحوذ",
+            "meaning": "غَلَبَ، وَاسْتَوْلَى.",
+            "meaning_normalized": "غلب واستولى"
+          },
+          {
+            "ayah_number": 20,
+            "word": "يُحَادُّونَ",
+            "word_normalized": "يحادون",
+            "meaning": "يُخَالِفُونَ، وَيُشَاقُّونَ.",
+            "meaning_normalized": "يخالفون ويشاقون"
+          },
+          {
+            "ayah_number": 20,
+            "word": "الْأَذَلِّينَ",
+            "word_normalized": "الأذلين",
+            "meaning": "الْأَذِلَّاءِ الْمَغْلُوبِينَ الْمُهَانِينَ.",
+            "meaning_normalized": "الأذلاء المغلوبين المهانين"
+          },
+          {
+            "ayah_number": 21,
+            "word": "لَأَغْلِبَنَّ",
+            "word_normalized": "لأغلبن",
+            "meaning": "لَأَنْتَصِرَنَّ.",
+            "meaning_normalized": "لأنتصرن"
+          },
+          {
+            "ayah_number": 21,
+            "word": "عَزِيزٌ",
+            "word_normalized": "عزيز",
+            "meaning": "غَالِبٌ لَا يُغْلَبُ.",
+            "meaning_normalized": "غالب لا يغلب"
+          },
+          {
+            "ayah_number": 22,
+            "word": "يُوَادُّونَ",
+            "word_normalized": "يوادون",
+            "meaning": "يُحِبُّونَ.",
+            "meaning_normalized": "يحبون"
+          },
+          {
+            "ayah_number": 22,
+            "word": "حَادَّ",
+            "word_normalized": "حاد",
+            "meaning": "عَادَى.",
+            "meaning_normalized": "عادى"
+          },
+          {
+            "ayah_number": 22,
+            "word": "عَشِيرَتَهُمْ",
+            "word_normalized": "عشيرتهم",
+            "meaning": "أَقْرِبَاءَهُمْ.",
+            "meaning_normalized": "أقرباءهم"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَأَيَّدَهُمْ",
+            "word_normalized": "وأيدهم",
+            "meaning": "قَوَّاهُمْ.",
+            "meaning_normalized": "قواهم"
+          },
+          {
+            "ayah_number": 22,
+            "word": "بِرُوحٍ مِنْهُ",
+            "word_normalized": "بروح منه",
+            "meaning": "بِنَصْرٍ، وَتَأْيِيدٍ.",
+            "meaning_normalized": "بنصر وتأييد"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحَشْرِ",
+          "name_normalized": "سورة الحشر",
+          "order": 59,
+          "ayat_count": 24,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "سَبَّحَ لِلَّهِ",
+            "word_normalized": "سبح لله",
+            "meaning": "نَزَّهَ اللهَ عَمَّا لَا يَلِيقُ بِهِ جَلَّ جَلَالُهُ وَمَجْدُهُ.",
+            "meaning_normalized": "نزه الله عما لا يليق به جل جلاله ومجده"
+          },
+          {
+            "ayah_number": 2,
+            "word": "أَهْلِ الْكِتَابِ",
+            "word_normalized": "أهل الكتاب",
+            "meaning": "هُمْ يَهُودُ بَنِي النَّضِيرِ.",
+            "meaning_normalized": "هم يهود بني النضير"
+          }
+        ]
+      }
+    ]
+  }
+}

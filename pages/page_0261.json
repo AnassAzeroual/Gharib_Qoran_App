@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 261,
+    "header": {
+      "right": "سُورَةُ الرَّحْمَٰنِ",
+      "right_normalized": "سورة الرحمن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَمَرِ",
+          "name_normalized": "سورة القمر",
+          "order": 54,
+          "ayat_count": 55,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 44,
+            "word": "نَحْنُ جَمِيعٌ مُنْتَصِرٌ",
+            "word_normalized": "نحن جميع منتصر",
+            "meaning": "جَمَاعَةٌ مُنْتَصِرَةٌ لَا يَغْلِبُنَا مَنْ أَرَادَنَا بِسُوءٍ.",
+            "meaning_normalized": "جماعة منتصرة لا يغلبنا من أرادنا بسوء"
+          },
+          {
+            "ayah_number": 45,
+            "word": "الْجَمْعُ",
+            "word_normalized": "الجمع",
+            "meaning": "جَمَاعَةُ كُفَّارِ مَكَّةَ.",
+            "meaning_normalized": "جماعة كفار مكة"
+          },
+          {
+            "ayah_number": 45,
+            "word": "وَيُوَلُّونَ الدُّبُرَ",
+            "word_normalized": "ويولون الدبر",
+            "meaning": "يَفِرُّونَ مُنْهَزِمِينَ، قَدْ وَلَّوْكُمْ أَدْبَارَهُمْ؛ وَقَدْ حَصَلَ هَذَا فِي غَزْوَةِ بَدْرٍ.",
+            "meaning_normalized": "يفرون منهزمين قد ولوكم أدبارهم وقد حصل هذا في غزوة بدر"
+          },
+          {
+            "ayah_number": 46,
+            "word": "أَدْهَىٰ وَأَمَرُّ",
+            "word_normalized": "أدهى وأمر",
+            "meaning": "أَعْظَمُ وَأَشَدُّ مَرَارَةً مِمَّا لَحِقَهُمْ مِنَ الْعَذَابِ فِي بَدْرٍ.",
+            "meaning_normalized": "أعظم وأشد مرارة مما لحقهم من العذاب في بدر"
+          },
+          {
+            "ayah_number": 47,
+            "word": "وَسُعُرٍ",
+            "word_normalized": "وسعر",
+            "meaning": "عَذَابٍ.",
+            "meaning_normalized": "عذاب"
+          },
+          {
+            "ayah_number": 48,
+            "word": "مَسَّ سَقَرَ",
+            "word_normalized": "مس سقر",
+            "meaning": "إِصَابَةَ جَهَنَّمَ، وَعَذَابِهَا لَكُمْ.",
+            "meaning_normalized": "إصابة جهنم وعذابها لكم"
+          },
+          {
+            "ayah_number": 50,
+            "word": "إِلَّا وَاحِدَةٌ",
+            "word_normalized": "إلا واحدة",
+            "meaning": "إِلَّا قَوْلَةٌ وَاحِدَةٌ، وَهِيَ: (كُنْ).",
+            "meaning_normalized": "إلا قولة واحدة وهي كن"
+          },
+          {
+            "ayah_number": 50,
+            "word": "كَلَمْحٍ بِالْبَصَرِ",
+            "word_normalized": "كلمح بالبصر",
+            "meaning": "سَرِيعٌ لَا يَتَأَخَّرُ كَطَرْفَةِ الْعَيْنِ.",
+            "meaning_normalized": "سريع لا يتأخر كطرفة العين"
+          },
+          {
+            "ayah_number": 51,
+            "word": "أَشْيَاعَكُمْ",
+            "word_normalized": "أشياعكم",
+            "meaning": "أَشْبَاهَكُمْ فِي الْكُفْرِ.",
+            "meaning_normalized": "أشباهكم في الكفر"
+          },
+          {
+            "ayah_number": 51,
+            "word": "مُدَّكِرٍ",
+            "word_normalized": "مدكر",
+            "meaning": "مُتَّعِظٍ.",
+            "meaning_normalized": "متعظ"
+          },
+          {
+            "ayah_number": 52,
+            "word": "فِي الزُّبُرِ",
+            "word_normalized": "في الزبر",
+            "meaning": "مَكْتُوبٌ فِي الْكُتُبِ الَّتِي بِيَدِ الْحَفَظَةِ.",
+            "meaning_normalized": "مكتوب في الكتب التي بيد الحفظة"
+          },
+          {
+            "ayah_number": 53,
+            "word": "مُسْتَطَرٌ",
+            "word_normalized": "مستطر",
+            "meaning": "مَسْطُورٌ مَكْتُوبٌ فِي صَحَائِفِ أَعْمَالِهِمْ.",
+            "meaning_normalized": "مسطور مكتوب في صحائف أعمالهم"
+          },
+          {
+            "ayah_number": 54,
+            "word": "وَنَهَرٍ",
+            "word_normalized": "ونهر",
+            "meaning": "أَنْهَارٍ.",
+            "meaning_normalized": "أنهار"
+          },
+          {
+            "ayah_number": 55,
+            "word": "مَقْعَدِ صِدْقٍ",
+            "word_normalized": "مقعد صدق",
+            "meaning": "مَجْلِسِ حَقٍّ؛ لَا لَغْوَ فِيهِ، وَلَا تَأْثِيمَ.",
+            "meaning_normalized": "مجلس حق لا لغو فيه ولا تأثيم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرَّحْمَٰنِ",
+          "name_normalized": "سورة الرحمن",
+          "order": 55,
+          "ayat_count": 78,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "word": "الْبَيَانَ",
+            "word_normalized": "البيان",
+            "meaning": "النُّطْقَ؛ بِأَنْ يُبَيِّنَ عَمَّا فِي نَفْسِهِ بِالنُّطْقِ.",
+            "meaning_normalized": "النطق بأن يبين عما في نفسه بالنطق"
+          },
+          {
+            "ayah_number": 5,
+            "word": "بِحُسْبَانٍ",
+            "word_normalized": "بحسبان",
+            "meaning": "يَجْرِيَانِ مُتَعَاقِبَيْنِ، بِحِسَابٍ مُتْقَنٍ لَا يَضْطَرِبُ.",
+            "meaning_normalized": "يجريان متعاقبين بحساب متقن لا يضطرب"
+          }
+        ]
+      }
+    ]
+  }
+}

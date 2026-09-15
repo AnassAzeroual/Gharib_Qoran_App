@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 273,
+    "header": {
+      "right": "سُورَةُ الْمُجَادَلَةِ",
+      "right_normalized": "سورة المجادلة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُجَادَلَةِ",
+          "name_normalized": "سورة المجادلة",
+          "order": 58,
+          "ayat_count": 22,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "تُجَادِلُكَ",
+            "word_normalized": "تجادلك",
+            "meaning": "تُرَاجِعُكَ، وَهِيَ: خَوْلَةُ بِنْتُ ثَعْلَبَةَ.",
+            "meaning_normalized": "تراجعك وهي خولة بنت ثعلبة"
+          },
+          {
+            "ayah_number": 1,
+            "word": "زَوْجِهَا",
+            "word_normalized": "زوجها",
+            "meaning": "أَوْسِ بْنِ الصَّامِتِ.",
+            "meaning_normalized": "أوس بن الصامت"
+          },
+          {
+            "ayah_number": 2,
+            "word": "يُظَاهِرُونَ",
+            "word_normalized": "يظاهرون",
+            "meaning": "يَقُولُ الرَّجُلُ لِامْرَأَتِهِ: أَنْتِ عَلَيَّ كَظَهْرِ أُمِّي.",
+            "meaning_normalized": "يقول الرجل لامرأته أنت علي كظهر أمي"
+          },
+          {
+            "ayah_number": 2,
+            "word": "إِنْ أُمَّهَاتُهُمْ",
+            "word_normalized": "إن أمهاتهم",
+            "meaning": "مَا أُمَّهَاتُهُمْ.",
+            "meaning_normalized": "ما أمهاتهم"
+          },
+          {
+            "ayah_number": 2,
+            "word": "مُنْكَرًا",
+            "word_normalized": "منكرا",
+            "meaning": "فَظِيعًا.",
+            "meaning_normalized": "فظيعا"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَزُورًا",
+            "word_normalized": "وزورا",
+            "meaning": "كَذِبًا.",
+            "meaning_normalized": "كذبا"
+          },
+          {
+            "ayah_number": 3,
+            "word": "يَعُودُونَ",
+            "word_normalized": "يعودون",
+            "meaning": "يَرْجِعُونَ عَنْ قَوْلِهِمْ، وَيَعْزِمُونَ عَلَى وَطْءِ نِسَائِهِمْ.",
+            "meaning_normalized": "يرجعون عن قولهم ويعزمون على وطء نسائهم"
+          },
+          {
+            "ayah_number": 3,
+            "word": "فَتَحْرِيرُ رَقَبَةٍ",
+            "word_normalized": "فتحرير رقبة",
+            "meaning": "عِتْقُ رَقَبَةٍ مُؤْمِنَةٍ؛ عَبْدٍ، أَوْ أَمَةٍ.",
+            "meaning_normalized": "عتق رقبة مؤمنة عبد أو أمة"
+          },
+          {
+            "ayah_number": 3,
+            "word": "يَتَمَاسَّا",
+            "word_normalized": "يتماسا",
+            "meaning": "يَسْتَمْتِعَا بِالْجِمَاعِ.",
+            "meaning_normalized": "يستمتعا بالجماع"
+          },
+          {
+            "ayah_number": 5,
+            "word": "يُحَادُّونَ",
+            "word_normalized": "يحادون",
+            "meaning": "يُشَاقُّونَ وَيُخَالِفُونَ.",
+            "meaning_normalized": "يشاقون ويخالفون"
+          },
+          {
+            "ayah_number": 5,
+            "word": "كُبِتُوا",
+            "word_normalized": "كبتوا",
+            "meaning": "خُذِلُوا، وَأُهِينُوا.",
+            "meaning_normalized": "خذلوا وأهينوا"
+          },
+          {
+            "ayah_number": 7,
+            "word": "نَجْوَى ثَلَاثَةٍ",
+            "word_normalized": "نجوى ثلاثة",
+            "meaning": "تَنَاجِي ثَلَاثَةٍ بِحَدِيثِ سِرٍّ.",
+            "meaning_normalized": "تناجي ثلاثة بحديث سر"
+          },
+          {
+            "ayah_number": 8,
+            "word": "بِمَا لَمْ يُحَيِّكَ بِهِ اللهُ",
+            "word_normalized": "بما لم يحيك به الله",
+            "meaning": "قَالُوا لَكَ: السَّامُ عَلَيْكُمْ، أَيِ: الْمَوْتُ لَكَ.",
+            "meaning_normalized": "قالوا لك السام عليكم أي الموت لك"
+          },
+          {
+            "ayah_number": 8,
+            "word": "لَوْلَا",
+            "word_normalized": "لولا",
+            "meaning": "هَلَّا.",
+            "meaning_normalized": "هلا"
+          },
+          {
+            "ayah_number": 8,
+            "word": "حَسْبُهُمْ",
+            "word_normalized": "حسبهم",
+            "meaning": "كَافِيَتُهُمْ.",
+            "meaning_normalized": "كافيتهم"
+          },
+          {
+            "ayah_number": 8,
+            "word": "الْمَصِيرُ",
+            "word_normalized": "المصير",
+            "meaning": "الْمَرْجِعُ، وَالْمَآلُ.",
+            "meaning_normalized": "المرجع والمآل"
+          },
+          {
+            "ayah_number": 10,
+            "word": "إِنَّمَا النَّجْوَى",
+            "word_normalized": "إنما النجوى",
+            "meaning": "التَّحَدُّثُ بِخُفْيَةٍ بِالْإِثْمِ وَالْعُدْوَانِ.",
+            "meaning_normalized": "التحدث بخفية بالإثم والعدوان"
+          },
+          {
+            "ayah_number": 11,
+            "word": "تَفَسَّحُوا",
+            "word_normalized": "تفسحوا",
+            "meaning": "لِيُوَسِّعْ بَعْضُكُمْ لِبَعْضٍ فِي الْمَجَالِسِ.",
+            "meaning_normalized": "ليوسع بعضكم لبعض في المجالس"
+          }
+        ]
+      }
+    ]
+  }
+}

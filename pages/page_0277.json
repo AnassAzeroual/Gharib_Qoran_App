@@ -1,0 +1,145 @@
+{
+  "page": {
+    "page_number": 277,
+    "header": {
+      "right": "سُورَةُ الْمُمْتَحَنَةِ",
+      "right_normalized": "سورة الممتحنة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحَشْرِ",
+          "name_normalized": "سورة الحشر",
+          "order": 59,
+          "ayat_count": 24,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 22,
+            "word": "وَالشَّهَادَةِ",
+            "word_normalized": "والشهادة",
+            "meaning": "وَعَالِمُ كُلِّ مُعْلَنٍ، وَحَاضِرٍ.",
+            "meaning_normalized": "وعالم كل معلن وحاضر"
+          },
+          {
+            "ayah_number": 22,
+            "word": "الرَّحْمَنُ",
+            "word_normalized": "الرحمن",
+            "meaning": "الَّذِي وَسِعَتْ رَحْمَتُهُ كُلَّ شَيْءٍ، أَوِ الرَّحْمَةُ صِفَتُهُ.",
+            "meaning_normalized": "الذي وسعت رحمته كل شيء أو الرحمة صفته"
+          },
+          {
+            "ayah_number": 22,
+            "word": "الرَّحِيمُ",
+            "word_normalized": "الرحيم",
+            "meaning": "الَّذِي يَرْحَمُ الْمُؤْمِنِينَ خَاصَّةً، أَوِ الرَّحْمَةُ فِعْلُهُ.",
+            "meaning_normalized": "الذي يرحم المؤمنين خاصة أو الرحمة فعله"
+          },
+          {
+            "ayah_number": 23,
+            "word": "السَّلَامُ",
+            "word_normalized": "السلام",
+            "meaning": "الْمُنَزَّهُ عَنْ كُلِّ نَقْصٍ، الَّذِي سَلِمَ مِنْ كُلِّ عَيْبٍ.",
+            "meaning_normalized": "المنزه عن كل نقص الذي سلم من كل عيب"
+          },
+          {
+            "ayah_number": 23,
+            "word": "الْمُؤْمِنُ",
+            "word_normalized": "المؤمن",
+            "meaning": "الْمُصَدِّقُ رُسُلَهُ بِالْمُعْجِزَاتِ، وَالْآيَاتِ الْبَيِّنَاتِ.",
+            "meaning_normalized": "المصدق رسله بالمعجزات والآيات البينات"
+          },
+          {
+            "ayah_number": 23,
+            "word": "الْمُهَيْمِنُ",
+            "word_normalized": "المهيمن",
+            "meaning": "الرَّقِيبُ عَلَى كُلِّ خَلْقِهِ.",
+            "meaning_normalized": "الرقيب على كل خلقه"
+          },
+          {
+            "ayah_number": 23,
+            "word": "الْعَزِيزُ",
+            "word_normalized": "العزيز",
+            "meaning": "الْقَوِيُّ الْغَالِبُ الَّذِي لَا يُغْلَبُ.",
+            "meaning_normalized": "القوي الغالب الذي لا يغلب"
+          },
+          {
+            "ayah_number": 23,
+            "word": "الْجَبَّارُ",
+            "word_normalized": "الجبار",
+            "meaning": "الَّذِي قَهَرَ جَمِيعَ الْعِبَادِ.",
+            "meaning_normalized": "الذي قهر جميع العباد"
+          },
+          {
+            "ayah_number": 23,
+            "word": "سُبْحَانَ اللهِ",
+            "word_normalized": "سبحان الله",
+            "meaning": "تَنَزَّهَ اللهُ تَعَالَى.",
+            "meaning_normalized": "تنزه الله تعالى"
+          },
+          {
+            "ayah_number": 24,
+            "word": "الْخَالِقُ",
+            "word_normalized": "الخالق",
+            "meaning": "الْمُقَدِّرُ لِلْأَشْيَاءِ، وَالْمُوجِدُ لَهَا.",
+            "meaning_normalized": "المقدر للأشياء والموجد لها"
+          },
+          {
+            "ayah_number": 24,
+            "word": "الْبَارِئُ",
+            "word_normalized": "البارئ",
+            "meaning": "الَّذِي يُصْدِرُ خَلْقَهُ عَلَى الْكَيْفِيَّةِ الَّتِي يَشَاؤُهَا.",
+            "meaning_normalized": "الذي يصدر خلقه على الكيفية التي يشاءها"
+          },
+          {
+            "ayah_number": 24,
+            "word": "الْحُسْنَى",
+            "word_normalized": "الحسنى",
+            "meaning": "الَّتِي لَا أَحْسَنَ مِنْهَا.",
+            "meaning_normalized": "التي لا أحسن منها"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُمْتَحَنَةِ",
+          "name_normalized": "سورة الممتحنة",
+          "order": 60,
+          "ayat_count": 13,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "أَوْلِيَاءَ",
+            "word_normalized": "أولياء",
+            "meaning": "خُلَصَاءَ وَأَحِبَّاءَ.",
+            "meaning_normalized": "خلصاء وأحباء"
+          },
+          {
+            "ayah_number": 1,
+            "word": "تُلْقُونَ",
+            "word_normalized": "تلقون",
+            "meaning": "تُفْضُونَ.",
+            "meaning_normalized": "تفضون"
+          }
+        ]
+      }
+    ]
+  }
+}

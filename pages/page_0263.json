@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 263,
+    "header": {
+      "right": "سُورَةُ الرَّحْمَٰنِ",
+      "right_normalized": "سورة الرحمن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرَّحْمَٰنِ",
+          "name_normalized": "سورة الرحمن",
+          "order": 55,
+          "ayat_count": 78,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 20,
+            "word": "لَا يَبْغِيَانِ",
+            "word_normalized": "لا يبغيان",
+            "meaning": "لَا يَطْغَى أَحَدُهُمَا عَلَى الْآخَرِ، وَيَذْهَبُ بِخَصَائِصِهِ.",
+            "meaning_normalized": "لا يطغى أحدهما على الآخر ويذهب بخصائصه"
+          },
+          {
+            "ayah_number": 24,
+            "word": "الْجَوَارِ",
+            "word_normalized": "الجوار",
+            "meaning": "السُّفُنُ الْجَارِيَةُ الضَّخْمَةُ.",
+            "meaning_normalized": "السفن الجارية الضخمة"
+          },
+          {
+            "ayah_number": 24,
+            "word": "الْمُنْشَآتُ",
+            "word_normalized": "المنشآت",
+            "meaning": "الْمَرْفُوعَاتُ الْأَشْرِعَةِ.",
+            "meaning_normalized": "المرفوعات الأشرعة"
+          },
+          {
+            "ayah_number": 24,
+            "word": "كَالْأَعْلَامِ",
+            "word_normalized": "كالأعلام",
+            "meaning": "كَالْجِبَالِ فِي عِظَمِهَا.",
+            "meaning_normalized": "كالجبال في عظمها"
+          },
+          {
+            "ayah_number": 26,
+            "word": "فَانٍ",
+            "word_normalized": "فان",
+            "meaning": "هَالِكٌ.",
+            "meaning_normalized": "هالك"
+          },
+          {
+            "ayah_number": 27,
+            "word": "ذُو الْجَلَالِ",
+            "word_normalized": "ذو الجلال",
+            "meaning": "صَاحِبُ الْعَظَمَةِ، وَالْكِبْرِيَاءِ.",
+            "meaning_normalized": "صاحب العظمة والكبرياء"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَالْإِكْرَامِ",
+            "word_normalized": "والإكرام",
+            "meaning": "الْفَضْلِ، وَالْجُودِ.",
+            "meaning_normalized": "الفضل والجود"
+          },
+          {
+            "ayah_number": 29,
+            "word": "فِي شَأْنٍ",
+            "word_normalized": "في شأن",
+            "meaning": "أَيْ: أَمْرٍ فَيُعِزُّ وَيُذِلُّ، وَيُعْطِي وَيَمْنَعُ، وَيُحْيِي وَيُمِيتُ.",
+            "meaning_normalized": "أي أمر فيعز ويذل ويعطي ويمنع ويحيي ويميت"
+          },
+          {
+            "ayah_number": 33,
+            "word": "تَنْفُذُوا",
+            "word_normalized": "تنفذوا",
+            "meaning": "تَجِدُونَ مَنْفَذًا تَهْرُبُونَ مِنْهُ.",
+            "meaning_normalized": "تجدون منفذا تهربون منه"
+          },
+          {
+            "ayah_number": 33,
+            "word": "أَقْطَارِ",
+            "word_normalized": "أقطار",
+            "meaning": "نَوَاحِي.",
+            "meaning_normalized": "نواحي"
+          },
+          {
+            "ayah_number": 33,
+            "word": "فَانْفُذُوا",
+            "word_normalized": "فانفذوا",
+            "meaning": "اهْرُبُوا (أَمْرَ تَعْجِيزٍ).",
+            "meaning_normalized": "اهربوا أمر تعجيز"
+          },
+          {
+            "ayah_number": 33,
+            "word": "بِسُلْطَانٍ",
+            "word_normalized": "بسلطان",
+            "meaning": "بِقُوَّةٍ، وَكَمَالِ قُدْرَةٍ.",
+            "meaning_normalized": "بقوة وكمال قدرة"
+          },
+          {
+            "ayah_number": 35,
+            "word": "شُوَاظٌ",
+            "word_normalized": "شواظ",
+            "meaning": "لَهَبٌ خَالِصٌ.",
+            "meaning_normalized": "لهب خالص"
+          },
+          {
+            "ayah_number": 35,
+            "word": "وَنُحَاسٌ",
+            "word_normalized": "ونحاس",
+            "meaning": "نُحَاسٌ مُذَابٌ، يُصَبُّ عَلَى رُؤُوسِكُمْ، أَوْ دُخَانٌ لَا لَهَبَ فِيهِ.",
+            "meaning_normalized": "نحاس مذاب يصب على رؤوسكم أو دخان لا لهب فيه"
+          },
+          {
+            "ayah_number": 35,
+            "word": "فَلَا تَنْتَصِرَانِ",
+            "word_normalized": "فلا تنتصران",
+            "meaning": "فَلَا يَنْصُرُ بَعْضُكُمْ بَعْضًا.",
+            "meaning_normalized": "فلا ينصر بعضكم بعضا"
+          },
+          {
+            "ayah_number": 37,
+            "word": "وَرْدَةً",
+            "word_normalized": "وردة",
+            "meaning": "حَمْرَاءَ كَلَوْنِ الْوَرْدِ.",
+            "meaning_normalized": "حمراء كلون الورد"
+          },
+          {
+            "ayah_number": 37,
+            "word": "كَالدِّهَانِ",
+            "word_normalized": "كالدهان",
+            "meaning": "كَالزَّيْتِ الْمَغْلِيِّ، أَوْ كَالْجِلْدِ الْأَحْمَرِ.",
+            "meaning_normalized": "كالزيت المغلي أو كالجلد الأحمر"
+          },
+          {
+            "ayah_number": 41,
+            "word": "بِسِيمَاهُمْ",
+            "word_normalized": "بسيماهم",
+            "meaning": "بِعَلَامَاتِهِمْ.",
+            "meaning_normalized": "بعلاماتهم"
+          }
+        ]
+      }
+    ]
+  }
+}

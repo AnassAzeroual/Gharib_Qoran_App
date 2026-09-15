@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 266,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْوَاقِعَةِ",
+          "name_normalized": "سورة الواقعة",
+          "order": 56,
+          "ayat_count": 96,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 10,
+            "word": "السَّابِقُونَ",
+            "word_normalized": "السابقون",
+            "meaning": "الَّذِينَ يَسْبِقُونَ إِلَى الْمَنَازِلِ الْعَالِيَةِ فِي الْجَنَّةِ.",
+            "meaning_normalized": "الذين يسبقون إلى المنازل العالية في الجنة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "ثُلَّةٌ",
+            "word_normalized": "ثلة",
+            "meaning": "جَمَاعَةٌ كَثِيرَةٌ.",
+            "meaning_normalized": "جماعة كثيرة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "الْأَوَّلِينَ",
+            "word_normalized": "الأولين",
+            "meaning": "صَدْرُ هَذِهِ الْأُمَّةِ وَغَيْرِهِمْ مِنَ الْأُمَمِ الْأُخْرَى.",
+            "meaning_normalized": "صدر هذه الأمة وغيرهم من الأمم الأخرى"
+          },
+          {
+            "ayah_number": 14,
+            "word": "الْآخِرِينَ",
+            "word_normalized": "الآخرين",
+            "meaning": "آخِرِ هَذِهِ الْأُمَّةِ.",
+            "meaning_normalized": "آخر هذه الأمة"
+          },
+          {
+            "ayah_number": 15,
+            "word": "مَوْضُونَةٍ",
+            "word_normalized": "موضونة",
+            "meaning": "مَنْسُوجَةٍ بِالذَّهَبِ.",
+            "meaning_normalized": "منسوجة بالذهب"
+          },
+          {
+            "ayah_number": 17,
+            "word": "وِلْدَانٌ مُخَلَّدُونَ",
+            "word_normalized": "ولدان مخلدون",
+            "meaning": "غِلْمَانٌ لِلْخِدْمَةِ لَا يَهْرَمُونَ، وَلَا يَمُوتُونَ.",
+            "meaning_normalized": "غلمان للخدمة لا يهرمون ولا يموتون"
+          },
+          {
+            "ayah_number": 18,
+            "word": "بِأَكْوَابٍ",
+            "word_normalized": "بأكواب",
+            "meaning": "أَقْدَاحٍ لَا عُرَا لَهَا، وَلَا خَرَاطِيمَ.",
+            "meaning_normalized": "أقداح لا عرا لها ولا خراطيم"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَأَبَارِيقَ",
+            "word_normalized": "وأباريق",
+            "meaning": "أَوَانٍ لَهَا عُرًا، وَخَرَاطِيمُ.",
+            "meaning_normalized": "أوان لها عرا وخراطيم"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَكَأْسٍ",
+            "word_normalized": "وكأس",
+            "meaning": "خَمْرٍ، أَوْ قَدَحٍ فِيهِ خَمْرٌ.",
+            "meaning_normalized": "خمر أو قدح فيه خمر"
+          },
+          {
+            "ayah_number": 18,
+            "word": "مِنْ مَعِينٍ",
+            "word_normalized": "من معين",
+            "meaning": "خَمْرٍ جَارِيَةٍ فِي الْجَنَّةِ.",
+            "meaning_normalized": "خمر جارية في الجنة"
+          },
+          {
+            "ayah_number": 19,
+            "word": "لَا يُصَدَّعُونَ عَنْهَا",
+            "word_normalized": "لا يصدعون عنها",
+            "meaning": "لَا تُصَدَّعُ مِنْهَا رُؤُوسُهُمْ.",
+            "meaning_normalized": "لا تصدع منها رؤوسهم"
+          },
+          {
+            "ayah_number": 19,
+            "word": "وَلَا يُنْزِفُونَ",
+            "word_normalized": "ولا ينزفون",
+            "meaning": "لَا تَذْهَبُ بِعُقُولِهِمْ.",
+            "meaning_normalized": "لا تذهب بعقولهم"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَحُورٌ عِينٌ",
+            "word_normalized": "وحور عين",
+            "meaning": "نِسَاءٌ بِيضٌ وَاسِعَاتُ الْأَعْيُنِ حِسَانُهَا.",
+            "meaning_normalized": "نساء بيض واسعات الأعين حسانها"
+          },
+          {
+            "ayah_number": 23,
+            "word": "الْمَكْنُونِ",
+            "word_normalized": "المكنون",
+            "meaning": "الْمَصُونِ فِي أَصْدَافِهِ مِنْ صَفَائِهِنَّ، وَجَمَالِهِنَّ.",
+            "meaning_normalized": "المصون في أصدافه من صفائهن وجمالهن"
+          },
+          {
+            "ayah_number": 25,
+            "word": "لَغْوًا",
+            "word_normalized": "لغوا",
+            "meaning": "بَاطِلًا، وَكَلَامًا لَا خَيْرَ فِيهِ.",
+            "meaning_normalized": "باطلا وكلاما لا خير فيه"
+          },
+          {
+            "ayah_number": 25,
+            "word": "تَأْثِيمًا",
+            "word_normalized": "تأثيما",
+            "meaning": "مَا يَتَأَثَّمُونَ بِسَمَاعِهِ.",
+            "meaning_normalized": "ما يتأثمون بسماعه"
+          },
+          {
+            "ayah_number": 26,
+            "word": "قِيلًا",
+            "word_normalized": "قيلا",
+            "meaning": "قَوْلًا.",
+            "meaning_normalized": "قولا"
+          },
+          {
+            "ayah_number": 26,
+            "word": "سَلَامًا",
+            "word_normalized": "سلاما",
+            "meaning": "إِلَّا قَوْلًا سَالِمًا مِنْ هَذِهِ الْعُيُوبِ، وَإِلَّا تَسْلِيمَ بَعْضِهِمْ عَلَى بَعْضٍ.",
+            "meaning_normalized": "إلا قولا سالما من هذه العيوب وإلا تسليم بعضهم على بعض"
+          }
+        ]
+      }
+    ]
+  }
+}

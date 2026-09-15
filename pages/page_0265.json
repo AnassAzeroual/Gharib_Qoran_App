@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 265,
+    "header": {
+      "right": "سُورَةُ الْوَاقِعَةِ",
+      "right_normalized": "سورة الواقعة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرَّحْمَٰنِ",
+          "name_normalized": "سورة الرحمن",
+          "order": 55,
+          "ayat_count": 78,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 72,
+            "word": "مَقْصُورَاتٌ",
+            "word_normalized": "مقصورات",
+            "meaning": "مَسْتُورَاتٌ مَصُونَاتٌ.",
+            "meaning_normalized": "مستورات مصونات"
+          },
+          {
+            "ayah_number": 74,
+            "word": "يَطْمِثْهُنَّ",
+            "word_normalized": "يطمثهن",
+            "meaning": "يَطَأْهُنَّ.",
+            "meaning_normalized": "يطأهن"
+          },
+          {
+            "ayah_number": 76,
+            "word": "رَفْرَفٍ خُضْرٍ",
+            "word_normalized": "رفرف خضر",
+            "meaning": "وَسَائِدَ ذَوَاتِ أَغْطِيَةٍ خُضْرٍ.",
+            "meaning_normalized": "وسائد ذوات أغطية خضر"
+          },
+          {
+            "ayah_number": 76,
+            "word": "وَعَبْقَرِيٍّ",
+            "word_normalized": "وعبقري",
+            "meaning": "فُرُشٍ، وَبُسُطٍ.",
+            "meaning_normalized": "فرش وبسط"
+          },
+          {
+            "ayah_number": 78,
+            "word": "تَبَارَكَ",
+            "word_normalized": "تبارك",
+            "meaning": "كَثُرَتْ بَرَكَتُهُ، وَخَيْرُهُ.",
+            "meaning_normalized": "كثرت بركته وخيره"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْوَاقِعَةِ",
+          "name_normalized": "سورة الواقعة",
+          "order": 56,
+          "ayat_count": 96,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "الْوَاقِعَةُ",
+            "word_normalized": "الواقعة",
+            "meaning": "الْقِيَامَةُ.",
+            "meaning_normalized": "القيامة"
+          },
+          {
+            "ayah_number": 2,
+            "word": "لَيْسَ لِوَقْعَتِهَا",
+            "word_normalized": "ليس لوقعتها",
+            "meaning": "لَيْسَ لِوُقُوعِهَا، وَقِيَامِهَا.",
+            "meaning_normalized": "ليس لوقوعها وقيامها"
+          },
+          {
+            "ayah_number": 2,
+            "word": "كَاذِبَةٌ",
+            "word_normalized": "كاذبة",
+            "meaning": "نَفْسٌ تُكَذِّبُ بِذَلِكَ.",
+            "meaning_normalized": "نفس تكذب بذلك"
+          },
+          {
+            "ayah_number": 3,
+            "word": "خَافِضَةٌ رَافِعَةٌ",
+            "word_normalized": "خافضة رافعة",
+            "meaning": "تَخْفِضُ الْكُفَّارَ فِي النَّارِ، وَتَرْفَعُ الْمُؤْمِنِينَ فِي الْجَنَّةِ.",
+            "meaning_normalized": "تخفض الكفار في النار وترفع المؤمنين في الجنة"
+          },
+          {
+            "ayah_number": 4,
+            "word": "رُجَّتِ",
+            "word_normalized": "رجت",
+            "meaning": "حُرِّكَتْ.",
+            "meaning_normalized": "حركت"
+          },
+          {
+            "ayah_number": 4,
+            "word": "رَجًّا",
+            "word_normalized": "رجا",
+            "meaning": "تَحْرِيكًا شَدِيدًا.",
+            "meaning_normalized": "تحريكا شديدا"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَبُسَّتِ",
+            "word_normalized": "وبست",
+            "meaning": "فُتِّتَتْ.",
+            "meaning_normalized": "فتتت"
+          },
+          {
+            "ayah_number": 6,
+            "word": "هَبَاءً مُنْبَثًّا",
+            "word_normalized": "هباء منبثا",
+            "meaning": "غُبَارًا مُتَطَايِرًا فِي الْجَوِّ.",
+            "meaning_normalized": "غبارا متطايرا في الجو"
+          },
+          {
+            "ayah_number": 7,
+            "word": "أَزْوَاجًا",
+            "word_normalized": "أزواجا",
+            "meaning": "أَصْنَافًا.",
+            "meaning_normalized": "أصنافا"
+          },
+          {
+            "ayah_number": 9,
+            "word": "الْمَشْأَمَةِ",
+            "word_normalized": "المشأمة",
+            "meaning": "الشِّمَالِ.",
+            "meaning_normalized": "الشمال"
+          },
+          {
+            "ayah_number": 10,
+            "word": "وَالسَّابِقُونَ",
+            "word_normalized": "والسابقون",
+            "meaning": "الَّذِينَ يَسْبِقُونَ إِلَى الْخَيْرَاتِ، وَيُسَارِعُونَ لِلطَّاعَاتِ.",
+            "meaning_normalized": "الذين يسبقون إلى الخيرات ويسارعون للطاعات"
+          }
+        ]
+      }
+    ]
+  }
+}

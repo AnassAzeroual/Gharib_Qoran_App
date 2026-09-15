@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 280,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الصَّفِّ",
+          "name_normalized": "سورة الصف",
+          "order": 61,
+          "ayat_count": 14,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "word": "صَفًّا",
+            "word_normalized": "صفا",
+            "meaning": "صَافِّينَ صَفًّا.",
+            "meaning_normalized": "صافين صفا"
+          },
+          {
+            "ayah_number": 4,
+            "word": "مَرْصُوصٌ",
+            "word_normalized": "مرصوص",
+            "meaning": "مُتَرَاصٌّ مُحْكَمٌ لَا فُرْجَةَ فِيهِ، وَلَا يَنْفُذُ فِيهِ الْعَدُوُّ.",
+            "meaning_normalized": "متراص محكم لا فرجة فيه ولا ينفذ فيه العدو"
+          },
+          {
+            "ayah_number": 5,
+            "word": "زَاغُوا",
+            "word_normalized": "زاغوا",
+            "meaning": "عَدَلُوا عَنِ الْحَقِّ، مَعَ عِلْمِهِمْ بِهِ.",
+            "meaning_normalized": "عدلوا عن الحق مع علمهم به"
+          },
+          {
+            "ayah_number": 5,
+            "word": "أَزَاغَ اللهُ قُلُوبَهُمْ",
+            "word_normalized": "أزاغ الله قلوبهم",
+            "meaning": "صَرَفَهَا عَنْ قَبُولِ الْحَقِّ؛ جَزَاءً عَلَى زَيْغِهِمْ.",
+            "meaning_normalized": "صرفها عن قبول الحق جزاء على زيغهم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "لِمَا بَيْنَ يَدَيَّ",
+            "word_normalized": "لما بين يدي",
+            "meaning": "لِمَا جَاءَ قَبْلِي.",
+            "meaning_normalized": "لما جاء قبلي"
+          },
+          {
+            "ayah_number": 6,
+            "word": "بِالْبَيِّنَاتِ",
+            "word_normalized": "بالبينات",
+            "meaning": "بِالْآيَاتِ الْوَاضِحَاتِ.",
+            "meaning_normalized": "بالآيات الواضحات"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وَمَنْ أَظْلَمُ",
+            "word_normalized": "ومن أظلم",
+            "meaning": "لَا أَحَدَ أَشَدُّ ظُلْمًا، وَعُدْوَانًا.",
+            "meaning_normalized": "لا أحد أشد ظلما وعدوانا"
+          },
+          {
+            "ayah_number": 7,
+            "word": "افْتَرَى",
+            "word_normalized": "افترى",
+            "meaning": "اخْتَلَقَ.",
+            "meaning_normalized": "اختلق"
+          },
+          {
+            "ayah_number": 7,
+            "word": "يُدْعَى إِلَى الْإِسْلَامِ",
+            "word_normalized": "يدعى إلى الإسلام",
+            "meaning": "يُدْعَى إِلَى الدُّخُولِ فِي الْإِسْلَامِ.",
+            "meaning_normalized": "يدعى إلى الدخول في الإسلام"
+          },
+          {
+            "ayah_number": 8,
+            "word": "نُورَ اللهِ",
+            "word_normalized": "نور الله",
+            "meaning": "الْحَقَّ الَّذِي جَاءَ بِهِ الرَّسُولُ ﷺ.",
+            "meaning_normalized": "الحق الذي جاء به الرسول"
+          },
+          {
+            "ayah_number": 8,
+            "word": "بِأَفْوَاهِهِمْ",
+            "word_normalized": "بأفواههم",
+            "meaning": "بِأَقْوَالِهِمُ الْكَاذِبَةِ.",
+            "meaning_normalized": "بأقوالهم الكاذبة"
+          },
+          {
+            "ayah_number": 8,
+            "word": "مُتِمُّ نُورِهِ",
+            "word_normalized": "متم نوره",
+            "meaning": "مُظْهِرٌ الْحَقَّ بِإِتْمَامِ دِينِهِ.",
+            "meaning_normalized": "مظهر الحق بإتمام دينه"
+          },
+          {
+            "ayah_number": 9,
+            "word": "لِيُظْهِرَهُ",
+            "word_normalized": "ليظهره",
+            "meaning": "لِيُعْلِيَهُ.",
+            "meaning_normalized": "ليعليه"
+          },
+          {
+            "ayah_number": 9,
+            "word": "الدِّينِ كُلِّهِ",
+            "word_normalized": "الدين كله",
+            "meaning": "الْأَدْيَانِ الْمُخَالِفَةِ كُلِّهَا.",
+            "meaning_normalized": "الأديان المخالفة كلها"
+          },
+          {
+            "ayah_number": 13,
+            "word": "وَأُخْرَى",
+            "word_normalized": "وأخرى",
+            "meaning": "وَنِعْمَةٌ أُخْرَى لَكُمْ.",
+            "meaning_normalized": "ونعمة أخرى لكم"
+          },
+          {
+            "ayah_number": 14,
+            "word": "لِلْحَوَارِيِّينَ",
+            "word_normalized": "للحواريين",
+            "meaning": "أَصْفِيَاءِ عِيسَى عَلَيْهِ السَّلَامُ، وَخَوَاصِّهِ.",
+            "meaning_normalized": "أصفياء عيسى عليه السلام وخواصه"
+          },
+          {
+            "ayah_number": 14,
+            "word": "فَأَيَّدْنَا",
+            "word_normalized": "فأيدنا",
+            "meaning": "قَوَّيْنَا، وَنَصَرْنَا.",
+            "meaning_normalized": "قوينا ونصرنا"
+          },
+          {
+            "ayah_number": 14,
+            "word": "ظَاهِرِينَ",
+            "word_normalized": "ظاهرين",
+            "meaning": "غَالِبِينَ.",
+            "meaning_normalized": "غالبين"
+          }
+        ]
+      }
+    ]
+  }
+}

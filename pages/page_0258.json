@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 258,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَمَرِ",
+          "name_normalized": "سورة القمر",
+          "order": 54,
+          "ayat_count": 55,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "word": "مُسْتَمِرٌّ",
+            "word_normalized": "مستمر",
+            "meaning": "بَاطِلٌ مُضْمَحِلٌّ، أَوْ قَوِيٌّ دَائِمٌ.",
+            "meaning_normalized": "باطل مضمحل أو قوي دائم"
+          },
+          {
+            "ayah_number": 3,
+            "word": "مُسْتَقِرٌّ",
+            "word_normalized": "مستقر",
+            "meaning": "مُنْتَهٍ إِلَى غَايَةٍ يَسْتَقِرُّ عَلَيْهَا.",
+            "meaning_normalized": "منته إلى غاية يستقر عليها"
+          },
+          {
+            "ayah_number": 4,
+            "word": "مُزْدَجَرٌ",
+            "word_normalized": "مزدجر",
+            "meaning": "كِفَايَةٌ لِرَدْعِهِمْ عَنْ كُفْرِهِمْ.",
+            "meaning_normalized": "كفاية لردعهم عن كفرهم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "شَيْءٍ نُكُرٍ",
+            "word_normalized": "شيء نكر",
+            "meaning": "أَمْرٍ فَظِيعٍ مُنْكَرٍ؛ وَهُوَ مَوْقِفُ الْحِسَابِ.",
+            "meaning_normalized": "أمر فظيع منكر وهو موقف الحساب"
+          },
+          {
+            "ayah_number": 7,
+            "word": "خُشَّعًا",
+            "word_normalized": "خشعا",
+            "meaning": "ذَلِيلَةً مِنْ شِدَّةِ الْهَوْلِ.",
+            "meaning_normalized": "ذليلة من شدة الهول"
+          },
+          {
+            "ayah_number": 7,
+            "word": "الْأَجْدَاثِ",
+            "word_normalized": "الأجداث",
+            "meaning": "الْقُبُورِ.",
+            "meaning_normalized": "القبور"
+          },
+          {
+            "ayah_number": 8,
+            "word": "مُهْطِعِينَ",
+            "word_normalized": "مهطعين",
+            "meaning": "مُسْرِعِينَ.",
+            "meaning_normalized": "مسرعين"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَازْدُجِرَ",
+            "word_normalized": "وازدجر",
+            "meaning": "زُجِرَ، وَنُهِرَ عَنْ تَبْلِيغِ الدَّعْوَةِ.",
+            "meaning_normalized": "زجر ونهر عن تبليغ الدعوة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "مَغْلُوبٌ",
+            "word_normalized": "مغلوب",
+            "meaning": "ضَعِيفٌ عَنْ مُقَاوَمَتِهِمْ.",
+            "meaning_normalized": "ضعيف عن مقاومتهم"
+          },
+          {
+            "ayah_number": 11,
+            "word": "مُنْهَمِرٍ",
+            "word_normalized": "منهمر",
+            "meaning": "مُتَدَفِّقٍ.",
+            "meaning_normalized": "متدفق"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَفَجَّرْنَا",
+            "word_normalized": "وفجرنا",
+            "meaning": "شَقَقْنَا.",
+            "meaning_normalized": "شققنا"
+          },
+          {
+            "ayah_number": 12,
+            "word": "فَالْتَقَى الْمَاءُ",
+            "word_normalized": "فالتقى الماء",
+            "meaning": "أَيِ: الْتَقَى مَاءُ السَّمَاءِ وَالْمَاءُ الْمُتَفَجِّرُ مِنَ الْأَرْضِ.",
+            "meaning_normalized": "أي التقى ماء السماء والماء المتفجر من الأرض"
+          },
+          {
+            "ayah_number": 12,
+            "word": "قُدِرَ",
+            "word_normalized": "قدر",
+            "meaning": "قَدَّرَهُ اللهُ فِي الْأَزَلِ؛ وَهُوَ إِهْلَاكُهُمْ بِالطُّوفَانِ.",
+            "meaning_normalized": "قدره الله في الأزل وهو إهلاكهم بالطوفان"
+          },
+          {
+            "ayah_number": 13,
+            "word": "عَلَى ذَاتِ أَلْوَاحٍ وَدُسُرٍ",
+            "word_normalized": "على ذات ألواح ودسر",
+            "meaning": "سَفِينَةٍ ذَاتِ أَلْوَاحٍ، وَمَسَامِيرَ شُدَّتْ بِهَا.",
+            "meaning_normalized": "سفينة ذات ألواح ومسامير شدت بها"
+          },
+          {
+            "ayah_number": 14,
+            "word": "بِأَعْيُنِنَا",
+            "word_normalized": "بأعيننا",
+            "meaning": "بِمَرْأًى مِنَّا، وَحِفْظٍ، وَفِيهَا: إِثْبَاتُ صِفَةِ الْعَيْنَيْنِ لِلهِ تَعَالَى؛ كَمَا يَلِيقُ بِجَلَالِهِ.",
+            "meaning_normalized": "بمرأى منا وحفظ وفيها إثبات صفة العينين لله تعالى كما يليق بجلاله"
+          },
+          {
+            "ayah_number": 14,
+            "word": "جَزَاءً",
+            "word_normalized": "جزاء",
+            "meaning": "أَغْرَقُوا انْتِصَارًا مِنَّا لِنُوحٍ عَلَيْهِ السَّلَامُ، وَعُقُوبَةً لَهُمْ عَلَى كُفْرِهِمْ.",
+            "meaning_normalized": "أغرقوا انتصارا منا لنوح عليه السلام وعقوبة لهم على كفرهم"
+          },
+          {
+            "ayah_number": 14,
+            "word": "لِمَنْ كَانَ كُفِرَ",
+            "word_normalized": "لمن كان كفر",
+            "meaning": "هُوَ: نُوحٌ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "هو نوح عليه السلام"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 262,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرَّحْمَٰنِ",
+          "name_normalized": "سورة الرحمن",
+          "order": 55,
+          "ayat_count": 78,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 6,
+            "word": "وَالنَّجْمُ",
+            "word_normalized": "والنجم",
+            "meaning": "الْكَوْكَبُ فِي السَّمَاءِ.",
+            "meaning_normalized": "الكوكب في السماء"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وَوَضَعَ الْمِيزَانَ",
+            "word_normalized": "ووضع الميزان",
+            "meaning": "وَضَعَ فِي الْأَرْضِ الْعَدْلَ.",
+            "meaning_normalized": "وضع في الأرض العدل"
+          },
+          {
+            "ayah_number": 8,
+            "word": "أَلَّا تَطْغَوْا",
+            "word_normalized": "ألا تطغوا",
+            "meaning": "لِئَلَّا تَعْتَدُوا، وَتَخُونُوا.",
+            "meaning_normalized": "لئلا تعتدوا وتخونوا"
+          },
+          {
+            "ayah_number": 9,
+            "word": "بِالْقِسْطِ",
+            "word_normalized": "بالقسط",
+            "meaning": "بِالْعَدْلِ.",
+            "meaning_normalized": "بالعدل"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَلَا تُخْسِرُوا",
+            "word_normalized": "ولا تخسروا",
+            "meaning": "وَلَا تَنْقُصُوا.",
+            "meaning_normalized": "ولا تنقصوا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "وَضَعَهَا لِلْأَنَامِ",
+            "word_normalized": "وضعها للأنام",
+            "meaning": "مَهَّدَهَا؛ لِيَسْتَقِرَّ عَلَيْهَا الْخَلْقُ.",
+            "meaning_normalized": "مهدها ليستقر عليها الخلق"
+          },
+          {
+            "ayah_number": 11,
+            "word": "الْأَكْمَامِ",
+            "word_normalized": "الأكمام",
+            "meaning": "الْأَوْعِيَةِ الَّتِي يَكُونُ مِنْهَا التَّمْرُ.",
+            "meaning_normalized": "الأوعية التي يكون منها التمر"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَالْحَبُّ ذُو الْعَصْفِ",
+            "word_normalized": "والحب ذو العصف",
+            "meaning": "وَفِيهَا الْحَبُّ ذُو الْقِشْرِ وَالتِّبْنِ؛ رِزْقًا لَكُمْ وَلِأَنْعَامِكُمْ.",
+            "meaning_normalized": "وفيها الحب ذو القشر والتبن رزقا لكم ولأنعامكم"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَالرَّيْحَانُ",
+            "word_normalized": "والريحان",
+            "meaning": "كُلُّ نَبْتٍ طَيِّبِ الرَّائِحَةِ.",
+            "meaning_normalized": "كل نبت طيب الرائحة"
+          },
+          {
+            "ayah_number": 14,
+            "word": "الْإِنْسَانَ",
+            "word_normalized": "الإنسان",
+            "meaning": "آدَمَ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "آدم عليه السلام"
+          },
+          {
+            "ayah_number": 14,
+            "word": "صَلْصَالٍ",
+            "word_normalized": "صلصال",
+            "meaning": "طِينٍ يَابِسٍ يُسْمَعُ لَهُ صَلْصَلَةٌ.",
+            "meaning_normalized": "طين يابس يسمع له صلصلة"
+          },
+          {
+            "ayah_number": 14,
+            "word": "كَالْفَخَّارِ",
+            "word_normalized": "كالفخار",
+            "meaning": "هُوَ الطِّينُ الَّذِي يُطْبَخُ لِيَتَحَجَّرَ.",
+            "meaning_normalized": "هو الطين الذي يطبخ ليتحجر"
+          },
+          {
+            "ayah_number": 15,
+            "word": "الْجَانَّ",
+            "word_normalized": "الجان",
+            "meaning": "إِبْلِيسَ.",
+            "meaning_normalized": "إبليس"
+          },
+          {
+            "ayah_number": 15,
+            "word": "مَارِجٍ مِنْ نَارٍ",
+            "word_normalized": "مارج من نار",
+            "meaning": "لَهَبِ النَّارِ الْمُخْتَلِطِ بَعْضُهُ بِبَعْضٍ.",
+            "meaning_normalized": "لهب النار المختلط بعضه ببعض"
+          },
+          {
+            "ayah_number": 16,
+            "word": "آلَاءِ رَبِّكُمَا",
+            "word_normalized": "آلاء ربكما",
+            "meaning": "نِعَمِ رَبِّكُمَا.",
+            "meaning_normalized": "نعم ربكما"
+          },
+          {
+            "ayah_number": 16,
+            "word": "تُكَذِّبَانِ",
+            "word_normalized": "تكذبان",
+            "meaning": "يَا مَعْشَرَ الْإِنْسِ وَالْجِنِّ.",
+            "meaning_normalized": "يا معشر الإنس والجن"
+          },
+          {
+            "ayah_number": 17,
+            "word": "الْمَشْرِقَيْنِ",
+            "word_normalized": "المشرقين",
+            "meaning": "مَشْرِقِ الشَّمْسِ؛ فِي الشِّتَاءِ، وَالصَّيْفِ.",
+            "meaning_normalized": "مشرق الشمس في الشتاء والصيف"
+          },
+          {
+            "ayah_number": 17,
+            "word": "الْمَغْرِبَيْنِ",
+            "word_normalized": "المغربين",
+            "meaning": "مَغْرِبِ الشَّمْسِ؛ فِي الشِّتَاءِ، وَالصَّيْفِ.",
+            "meaning_normalized": "مغرب الشمس في الشتاء والصيف"
+          },
+          {
+            "ayah_number": 19,
+            "word": "مَرَجَ الْبَحْرَيْنِ",
+            "word_normalized": "مرج البحرين",
+            "meaning": "خَلَطَ مَاءَ الْبَحْرَيْنِ: الْعَذْبَ، وَالْمَالِحَ.",
+            "meaning_normalized": "خلط ماء البحرين العذب والمالح"
+          },
+          {
+            "ayah_number": 20,
+            "word": "بَرْزَخٌ",
+            "word_normalized": "برزخ",
+            "meaning": "حَاجِزٌ.",
+            "meaning_normalized": "حاجز"
+          }
+        ]
+      }
+    ]
+  }
+}

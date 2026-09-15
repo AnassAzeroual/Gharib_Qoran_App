@@ -2,10 +2,10 @@
   "page": {
     "page_number": 29,
     "header": {
-      "right": "سُورَةُ النِّسَاءِ",
-      "right_normalized": "سورة النساء",
-      "left": "٢٩",
-      "left_normalized": "29"
+      "right": "٢٩",
+      "right_normalized": "29",
+      "left": "سُورَةُ النِّسَاءِ",
+      "left_normalized": "سورة النساء"
     },
     "sections": [
       {
@@ -25,150 +25,150 @@
         "glossary": [
           {
             "ayah_number": 72,
-            "word": "فَتَيَبَّطَا",
-            "word_normalized": "فتيبطا",
-            "meaning": "حَاضِرًا",
+            "word": "شَهِيدًا",
+            "word_normalized": "شهيدا",
+            "meaning": "حَاضِرًا.",
             "meaning_normalized": "حاضرا"
           },
           {
-            "ayah_number": 73,
-            "word": "يَشُرُّونَ",
+            "ayah_number": 74,
+            "word": "يَشْرُونَ",
             "word_normalized": "يشرون",
-            "meaning": "يَيعُونَ",
-            "meaning_normalized": "ييعون"
+            "meaning": "يَبِيعُونَ.",
+            "meaning_normalized": "يبيعون"
           },
           {
             "ayah_number": 76,
-            "word": "الطَّاغُوتِ",
+            "word": "الطَّٰغُوتِ",
             "word_normalized": "الطاغوت",
-            "meaning": "النَّبِيَّ وَالفَسَادِ",
-            "meaning_normalized": "النبي والفساد"
+            "meaning": "الْبَغْيَ وَالْفَسَادَ.",
+            "meaning_normalized": "البغي والفساد"
           },
           {
             "ayah_number": 77,
-            "word": "قَتَيلًا",
-            "word_normalized": "قتيلا",
-            "meaning": "الخَيطُ الَّذِي يَكُونُ فِي شَقِّ نَوَاةِ التَّمرِ",
+            "word": "فَتِيلًا",
+            "word_normalized": "فتيلا",
+            "meaning": "الْخَيْطُ الَّذِي يَكُونُ فِي شَقِّ نَوَاةِ التَّمْرِ.",
             "meaning_normalized": "الخيط الذي يكون في شق نواة التمر"
           },
           {
             "ayah_number": 78,
-            "word": "أَيُكَ مُسَتَيَّرَةً",
-            "word_normalized": "أيك مستيرة",
-            "meaning": "حُصُونٍ مَنِيعَةٍ",
+            "word": "بُرُوجٍ مُّشَيَّدَةٍ",
+            "word_normalized": "بروج مشيدة",
+            "meaning": "حُصُونٍ مَنِيعَةٍ.",
             "meaning_normalized": "حصون منيعة"
           },
           {
-            "ayah_number": 79,
+            "ayah_number": 80,
             "word": "حَفِيظًا",
             "word_normalized": "حفيظا",
-            "meaning": "حَافِظًا، رَقِيبًا",
+            "meaning": "حَافِظًا، رَقِيبًا.",
             "meaning_normalized": "حافظا رقيبا"
           },
           {
             "ayah_number": 81,
-            "word": "بَيَتَ طَائِفَةٌ",
+            "word": "بَيَّتَ طَائِفَةٌ",
             "word_normalized": "بيت طائفة",
-            "meaning": "دَبَّرَت بِلَيلٍ",
+            "meaning": "دَبَّرَتْ بِلَيْلٍ.",
             "meaning_normalized": "دبرت بليل"
           },
           {
             "ayah_number": 83,
-            "word": "وَأَذَاعُوا بِهِ",
-            "word_normalized": "وأذاعوا به",
-            "meaning": "أَفشَوهُ",
+            "word": "أَذَاعُوا بِهِ",
+            "word_normalized": "أذاعوا به",
+            "meaning": "أَفْشَوْهُ.",
             "meaning_normalized": "أفشوه"
           },
           {
-            "ayah_number": 83,
-            "word": "وَتَكِيلًا",
-            "word_normalized": "وتكيلا",
-            "meaning": "مَغفُورَةً",
-            "meaning_normalized": "مغفورة"
+            "ayah_number": 84,
+            "word": "تَنكِيلًا",
+            "word_normalized": "تنكيلا",
+            "meaning": "عُقُوبَةً.",
+            "meaning_normalized": "عقوبة"
           },
           {
             "ayah_number": 85,
-            "word": "كِفلٌ",
+            "word": "كِفْلٌ",
             "word_normalized": "كفل",
-            "meaning": "نَصِيبٌ مِن وِزرِهَا",
+            "meaning": "نَصِيبٌ مِّنْ وِزْرِهَا.",
             "meaning_normalized": "نصيب من وزرها"
           },
           {
             "ayah_number": 85,
-            "word": "قَّمُقِيتًا",
-            "word_normalized": "قمقيتا",
-            "meaning": "شَاهِدًا، وَحَفِيظًا",
+            "word": "مُّقِيتًا",
+            "word_normalized": "مقيتا",
+            "meaning": "شَاهِدًا، وَحَفِيظًا.",
             "meaning_normalized": "شاهدا وحفيظا"
           },
           {
             "ayah_number": 86,
             "word": "حَسِيبًا",
             "word_normalized": "حسيبا",
-            "meaning": "مُجَازِيًا، وَمُحَاسِبًا",
+            "meaning": "مُجَازِيًا، وَمُحَاسِبًا.",
             "meaning_normalized": "مجازيا ومحاسبا"
           },
           {
             "ayah_number": 88,
-            "word": "أَركَستُمْ",
-            "word_normalized": "أركستم",
-            "meaning": "أَوقَعَهُمْ، وَرَدَّهُمْ",
+            "word": "أَرْكَسَهُم",
+            "word_normalized": "أركسهم",
+            "meaning": "أَوْقَعَهُمْ، وَرَدَّهُمْ.",
             "meaning_normalized": "أوقعهم وردهم"
           },
           {
             "ayah_number": 90,
-            "word": "حَصِرَت صُدُورُهُمْ",
+            "word": "حَصِرَتْ صُدُورُهُمْ",
             "word_normalized": "حصرت صدورهم",
-            "meaning": "ضَاقَت وَكَرِهَت مُقَاتَلَتُكُمْ",
+            "meaning": "ضَاقَتْ وَكَرِهَتْ مُقَاتَلَتَكُمْ.",
             "meaning_normalized": "ضاقت وكرهت مقاتلتكم"
           },
           {
             "ayah_number": 90,
-            "word": "السِّلْمَ",
+            "word": "السَّلَمَ",
             "word_normalized": "السلم",
-            "meaning": "الِاستِسلَامَ، وَالِانقِيَادَ",
+            "meaning": "الِاسْتِسْلَامَ، وَالِانْقِيَادَ.",
             "meaning_normalized": "الاستسلام والانقياد"
           },
           {
             "ayah_number": 91,
-            "word": "أَركَسُوا دِينًا",
-            "word_normalized": "أركسوا دينا",
-            "meaning": "وَقَعُوا فِي أَسوَأَ حَالٍ",
+            "word": "أُرْكِسُوا فِيهَا",
+            "word_normalized": "أركسوا فيها",
+            "meaning": "وَقَعُوا فِي أَسْوَأِ حَالٍ.",
             "meaning_normalized": "وقعوا في أسوأ حال"
           },
           {
             "ayah_number": 91,
-            "word": "يَقَتُّنُوهُمْ",
-            "word_normalized": "يقتنوهم",
-            "meaning": "وَجُلدُنُوهُمْ",
-            "meaning_normalized": "وجلدنوهم"
+            "word": "ثَقِفْتُمُوهُمْ",
+            "word_normalized": "ثقفتموهم",
+            "meaning": "وَجَدْتُمُوهُمْ.",
+            "meaning_normalized": "وجدتموهم"
           },
           {
             "ayah_number": 94,
-            "word": "حَزمَعُمْ",
-            "word_normalized": "حزمعم",
-            "meaning": "حَرَّجتُمْ فِي الأَرضِ",
-            "meaning_normalized": "حرجتم في الأرض"
+            "word": "ضَرَبْتُمْ",
+            "word_normalized": "ضربتم",
+            "meaning": "خَرَجْتُمْ فِي الْأَرْضِ.",
+            "meaning_normalized": "خرجتم في الأرض"
           },
           {
             "ayah_number": 94,
-            "word": "حَرَّجَ الَعُبُود",
-            "word_normalized": "حرج العبود",
-            "meaning": "مَتَاعُهَا الزَّائِلُ، وَالمَقصُودُ: الغَنِيمَةُ",
+            "word": "عَرَضَ الْحَيَوٰةِ",
+            "word_normalized": "عرض الحيوة",
+            "meaning": "مَتَاعَهَا الزَّائِلَ، وَالْمَقْصُودُ: الْغَنِيمَةُ.",
             "meaning_normalized": "متاعها الزائل والمقصود الغنيمة"
           },
           {
-            "ayah_number": 95,
-            "word": "وَمَرئِكَا",
-            "word_normalized": "ومرئكا",
-            "meaning": "مُهَاجِرًا، وَمَكَانًا يَتَحَوَّلُ إِلَيهِ",
+            "ayah_number": 100,
+            "word": "مُرَٰغَمًا",
+            "word_normalized": "مراغما",
+            "meaning": "مُهَاجَرًا، وَمَكَانًا يَتَحَوَّلُ إِلَيْهِ.",
             "meaning_normalized": "مهاجرا ومكانا يتحول إليه"
           },
           {
-            "ayah_number": 96,
-            "word": "فَيُوَبِّكُمْ",
-            "word_normalized": "فيوبكم",
-            "meaning": "يَتَقَدَّمُ عَلَيكُمْ",
-            "meaning_normalized": "يتقدم عليكم"
+            "ayah_number": 101,
+            "word": "يَفْتِنَكُمُ",
+            "word_normalized": "يفتنكم",
+            "meaning": "يَعْتَدِيَ عَلَيْكُمْ.",
+            "meaning_normalized": "يعتدي عليكم"
           }
         ]
       }

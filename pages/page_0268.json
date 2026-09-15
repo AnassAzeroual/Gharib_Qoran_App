@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 268,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْوَاقِعَةِ",
+          "name_normalized": "سورة الواقعة",
+          "order": 56,
+          "ayat_count": 96,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 55,
+            "word": "شُرْبَ الْهِيمِ",
+            "word_normalized": "شرب الهيم",
+            "meaning": "كَشُرْبِ الْإِبِلِ الْعِطَاشِ الَّتِي لَا تَرْوَى لِدَاءٍ يُصِيبُهَا.",
+            "meaning_normalized": "كشرب الإبل العطاش التي لا تروى لداء يصيبها"
+          },
+          {
+            "ayah_number": 56,
+            "word": "نُزُلُهُمْ",
+            "word_normalized": "نزلهم",
+            "meaning": "مَا أُعِدَّ لَهُمْ مِنَ الْجَزَاءِ.",
+            "meaning_normalized": "ما أعد لهم من الجزاء"
+          },
+          {
+            "ayah_number": 56,
+            "word": "يَوْمَ الدِّينِ",
+            "word_normalized": "يوم الدين",
+            "meaning": "يَوْمَ الْجَزَاءِ، وَالْحِسَابِ.",
+            "meaning_normalized": "يوم الجزاء والحساب"
+          },
+          {
+            "ayah_number": 57,
+            "word": "فَلَوْلَا تُصَدِّقُونَ",
+            "word_normalized": "فلولا تصدقون",
+            "meaning": "هَلَّا تُصَدِّقُونَ بِالْبَعْثِ؟!",
+            "meaning_normalized": "هلا تصدقون بالبعث"
+          },
+          {
+            "ayah_number": 58,
+            "word": "مَا تُمْنُونَ",
+            "word_normalized": "ما تمنون",
+            "meaning": "النُّطَفَ الَّتِي تَقْذِفُونَهَا فِي أَرْحَامِ نِسَائِكُمْ.",
+            "meaning_normalized": "النطف التي تقذفونها في أرحام نسائكم"
+          },
+          {
+            "ayah_number": 60,
+            "word": "بِمَسْبُوقِينَ",
+            "word_normalized": "بمسبوقين",
+            "meaning": "بِعَاجِزِينَ.",
+            "meaning_normalized": "بعاجزين"
+          },
+          {
+            "ayah_number": 65,
+            "word": "حُطَامًا",
+            "word_normalized": "حطاما",
+            "meaning": "هَشِيمًا؛ لَا يُنْتَفَعُ بِهِ فِي مَطْعَمٍ.",
+            "meaning_normalized": "هشيما لا ينتفع به في مطعم"
+          },
+          {
+            "ayah_number": 65,
+            "word": "فَظَلْتُمْ",
+            "word_normalized": "فظلتم",
+            "meaning": "أَصْبَحْتُمْ.",
+            "meaning_normalized": "أصبحتم"
+          },
+          {
+            "ayah_number": 65,
+            "word": "تَفَكَّهُونَ",
+            "word_normalized": "تفكهون",
+            "meaning": "تَتَعَجَّبُونَ مِمَّا نَزَلَ بِزَرْعِكُمْ.",
+            "meaning_normalized": "تتعجبون مما نزل بزرعكم"
+          },
+          {
+            "ayah_number": 66,
+            "word": "إِنَّا لَمُغْرَمُونَ",
+            "word_normalized": "إنا لمغرمون",
+            "meaning": "تَقُولُونَ: إِنَّا لَخَاسِرُونَ مُعَذَّبُونَ.",
+            "meaning_normalized": "تقولون إنا لخاسرون معذبون"
+          },
+          {
+            "ayah_number": 69,
+            "word": "الْمُزْنِ",
+            "word_normalized": "المزن",
+            "meaning": "السَّحَابِ.",
+            "meaning_normalized": "السحاب"
+          },
+          {
+            "ayah_number": 70,
+            "word": "أُجَاجًا",
+            "word_normalized": "أجاجا",
+            "meaning": "شَدِيدَ الْمُلُوحَةِ؛ لَا يُنْتَفَعُ بِهِ فِي شُرْبٍ، وَلَا زَرْعٍ.",
+            "meaning_normalized": "شديد الملوحة لا ينتفع به في شرب ولا زرع"
+          },
+          {
+            "ayah_number": 71,
+            "word": "تُورُونَ",
+            "word_normalized": "تورون",
+            "meaning": "تُوقِدُونَ، وَتَقْدَحُونَ الزِّنَادَ لِاسْتِخْرَاجِهَا.",
+            "meaning_normalized": "توقدون وتقدحون الزناد لاستخراجها"
+          },
+          {
+            "ayah_number": 72,
+            "word": "أَنْشَأْتُمْ",
+            "word_normalized": "أنشأتم",
+            "meaning": "أَوْجَدْتُمْ.",
+            "meaning_normalized": "أوجدتم"
+          },
+          {
+            "ayah_number": 72,
+            "word": "شَجَرَتَهَا",
+            "word_normalized": "شجرتها",
+            "meaning": "الشَّجَرَةَ الَّتِي تُقْدَحُ مِنْهَا النَّارُ؛ كَالْمَرْخِ وَالْعَفَارِ.",
+            "meaning_normalized": "الشجرة التي تقدح منها النار كالمرخ والعفار"
+          },
+          {
+            "ayah_number": 73,
+            "word": "تَذْكِرَةً",
+            "word_normalized": "تذكرة",
+            "meaning": "تَذْكِيرًا لَكُمْ بِنَارِ جَهَنَّمَ.",
+            "meaning_normalized": "تذكيرا لكم بنار جهنم"
+          },
+          {
+            "ayah_number": 73,
+            "word": "وَمَتَاعًا لِلْمُقْوِينَ",
+            "word_normalized": "ومتاعا للمقوين",
+            "meaning": "مَنْفَعَةً لِلْمُسَافِرِينَ.",
+            "meaning_normalized": "منفعة للمسافرين"
+          }
+        ]
+      }
+    ]
+  }
+}
