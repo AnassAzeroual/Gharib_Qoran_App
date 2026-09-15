@@ -20,155 +20,155 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
             "ayah_number": 70,
-            "word": "أُبسِلُوا",
+            "word": "أُبْسِلُوا",
             "word_normalized": "أبسلوا",
-            "meaning": "اِرتَهَنُوا بِذُنُوبِهِمْ",
+            "meaning": "ارْتَهَنُوا بِذُنُوبِهِمْ.",
             "meaning_normalized": "ارتهنوا بذنوبهم"
           },
           {
             "ayah_number": 70,
-            "word": "حَمِيمٌ",
+            "word": "حَمِيمٍ",
             "word_normalized": "حميم",
-            "meaning": "مَاءٌ بَالِغُ الحَرَارَةِ",
+            "meaning": "مَاءٍ بَالِغِ الْحَرَارَةِ.",
             "meaning_normalized": "ماء بالغ الحرارة"
           },
           {
             "ayah_number": 71,
-            "word": "وَاستَهوَتهُ",
-            "word_normalized": "واستهوته",
-            "meaning": "هَوَّت بِهِ؛ فَأَضَلَّتهُ",
+            "word": "اسْتَهْوَتْهُ",
+            "word_normalized": "استهوته",
+            "meaning": "هَوَتْ بِهِ؛ فَأَضَلَّتْهُ.",
             "meaning_normalized": "هوت به فأضلته"
           },
           {
             "ayah_number": 73,
-            "word": "الصُّورِ",
+            "word": "الصُّورِ",
             "word_normalized": "الصور",
-            "meaning": "القَرنُ الَّذِي يُنفَخُ فِيهِ إِسرَافِيلُ ﷺ",
-            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل ﷺ"
+            "meaning": "الْقَرْنِ الَّذِي يَنْفُخُ فِيهِ إِسْرَافِيلُ - عليه السلام -.",
+            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل عليه السلام"
           },
           {
             "ayah_number": 76,
-            "word": "جَنَّ",
+            "word": "جَنَّ",
             "word_normalized": "جن",
-            "meaning": "أَظلَمَ",
+            "meaning": "أَظْلَمَ.",
             "meaning_normalized": "أظلم"
           },
           {
             "ayah_number": 76,
             "word": "الآفِلِينَ",
             "word_normalized": "الآفلين",
-            "meaning": "الغَائِبِينَ",
+            "meaning": "الْغَائِبِينَ.",
             "meaning_normalized": "الغائبين"
           },
           {
             "ayah_number": 77,
-            "word": "أَفَلَت",
-            "word_normalized": "أفلت",
-            "meaning": "غَابَت",
-            "meaning_normalized": "غابت"
+            "word": "أَفَلَ",
+            "word_normalized": "أفل",
+            "meaning": "غَابَ.",
+            "meaning_normalized": "غاب"
           },
           {
             "ayah_number": 79,
             "word": "حَنِيفًا",
             "word_normalized": "حنيفا",
-            "meaning": "مَائِلًا عَن الشِّركِ إِلَى التَّوحِيدِ",
+            "meaning": "مَائِلًا عَنِ الشِّرْكِ إِلَى التَّوْحِيدِ.",
             "meaning_normalized": "مائلا عن الشرك إلى التوحيد"
           },
           {
-            "ayah_number": 81,
-            "word": "يُلبِسُونَ",
-            "word_normalized": "يلبسون",
-            "meaning": "يَختَلِطُوا",
-            "meaning_normalized": "يختلطوا"
+            "ayah_number": 82,
+            "word": "يَلْبِسُوا",
+            "word_normalized": "يلبسوا",
+            "meaning": "يَخْلِطُوا.",
+            "meaning_normalized": "يخلطوا"
           },
           {
             "ayah_number": 87,
-            "word": "وَآجتَبَينَاهُمْ",
-            "word_normalized": "وآجتبيناهم",
-            "meaning": "اِصطَفَينَاهُمْ",
+            "word": "وَاجْتَبَيْنَاهُمْ",
+            "word_normalized": "واجتبيناهم",
+            "meaning": "اصْطَفَيْنَاهُمْ.",
             "meaning_normalized": "اصطفيناهم"
           },
           {
             "ayah_number": 90,
-            "word": "اِقتَدِهِ",
+            "word": "اقْتَدِهْ",
             "word_normalized": "اقتده",
-            "meaning": "اِقتَدِ وَاتَّبِعْ",
+            "meaning": "اقْتَدِ وَاتَّبِعْ.",
             "meaning_normalized": "اقتد واتبع"
           },
           {
             "ayah_number": 91,
-            "word": "حَقَّ قَدرِهِ",
+            "word": "حَقَّ قَدْرِهِ",
             "word_normalized": "حق قدره",
-            "meaning": "حَقَّ تَعظِيمِهِ",
+            "meaning": "حَقَّ تَعْظِيمِهِ.",
             "meaning_normalized": "حق تعظيمه"
           },
           {
             "ayah_number": 91,
-            "word": "حُوشِيهِ",
-            "word_normalized": "حوشيه",
-            "meaning": "حَدِيثُهُمُ البَاطِلُ",
+            "word": "خَوْضِهِمْ",
+            "word_normalized": "خوضهم",
+            "meaning": "حَدِيثِهِمُ البَاطِلِ.",
             "meaning_normalized": "حديثهم الباطل"
           },
           {
             "ayah_number": 93,
             "word": "غَمَرَاتِ",
             "word_normalized": "غمرات",
-            "meaning": "أَهوَالٍ",
+            "meaning": "أَهْوَالِ.",
             "meaning_normalized": "أهوال"
           },
           {
             "ayah_number": 94,
-            "word": "حَوَّلَكُمْ",
-            "word_normalized": "حولكم",
-            "meaning": "مُلكَكُمْ مِن مَتَاعِ الدُّنيَا",
-            "meaning_normalized": "ملككم من متاع الدنيا"
+            "word": "خَوَّلْنَاكُمْ",
+            "word_normalized": "خولناكم",
+            "meaning": "مَلَّكْنَاكُمْ مِنْ مَتَاعِ الدُّنْيَا.",
+            "meaning_normalized": "ملكناكم من متاع الدنيا"
           },
           {
             "ayah_number": 94,
-            "word": "مَا نَقَعُ بَينَكُمْ",
-            "word_normalized": "ما نقع بينكم",
-            "meaning": "زَالَ تَوَاصُلُكُمْ",
+            "word": "تَّقَطَّعَ بَيْنَكُمْ",
+            "word_normalized": "تقطع بينكم",
+            "meaning": "زَالَ تَوَاصُلُكُمْ.",
             "meaning_normalized": "زال تواصلكم"
           },
           {
             "ayah_number": 95,
-            "word": "فَالِقُ الحَبِّ",
+            "word": "فَالِقُ الْحَبِّ",
             "word_normalized": "فالق الحب",
-            "meaning": "الَّذِي يَشُقُّ الحَبَّ؛ فَيُخرِجُ الزَّرعَ مِنهُ",
+            "meaning": "الَّذِي يَشُقُّ الْحَبَّ، فَيَخْرُجُ الزَّرْعُ مِنْهُ.",
             "meaning_normalized": "الذي يشق الحب فيخرج الزرع منه"
           },
           {
             "ayah_number": 95,
-            "word": "فَوَنَكِّرُونَ",
-            "word_normalized": "فونكرون",
-            "meaning": "تُصرَفُونَ عَن الحَقِّ",
+            "word": "تُؤْفَكُونَ",
+            "word_normalized": "تؤفكون",
+            "meaning": "تُصْرَفُونَ عَنِ الْحَقِّ.",
             "meaning_normalized": "تصرفون عن الحق"
           },
           {
             "ayah_number": 96,
-            "word": "فَالِقُ الإِصبَاحِ",
+            "word": "فَالِقُ الإِصْبَاحِ",
             "word_normalized": "فالق الإصباح",
-            "meaning": "الَّذِي يَشُقُّ ضِيَاءَ الصُّبحِ",
+            "meaning": "الَّذِي يَشُقُّ ضِيَاءَ الصُّبْحِ.",
             "meaning_normalized": "الذي يشق ضياء الصبح"
           },
           {
             "ayah_number": 96,
-            "word": "حُسبَانًا",
+            "word": "حُسْبَانًا",
             "word_normalized": "حسبانا",
-            "meaning": "بِحِسَابٍ مُقَدَّرٍ",
+            "meaning": "بِحِسَابٍ مُقَدَّرٍ.",
             "meaning_normalized": "بحساب مقدر"
           },
           {
-            "ayah_number": 97,
-            "word": "وَمُستَقَرٌّ",
-            "word_normalized": "ومستقر",
-            "meaning": "رَحِمُ المَرأَةِ؛ تَستَقِرُّ فِيهِ الثَّمَرَةُ",
-            "meaning_normalized": "رحم المرأة تستقر فيه الثمرة"
+            "ayah_number": 98,
+            "word": "فَمُسْتَقَرٌّ",
+            "word_normalized": "فمستقر",
+            "meaning": "رَحِمُ المَرْأَةِ، تَسْتَقِرُّ فِيهِ النُّطْفَةُ.",
+            "meaning_normalized": "رحم المرأة تستقر فيه النطفة"
           }
         ]
       }

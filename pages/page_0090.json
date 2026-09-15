@@ -25,7 +25,7 @@
         "glossary": [
           {
             "ayah_number": 17,
-            "word": "يَتَجَرَّعُهُ",
+            "word": "يَتَجَرَّعُهُ",
             "word_normalized": "يتجرعه",
             "meaning": "يُحَاوِلُ ابْتِلَاعَهُ.",
             "meaning_normalized": "يحاول ابتلاعه"
@@ -39,7 +39,7 @@
           },
           {
             "ayah_number": 17,
-            "word": "وَمِنْ وَرَائِهِ",
+            "word": "وَمِن وَرَائِهِ",
             "word_normalized": "ومن ورائه",
             "meaning": "مِنْ بَعْدِهِ.",
             "meaning_normalized": "من بعده"
@@ -48,7 +48,7 @@
             "ayah_number": 18,
             "word": "يَوْمٍ عَاصِفٍ",
             "word_normalized": "يوم عاصف",
-            "meaning": "شَدِيدِ هُبُوبِ الرِّيحِ.",
+            "meaning": "شَدِيدِ هُبُوبِ الرِّيحِ.",
             "meaning_normalized": "شديد هبوب الريح"
           },
           {
@@ -60,7 +60,7 @@
           },
           {
             "ayah_number": 21,
-            "word": "مَحِيصٍ",
+            "word": "مَّحِيصٍ",
             "word_normalized": "محيص",
             "meaning": "مَهْرَبٍ.",
             "meaning_normalized": "مهرب"
@@ -69,35 +69,35 @@
             "ayah_number": 22,
             "word": "سُلْطَانٍ",
             "word_normalized": "سلطان",
-            "meaning": "حُجَّةٍ وَقُوَّةٍ أَقْهَرُكُمْ بِهَا عَلَى اتِّبَاعِي.",
+            "meaning": "حُجَّةٍ وَقُوَّةٍ أَقْهَرُكُمْ بِهَا عَلَى اتِّبَاعِي.",
             "meaning_normalized": "حجة وقوة أقهركم بها على اتباعي"
           },
           {
             "ayah_number": 22,
             "word": "بِمُصْرِخِكُمْ",
             "word_normalized": "بمصرخكم",
-            "meaning": "بِمُغِيثِكُمْ.",
+            "meaning": "بِمُغِيثكُمْ.",
             "meaning_normalized": "بمغيثكم"
           },
           {
             "ayah_number": 22,
             "word": "كَفَرْتُ",
             "word_normalized": "كفرت",
-            "meaning": "تَبَرَّأْتُ.",
-            "meaning_normalized": "تبرأت"
+            "meaning": "تَبَرَّاتُ.",
+            "meaning_normalized": "تبرات"
           },
           {
             "ayah_number": 24,
-            "word": "كَلِمَةً طَيِّبَةً",
+            "word": "كَلِمَةً طَيِّبَةً",
             "word_normalized": "كلمة طيبة",
-            "meaning": "هِيَ كَلِمَةُ التَّوْحِيدِ «لَا إِلَهَ إِلَّا اللهُ».",
+            "meaning": "هِيَ كَلِمَةُ التَّوْحِيدِ «لَا إِلَهَ إِلَّا اللهُ».",
             "meaning_normalized": "هي كلمة التوحيد لا إله إلا الله"
           },
           {
             "ayah_number": 24,
-            "word": "كَشَجَرَةٍ طَيِّبَةٍ",
+            "word": "كَشَجَرةٍ طَيِّبَةٍ",
             "word_normalized": "كشجرة طيبة",
-            "meaning": "هِيَ: النَّخْلَةُ.",
+            "meaning": "هِيَ: النَّخْلَةُ.",
             "meaning_normalized": "هي النخلة"
           },
           {
@@ -111,19 +111,19 @@
             "ayah_number": 26,
             "word": "كَلِمَةٍ خَبِيثَةٍ",
             "word_normalized": "كلمة خبيثة",
-            "meaning": "كَلِمَةِ الْكُفْرِ.",
+            "meaning": "كَلِمَةِ الكُفْرِ.",
             "meaning_normalized": "كلمة الكفر"
           },
           {
             "ayah_number": 26,
             "word": "كَشَجَرَةٍ خَبِيثَةٍ",
             "word_normalized": "كشجرة خبيثة",
-            "meaning": "هِيَ: شَجَرَةُ الْحَنْظَلِ.",
+            "meaning": "هِيَ: شَجَرَةُ الحَنْظَلِ.",
             "meaning_normalized": "هي شجرة الحنظل"
           },
           {
             "ayah_number": 26,
-            "word": "اجْتُثَّتْ",
+            "word": "اجْتُثَّتْ",
             "word_normalized": "اجتثت",
             "meaning": "اقْتُلِعَتْ.",
             "meaning_normalized": "اقتلعت"
@@ -139,12 +139,12 @@
             "ayah_number": 28,
             "word": "الْبَوَارِ",
             "word_normalized": "البوار",
-            "meaning": "الْهَلَاكِ.",
+            "meaning": "الهَلَاكِ.",
             "meaning_normalized": "الهلاك"
           },
           {
             "ayah_number": 30,
-            "word": "أَنْدَادًا",
+            "word": "أَندَادًا",
             "word_normalized": "أندادا",
             "meaning": "شُرَكَاءَ.",
             "meaning_normalized": "شركاء"
@@ -160,14 +160,14 @@
             "ayah_number": 32,
             "word": "الْفُلْكَ",
             "word_normalized": "الفلك",
-            "meaning": "السُّفُنَ.",
+            "meaning": "السُّفُنَ.",
             "meaning_normalized": "السفن"
           },
           {
             "ayah_number": 33,
-            "word": "دَائِبَيْنِ",
+            "word": "دَائِبَينَ",
             "word_normalized": "دائبين",
-            "meaning": "جَارِيَيْنِ لَا يَفْتُرَانِ وَلَا يَتَوَقَّفَانِ.",
+            "meaning": "جَارِيَيْنِ لَا يَفْتُرَانِ وَلَا يَتَوَقَّفَانِ.",
             "meaning_normalized": "جاريين لا يفتران ولا يتوقفان"
           }
         ]

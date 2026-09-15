@@ -25,8 +25,8 @@
         "glossary": [
           {
             "ayah_number": 166,
-            "word": "عَنَوْا",
-            "word_normalized": "عنوا",
+            "word": "عَتَوْا",
+            "word_normalized": "عتوا",
             "meaning": "اسْتَكْبَرُوا، وَعَصَوْا.",
             "meaning_normalized": "استكبروا وعصوا"
           },
@@ -34,12 +34,12 @@
             "ayah_number": 166,
             "word": "خَاسِئِينَ",
             "word_normalized": "خاسئين",
-            "meaning": "أَذِلَّاءَ، مُبْعَدِينَ.",
+            "meaning": "أَذِلَّاءَ، مُبْعَدِينَ.",
             "meaning_normalized": "أذلاء مبعدين"
           },
           {
             "ayah_number": 167,
-            "word": "تَأَذَّنَ",
+            "word": "تَأَذَّنَ",
             "word_normalized": "تأذن",
             "meaning": "أَعْلَمَ إِعْلَامًا صَرِيحًا.",
             "meaning_normalized": "أعلم إعلاما صريحا"
@@ -53,9 +53,9 @@
           },
           {
             "ayah_number": 168,
-            "word": "وَقَطَّعْنَاهُمْ",
+            "word": "وَقَطَّعْنَاهُمْ",
             "word_normalized": "وقطعناهم",
-            "meaning": "فَرَّقْنَاهُمْ.",
+            "meaning": "فَرَّقْنَاهُمْ.",
             "meaning_normalized": "فرقناهم"
           },
           {
@@ -67,100 +67,100 @@
           },
           {
             "ayah_number": 168,
-            "word": "بِالْمَسَّدَاتِ",
-            "word_normalized": "بالمسدات",
-            "meaning": "بِالرَّخَاءِ فِي الْعَيْشِ.",
+            "word": "بِالْحَسَنَاتِ",
+            "word_normalized": "بالحسنات",
+            "meaning": "بِالرَّخَاءِ فِي الْعَيْشِ.",
             "meaning_normalized": "بالرخاء في العيش"
           },
           {
             "ayah_number": 168,
-            "word": "وَالسَّيِّئَاتِ",
+            "word": "وَالسَّيِّئَاتِ",
             "word_normalized": "والسيئات",
-            "meaning": "الشِّدَّةُ فِي الْعَيْشِ.",
+            "meaning": "الشِّدَّةِ فِي الْعَيْشِ.",
             "meaning_normalized": "الشدة في العيش"
           },
           {
             "ayah_number": 169,
-            "word": "فَنَسَلَفَ",
-            "word_normalized": "فنسلف",
+            "word": "فَخَلَفَ",
+            "word_normalized": "فخلف",
             "meaning": "فَجَاءَ.",
             "meaning_normalized": "فجاء"
           },
           {
             "ayah_number": 169,
-            "word": "عَنُّقُ",
-            "word_normalized": "عنق",
-            "meaning": "بَدَلَ سُوءٍ.",
+            "word": "خَلْفٌ",
+            "word_normalized": "خلف",
+            "meaning": "بَدَلُ سُوءٍ.",
             "meaning_normalized": "بدل سوء"
           },
           {
             "ayah_number": 169,
-            "word": "وَوَرِثُوا الْكِتَابَ",
-            "word_normalized": "وورثوا الكتاب",
+            "word": "وَرِثُوا الْكِتَابَ",
+            "word_normalized": "ورثوا الكتاب",
             "meaning": "أَخَذُوهُ مِنْ أَسْلَافِهِمْ.",
             "meaning_normalized": "أخذوه من أسلافهم"
           },
           {
             "ayah_number": 169,
-            "word": "عَرَضَ هَذَا الْأَدْنَى",
+            "word": "عَرَضَ هَذَا الأدْنَى",
             "word_normalized": "عرض هذا الأدنى",
-            "meaning": "مَا يَعْرِضُ لَهُمْ مِنْ دُنْيَا الْمَكَاسِبِ؛ كَالرُّشْوَةِ.",
-            "meaning_normalized": "ما يعرض لهم من دنيا المكاسب كالرشوة"
+            "meaning": "مَا يُعْرَضُ لَهُمْ مِنْ دَنِيءِ الْمَكَاسِبِ؛ كَالرِّشْوَةِ.",
+            "meaning_normalized": "ما يعرض لهم من دنيء المكاسب كالرشوة"
           },
           {
             "ayah_number": 169,
-            "word": "يَزْبِنُونَ الْكِتَابَ",
-            "word_normalized": "يزبنون الكتاب",
-            "meaning": "الْيَهُودُ فِي التَّوْرَاةِ؛ بِإِقَامَتِهَا، وَالْعَمَلِ بِهَا.",
-            "meaning_normalized": "اليهود في التوراة بإقامتها والعمل بها"
+            "word": "مِّيثَاقُ الْكِتَابِ",
+            "word_normalized": "ميثاق الكتاب",
+            "meaning": "الْعُهُودُ فِي التَّوْرَاةِ؛ بِإِقَامَتِهَا، وَالْعَمَلِ بِهَا.",
+            "meaning_normalized": "العهود في التوراة بإقامتها والعمل بها"
           },
           {
             "ayah_number": 169,
             "word": "وَدَرَسُوا مَا فِيهِ",
             "word_normalized": "ودرسوا ما فيه",
-            "meaning": "عَلِمُوا مَا فِي الْكِتَابِ، فَضَيَّعُوهُ.",
+            "meaning": "عَلِمُوا مَا فِي الْكِتَابِ، فَضَيَّعُوهُ.",
             "meaning_normalized": "علموا ما في الكتاب فضيعوه"
           },
           {
             "ayah_number": 170,
-            "word": "يَسْتَمْسِكُونَ",
-            "word_normalized": "يستمسكون",
-            "meaning": "يَتَمَسَّكُونَ.",
+            "word": "يُمَسِّكُونَ",
+            "word_normalized": "يمسكون",
+            "meaning": "يَتَمَسَّكُونَ.",
             "meaning_normalized": "يتمسكون"
           },
           {
             "ayah_number": 171,
-            "word": "نَقَقْنَا",
-            "word_normalized": "نققنا",
+            "word": "نَتَقْنَا",
+            "word_normalized": "نتقنا",
             "meaning": "رَفَعْنَا.",
             "meaning_normalized": "رفعنا"
           },
           {
             "ayah_number": 171,
-            "word": "ظُلَّةً",
+            "word": "ظُلَّةٌ",
             "word_normalized": "ظلة",
-            "meaning": "سَحَابَةً.",
+            "meaning": "سَحَابَةٌ.",
             "meaning_normalized": "سحابة"
           },
           {
-            "ayah_number": 172,
-            "word": "وَظَنُّوا",
+            "ayah_number": 171,
+            "word": "وَظَنُّوا",
             "word_normalized": "وظنوا",
             "meaning": "أَيْقَنُوا.",
             "meaning_normalized": "أيقنوا"
           },
           {
             "ayah_number": 172,
-            "word": "وَأَشْهَدَهُمْ عَلَى أَنْفُسِهِمْ",
+            "word": "وَأَشْهَدَهُمْ عَلَى أَنفُسِهِمْ",
             "word_normalized": "وأشهدهم على أنفسهم",
-            "meaning": "قَرَّرَهُمْ بِمَا أَودَعَ فِي فِطَرِهِمْ مِنْ تَوْحِيدِهِ.",
+            "meaning": "قَرَّرَهُمْ بِمَا أَوْدَعَ فِي فِطَرِهِمْ مِنْ تَوْحِيدِهِ.",
             "meaning_normalized": "قررهم بما أودع في فطرهم من توحيده"
           },
           {
             "ayah_number": 172,
-            "word": "أَنْ تَقُولُوا",
+            "word": "أَن تَقُولُوا",
             "word_normalized": "أن تقولوا",
-            "meaning": "لِئَلَّا تَقُولُوا.",
+            "meaning": "لِئَلَّا تَقُولُوا.",
             "meaning_normalized": "لئلا تقولوا"
           }
         ]

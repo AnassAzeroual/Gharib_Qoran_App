@@ -39,49 +39,49 @@
           },
           {
             "ayah_number": 10,
-            "word": "رَوَٰسِىَ",
+            "word": "رَوَاسِيَ",
             "word_normalized": "رواسي",
             "meaning": "جِبَالًا ثَوَابِتَ.",
             "meaning_normalized": "جبالا ثوابت"
           },
           {
             "ayah_number": 10,
-            "word": "أَقْوَٰتَهَا",
+            "word": "أَقْوَاتَهَا",
             "word_normalized": "أقواتها",
             "meaning": "أَرْزَاقَ أَهْلِهَا.",
             "meaning_normalized": "أرزاق أهلها"
           },
           {
             "ayah_number": 10,
-            "word": "فِىٓ أَرْبَعَةِ أَيَّامٍ",
+            "word": "فِي أَرْبَعَةِ أَيَّامٍ",
             "word_normalized": "في أربعة أيام",
-            "meaning": "يَوْمَانِ لِخَلْقِ الْأَرْضِ، وَيَوْمَانِ لِخَلْقِ الرَّوَاسِي، وَتَقْدِيرِ الْأَقْوَاتِ.",
+            "meaning": "يَوْمَانِ لِخَلْقِ الأَرْضِ، وَيَوَمْانِ لِخَلْقِ الرَّوَاسِي، وَتَقْدِيرِ الأَقْوَاتِ.",
             "meaning_normalized": "يومان لخلق الأرض ويومان لخلق الرواسي وتقدير الأقوات"
           },
           {
             "ayah_number": 10,
-            "word": "سَوَآءً",
+            "word": "سَوَاءً",
             "word_normalized": "سواء",
-            "meaning": "فِي تَمَامِ أَرْبَعَةِ أَيَّامٍ مُسْتَوِيَةٍ؛ بِلَا زِيَادَةٍ، وَلَا نُقْصَانٍ.",
+            "meaning": "فِي تَمَامِ أَرْبَعَةِ أَيَّامٍ مُسْتَوِيَةٍ؛ بِلَا زِيَادة، وَلَا نُقْصَانٍ.",
             "meaning_normalized": "في تمام أربعة أيام مستوية بلا زيادة ولا نقصان"
           },
           {
             "ayah_number": 11,
-            "word": "ٱسْتَوَىٰٓ",
+            "word": "اسْتَوَى",
             "word_normalized": "استوى",
             "meaning": "قَصَدَ.",
             "meaning_normalized": "قصد"
           },
           {
             "ayah_number": 12,
-            "word": "فَقَضَىٰهُنَّ",
+            "word": "فَقَضَاهُنَّ",
             "word_normalized": "فقضاهن",
-            "meaning": "فَخَلَقَهُنَّ، وَأَبْدَعَهُنَّ.",
+            "meaning": "فَخَلَقَهُنَّ، وَأَبْدَعَهُنَّ.",
             "meaning_normalized": "فخلقهن وأبدعهن"
           },
           {
             "ayah_number": 12,
-            "word": "بِمَصَٰبِيحَ",
+            "word": "بِمَصَابِيحَ",
             "word_normalized": "بمصابيح",
             "meaning": "بِنُجُومٍ مُضِيئَةٍ.",
             "meaning_normalized": "بنجوم مضيئة"
@@ -90,19 +90,19 @@
             "ayah_number": 12,
             "word": "وَحِفْظًا",
             "word_normalized": "وحفظا",
-            "meaning": "حَرَسًا مِنَ الشَّيَاطِينِ.",
+            "meaning": "حَرَسًا مِنَ الشَّيَاطِينِ.",
             "meaning_normalized": "حرسا من الشياطين"
           },
           {
             "ayah_number": 13,
             "word": "أَنذَرْتُكُمْ",
             "word_normalized": "أنذرتكم",
-            "meaning": "خَوَّفْتُكُمْ.",
+            "meaning": "خَوَّفْتُكُمْ.",
             "meaning_normalized": "خوفتكم"
           },
           {
             "ayah_number": 13,
-            "word": "صَٰعِقَةً",
+            "word": "صَاعِقَةً",
             "word_normalized": "صاعقة",
             "meaning": "عَذَابًا هَائِلًا.",
             "meaning_normalized": "عذابا هائلا"
@@ -111,49 +111,49 @@
             "ayah_number": 16,
             "word": "صَرْصَرًا",
             "word_normalized": "صرصرا",
-            "meaning": "شَدِيدَةَ الْبُرُودَةِ، عَالِيَةَ الصَّوْتِ.",
+            "meaning": "شَدِيدَةَ البُرُودَةِ، عَالِيَةَ الصَّوْتِ.",
             "meaning_normalized": "شديدة البرودة عالية الصوت"
           },
           {
             "ayah_number": 16,
-            "word": "نَّحِسَاتٍ",
+            "word": "نَّحِسَاتٍ",
             "word_normalized": "نحسات",
             "meaning": "مَشْؤُومَاتٍ.",
             "meaning_normalized": "مشؤومات"
           },
           {
             "ayah_number": 16,
-            "word": "ٱلْخِزْىِ",
+            "word": "الْخِزْيِ",
             "word_normalized": "الخزي",
-            "meaning": "الذُّلُّ وَالْهَوَانِ.",
+            "meaning": "الذُّلِّ وَالهَوَانِ.",
             "meaning_normalized": "الذل والهوان"
           },
           {
             "ayah_number": 17,
-            "word": "فَهَدَيْنَٰهُمْ",
+            "word": "فَهَدَيْنَاهُمْ",
             "word_normalized": "فهديناهم",
-            "meaning": "فَبَيَّنَّا لَهُمْ سَبِيلَ الْحَقِّ.",
+            "meaning": "فَبَيَّنَّا لَهُمْ سَبِيلَ الحَقِّ.",
             "meaning_normalized": "فبينا لهم سبيل الحق"
           },
           {
             "ayah_number": 17,
-            "word": "فَٱسْتَحَبُّوا۟",
+            "word": "فَاسْتَحَبُّوا",
             "word_normalized": "فاستحبوا",
             "meaning": "فَاخْتَارُوا.",
             "meaning_normalized": "فاختاروا"
           },
           {
             "ayah_number": 17,
-            "word": "ٱلْهُونِ",
+            "word": "الْهُونِ",
             "word_normalized": "الهون",
-            "meaning": "الْمُهِينِ.",
+            "meaning": "المُهِينِ.",
             "meaning_normalized": "المهين"
           },
           {
             "ayah_number": 19,
             "word": "يُوزَعُونَ",
             "word_normalized": "يوزعون",
-            "meaning": "يُرَدُّ أَوَّلُهُمْ عَلَى آخِرِهِمْ.",
+            "meaning": "يُرَدُّ أَوَّلُهُمْ عَلَى آخِرِهِمْ.",
             "meaning_normalized": "يرد أولهم على آخرهم"
           }
         ]

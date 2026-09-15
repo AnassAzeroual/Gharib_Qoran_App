@@ -25,58 +25,58 @@
         "glossary": [
           {
             "ayah_number": 16,
-            "word": "وَلَيُمَيِّزُ",
-            "word_normalized": "وليميز",
-            "meaning": "بَطَلًا، وَأَوْلِيَاء.",
-            "meaning_normalized": "بطلا وأولياء"
+            "word": "وَلِيجَةً",
+            "word_normalized": "وليجة",
+            "meaning": "بِطَانَةً، وَأَوْلِيَاءَ.",
+            "meaning_normalized": "بطانة وأولياء"
           },
           {
             "ayah_number": 24,
-            "word": "وَإِنْ كَانُوا",
-            "word_normalized": "وإن كانوا",
-            "meaning": "احْتَسَبْتُمُوهَا.",
-            "meaning_normalized": "احتسبتموها"
+            "word": "اقْتَرَفْتُمُوهَا",
+            "word_normalized": "اقترفتموها",
+            "meaning": "اكْتَسَبْتُمُوهَا.",
+            "meaning_normalized": "اكتسبتموها"
           },
           {
             "ayah_number": 24,
-            "word": "كَسَادُهَا",
+            "word": "كَسَادَهَا",
             "word_normalized": "كسادها",
-            "meaning": "عَدَمُ رَوَاجِهَا.",
+            "meaning": "عَدَمَ رَوَاجِهَا.",
             "meaning_normalized": "عدم رواجها"
           },
           {
-            "ayah_number": 24,
-            "word": "وَلَا تَرْضَوْنَ عَنْهُمْ",
-            "word_normalized": "ولا ترضون عنهم",
-            "meaning": "لَمْ تَقْبَعُوهُمْ.",
-            "meaning_normalized": "لم تقبعوهم"
+            "ayah_number": 25,
+            "word": "فَلَمْ تُغْنِ عَنكُمْ",
+            "word_normalized": "فلم تغن عنكم",
+            "meaning": "لَمْ تَنْفَعْكُمْ.",
+            "meaning_normalized": "لم تنفعكم"
           },
           {
             "ayah_number": 25,
-            "word": "وَلَمْ تُفِدْ مِنْهُمْ",
-            "word_normalized": "ولم تفد منهم",
-            "meaning": "تَزِدَّتُمْ مِنْهُمْ مَنْزُومِينَ.",
-            "meaning_normalized": "تزدتم منهم منزومين"
+            "word": "وَلَّيْتُم مُّدْبِرِينَ",
+            "word_normalized": "وليتم مدبرين",
+            "meaning": "فَرَرْتُمْ مُنْهَزِمِينَ.",
+            "meaning_normalized": "فررتم منهزمين"
           },
           {
             "ayah_number": 28,
-            "word": "عَابَةً",
-            "word_normalized": "عابة",
+            "word": "عَيْلَةً",
+            "word_normalized": "عيلة",
             "meaning": "فَقْرًا.",
             "meaning_normalized": "فقرا"
           },
           {
             "ayah_number": 29,
-            "word": "الْجِزْيَةُ",
+            "word": "الْجِزْيَةَ",
             "word_normalized": "الجزية",
-            "meaning": "مَالٌ يُفْرَضُ عَلَى الْكَافِرِ الْمُقِيمِ بِبِلَادِ الْمُسْلِمِينَ.",
+            "meaning": "مَالٌ يُفْرَضُ عَلَى الكَافِرِ المُقِيمِ بِبِلَادِ المُسْلِمِينَ.",
             "meaning_normalized": "مال يفرض على الكافر المقيم ببلاد المسلمين"
           },
           {
             "ayah_number": 29,
             "word": "صَاغِرُونَ",
             "word_normalized": "صاغرون",
-            "meaning": "أَذِلَّاء.",
+            "meaning": "أَذِلَّاءُ.",
             "meaning_normalized": "أذلاء"
           },
           {
@@ -87,74 +87,74 @@
             "meaning_normalized": "يشابهون"
           },
           {
-            "ayah_number": 31,
-            "word": "أَنَّى يُؤْفَكُونَ",
+            "ayah_number": 30,
+            "word": "أَنَّى يُؤْفَكُونَ",
             "word_normalized": "أنى يؤفكون",
-            "meaning": "كَيْفَ يَصْرِفُونَ عَنِ الْحَقِّ؟!",
+            "meaning": "كَيْفَ يُصْرَفُونَ عَنِ الحَقِّ؟!",
             "meaning_normalized": "كيف يصرفون عن الحق"
           },
           {
             "ayah_number": 31,
             "word": "أَحْبَارَهُمْ",
             "word_normalized": "أحبارهم",
-            "meaning": "عُلَمَاءَ الْيَهُودِ.",
+            "meaning": "عُلَمَاءَ اليَهُودِ.",
             "meaning_normalized": "علماء اليهود"
           },
           {
             "ayah_number": 31,
-            "word": "وَرُهْبَانُهُمْ",
+            "word": "وَرُهْبَانَهُمْ",
             "word_normalized": "ورهبانهم",
-            "meaning": "عُبَّادَ النَّصَارَى.",
+            "meaning": "عُبَّادَ النَّصَارَى.",
             "meaning_normalized": "عباد النصارى"
           },
           {
-            "ayah_number": 32,
-            "word": "سَيُطْفِئُهَا",
-            "word_normalized": "سيطفئها",
-            "meaning": "نَزَرَّةٌ، وَتُقَدَّسٌ.",
-            "meaning_normalized": "نزرة وتقدس"
+            "ayah_number": 31,
+            "word": "سُبْحَانَهُ",
+            "word_normalized": "سبحانه",
+            "meaning": "تَنَزَّهَ، وَتَقَدَّسَ.",
+            "meaning_normalized": "تنزه وتقدس"
           },
           {
             "ayah_number": 33,
             "word": "لِيُظْهِرَهُ",
             "word_normalized": "ليظهره",
-            "meaning": "لِيُعْلِنَهُ.",
-            "meaning_normalized": "ليعلنه"
+            "meaning": "لِيُعْلِيَهُ.",
+            "meaning_normalized": "ليعليه"
           },
           {
             "ayah_number": 34,
-            "word": "لَيَاخَّذُونَ",
-            "word_normalized": "لياخذون",
-            "meaning": "لَيَأْخُذُونَ.",
-            "meaning_normalized": "ليأخذون"
+            "word": "لَيَاكُلُونَ",
+            "word_normalized": "لياكلون",
+            "meaning": "لَيَاخُذُونَ.",
+            "meaning_normalized": "لياخذون"
           },
           {
             "ayah_number": 34,
-            "word": "يُكْبِرُونَ",
-            "word_normalized": "يكبرون",
-            "meaning": "لَا يُؤَدُّونَ الزَّكَاةَ.",
+            "word": "يَكْنِزُونَ",
+            "word_normalized": "يكنزون",
+            "meaning": "لَا يُؤَدُّونَ الزَّكَاةَ.",
             "meaning_normalized": "لا يؤدون الزكاة"
           },
           {
-            "ayah_number": 35,
-            "word": "حَكْتَبُّ اللهُ",
-            "word_normalized": "حكتب الله",
-            "meaning": "الْخَرِجُ الْمَخْلُوطُ.",
-            "meaning_normalized": "الخرج المخلوط"
+            "ayah_number": 36,
+            "word": "كِتَابِ اللهِ",
+            "word_normalized": "كتاب الله",
+            "meaning": "اللَّوْحِ المَحْفُوظِ.",
+            "meaning_normalized": "اللوح المحفوظ"
           },
           {
             "ayah_number": 36,
-            "word": "وَأَرْبَعَةٌ حُرُمٌ",
-            "word_normalized": "وأربعة حرم",
-            "meaning": "حَرَّمَ اللهُ فِيهَا الْقِتَالَ، وَهِيَ: ذُو الْقَعْدَةِ، وَذُو الْحِجَّةِ، وَالْمُحَرَّمُ، وَرَجَبٌ.",
+            "word": "أَرْبَعَةٌ حُرُمٌ",
+            "word_normalized": "أربعة حرم",
+            "meaning": "حَرَّمَ اللهُ فِيهَا القِتَالَ، وَهِيَ: ذُو القَعْدَةِ، وَذُو الحِجَّةِ، وَالمُحَرَّمُ، وَرَجَبٌ.",
             "meaning_normalized": "حرم الله فيها القتال وهي ذو القعدة وذو الحجة والمحرم ورجب"
           },
           {
             "ayah_number": 37,
-            "word": "النَّسِيءُ",
+            "word": "النَّسِيءُ",
             "word_normalized": "النسيء",
-            "meaning": "التَّأْخِيرُ لِحُرْمَةِ شَهْرٍ إِلَى شَهْرٍ آخَرَ.",
-            "meaning_normalized": "التأخير لحرمة شهر إلى شهر آخر"
+            "meaning": "التَّاخِيرُ لِحُرْمَةِ شَهْرٍ إِلَى شَهْرٍ آخَرَ.",
+            "meaning_normalized": "التاخير لحرمة شهر إلى شهر آخر"
           }
         ]
       }

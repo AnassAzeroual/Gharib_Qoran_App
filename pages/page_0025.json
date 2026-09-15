@@ -41,14 +41,14 @@
             "ayah_number": 3,
             "word": "أَدْنَى أَلَّا تَعُولُوا",
             "word_normalized": "أدنى ألا تعولوا",
-            "meaning": "أَقْرَبُ إِلَى عَدَمِ الْجَوْرِ.",
+            "meaning": "أَقْرَبُ إِلَى عَدَمِ الجَوْرِ.",
             "meaning_normalized": "أقرب إلى عدم الجور"
           },
           {
             "ayah_number": 4,
             "word": "صَدُقَاتِهِنَّ",
             "word_normalized": "صدقاتهن",
-            "meaning": "مُهُورَهُنَّ.",
+            "meaning": "مُهُورِهِنَّ.",
             "meaning_normalized": "مهورهن"
           },
           {
@@ -60,16 +60,16 @@
           },
           {
             "ayah_number": 4,
-            "word": "هَنِيئًا مَرِيئًا",
+            "word": "هَنِيئًا مَّرِيئًا",
             "word_normalized": "هنيئا مريئا",
             "meaning": "حَلَالًا طَيِّبًا.",
             "meaning_normalized": "حلالا طيبا"
           },
           {
             "ayah_number": 5,
-            "word": "السُّفَهَاءَ",
+            "word": "السُّفَهَاء",
             "word_normalized": "السفهاء",
-            "meaning": "مَنْ لَا يُحْسِنُونَ التَّصَرُّفَ فِي الْمَالِ.",
+            "meaning": "مَنْ لَا يُحْسِنُونَ التَّصَرُّفَ فِي المَالِ.",
             "meaning_normalized": "من لا يحسنون التصرف في المال"
           },
           {
@@ -81,7 +81,7 @@
           },
           {
             "ayah_number": 6,
-            "word": "آنَسْتُمْ",
+            "word": "آنَسْتُم",
             "word_normalized": "آنستم",
             "meaning": "عَلِمْتُمْ.",
             "meaning_normalized": "علمتم"
@@ -90,7 +90,7 @@
             "ayah_number": 6,
             "word": "رُشْدًا",
             "word_normalized": "رشدا",
-            "meaning": "حُسْنَ تَصَرُّفٍ فِي الْأَمْوَالِ.",
+            "meaning": "حُسْنَ تَصَرُّفٍ فِي الأَمْوَالِ.",
             "meaning_normalized": "حسن تصرف في الأموال"
           },
           {
@@ -111,7 +111,7 @@
             "ayah_number": 10,
             "word": "وَسَيَصْلَوْنَ",
             "word_normalized": "وسيصلون",
-            "meaning": "سَيَدْخُلُونَ.",
+            "meaning": "سَيُدْخَلُونَ.",
             "meaning_normalized": "سيدخلون"
           },
           {
@@ -139,8 +139,8 @@
             "ayah_number": 15,
             "word": "الْفَاحِشَةَ",
             "word_normalized": "الفاحشة",
-            "meaning": "الْفِعْلَةَ الْقَبِيحَةَ، وَهِيَ الزِّنَى.",
-            "meaning_normalized": "الفعلة القبيحة وهي الزنى"
+            "meaning": "الفِعْلَةَ القَبِيحَةَ، وَهِيَ الزِّنَا.",
+            "meaning_normalized": "الفعلة القبيحة وهي الزنا"
           },
           {
             "ayah_number": 17,
@@ -151,9 +151,9 @@
           },
           {
             "ayah_number": 17,
-            "word": "مِنْ قَرِيبٍ",
+            "word": "مِن قَرِيبٍ",
             "word_normalized": "من قريب",
-            "meaning": "قَبْلَ مُعَايَنَةِ الْمَوْتِ.",
+            "meaning": "قَبْلَ مُعَايَنَةِ المَوْتِ.",
             "meaning_normalized": "قبل معاينة الموت"
           }
         ]

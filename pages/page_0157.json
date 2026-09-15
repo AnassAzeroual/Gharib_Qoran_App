@@ -25,51 +25,51 @@
         "glossary": [
           {
             "ayah_number": 28,
-            "word": "تَوَلَّ عَنْهُمْ",
+            "word": "تَوَلَّ عَنْهُمْ",
             "word_normalized": "تول عنهم",
-            "meaning": "تَنَحَّ عَنْهُمْ قَرِيبًا مِنْهُمْ.",
+            "meaning": "تَنَحَّ عَنْهُمْ قَرِيبًا مِنْهُمْ.",
             "meaning_normalized": "تنح عنهم قريبا منهم"
           },
           {
             "ayah_number": 28,
-            "word": "فَٱنظُرْ",
+            "word": "فَانظُرْ",
             "word_normalized": "فانظر",
-            "meaning": "تَأَمَّلْ، وَاسْمَعْ.",
+            "meaning": "تَأَمَّلْ، وَاسْمَعْ.",
             "meaning_normalized": "تأمل واسمع"
           },
           {
             "ayah_number": 28,
             "word": "مَاذَا يَرْجِعُونَ",
             "word_normalized": "ماذا يرجعون",
-            "meaning": "مَا يَتَرَدَّدُ بَيْنَهُمْ مِنَ الْكَلَامِ.",
+            "meaning": "مَا يَتَرَدَّدُ بَيْنَهُمْ مِنَ الكَلَامِ.",
             "meaning_normalized": "ما يتردد بينهم من الكلام"
           },
           {
             "ayah_number": 29,
-            "word": "ٱلْمَلَؤُا",
+            "word": "المَلَأُ",
             "word_normalized": "الملأ",
-            "meaning": "أَشْرَافُ النَّاسِ.",
+            "meaning": "أَشْرَافُ النَّاسِ.",
             "meaning_normalized": "أشراف الناس"
           },
           {
             "ayah_number": 29,
             "word": "كَرِيمٌ",
             "word_normalized": "كريم",
-            "meaning": "جَلِيلُ الْقَدْرِ.",
+            "meaning": "جَلِيلُ القَدْرِ.",
             "meaning_normalized": "جليل القدر"
           },
           {
             "ayah_number": 31,
-            "word": "تَعْلُوا عَلَيَّ",
+            "word": "تَعْلُوا عَلَيَّ",
             "word_normalized": "تعلوا علي",
-            "meaning": "تَتَكَبَّرُوا عَلَيَّ.",
+            "meaning": "تَتَكَبَّرُوا عَلَيَّ.",
             "meaning_normalized": "تتكبروا علي"
           },
           {
             "ayah_number": 32,
             "word": "أَفْتُونِي",
             "word_normalized": "أفتوني",
-            "meaning": "أَشِيرُوا عَلَيَّ.",
+            "meaning": "أَشِيرُوا عَلَيَّ.",
             "meaning_normalized": "أشيروا علي"
           },
           {
@@ -80,7 +80,7 @@
             "meaning_normalized": "قاضية حكما وفاصلة فيه"
           },
           {
-            "ayah_number": 33,
+            "ayah_number": 32,
             "word": "تَشْهَدُونِ",
             "word_normalized": "تشهدون",
             "meaning": "تَحْضُرُونِي.",
@@ -88,7 +88,7 @@
           },
           {
             "ayah_number": 33,
-            "word": "أُو۟لُوا",
+            "word": "أُوْلُوا",
             "word_normalized": "أولوا",
             "meaning": "أَصْحَابُ.",
             "meaning_normalized": "أصحاب"
@@ -102,72 +102,72 @@
           },
           {
             "ayah_number": 37,
-            "word": "لَا قِبَلَ لَهُم بِهَا",
+            "word": "لَّا قِبَلَ لَهُم بِهَا",
             "word_normalized": "لا قبل لهم بها",
-            "meaning": "لَا طَاقَةَ لَهُمْ بِمُقَاوَمَةِ الْجُنُودِ.",
+            "meaning": "لَا طَاقَةَ لَهُمْ بِمُقَاوَمَةِ الجُنُودِ.",
             "meaning_normalized": "لا طاقة لهم بمقاومة الجنود"
           },
           {
             "ayah_number": 37,
-            "word": "صَٰغِرُونَ",
+            "word": "صَاغِرُونَ",
             "word_normalized": "صاغرون",
             "meaning": "مُهَانُونَ.",
             "meaning_normalized": "مهانون"
           },
           {
             "ayah_number": 38,
-            "word": "ٱلْمَلَؤُا",
+            "word": "المَلَأُ",
             "word_normalized": "الملأ",
-            "meaning": "مَنْ سَخَّرَهُمُ اللهُ لَهُ مِنَ الْجِنِّ وَالْإِنْسِ.",
+            "meaning": "مَنْ سَخَّرَهُمُ اللهُ لَهُ مِنَ الجِنِّ وَالإِنْسِ.",
             "meaning_normalized": "من سخرهم الله له من الجن والإنس"
           },
           {
             "ayah_number": 39,
-            "word": "عِفْرِيتٌ",
+            "word": "عِفْريتٌ",
             "word_normalized": "عفريت",
-            "meaning": "مَارِدٌ قَوِيٌّ شَدِيدٌ.",
+            "meaning": "مَارِدٌ قَوِيٌّ شَدِيدٌ.",
             "meaning_normalized": "مارد قوي شديد"
           },
           {
             "ayah_number": 39,
-            "word": "مَقَامِكَ",
+            "word": "مَّقَامِكَ",
             "word_normalized": "مقامك",
             "meaning": "مَجْلِسِكَ.",
             "meaning_normalized": "مجلسك"
           },
           {
             "ayah_number": 40,
-            "word": "يَرْتَدَّ إِلَيْكَ طَرْفُكَ",
+            "word": "يَرْتَدَّ إِلَيْكَ طَرْفُكَ",
             "word_normalized": "يرتد إليك طرفك",
             "meaning": "قَبْلَ ارْتِدَادِ أَجْفَانِكَ إِذَا نَظَرْتَ إِلَى شَيْءٍ.",
             "meaning_normalized": "قبل ارتداد أجفانك إذا نظرت إلى شيء"
           },
           {
             "ayah_number": 40,
-            "word": "مُسْتَقِرًّا عِندَهُ",
+            "word": "مُسْتَقِرًّا عِندَهُ",
             "word_normalized": "مستقرا عنده",
             "meaning": "حَاضِرًا لَدَيْهِ ثَابِتًا عِنْدَهُ.",
             "meaning_normalized": "حاضرا لديه ثابتا عنده"
           },
           {
             "ayah_number": 41,
-            "word": "نَكِّرُوا",
+            "word": "نَكِّرُوا",
             "word_normalized": "نكروا",
-            "meaning": "غَيِّرُوا.",
+            "meaning": "غَيِّرُوا.",
             "meaning_normalized": "غيروا"
           },
           {
             "ayah_number": 44,
-            "word": "ٱلصَّرْحَ",
+            "word": "الصَّرْحَ",
             "word_normalized": "الصرح",
-            "meaning": "الْقَصْرَ، وَكَانَ صَحْنُهُ مِنْ زُجَاجٍ تَحْتَهُ مَاءٌ.",
+            "meaning": "القَصْرَ، وَكَانَ صَحْنُهُ مِنْ زُجَاجٍ تَحْتَهُ مَاءٌ.",
             "meaning_normalized": "القصر وكان صحنه من زجاج تحته ماء"
           },
           {
             "ayah_number": 44,
-            "word": "حَسِبَتْهُ لُجَّةً",
+            "word": "حَسِبَتْهُ لُجَّةً",
             "word_normalized": "حسبته لجة",
-            "meaning": "ظَنَّتْهُ مَاءً غَزِيرًا.",
+            "meaning": "ظَنَّتْهُ مَاءً غَزِيرًا.",
             "meaning_normalized": "ظنته ماء غزيرا"
           }
         ]

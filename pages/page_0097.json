@@ -25,14 +25,14 @@
         "glossary": [
           {
             "ayah_number": 48,
-            "word": "يَتَفَيَّؤُا۟",
+            "word": "يَتَفَيَّأُ",
             "word_normalized": "يتفيأ",
             "meaning": "يَمِيلُ.",
             "meaning_normalized": "يميل"
           },
           {
             "ayah_number": 48,
-            "word": "دَٰخِرُونَ",
+            "word": "دَاخِرُونَ",
             "word_normalized": "داخرون",
             "meaning": "خَاضِعُونَ لِعَظَمَةِ اللهِ.",
             "meaning_normalized": "خاضعون لعظمة الله"
@@ -46,9 +46,9 @@
           },
           {
             "ayah_number": 52,
-            "word": "وَلَهُ الدِّينُ",
+            "word": "وَلَهُ الدِّينُ",
             "word_normalized": "وله الدين",
-            "meaning": "لَهُ الْعِبَادَةُ وَالطَّاعَةُ وَحْدَهُ.",
+            "meaning": "لَهُ العِبَادَةُ وَالطَّاعَةُ وَحْدَهُ.",
             "meaning_normalized": "له العبادة والطاعة وحده"
           },
           {
@@ -62,26 +62,26 @@
             "ayah_number": 53,
             "word": "تَجْأَرُونَ",
             "word_normalized": "تجأرون",
-            "meaning": "تَضِجُّونَ بِالدُّعَاءِ.",
+            "meaning": "تَضِجُّونَ بِالدُّعَاءِ.",
             "meaning_normalized": "تضجون بالدعاء"
           },
           {
             "ayah_number": 56,
             "word": "تَفْتَرُونَ",
             "word_normalized": "تفترون",
-            "meaning": "تَخْتَلِقُونَ مِنَ الْكَذِبِ.",
+            "meaning": "تَخْتَلِقُونَ مِنَ الكَذِبِ.",
             "meaning_normalized": "تختلقون من الكذب"
           },
           {
             "ayah_number": 58,
             "word": "كَظِيمٌ",
             "word_normalized": "كظيم",
-            "meaning": "مُمْتَلِئٌ غَمًّا وَحُزْنًا.",
+            "meaning": "مُمْتَلِئٌ غَمًّا وَحُزْنًا.",
             "meaning_normalized": "ممتلئ غما وحزنا"
           },
           {
             "ayah_number": 59,
-            "word": "يَتَوَٰرَىٰ",
+            "word": "يَتَوَارَى",
             "word_normalized": "يتوارى",
             "meaning": "يَسْتَخْفِي.",
             "meaning_normalized": "يستخفي"
@@ -97,28 +97,28 @@
             "ayah_number": 59,
             "word": "هُونٍ",
             "word_normalized": "هون",
-            "meaning": "ذُلٍّ، وَهَوَانٍ.",
+            "meaning": "ذُلٍّ، وَهَوَانٍ.",
             "meaning_normalized": "ذل وهوان"
           },
           {
             "ayah_number": 59,
-            "word": "يَدُسُّهُ",
+            "word": "يَدُسُّهُ",
             "word_normalized": "يدسه",
             "meaning": "يَدْفِنُهُ.",
             "meaning_normalized": "يدفنه"
           },
           {
             "ayah_number": 60,
-            "word": "مَثَلُ ٱلسَّوْءِ",
+            "word": "مَثَلُ السَّوْءِ",
             "word_normalized": "مثل السوء",
-            "meaning": "الصِّفَةُ الْقَبِيحَةُ.",
+            "meaning": "الصِّفَةُ القَبِيحَةُ.",
             "meaning_normalized": "الصفة القبيحة"
           },
           {
             "ayah_number": 60,
-            "word": "ٱلْمَثَلُ ٱلْأَعْلَىٰ",
+            "word": "الْمَثَلُ الأَعْلَىَ",
             "word_normalized": "المثل الأعلى",
-            "meaning": "الصِّفَاتُ الْعُلْيَا.",
+            "meaning": "الصِّفَاتُ العُلْيَا.",
             "meaning_normalized": "الصفات العليا"
           },
           {
@@ -130,23 +130,23 @@
           },
           {
             "ayah_number": 62,
-            "word": "ٱلْحُسْنَىٰ",
+            "word": "الْحُسْنَى",
             "word_normalized": "الحسنى",
-            "meaning": "حُسْنَ الْعَاقِبَةِ.",
+            "meaning": "حُسْنُ العَاقِبَةِ.",
             "meaning_normalized": "حسن العاقبة"
           },
           {
             "ayah_number": 62,
             "word": "لَا جَرَمَ",
             "word_normalized": "لا جرم",
-            "meaning": "حَقًّا.",
+            "meaning": "حَقًّا.",
             "meaning_normalized": "حقا"
           },
           {
             "ayah_number": 62,
-            "word": "مُفْرَطُونَ",
+            "word": "مُّفْرَطُونَ",
             "word_normalized": "مفرطون",
-            "meaning": "مَتْرُوكُونَ فِي النَّارِ، مَنْسِيُّونَ.",
+            "meaning": "مَتْرُوكُونَ فِي النَّارِ، مَنْسِيُّونَ.",
             "meaning_normalized": "متروكون في النار منسيون"
           },
           {
@@ -160,14 +160,14 @@
             "ayah_number": 66,
             "word": "فَرْثٍ",
             "word_normalized": "فرث",
-            "meaning": "مَا فِي الْكَرِشِ.",
+            "meaning": "مَا فِي الكَرِشِ.",
             "meaning_normalized": "ما في الكرش"
           },
           {
             "ayah_number": 66,
-            "word": "سَآئِغًا",
+            "word": "سَائِغًا",
             "word_normalized": "سائغا",
-            "meaning": "لَذِيذًا لَا يَغَصُّ بِهِ شَارِبُهُ.",
+            "meaning": "لَذِيذًا لَا يَغَصُّ بِهِ شَارِبُهُ.",
             "meaning_normalized": "لذيذا لا يغص به شاربه"
           }
         ]

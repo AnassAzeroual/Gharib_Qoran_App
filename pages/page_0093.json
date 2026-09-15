@@ -27,19 +27,19 @@
             "ayah_number": 42,
             "word": "سُلْطَانٌ",
             "word_normalized": "سلطان",
-            "meaning": "قُوَّةٌ.",
+            "meaning": "قُوَّةٌ.",
             "meaning_normalized": "قوة"
           },
           {
             "ayah_number": 46,
             "word": "بِسَلَامٍ",
             "word_normalized": "بسلام",
-            "meaning": "سَالِمِينَ مِنْ كُلِّ سُوءٍ.",
+            "meaning": "سَالِمِينَ مِنْ كُلِّ سُوءٍ.",
             "meaning_normalized": "سالمين من كل سوء"
           },
           {
             "ayah_number": 47,
-            "word": "غِلٍّ",
+            "word": "غِلٍّ",
             "word_normalized": "غل",
             "meaning": "حِقْدٍ.",
             "meaning_normalized": "حقد"
@@ -53,7 +53,7 @@
           },
           {
             "ayah_number": 48,
-            "word": "نَبِّئْ",
+            "word": "نَبِّئْ",
             "word_normalized": "نبئ",
             "meaning": "أَخْبِرْ.",
             "meaning_normalized": "أخبر"
@@ -69,19 +69,19 @@
             "ayah_number": 55,
             "word": "الْقَانِطِينَ",
             "word_normalized": "القانطين",
-            "meaning": "الْيَائِسِينَ.",
+            "meaning": "اليَائِسِينَ.",
             "meaning_normalized": "اليائسين"
           },
           {
             "ayah_number": 57,
             "word": "فَمَا خَطْبُكُمْ",
             "word_normalized": "فما خطبكم",
-            "meaning": "فَمَا شَأْنُكُمُ الْخَطِيرُ؟",
-            "meaning_normalized": "فما شأنكم الخطير"
+            "meaning": "فَمَا شَانُكُمُ الخَطِيرُ؟",
+            "meaning_normalized": "فما شانكم الخطير"
           },
           {
             "ayah_number": 60,
-            "word": "قَدَّرْنَا",
+            "word": "قَدَّرْنَا",
             "word_normalized": "قدرنا",
             "meaning": "قَضَيْنَا.",
             "meaning_normalized": "قضينا"
@@ -90,12 +90,12 @@
             "ayah_number": 60,
             "word": "الْغَابِرِينَ",
             "word_normalized": "الغابرين",
-            "meaning": "الْبَاقِينَ فِي الْعَذَابِ.",
+            "meaning": "البَاقِينَ فِي العَذَابِ.",
             "meaning_normalized": "الباقين في العذاب"
           },
           {
             "ayah_number": 62,
-            "word": "مُنْكَرُونَ",
+            "word": "مُّنكَرُونَ",
             "word_normalized": "منكرون",
             "meaning": "غَيْرُ مَعْرُوفِينَ لِي.",
             "meaning_normalized": "غير معروفين لي"
@@ -104,7 +104,7 @@
             "ayah_number": 63,
             "word": "يَمْتَرُونَ",
             "word_normalized": "يمترون",
-            "meaning": "يَشُكُّونَ.",
+            "meaning": "يَشُكُّونَ.",
             "meaning_normalized": "يشكون"
           },
           {
@@ -116,7 +116,7 @@
           },
           {
             "ayah_number": 65,
-            "word": "وَاتَّبِعْ أَدْبَارَهُمْ",
+            "word": "وَاتَّبِعْ أَدْبَارَهُمْ",
             "word_normalized": "واتبع أدبارهم",
             "meaning": "سِرْ وَرَاءَهُمْ.",
             "meaning_normalized": "سر وراءهم"
@@ -146,28 +146,28 @@
             "ayah_number": 66,
             "word": "مَقْطُوعٌ",
             "word_normalized": "مقطوع",
-            "meaning": "مُهْلَكٌ بِالْعَذَابِ.",
+            "meaning": "مُهْلَكٌ بِالعَذَابِ.",
             "meaning_normalized": "مهلك بالعذاب"
           },
           {
             "ayah_number": 72,
             "word": "لَعَمْرُكَ",
             "word_normalized": "لعمرك",
-            "meaning": "قَسَمٌ مِنَ اللهِ بِحَيَاةِ نَبِيِّنَا مُحَمَّدٍ ﷺ.",
-            "meaning_normalized": "قسم من الله بحياة نبينا محمد"
+            "meaning": "قَسَمٌ مِنَ اللِه بِحَيَاةِ نَبِيِّنَا مُحَمَّدٍ - صلى الله عليه وسلم -.",
+            "meaning_normalized": "قسم من الله بحياة نبينا محمد صلى الله عليه وسلم"
           },
           {
             "ayah_number": 72,
             "word": "سَكْرَتِهِمْ",
             "word_normalized": "سكرتهم",
-            "meaning": "غَفْلَتِهِمْ.",
+            "meaning": "غفْلَتِهِمْ.",
             "meaning_normalized": "غفلتهم"
           },
           {
             "ayah_number": 72,
             "word": "يَعْمَهُونَ",
             "word_normalized": "يعمهون",
-            "meaning": "يَتَرَدَّدُونَ مُتَحَيِّرِينَ.",
+            "meaning": "يَتَرَدَّدُونَ مُتَحَيِّرِينَ.",
             "meaning_normalized": "يترددون متحيرين"
           }
         ]

@@ -25,21 +25,21 @@
         "glossary": [
           {
             "ayah_number": 43,
-            "word": "لِيُلَمِسَاكُمْ",
-            "word_normalized": "ليلمساكم",
-            "meaning": "لَجِبْتُمْ، وَتَرَدَّدْتُمْ.",
-            "meaning_normalized": "لجبتم وترددتم"
+            "word": "لَّفَشِلْتُمْ",
+            "word_normalized": "لفشلتم",
+            "meaning": "لَجَبُنْتُمْ، وَتَرَدَّدتُّمْ.",
+            "meaning_normalized": "لجبنتم وترددتم"
           },
           {
             "ayah_number": 43,
-            "word": "سَلَكُمْ",
-            "word_normalized": "سلكم",
-            "meaning": "وَكَأَنَّكُمْ مِنَ الْقَلَلِ، وَنَجَّاكُمْ مِنْ عَاقِبَتِهِ.",
-            "meaning_normalized": "وكأنكم من القلل ونجاكم من عاقبته"
+            "word": "سَلَّمَ",
+            "word_normalized": "سلم",
+            "meaning": "وَقَاكُمْ مِنَ الْفَشَلِ، وَنَجَّاكُم مِنْ عَاقِبَتِهِ.",
+            "meaning_normalized": "وقاكم من الفشل ونجاكم من عاقبته"
           },
           {
-            "ayah_number": 44,
-            "word": "فَتَفَشَلُوا",
+            "ayah_number": 46,
+            "word": "فَتَفْشَلُوا",
             "word_normalized": "فتفشلوا",
             "meaning": "تَضْعُفُوا، وَتَجْبُنُوا.",
             "meaning_normalized": "تضعفوا وتجبنوا"
@@ -53,15 +53,15 @@
           },
           {
             "ayah_number": 48,
-            "word": "حَائِرٌ لَكُمْ",
-            "word_normalized": "حائر لكم",
+            "word": "جَارٌ لَّكُمْ",
+            "word_normalized": "جار لكم",
             "meaning": "نَاصِرُكُمْ، وَمُجِيرُكُمْ.",
             "meaning_normalized": "ناصركم ومجيركم"
           },
           {
             "ayah_number": 48,
-            "word": "زَكَرَتْ",
-            "word_normalized": "زكرت",
+            "word": "تَرَاءَتِ",
+            "word_normalized": "تراءت",
             "meaning": "تَقَابَلَتْ.",
             "meaning_normalized": "تقابلت"
           },
@@ -73,80 +73,80 @@
             "meaning_normalized": "رجع مدبرا"
           },
           {
-            "ayah_number": 51,
-            "word": "كَدَأْبٍ",
-            "word_normalized": "كدأب",
-            "meaning": "كَعَادَةٍ، وَسُنَّةٍ.",
+            "ayah_number": 52,
+            "word": "كَدَابِ",
+            "word_normalized": "كداب",
+            "meaning": "كَعَادَةِ، وَسُنَّةِ.",
             "meaning_normalized": "كعادة وسنة"
           },
           {
-            "ayah_number": 52,
-            "word": "قَتَقَدَّمَهُمْ",
-            "word_normalized": "قتقدمهم",
-            "meaning": "تُجَادِلُهُمْ.",
-            "meaning_normalized": "تجادلهم"
+            "ayah_number": 57,
+            "word": "تَثْقَفَنَّهُمْ",
+            "word_normalized": "تثقفنهم",
+            "meaning": "تَجِدَنَّهُمْ.",
+            "meaning_normalized": "تجدنهم"
           },
           {
             "ayah_number": 57,
-            "word": "فَيَتَرُّدْ بِهِمْ مِنْ خَلْفِهِمْ",
-            "word_normalized": "فيترد بهم من خلفهم",
-            "meaning": "أَنْزِلْ بِهِمْ عَذَابًا يَخُوفُ مِنْ وَرَائِهِمْ.",
-            "meaning_normalized": "أنزل بهم عذابا يخوف من ورائهم"
+            "word": "فَشَرِّدْ بِهِم مَّنْ خَلْفَهُمْ",
+            "word_normalized": "فشرد بهم من خلفهم",
+            "meaning": "أَنْزِلْ بِهِمْ عَذَابًا يُخَوِّفُ مَنْ وَرَاءَهُمْ.",
+            "meaning_normalized": "أنزل بهم عذابا يخوف من وراءهم"
           },
           {
             "ayah_number": 58,
-            "word": "فَأَئِبَةً",
-            "word_normalized": "فأئبة",
-            "meaning": "فَاطْرَحْ عَهْدَهُمْ.",
+            "word": "فَانبِذْ",
+            "word_normalized": "فانبذ",
+            "meaning": "فاطْرَحْ عَهْدَهُمْ.",
             "meaning_normalized": "فاطرح عهدهم"
           },
           {
-            "ayah_number": 59,
+            "ayah_number": 58,
             "word": "عَلَى سَوَاءٍ",
             "word_normalized": "على سواء",
-            "meaning": "لِتَكُونُوا وَإِيَّاهُمْ مُسْتَوِينَ فِي الْعِلْمِ بِطَرْحِهِ.",
+            "meaning": "لِتَكُونُوا وَإِيَّاهُمْ مُسْتَوِينَ فِي الْعِلْمِ بِطَرْحِهِ.",
             "meaning_normalized": "لتكونوا وإياهم مستوين في العلم بطرحه"
           },
           {
             "ayah_number": 59,
             "word": "سَبَقُوا",
             "word_normalized": "سبقوا",
-            "meaning": "فَاتُوا، وَنَجَوْا مِنْ عَذَابِ اللهِ.",
+            "meaning": "فَاتُوا، وَنَجَوْا مِنَ عَذَابِ اللهِ.",
             "meaning_normalized": "فاتوا ونجوا من عذاب الله"
           },
           {
-            "ayah_number": 60,
-            "word": "جَسَّمُوا",
-            "word_normalized": "جسموا",
+            "ayah_number": 61,
+            "word": "جَنَحُوا",
+            "word_normalized": "جنحوا",
             "meaning": "مَالُوا.",
             "meaning_normalized": "مالوا"
           },
           {
             "ayah_number": 61,
-            "word": "لِلسَّلْمِ",
+            "word": "لِلسَّلْمِ",
             "word_normalized": "للسلم",
             "meaning": "لِلْمُسَالَمَةِ وَتَرْكِ الْحَرْبِ.",
             "meaning_normalized": "للمسالمة وترك الحرب"
           },
           {
-            "ayah_number": 63,
+            "ayah_number": 61,
             "word": "فَاجْنَحْ",
             "word_normalized": "فاجنح",
-            "meaning": "مَلْ.",
+            "meaning": "مِلْ.",
             "meaning_normalized": "مل"
           },
           {
-            "ayah_number": 64,
-            "word": "حَسْبُكَ",
+            "ayah_number": 62,
+            "word": "حَسْبَكَ",
             "word_normalized": "حسبك",
-            "meaning": "كَافِيكَ.",
+            "meaning": "كَافِيَكَ.",
             "meaning_normalized": "كافيك"
           },
           {
             "ayah_number": 65,
-            "word": "حَرِّضٍ",
+            "word": "حَرِّضِ",
             "word_normalized": "حرض",
-            "meaning": "حَثَّ.",
+            "meaning": "حُثَّ.",
             "meaning_normalized": "حث"
           },
           {
@@ -157,18 +157,18 @@
             "meaning_normalized": "يبالغ في القتل"
           },
           {
-            "ayah_number": 67,
-            "word": "فَأَنْكُمْ بِهِمْ",
-            "word_normalized": "فأنكم بهم",
-            "meaning": "أَقْدَرُكَ عَلَيْهِمْ.",
+            "ayah_number": 71,
+            "word": "فَأَمْكَنَ مِنْهُمْ",
+            "word_normalized": "فأمكن منهم",
+            "meaning": "أَقْدَرَكَ عَلَيْهِمْ.",
             "meaning_normalized": "أقدرك عليهم"
           },
           {
             "ayah_number": 72,
-            "word": "هَاجَرُوا",
-            "word_normalized": "هاجروا",
-            "meaning": "أَنْزَلُوا الْمُهَاجِرِينَ فِي دِيَارِهِمْ.",
-            "meaning_normalized": "أنزلوا المهاجرين في ديارهم"
+            "word": "آوَوْا",
+            "word_normalized": "آووا",
+            "meaning": "أَنْزَلُوا الْمُهَاجِرِينَ فِي دُورِهِمْ.",
+            "meaning_normalized": "أنزلوا المهاجرين في دورهم"
           }
         ]
       }

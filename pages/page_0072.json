@@ -24,135 +24,135 @@
         },
         "glossary": [
           {
-            "ayah_number": 80,
-            "word": "وَيَبْحَثُ",
-            "word_normalized": "ويبحث",
+            "ayah_number": 82,
+            "word": "وَيُحِقُّ",
+            "word_normalized": "ويحق",
             "meaning": "يُثْبِتُ وَيُعْلِي.",
             "meaning_normalized": "يثبت ويعلي"
           },
           {
-            "ayah_number": 82,
-            "word": "فَمَاذَا",
-            "word_normalized": "فماذا",
-            "meaning": "لِجَبَّارٍ، مُسْتَكْبِرٍ.",
+            "ayah_number": 83,
+            "word": "لَعَالٍ",
+            "word_normalized": "لعال",
+            "meaning": "لَجَبَّارٌ، مُسْتَكْبِرٌ.",
             "meaning_normalized": "لجبار مستكبر"
           },
           {
             "ayah_number": 83,
             "word": "الْمُسْرِفِينَ",
             "word_normalized": "المسرفين",
-            "meaning": "الْمُتَجَاوِزِينَ الْحَدَّ فِي الْكُفْرِ وَالْفَسَادِ.",
+            "meaning": "المُتَجَاوِزِينَ الحَدَّ فِي الكُفْرِ وَالفَسَادِ.",
             "meaning_normalized": "المتجاوزين الحد في الكفر والفساد"
           },
           {
-            "ayah_number": 83,
-            "word": "فَشَلِيلٍ",
-            "word_normalized": "فشليل",
-            "meaning": "مُذْعِنِينَ لَهُ بِالطَّاعَةِ.",
+            "ayah_number": 84,
+            "word": "مُّسْلِمِينَ",
+            "word_normalized": "مسلمين",
+            "meaning": "مُذْعِنِينَ لَهُ بِالطَّاعَةِ.",
             "meaning_normalized": "مذعنين له بالطاعة"
           },
           {
             "ayah_number": 85,
-            "word": "وَلَا تَجْعَلْنَا فِتْنَةً لِلْقَوْمِ الظَّالِمِينَ",
-            "word_normalized": "ولا تجعلنا فتنة للقوم الظالمين",
-            "meaning": "لَا تَنْصُرْهُمْ عَلَيْنَا، فَيَظُنُّوا أَنَّهُمْ عَلَى الْحَقِّ؛ فَيَفْتَتِنُوا، أَوْ يَفْتِنُونَا عَنِ الدِّينِ.",
+            "word": "لَا تَجْعَلْنَا فِتْنَةً لِّلْقَوْمِ الظَّالِمِينَ",
+            "word_normalized": "لا تجعلنا فتنة للقوم الظالمين",
+            "meaning": "لَا تَنْصُرْهُمْ عَلَيْنَا، فَيَظُنُّوا أَنَّهُمْ عَلَى الحَقِّ؛ فَيَفْتَتِنُوا، أَوْ يَفْتِنوُنَا عَنِ الدِّينِ.",
             "meaning_normalized": "لا تنصرهم علينا فيظنوا أنهم على الحق فيفتتنوا أو يفتنونا عن الدين"
           },
           {
             "ayah_number": 87,
-            "word": "بُيُوتًا",
-            "word_normalized": "بيوتا",
-            "meaning": "اتَّخَذُوا.",
-            "meaning_normalized": "اتخذوا"
+            "word": "تَبَوَّءَا",
+            "word_normalized": "تبوءا",
+            "meaning": "اتَّخِذَا.",
+            "meaning_normalized": "اتخذا"
           },
           {
             "ayah_number": 87,
-            "word": "قَبْلَةً",
+            "word": "قِبْلَةً",
             "word_normalized": "قبلة",
-            "meaning": "مَسَاجِدَ يُصَلُّونَ فِيهَا عِنْدَ الْخَوْفِ.",
-            "meaning_normalized": "مساجد يصلون فيها عند الخوف"
+            "meaning": "مَسَاجِدَ تُصَلُّونَ فِيهَا عِنْدَ الخَوْفِ.",
+            "meaning_normalized": "مساجد تصلون فيها عند الخوف"
           },
           {
             "ayah_number": 88,
             "word": "اطْمِسْ عَلَى أَمْوَالِهِمْ",
             "word_normalized": "اطمس على أموالهم",
-            "meaning": "أَهْلِكْهَا.",
-            "meaning_normalized": "أهلكها"
+            "meaning": "أَتْلِفْهَا.",
+            "meaning_normalized": "أتلفها"
           },
           {
-            "ayah_number": 89,
+            "ayah_number": 88,
             "word": "وَاشْدُدْ عَلَى قُلُوبِهِمْ",
             "word_normalized": "واشدد على قلوبهم",
-            "meaning": "الْحَيَّةَ عَلَيْهَا حَتَّى لَا تُؤْمِنَ.",
-            "meaning_normalized": "الحية عليها حتى لا تؤمن"
+            "meaning": "اخْتِمْ عَلَيْهَا حَتَّى لَا تُؤْمِنَ.",
+            "meaning_normalized": "اختم عليها حتى لا تؤمن"
           },
           {
             "ayah_number": 89,
-            "word": "فَأَسْتَقِيمَا",
-            "word_normalized": "فأستقيما",
-            "meaning": "فَاثْبُتَا عَلَى الدِّينِ، وَاسْتَمِرَّا عَلَى الدَّعْوَةِ.",
+            "word": "فَاسْتَقِيمَا",
+            "word_normalized": "فاستقيما",
+            "meaning": "فاثْبُتَا عَلَى الدِّينِ، واسْتَمِرَّا علَى الدَّعْوَةِ.",
             "meaning_normalized": "فاثبتا على الدين واستمرا على الدعوة"
           },
           {
-            "ayah_number": 90,
-            "word": "وَلَا تَتَّبِعَانِ",
+            "ayah_number": 89,
+            "word": "وَلَا تَتَّبِعَانِّ",
             "word_normalized": "ولا تتبعان",
-            "meaning": "لَا تَسْلُكَا.",
-            "meaning_normalized": "لا تسلكا"
+            "meaning": "لَا تَسْلُكَانِّ.",
+            "meaning_normalized": "لا تسلكان"
+          },
+          {
+            "ayah_number": 90,
+            "word": "وَجَاوَزْنَا",
+            "word_normalized": "وجاوزنا",
+            "meaning": "قَطَعْنَا.",
+            "meaning_normalized": "قطعنا"
+          },
+          {
+            "ayah_number": 90,
+            "word": "بَغْيًا وَعَدْوًا",
+            "word_normalized": "بغيا وعدوا",
+            "meaning": "ظُلْمًا، وَعُدْوَانًا.",
+            "meaning_normalized": "ظلما وعدوانا"
           },
           {
             "ayah_number": 92,
-            "word": "وَنُجَوِّزُكَ",
-            "word_normalized": "ونجوزك",
-            "meaning": "فَطَلَعْنَا.",
-            "meaning_normalized": "فطلعنا"
-          },
-          {
-            "ayah_number": 90,
-            "word": "بَهِيًّا وَعُدْنَا",
-            "word_normalized": "بهيا وعدنا",
-            "meaning": "ظَلَمْنَا، وَعَدَوْنَا.",
-            "meaning_normalized": "ظلمنا وعدونا"
-          },
-          {
-            "ayah_number": 94,
-            "word": "تُنْجِيكَ",
-            "word_normalized": "تنجيك",
-            "meaning": "نُخْرِجُكَ مِنَ الْبَحْرِ، وَنَجْعَلُكَ عَلَى مُرْتَفَعٍ مِنَ الْأَرْضِ.",
+            "word": "نُنَجِّيكَ",
+            "word_normalized": "ننجيك",
+            "meaning": "نُخْرِجُكَ مِنَ البَحْرِ، وَنَجْعَلُكَ عَلَى مُرْتَفِعٍ مِنَ الأَرْضِ.",
             "meaning_normalized": "نخرجك من البحر ونجعلك على مرتفع من الأرض"
           },
           {
-            "ayah_number": 96,
-            "word": "بَالِهُ",
-            "word_normalized": "باله",
+            "ayah_number": 92,
+            "word": "آيَةً",
+            "word_normalized": "آية",
             "meaning": "عِبْرَةً.",
             "meaning_normalized": "عبرة"
           },
           {
             "ayah_number": 93,
-            "word": "بَوَّأْنَا",
-            "word_normalized": "بوأنا",
+            "word": "بَوَّانَا",
+            "word_normalized": "بوانا",
             "meaning": "أَنْزَلْنَا.",
             "meaning_normalized": "أنزلنا"
           },
           {
-            "ayah_number": 94,
-            "word": "صِدْقٍ صِدْقٍ",
-            "word_normalized": "صدق صدق",
-            "meaning": "مَنْزِلًا صَالِحًا بِالشَّامِ وَمِصْرٍ.",
+            "ayah_number": 93,
+            "word": "مُبَوَّأَ صِدْقٍ",
+            "word_normalized": "مبوأ صدق",
+            "meaning": "مَنْزِلًا صَالِحًا بِالشَّامِ وَمِصْرَ.",
             "meaning_normalized": "منزلا صالحا بالشام ومصر"
           },
           {
             "ayah_number": 94,
-            "word": "الْمُمْتَوِينَ",
-            "word_normalized": "الممتوين",
-            "meaning": "الشَّاكِّينَ.",
+            "word": "الْمُمْتَرِينَ",
+            "word_normalized": "الممترين",
+            "meaning": "الشَّاكِّينَ.",
             "meaning_normalized": "الشاكين"
           },
           {
-            "ayah_number": 98,
-            "word": "حَنِيثٌ",
-            "word_normalized": "حنيث",
+            "ayah_number": 96,
+            "word": "حَقَّتْ",
+            "word_normalized": "حقت",
             "meaning": "وَجَبَتْ.",
             "meaning_normalized": "وجبت"
           }

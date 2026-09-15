@@ -20,40 +20,40 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
             "ayah_number": 2,
             "word": "تَمْتَرُونَ",
             "word_normalized": "تمترون",
-            "meaning": "تَشُكُّونَ.",
+            "meaning": "تَشُكُّونَ.",
             "meaning_normalized": "تشكون"
           },
           {
             "ayah_number": 3,
-            "word": "وَهُوَ اللَّهُ",
+            "word": "وَهُوَ اللهُ",
             "word_normalized": "وهو الله",
-            "meaning": "الْإِلَهُ الْمَعْبُودُ بِحَقٍّ.",
+            "meaning": "الإِلَهُ المَعْبُودُ بِحَقٍّ.",
             "meaning_normalized": "الإله المعبود بحق"
           },
           {
             "ayah_number": 6,
             "word": "قَرْنٍ",
             "word_normalized": "قرن",
-            "meaning": "أُمَّةٍ مِنَ النَّاسِ.",
+            "meaning": "أُمَّةٍ مِنَ النَّاسِ.",
             "meaning_normalized": "أمة من الناس"
           },
           {
             "ayah_number": 6,
-            "word": "مِدْرَارًا",
+            "word": "مِّدْرَارًا",
             "word_normalized": "مدرارا",
             "meaning": "غَزِيرًا.",
             "meaning_normalized": "غزيرا"
           },
           {
             "ayah_number": 8,
-            "word": "لَا يُنْظَرُونَ",
+            "word": "لَا يُنظَرُونَ",
             "word_normalized": "لا ينظرون",
             "meaning": "لَا يُمْهَلُونَ.",
             "meaning_normalized": "لا يمهلون"
@@ -62,7 +62,7 @@
             "ayah_number": 9,
             "word": "وَلَلَبَسْنَا",
             "word_normalized": "وللبسنا",
-            "meaning": "لَخَلَطْنَا حَتَّى يَشْتَبِهَ عَلَيْهِمُ الْأَمْرُ.",
+            "meaning": "لَخَلَّطْنَا حَتَّى يَشْتَبِهَ عَلَيْهِمُ الأَمْرُ.",
             "meaning_normalized": "لخلطنا حتى يشتبه عليهم الأمر"
           },
           {
@@ -88,7 +88,7 @@
           },
           {
             "ayah_number": 25,
-            "word": "أَكِنَّةً",
+            "word": "أَكِنَّةً",
             "word_normalized": "أكنة",
             "meaning": "أَغْطِيَةً.",
             "meaning_normalized": "أغطية"
@@ -102,9 +102,9 @@
           },
           {
             "ayah_number": 25,
-            "word": "أَسَاطِيرُ الْأَوَّلِينَ",
+            "word": "أَسَاطِيرُ الأَوَّلِينَ",
             "word_normalized": "أساطير الأولين",
-            "meaning": "حِكَايَاتُهُمُ الَّتِي لَا حَقِيقَةَ لَهَا.",
+            "meaning": "حِكَايَاتُهُمُ الَّتِي لَا حَقِيقَةَ لَهَا.",
             "meaning_normalized": "حكاياتهم التي لا حقيقة لها"
           },
           {
@@ -123,23 +123,23 @@
           },
           {
             "ayah_number": 38,
-            "word": "مَا فَرَّطْنَا",
+            "word": "مَّا فَرَّطْنَا",
             "word_normalized": "ما فرطنا",
             "meaning": "مَا تَرَكْنَا.",
             "meaning_normalized": "ما تركنا"
           },
           {
             "ayah_number": 39,
-            "word": "صُمٌّ",
+            "word": "صُمٌّ",
             "word_normalized": "صم",
-            "meaning": "الَّذِينَ لَا يَسْمَعُونَ.",
+            "meaning": "الَّذِينَ لَا يَسْمَعُونَ.",
             "meaning_normalized": "الذين لا يسمعون"
           },
           {
             "ayah_number": 39,
             "word": "وَبُكْمٌ",
             "word_normalized": "وبكم",
-            "meaning": "الَّذِينَ لَا يَتَكَلَّمُونَ.",
+            "meaning": "الَّذِينَ لَا يَتَكَلَّمُونَ.",
             "meaning_normalized": "الذين لا يتكلمون"
           },
           {
@@ -151,23 +151,23 @@
           },
           {
             "ayah_number": 42,
-            "word": "بِالْبَأْسَاءِ",
-            "word_normalized": "بالبأساء",
+            "word": "بِالْبَاسَاءِ",
+            "word_normalized": "بالباساء",
             "meaning": "الْفَقْرِ.",
             "meaning_normalized": "الفقر"
           },
           {
             "ayah_number": 42,
-            "word": "وَالضَّرَّاءِ",
+            "word": "وَالضَّرَّاءِ",
             "word_normalized": "والضراء",
             "meaning": "الْمَرَضِ.",
             "meaning_normalized": "المرض"
           },
           {
             "ayah_number": 44,
-            "word": "مُبْلِسُونَ",
+            "word": "مُّبْلِسُونَ",
             "word_normalized": "مبلسون",
-            "meaning": "آيِسُونَ، مُنْقَطِعُونَ مِنْ كُلِّ خَيْرٍ.",
+            "meaning": "آيِسُونَ، مُنْقَطِعُونَ مِنْ كُلِّ خَيْرٍ.",
             "meaning_normalized": "آيسون منقطعون من كل خير"
           }
         ]

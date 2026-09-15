@@ -25,29 +25,29 @@
         "glossary": [
           {
             "ayah_number": 20,
-            "word": "سَوْءَاتُهُمَا",
+            "word": "سَوْءَاتِهِمَا",
             "word_normalized": "سوءاتهما",
-            "meaning": "عَوْرَاتُهُمَا.",
+            "meaning": "عَوْرَاتِهِمَا.",
             "meaning_normalized": "عوراتهما"
           },
           {
-            "ayah_number": 22,
-            "word": "وَفَاسَهُمَا",
-            "word_normalized": "وفاسهما",
+            "ayah_number": 21,
+            "word": "وَقَاسَمَهُمَا",
+            "word_normalized": "وقاسمهما",
             "meaning": "أَقْسَمَ وَحَلَفَ لَهُمَا.",
             "meaning_normalized": "أقسم وحلف لهما"
           },
           {
             "ayah_number": 22,
-            "word": "فَدَلَّاهُمَا",
+            "word": "فَدَلَّاهُمَا",
             "word_normalized": "فدلاهما",
-            "meaning": "فَحَرَّكَهُمَا، وَعَرَّضَهُمَا.",
-            "meaning_normalized": "فحركهما وعرضهما"
+            "meaning": "فَجَرَّأَهُمَا، وَغَرَّهُمَا.",
+            "meaning_normalized": "فجرأهما وغرهما"
           },
           {
             "ayah_number": 22,
-            "word": "طَفِقَا",
-            "word_normalized": "طفقا",
+            "word": "وَطَفِقَا",
+            "word_normalized": "وطفقا",
             "meaning": "شَرَعَا، وَأَخَذَا.",
             "meaning_normalized": "شرعا وأخذا"
           },
@@ -60,86 +60,86 @@
           },
           {
             "ayah_number": 26,
-            "word": "وَرِيشَ سَوْءَاتِكُمْ",
-            "word_normalized": "وريش سوءاتكم",
-            "meaning": "يَسْتُرُ عَوْرَاتِكُمْ، وَهُوَ لِبَاسُ الضَّرُورَةِ.",
+            "word": "يُوَارِي سَوْءَاتِكُمْ",
+            "word_normalized": "يواري سوءاتكم",
+            "meaning": "يَسْتُرُ عَوْرَاتِكُمْ، وَهُوَ لِبَاسُ الضَّرُورَةِ.",
             "meaning_normalized": "يستر عوراتكم وهو لباس الضرورة"
           },
           {
             "ayah_number": 26,
             "word": "وَرِيشًا",
             "word_normalized": "وريشا",
-            "meaning": "لِبَاسُ الزِّينَةِ.",
+            "meaning": "لِبَاسَ الزِّينَةِ.",
             "meaning_normalized": "لباس الزينة"
           },
           {
             "ayah_number": 27,
-            "word": "يَنْزِعُنَّكُمْ",
-            "word_normalized": "ينزعنكم",
-            "meaning": "يُصْلِحُكُمْ، وَيَخْدَعُكُمْ.",
-            "meaning_normalized": "يصلحكم ويخدعكم"
+            "word": "يَفْتِنَنَّكُمُ",
+            "word_normalized": "يفتننكم",
+            "meaning": "يُضِلَّنَّكُمْ، وَيَخْدَعَنَّكُمْ.",
+            "meaning_normalized": "يضلنكم ويخدعنكم"
           },
           {
-            "ayah_number": 27,
-            "word": "بِالْفَسْطِ",
-            "word_normalized": "بالفسط",
+            "ayah_number": 29,
+            "word": "بِالْقِسْطِ",
+            "word_normalized": "بالقسط",
             "meaning": "بِالْعَدْلِ.",
             "meaning_normalized": "بالعدل"
           },
           {
-            "ayah_number": 29,
-            "word": "خَذْنَا رَيْئَكُمْ",
-            "word_normalized": "خذنا ريئكم",
-            "meaning": "سَاتِرِينَ عَوْرَاتِكُمْ، مُتَزَيِّنِينَ.",
+            "ayah_number": 31,
+            "word": "خُذُوا زِينَتَكُمْ",
+            "word_normalized": "خذوا زينتكم",
+            "meaning": "سَاتِرِينَ عَوْرَاتِكُمْ، مُتَزَيِّنِينَ.",
             "meaning_normalized": "ساترين عوراتكم متزينين"
           },
           {
             "ayah_number": 37,
-            "word": "نَصِيبُهُمْ",
+            "word": "نَصِيبُهُم",
             "word_normalized": "نصيبهم",
-            "meaning": "حَظُّهُمْ.",
+            "meaning": "حَظُّهُمْ.",
             "meaning_normalized": "حظهم"
           },
           {
             "ayah_number": 37,
-            "word": "مِنَ الْكِتَابِ",
+            "word": "مِّنَ الْكِتَابِ",
             "word_normalized": "من الكتاب",
-            "meaning": "مَا كُتِبَ عَلَيْهِمْ فِي اللَّوْحِ مِنَ الْعَذَابِ.",
+            "meaning": "مَا كُتِبَ عَلَيْهِمْ فِي اللَّوْحِ مِنَ العَذَابِ.",
             "meaning_normalized": "ما كتب عليهم في اللوح من العذاب"
           },
           {
             "ayah_number": 38,
-            "word": "أُمَمٌ",
-            "word_normalized": "أمم",
-            "meaning": "نَظِيرَتُهَا الَّتِي اقْتَدَتْ بِهَا.",
+            "word": "أُخْتَهَا",
+            "word_normalized": "أختها",
+            "meaning": "نَظِيرَتَهَا الَّتِي اقْتَدَتْ بِهَا.",
             "meaning_normalized": "نظيرتها التي اقتدت بها"
           },
           {
             "ayah_number": 38,
-            "word": "فَرَادَّكَهَا",
-            "word_normalized": "فراددكها",
+            "word": "ادَّارَكُوا",
+            "word_normalized": "اداركوا",
             "meaning": "تَلَاحَقُوا.",
             "meaning_normalized": "تلاحقوا"
           },
           {
             "ayah_number": 38,
-            "word": "يَصَّدَّقُوا",
-            "word_normalized": "يصدقوا",
-            "meaning": "مُتَضَايِعًا.",
-            "meaning_normalized": "متضايعا"
+            "word": "ضِعْفًا",
+            "word_normalized": "ضعفا",
+            "meaning": "مُضَاعَفًا.",
+            "meaning_normalized": "مضاعفا"
           },
           {
             "ayah_number": 40,
-            "word": "يَلِجُ",
+            "word": "يَلِجَ",
             "word_normalized": "يلج",
-            "meaning": "يَدْخُلُ.",
+            "meaning": "يَدْخُلَ.",
             "meaning_normalized": "يدخل"
           },
           {
             "ayah_number": 40,
-            "word": "سَمُّ الْخِيَاطِ",
+            "word": "سَمِّ الْخِيَاطِ",
             "word_normalized": "سم الخياط",
-            "meaning": "ثُقْبُ الْإِبْرَةِ.",
+            "meaning": "ثُقْبِ الإِبْرَةِ.",
             "meaning_normalized": "ثقب الإبرة"
           },
           {
@@ -150,17 +150,17 @@
             "meaning_normalized": "فراش"
           },
           {
-            "ayah_number": 44,
-            "word": "غَوَايِبُ",
-            "word_normalized": "غوايب",
-            "meaning": "أَغْطِيَةٌ تَغْشَاهُمْ:",
+            "ayah_number": 41,
+            "word": "غَوَاشٍ",
+            "word_normalized": "غواش",
+            "meaning": "أَغْطِيَةٌ تَغْشَاهُمْ.",
             "meaning_normalized": "أغطية تغشاهم"
           },
           {
             "ayah_number": 46,
             "word": "حِجَابٌ",
             "word_normalized": "حجاب",
-            "meaning": "حَاجِزٌ، وَهُوَ سُورٌ بَيْنَهُمَا، يُقَالُ لَهُ: (الْأَعْرَافُ).",
+            "meaning": "حَاجِزٌ، وَهُوَ سُورٌ بَيْنَهُمَا، يُقَالُ لَهٌ: (الأَعْرَافُ).",
             "meaning_normalized": "حاجز وهو سور بينهما يقال له الأعراف"
           }
         ]

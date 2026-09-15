@@ -25,36 +25,36 @@
         "glossary": [
           {
             "ayah_number": 173,
-            "word": "ذُرِّيَّةً",
+            "word": "ذُرِّيَّةً",
             "word_normalized": "ذرية",
             "meaning": "صِغَارًا.",
             "meaning_normalized": "صغارا"
           },
           {
             "ayah_number": 175,
-            "word": "فَانْسَلَخَ مِنْهَا",
+            "word": "فَانسَلَخَ مِنْهَا",
             "word_normalized": "فانسلخ منها",
-            "meaning": "خَرَجَ مِنْهَا بُخُرُوهُ، وَنَبَذَهَا.",
-            "meaning_normalized": "خرج منها بخروه ونبذها"
+            "meaning": "خَرَجَ مِنْهَا بِكُفْرِهِ، وَنَبَذَهَا.",
+            "meaning_normalized": "خرج منها بكفره ونبذها"
           },
           {
             "ayah_number": 175,
-            "word": "فَأَتْبَعَهُ الشَّيْطَانُ",
+            "word": "فَأَتْبَعَهُ الشَّيْطَانُ",
             "word_normalized": "فأتبعه الشيطان",
             "meaning": "لَحِقَهُ، وَصَارَ قَرِينَهُ، وَاسْتَحْوَذَ عَلَيْهِ.",
             "meaning_normalized": "لحقه وصار قرينه واستحوذ عليه"
           },
           {
             "ayah_number": 176,
-            "word": "أَخْلَدَ إِلَى الْأَرْضِ",
+            "word": "أَخْلَدَ إِلَى الأَرْضِ",
             "word_normalized": "أخلد إلى الأرض",
-            "meaning": "رَكَنَ إِلَى الدُّنْيَا، وَرَضِيَ بِهَا.",
+            "meaning": "رَكَنَ إِلَى الدُّنْيَا، وَرَضِيَ بِهَا.",
             "meaning_normalized": "ركن إلى الدنيا ورضي بها"
           },
           {
             "ayah_number": 176,
-            "word": "تَصَّلْ عَلَيْهِ",
-            "word_normalized": "تصل عليه",
+            "word": "تَحْمِلْ عَلَيْهِ",
+            "word_normalized": "تحمل عليه",
             "meaning": "تَطْرُدْهُ.",
             "meaning_normalized": "تطرده"
           },
@@ -62,8 +62,8 @@
             "ayah_number": 176,
             "word": "يَلْهَثْ",
             "word_normalized": "يلهث",
-            "meaning": "يُخْرِجُ لِسَانَهُ لَا هَثًّا.",
-            "meaning_normalized": "يخرج لسانه لا هثا"
+            "meaning": "يُخْرِجْ لِسَانَهُ لَاهِثًا.",
+            "meaning_normalized": "يخرج لسانه لاهثا"
           },
           {
             "ayah_number": 177,
@@ -73,74 +73,74 @@
             "meaning_normalized": "قبح"
           },
           {
-            "ayah_number": 178,
-            "word": "ذَرْنَاهُ",
-            "word_normalized": "ذرناه",
-            "meaning": "خَلَقْنَاهُ.",
-            "meaning_normalized": "خلقناه"
+            "ayah_number": 179,
+            "word": "ذَرَأنَا",
+            "word_normalized": "ذرأنا",
+            "meaning": "خَلَقْنَا.",
+            "meaning_normalized": "خلقنا"
           },
           {
-            "ayah_number": 179,
-            "word": "وَلِلْحَدِيثِ",
-            "word_normalized": "وللحديث",
-            "meaning": "يُمِيلُونَ عَنِ الْحَقِّ فِي أَسْمَائِهِ؛ كَأَن يُسَمُّوا اللَّهَ هُمْ بِأَسْمَائِهِ، أَوْ فِي مَعَانِيهَا يُحَرِّفُونَهَا.",
-            "meaning_normalized": "يميلون عن الحق في أسمائه كأن يسموا الله هم بأسمائه أو في معانيها يحرفونها"
+            "ayah_number": 180,
+            "word": "يُلْحِدُونَ",
+            "word_normalized": "يلحدون",
+            "meaning": "يَمِيلُونَ عَنِ الْحَقِّ فِي أَسْمَائِهِ؛ كَأَنْ يُسَمُّوا آلِهَتَهُمْ بِأَسْمَائِهِ، أَوْ فِي مَعَانِيهَا بِتَحْرِيفِهَا.",
+            "meaning_normalized": "يميلون عن الحق في أسمائه كأن يسموا آلهتهم بأسمائه أو في معانيها بتحريفها"
           },
           {
             "ayah_number": 181,
-            "word": "يَدْلُوتُ",
-            "word_normalized": "يدلوت",
+            "word": "يَعْدِلُونَ",
+            "word_normalized": "يعدلون",
             "meaning": "يَقْضُونَ، وَيَحْكُمُونَ.",
             "meaning_normalized": "يقضون ويحكمون"
           },
           {
             "ayah_number": 182,
-            "word": "سَتُسْتَدْرِجُهُمْ",
-            "word_normalized": "ستستدرجهم",
-            "meaning": "سَتَفْتَحُ لَهُمُ الْأَرْزَاقَ؛ لِيَغْتَرُّوا، ثُمَّ نُعَاجِئُهُمْ بِالْعُقُوبَةِ.",
-            "meaning_normalized": "ستفتح لهم الأرزاق ليغتروا ثم نعاجئهم بالعقوبة"
+            "word": "سَنَسْتَدْرِجُهُم",
+            "word_normalized": "سنستدرجهم",
+            "meaning": "سِنَفْتَحُ لَهُمُ الأَرْزَاقَ؛ لِيَغْتَرُّوا، ثُمَّ نُبَاغِتُهُمْ بِالْعُقُوبَةِ.",
+            "meaning_normalized": "سنفتح لهم الأرزاق ليغتروا ثم نباغتهم بالعقوبة"
           },
           {
             "ayah_number": 183,
             "word": "وَأُمْلِي لَهُمْ",
             "word_normalized": "وأملي لهم",
-            "meaning": "أُمْهِلُهُمْ.",
+            "meaning": "أَمْهِلُهُمْ.",
             "meaning_normalized": "أمهلهم"
           },
           {
-            "ayah_number": 184,
+            "ayah_number": 183,
             "word": "مَتِينٌ",
             "word_normalized": "متين",
-            "meaning": "قَوِيٌّ، شَدِيدٌ، لَا يَدْفَعُ بِقُوَّةٍ، وَلَا جِلَّةَ.",
-            "meaning_normalized": "قوي شديد لا يدفع بقوة ولا جلة"
+            "meaning": "قَوِيٌّ، شَدِيدٌ، لَا يُدْفَعُ بِقُوَّةٍ، وَلَا حِيلَةٍ.",
+            "meaning_normalized": "قوي شديد لا يدفع بقوة ولا حيلة"
           },
           {
-            "ayah_number": 186,
-            "word": "جَنَّةٌ",
+            "ayah_number": 184,
+            "word": "جِنَّةٍ",
             "word_normalized": "جنة",
-            "meaning": "جُنُونٌ.",
+            "meaning": "جُنُونٍ.",
             "meaning_normalized": "جنون"
           },
           {
             "ayah_number": 186,
-            "word": "يَتَعَذَّرُونَ",
-            "word_normalized": "يتعذرون",
-            "meaning": "يَتَعَذَّرُونَ، وَيَتَرَدَّدُونَ.",
-            "meaning_normalized": "يتعذرون ويترددون"
+            "word": "يَعْمَهُونَ",
+            "word_normalized": "يعمهون",
+            "meaning": "يَتَحَيَّرُونَ، وَيَتَرَدَّدُونَ.",
+            "meaning_normalized": "يتحيرون ويترددون"
           },
           {
             "ayah_number": 187,
-            "word": "أَيَّانَ مُرْسَاهَا",
+            "word": "أَيَّانَ مُرْسَاهَا",
             "word_normalized": "أيان مرساها",
             "meaning": "مَتَى وُقُوعُهَا.",
             "meaning_normalized": "متى وقوعها"
           },
           {
             "ayah_number": 187,
-            "word": "مَجْنُوهَا",
-            "word_normalized": "مجنوها",
-            "meaning": "ظُهُورُهَا.",
-            "meaning_normalized": "ظهورها"
+            "word": "يُجَلِّيهَا",
+            "word_normalized": "يجليها",
+            "meaning": "يُظْهِرُهَا.",
+            "meaning_normalized": "يظهرها"
           },
           {
             "ayah_number": 187,
@@ -150,9 +150,9 @@
             "meaning_normalized": "عظم علمها وخفي"
           },
           {
-            "ayah_number": 188,
-            "word": "حَرِيصٌ عَنْهَا",
-            "word_normalized": "حريص عنها",
+            "ayah_number": 187,
+            "word": "حَفِيٌّ عَنْهَا",
+            "word_normalized": "حفي عنها",
             "meaning": "حَرِيصٌ عَلَى الْعِلْمِ بِهَا.",
             "meaning_normalized": "حريص على العلم بها"
           }

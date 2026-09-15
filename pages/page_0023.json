@@ -25,7 +25,7 @@
         "glossary": [
           {
             "ayah_number": 119,
-            "word": "أُولَاءِ",
+            "word": "أُوْلاءِ",
             "word_normalized": "أولاء",
             "meaning": "هَؤُلَاءِ.",
             "meaning_normalized": "هؤلاء"
@@ -46,7 +46,7 @@
           },
           {
             "ayah_number": 122,
-            "word": "أَنْ تَفْشَلَا",
+            "word": "أَن تَفْشَلَا",
             "word_normalized": "أن تفشلا",
             "meaning": "تَجْبُنَا، وَتَضْعُفَا.",
             "meaning_normalized": "تجبنا وتضعفا"
@@ -76,7 +76,7 @@
             "ayah_number": 134,
             "word": "السَّرَّاءِ وَالضَّرَّاءِ",
             "word_normalized": "السراء والضراء",
-            "meaning": "الْيُسْرِ، وَالْعُسْرِ.",
+            "meaning": "اليُسْرِ، وَالعُسْرِ.",
             "meaning_normalized": "اليسر والعسر"
           },
           {
@@ -90,7 +90,7 @@
             "ayah_number": 140,
             "word": "قَرْحٌ",
             "word_normalized": "قرح",
-            "meaning": "جُرْحٌ.",
+            "meaning": "جَرْحٌ.",
             "meaning_normalized": "جرح"
           },
           {
@@ -102,7 +102,7 @@
           },
           {
             "ayah_number": 144,
-            "word": "انْقَلَبْتُمْ عَلَى أَعْقَابِكُمْ",
+            "word": "انقَلَبْتُمْ عَلَى أَعْقَابِكُمْ",
             "word_normalized": "انقلبتم على أعقابكم",
             "meaning": "رَجَعْتُمْ عَنْ دِينِكُمْ.",
             "meaning_normalized": "رجعتم عن دينكم"
@@ -116,7 +116,7 @@
           },
           {
             "ayah_number": 152,
-            "word": "تَحُسُّونَهُمْ",
+            "word": "تَحُسُّونَهُم",
             "word_normalized": "تحسونهم",
             "meaning": "تَقْتُلُونَهُمْ.",
             "meaning_normalized": "تقتلونهم"
@@ -125,14 +125,14 @@
             "ayah_number": 152,
             "word": "فَشِلْتُمْ",
             "word_normalized": "فشلتم",
-            "meaning": "جَبُنْتُمْ، وَضَعُفْتُمْ عَنِ الْقِتَالِ.",
+            "meaning": "جَبُنْتُمْ، وَضَعُفْتُمْ عَنِ القِتَالِ.",
             "meaning_normalized": "جبنتم وضعفتم عن القتال"
           },
           {
             "ayah_number": 153,
             "word": "تُصْعِدُونَ",
             "word_normalized": "تصعدون",
-            "meaning": "تَصْعَدُونَ فِي الْجَبَلِ هَارِبِينَ.",
+            "meaning": "تَصْعَدُونَ فِي الجَبَلِ هَارِبِينَ.",
             "meaning_normalized": "تصعدون في الجبل هاربين"
           },
           {

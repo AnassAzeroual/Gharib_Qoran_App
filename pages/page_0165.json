@@ -25,23 +25,23 @@
         "glossary": [
           {
             "ayah_number": 59,
-            "word": "أُمِّهَا",
+            "word": "أُمِّهَا",
             "word_normalized": "أمها",
-            "meaning": "أَعْظَمِهَا، وَهِيَ مَكَّةُ.",
+            "meaning": "أَعْظَمِهَا، وَهِيَ مَكَّةُ.",
             "meaning_normalized": "أعظمها وهي مكة"
           },
           {
             "ayah_number": 61,
-            "word": "ٱلْمُحْضَرِينَ",
+            "word": "الْمُحْضَرِينَ",
             "word_normalized": "المحضرين",
-            "meaning": "مِمَّنْ أُحْضِرُوا لِلنَّارِ.",
+            "meaning": "مِمَّنْ أُحْضِرُوا لِلنَّارِ.",
             "meaning_normalized": "ممن أحضروا للنار"
           },
           {
             "ayah_number": 63,
             "word": "أَغْوَيْنَا",
             "word_normalized": "أغوينا",
-            "meaning": "دَعَوْنَاهُمْ لِلْغَوَايَةِ فَاتَّبَعُونَا.",
+            "meaning": "دَعَوْنَاهُمْ لِلْغَوَايَةِ فَاتَّبَعُونَا.",
             "meaning_normalized": "دعوناهم للغواية فاتبعونا"
           },
           {
@@ -53,9 +53,9 @@
           },
           {
             "ayah_number": 66,
-            "word": "ٱلْأَنۢبَآءُ",
+            "word": "الْأَنبَاءُ",
             "word_normalized": "الأنباء",
-            "meaning": "الْحُجَجُ.",
+            "meaning": "الحُجَجُ.",
             "meaning_normalized": "الحجج"
           },
           {
@@ -67,21 +67,21 @@
           },
           {
             "ayah_number": 68,
-            "word": "ٱلْخِيَرَةُ",
+            "word": "الْخِيَرَةُ",
             "word_normalized": "الخيرة",
-            "meaning": "الِاخْتِيَارُ.",
+            "meaning": "الاِخْتِيَارُ.",
             "meaning_normalized": "الاختيار"
           },
           {
             "ayah_number": 69,
-            "word": "تُكِنُّ",
+            "word": "تُكِنُّ",
             "word_normalized": "تكن",
             "meaning": "تُخْفِي.",
             "meaning_normalized": "تخفي"
           },
           {
             "ayah_number": 71,
-            "word": "أَرَءَيْتُمْ",
+            "word": "أَرَأَيْتُمْ",
             "word_normalized": "أرأيتم",
             "meaning": "أَخْبِرُونِي.",
             "meaning_normalized": "أخبروني"
@@ -102,7 +102,7 @@
           },
           {
             "ayah_number": 75,
-            "word": "وَضَلَّ",
+            "word": "وَضَلَّ",
             "word_normalized": "وضل",
             "meaning": "ذَهَبَ.",
             "meaning_normalized": "ذهب"
@@ -111,35 +111,35 @@
             "ayah_number": 75,
             "word": "يَفْتَرُونَ",
             "word_normalized": "يفترون",
-            "meaning": "يَخْتَلِقُونَهُ مِنَ الْكَذِبِ.",
+            "meaning": "يَخْتَلِقُونَهُ مِنَ الكَذِبِ.",
             "meaning_normalized": "يختلقونه من الكذب"
           },
           {
             "ayah_number": 76,
-            "word": "فَبَغَىٰ عَلَيْهِمْ",
+            "word": "فَبَغَى عَلَيْهِمْ",
             "word_normalized": "فبغى عليهم",
-            "meaning": "تَجَاوَزَ حَدَّهُ فِي الْكِبْرِ وَالتَّجَبُّرِ عَلَيْهِمْ.",
+            "meaning": "تَجَاوَزَ حَدَّهُ فِي الكِبْرِ وَالتَّجَبُّرِ عَلَيْهِمْ.",
             "meaning_normalized": "تجاوز حده في الكبر والتجبر عليهم"
           },
           {
             "ayah_number": 76,
-            "word": "ٱلْكُنُوزُ",
+            "word": "الْكُنُوزِ",
             "word_normalized": "الكنوز",
-            "meaning": "خَزَائِنِ الْأَمْوَالِ.",
+            "meaning": "خَزَائِنِ الأَمْوَالِ.",
             "meaning_normalized": "خزائن الأموال"
           },
           {
             "ayah_number": 76,
-            "word": "مَفَاتِحَهُۥ",
+            "word": "مَفَاتِحَهُ",
             "word_normalized": "مفاتحه",
-            "meaning": "مَفَاتِيحَ خَزَائِنِ مَالِهِ وَصَنَادِيقِهِ الْمُقْفَلَةِ.",
+            "meaning": "مَفَاتِيحَ خَزَائِنِ مَالِهِ وَصَنَادِيقِهُ المُقْفَلَةِ.",
             "meaning_normalized": "مفاتيح خزائن ماله وصناديقه المقفلة"
           },
           {
             "ayah_number": 76,
-            "word": "لَتَنُوٓأُ بِٱلْعُصْبَةِ",
-            "word_normalized": "لتنوأ بالعصبة",
-            "meaning": "لَيَثْقُلُ حَمْلُهَا عَلَى الْجَمَاعَةِ الْكَثِيرَةِ.",
+            "word": "لَتَنُوءُ بِالْعُصْبَةِ",
+            "word_normalized": "لتنوء بالعصبة",
+            "meaning": "لَيَثْقُلُ حَمْلُهَا عَلَى الجَمَاعَةِ الكَثِيرَةِ.",
             "meaning_normalized": "ليثقل حملها على الجماعة الكثيرة"
           },
           {
@@ -151,7 +151,7 @@
           },
           {
             "ayah_number": 77,
-            "word": "وَٱبْتَغِ",
+            "word": "وَابْتَغِ",
             "word_normalized": "وابتغ",
             "meaning": "الْتَمِسْ وَاطْلُبْ.",
             "meaning_normalized": "التمس واطلب"
@@ -160,14 +160,14 @@
             "ayah_number": 77,
             "word": "وَلَا تَنسَ نَصِيبَكَ",
             "word_normalized": "ولا تنس نصيبك",
-            "meaning": "لَا تَتْرُكْ حَظَّكَ.",
+            "meaning": "لَا تَتْرُكْ حَظَّكَ.",
             "meaning_normalized": "لا تترك حظك"
           },
           {
             "ayah_number": 78,
-            "word": "ٱلْقُرُونِ",
+            "word": "القُرُونِ",
             "word_normalized": "القرون",
-            "meaning": "الْأُمَمِ.",
+            "meaning": "الأُمَمِ.",
             "meaning_normalized": "الأمم"
           }
         ]

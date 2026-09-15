@@ -20,154 +20,154 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
             "ayah_number": 113,
-            "word": "وَلِتَصغَى",
+            "word": "وَلِتَصْغَى",
             "word_normalized": "ولتصغى",
-            "meaning": "لِتَمِيلَ",
+            "meaning": "لِتَمِيلَ.",
             "meaning_normalized": "لتميل"
           },
           {
             "ayah_number": 113,
-            "word": "وَلِيَقتَرِفُوا",
+            "word": "وَلِيَقْتَرِفُوا",
             "word_normalized": "وليقترفوا",
-            "meaning": "لِيَكتَسِبُوا",
+            "meaning": "لِيَكْتَسِبُوا.",
             "meaning_normalized": "ليكتسبوا"
           },
           {
             "ayah_number": 114,
-            "word": "المُمتَرِينَ",
-            "word_normalized": "المتمرين",
-            "meaning": "الشَّاكِّينَ",
+            "word": "الْمُمْتَرِينَ",
+            "word_normalized": "الممترين",
+            "meaning": "الشَّاكِّينَ.",
             "meaning_normalized": "الشاكين"
           },
           {
             "ayah_number": 115,
-            "word": "صِدقًا",
+            "word": "صِدْقًا",
             "word_normalized": "صدقا",
-            "meaning": "فِي الأَخبَارِ",
+            "meaning": "فِي الأَخْبَارِ.",
             "meaning_normalized": "في الأخبار"
           },
           {
             "ayah_number": 115,
-            "word": "وَعَدلًا",
+            "word": "وَعَدْلًا",
             "word_normalized": "وعدلا",
-            "meaning": "فِي الأَحكَامِ",
+            "meaning": "فِي الأَحْكَامِ.",
             "meaning_normalized": "في الأحكام"
           },
           {
-            "ayah_number": 117,
-            "word": "يَخرِصُونَ",
+            "ayah_number": 116,
+            "word": "يَخْرُصُونَ",
             "word_normalized": "يخرصون",
-            "meaning": "يَظنُّونَ وَيَكذِبُونَ",
+            "meaning": "يَظُنُّونَ وَيَكْذِبُونَ.",
             "meaning_normalized": "يظنون ويكذبون"
           },
           {
-            "ayah_number": 117,
-            "word": "صَعَدًا",
-            "word_normalized": "صعدا",
-            "meaning": "ذُلٌّ، وَهَوَانٌ",
+            "ayah_number": 124,
+            "word": "صَغَارٌ",
+            "word_normalized": "صغار",
+            "meaning": "ذُلٌّ، وَهَوَانٌ.",
             "meaning_normalized": "ذل وهوان"
           },
           {
             "ayah_number": 125,
             "word": "حَرَجًا",
             "word_normalized": "حرجا",
-            "meaning": "شَدِيدَ الضِّيقِ",
+            "meaning": "شَدِيدَ الضِّيقِ.",
             "meaning_normalized": "شديد الضيق"
           },
           {
             "ayah_number": 125,
-            "word": "يَصَّعَّدُ فِي السَّمَاءِ",
+            "word": "يَصَّعَّدُ فِي السَّمَاء",
             "word_normalized": "يصعد في السماء",
-            "meaning": "يَتَصَعَّدُ فِي طَبَقَاتِ الجَوِّ",
-            "meaning_normalized": "يتصعد في طبقات الجو"
+            "meaning": "يَصْعَدُ فِي طَبَقَاتِ الجَوِّ.",
+            "meaning_normalized": "يصعد في طبقات الجو"
           },
           {
             "ayah_number": 125,
-            "word": "الرِّجسَ",
+            "word": "الرِّجْسَ",
             "word_normalized": "الرجس",
-            "meaning": "العَذَابَ",
+            "meaning": "العَذَابَ.",
             "meaning_normalized": "العذاب"
           },
           {
             "ayah_number": 127,
-            "word": "دَارَ السَّلَامِ",
+            "word": "دَارُ السَّلَامِ",
             "word_normalized": "دار السلام",
-            "meaning": "ذَاتُ السَّلَامَةِ وَالأَمَانِ وَهِيَ الجَنَّةُ",
-            "meaning_normalized": "ذات السلامة والأمان وهي الجنة"
+            "meaning": "دَارُ السَّلَامَةِ وَالأَمَانِ وَهِيَ الجَنَّةُ.",
+            "meaning_normalized": "دار السلامة والأمان وهي الجنة"
           },
           {
             "ayah_number": 128,
-            "word": "اِستَمتَعَ",
+            "word": "اسْتَمْتَعَ",
             "word_normalized": "استمتع",
-            "meaning": "اِنتَفَعَ",
+            "meaning": "انْتَفَعَ.",
             "meaning_normalized": "انتفع"
           },
           {
             "ayah_number": 135,
             "word": "مَكَانَتِكُمْ",
             "word_normalized": "مكانتكم",
-            "meaning": "طَرِيقَتِكُمْ",
+            "meaning": "طَرِيقَتِكُمْ.",
             "meaning_normalized": "طريقتكم"
           },
           {
             "ayah_number": 135,
-            "word": "عَاقِبَةَ الدَّارِ",
+            "word": "عَاقِبَةُ الدِّارِ",
             "word_normalized": "عاقبة الدار",
-            "meaning": "الغَايَةُ، وَالمَآلُ الحَسَنُ",
-            "meaning_normalized": "الغاية والمآل الحسن"
+            "meaning": "العَاقِبَةُ، وَالمَآلُ الحَسَنُ.",
+            "meaning_normalized": "العاقبة والمآل الحسن"
           },
           {
             "ayah_number": 136,
-            "word": "قَدَّرُوا",
-            "word_normalized": "قدروا",
-            "meaning": "خَلَقَ",
+            "word": "ذَرَأَ",
+            "word_normalized": "ذرأ",
+            "meaning": "خَلَقَ.",
             "meaning_normalized": "خلق"
           },
           {
             "ayah_number": 136,
-            "word": "الحَرثِ",
+            "word": "الْحَرْثِ",
             "word_normalized": "الحرث",
-            "meaning": "الزَّرعُ",
-            "meaning_normalized": "الزرع"
+            "meaning": "الزُّرُوعِ.",
+            "meaning_normalized": "الزروع"
           },
           {
             "ayah_number": 137,
-            "word": "وَلِيَردِهُمْ",
-            "word_normalized": "وليردهم",
-            "meaning": "لِيُهلِكُوهُمْ",
+            "word": "لِيُرْدُوهُمْ",
+            "word_normalized": "ليردوهم",
+            "meaning": "لِيُهْلِكُوهُمْ.",
             "meaning_normalized": "ليهلكوهم"
           },
           {
             "ayah_number": 137,
-            "word": "وَلِيَلبِسُوا",
+            "word": "وَلِيَلْبِسُوا",
             "word_normalized": "وليلبسوا",
-            "meaning": "لِيَختَلِطُوا",
-            "meaning_normalized": "ليختلطوا"
+            "meaning": "لِيَخْلِطُوا.",
+            "meaning_normalized": "ليخلطوا"
           },
           {
             "ayah_number": 137,
-            "word": "يَفتَرُونَ",
+            "word": "يَفْتَرُونَ",
             "word_normalized": "يفترون",
-            "meaning": "يَختَلِقُونَهُ مِن الكَذِبِ",
+            "meaning": "يَخْتَلِقُونَهُ مِنَ الْكَذِبِ.",
             "meaning_normalized": "يختلقونه من الكذب"
           },
           {
             "ayah_number": 138,
-            "word": "وَحَرثٌ",
+            "word": "وَحَرْثٌ",
             "word_normalized": "وحرث",
-            "meaning": "زَرعٌ",
+            "meaning": "زَرْعٌ.",
             "meaning_normalized": "زرع"
           },
           {
             "ayah_number": 138,
-            "word": "حِجرٌ",
+            "word": "حِجْرٌ",
             "word_normalized": "حجر",
-            "meaning": "مُحَرَّمَةٌ",
+            "meaning": "مُحَرَّمَةٌ.",
             "meaning_normalized": "محرمة"
           }
         ]

@@ -25,135 +25,135 @@
         "glossary": [
           {
             "ayah_number": 157,
-            "word": "الْأُمِّيَّ",
+            "word": "الأُمِّيَّ",
             "word_normalized": "الأمي",
-            "meaning": "الَّذِي لَا يَقْرَأُ، وَلَا يَكْتُبُ.",
+            "meaning": "الَّذِي لَا يَقْرَأَ، وَلَا يَكْتُبُ.",
             "meaning_normalized": "الذي لا يقرأ ولا يكتب"
           },
           {
             "ayah_number": 157,
             "word": "إِصْرَهُمْ",
             "word_normalized": "إصرهم",
-            "meaning": "مَا كُلِّفُوهُ مِنَ الْأَعْمَالِ الشَّاقَّةِ.",
+            "meaning": "مَا كُلِّفُوهُ مِنَ الأَعْمَالِ الشَّاقَّةِ.",
             "meaning_normalized": "ما كلفوه من الأعمال الشاقة"
           },
           {
             "ayah_number": 157,
-            "word": "وَعَزَّرُوهُ",
+            "word": "وَعَزَّرُوهُ",
             "word_normalized": "وعزروه",
-            "meaning": "وَقَوَّوْهُ، وَعَظَّمُوهُ.",
-            "meaning_normalized": "وقووه وعظموه"
+            "meaning": "وَقَّرُوهُ، وَعَظَّمُوهُ.",
+            "meaning_normalized": "وقروه وعظموه"
           },
           {
             "ayah_number": 160,
-            "word": "فَرَّقْنَاهُمْ",
-            "word_normalized": "فرقناهم",
-            "meaning": "فَرَّقْنَاهُمْ.",
+            "word": "وَقَطَّعْنَاهُمُ",
+            "word_normalized": "وقطعناهم",
+            "meaning": "فَرَّقْنَاهُمْ.",
             "meaning_normalized": "فرقناهم"
           },
           {
             "ayah_number": 160,
             "word": "أَسْبَاطًا",
             "word_normalized": "أسباطا",
-            "meaning": "قَبِيلَةً بَعْدَ الْأَسْبَاطِ، وَهُمْ أَوْلَادُ يَعْقُوبَ ﷺ الْإِثْنَا عَشَرَ.",
-            "meaning_normalized": "قبيلة بعد الأسباط وهم أولاد يعقوب عليه السلام الإثنا عشر"
+            "meaning": "قَبِيلَةً بِعَدَدِ الأَسْبَاطِ، وَهُمْ أَبْنَاءُ يَعْقُوبَ - عليه السلام - الاِثْنَا عَشَرَ.",
+            "meaning_normalized": "قبيلة بعدد الأسباط وهم أبناء يعقوب عليه السلام الاثنا عشر"
           },
           {
             "ayah_number": 160,
-            "word": "فَانْبَجَسَتْ",
+            "word": "فَانبَجَسَتْ",
             "word_normalized": "فانبجست",
-            "meaning": "فَانْفَجَرَتْ، وَالْإِنْبِجَاسُ: أَوَّلُ الْإِنْفِجَارِ.",
-            "meaning_normalized": "فانفجرت والإنبجاس أول الإنفجار"
+            "meaning": "فَانْفَجَرَتْ، والاِنْبِجَاسُ أَوَّلُ الاِنْفِجَارِ.",
+            "meaning_normalized": "فانفجرت والانبجاس أول الانفجار"
           },
           {
-            "ayah_number": 162,
-            "word": "الْعَيْنُمُ",
-            "word_normalized": "العينم",
-            "meaning": "السَّحَابُ.",
+            "ayah_number": 160,
+            "word": "الْغَمَامَ",
+            "word_normalized": "الغمام",
+            "meaning": "السَّحَابَ.",
             "meaning_normalized": "السحاب"
           },
           {
-            "ayah_number": 163,
-            "word": "الْمُرْيَّ",
-            "word_normalized": "المرى",
-            "meaning": "شَيْئًا يُشْبِهُ الضُّبْعَ طَعْمُهُ كَالْعَسَلِ.",
-            "meaning_normalized": "شيئا يشبه الضبع طعمه كالعسل"
+            "ayah_number": 160,
+            "word": "الْمَنَّ",
+            "word_normalized": "المن",
+            "meaning": "شَيْئًا يُشْبِهُ الصَّمْغَ طَعْمُهُ كَالْعَسَلِ.",
+            "meaning_normalized": "شيئا يشبه الصمغ طعمه كالعسل"
           },
           {
-            "ayah_number": 163,
-            "word": "وَالسَّلْوَى",
+            "ayah_number": 160,
+            "word": "وَالسَّلْوَى",
             "word_normalized": "والسلوى",
-            "meaning": "طَائِرٌ يُشْبِهُ السُّمَانَى.",
-            "meaning_normalized": "طائر يشبه السمانى"
+            "meaning": "طَائِرًا يُشْبِهُ السُّمَانَى.",
+            "meaning_normalized": "طائرا يشبه السمانى"
           },
           {
-            "ayah_number": 164,
-            "word": "الْمُتْرِيكَةُ",
-            "word_normalized": "المتريكة",
-            "meaning": "بَيْتُ الْمَقْدِسِ.",
+            "ayah_number": 161,
+            "word": "الْقَرْيَةَ",
+            "word_normalized": "القرية",
+            "meaning": "بَيْتَ الْمَقْدِسِ.",
             "meaning_normalized": "بيت المقدس"
           },
           {
-            "ayah_number": 164,
-            "word": "حِطَّةٌ",
+            "ayah_number": 161,
+            "word": "حِطَّةٌ",
             "word_normalized": "حطة",
-            "meaning": "حُطَّ عَنَّا ذُنُوبَنَا.",
+            "meaning": "حُطَّ عَنَّا ذُنُوبَنَا.",
             "meaning_normalized": "حط عنا ذنوبنا"
           },
           {
-            "ayah_number": 166,
-            "word": "رِجْسًا",
-            "word_normalized": "رجسا",
+            "ayah_number": 162,
+            "word": "رِجْزًا",
+            "word_normalized": "رجزا",
             "meaning": "عَذَابًا.",
             "meaning_normalized": "عذابا"
           },
           {
-            "ayah_number": 167,
+            "ayah_number": 163,
             "word": "حَاضِرَةَ الْبَحْرِ",
             "word_normalized": "حاضرة البحر",
-            "meaning": "عَلَى سَاحِلِ الْبَحْرِ الْأَحْمَرِ.",
+            "meaning": "عَلَى سَاحِلِ الْبَحْرِ الأَحْمَرِ.",
             "meaning_normalized": "على ساحل البحر الأحمر"
           },
           {
             "ayah_number": 163,
-            "word": "يَعْدُونَ فِي السَّبْتِ",
+            "word": "يَعْدُونَ فِي السَّبْتِ",
             "word_normalized": "يعدون في السبت",
-            "meaning": "يَعْتَدُونَ بِالصَّيْدِ فِي يَوْمِ السَّبْتِ، وَهُوَ مُحَرَّمٌ عَلَيْهِمْ.",
+            "meaning": "يَعْتَدُونَ بِالصَّيْدِ فِي يَوْمِ السَّبْتِ، وَهُوَ مُحَرَّمٌ عَلَيْهِمْ.",
             "meaning_normalized": "يعتدون بالصيد في يوم السبت وهو محرم عليهم"
           },
           {
             "ayah_number": 163,
-            "word": "شُرَّعًا",
+            "word": "شُرَّعًا",
             "word_normalized": "شرعا",
-            "meaning": "ظَاهِرَةٌ عَلَى وَجْهِ الْمَاءِ.",
+            "meaning": "ظَاهِرَةً عَلَى وَجْهِ الْمَاءِ.",
             "meaning_normalized": "ظاهرة على وجه الماء"
           },
           {
-            "ayah_number": 164,
-            "word": "لَا تَسْأَلُونَ",
-            "word_normalized": "لا تسألون",
-            "meaning": "فِي غَيْرِ يَوْمِ السَّبْتِ.",
+            "ayah_number": 163,
+            "word": "لَا يَسْبِتُونَ",
+            "word_normalized": "لا يسبتون",
+            "meaning": "فِي غَيْرِ يَوْمِ السَّبْتِ.",
             "meaning_normalized": "في غير يوم السبت"
           },
           {
-            "ayah_number": 165,
-            "word": "أُمَّةً",
+            "ayah_number": 164,
+            "word": "أُمَّةٌ",
             "word_normalized": "أمة",
-            "meaning": "جَمَاعَةً.",
+            "meaning": "جَمَاعَةٌ.",
             "meaning_normalized": "جماعة"
           },
           {
-            "ayah_number": 165,
-            "word": "مُذَرَّةً",
-            "word_normalized": "مذرة",
-            "meaning": "أَيْ: نُعْظِمُهُمْ؛ لِنَعْذِرَ إِلَى اللهِ فِيهِمْ.",
-            "meaning_normalized": "أي نعظمهم لنعذر إلى الله فيهم"
+            "ayah_number": 164,
+            "word": "مَعْذِرَةً",
+            "word_normalized": "معذرة",
+            "meaning": "أَيْ: نَعِظُهُمْ؛ لِنُعْذِرَ إِلَى اللهِ فيهِمْ.",
+            "meaning_normalized": "أي نعظهم لنعذر إلى الله فيهم"
           },
           {
             "ayah_number": 165,
-            "word": "شَدِيدٌ",
-            "word_normalized": "شديد",
-            "meaning": "شَدِيدٌ.",
+            "word": "بَئِيسٍ",
+            "word_normalized": "بئيس",
+            "meaning": "شَدِيدٍ.",
             "meaning_normalized": "شديد"
           }
         ]

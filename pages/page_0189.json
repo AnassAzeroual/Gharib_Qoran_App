@@ -32,37 +32,37 @@
           },
           {
             "ayah_number": 8,
-            "word": "حَسَرَٰتٍ",
+            "word": "حَسَرَاتٍ",
             "word_normalized": "حسرات",
-            "meaning": "حُزْنًا عَلَى كُفْرِ هَؤُلَاءِ الضَّالِّينَ.",
+            "meaning": "حُزْنًا عَلَى كُفْرِ هَؤْلَاءِ الضَّالِّينَ.",
             "meaning_normalized": "حزنا على كفر هؤلاء الضالين"
           },
           {
             "ayah_number": 9,
             "word": "فَتُثِيرُ",
             "word_normalized": "فتثير",
-            "meaning": "تُحَرِّكُ.",
+            "meaning": "تُحَرِّكُ.",
             "meaning_normalized": "تحرك"
           },
           {
             "ayah_number": 9,
-            "word": "مَّيِّتٍ",
+            "word": "مَّيِّتٍ",
             "word_normalized": "ميت",
             "meaning": "مُجْدِبٍ.",
             "meaning_normalized": "مجدب"
           },
           {
             "ayah_number": 10,
-            "word": "ٱلْعِزَّةَ",
+            "word": "الْعِزَّةَ",
             "word_normalized": "العزة",
-            "meaning": "الشَّرَفَ، وَالْمَنَعَةَ.",
+            "meaning": "الشَّرَفَ، وَالمَنَعَةَ.",
             "meaning_normalized": "الشرف والمنعة"
           },
           {
             "ayah_number": 10,
-            "word": "ٱلْكَلِمُ ٱلطَّيِّبُ",
+            "word": "الْكَلِمُ الطَّيِّبُ",
             "word_normalized": "الكلم الطيب",
-            "meaning": "الْكَلَامُ الْحَسَنُ؛ وَهُوَ ذِكْرُ اللهِ.",
+            "meaning": "الكَلَامُ الحَسَنُ؛ وَهُوَ ذِكْرُ اللهِ.",
             "meaning_normalized": "الكلام الحسن وهو ذكر الله"
           },
           {
@@ -74,93 +74,93 @@
           },
           {
             "ayah_number": 11,
-            "word": "أَزْوَٰجًا",
+            "word": "أَزْوَاجًا",
             "word_normalized": "أزواجا",
             "meaning": "ذُكُورًا وَإِنَاثًا.",
             "meaning_normalized": "ذكورا وإناثا"
           },
           {
             "ayah_number": 11,
-            "word": "مُعَمَّرٍ",
+            "word": "مُّعَمَّرٍ",
             "word_normalized": "معمر",
-            "meaning": "طَوِيلِ الْعُمُرِ.",
+            "meaning": "طَوِيلِ العُمُرِ.",
             "meaning_normalized": "طويل العمر"
           },
           {
             "ayah_number": 11,
-            "word": "فِى كِتَٰبٍ",
+            "word": "فِي كِتَابٍ",
             "word_normalized": "في كتاب",
-            "meaning": "هُوَ: اللَّوْحُ الْمَحْفُوظُ.",
+            "meaning": "هُوَ: اللَّوْحُ المَحْفُوظُ.",
             "meaning_normalized": "هو اللوح المحفوظ"
           },
           {
             "ayah_number": 12,
             "word": "فُرَاتٌ",
             "word_normalized": "فرات",
-            "meaning": "شَدِيدُ الْعُذُوبَةِ.",
+            "meaning": "شَدِيدُ العُذُوبَةِ.",
             "meaning_normalized": "شديد العذوبة"
           },
           {
             "ayah_number": 12,
-            "word": "سَآئِغٌ",
+            "word": "سَائِغٌ",
             "word_normalized": "سائغ",
-            "meaning": "سَهْلٌ مُرُورُهُ فِي الْحَلْقِ.",
+            "meaning": "سَهْلٌ مُرُورُهُ فِي الحَلْقِ.",
             "meaning_normalized": "سهل مروره في الحلق"
           },
           {
             "ayah_number": 12,
             "word": "أُجَاجٌ",
             "word_normalized": "أجاج",
-            "meaning": "شَدِيدُ الْمُلُوحَةِ.",
+            "meaning": "شَدِيدُ المُلُوحَةِ.",
             "meaning_normalized": "شديد الملوحة"
           },
           {
             "ayah_number": 12,
-            "word": "لَحْمًا طَرِيًّا",
+            "word": "لَحْمًا طَرِيًّا",
             "word_normalized": "لحما طريا",
-            "meaning": "هُوَ: السَّمَكُ.",
+            "meaning": "هُوَ: السَّمَكُ.",
             "meaning_normalized": "هو السمك"
           },
           {
             "ayah_number": 12,
             "word": "حِلْيَةً",
             "word_normalized": "حلية",
-            "meaning": "هِيَ: اللُّؤْلُؤُ، وَالْمَرْجَانُ.",
+            "meaning": "هِيَ: اللُّؤْلُؤُ، وَالمَرْجَانُ.",
             "meaning_normalized": "هي اللؤلؤ والمرجان"
           },
           {
             "ayah_number": 12,
-            "word": "ٱلْفُلْكَ",
+            "word": "الْفُلْكَ",
             "word_normalized": "الفلك",
-            "meaning": "السُّفُنَ.",
+            "meaning": "السُّفُنَ.",
             "meaning_normalized": "السفن"
           },
           {
             "ayah_number": 12,
             "word": "مَوَاخِرَ",
             "word_normalized": "مواخر",
-            "meaning": "تَشُقُّ الْمِيَاهَ.",
+            "meaning": "تَشُقُّ المِيَاهَ.",
             "meaning_normalized": "تشق المياه"
           },
           {
             "ayah_number": 13,
             "word": "يُولِجُ",
             "word_normalized": "يولج",
-            "meaning": "يُدْخِلُ مِنْ سَاعَاتِ اللَّيْلِ فِي النَّهَارِ، وَالْعَكْسُ، فَتَحْدُثُ الزِّيَادَةُ وَالنَّقْصُ فِيهِمَا.",
+            "meaning": "يُدْخِلُ مِنْ سَاعَاِت اللَّيْلِ فيِ النَّهَارِ، وَالعَكْسُ، فَتَحْدُثُ الزِّيَادَةُ وَالنَّقْصُ فِيهِمَا.",
             "meaning_normalized": "يدخل من ساعات الليل في النهار والعكس فتحدث الزيادة والنقص فيهما"
           },
           {
             "ayah_number": 13,
-            "word": "وَسَخَّرَ",
+            "word": "وَسَخَّرَ",
             "word_normalized": "وسخر",
-            "meaning": "ذَلَّلَ.",
+            "meaning": "ذَلَّلَ.",
             "meaning_normalized": "ذلل"
           },
           {
             "ayah_number": 13,
-            "word": "لِأَجَلٍ مُّسَمًّى",
+            "word": "لِأَجَلٍ مُّسَمًّى",
             "word_normalized": "لأجل مسمى",
-            "meaning": "لِوَقْتٍ مَعْلُومٍ مُقَدَّرٍ.",
+            "meaning": "لِوَقْتٍ مَعْلُومٍ مُقَدَّرٍ.",
             "meaning_normalized": "لوقت معلوم مقدر"
           }
         ]

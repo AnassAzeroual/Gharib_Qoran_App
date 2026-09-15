@@ -32,23 +32,23 @@
           },
           {
             "ayah_number": 205,
-            "word": "بِالْغُدُوِّ",
+            "word": "بِالْغُدُوِّ",
             "word_normalized": "بالغدو",
-            "meaning": "بِأَوَّلِ النَّهَارِ.",
+            "meaning": "بأَوَّلِ النَّهَارِ.",
             "meaning_normalized": "بأول النهار"
           },
           {
             "ayah_number": 205,
-            "word": "وَالْآصَالِ",
+            "word": "وَالآصَالِ",
             "word_normalized": "والآصال",
-            "meaning": "آخِرِ النَّهَارِ.",
+            "meaning": "آخِرِ النَّهَارِ.",
             "meaning_normalized": "آخر النهار"
           },
           {
             "ayah_number": 206,
-            "word": "وَيُسَبِّحُونَهُ",
+            "word": "وَيُسَبِّحُونَهُ",
             "word_normalized": "ويسبحونه",
-            "meaning": "يُنَزِّهُونَهُ عَمَّا لَا يَلِيقُ بِجَلَالِهِ.",
+            "meaning": "يُنَزِّهُونَهُ عَمَّا لَا يَلِيقُ بِجَلَالِهِ.",
             "meaning_normalized": "ينزهونه عما لا يليق بجلاله"
           }
         ]
@@ -70,9 +70,9 @@
         "glossary": [
           {
             "ayah_number": 1,
-            "word": "الْأَنْفَالِ",
+            "word": "الأَنفَالِ",
             "word_normalized": "الأنفال",
-            "meaning": "الْغَنَائِمُ.",
+            "meaning": "الْغَنَائِمِ.",
             "meaning_normalized": "الغنائم"
           },
           {
@@ -83,45 +83,45 @@
             "meaning_normalized": "فزعت"
           },
           {
-            "ayah_number": 2,
-            "word": "الظَّالِمِينَ",
-            "word_normalized": "الظالمين",
-            "meaning": "عَبَرَ قُرَيْشٍ، وَمَا تَحْمِلُهُ مِنْ أَرْزَاقٍ، أَوِ الْخَيْرِ لِقِتَالِهِمْ.",
-            "meaning_normalized": "عبر قريش وما تحمله من أرزاق أو الخير لقتالهم"
+            "ayah_number": 7,
+            "word": "الطَّائِفَتِيْنِ",
+            "word_normalized": "الطائفتين",
+            "meaning": "عِيرِ قُرَيْشٍ، وَمَا تَحْمِلُهُ مِنْ أَرْزَاقٍ، أَوِ النَّفِيرِ لِقِتَالِهِمْ.",
+            "meaning_normalized": "عير قريش وما تحمله من أرزاق أو النفير لقتالهم"
           },
           {
             "ayah_number": 7,
-            "word": "ذَاتِ الشَّوْكَةِ",
+            "word": "ذَاتِ الشَّوْكَةِ",
             "word_normalized": "ذات الشوكة",
-            "meaning": "صَاحِبَةُ السِّلَاحِ، وَالْقُوَّةِ.",
+            "meaning": "صَاحِبَةِ السِّلَاحِ، وَالْقُوَّةِ.",
             "meaning_normalized": "صاحبة السلاح والقوة"
           },
           {
             "ayah_number": 7,
             "word": "وَيَقْطَعَ",
             "word_normalized": "ويقطع",
-            "meaning": "يَسْتَأْصِلَ.",
-            "meaning_normalized": "يستأصل"
+            "meaning": "يَسْتَاصِلَ.",
+            "meaning_normalized": "يستاصل"
           },
           {
             "ayah_number": 7,
             "word": "دَابِرَ الْكَافِرِينَ",
             "word_normalized": "دابر الكافرين",
-            "meaning": "أَحْرَمَهُمْ، وَالْمُرَادُ: جَمِيعُهُمْ.",
-            "meaning_normalized": "أحرمهم والمراد جميعهم"
+            "meaning": "آخِرَهُمْ، وَالْمُرَادُ: جَمِيعُهُمْ.",
+            "meaning_normalized": "آخرهم والمراد جميعهم"
           },
           {
             "ayah_number": 9,
-            "word": "مُرْدِيكُمْ",
-            "word_normalized": "مرديكم",
+            "word": "مُرْدِفِينَ",
+            "word_normalized": "مردفين",
             "meaning": "يَتْبَعُ بَعْضُهُمْ بَعْضًا.",
             "meaning_normalized": "يتبع بعضهم بعضا"
           },
           {
-            "ayah_number": 9,
-            "word": "يَغْشِيكُمْ",
+            "ayah_number": 11,
+            "word": "يُغَشِّيكُمُ",
             "word_normalized": "يغشيكم",
-            "meaning": "يُلْقِي النُّعَاسَ عَلَيْكُمْ؛ كَالْغِطَاءِ.",
+            "meaning": "يُلْقِي النُّعَاسَ عَلَيْكُمْ؛ كَالْغِطَاءِ.",
             "meaning_normalized": "يلقي النعاس عليكم كالغطاء"
           },
           {
@@ -133,23 +133,23 @@
           },
           {
             "ayah_number": 11,
-            "word": "رِجْزَ الشَّيْطَانِ",
+            "word": "رِجْزَ الشَّيْطَانِ",
             "word_normalized": "رجز الشيطان",
-            "meaning": "وَسْوَاسُهُ وَتَخْوِيفُهُ إِيَّاهُ.",
-            "meaning_normalized": "وسواسه وتخويفه إياه"
+            "meaning": "وَسَاوِسَهُ وَتَخْوِيفَاتِهِ.",
+            "meaning_normalized": "وساوسه وتخويفاته"
           },
           {
             "ayah_number": 11,
-            "word": "وَيُرْبِطَ",
-            "word_normalized": "ويربط",
-            "meaning": "يَشُدَّةُ.",
-            "meaning_normalized": "يشدة"
+            "word": "وَلِيَرْبِطَ",
+            "word_normalized": "وليربط",
+            "meaning": "لِيَشُدَّ.",
+            "meaning_normalized": "ليشد"
           },
           {
             "ayah_number": 12,
             "word": "بَنَانٍ",
             "word_normalized": "بنان",
-            "meaning": "طَرَفٍ، وَمَفْصِلٍ.",
+            "meaning": "طَرَفٍ، وَمِفْصَلٍ.",
             "meaning_normalized": "طرف ومفصل"
           }
         ]

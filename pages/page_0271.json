@@ -27,28 +27,28 @@
             "ayah_number": 14,
             "word": "وَارْتَبْتُمْ",
             "word_normalized": "وارتبتم",
-            "meaning": "شَكَكْتُمْ فِي الْبَعْثِ.",
+            "meaning": "شَكَكْتُمْ فيِ البَعْثِ.",
             "meaning_normalized": "شككتم في البعث"
           },
           {
             "ayah_number": 14,
-            "word": "وَغَرَّتْكُمُ الْأَمَانِيُّ",
+            "word": "وَغَرَّتْكُمُ الْأَمَانِيُّ",
             "word_normalized": "وغرتكم الأماني",
-            "meaning": "خَدَعَتْكُمُ الْأَبَاطِيلُ.",
+            "meaning": "خَدَعَتْكُمُ الأَبَاطِيلُ.",
             "meaning_normalized": "خدعتكم الأباطيل"
           },
           {
             "ayah_number": 14,
-            "word": "أَمْرُ اللهِ",
+            "word": "أَمْرُ اللَّهِ",
             "word_normalized": "أمر الله",
-            "meaning": "الْمَوْتُ.",
+            "meaning": "المَوْتُ.",
             "meaning_normalized": "الموت"
           },
           {
             "ayah_number": 14,
             "word": "الْغَرُورُ",
             "word_normalized": "الغرور",
-            "meaning": "الشَّيْطَانُ.",
+            "meaning": "الشَّيْطَانُ.",
             "meaning_normalized": "الشيطان"
           },
           {
@@ -60,8 +60,8 @@
           },
           {
             "ayah_number": 15,
-            "word": "مَأْوَاكُمْ",
-            "word_normalized": "مأواكم",
+            "word": "مَاوَاكُمُ",
+            "word_normalized": "ماواكم",
             "meaning": "مَصِيرُكُمْ.",
             "meaning_normalized": "مصيركم"
           },
@@ -76,77 +76,77 @@
             "ayah_number": 15,
             "word": "الْمَصِيرُ",
             "word_normalized": "المصير",
-            "meaning": "الْمَرْجِعُ.",
+            "meaning": "المَرْجِعُ.",
             "meaning_normalized": "المرجع"
           },
           {
             "ayah_number": 16,
-            "word": "أَلَمْ يَأْنِ",
-            "word_normalized": "ألم يأن",
-            "meaning": "أَلَمْ يَحِنْ وَيَجِئِ الْوَقْتُ؟!",
+            "word": "أَلَمْ يَانِ",
+            "word_normalized": "ألم يان",
+            "meaning": "أَلَمْ يَحِنْ وَيَجِئِ الوَقْتُ؟!",
             "meaning_normalized": "ألم يحن ويجئ الوقت"
           },
           {
             "ayah_number": 16,
             "word": "تَخْشَعَ",
             "word_normalized": "تخشع",
-            "meaning": "تَخْضَعَ، وَتَرِقَّ، وَتَلِينَ.",
+            "meaning": "تَخْضَعَ، وَتَرِقَّ، وَتَلِينَ.",
             "meaning_normalized": "تخضع وترق وتلين"
           },
           {
             "ayah_number": 16,
             "word": "الْأَمَدُ",
             "word_normalized": "الأمد",
-            "meaning": "الزَّمَانُ.",
+            "meaning": "الزَّمَانُ.",
             "meaning_normalized": "الزمان"
           },
           {
             "ayah_number": 18,
-            "word": "الْمُصَّدِّقِينَ",
+            "word": "الْمُصَّدِّقِينَ",
             "word_normalized": "المصدقين",
-            "meaning": "الْمُتَصَدِّقِينَ.",
+            "meaning": "المُتَصَدِّقِينَ.",
             "meaning_normalized": "المتصدقين"
           },
           {
             "ayah_number": 18,
             "word": "قَرْضًا حَسَنًا",
             "word_normalized": "قرضا حسنا",
-            "meaning": "مُحْتَسِبِينَ فِي نَفَقَاتِهِمْ بِلَا مَنٍّ، وَلَا أَذًى.",
+            "meaning": "مُحْتَسِبِينَ فِي نَفَقَاتِهِمْ بِلَا مَنٍّ، وَلَا أَذًى.",
             "meaning_normalized": "محتسبين في نفقاتهم بلا من ولا أذى"
           },
           {
             "ayah_number": 19,
-            "word": "الصِّدِّيقُونَ",
+            "word": "الصِّدِّيقُونَ",
             "word_normalized": "الصديقون",
-            "meaning": "الْمُبَالِغُونَ فِي التَّصْدِيقِ.",
+            "meaning": "المُبَالِغُونَ فِي التَّصْدِيقِ.",
             "meaning_normalized": "المبالغون في التصديق"
           },
           {
             "ayah_number": 19,
-            "word": "وَالشُّهَدَاءُ",
+            "word": "وَالشُّهَدَاءُ",
             "word_normalized": "والشهداء",
-            "meaning": "الَّذِينَ قُتِلُوا فِي سَبِيلِ اللهِ.",
+            "meaning": "الَّذِينَ قُتِلُوا فِي سَبِيلِ اللهِ.",
             "meaning_normalized": "الذين قتلوا في سبيل الله"
           },
           {
             "ayah_number": 20,
             "word": "لَعِبٌ",
             "word_normalized": "لعب",
-            "meaning": "تَلْعَبُ بِهَا الْأَبْدَانُ.",
+            "meaning": "تَلْعَبُ بِهَا الأَبْدَانُ.",
             "meaning_normalized": "تلعب بها الأبدان"
           },
           {
             "ayah_number": 20,
             "word": "وَلَهْوٌ",
             "word_normalized": "ولهو",
-            "meaning": "تَلْهُو بِهَا الْقُلُوبُ.",
+            "meaning": "تَلْهُو بِهَا القُلُوبُ.",
             "meaning_normalized": "تلهو بها القلوب"
           },
           {
             "ayah_number": 20,
-            "word": "الْكُفَّارَ",
+            "word": "الْكُفَّارَ",
             "word_normalized": "الكفار",
-            "meaning": "الزُّرَّاعَ، سُمُّوا بِذَلِكَ؛ لِأَنَّهُمْ يَسْتُرُونَ الْحَبَّ فِي التُّرَابِ.",
+            "meaning": "الزُّرَّاعَ، سُمُّوا بِذَلِكَ؛ لِأَنَّهُمْ يَسْتُرُونَ الحَبَّ فيِ التُّرَابِ.",
             "meaning_normalized": "الزراع سموا بذلك لأنهم يسترون الحب في التراب"
           },
           {
@@ -160,7 +160,7 @@
             "ayah_number": 20,
             "word": "حُطَامًا",
             "word_normalized": "حطاما",
-            "meaning": "فُتَاتًا مُتَهَشِّمًا.",
+            "meaning": "فُتَاتًا مُتَهَشِّمًا.",
             "meaning_normalized": "فتاتا متهشما"
           }
         ]

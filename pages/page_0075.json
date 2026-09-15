@@ -24,151 +24,151 @@
         },
         "glossary": [
           {
-            "ayah_number": 43,
+            "ayah_number": 22,
             "word": "لَا جَرَمَ",
             "word_normalized": "لا جرم",
-            "meaning": "حَقًّا.",
+            "meaning": "حَقًّا.",
             "meaning_normalized": "حقا"
           },
           {
-            "ayah_number": 43,
-            "word": "وَأَجْبِعُوا",
-            "word_normalized": "وأجبعوا",
-            "meaning": "خَضَعُوا لِلَّهِ.",
+            "ayah_number": 23,
+            "word": "وَأَخْبَتُوا",
+            "word_normalized": "وأخبتوا",
+            "meaning": "خَضَعُوا لِلهِ.",
             "meaning_normalized": "خضعوا لله"
           },
           {
-            "ayah_number": 43,
-            "word": "وَالْأَصَرُّ",
-            "word_normalized": "والأصر",
-            "meaning": "الَّذِي لَا يَسْمَعُ.",
+            "ayah_number": 24,
+            "word": "وَالأَصَمِّ",
+            "word_normalized": "والأصم",
+            "meaning": "الَّذِي لَا يَسْمَعُ.",
             "meaning_normalized": "الذي لا يسمع"
           },
           {
-            "ayah_number": 44,
-            "word": "الْمَلَا",
-            "word_normalized": "الملا",
-            "meaning": "رُؤَسَاءُ الْكُفْرِ.",
+            "ayah_number": 27,
+            "word": "الْمَلأُ",
+            "word_normalized": "الملأ",
+            "meaning": "رُؤَسَاءُ الكُفْرِ.",
             "meaning_normalized": "رؤساء الكفر"
           },
           {
-            "ayah_number": 44,
-            "word": "فَارْأَوْنَاهَا",
-            "word_normalized": "فارأوناها",
-            "meaning": "أَسَاءَلْنَا.",
-            "meaning_normalized": "أساءلنا"
+            "ayah_number": 27,
+            "word": "أَرَاذِلُنَا",
+            "word_normalized": "أراذلنا",
+            "meaning": "أَسَافِلُنَا.",
+            "meaning_normalized": "أسافلنا"
           },
           {
-            "ayah_number": 47,
-            "word": "بَادِي الرَّأْيِ",
-            "word_normalized": "بادي الرأي",
-            "meaning": "مِنْ غَيْرِ تَفَكُّرٍ، وَلَا رَوِيَّةٍ.",
+            "ayah_number": 27,
+            "word": "بَادِيَ الرَّايِ",
+            "word_normalized": "بادي الراي",
+            "meaning": "مِنْ غَيْرِ تَفَكُّرٍ، وَلَا رَوِيَّةٍ.",
             "meaning_normalized": "من غير تفكر ولا روية"
           },
           {
-            "ayah_number": 48,
-            "word": "فَيُمَيَّتُ عَلَيْكُمْ",
-            "word_normalized": "فيميت عليكم",
-            "meaning": "فَأَخْبِثُ عَلَيْكُمْ.",
-            "meaning_normalized": "فأخبث عليكم"
+            "ayah_number": 28,
+            "word": "فَعُمِّيَتْ عَلَيْكُمْ",
+            "word_normalized": "فعميت عليكم",
+            "meaning": "فَأُخْفِيَتْ عَلَيْكُمْ.",
+            "meaning_normalized": "فأخفيت عليكم"
           },
           {
-            "ayah_number": 48,
-            "word": "فَلَأَذَرِكُمُّوا",
-            "word_normalized": "فلأذركموا",
-            "meaning": "أَنْعَمْنَاكُمْ عَلَى تَبُوَّلِهَا.",
-            "meaning_normalized": "أنعمناكم على تبولها"
+            "ayah_number": 28,
+            "word": "أَنُلْزِمُكُمُوهَا",
+            "word_normalized": "أنلزمكموها",
+            "meaning": "أَنُجْبِرُكم عَلَى قَبُولِهَا.",
+            "meaning_normalized": "أنجبركم على قبولها"
           },
           {
-            "ayah_number": 49,
-            "word": "تَذْبَرُ",
-            "word_normalized": "تذبر",
-            "meaning": "تَخَمُّرُ.",
-            "meaning_normalized": "تخمر"
+            "ayah_number": 31,
+            "word": "تَزْدَرِي",
+            "word_normalized": "تزدري",
+            "meaning": "تَحْتَقِرُ.",
+            "meaning_normalized": "تحتقر"
           },
           {
-            "ayah_number": 55,
-            "word": "فَأَمْ يَقُولُونَ",
-            "word_normalized": "فأم يقولون",
-            "meaning": "بَلْ أَقُولُونَ.",
-            "meaning_normalized": "بل أقولون"
+            "ayah_number": 35,
+            "word": "أَمْ يَقُولُونَ",
+            "word_normalized": "أم يقولون",
+            "meaning": "بَلْ أَيَقُولُونَ.",
+            "meaning_normalized": "بل أيقولون"
           },
           {
-            "ayah_number": 56,
-            "word": "وَافْتَرِينَةٍ",
-            "word_normalized": "وافترينة",
-            "meaning": "اخْتَلَقَهُ.",
+            "ayah_number": 35,
+            "word": "افْتَرَاهُ",
+            "word_normalized": "افتراه",
+            "meaning": "اِخْتَلَقَهُ.",
             "meaning_normalized": "اختلقه"
           },
           {
-            "ayah_number": 57,
-            "word": "فَلَا تَيْأَسُ",
-            "word_normalized": "فلا تيأس",
-            "meaning": "لَا تَحْزَنُ.",
+            "ayah_number": 36,
+            "word": "فَلَا تَبْتَئِسْ",
+            "word_normalized": "فلا تبتئس",
+            "meaning": "لَا تَحْزَنْ.",
             "meaning_normalized": "لا تحزن"
           },
           {
-            "ayah_number": 57,
-            "word": "الْفُلْكِ",
+            "ayah_number": 37,
+            "word": "الْفُلْكَ",
             "word_normalized": "الفلك",
-            "meaning": "السَّفِينَةُ.",
+            "meaning": "السَّفِينَةَ.",
             "meaning_normalized": "السفينة"
           },
           {
-            "ayah_number": 57,
+            "ayah_number": 37,
             "word": "بِأَعْيُنِنَا",
             "word_normalized": "بأعيننا",
-            "meaning": "بِحِفْظِنَا وَمُرَاعَتِنَا.",
-            "meaning_normalized": "بحفظنا ومراعتنا"
+            "meaning": "بِحِفْظِنَا وَمَرْأًى مِنَّا.",
+            "meaning_normalized": "بحفظنا ومرأى منا"
           },
           {
-            "ayah_number": 58,
-            "word": "مِلَاءٍ",
-            "word_normalized": "ملاء",
-            "meaning": "أَشْرَافٍ.",
+            "ayah_number": 38,
+            "word": "مَلأٌ",
+            "word_normalized": "ملأ",
+            "meaning": "أَشْرَافٌ.",
             "meaning_normalized": "أشراف"
           },
           {
             "ayah_number": 40,
-            "word": "وَفَّارٌ",
+            "word": "وَفَارَ",
             "word_normalized": "وفار",
-            "meaning": "نَبَعَ الْمَاءُ بِقُوَّةٍ.",
+            "meaning": "نَبَعَ المَاءُ بِقُوَّةٍ.",
             "meaning_normalized": "نبع الماء بقوة"
           },
           {
             "ayah_number": 40,
-            "word": "التَّنُّورُ",
+            "word": "التَّنُّورُ",
             "word_normalized": "التنور",
-            "meaning": "الْمَكَانُ الَّذِي يُخْبَزُ فِيهِ.",
+            "meaning": "المَكَانُ الَّذِي يُخْبَزُ فِيهِ.",
             "meaning_normalized": "المكان الذي يخبز فيه"
           },
           {
             "ayah_number": 41,
-            "word": "مُجْرِيهَا",
-            "word_normalized": "مجريها",
+            "word": "مَجْرَاهَا",
+            "word_normalized": "مجراها",
             "meaning": "جَرْيُهَا.",
             "meaning_normalized": "جريها"
           },
           {
             "ayah_number": 41,
-            "word": "وَمَرْسَئِهَا",
-            "word_normalized": "ومرسئها",
-            "meaning": "مُنْتَهَى سَيْرِهَا وَرُسُوِّهَا.",
+            "word": "وَمُرْسَاهَا",
+            "word_normalized": "ومرساها",
+            "meaning": "مُنْتَهَى سَيْرِهَا وَرَسْوِهَا.",
             "meaning_normalized": "منتهى سيرها ورسوها"
           },
           {
-            "ayah_number": 42,
+            "ayah_number": 44,
             "word": "أَقْلِعِي",
             "word_normalized": "أقلعي",
-            "meaning": "أَمْسِكِي عَنِ الْمَطَرِ.",
+            "meaning": "أَمْسِكِي عَنِ المَطَرِ.",
             "meaning_normalized": "أمسكي عن المطر"
           },
           {
-            "ayah_number": 43,
-            "word": "وَقِيضَ",
-            "word_normalized": "وقيض",
-            "meaning": "نَقَصَ، وَنَقَصَ.",
-            "meaning_normalized": "نقص ونقص"
+            "ayah_number": 44,
+            "word": "وَغِيضَ",
+            "word_normalized": "وغيض",
+            "meaning": "نَقَصَ، وَنَضَبَ.",
+            "meaning_normalized": "نقص ونضب"
           }
         ]
       }

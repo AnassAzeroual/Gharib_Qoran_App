@@ -27,28 +27,28 @@
             "ayah_number": 28,
             "word": "وَقَضْبًا",
             "word_normalized": "وقضبا",
-            "meaning": "عَلَفًا لِلدَّوَابِّ.",
+            "meaning": "عَلَفًا لِلدَّوَابِّ.",
             "meaning_normalized": "علفا للدواب"
           },
           {
             "ayah_number": 30,
             "word": "غُلْبًا",
             "word_normalized": "غلبا",
-            "meaning": "عَظِيمَةَ الْأَشْجَارِ.",
+            "meaning": "عَظِيمَةَ الأَشْجَارِ.",
             "meaning_normalized": "عظيمة الأشجار"
           },
           {
             "ayah_number": 31,
-            "word": "وَأَبًّا",
+            "word": "وَأَبًّا",
             "word_normalized": "وأبا",
             "meaning": "كَلَأً لِلْبَهَائِمِ.",
             "meaning_normalized": "كلأ للبهائم"
           },
           {
             "ayah_number": 33,
-            "word": "الصَّاخَّةُ",
+            "word": "الصَّاخَّةُ",
             "word_normalized": "الصاخة",
-            "meaning": "صَيْحَةُ يَوْمِ الْقِيَامَةِ الَّتِي تَصُمُّ الْآذَانَ مِنْ هَوْلِهَا.",
+            "meaning": "صَيْحَةُ يَوْمِ القِيَامَةِ الَّتِي تَصُمُّ الآذَانَ مِنْ هَوْلِهَا.",
             "meaning_normalized": "صيحة يوم القيامة التي تصم الآذان من هولها"
           },
           {
@@ -60,14 +60,14 @@
           },
           {
             "ayah_number": 38,
-            "word": "مُسْفِرَةٌ",
+            "word": "مُّسْفِرَةٌ",
             "word_normalized": "مسفرة",
             "meaning": "مُسْتَنِيرَةٌ.",
             "meaning_normalized": "مستنيرة"
           },
           {
             "ayah_number": 39,
-            "word": "مُسْتَبْشِرَةٌ",
+            "word": "مُّسْتَبْشِرَةٌ",
             "word_normalized": "مستبشرة",
             "meaning": "فَرِحَةٌ.",
             "meaning_normalized": "فرحة"
@@ -90,21 +90,21 @@
             "ayah_number": 41,
             "word": "قَتَرَةٌ",
             "word_normalized": "قترة",
-            "meaning": "ذِلَّةٌ، وَظُلْمَةٌ.",
+            "meaning": "ذِلَّةٌ، وَظُلْمَةٌ.",
             "meaning_normalized": "ذلة وظلمة"
           },
           {
             "ayah_number": 42,
             "word": "الْكَفَرَةُ",
             "word_normalized": "الكفرة",
-            "meaning": "الْجَاحِدُونَ بِقُلُوبِهِمْ.",
+            "meaning": "الجَاحِدُونَ بِقُلُوبِهِمْ.",
             "meaning_normalized": "الجاحدون بقلوبهم"
           },
           {
             "ayah_number": 42,
             "word": "الْفَجَرَةُ",
             "word_normalized": "الفجرة",
-            "meaning": "الْعُصَاةُ بِأَعْمَالِهِمْ.",
+            "meaning": "العُصَاةُ بِأَعْمَالِهِمْ.",
             "meaning_normalized": "العصاة بأعمالهم"
           }
         ]
@@ -126,30 +126,30 @@
         "glossary": [
           {
             "ayah_number": 1,
-            "word": "كُوِّرَتْ",
+            "word": "كُوِّرَتْ",
             "word_normalized": "كورت",
-            "meaning": "لُفَّتْ، وَذَهَبَ ضَوْؤُهَا.",
+            "meaning": "لُفَّتْ، وَذَهَبَ ضَوْؤُهَا.",
             "meaning_normalized": "لفت وذهب ضوؤها"
           },
           {
             "ayah_number": 2,
-            "word": "انْكَدَرَتْ",
+            "word": "انكَدَرَتْ",
             "word_normalized": "انكدرت",
             "meaning": "تَنَاثَرَتْ، وَذَهَبَ نُورُهَا.",
             "meaning_normalized": "تناثرت وذهب نورها"
           },
           {
             "ayah_number": 3,
-            "word": "سُيِّرَتْ",
+            "word": "سُيِّرَتْ",
             "word_normalized": "سيرت",
-            "meaning": "أُزِيلَتْ عَنْ وَجْهِ الْأَرْضِ؛ فَصَارَتْ هَبَاءً مَنْثُورًا.",
+            "meaning": "أُزِيلَتْ عَنْ وَجْهِ الأَرْضِ؛ فَصَارَتْ هَبَاءً مَنْثُورًا.",
             "meaning_normalized": "أزيلت عن وجه الأرض فصارت هباء منثورا"
           },
           {
             "ayah_number": 4,
             "word": "الْعِشَارُ",
             "word_normalized": "العشار",
-            "meaning": "النُّوقُ الْحَوَامِلُ.",
+            "meaning": "النُّوقُ الحَوَامِلُ.",
             "meaning_normalized": "النوق الحوامل"
           }
         ]

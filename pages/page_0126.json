@@ -39,86 +39,86 @@
           },
           {
             "ayah_number": 122,
-            "word": "ٱجْتَبَٰهُ",
+            "word": "اجْتَبَاهُ",
             "word_normalized": "اجتباه",
             "meaning": "اصْطَفَاهُ.",
             "meaning_normalized": "اصطفاه"
           },
           {
             "ayah_number": 124,
-            "word": "ضَنكًا",
+            "word": "ضَنْكًا",
             "word_normalized": "ضنكا",
-            "meaning": "ضَيِّقَةً شَاقَّةً.",
+            "meaning": "ضَيِّقَةً شَاقَّةً.",
             "meaning_normalized": "ضيقة شاقة"
           },
           {
             "ayah_number": 126,
-            "word": "فَنَسِينَهَا",
+            "word": "فَنَسِيتَهَا",
             "word_normalized": "فنسيتها",
             "meaning": "أَعْرَضْتَ عَنْهَا.",
             "meaning_normalized": "أعرضت عنها"
           },
           {
             "ayah_number": 128,
-            "word": "ٱلْقُرُونِ",
+            "word": "الْقُرُونِ",
             "word_normalized": "القرون",
-            "meaning": "الْأُمَمِ الْمُكَذِّبَةِ.",
+            "meaning": "الأُمَمِ المُكَذِّبَةِ.",
             "meaning_normalized": "الأمم المكذبة"
           },
           {
             "ayah_number": 128,
-            "word": "لِّأُوْلِي ٱلنُّهَىٰ",
+            "word": "لِّأُوْلِي النُّهَى",
             "word_normalized": "لأولي النهى",
-            "meaning": "لِذَوِي الْعُقُولِ.",
+            "meaning": "لِذَوِي العُقُولِ.",
             "meaning_normalized": "لذوي العقول"
           },
           {
             "ayah_number": 129,
             "word": "لَكَانَ لِزَامًا",
             "word_normalized": "لكان لزاما",
-            "meaning": "لَكَانَ الْهَلَاكُ عَاجِلًا لَازِمًا.",
+            "meaning": "لَكَانَ الهَلَاكُ عَاجِلًا لَازِمًا.",
             "meaning_normalized": "لكان الهلاك عاجلا لازما"
           },
           {
             "ayah_number": 130,
-            "word": "ءَانَآءِ",
+            "word": "آنَاءَ",
             "word_normalized": "آناء",
-            "meaning": "سَاعَاتٍ.",
+            "meaning": "سَاعَاتِ.",
             "meaning_normalized": "ساعات"
           },
           {
             "ayah_number": 131,
-            "word": "وَلَا تَمُدَّنَّ",
+            "word": "وَلَا تَمُدَّنَّ",
             "word_normalized": "ولا تمدن",
             "meaning": "لَا تَنْظُرْ، وَلَا تَلْتَفِتْ وَتُعْجَبْ.",
             "meaning_normalized": "لا تنظر ولا تلتفت وتعجب"
           },
           {
             "ayah_number": 131,
-            "word": "أَزْوَٰجًا",
+            "word": "أَزْوَاجًا",
             "word_normalized": "أزواجا",
-            "meaning": "أَصْنَافًا مِنَ الْمُشْرِكِينَ.",
+            "meaning": "أَصْنَافًا مِنَ المُشْرِكِينَ.",
             "meaning_normalized": "أصنافا من المشركين"
           },
           {
             "ayah_number": 133,
             "word": "لَوْلَا",
             "word_normalized": "لولا",
-            "meaning": "هَلَّا.",
+            "meaning": "هَلَّا.",
             "meaning_normalized": "هلا"
           },
           {
             "ayah_number": 135,
-            "word": "مُّتَرَبِّصٌ",
+            "word": "مُّتَرَبِّصٌ",
             "word_normalized": "متربص",
             "meaning": "مُنْتَظِرٌ.",
             "meaning_normalized": "منتظر"
           },
           {
             "ayah_number": 135,
-            "word": "ٱلسَّوِيِّ",
+            "word": "السَّوِيِّ",
             "word_normalized": "السوي",
-            "meaning": "الْمُسْتَقِيمِ.",
+            "meaning": "المُسْتَقِيمِ.",
             "meaning_normalized": "المستقيم"
           }
         ]
@@ -140,21 +140,21 @@
         "glossary": [
           {
             "ayah_number": 2,
-            "word": "مُّحْدَثٍ",
+            "word": "مُّحْدَثٍ",
             "word_normalized": "محدث",
-            "meaning": "حَدِيثِ التَّنْزِيلِ يُجَدِّدُ الذِّكْرَى لَهُمْ.",
+            "meaning": "حَدِيثِ التَّنْزِيلِ يُجَدِّدُ الذِّكْرَى لَهُمْ.",
             "meaning_normalized": "حديث التنزيل يجدد الذكرى لهم"
           },
           {
             "ayah_number": 3,
-            "word": "وَأَسَرُّواْ ٱلنَّجْوَى",
+            "word": "وَأَسَرُّوا النَّجْوَى",
             "word_normalized": "وأسروا النجوى",
             "meaning": "بَالَغُوا فِي إِخْفَاءِ مَا يَتَنَاجَوْنَ بِهِ.",
             "meaning_normalized": "بالغوا في إخفاء ما يتناجون به"
           },
           {
             "ayah_number": 5,
-            "word": "أَضْغَٰثُ أَحْلَٰمٍ",
+            "word": "أَضْغَاثُ أَحْلَامٍ",
             "word_normalized": "أضغاث أحلام",
             "meaning": "أَخْلَاطُ مَنَامَاتٍ لَا حَقِيقَةَ لَهَا.",
             "meaning_normalized": "أخلاط منامات لا حقيقة لها"

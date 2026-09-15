@@ -25,7 +25,7 @@
         "glossary": [
           {
             "ayah_number": 75,
-            "word": "وَأُولُوا الْأَرْحَامِ",
+            "word": "وَأُوْلُوا الأَرْحَامِ",
             "word_normalized": "وأولوا الأرحام",
             "meaning": "ذَوُو الْقَرَابَاتِ.",
             "meaning_normalized": "ذوو القرابات"
@@ -48,21 +48,21 @@
         },
         "glossary": [
           {
-            "ayah_number": 2,
+            "ayah_number": 3,
             "word": "وَأَذَانٌ",
             "word_normalized": "وأذان",
             "meaning": "إِعْلَامٌ.",
             "meaning_normalized": "إعلام"
           },
           {
-            "ayah_number": 3,
-            "word": "لَمْ يُنْقَصُوكُمْ",
+            "ayah_number": 4,
+            "word": "لَمْ يَنْقُصُوكُمْ",
             "word_normalized": "لم ينقصوكم",
-            "meaning": "لَمْ يَخُونُوا الْعَهْدَ.",
+            "meaning": "لَمْ يَخُونُوا العَهْدَ.",
             "meaning_normalized": "لم يخونوا العهد"
           },
           {
-            "ayah_number": 3,
+            "ayah_number": 4,
             "word": "وَلَمْ يُظَاهِرُوا",
             "word_normalized": "ولم يظاهروا",
             "meaning": "لَمْ يُعَاوِنُوا.",
@@ -70,22 +70,22 @@
           },
           {
             "ayah_number": 5,
-            "word": "انْسَلَخَ",
+            "word": "انسَلَخَ",
             "word_normalized": "انسلخ",
             "meaning": "انْقَضَى.",
             "meaning_normalized": "انقضى"
           },
           {
             "ayah_number": 5,
-            "word": "الْأَشْهُرُ الْحُرُمُ",
+            "word": "الأَشْهُرُ الْحُرُمُ",
             "word_normalized": "الأشهر الحرم",
-            "meaning": "الْأَشْهُرُ الْأَرْبَعَةُ الَّتِي أَمَّنْتُمْ فِيهَا الْمُشْرِكِينَ، بَدْأَتْ يَوْمَ النَّحْرِ، وَانْتَهَتْ فِي الْعَاشِرِ مِنْ رَبِيعٍ الثَّانِي.",
+            "meaning": "الأَشْهُرُ الأَرْبَعَةُ الَّتِي أَمَّنْتُمْ فِيهَا المُشْرِكِينَ، بَدَأَتْ يَوْمَ النَّحْرِ، وَانْتَهَتْ فِي العَاشِرِ مِن رَبِيعٍ الثَّانِي.",
             "meaning_normalized": "الأشهر الأربعة التي أمنتم فيها المشركين بدأت يوم النحر وانتهت في العاشر من ربيع الثاني"
           },
           {
-            "ayah_number": 6,
-            "word": "وَأَحْصَرُوهُمْ",
-            "word_normalized": "وأحصروهم",
+            "ayah_number": 5,
+            "word": "وَاحْصُرُوهُمْ",
+            "word_normalized": "واحصروهم",
             "meaning": "حَاصِرُوهُمْ فِي مَعَاقِلِهِمْ.",
             "meaning_normalized": "حاصروهم في معاقلهم"
           },
@@ -93,14 +93,14 @@
             "ayah_number": 6,
             "word": "اسْتَجَارَكَ",
             "word_normalized": "استجارك",
-            "meaning": "طَلَبَ الْأَمَانَ مِنَ الْقَتْلِ.",
+            "meaning": "طَلَبَ الأَمَانَ مِنَ القَتْلِ.",
             "meaning_normalized": "طلب الأمان من القتل"
           },
           {
             "ayah_number": 7,
-            "word": "اسْتَقَمُوا",
-            "word_normalized": "استقموا",
-            "meaning": "وَفُّوا بِعَهْدِكُمْ.",
+            "word": "اسْتَقَامُوا",
+            "word_normalized": "استقاموا",
+            "meaning": "وَفَوْا بِعَهْدِكُمْ.",
             "meaning_normalized": "وفوا بعهدكم"
           },
           {
@@ -111,38 +111,38 @@
             "meaning_normalized": "يظفروا بكم"
           },
           {
-            "ayah_number": 9,
-            "word": "إِلًّا",
+            "ayah_number": 8,
+            "word": "إِلًّا",
             "word_normalized": "إلا",
             "meaning": "قَرَابَةً.",
             "meaning_normalized": "قرابة"
           },
           {
-            "ayah_number": 9,
-            "word": "ذِمَّةً",
+            "ayah_number": 8,
+            "word": "ذِمَّةً",
             "word_normalized": "ذمة",
             "meaning": "عَهْدًا.",
             "meaning_normalized": "عهدا"
           },
           {
-            "ayah_number": 10,
-            "word": "نُكَثُّوا",
+            "ayah_number": 12,
+            "word": "نَّكَثُوا",
             "word_normalized": "نكثوا",
             "meaning": "نَقَضُوا.",
             "meaning_normalized": "نقضوا"
           },
           {
-            "ayah_number": 10,
+            "ayah_number": 12,
             "word": "أَيْمَانَهُمْ",
             "word_normalized": "أيمانهم",
             "meaning": "مَوَاثِيقَهُمْ، وَعُهُودَهُمْ.",
             "meaning_normalized": "مواثيقهم وعهودهم"
           },
           {
-            "ayah_number": 13,
-            "word": "وَلَا أَيْمَنَ لَهُمْ",
-            "word_normalized": "ولا أيمن لهم",
-            "meaning": "لَا عَهْدَ لَهُمْ وَلَا ذِمَّةَ.",
+            "ayah_number": 12,
+            "word": "لَا أَيْمَانَ لَهُمْ",
+            "word_normalized": "لا أيمان لهم",
+            "meaning": "لَا عَهْدَ لَهُمْ وَلَا ذِمَّةَ.",
             "meaning_normalized": "لا عهد لهم ولا ذمة"
           }
         ]

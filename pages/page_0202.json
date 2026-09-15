@@ -25,28 +25,28 @@
         "glossary": [
           {
             "ayah_number": 20,
-            "word": "وَفَصْلَ ٱلْخِطَابِ",
+            "word": "وَفَصْلَ الْخِطَابِ",
             "word_normalized": "وفصل الخطاب",
-            "meaning": "الْبَيَانَ الشَّافِيَ وَالْفَصْلَ فِي الْكَلَامِ وَالْحُكْمِ.",
+            "meaning": "البَيَانَ الشَّافِيَ وَالفَصْلَ فِي الكَلَامِ وَالحُكْمِ.",
             "meaning_normalized": "البيان الشافي والفصل في الكلام والحكم"
           },
           {
             "ayah_number": 21,
-            "word": "نَبَؤُا۟",
+            "word": "نَبَأُ",
             "word_normalized": "نبأ",
             "meaning": "خَبَرُ.",
             "meaning_normalized": "خبر"
           },
           {
             "ayah_number": 21,
-            "word": "ٱلْخَصْمِ",
+            "word": "الْخَصْمِ",
             "word_normalized": "الخصم",
-            "meaning": "الْمُتَخَاصِمَيْنِ.",
+            "meaning": "المُتَخَاصِمِينَ.",
             "meaning_normalized": "المتخاصمين"
           },
           {
             "ayah_number": 21,
-            "word": "ٱلْمِحْرَابَ",
+            "word": "الْمِحْرَابَ",
             "word_normalized": "المحراب",
             "meaning": "مَكَانَ عِبَادَتِهِ.",
             "meaning_normalized": "مكان عبادته"
@@ -67,9 +67,9 @@
           },
           {
             "ayah_number": 22,
-            "word": "سَوَآءِ ٱلصِّرَٰطِ",
+            "word": "سَوَاءَ الصِّرَاطِ",
             "word_normalized": "سواء الصراط",
-            "meaning": "وَسَطِ الطَّرِيقِ الصَّوَابِ.",
+            "meaning": "وَسَطِ الطَّرِيقِ الصَّوَابِ.",
             "meaning_normalized": "وسط الطريق الصواب"
           },
           {
@@ -81,44 +81,44 @@
           },
           {
             "ayah_number": 23,
-            "word": "وَعَزَّنِى فِى ٱلْخِطَابِ",
+            "word": "وَعَزَّنِي فِي الْخِطَابِ",
             "word_normalized": "وعزني في الخطاب",
-            "meaning": "غَلَبَنِي فِي الْكَلَامِ، وَاشْتَدَّ عَلَيَّ فِيهِ.",
+            "meaning": "غَلَبَنِي فيِ الكَلَامِ، وَاشْتَدَّ عَلَيَّ فِيهِ.",
             "meaning_normalized": "غلبني في الكلام واشتد علي فيه"
           },
           {
             "ayah_number": 24,
-            "word": "ٱلْخُلَطَآءِ",
+            "word": "الْخُلَطَاءِ",
             "word_normalized": "الخلطاء",
-            "meaning": "الشُّرَكَاءِ.",
+            "meaning": "الشُّرَكَاءِ.",
             "meaning_normalized": "الشركاء"
           },
           {
             "ayah_number": 24,
-            "word": "لَيَبْغِى",
+            "word": "لَيَبْغِي",
             "word_normalized": "ليبغي",
             "meaning": "لَيَعْتَدِي.",
             "meaning_normalized": "ليعتدي"
           },
           {
             "ayah_number": 24,
-            "word": "وَظَنَّ",
+            "word": "وَظَنَّ",
             "word_normalized": "وظن",
             "meaning": "أَيْقَنَ.",
             "meaning_normalized": "أيقن"
           },
           {
             "ayah_number": 24,
-            "word": "فَتَنَّٰهُ",
+            "word": "فَتَنَّاهُ",
             "word_normalized": "فتناه",
-            "meaning": "ابْتَلَيْنَاهُ، وَامْتَحَنَّاهُ.",
+            "meaning": "ابْتَلَيْنَاهُ، وَامْتَحَنَّاهُ.",
             "meaning_normalized": "ابتليناه وامتحناه"
           },
           {
             "ayah_number": 24,
-            "word": "وَخَرَّ رَاكِعًا",
+            "word": "وَخَرَّ رَاكِعًا",
             "word_normalized": "وخر راكعا",
-            "meaning": "سَجَدَ لِلَّهِ تَعَالَى.",
+            "meaning": "سَجَدَ لِلهِ تَعَالَى.",
             "meaning_normalized": "سجد لله تعالى"
           },
           {
@@ -130,21 +130,21 @@
           },
           {
             "ayah_number": 25,
-            "word": "لَزُلْفَىٰ",
+            "word": "لَزُلْفَى",
             "word_normalized": "لزلفى",
             "meaning": "لَقُرْبَى وَمَكَانَةً.",
             "meaning_normalized": "لقربى ومكانة"
           },
           {
             "ayah_number": 25,
-            "word": "مَـَٔابٍ",
+            "word": "مَآبٍ",
             "word_normalized": "مآب",
             "meaning": "مَرْجِعٍ.",
             "meaning_normalized": "مرجع"
           },
           {
             "ayah_number": 27,
-            "word": "بَٰطِلًا",
+            "word": "بَاطِلًا",
             "word_normalized": "باطلا",
             "meaning": "عَبَثًا وَلَهْوًا.",
             "meaning_normalized": "عبثا ولهوا"
@@ -158,14 +158,14 @@
           },
           {
             "ayah_number": 30,
-            "word": "أَوَّابٌ",
+            "word": "أَوَّابٌ",
             "word_normalized": "أواب",
-            "meaning": "كَثِيرُ الرُّجُوعِ إِلَى اللهِ بِالتَّوْبَةِ، وَالطَّاعَةِ.",
+            "meaning": "كَثِيرُ الرُّجُوعِ إِلَى اللِه بِالتَّوْبَةِ، وَالطَّاعَةِ.",
             "meaning_normalized": "كثير الرجوع إلى الله بالتوبة والطاعة"
           },
           {
             "ayah_number": 31,
-            "word": "بِٱلْعَشِىِّ",
+            "word": "بِالْعَشِيِّ",
             "word_normalized": "بالعشي",
             "meaning": "عَصْرًا.",
             "meaning_normalized": "عصرا"

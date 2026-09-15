@@ -25,23 +25,23 @@
         "glossary": [
           {
             "ayah_number": 51,
-            "word": "حَاشَ لِلَّهِ",
+            "word": "حَاشَ لِلّهِ",
             "word_normalized": "حاش لله",
-            "meaning": "تَنْزِيهًا لِلَّهِ.",
+            "meaning": "تَنْزِيهًا للهِ.",
             "meaning_normalized": "تنزيها لله"
           },
           {
             "ayah_number": 51,
-            "word": "حَصْحَصَ الْحَقُّ",
+            "word": "حَصْحَصَ الْحَقُّ",
             "word_normalized": "حصحص الحق",
             "meaning": "ظَهَرَ بَعْدَ خَفَائِهِ.",
             "meaning_normalized": "ظهر بعد خفائه"
           },
           {
             "ayah_number": 53,
-            "word": "لَأَمَّارَةٌ بِالسُّوءِ",
+            "word": "لأَمَّارَةٌ بِالسُّوءِ",
             "word_normalized": "لأمارة بالسوء",
-            "meaning": "كَثِيرَةُ الْأَمْرِ بِالْمَعَاصِي.",
+            "meaning": "كَثِيرَةُ الأَمْرِ بِالمَعَاصِي.",
             "meaning_normalized": "كثيرة الأمر بالمعاصي"
           },
           {
@@ -53,37 +53,37 @@
           },
           {
             "ayah_number": 54,
-            "word": "مَكِينٌ",
+            "word": "مِكِينٌ",
             "word_normalized": "مكين",
-            "meaning": "عَظِيمُ الْمَكَانَةِ.",
+            "meaning": "عَظِيمُ المَكَانَةِ.",
             "meaning_normalized": "عظيم المكانة"
           },
           {
             "ayah_number": 56,
-            "word": "يَتَبَوَّأُ",
+            "word": "يَتَبَوَّأُ",
             "word_normalized": "يتبوأ",
             "meaning": "يَنْزِلُ.",
             "meaning_normalized": "ينزل"
           },
           {
             "ayah_number": 59,
-            "word": "جَهَّزَهُمْ بِجَهَازِهِمْ",
+            "word": "جَهَّزَهُم بِجَهَازِهِمْ",
             "word_normalized": "جهزهم بجهازهم",
-            "meaning": "أَعْطَاهُمْ مَا طَلَبُوا، وَوَفَّى الْكَيْلَ لَهُمْ.",
+            "meaning": "أَعْطَاهُمْ مَا طَلَبُوا، وَوَفَّى الكَيْلَ لَهُمْ.",
             "meaning_normalized": "أعطاهم ما طلبوا ووفى الكيل لهم"
           },
           {
             "ayah_number": 61,
             "word": "سَنُرَاوِدُ عَنْهُ أَبَاهُ",
             "word_normalized": "سنراود عنه أباه",
-            "meaning": "سَنَبْذُلُ جُهْدَنَا، لِإِقْنَاعِ أَبِيهِ.",
+            "meaning": "سَنَبْذُلُ جُهْدَنَا، لإِقْنَاعِ أَبِيهِ.",
             "meaning_normalized": "سنبذل جهدنا لإقناع أبيه"
           },
           {
             "ayah_number": 62,
             "word": "بِضَاعَتَهُمْ",
             "word_normalized": "بضاعتهم",
-            "meaning": "الثَّمَنَ الَّذِي دَفَعُوهُ.",
+            "meaning": "الثَّمَنَ الَّذِي دَفَعُوهُ.",
             "meaning_normalized": "الثمن الذي دفعوه"
           },
           {
@@ -111,7 +111,7 @@
             "ayah_number": 65,
             "word": "بِضَاعَتُنَا",
             "word_normalized": "بضاعتنا",
-            "meaning": "الثَّمَنُ الَّذِي دَفَعْنَاهُ.",
+            "meaning": "الثَّمَنُ الَّذِي دَفَعْنَاهُ.",
             "meaning_normalized": "الثمن الذي دفعناه"
           },
           {
@@ -132,35 +132,35 @@
             "ayah_number": 69,
             "word": "آوَى",
             "word_normalized": "آوى",
-            "meaning": "ضَمَّ.",
+            "meaning": "ضَمَّ.",
             "meaning_normalized": "ضم"
           },
           {
             "ayah_number": 69,
             "word": "فَلَا تَبْتَئِسْ",
             "word_normalized": "فلا تبتئس",
-            "meaning": "فَلَا تَغْتَمَّ.",
+            "meaning": "فَلَا تَغْتَمَّ.",
             "meaning_normalized": "فلا تغتم"
           },
           {
             "ayah_number": 70,
-            "word": "السِّقَايَةَ",
+            "word": "السِّقَايَةَ",
             "word_normalized": "السقاية",
-            "meaning": "الْإِنَاءَ الَّذِي كَانَ يَكِيلُ بِهِ لِلنَّاسِ.",
+            "meaning": "الإِنَاءَ الَّذِي كَانَ يَكِيلُ بِهِ لِلنَّاسِ.",
             "meaning_normalized": "الإناء الذي كان يكيل به للناس"
           },
           {
             "ayah_number": 70,
             "word": "رَحْلِ",
             "word_normalized": "رحل",
-            "meaning": "مَتَاعٍ.",
+            "meaning": "مَتَاعِ.",
             "meaning_normalized": "متاع"
           },
           {
             "ayah_number": 70,
             "word": "الْعِيرُ",
             "word_normalized": "العير",
-            "meaning": "الْقَافِلَةُ فِيهَا الْأَحْمَالُ.",
+            "meaning": "القَافِلَةُ فِيهَا الأَحْمَالُ.",
             "meaning_normalized": "القافلة فيها الأحمال"
           },
           {

@@ -24,52 +24,52 @@
         },
         "glossary": [
           {
-            "ayah_number": 103,
-            "word": "فَوَّلًا",
-            "word_normalized": "فولا",
-            "meaning": "فَهَلَّا.",
+            "ayah_number": 98,
+            "word": "فَلَوْلَا",
+            "word_normalized": "فلولا",
+            "meaning": "فَهَلَّا.",
             "meaning_normalized": "فهلا"
           },
           {
-            "ayah_number": 104,
-            "word": "الْأَرْزَى",
-            "word_normalized": "الأرزى",
-            "meaning": "الذُّلُّ وَالْهَوَانُ.",
+            "ayah_number": 98,
+            "word": "الخِزْيِ",
+            "word_normalized": "الخزي",
+            "meaning": "الذُّلِّ وَالهَوَانِ.",
             "meaning_normalized": "الذل والهوان"
           },
           {
-            "ayah_number": 103,
-            "word": "الرِّجْسُ",
+            "ayah_number": 100,
+            "word": "الرِّجْسَ",
             "word_normalized": "الرجس",
-            "meaning": "الْعَذَابُ.",
+            "meaning": "العَذَابَ.",
             "meaning_normalized": "العذاب"
           },
           {
-            "ayah_number": 104,
-            "word": "وَمَا تَفْعَى",
-            "word_normalized": "وما تفعى",
+            "ayah_number": 101,
+            "word": "وَمَا تُغْنِي",
+            "word_normalized": "وما تغني",
             "meaning": "لَا تَنْفَعُ.",
             "meaning_normalized": "لا تنفع"
           },
           {
-            "ayah_number": 106,
-            "word": "مَا خَلَا",
-            "word_normalized": "ما خلا",
-            "meaning": "مَضَى.",
-            "meaning_normalized": "مضى"
+            "ayah_number": 102,
+            "word": "خَلَوْا",
+            "word_normalized": "خلوا",
+            "meaning": "مَضَوْا.",
+            "meaning_normalized": "مضوا"
           },
           {
             "ayah_number": 105,
-            "word": "وَأَنِزْ وَجَهَكَ لِلدِّينِ",
-            "word_normalized": "وأنز وجهك للدين",
-            "meaning": "أَقِمْ نَفْسَكَ عَلَى الْإِسْلَامِ مُسْتَقِيمًا عَلَيْهِ.",
+            "word": "أَقِمْ وَجْهَكَ لِلدِّينِ",
+            "word_normalized": "أقم وجهك للدين",
+            "meaning": "أَقِمْ نَفْسَكَ عَلَى الإِسْلَامِ مُسْتَقِيمًا عَلَيْهِ.",
             "meaning_normalized": "أقم نفسك على الإسلام مستقيما عليه"
           },
           {
             "ayah_number": 105,
             "word": "حَنِيفًا",
             "word_normalized": "حنيفا",
-            "meaning": "مَائِلًا عَنِ الشِّرْكِ إِلَى التَّوْحِيدِ.",
+            "meaning": "مَائِلًا عَنِ الشِّرْكِ إِلَى التَّوْحِيدِ.",
             "meaning_normalized": "مائلا عن الشرك إلى التوحيد"
           }
         ]
@@ -91,24 +91,24 @@
         "glossary": [
           {
             "ayah_number": 1,
-            "word": "أُحْكِمَتْ",
-            "word_normalized": "أحكمت",
-            "meaning": "نُبِّتَتْ بِالْأَمْرِ وَالنَّهْيِ.",
-            "meaning_normalized": "نبتت بالأمر والنهي"
+            "word": "فُصِّلَتْ",
+            "word_normalized": "فصلت",
+            "meaning": "بُيِّنَتْ بِالأَمْرِ وَالنَّهْيِ.",
+            "meaning_normalized": "بينت بالأمر والنهي"
           },
           {
-            "ayah_number": 2,
-            "word": "وَئُوبُوا إِلَيْهِ",
-            "word_normalized": "وئوبوا إليه",
+            "ayah_number": 3,
+            "word": "تُوبُوا",
+            "word_normalized": "توبوا",
             "meaning": "ارْجِعُوا إِلَيْهِ نَادِمِينَ.",
             "meaning_normalized": "ارجعوا إليه نادمين"
           },
           {
-            "ayah_number": 3,
-            "word": "يُلْبِيُّونَ مَدْبُورَهُمْ",
-            "word_normalized": "يلبيون مدبورهم",
-            "meaning": "يُفَصِّرُونَ فِي صُدُورِهِمُ الْكُفْرَ.",
-            "meaning_normalized": "يفصرون في صدورهم الكفر"
+            "ayah_number": 5,
+            "word": "يَثْنُونَ صُدُورَهُمْ",
+            "word_normalized": "يثنون صدورهم",
+            "meaning": "يُضْمِرُونَ فِي صُدُورِهِمُ الكُفْرَ.",
+            "meaning_normalized": "يضمرون في صدورهم الكفر"
           },
           {
             "ayah_number": 5,
@@ -121,41 +121,41 @@
             "ayah_number": 5,
             "word": "يَسْتَغْشُونَ ثِيَابَهُمْ",
             "word_normalized": "يستغشون ثيابهم",
-            "meaning": "يَتَغَطَّوْنَ بِثِيَابِهِمْ.",
+            "meaning": "يَتَغَطَّوْنَ بِثِيَابِهِمْ.",
             "meaning_normalized": "يتغطون بثيابهم"
           },
           {
             "ayah_number": 6,
-            "word": "مُسْتَقَرُّهَا",
+            "word": "مُسْتَقَرَّهَا",
             "word_normalized": "مستقرها",
-            "meaning": "مَسْكَنُهَا فِي الدُّنْيَا، وَبَعْدَ الْمَوْتِ.",
+            "meaning": "مَسْكَنَهَا فِي الدُّنْيَا، وَبَعْدَ المَوْتِ.",
             "meaning_normalized": "مسكنها في الدنيا وبعد الموت"
           },
           {
             "ayah_number": 6,
-            "word": "وَمُسْتَوْدَعُهَا",
+            "word": "وَمُسْتَوْدَعَهَا",
             "word_normalized": "ومستودعها",
-            "meaning": "الْمَوْضِعُ الَّذِي تَمُوتُ فِيهِ.",
+            "meaning": "المَوْضِعَ الَّذِي تَمُوتُ فِيهِ.",
             "meaning_normalized": "الموضع الذي تموت فيه"
           },
           {
-            "ayah_number": 8,
-            "word": "لِيَخْزِيَهُمْ",
-            "word_normalized": "ليخزيهم",
-            "meaning": "لِيُخْزِيَهُمْ.",
-            "meaning_normalized": "ليخزيهم"
+            "ayah_number": 7,
+            "word": "لِيَبْلُوَكُمْ",
+            "word_normalized": "ليبلوكم",
+            "meaning": "لِيَخْتَبِرَكُمْ.",
+            "meaning_normalized": "ليختبركم"
           },
           {
             "ayah_number": 8,
-            "word": "فَأَنْتُمْ مُمَدَّدُونَ",
-            "word_normalized": "فأنتم ممددون",
-            "meaning": "أَجَلٌ مَعْلُومٌ.",
+            "word": "أُمَّةٍ مَّعْدُودَةٍ",
+            "word_normalized": "أمة معدودة",
+            "meaning": "أَجَلٍ مَعْلُومٍ.",
             "meaning_normalized": "أجل معلوم"
           },
           {
             "ayah_number": 8,
-            "word": "هَا يَحْسَبُهُ",
-            "word_normalized": "ها يحسبه",
+            "word": "مَا يَحْبِسُهُ",
+            "word_normalized": "ما يحبسه",
             "meaning": "مَا يَمْنَعُهُ؟",
             "meaning_normalized": "ما يمنعه"
           }

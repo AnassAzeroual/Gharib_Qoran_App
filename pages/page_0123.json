@@ -32,70 +32,70 @@
           },
           {
             "ayah_number": 78,
-            "word": "فَغَشِيَهُم",
+            "word": "فَغَشِيَهُمْ",
             "word_normalized": "فغشيهم",
-            "meaning": "فَغَمَرَهُمْ، وَغَطَّاهُمْ.",
+            "meaning": "فَغَمَرَهُمْ، وَغَطَّاهُمْ.",
             "meaning_normalized": "فغمرهم وغطاهم"
           },
           {
             "ayah_number": 78,
-            "word": "ٱلْيَمِّ",
+            "word": "الْيَمِّ",
             "word_normalized": "اليم",
-            "meaning": "الْبَحْرِ.",
+            "meaning": "البَحْرِ.",
             "meaning_normalized": "البحر"
           },
           {
             "ayah_number": 80,
-            "word": "جَانِبَ ٱلطُّورِ",
+            "word": "جَانِبَ الطُّورِ",
             "word_normalized": "جانب الطور",
-            "meaning": "جَانِبَ جَبَلِ الطُّورِ.",
+            "meaning": "جَانِبِ جَبَلِ الطُّورِ.",
             "meaning_normalized": "جانب جبل الطور"
           },
           {
             "ayah_number": 80,
-            "word": "ٱلْمَنَّ",
+            "word": "الْمَنَّ",
             "word_normalized": "المن",
-            "meaning": "طَعَامًا؛ كَالْعَسَلِ.",
+            "meaning": "طَعَامًا؛ كَالعَسَلِ.",
             "meaning_normalized": "طعاما كالعسل"
           },
           {
             "ayah_number": 80,
-            "word": "وَٱلسَّلْوَىٰ",
+            "word": "وَالسَّلْوَى",
             "word_normalized": "والسلوى",
-            "meaning": "طَيْرًا؛ كَالسُّمَانَى.",
+            "meaning": "طَيْرًا؛ كَالسُّمَانَى.",
             "meaning_normalized": "طيرا كالسمانى"
           },
           {
             "ayah_number": 81,
-            "word": "وَلَا تَطْغَوْاْ فِيهِ",
+            "word": "وَلَا تَطْغَوْا فِيهِ",
             "word_normalized": "ولا تطغوا فيه",
             "meaning": "لَا تَعْتَدُوا بِأَنْ يَظْلِمَ بَعْضُكُمْ بَعْضًا.",
             "meaning_normalized": "لا تعتدوا بأن يظلم بعضكم بعضا"
           },
           {
             "ayah_number": 81,
-            "word": "فَيَحِلَّ",
+            "word": "فَيَحِلَّ",
             "word_normalized": "فيحل",
             "meaning": "فَيَنْزِلَ.",
             "meaning_normalized": "فينزل"
           },
           {
             "ayah_number": 81,
-            "word": "هَوَىٰ",
+            "word": "هَوَى",
             "word_normalized": "هوى",
             "meaning": "خَسِرَ، وَهَلَكَ.",
             "meaning_normalized": "خسر وهلك"
           },
           {
             "ayah_number": 84,
-            "word": "أُوْلَآءِ",
+            "word": "أُولَاءِ",
             "word_normalized": "أولاء",
-            "meaning": "هَؤُلَاءِ.",
+            "meaning": "هَؤُلاءِ.",
             "meaning_normalized": "هؤلاء"
           },
           {
             "ayah_number": 84,
-            "word": "عَلَىٰٓ أَثَرِي",
+            "word": "عَلَى أَثَرِي",
             "word_normalized": "على أثري",
             "meaning": "خَلْفِي سَوْفَ يَلْحَقُونَ بِي.",
             "meaning_normalized": "خلفي سوف يلحقون بي"
@@ -111,7 +111,7 @@
             "ayah_number": 86,
             "word": "وَعْدًا حَسَنًا",
             "word_normalized": "وعدا حسنا",
-            "meaning": "الْوَعْدَ بِإِنْزَالِ التَّوْرَاةِ.",
+            "meaning": "الوَعْدَ بِإِنْزَالِ التَّوْرَاةِ.",
             "meaning_normalized": "الوعد بإنزال التوراة"
           },
           {
@@ -130,14 +130,14 @@
           },
           {
             "ayah_number": 87,
-            "word": "مِن زِينَةِ ٱلْقَوْمِ",
+            "word": "مِّن زِينَةِ الْقَوْمِ",
             "word_normalized": "من زينة القوم",
-            "meaning": "مِنْ حُلِيِّ قَوْمِ فِرْعَوْنَ.",
+            "meaning": "مِنْ حُلِيِّ قَوْمِ فِرْعَوْنَ.",
             "meaning_normalized": "من حلي قوم فرعون"
           },
           {
             "ayah_number": 87,
-            "word": "فَقَذَفْنَٰهَا",
+            "word": "فَقَذَفْنَاهَا",
             "word_normalized": "فقذفناها",
             "meaning": "أَلْقَيْنَاهَا فِي حُفْرَةٍ فِيهَا نَارٌ.",
             "meaning_normalized": "ألقيناها في حفرة فيها نار"
@@ -153,22 +153,22 @@
             "ayah_number": 88,
             "word": "جَسَدًا",
             "word_normalized": "جسدا",
-            "meaning": "مُجَسَّدًا مِنَ الذَّهَبِ.",
+            "meaning": "مُجَسَّدًا مِنَ الذَّهَبِ.",
             "meaning_normalized": "مجسدا من الذهب"
           },
           {
             "ayah_number": 88,
-            "word": "لَّهُۥ خُوَارٌ",
+            "word": "لَهُ خُوَارٌ",
             "word_normalized": "له خوار",
-            "meaning": "لَهُ صَوْتٌ كَصَوْتِ الْبَقَرِ.",
+            "meaning": "لَهُ صَوْتٌ كَصَوْتِ البَقَرِ.",
             "meaning_normalized": "له صوت كصوت البقر"
           },
           {
             "ayah_number": 89,
-            "word": "أَلَّا يَرْجِعُ إِلَيْهِمْ قَوْلًا",
+            "word": "أَلَّا يَرْجِعُ إِلَيْهِمْ قَوْلًا",
             "word_normalized": "ألا يرجع إليهم قولا",
-            "meaning": "أَنْ لَا يَرُدُّ عَلَيْهِمْ جَوَابًا.",
-            "meaning_normalized": "أن لا يرد عليهم جوابا"
+            "meaning": "أَلَّا يَرُدُّ عَلَيْهِمْ جَوَابًا.",
+            "meaning_normalized": "ألا يرد عليهم جوابا"
           }
         ]
       }

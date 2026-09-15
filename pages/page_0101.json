@@ -25,51 +25,51 @@
         "glossary": [
           {
             "ayah_number": 1,
-            "word": "سُبْحَٰنَ",
+            "word": "سُبْحَانَ",
             "word_normalized": "سبحان",
-            "meaning": "تَنْزِيهًا للهِ، وَتَعَجُّبًا مِنْ قُدْرَتِهِ.",
+            "meaning": "تَنْزِيهًا للِه، وَتَعَجُّبَا مِنْ قُدْرَتِهِ.",
             "meaning_normalized": "تنزيها لله وتعجبا من قدرته"
           },
           {
-            "ayah_number": 3,
+            "ayah_number": 2,
             "word": "وَكِيلًا",
             "word_normalized": "وكيلا",
-            "meaning": "مَعْبُودًا تُفَوِّضُونَ أُمُورَكُمْ إِلَيْهِ.",
+            "meaning": "مَعْبُودًا تُفَوِّضُونَ أُمُورَكُمْ إِلَيْهِ.",
             "meaning_normalized": "معبودا تفوضون أموركم إليه"
           },
           {
             "ayah_number": 4,
-            "word": "وَقَضَيْنَآ",
+            "word": "وَقَضَيْنَا",
             "word_normalized": "وقضينا",
             "meaning": "أَخْبَرْنَا، وَأَوْحَيْنَا.",
             "meaning_normalized": "أخبرنا وأوحينا"
           },
           {
             "ayah_number": 5,
-            "word": "أُو۟لِى بَأْسٍ",
-            "word_normalized": "أولي بأس",
-            "meaning": "ذَوِي شَجَاعَةٍ وَقُوَّةٍ.",
+            "word": "أُوْلِي بَاسٍ",
+            "word_normalized": "أولي باس",
+            "meaning": "ذَوِي شَجَاعَةٍ وَقُوَّةٍ.",
             "meaning_normalized": "ذوي شجاعة وقوة"
           },
           {
             "ayah_number": 5,
-            "word": "فَجَاسُوا۟",
+            "word": "فَجَاسُوا",
             "word_normalized": "فجاسوا",
             "meaning": "فَطَافُوا.",
             "meaning_normalized": "فطافوا"
           },
           {
             "ayah_number": 5,
-            "word": "خِلَٰلَ ٱلدِّيَارِ",
+            "word": "خِلَالَ الدِّيَارِ",
             "word_normalized": "خلال الديار",
             "meaning": "وَسَطَهَا.",
             "meaning_normalized": "وسطها"
           },
           {
             "ayah_number": 6,
-            "word": "ٱلْكَرَّةَ",
+            "word": "الْكَرَّةَ",
             "word_normalized": "الكرة",
-            "meaning": "الْغَلَبَةَ وَالظُّهُورَ.",
+            "meaning": "الغَلَبَةَ وَالظُّهُورَ.",
             "meaning_normalized": "الغلبة والظهور"
           },
           {
@@ -81,35 +81,35 @@
           },
           {
             "ayah_number": 7,
-            "word": "وَعْدُ ٱلْءَاخِرَةِ",
+            "word": "وَعْدُ الآخِرَةِ",
             "word_normalized": "وعد الآخرة",
-            "meaning": "مَوْعِدُ الْإِفْسَادِ الثَّانِي.",
+            "meaning": "مَوْعِدُ الإِفْسَادِ الثَّانِي.",
             "meaning_normalized": "موعد الإفساد الثاني"
           },
           {
             "ayah_number": 7,
-            "word": "لِيَسُۥٓـُٔوا۟",
-            "word_normalized": "ليسوءوا",
-            "meaning": "لِيُذِلُّوا، وَيُهِينُوا.",
+            "word": "لِيَسُوؤُوا",
+            "word_normalized": "ليسوؤوا",
+            "meaning": "لِيُذِلُّوا، وَيُهِينُوا.",
             "meaning_normalized": "ليذلوا ويهينوا"
           },
           {
             "ayah_number": 7,
-            "word": "ٱلْمَسْجِدَ",
+            "word": "الْمَسْجِدَ",
             "word_normalized": "المسجد",
-            "meaning": "بَيْتَ الْمَقْدِسِ.",
+            "meaning": "بَيْتَ المَقْدِسِ.",
             "meaning_normalized": "بيت المقدس"
           },
           {
             "ayah_number": 7,
-            "word": "وَلِيُتَبِّرُوا۟",
+            "word": "وَلِيُتَبِّرُوا",
             "word_normalized": "وليتبروا",
-            "meaning": "لِيُدَمِّرُوا.",
+            "meaning": "لِيُدَمِّرُوا.",
             "meaning_normalized": "ليدمروا"
           },
           {
             "ayah_number": 7,
-            "word": "مَا عَلَوْا۟",
+            "word": "مَا عَلَوْا",
             "word_normalized": "ما علوا",
             "meaning": "مَا وَقَعَ تَحْتَ أَيْدِيهِمْ.",
             "meaning_normalized": "ما وقع تحت أيديهم"
@@ -137,7 +137,7 @@
           },
           {
             "ayah_number": 12,
-            "word": "فَمَحَوْنَآ",
+            "word": "فَمَحَوْنَا",
             "word_normalized": "فمحونا",
             "meaning": "طَمَسْنَا.",
             "meaning_normalized": "طمسنا"
@@ -151,9 +151,9 @@
           },
           {
             "ayah_number": 13,
-            "word": "طَٰٓئِرَهُۥ",
+            "word": "طَائِرَهُ",
             "word_normalized": "طائره",
-            "meaning": "مَا عَمِلَهُ مِنْ خَيْرٍ وَشَرٍّ.",
+            "meaning": "مَا عَمِلَهُ مِنْ خَيْرٍ وَشَرٍّ.",
             "meaning_normalized": "ما عمله من خير وشر"
           }
         ]
