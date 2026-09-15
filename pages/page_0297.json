@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 297,
+    "header": {
+      "right": "سُورَةُ الْمَعَارِجِ",
+      "right_normalized": "سورة المعارج",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمَعَارِجِ",
+          "name_normalized": "سورة المعارج",
+          "order": 70,
+          "ayat_count": 44,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 19,
+            "word": "هَلُوعًا",
+            "word_normalized": "هلوعا",
+            "meaning": "يَجْزَعُ عِنْدَ الْمُصِيبَةِ، وَيَمْنَعُ إِذَا أَصَابَهُ الْخَيْرُ، وَتَفْسِيرُ الْهَلُوعِ جَاءَ فِي الْآيَتَيْنِ بَعْدَهَا.",
+            "meaning_normalized": "يجزع عند المصيبة ويمنع إذا أصابه الخير وتفسير الهلوع جاء في الآيتين بعدها"
+          },
+          {
+            "ayah_number": 20,
+            "word": "جَزُوعًا",
+            "word_normalized": "جزوعا",
+            "meaning": "كَثِيرَ الْأَسَى وَالْحُزْنِ.",
+            "meaning_normalized": "كثير الأسى والحزن"
+          },
+          {
+            "ayah_number": 21,
+            "word": "الْخَيْرُ",
+            "word_normalized": "الخير",
+            "meaning": "الْمَالُ، وَالْيُسْرُ.",
+            "meaning_normalized": "المال واليسر"
+          },
+          {
+            "ayah_number": 24,
+            "word": "حَقٌّ مَعْلُومٌ",
+            "word_normalized": "حق معلوم",
+            "meaning": "نَصِيبٌ مُعَيَّنٌ فَرَضَهُ اللهُ عَلَيْهِمْ؛ وَهُوَ الزَّكَاةُ.",
+            "meaning_normalized": "نصيب معين فرضه الله عليهم وهو الزكاة"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وَالْمَحْرُومِ",
+            "word_normalized": "والمحروم",
+            "meaning": "مَنْ يَتَعَفَّفُ عَنِ السُّؤَالِ.",
+            "meaning_normalized": "من يتعفف عن السؤال"
+          },
+          {
+            "ayah_number": 26,
+            "word": "بِيَوْمِ الدِّينِ",
+            "word_normalized": "بيوم الدين",
+            "meaning": "يَوْمِ الْجَزَاءِ وَالْحِسَابِ.",
+            "meaning_normalized": "يوم الجزاء والحساب"
+          },
+          {
+            "ayah_number": 28,
+            "word": "غَيْرُ مَأْمُونٍ",
+            "word_normalized": "غير مأمون",
+            "meaning": "لَا يَنْبَغِي أَنْ يَأْمَنَهُ أَحَدٌ.",
+            "meaning_normalized": "لا ينبغي أن يأمنه أحد"
+          },
+          {
+            "ayah_number": 30,
+            "word": "مَا مَلَكَتْ أَيْمَنُهُمْ",
+            "word_normalized": "ما ملكت أيمانهم",
+            "meaning": "إِمَائِهِمُ الْمَمْلُوكَاتِ لَهُمْ.",
+            "meaning_normalized": "إمائهم المملوكات لهم"
+          },
+          {
+            "ayah_number": 30,
+            "word": "غَيْرُ مَلُومِينَ",
+            "word_normalized": "غير ملومين",
+            "meaning": "غَيْرُ مُؤَاخَذِينَ.",
+            "meaning_normalized": "غير مؤاخذين"
+          },
+          {
+            "ayah_number": 31,
+            "word": "الْعَادُونَ",
+            "word_normalized": "العادون",
+            "meaning": "الْمُتَجَاوِزُونَ الْحَلَالَ إِلَى الْحَرَامِ.",
+            "meaning_normalized": "المتجاوزون الحلال إلى الحرام"
+          },
+          {
+            "ayah_number": 32,
+            "word": "رَاعُونَ",
+            "word_normalized": "راعون",
+            "meaning": "حَافِظُونَ.",
+            "meaning_normalized": "حافظون"
+          },
+          {
+            "ayah_number": 33,
+            "word": "قَآئِمُونَ",
+            "word_normalized": "قائمون",
+            "meaning": "مُؤَدُّونَ لِلشَّهَادَةِ، دُونَ تَغْيِيرٍ، أَوْ كِتْمَانٍ.",
+            "meaning_normalized": "مؤدون للشهادة دون تغيير أو كتمان"
+          },
+          {
+            "ayah_number": 36,
+            "word": "قِبَلَكَ مُهْطِعِينَ",
+            "word_normalized": "قبلك مهطعين",
+            "meaning": "مُسْرِعِينَ نَحْوَكَ قَدْ مَدُّوا أَعْنَاقَهُمْ إِلَيْكَ، مُقْبِلِينَ عَلَيْكَ.",
+            "meaning_normalized": "مسرعين نحوك قد مدوا أعناقهم إليك مقبلين عليك"
+          },
+          {
+            "ayah_number": 37,
+            "word": "عِزِينَ",
+            "word_normalized": "عزين",
+            "meaning": "جَمَاعَاتٍ مُتَعَدِّدَةً وَمُتَفَرِّقَةً.",
+            "meaning_normalized": "جماعات متعددة ومتفرقة"
+          },
+          {
+            "ayah_number": 40,
+            "word": "فَلَا أُقْسِمُ",
+            "word_normalized": "فلا أقسم",
+            "meaning": "أُقْسِمُ، وَ(لَا): لِتَأْكِيدِ الْقَسَمِ.",
+            "meaning_normalized": "أقسم و لا لتأكيد القسم"
+          },
+          {
+            "ayah_number": 41,
+            "word": "بِمَسْبُوقِينَ",
+            "word_normalized": "بمسبوقين",
+            "meaning": "لَا أَحَدَ يَفُوتُنَا وَيُعْجِزُنَا إِذَا أَرَدْنَاهُ.",
+            "meaning_normalized": "لا أحد يفوتنا ويعجزنا إذا أردناه"
+          },
+          {
+            "ayah_number": 43,
+            "word": "الْأَجْدَاثِ",
+            "word_normalized": "الأجداث",
+            "meaning": "الْقُبُورِ.",
+            "meaning_normalized": "القبور"
+          },
+          {
+            "ayah_number": 43,
+            "word": "نُصُبٍ",
+            "word_normalized": "نصب",
+            "meaning": "أَحْجَارٍ تُعْبَدُ مِنْ دُونِ اللهِ.",
+            "meaning_normalized": "أحجار تعبد من دون الله"
+          }
+        ]
+      }
+    ]
+  }
+}

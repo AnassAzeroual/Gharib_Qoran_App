@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 291,
+    "header": {
+      "right": "سُورَةُ الْقَلَمِ",
+      "right_normalized": "سورة القلم",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَلَمِ",
+          "name_normalized": "سورة القلم",
+          "order": 68,
+          "ayat_count": 52,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 17,
+            "word": "لَيَصْرِمُنَّهَا",
+            "word_normalized": "ليصرمنها",
+            "meaning": "لَيَقْطَعُنَّ ثِمَارَ حَدِيقَتِهَا.",
+            "meaning_normalized": "ليقطعن ثمار حديقتها"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَلَا يَسْتَثْنُونَ",
+            "word_normalized": "ولا يستثنون",
+            "meaning": "وَلَا يَنْوُونَ اسْتِثْنَاءَ حِصَّةِ الْمَسَاكِينِ، وَلَمْ يَقُولُوا: إِنْ شَاءَ اللهُ.",
+            "meaning_normalized": "ولا ينوون استثناء حصة المساكين ولم يقولوا إن شاء الله"
+          },
+          {
+            "ayah_number": 19,
+            "word": "فَطَافَ عَلَيْهَا",
+            "word_normalized": "فطاف عليها",
+            "meaning": "أَحَاطَ نَازِلًا عَلَيْهَا.",
+            "meaning_normalized": "أحاط نازلا عليها"
+          },
+          {
+            "ayah_number": 19,
+            "word": "طَآئِفٌ",
+            "word_normalized": "طائف",
+            "meaning": "نَارٌ أَحْرَقَتْهَا.",
+            "meaning_normalized": "نار أحرقتها"
+          },
+          {
+            "ayah_number": 20,
+            "word": "كَالصَّرِيمِ",
+            "word_normalized": "كالصريم",
+            "meaning": "كَاللَّيْلِ الْمُظْلِمِ.",
+            "meaning_normalized": "كالليل المظلم"
+          },
+          {
+            "ayah_number": 21,
+            "word": "فَتَنَادَوْا",
+            "word_normalized": "فتنادوا",
+            "meaning": "نَادَى بَعْضُهُمْ بَعْضًا.",
+            "meaning_normalized": "نادى بعضهم بعضا"
+          },
+          {
+            "ayah_number": 22,
+            "word": "أَنِ اغْدُوا",
+            "word_normalized": "أن اغدوا",
+            "meaning": "اذْهَبُوا مُبَكِّرِينَ.",
+            "meaning_normalized": "اذهبوا مبكرين"
+          },
+          {
+            "ayah_number": 22,
+            "word": "حَرْثِكُمْ",
+            "word_normalized": "حرثكم",
+            "meaning": "مَزْرَعَتِكُمْ.",
+            "meaning_normalized": "مزرعتكم"
+          },
+          {
+            "ayah_number": 22,
+            "word": "صَرِمِينَ",
+            "word_normalized": "صارمين",
+            "meaning": "مُصِرِّينَ عَلَى قَطْعِ الثِّمَارِ.",
+            "meaning_normalized": "مصرين على قطع الثمار"
+          },
+          {
+            "ayah_number": 25,
+            "word": "عَلَى حَرْدٍ",
+            "word_normalized": "على حرد",
+            "meaning": "عَلَى قَصْدِهِمُ السَّيِّئِ فِي مَنْعِ الْمَسَاكِينِ.",
+            "meaning_normalized": "على قصدهم السيئ في منع المساكين"
+          },
+          {
+            "ayah_number": 26,
+            "word": "لَضَآلُّونَ",
+            "word_normalized": "لضالون",
+            "meaning": "لَمُخْطِئُونَ فِي طَرِيقِهَا.",
+            "meaning_normalized": "لمخطئون في طريقها"
+          },
+          {
+            "ayah_number": 28,
+            "word": "أَوْسَطُهُمْ",
+            "word_normalized": "أوسطهم",
+            "meaning": "أَعْدَلُهُمْ، وَخَيْرُهُمْ عَقْلًا وَدِينًا.",
+            "meaning_normalized": "أعدلهم وخيرهم عقلا ودينا"
+          },
+          {
+            "ayah_number": 28,
+            "word": "لَوْلَا تُسَبِّحُونَ",
+            "word_normalized": "لولا تسبحون",
+            "meaning": "هَلَّا تَذْكُرُونَ اللهَ، وَتَسْتَغْفِرُونَهُ؛ مِنْ فِعْلِكُمْ، وَخُبْثِ نِيَّتِكُمْ.",
+            "meaning_normalized": "هلا تذكرون الله وتستغفرونه من فعلكم وخبث نيتكم"
+          },
+          {
+            "ayah_number": 30,
+            "word": "يَتَلَوَمُونَ",
+            "word_normalized": "يتلاومون",
+            "meaning": "يَلُومُ بَعْضُهُمْ بَعْضًا عَلَى مَا قَصَدُوهُ مِنْ مَنْعٍ لِلْمَسَاكِينِ.",
+            "meaning_normalized": "يلوم بعضهم بعضا على ما قصدوه من منع للمساكين"
+          },
+          {
+            "ayah_number": 32,
+            "word": "رَغِبُونَ",
+            "word_normalized": "راغبون",
+            "meaning": "طَالِبُونَ الْخَيْرَ.",
+            "meaning_normalized": "طالبون الخير"
+          },
+          {
+            "ayah_number": 33,
+            "word": "كَذَلِكَ الْعَذَابُ",
+            "word_normalized": "كذلك العذاب",
+            "meaning": "مِثْلَ ذَلِكَ الْعِقَابِ الَّذِي عَاقَبْنَاهُمْ بِهِ نُعَاقِبُ كُلَّ مَنْ بَخِلَ، وَخَالَفَ أَمْرَ اللهِ.",
+            "meaning_normalized": "مثل ذلك العقاب الذي عاقبناهم به نعاقب كل من بخل وخالف أمر الله"
+          },
+          {
+            "ayah_number": 38,
+            "word": "تَخَيَّرُونَ",
+            "word_normalized": "تخيرون",
+            "meaning": "تَشْتَهُونَ.",
+            "meaning_normalized": "تشتهون"
+          }
+        ]
+      }
+    ]
+  }
+}

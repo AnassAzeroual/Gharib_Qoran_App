@@ -1,0 +1,152 @@
+{
+  "page": {
+    "page_number": 309,
+    "header": {
+      "right": "سُورَةُ الْمُرْسَلَاتِ",
+      "right_normalized": "سورة المرسلات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْإِنْسَانِ",
+          "name_normalized": "سورة الإنسان",
+          "order": 76,
+          "ayat_count": 31,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 20,
+            "word": "وَإِذَا رَأَيْتَ ثَمَّ",
+            "word_normalized": "وإذا رأيت ثم",
+            "meaning": "وَإِذَا أَبْصَرْتَ أَيَّ مَكَانٍ فِي الْجَنَّةِ.",
+            "meaning_normalized": "وإذا أبصرت أي مكان في الجنة"
+          },
+          {
+            "ayah_number": 21,
+            "word": "عَالِيَهُمْ",
+            "word_normalized": "عاليهم",
+            "meaning": "يَعْلُوهُمْ.",
+            "meaning_normalized": "يعلوهم"
+          },
+          {
+            "ayah_number": 21,
+            "word": "ثِيَابُ سُنْدُسٍ",
+            "word_normalized": "ثياب سندس",
+            "meaning": "الْحَرِيرُ الرَّقِيقُ الْأَخْضَرُ؛ وَهَذَا بَاطِنُ الثِّيَابِ.",
+            "meaning_normalized": "الحرير الرقيق الأخضر وهذا باطن الثياب"
+          },
+          {
+            "ayah_number": 21,
+            "word": "وَإِسْتَبْرَقٌ",
+            "word_normalized": "وإستبرق",
+            "meaning": "الْحَرِيرُ الْغَلِيظُ؛ وَهَذَا ظَاهِرُ الثِّيَابِ.",
+            "meaning_normalized": "الحرير الغليظ وهذا ظاهر الثياب"
+          },
+          {
+            "ayah_number": 21,
+            "word": "طَهُورًا",
+            "word_normalized": "طهورا",
+            "meaning": "لَا رِجْسَ فِيهِ، وَلَا دَنَسَ.",
+            "meaning_normalized": "لا رجس فيه ولا دنس"
+          },
+          {
+            "ayah_number": 22,
+            "word": "سَعْيُكُمْ",
+            "word_normalized": "سعيكم",
+            "meaning": "عَمَلُكُمُ الصَّالِحُ فِي الدُّنْيَا.",
+            "meaning_normalized": "عملكم الصالح في الدنيا"
+          },
+          {
+            "ayah_number": 24,
+            "word": "لِحُكْمِ رَبِّكَ",
+            "word_normalized": "لحكم ربك",
+            "meaning": "لِأَمْرِهِ الْقَدَرِيِّ فَتَقْبَلُهُ، وَلِأَمْرِهِ الشَّرْعِيِّ فَتَمْضِي عَلَيْهِ.",
+            "meaning_normalized": "لأمره القدري فتقبله ولأمره الشرعي فتمضي عليه"
+          },
+          {
+            "ayah_number": 25,
+            "word": "بُكْرَةً وَأَصِيلًا",
+            "word_normalized": "بكرة وأصيلا",
+            "meaning": "أَوَّلَ النَّهَارِ، وَآخِرَهُ.",
+            "meaning_normalized": "أول النهار وآخره"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَسَبِّحْهُ",
+            "word_normalized": "وسبحه",
+            "meaning": "صَلِّ لَهُ.",
+            "meaning_normalized": "صل له"
+          },
+          {
+            "ayah_number": 28,
+            "word": "وَشَدَدْنَا أَسْرَهُمْ",
+            "word_normalized": "وشددنا أسرهم",
+            "meaning": "أَحْكَمْنَا خَلْقَهُمْ.",
+            "meaning_normalized": "أحكمنا خلقهم"
+          },
+          {
+            "ayah_number": 29,
+            "word": "تَذْكِرَةٌ",
+            "word_normalized": "تذكرة",
+            "meaning": "عِظَةٌ.",
+            "meaning_normalized": "عظة"
+          },
+          {
+            "ayah_number": 29,
+            "word": "سَبِيلًا",
+            "word_normalized": "سبيلا",
+            "meaning": "طَرِيقًا إِلَى اللهِ بِطَاعَتِهِ.",
+            "meaning_normalized": "طريقا إلى الله بطاعته"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُرْسَلَاتِ",
+          "name_normalized": "سورة المرسلات",
+          "order": 77,
+          "ayat_count": 50,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "وَالْمُرْسَلَاتِ عُرْفًا",
+            "word_normalized": "والمرسلات عرفا",
+            "meaning": "قَسَمٌ بِالرِّيَاحِ حِينَ تَهُبُّ مُتَتَابِعَةً يَقْفُو بَعْضُهَا أَثَرَ بَعْضٍ.",
+            "meaning_normalized": "قسم بالرياح حين تهب متتابعة يقفو بعضها أثر بعض"
+          },
+          {
+            "ayah_number": 2,
+            "word": "فَالْعَاصِفَاتِ عَصْفًا",
+            "word_normalized": "فالعاصفات عصفا",
+            "meaning": "قَسَمٌ بِالرِّيَاحِ شَدِيدَةِ الْهُبُوبِ الْمُهْلِكَةِ.",
+            "meaning_normalized": "قسم بالرياح شديدة الهبوب المهلكة"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَالنَّاشِرَاتِ نَشْرًا",
+            "word_normalized": "والناشرات نشرا",
+            "meaning": "قَسَمٌ بِالْمَلَائِكَةِ الْمُوكَلِينَ بِالسُّحُبِ يَسُوقُونَهَا حَيْثُ شَاءَ اللهُ.",
+            "meaning_normalized": "قسم بالملائكة الموكلين بالسحب يسوقونها حيث شاء الله"
+          }
+        ]
+      }
+    ]
+  }
+}

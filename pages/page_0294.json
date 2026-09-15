@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 294,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحَاقَّةِ",
+          "name_normalized": "سورة الحاقة",
+          "order": 69,
+          "ayat_count": 52,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 10,
+            "word": "رَابِيَةً",
+            "word_normalized": "رابية",
+            "meaning": "بَالِغَةً فِي الشِّدَّةِ.",
+            "meaning_normalized": "بالغة في الشدة"
+          },
+          {
+            "ayah_number": 11,
+            "word": "طَغَا الْمَاءُ",
+            "word_normalized": "طغا الماء",
+            "meaning": "جَاوَزَ الْمَاءُ حَدَّهُ، وَارْتَفَعَ فَوْقَ كُلِّ شَيْءٍ.",
+            "meaning_normalized": "جاوز الماء حده وارتفع فوق كل شيء"
+          },
+          {
+            "ayah_number": 11,
+            "word": "الْجَارِيَةِ",
+            "word_normalized": "الجارية",
+            "meaning": "السَّفِينَةِ الَّتِي صَنَعَهَا نُوحٌ عَلَيْهِ السَّلَامُ، تَجْرِي فِي الْمَاءِ.",
+            "meaning_normalized": "السفينة التي صنعها نوح عليه السلام تجري في الماء"
+          },
+          {
+            "ayah_number": 12,
+            "word": "وَتَعِيَهَا",
+            "word_normalized": "وتعيها",
+            "meaning": "تَحْفَظَهَا.",
+            "meaning_normalized": "تحفظها"
+          },
+          {
+            "ayah_number": 13,
+            "word": "الصُّورِ",
+            "word_normalized": "الصور",
+            "meaning": "الْقَرْنِ الَّذِي يُنْفَخُ فِيهِ إِسْرَافِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل عليه السلام"
+          },
+          {
+            "ayah_number": 13,
+            "word": "نَفْخَةٌ وَحِدَةٌ",
+            "word_normalized": "نفخة واحدة",
+            "meaning": "هِيَ: النَّفْخَةُ الْأُولَى الَّتِي يَكُونُ بِهَا هَلَاكُ الْعَالَمِ.",
+            "meaning_normalized": "هي النفخة الأولى التي يكون بها هلاك العالم"
+          },
+          {
+            "ayah_number": 14,
+            "word": "وَحُمِلَتِ",
+            "word_normalized": "وحملت",
+            "meaning": "رُفِعَتْ مِنْ أَمَاكِنِهَا.",
+            "meaning_normalized": "رفعت من أماكنها"
+          },
+          {
+            "ayah_number": 14,
+            "word": "فَدُكَّتَا",
+            "word_normalized": "فدكتا",
+            "meaning": "دُقَّتَا، وَكُسِّرَتَا.",
+            "meaning_normalized": "دقتا وكسرتا"
+          },
+          {
+            "ayah_number": 15,
+            "word": "وَقَعَتِ الْوَاقِعَةُ",
+            "word_normalized": "وقعت الواقعة",
+            "meaning": "قَامَتِ الْقِيَامَةُ.",
+            "meaning_normalized": "قامت القيامة"
+          },
+          {
+            "ayah_number": 16,
+            "word": "وَاهِيَةٌ",
+            "word_normalized": "واهية",
+            "meaning": "ضَعِيفَةٌ، مُسْتَرْخِيَةٌ.",
+            "meaning_normalized": "ضعيفة مسترخية"
+          },
+          {
+            "ayah_number": 17,
+            "word": "وَالْمَلَكُ",
+            "word_normalized": "والملك",
+            "meaning": "الْمَلَائِكَةُ.",
+            "meaning_normalized": "الملائكة"
+          },
+          {
+            "ayah_number": 17,
+            "word": "أَرْجَآئِهَا",
+            "word_normalized": "أرجائها",
+            "meaning": "جَوَانِبِهَا، وَأَطْرَافِهَا.",
+            "meaning_normalized": "جوانبها وأطرافها"
+          },
+          {
+            "ayah_number": 18,
+            "word": "تُعْرَضُونَ",
+            "word_normalized": "تعرضون",
+            "meaning": "عَلَى اللهِ لِلْجَزَاءِ وَالْحِسَابِ.",
+            "meaning_normalized": "على الله للجزاء والحساب"
+          },
+          {
+            "ayah_number": 19,
+            "word": "هَاؤُمُ",
+            "word_normalized": "هاؤم",
+            "meaning": "خُذُوا.",
+            "meaning_normalized": "خذوا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "ظَنَنْتُ",
+            "word_normalized": "ظننت",
+            "meaning": "أَيْقَنْتُ.",
+            "meaning_normalized": "أيقنت"
+          },
+          {
+            "ayah_number": 21,
+            "word": "رَاضِيَةٍ",
+            "word_normalized": "راضية",
+            "meaning": "هَنِيئَةٍ مَرْضِيَّةٍ.",
+            "meaning_normalized": "هنيئة مرضية"
+          },
+          {
+            "ayah_number": 23,
+            "word": "قُطُوفُهَا",
+            "word_normalized": "قطوفها",
+            "meaning": "ثِمَارُهَا.",
+            "meaning_normalized": "ثمارها"
+          },
+          {
+            "ayah_number": 23,
+            "word": "دَانِيَةٌ",
+            "word_normalized": "دانية",
+            "meaning": "قَرِيبَةٌ يَتَنَاوَلُهَا الْقَاعِدُ وَالْمُضْطَجِعُ.",
+            "meaning_normalized": "قريبة يتناولها القاعد والمضطجع"
+          },
+          {
+            "ayah_number": 24,
+            "word": "هَنِيًّا",
+            "word_normalized": "هنيئا",
+            "meaning": "غَيْرَ مُنَغَّصٍ، وَلَا مُكَدَّرٍ.",
+            "meaning_normalized": "غير منغص ولا مكدر"
+          }
+        ]
+      }
+    ]
+  }
+}

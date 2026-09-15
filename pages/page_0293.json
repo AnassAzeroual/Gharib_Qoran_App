@@ -1,0 +1,152 @@
+{
+  "page": {
+    "page_number": 293,
+    "header": {
+      "right": "سُورَةُ الْحَاقَّةِ",
+      "right_normalized": "سورة الحاقة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَلَمِ",
+          "name_normalized": "سورة القلم",
+          "order": 68,
+          "ayat_count": 52,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 49,
+            "word": "وَهُوَ مَذْمُومٌ",
+            "word_normalized": "وهو مذموم",
+            "meaning": "آتٍ بِمَا يُلَامُ عَلَيْهِ.",
+            "meaning_normalized": "آت بما يلام عليه"
+          },
+          {
+            "ayah_number": 50,
+            "word": "فَاجْتَبَاهُ",
+            "word_normalized": "فاجتباه",
+            "meaning": "اصْطَفَاهُ رَبُّهُ لِرِسَالَتِهِ.",
+            "meaning_normalized": "اصطفاه ربه لرسالته"
+          },
+          {
+            "ayah_number": 51,
+            "word": "لَيُزْلِقُونَكَ",
+            "word_normalized": "ليزلقونك",
+            "meaning": "لَيُسْقِطُونَكَ عَنْ مَكَانِكَ؛ بِنَظَرِهِمْ إِلَيْكَ؛ عَدَاوَةً وَبُغْضًا.",
+            "meaning_normalized": "ليسقطونك عن مكانك بنظرهم إليك عداوة وبغضا"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْحَاقَّةِ",
+          "name_normalized": "سورة الحاقة",
+          "order": 69,
+          "ayat_count": 52,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "الْحَاقَّةُ",
+            "word_normalized": "الحاقة",
+            "meaning": "الْقِيَامَةُ الْوَاقِعَةُ حَقًّا الَّتِي يَتَحَقَّقُ فِيهَا الْوَعْدُ وَالْوَعِيدُ.",
+            "meaning_normalized": "القيامة الواقعة حقا التي يتحقق فيها الوعد والوعيد"
+          },
+          {
+            "ayah_number": 4,
+            "word": "بِالْقَارِعَةِ",
+            "word_normalized": "بالقارعة",
+            "meaning": "بِالْقِيَامَةِ الَّتِي تَقْرَعُ الْقُلُوبَ بِأَهْوَالِهَا.",
+            "meaning_normalized": "بالقيامة التي تقرع القلوب بأهوالها"
+          },
+          {
+            "ayah_number": 5,
+            "word": "بِالطَّاغِيَةِ",
+            "word_normalized": "بالطاغية",
+            "meaning": "بِالصَّيْحَةِ الَّتِي جَاوَزَتِ الْحَدَّ فِي شِدَّتِهَا.",
+            "meaning_normalized": "بالصيحة التي جاوزت الحد في شدتها"
+          },
+          {
+            "ayah_number": 6,
+            "word": "صَرْصَرٍ",
+            "word_normalized": "صرصر",
+            "meaning": "بَارِدَةٍ.",
+            "meaning_normalized": "باردة"
+          },
+          {
+            "ayah_number": 6,
+            "word": "عَاتِيَةٍ",
+            "word_normalized": "عاتية",
+            "meaning": "شَدِيدَةِ الْهُبُوبِ.",
+            "meaning_normalized": "شديدة الهبوب"
+          },
+          {
+            "ayah_number": 7,
+            "word": "سَخَّرَهَا عَلَيْهِمْ",
+            "word_normalized": "سخرها عليهم",
+            "meaning": "سَلَّطَهَا عَلَيْهِمْ.",
+            "meaning_normalized": "سلطها عليهم"
+          },
+          {
+            "ayah_number": 7,
+            "word": "حُسُومًا",
+            "word_normalized": "حسوما",
+            "meaning": "مُتَتَابِعَةً؛ لَا تَفْتُرُ، وَلَا تَنْقَطِعُ.",
+            "meaning_normalized": "متتابعة لا تفتر ولا تنقطع"
+          },
+          {
+            "ayah_number": 7,
+            "word": "صَرْعَى",
+            "word_normalized": "صرعى",
+            "meaning": "مَوْتَى.",
+            "meaning_normalized": "موتى"
+          },
+          {
+            "ayah_number": 7,
+            "word": "أَعْجَازُ نَخْلٍ",
+            "word_normalized": "أعجاز نخل",
+            "meaning": "أُصُولُ نَخْلٍ.",
+            "meaning_normalized": "أصول نخل"
+          },
+          {
+            "ayah_number": 7,
+            "word": "خَاوِيَةٍ",
+            "word_normalized": "خاوية",
+            "meaning": "خَرِبَةٍ مُتَآكِلَةِ الْأَجْوَافِ.",
+            "meaning_normalized": "خربة متآكلة الأجواف"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَالْمُؤْتَفِكَتُ",
+            "word_normalized": "والمؤتفكات",
+            "meaning": "أَهْلُ قُرَى قَوْمِ لُوطٍ الَّذِينَ انْقَلَبَتْ بِهِمْ دِيَارُهُمْ.",
+            "meaning_normalized": "أهل قرى قوم لوط الذين انقلبت بهم ديارهم"
+          },
+          {
+            "ayah_number": 9,
+            "word": "بِالْخَاطِئَةِ",
+            "word_normalized": "بالخاطئة",
+            "meaning": "بِالْفَعَلَاتِ ذَاتِ الْخَطَإِ الْجَسِيمِ.",
+            "meaning_normalized": "بالفعلات ذات الخطإ الجسيم"
+          }
+        ]
+      }
+    ]
+  }
+}

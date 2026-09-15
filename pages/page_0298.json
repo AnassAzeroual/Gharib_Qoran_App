@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 298,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمَعَارِجِ",
+          "name_normalized": "سورة المعارج",
+          "order": 70,
+          "ayat_count": 44,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 43,
+            "word": "يُوفِضُونَ",
+            "word_normalized": "يوفضون",
+            "meaning": "يُهَرْوِلُونَ، وَيُسْرِعُونَ.",
+            "meaning_normalized": "يهرولون ويسرعون"
+          },
+          {
+            "ayah_number": 44,
+            "word": "خَشِعَةً",
+            "word_normalized": "خاشعة",
+            "meaning": "ذَلِيلَةً، مُنْكَسِرَةً.",
+            "meaning_normalized": "ذليلة منكسرة"
+          },
+          {
+            "ayah_number": 44,
+            "word": "تَرْهَقُهُمْ",
+            "word_normalized": "ترهقهم",
+            "meaning": "تَغْشَاهُمْ.",
+            "meaning_normalized": "تغشاهم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ نُوحٍ",
+          "name_normalized": "سورة نوح",
+          "order": 71,
+          "ayat_count": 28,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "word": "أَجَلٍ مُسَمًّى",
+            "word_normalized": "أجل مسمى",
+            "meaning": "وَقْتٍ مُقَدَّرٍ فِي عِلْمِ اللهِ تَعَالَى.",
+            "meaning_normalized": "وقت مقدر في علم الله تعالى"
+          },
+          {
+            "ayah_number": 4,
+            "word": "أَجَلَ اللهِ",
+            "word_normalized": "أجل الله",
+            "meaning": "وَقْتَ مَجِيءِ عَذَابِهِ.",
+            "meaning_normalized": "وقت مجيء عذابه"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وَاسْتَغْشَوْا ثِيَابَهُمْ",
+            "word_normalized": "واستغشوا ثيابهم",
+            "meaning": "تَغَطَّوْا بِهَا؛ مُبَالَغَةً فِي كَرَاهِيَتِي.",
+            "meaning_normalized": "تغطوا بها مبالغة في كراهيتي"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وَأَصَرُّوا",
+            "word_normalized": "وأصروا",
+            "meaning": "أَقَامُوا عَلَى كُفْرِهِمْ.",
+            "meaning_normalized": "أقاموا على كفرهم"
+          },
+          {
+            "ayah_number": 9,
+            "word": "أَعْلَنْتُ",
+            "word_normalized": "أعلنت",
+            "meaning": "رَفَعْتُ صَوْتِي دَاعِيًا.",
+            "meaning_normalized": "رفعت صوتي داعيا"
+          },
+          {
+            "ayah_number": 11,
+            "word": "السَّمَآءَ",
+            "word_normalized": "السماء",
+            "meaning": "الْمَطَرَ.",
+            "meaning_normalized": "المطر"
+          },
+          {
+            "ayah_number": 11,
+            "word": "مِدْرَارًا",
+            "word_normalized": "مدرارا",
+            "meaning": "مُتَتَابِعًا، غَزِيرًا.",
+            "meaning_normalized": "متتابعا غزيرا"
+          },
+          {
+            "ayah_number": 12,
+            "word": "جَنَّتٍ",
+            "word_normalized": "جنات",
+            "meaning": "بَسَاتِينَ.",
+            "meaning_normalized": "بساتين"
+          },
+          {
+            "ayah_number": 13,
+            "word": "لَا تَرْجُونَ لِلَّهِ وَقَارًا",
+            "word_normalized": "لا ترجون لله وقارا",
+            "meaning": "لَا تَخَافُونَ عَظَمَةَ اللهِ.",
+            "meaning_normalized": "لا تخافون عظمة الله"
+          },
+          {
+            "ayah_number": 14,
+            "word": "أَطْوَارًا",
+            "word_normalized": "أطوارا",
+            "meaning": "عَلَى مَرَاحِلَ مُخْتَلِفَةٍ: نُطْفَةً، ثُمَّ عَلَقَةً، وَهَكَذَا.",
+            "meaning_normalized": "على مراحل مختلفة نطفة ثم علقة وهكذا"
+          },
+          {
+            "ayah_number": 15,
+            "word": "طِبَاقًا",
+            "word_normalized": "طباقا",
+            "meaning": "مُتَطَابِقَةً بَعْضُهَا فَوْقَ بَعْضٍ.",
+            "meaning_normalized": "متطابقة بعضها فوق بعض"
+          },
+          {
+            "ayah_number": 16,
+            "word": "سِرَاجًا",
+            "word_normalized": "سراجا",
+            "meaning": "مِصْبَاحًا مُضِيئًا، وَفِيهِ حَرَارَةٌ؛ كَالسِّرَاجِ.",
+            "meaning_normalized": "مصباحا مضيئا وفيه حرارة كالسراج"
+          },
+          {
+            "ayah_number": 17,
+            "word": "أَنْبَتَكُمْ",
+            "word_normalized": "أنبتكم",
+            "meaning": "أَنْشَأَ أَصْلَكُمْ.",
+            "meaning_normalized": "أنشأ أصلكم"
+          }
+        ]
+      }
+    ]
+  }
+}

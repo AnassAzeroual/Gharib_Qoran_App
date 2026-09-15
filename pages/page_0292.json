@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 292,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَلَمِ",
+          "name_normalized": "سورة القلم",
+          "order": 68,
+          "ayat_count": 52,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 39,
+            "word": "أَيْمَنٌ",
+            "word_normalized": "أيمان",
+            "meaning": "عُهُودٌ، وَمَوَاثِيقُ.",
+            "meaning_normalized": "عهود ومواثيق"
+          },
+          {
+            "ayah_number": 39,
+            "word": "إِنَّ لَكُمْ لَمَا تَحْكُمُونَ",
+            "word_normalized": "إن لكم لما تحكمون",
+            "meaning": "إِنَّهُ سَيَحْصُلُ لَكُمْ مَا تُرِيدُونَ، وَتَشْتَهُونَ.",
+            "meaning_normalized": "إنه سيحصل لكم ما تريدون وتشتهون"
+          },
+          {
+            "ayah_number": 40,
+            "word": "زَعِيمٌ",
+            "word_normalized": "زعيم",
+            "meaning": "كَفِيلٌ وَضَامِنٌ بِأَنْ يَكُونَ لَهُمْ ذَلِكَ.",
+            "meaning_normalized": "كفيل وضامن بأن يكون لهم ذلك"
+          },
+          {
+            "ayah_number": 42,
+            "word": "يُكْشَفُ عَنْ سَاقٍ",
+            "word_normalized": "يكشف عن ساق",
+            "meaning": "يَكْشِفُ رَبُّنَا عَنْ سَاقِهِ؛ فَيَسْجُدُ الْمُؤْمِنُونَ، وَيَعْجِزُ الْمُنَافِقُونَ؛ كَمَا ثَبَتَ فِي الْحَدِيثِ.",
+            "meaning_normalized": "يكشف ربنا عن ساقه فيسجد المؤمنون ويعجز المنافقون كما ثبت في الحديث"
+          },
+          {
+            "ayah_number": 43,
+            "word": "خَاشِعَةً أَبْصَرُهُمْ",
+            "word_normalized": "خاشعة أبصارهم",
+            "meaning": "مُنْكَسِرَةً ذَلِيلَةً؛ لَا يَرْفَعُونَهَا.",
+            "meaning_normalized": "منكسرة ذليلة لا يرفعونها"
+          },
+          {
+            "ayah_number": 43,
+            "word": "تَرْهَقُهُمْ",
+            "word_normalized": "ترهقهم",
+            "meaning": "تَغْشَاهُمْ.",
+            "meaning_normalized": "تغشاهم"
+          },
+          {
+            "ayah_number": 43,
+            "word": "سَلِمُونَ",
+            "word_normalized": "سالمون",
+            "meaning": "أَصِحَّاءُ، قَادِرُونَ.",
+            "meaning_normalized": "أصحاء قادرون"
+          },
+          {
+            "ayah_number": 44,
+            "word": "الْحَدِيثِ",
+            "word_normalized": "الحديث",
+            "meaning": "الْقُرْآنِ.",
+            "meaning_normalized": "القرآن"
+          },
+          {
+            "ayah_number": 44,
+            "word": "سَنَسْتَدْرِجُهُمْ",
+            "word_normalized": "سنستدرجهم",
+            "meaning": "سَنَمُدُّهُمْ بِالْأَمْوَالِ وَالنِّعَمِ؛ اسْتِدْرَاجًا لَهُمْ.",
+            "meaning_normalized": "سنمدهم بالأموال والنعم استدراجا لهم"
+          },
+          {
+            "ayah_number": 45,
+            "word": "وَأُمْلِي لَهُمْ",
+            "word_normalized": "وأملي لهم",
+            "meaning": "أُمْهِلُهُمْ، وَأُطِيلُ أَعْمَارَهُمْ.",
+            "meaning_normalized": "أمهلهم وأطيل أعمارهم"
+          },
+          {
+            "ayah_number": 45,
+            "word": "مَتِينٌ",
+            "word_normalized": "متين",
+            "meaning": "قَوِيٌّ، شَدِيدٌ.",
+            "meaning_normalized": "قوي شديد"
+          },
+          {
+            "ayah_number": 46,
+            "word": "مَغْرَمٍ",
+            "word_normalized": "مغرم",
+            "meaning": "غَرَامَةِ تِلْكَ الْأُجْرَةِ.",
+            "meaning_normalized": "غرامة تلك الأجرة"
+          },
+          {
+            "ayah_number": 46,
+            "word": "مُثْقَلُونَ",
+            "word_normalized": "مثقلون",
+            "meaning": "مُكَلَّفُونَ حِمْلًا ثَقِيلًا.",
+            "meaning_normalized": "مكلفون حملا ثقيلا"
+          },
+          {
+            "ayah_number": 47,
+            "word": "أَمْ عِنْدَهُمْ",
+            "word_normalized": "أم عندهم",
+            "meaning": "بَلْ أَعِنْدَهُمْ.",
+            "meaning_normalized": "بل أعندهم"
+          },
+          {
+            "ayah_number": 48,
+            "word": "وَلَا تَكُنْ كَصَاحِبِ الْحُوتِ",
+            "word_normalized": "ولا تكن كصاحب الحوت",
+            "meaning": "لَا تَكُنْ مِثْلَ يُونُسَ حِينَ اسْتَعْجَلَ الْعَذَابَ، وَغَضِبَ.",
+            "meaning_normalized": "لا تكن مثل يونس حين استعجل العذاب وغضب"
+          },
+          {
+            "ayah_number": 48,
+            "word": "مَكْظُومٌ",
+            "word_normalized": "مكظوم",
+            "meaning": "مَمْلُوءٌ غَمًّا.",
+            "meaning_normalized": "مملوء غما"
+          },
+          {
+            "ayah_number": 49,
+            "word": "نِعْمَةٌ مِنْ رَبِّهِ",
+            "word_normalized": "نعمة من ربه",
+            "meaning": "بِتَوْفِيقِهِ لِلتَّوْبَةِ، وَقَبُولِهَا.",
+            "meaning_normalized": "بتوفيقه للتوبة وقبولها"
+          },
+          {
+            "ayah_number": 49,
+            "word": "لَنُبِذَ بِالْعَرَاءِ",
+            "word_normalized": "لنبذ بالعراء",
+            "meaning": "لَطُرِحَ مِنْ بَطْنِ الْحُوتِ بِالْأَرْضِ الْفَضَاءِ الْمُهْلِكَةِ.",
+            "meaning_normalized": "لطرح من بطن الحوت بالأرض الفضاء المهلكة"
+          }
+        ]
+      }
+    ]
+  }
+}

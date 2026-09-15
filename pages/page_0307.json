@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 307,
+    "header": {
+      "right": "سُورَةُ الْإِنْسَانِ",
+      "right_normalized": "سورة الإنسان",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقِيَامَةِ",
+          "name_normalized": "سورة القيامة",
+          "order": 75,
+          "ayat_count": 40,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 34,
+            "word": "أَوْلَى لَكَ فَأَوْلَى",
+            "word_normalized": "أولى لك فأولى",
+            "meaning": "كَلِمَةُ وَعِيدٍ، أَيْ: هَلَاكٌ لَكَ فَهَلَاكٌ.",
+            "meaning_normalized": "كلمة وعيد أي هلاك لك فهلاك"
+          },
+          {
+            "ayah_number": 36,
+            "word": "سُدًى",
+            "word_normalized": "سدى",
+            "meaning": "هَمَلًا لَا يُؤْمَرُ، وَلَا يُحَاسَبُ.",
+            "meaning_normalized": "هملا لا يؤمر ولا يحاسب"
+          },
+          {
+            "ayah_number": 37,
+            "word": "يُمْنَى",
+            "word_normalized": "يمنى",
+            "meaning": "يُصَبُّ فِي الرَّحِمِ.",
+            "meaning_normalized": "يصب في الرحم"
+          },
+          {
+            "ayah_number": 38,
+            "word": "عَلَقَةً",
+            "word_normalized": "علقة",
+            "meaning": "قِطْعَةً مِنْ دَمٍ جَامِدٍ.",
+            "meaning_normalized": "قطعة من دم جامد"
+          },
+          {
+            "ayah_number": 38,
+            "word": "فَسَوَّى",
+            "word_normalized": "فسوى",
+            "meaning": "عَدَّلَ خَلْقَهُ، وَأَعْضَاءَهُ.",
+            "meaning_normalized": "عدل خلقه وأعضاءه"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْإِنْسَانِ",
+          "name_normalized": "سورة الإنسان",
+          "order": 76,
+          "ayat_count": 31,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "هَلْ أَتَى",
+            "word_normalized": "هل أتى",
+            "meaning": "قَدْ مَضَى.",
+            "meaning_normalized": "قد مضى"
+          },
+          {
+            "ayah_number": 1,
+            "word": "حِينٌ",
+            "word_normalized": "حين",
+            "meaning": "زَمَنٌ طَوِيلٌ.",
+            "meaning_normalized": "زمن طويل"
+          },
+          {
+            "ayah_number": 2,
+            "word": "أَمْشَاجٍ",
+            "word_normalized": "أمشاج",
+            "meaning": "مُخْتَلِطَةٍ مِنْ مَاءِ الرَّجُلِ وَمَاءِ الْمَرْأَةِ.",
+            "meaning_normalized": "مختلطة من ماء الرجل وماء المرأة"
+          },
+          {
+            "ayah_number": 2,
+            "word": "نَبْتَلِيهِ",
+            "word_normalized": "نبتليه",
+            "meaning": "نَخْتَبِرُهُ بِالْأَوَامِرِ، وَالنَّوَاهِي.",
+            "meaning_normalized": "نختبره بالأوامر والنواهي"
+          },
+          {
+            "ayah_number": 3,
+            "word": "هَدَيْنَاهُ السَّبِيلَ",
+            "word_normalized": "هديناه السبيل",
+            "meaning": "بَيَّنَّا لَهُ طَرِيقَ الْخَيْرِ، وَالشَّرِّ.",
+            "meaning_normalized": "بينا له طريق الخير والشر"
+          },
+          {
+            "ayah_number": 4,
+            "word": "سَلَاسِلَ",
+            "word_normalized": "سلاسل",
+            "meaning": "قُيُودًا مِنْ حَدِيدٍ تُشَدُّ بِهَا أَرْجُلُهُمْ.",
+            "meaning_normalized": "قيودا من حديد تشد بها أرجلهم"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَأَغْلَالًا",
+            "word_normalized": "وأغلالا",
+            "meaning": "تُغَلُّ وَتُجْمَعُ بِهَا أَيْدِيهِمْ إِلَى أَعْنَاقِهِمْ.",
+            "meaning_normalized": "تغل وتجمع بها أيديهم إلى أعناقهم"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَسَعِيرًا",
+            "word_normalized": "وسعيرا",
+            "meaning": "نَارًا يُحْرَقُونَ بِهَا.",
+            "meaning_normalized": "نارا يحرقون بها"
+          },
+          {
+            "ayah_number": 5,
+            "word": "كَأْسٍ",
+            "word_normalized": "كأس",
+            "meaning": "إِنَاءِ شُرْبِ الْخَمْرِ، وَفِيهَا خَمْرٌ.",
+            "meaning_normalized": "إناء شرب الخمر وفيها خمر"
+          },
+          {
+            "ayah_number": 5,
+            "word": "مِزَاجُهَا كَافُورًا",
+            "word_normalized": "مزاجها كافورا",
+            "meaning": "مَخْلُوطَةً بِأَحْسَنِ أَنْوَاعِ الطِّيبِ، وَهُوَ مَاءُ الْكَافُورِ.",
+            "meaning_normalized": "مخلوطة بأحسن أنواع الطيب وهو ماء الكافور"
+          },
+          {
+            "ayah_number": 6,
+            "word": "يَشْرَبُ بِهَا",
+            "word_normalized": "يشرب بها",
+            "meaning": "يَشْرَبُونَ مُتَلَذِّذِينَ بِهَا.",
+            "meaning_normalized": "يشربون متلذذين بها"
+          }
+        ]
+      }
+    ]
+  }
+}

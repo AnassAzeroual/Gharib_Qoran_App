@@ -1,0 +1,170 @@
+{
+  "page": {
+    "page_number": 288,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُلْكِ",
+          "name_normalized": "سورة الملك",
+          "order": 67,
+          "ayat_count": 30,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "word": "فُطُورٍ",
+            "word_normalized": "فطور",
+            "meaning": "شُقُوقٍ، وَصُدُوعٍ.",
+            "meaning_normalized": "شقوق وصدوع"
+          },
+          {
+            "ayah_number": 4,
+            "word": "ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ",
+            "word_normalized": "ثم ارجع البصر كرتين",
+            "meaning": "أَعِدِ النَّظَرَ مَرَّةً بَعْدَ مَرَّةٍ.",
+            "meaning_normalized": "أعد النظر مرة بعد مرة"
+          },
+          {
+            "ayah_number": 4,
+            "word": "يَنْقَلِبْ",
+            "word_normalized": "ينقلب",
+            "meaning": "يَرْجِعْ.",
+            "meaning_normalized": "يرجع"
+          },
+          {
+            "ayah_number": 4,
+            "word": "خَاسِئًا",
+            "word_normalized": "خاسئا",
+            "meaning": "ذَلِيلًا صَاغِرًا.",
+            "meaning_normalized": "ذليلا صاغرا"
+          },
+          {
+            "ayah_number": 4,
+            "word": "حَسِيرٌ",
+            "word_normalized": "حسير",
+            "meaning": "مُتْعَبٌ، كَلِيلٌ.",
+            "meaning_normalized": "متعب كليل"
+          },
+          {
+            "ayah_number": 5,
+            "word": "رُجُومًا لِلشَّيَطِينِ",
+            "word_normalized": "رجوما للشياطين",
+            "meaning": "شُهُبًا مُحْرِقَةً لِمُسْتَرِقِي السَّمْعِ مِنَ الشَّيَاطِينِ.",
+            "meaning_normalized": "شهبا محرقة لمسترقي السمع من الشياطين"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَأَعْتَدْنَا",
+            "word_normalized": "وأعتدنا",
+            "meaning": "أَعْدَدْنَا.",
+            "meaning_normalized": "أعددنا"
+          },
+          {
+            "ayah_number": 6,
+            "word": "الْمَصِيرُ",
+            "word_normalized": "المصير",
+            "meaning": "الْمَرْجِعُ، وَالْمَآلُ.",
+            "meaning_normalized": "المرجع والمآل"
+          },
+          {
+            "ayah_number": 7,
+            "word": "شَهِيقًا",
+            "word_normalized": "شهيقا",
+            "meaning": "صَوْتًا مُنْكَرًا.",
+            "meaning_normalized": "صوتا منكرا"
+          },
+          {
+            "ayah_number": 7,
+            "word": "تَفُورُ",
+            "word_normalized": "تفور",
+            "meaning": "تَغْلِي غَلَيَانًا شَدِيدًا.",
+            "meaning_normalized": "تغلي غليانا شديدا"
+          },
+          {
+            "ayah_number": 8,
+            "word": "تَمَيَّزُ مِنَ الْغَيْظِ",
+            "word_normalized": "تميز من الغيظ",
+            "meaning": "تَتَمَزَّقُ مِنْ شِدَّةِ غَضَبِهَا عَلَى الْكُفَّارِ.",
+            "meaning_normalized": "تتمزق من شدة غضبها على الكفار"
+          },
+          {
+            "ayah_number": 8,
+            "word": "فَوْجٌ",
+            "word_normalized": "فوج",
+            "meaning": "جَمَاعَةٌ.",
+            "meaning_normalized": "جماعة"
+          },
+          {
+            "ayah_number": 8,
+            "word": "نَذِيرٌ",
+            "word_normalized": "نذير",
+            "meaning": "رَسُولٌ يُحَذِّرُكُمْ هَذَا الْعَذَابَ.",
+            "meaning_normalized": "رسول يحذركم هذا العذاب"
+          },
+          {
+            "ayah_number": 9,
+            "word": "إِنْ أَنْتُمْ",
+            "word_normalized": "إن أنتم",
+            "meaning": "مَا أَنْتُمْ.",
+            "meaning_normalized": "ما أنتم"
+          },
+          {
+            "ayah_number": 11,
+            "word": "فَسُحْقًا",
+            "word_normalized": "فسحقا",
+            "meaning": "بُعْدًا.",
+            "meaning_normalized": "بعدا"
+          },
+          {
+            "ayah_number": 12,
+            "word": "بِالْغَيْبِ",
+            "word_normalized": "بالغيب",
+            "meaning": "يَخْشَوْنَهُ وَهُمْ غَائِبُونَ عَنْ أَعْيُنِ النَّاسِ، وَيَخْشَوْنَ الْعَذَابَ قَبْلَ مُعَايَنَتِهِ.",
+            "meaning_normalized": "يخشونه وهم غائبون عن أعين الناس ويخشون العذاب قبل معاينته"
+          },
+          {
+            "ayah_number": 15,
+            "word": "ذَلُولًا",
+            "word_normalized": "ذلولا",
+            "meaning": "سَهْلَةً، مُمَهَّدَةً تَسْتَقِرُّونَ عَلَيْهَا.",
+            "meaning_normalized": "سهلة ممهدة تستقرون عليها"
+          },
+          {
+            "ayah_number": 15,
+            "word": "مَنَاكِبِهَا",
+            "word_normalized": "مناكبها",
+            "meaning": "نَوَاحِيهَا، وَجَوَانِبِهَا.",
+            "meaning_normalized": "نواحيها وجوانبها"
+          },
+          {
+            "ayah_number": 15,
+            "word": "وَإِلَيْهِ النُّشُورُ",
+            "word_normalized": "وإليه النشور",
+            "meaning": "إِلَيْهِ تُبْعَثُونَ مِنْ قُبُورِكُمْ لِلْجَزَاءِ وَالْحِسَابِ.",
+            "meaning_normalized": "إليه تبعثون من قبوركم للجزاء والحساب"
+          },
+          {
+            "ayah_number": 16,
+            "word": "مَنْ فِي السَّمَاءِ",
+            "word_normalized": "من في السماء",
+            "meaning": "اللهُ الَّذِي فِي الْعُلُوِّ.",
+            "meaning_normalized": "الله الذي في العلو"
+          }
+        ]
+      }
+    ]
+  }
+}

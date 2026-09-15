@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 296,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمَعَارِجِ",
+          "name_normalized": "سورة المعارج",
+          "order": 70,
+          "ayat_count": 44,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "سَأَلَ سَآئِلٌ",
+            "word_normalized": "سأل سائل",
+            "meaning": "دَعَا دَاعٍ.",
+            "meaning_normalized": "دعا داع"
+          },
+          {
+            "ayah_number": 1,
+            "word": "بِعَذَابٍ وَاقِعٍ",
+            "word_normalized": "بعذاب واقع",
+            "meaning": "بِوُقُوعِ الْعَذَابِ عَلَيْهِمْ.",
+            "meaning_normalized": "بوقوع العذاب عليهم"
+          },
+          {
+            "ayah_number": 3,
+            "word": "ذِى الْمَعَارِجِ",
+            "word_normalized": "ذي المعارج",
+            "meaning": "صَاحِبِ الْعُلُوِّ وَالْجَلَالِ.",
+            "meaning_normalized": "صاحب العلو والجلال"
+          },
+          {
+            "ayah_number": 4,
+            "word": "تَعْرُجُ",
+            "word_normalized": "تعرج",
+            "meaning": "تَصْعَدُ.",
+            "meaning_normalized": "تصعد"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَالرُّوحُ",
+            "word_normalized": "والروح",
+            "meaning": "جِبْرِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 5,
+            "word": "صَبْرًا جَمِيلًا",
+            "word_normalized": "صبرا جميلا",
+            "meaning": "لَا جَزَعَ فِيهِ، وَلَا شَكْوَى مِنْهُ لِغَيْرِ اللهِ.",
+            "meaning_normalized": "لا جزع فيه ولا شكوى منه لغير الله"
+          },
+          {
+            "ayah_number": 8,
+            "word": "كَالْمُهْلِ",
+            "word_normalized": "كالمهل",
+            "meaning": "مِثْلِ حُثَالَةِ الزَّيْتِ.",
+            "meaning_normalized": "مثل حثالة الزيت"
+          },
+          {
+            "ayah_number": 9,
+            "word": "كَالْعِهْنِ",
+            "word_normalized": "كالعهن",
+            "meaning": "كَالصُّوفِ الْمَصْبُوغِ الْمَنْفُوشِ الَّذِي ذَرَتْهُ الرِّيحُ.",
+            "meaning_normalized": "كالصوف المصبوغ المنفوش الذي ذرته الريح"
+          },
+          {
+            "ayah_number": 10,
+            "word": "حَمِيمٌ",
+            "word_normalized": "حميم",
+            "meaning": "قَرِيبٌ.",
+            "meaning_normalized": "قريب"
+          },
+          {
+            "ayah_number": 11,
+            "word": "يُبَصَّرُونَهُمْ",
+            "word_normalized": "يبصرونهم",
+            "meaning": "يُشَاهِدُ بَعْضُهُمْ بَعْضًا، وَيَعْرِفُهُ وَلَا يُكَلِّمُهُ.",
+            "meaning_normalized": "يشاهد بعضهم بعضا ويعرفه ولا يكلمه"
+          },
+          {
+            "ayah_number": 13,
+            "word": "وَفَصِيلَتِهِ",
+            "word_normalized": "وفصيلته",
+            "meaning": "عَشِيرَتِهِ.",
+            "meaning_normalized": "عشيرته"
+          },
+          {
+            "ayah_number": 13,
+            "word": "تُؤْوِيهِ",
+            "word_normalized": "تؤويه",
+            "meaning": "تَضُمُّهُ، وَيَنْتَمِي إِلَيْهَا.",
+            "meaning_normalized": "تضمه وينتمي إليها"
+          },
+          {
+            "ayah_number": 15,
+            "word": "كَلَّا",
+            "word_normalized": "كلا",
+            "meaning": "لَيْسَ الْأَمْرُ كَمَا تَتَمَنَّاهُ أَيُّهَا الْكَافِرُ مِنْ حُصُولِ الِافْتِدَاءِ.",
+            "meaning_normalized": "ليس الأمر كما تتمناه أيها الكافر من حصول الافتداء"
+          },
+          {
+            "ayah_number": 15,
+            "word": "لَظَى",
+            "word_normalized": "لظى",
+            "meaning": "جَهَنَّمُ تَتَلَهَّبُ نَارُهَا، وَتَتَلَظَّى.",
+            "meaning_normalized": "جهنم تتلهب نارها وتتلظى"
+          },
+          {
+            "ayah_number": 16,
+            "word": "نَزَّاعَةً لِلشَّوَى",
+            "word_normalized": "نزاعة للشوى",
+            "meaning": "تَنْزِعُ بِشِدَّةِ حَرِّهَا جِلْدَةَ الرَّأْسِ، وَسَائِرَ أَطْرَافِ الْبَدَنِ.",
+            "meaning_normalized": "تنزع بشدة حرها جلدة الرأس وسائر أطراف البدن"
+          },
+          {
+            "ayah_number": 18,
+            "word": "فَأَوْعَى",
+            "word_normalized": "فأوعى",
+            "meaning": "أَمْسَكَ مَالَهُ فِي وِعَاءٍ، وَلَمْ يُؤَدِّ حَقَّ اللهِ فِيهِ.",
+            "meaning_normalized": "أمسك ماله في وعاء ولم يؤد حق الله فيه"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "page": {
+    "page_number": 284,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّغَابُنِ",
+          "name_normalized": "سورة التغابن",
+          "order": 64,
+          "ayat_count": 18,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 11,
+            "word": "بِإِذْنِ اللهِ",
+            "word_normalized": "بإذن الله",
+            "meaning": "بِقَضَائِهِ، وَقَدَرِهِ.",
+            "meaning_normalized": "بقضائه وقدره"
+          },
+          {
+            "ayah_number": 11,
+            "word": "يَهْدِ قَلْبَهُ",
+            "word_normalized": "يهد قلبه",
+            "meaning": "يُوَفِّقْهُ لِلتَّسْلِيمِ بِالْقَضَاءِ، وَالصَّبْرِ عَلَى الْمَقْدُورِ.",
+            "meaning_normalized": "يوفقه للتسليم بالقضاء والصبر على المقدور"
+          },
+          {
+            "ayah_number": 12,
+            "word": "تَوَلَّيْتُمْ",
+            "word_normalized": "توليتم",
+            "meaning": "أَعْرَضْتُمْ عَنْ طَاعَةِ الرَّسُولِ ﷺ.",
+            "meaning_normalized": "أعرضتم عن طاعة الرسول"
+          },
+          {
+            "ayah_number": 13,
+            "word": "فَلْيَتَوَكَّلِ",
+            "word_normalized": "فليتوكل",
+            "meaning": "فَلْيَعْتَمِدْ، وَلْيُفَوِّضْ.",
+            "meaning_normalized": "فليعتمد وليفوض"
+          },
+          {
+            "ayah_number": 14,
+            "word": "عَدُوًّا لَكُمْ",
+            "word_normalized": "عدوا لكم",
+            "meaning": "بِصَدِّكُمْ عَنْ سَبِيلِ اللهِ، وَتَثْبِيطِكُمْ عَنْ طَاعَةِ اللهِ.",
+            "meaning_normalized": "بصدكم عن سبيل الله وتثبيطكم عن طاعة الله"
+          },
+          {
+            "ayah_number": 14,
+            "word": "تَعْفُوا",
+            "word_normalized": "تعفوا",
+            "meaning": "تَتَجَاوَزُوا عَنْ سَيِّئَاتِهِمْ.",
+            "meaning_normalized": "تتجاوزوا عن سيئاتهم"
+          },
+          {
+            "ayah_number": 14,
+            "word": "وَتَصْفَحُوا",
+            "word_normalized": "وتصفحوا",
+            "meaning": "تُعْرِضُوا عَنْهَا.",
+            "meaning_normalized": "تعرضوا عنها"
+          },
+          {
+            "ayah_number": 14,
+            "word": "وَتَغْفِرُوا",
+            "word_normalized": "وتغفروا",
+            "meaning": "تَسْتُرُوهَا عَلَيْهِمْ.",
+            "meaning_normalized": "تستروها عليهم"
+          },
+          {
+            "ayah_number": 15,
+            "word": "فِتْنَةٌ",
+            "word_normalized": "فتنة",
+            "meaning": "بَلَاءٌ، وَاخْتِبَارٌ لَكُمْ.",
+            "meaning_normalized": "بلاء واختبار لكم"
+          },
+          {
+            "ayah_number": 16,
+            "word": "وَمَنْ يُوقَ شُحَّ نَفْسِهِ",
+            "word_normalized": "ومن يوق شح نفسه",
+            "meaning": "يُكْفَ بُخْلَهَا الشَّدِيدَ، وَطَمَعَهَا بِمَا فِي أَيْدِي النَّاسِ.",
+            "meaning_normalized": "يكف بخلها الشديد وطمعها بما في أيدي الناس"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الطَّلَاقِ",
+          "name_normalized": "سورة الطلاق",
+          "order": 65,
+          "ayat_count": 12,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ",
+            "word_normalized": "فطلقوهن لعدتهن",
+            "meaning": "مُسْتَقْبِلَاتٍ لِعِدَّتِهِنَّ، أَيْ: فِي طُهْرٍ لَمْ يَقَعْ فِيهِ جِمَاعٌ.",
+            "meaning_normalized": "مستقبلات لعدتهن أي في طهر لم يقع فيه جماع"
+          },
+          {
+            "ayah_number": 1,
+            "word": "وَأَحْصُوا الْعِدَّةَ",
+            "word_normalized": "وأحصوا العدة",
+            "meaning": "احْفَظُوهَا؛ لِتَعْلَمُوا وَقْتَ الرَّجْعَةِ إِنْ أَرَدْتُمُ الْمُرَاجَعَةَ.",
+            "meaning_normalized": "احفظوها لتعلموا وقت الرجعة إن أردتم المراجعة"
+          }
+        ]
+      }
+    ]
+  }
+}

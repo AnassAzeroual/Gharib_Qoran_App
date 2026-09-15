@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 311,
+    "header": {
+      "right": "سُورَةُ النَّبَإِ",
+      "right_normalized": "سورة النبإ",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُرْسَلَاتِ",
+          "name_normalized": "سورة المرسلات",
+          "order": 77,
+          "ayat_count": 50,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 27,
+            "word": "فُرَاتًا",
+            "word_normalized": "فراتا",
+            "meaning": "عَذْبًا، سَائِغًا.",
+            "meaning_normalized": "عذبا سائغا"
+          },
+          {
+            "ayah_number": 30,
+            "word": "ظِلٍّ",
+            "word_normalized": "ظل",
+            "meaning": "هُوَ دُخَانُ جَهَنَّمَ.",
+            "meaning_normalized": "هو دخان جهنم"
+          },
+          {
+            "ayah_number": 30,
+            "word": "ذِي ثَلَاثِ شُعَبٍ",
+            "word_normalized": "ذي ثلاث شعب",
+            "meaning": "يَتَفَرَّعُ مِنْهُ ثَلَاثُ قِطَعٍ.",
+            "meaning_normalized": "يتفرع منه ثلاث قطع"
+          },
+          {
+            "ayah_number": 31,
+            "word": "لَا ظَلِيلٍ",
+            "word_normalized": "لا ظليل",
+            "meaning": "لَا يُظِلُّ مِنْ حَرِّ ذَلِكَ الْيَوْمِ.",
+            "meaning_normalized": "لا يظل من حر ذلك اليوم"
+          },
+          {
+            "ayah_number": 31,
+            "word": "وَلَا يُغْنِي",
+            "word_normalized": "ولا يغني",
+            "meaning": "لَا يَدْفَعُ، وَلَا يَقِي.",
+            "meaning_normalized": "لا يدفع ولا يقي"
+          },
+          {
+            "ayah_number": 32,
+            "word": "بِشَرَرٍ",
+            "word_normalized": "بشرر",
+            "meaning": "الشَّرَارَةُ: مَا يَتَطَايَرُ مِنَ النَّارِ.",
+            "meaning_normalized": "الشرارة ما يتطاير من النار"
+          },
+          {
+            "ayah_number": 32,
+            "word": "كَالْقَصْرِ",
+            "word_normalized": "كالقصر",
+            "meaning": "كَالْبِنَاءِ الْمُشَيَّدِ فِي الْعِظَمِ وَالِارْتِفَاعِ.",
+            "meaning_normalized": "كالبناء المشيد في العظم والارتفاع"
+          },
+          {
+            "ayah_number": 33,
+            "word": "جِمَالَتٌ صُفْرٌ",
+            "word_normalized": "جمالت صفر",
+            "meaning": "كَأَنَّ الشَّرَرَ إِبِلٌ سُودٌ يَمِيلُ لَوْنُهَا إِلَى الصُّفْرَةِ.",
+            "meaning_normalized": "كأن الشرر إبل سود يميل لونها إلى الصفرة"
+          },
+          {
+            "ayah_number": 39,
+            "word": "كَيْدٌ",
+            "word_normalized": "كيد",
+            "meaning": "حِيلَةٌ فِي الْخَلَاصِ مِنَ الْعَذَابِ.",
+            "meaning_normalized": "حيلة في الخلاص من العذاب"
+          },
+          {
+            "ayah_number": 41,
+            "word": "ظِلَالٍ",
+            "word_normalized": "ظلال",
+            "meaning": "ظِلِّ الْأَشْجَارِ الْوَارِفَةِ.",
+            "meaning_normalized": "ظل الأشجار الوارفة"
+          },
+          {
+            "ayah_number": 43,
+            "word": "هَنِيئًا",
+            "word_normalized": "هنيئا",
+            "meaning": "مُتَهَنِّئِينَ مِنْ غَيْرِ تَنْغِيصٍ، وَلَا كَدَرٍ.",
+            "meaning_normalized": "متهنئين من غير تنغيص ولا كدر"
+          },
+          {
+            "ayah_number": 50,
+            "word": "حَدِيثٍ بَعْدَهُ",
+            "word_normalized": "حديث بعده",
+            "meaning": "كِتَابٍ وَكَلَامٍ بَعْدَ الْقُرْآنِ.",
+            "meaning_normalized": "كتاب وكلام بعد القرآن"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّبَإِ",
+          "name_normalized": "سورة النبإ",
+          "order": 78,
+          "ayat_count": 40,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "عَمَّ",
+            "word_normalized": "عم",
+            "meaning": "عَنْ أَيِّ شَيْءٍ؟",
+            "meaning_normalized": "عن أي شيء"
+          },
+          {
+            "ayah_number": 2,
+            "word": "النَّبَإِ الْعَظِيمِ",
+            "word_normalized": "النبإ العظيم",
+            "meaning": "الْخَبَرِ الْعَظِيمِ؛ وَهُوَ الْقُرْآنُ الَّذِي فِيهِ خَبَرُ الْبَعْثِ.",
+            "meaning_normalized": "الخبر العظيم وهو القرآن الذي فيه خبر البعث"
+          },
+          {
+            "ayah_number": 6,
+            "word": "مِهَادًا",
+            "word_normalized": "مهادا",
+            "meaning": "مُمَهَّدَةً كَالْفِرَاشِ.",
+            "meaning_normalized": "ممهدة كالفراش"
+          },
+          {
+            "ayah_number": 7,
+            "word": "أَوْتَادًا",
+            "word_normalized": "أوتادا",
+            "meaning": "تُثَبِّتُ الْأَرْضَ.",
+            "meaning_normalized": "تثبت الأرض"
+          }
+        ]
+      }
+    ]
+  }
+}

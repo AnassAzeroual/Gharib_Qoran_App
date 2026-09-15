@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 281,
+    "header": {
+      "right": "سُورَةُ الْجُمُعَةِ",
+      "right_normalized": "سورة الجمعة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْجُمُعَةِ",
+          "name_normalized": "سورة الجمعة",
+          "order": 62,
+          "ayat_count": 11,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "يُسَبِّحُ",
+            "word_normalized": "يسبح",
+            "meaning": "يُنَزِّهُ اللهَ عَنْ كُلِّ مَا لَا يَلِيقُ بِهِ.",
+            "meaning_normalized": "ينزه الله عن كل ما لا يليق به"
+          },
+          {
+            "ayah_number": 1,
+            "word": "الْقُدُّوسِ",
+            "word_normalized": "القدوس",
+            "meaning": "الْمُنَزَّهِ عَنْ كُلِّ نَقْصٍ.",
+            "meaning_normalized": "المنزه عن كل نقص"
+          },
+          {
+            "ayah_number": 1,
+            "word": "الْعَزِيزِ",
+            "word_normalized": "العزيز",
+            "meaning": "الْقَوِيِّ الْغَالِبِ الَّذِي لَا يُغَالَبُ.",
+            "meaning_normalized": "القوي الغالب الذي لا يغالب"
+          },
+          {
+            "ayah_number": 2,
+            "word": "الْأُمِّيِّينَ",
+            "word_normalized": "الأميين",
+            "meaning": "الْعَرَبِ الَّذِينَ لَا يَقْرَؤُونَ، وَلَا كِتَابَ عِنْدَهُمْ.",
+            "meaning_normalized": "العرب الذين لا يقرؤون ولا كتاب عندهم"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَيُزَكِّيهِمْ",
+            "word_normalized": "ويزكيهم",
+            "meaning": "يُطَهِّرُهُمْ مِنَ الْعَقَائِدِ الْفَاسِدَةِ، وَالْأَخْلَاقِ السَّيِّئَةِ.",
+            "meaning_normalized": "يطهرهم من العقائد الفاسدة والأخلاق السيئة"
+          },
+          {
+            "ayah_number": 2,
+            "word": "الْكِتَبَ",
+            "word_normalized": "الكتاب",
+            "meaning": "الْقُرْآنَ.",
+            "meaning_normalized": "القرآن"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَالْحِكْمَةَ",
+            "word_normalized": "والحكمة",
+            "meaning": "السُّنَّةَ، وَإِذَا جَاءَتِ الْحِكْمَةُ مَعَ الْكِتَابِ فَالْمُرَادُ بِهَا: السُّنَّةُ.",
+            "meaning_normalized": "السنة وإذا جاءت الحكمة مع الكتاب فالمراد بها السنة"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَءَاخَرِينَ مِنْهُمْ",
+            "word_normalized": "وآخرين منهم",
+            "meaning": "وَبَعَثَهُ إِلَى قَوْمٍ آخَرِينَ مِنَ الْعَرَبِ، وَغَيْرِهِمْ.",
+            "meaning_normalized": "وبعثه إلى قوم آخرين من العرب وغيرهم"
+          },
+          {
+            "ayah_number": 3,
+            "word": "لَمَّا يَلْحَقُوا بِهِمْ",
+            "word_normalized": "لما يلحقوا بهم",
+            "meaning": "لَمْ يَجِيئُوا بَعْدُ، وَسَيَجِيئُونَ.",
+            "meaning_normalized": "لم يجيئوا بعد وسيجيئون"
+          },
+          {
+            "ayah_number": 5,
+            "word": "أَسْفَارًا",
+            "word_normalized": "أسفارا",
+            "meaning": "كُتُبًا.",
+            "meaning_normalized": "كتبا"
+          },
+          {
+            "ayah_number": 5,
+            "word": "بِئْسَ مَثَلُ الْقَوْمِ",
+            "word_normalized": "بئس مثل القوم",
+            "meaning": "قَبُحَ مَثَلُهُمْ.",
+            "meaning_normalized": "قبح مثلهم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "هَادُوا",
+            "word_normalized": "هادوا",
+            "meaning": "تَدَيَّنُوا بِالْيَهُودِيَّةِ.",
+            "meaning_normalized": "تدينوا باليهودية"
+          },
+          {
+            "ayah_number": 9,
+            "word": "فَاسْعَوْا",
+            "word_normalized": "فاسعوا",
+            "meaning": "فَامْضُوا.",
+            "meaning_normalized": "فامضوا"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَذَرُوا",
+            "word_normalized": "وذروا",
+            "meaning": "اتْرُكُوا.",
+            "meaning_normalized": "اتركوا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فَضْلِ اللهِ",
+            "word_normalized": "فضل الله",
+            "meaning": "رِزْقِ اللهِ.",
+            "meaning_normalized": "رزق الله"
+          },
+          {
+            "ayah_number": 11,
+            "word": "لَهْوًا",
+            "word_normalized": "لهوا",
+            "meaning": "مَا يُلْهِي مِنْ غِنَاءٍ، وَزِينَةٍ، وَنَحْوِهِمَا.",
+            "meaning_normalized": "ما يلهي من غناء وزينة ونحوهما"
+          }
+        ]
+      }
+    ]
+  }
+}

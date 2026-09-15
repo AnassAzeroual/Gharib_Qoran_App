@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 287,
+    "header": {
+      "right": "سُورَةُ الْمُلْكِ",
+      "right_normalized": "سورة الملك",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّحْرِيمِ",
+          "name_normalized": "سورة التحريم",
+          "order": 66,
+          "ayat_count": 12,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 8,
+            "word": "لَا يُخْزِى",
+            "word_normalized": "لا يخزي",
+            "meaning": "لَا يُذِلُّ، وَلَا يُعَذِّبُ.",
+            "meaning_normalized": "لا يذل ولا يعذب"
+          },
+          {
+            "ayah_number": 8,
+            "word": "يَسْعَى",
+            "word_normalized": "يسعى",
+            "meaning": "يَسِيرُ.",
+            "meaning_normalized": "يسير"
+          },
+          {
+            "ayah_number": 8,
+            "word": "بَيْنَ أَيْدِيهِمْ",
+            "word_normalized": "بين أيديهم",
+            "meaning": "أَمَامَهُمْ.",
+            "meaning_normalized": "أمامهم"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَاغْلُظْ عَلَيْهِمْ",
+            "word_normalized": "واغلظ عليهم",
+            "meaning": "اسْتَعْمِلِ الْخُشُونَةَ وَالشِّدَّةَ فِي جِهَادِهِمْ.",
+            "meaning_normalized": "استعمل الخشونة والشدة في جهادهم"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَمَأْوَاهُمْ",
+            "word_normalized": "ومأواهم",
+            "meaning": "مَسْكَنُهُمْ.",
+            "meaning_normalized": "مسكنهم"
+          },
+          {
+            "ayah_number": 9,
+            "word": "الْمَصِيرُ",
+            "word_normalized": "المصير",
+            "meaning": "الْمَرْجِعُ، وَالْمَآلُ.",
+            "meaning_normalized": "المرجع والمآل"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فَخَانَتَاهُمَا",
+            "word_normalized": "فخانتاهما",
+            "meaning": "بِالْكُفْرِ، وَالْمُخَالَفَةِ فِي الدِّينِ.",
+            "meaning_normalized": "بالكفر والمخالفة في الدين"
+          },
+          {
+            "ayah_number": 10,
+            "word": "فَلَمْ يُغْنِيَا",
+            "word_normalized": "فلم يغنيا",
+            "meaning": "فَلَمْ يَدْفَعَا وَيَمْنَعَا عَنْهُمَا.",
+            "meaning_normalized": "فلم يدفعا ويمنعا عنهما"
+          },
+          {
+            "ayah_number": 12,
+            "word": "أَحْصَنَتْ",
+            "word_normalized": "أحصنت",
+            "meaning": "حَفِظَتْ وَصَانَتْ عَنِ الزِّنَى.",
+            "meaning_normalized": "حفظت وصانت عن الزنى"
+          },
+          {
+            "ayah_number": 12,
+            "word": "فَنَفَخْنَا فِيهِ مِنْ رُوحِنَا",
+            "word_normalized": "فنفخنا فيه من روحنا",
+            "meaning": "جِبْرِيلَ عَلَيْهِ السَّلَامُ، حَيْثُ نَفَخَ فِي جَيْبِ قَمِيصِهَا؛ فَوَصَلَتِ النَّفْخَةُ إِلَى رَحِمِهَا.",
+            "meaning_normalized": "جبريل عليه السلام حيث نفخ في جيب قميصها فوصلت النفخة إلى رحمها"
+          },
+          {
+            "ayah_number": 12,
+            "word": "الْقَنِتِينَ",
+            "word_normalized": "القانتين",
+            "meaning": "الْمُطِيعِينَ لِرَبِّهِمْ.",
+            "meaning_normalized": "المطيعين لربهم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُلْكِ",
+          "name_normalized": "سورة الملك",
+          "order": 67,
+          "ayat_count": 30,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "تَبَرَكَ",
+            "word_normalized": "تبارك",
+            "meaning": "تَعَالَى، وَتَعَاظَمَ، وَتَكَاثَرَ خَيْرُهُ وَبِرُّهُ.",
+            "meaning_normalized": "تعالى وتعاظم وتكاثر خيره وبره"
+          },
+          {
+            "ayah_number": 2,
+            "word": "لِيَبْلُوَكُمْ",
+            "word_normalized": "ليبلوكم",
+            "meaning": "لِيَخْتَبِرَكُمْ.",
+            "meaning_normalized": "ليختبركم"
+          },
+          {
+            "ayah_number": 2,
+            "word": "أَحْسَنُ عَمَلًا",
+            "word_normalized": "أحسن عملا",
+            "meaning": "أَخْلَصُهُ، وَأَصْوَبُهُ.",
+            "meaning_normalized": "أخلصه وأصوبه"
+          },
+          {
+            "ayah_number": 3,
+            "word": "طِبَاقًا",
+            "word_normalized": "طباقا",
+            "meaning": "بَعْضُهَا فَوْقَ بَعْضٍ، مِنْ غَيْرِ مُمَاسَّةٍ.",
+            "meaning_normalized": "بعضها فوق بعض من غير مماسة"
+          },
+          {
+            "ayah_number": 3,
+            "word": "تَفَوُتٍ",
+            "word_normalized": "تفاوت",
+            "meaning": "اخْتِلَافٍ، وَتَبَايُنٍ.",
+            "meaning_normalized": "اختلاف وتباين"
+          }
+        ]
+      }
+    ]
+  }
+}

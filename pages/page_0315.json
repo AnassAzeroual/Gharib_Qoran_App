@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 315,
+    "header": {
+      "right": "سُورَةُ النَّازِعَاتِ",
+      "right_normalized": "سورة النازعات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّازِعَاتِ",
+          "name_normalized": "سورة النازعات",
+          "order": 79,
+          "ayat_count": 46,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 19,
+            "word": "وَأَهْدِيَكَ",
+            "word_normalized": "وأهديك",
+            "meaning": "أُرْشِدَكَ.",
+            "meaning_normalized": "أرشدك"
+          },
+          {
+            "ayah_number": 20,
+            "word": "الْآيَةَ الْكُبْرَى",
+            "word_normalized": "الآية الكبرى",
+            "meaning": "مُعْجِزَةَ الْعَصَا، وَالْيَدَ الْبَيْضَاءَ.",
+            "meaning_normalized": "معجزة العصا واليد البيضاء"
+          },
+          {
+            "ayah_number": 22,
+            "word": "يَسْعَى",
+            "word_normalized": "يسعى",
+            "meaning": "يَجْتَهِدُ فِي مُعَارَضَةِ مُوسَى ﷺ.",
+            "meaning_normalized": "يجتهد في معارضة موسى"
+          },
+          {
+            "ayah_number": 23,
+            "word": "فَحَشَرَ",
+            "word_normalized": "فحشر",
+            "meaning": "جَمَعَ أَهْلَ مَمْلَكَتِهِ.",
+            "meaning_normalized": "جمع أهل مملكته"
+          },
+          {
+            "ayah_number": 25,
+            "word": "نَكَالَ",
+            "word_normalized": "نكال",
+            "meaning": "عُقُوبَةَ.",
+            "meaning_normalized": "عقوبة"
+          },
+          {
+            "ayah_number": 28,
+            "word": "رَفَعَ سَمْكَهَا",
+            "word_normalized": "رفع سمكها",
+            "meaning": "أَعْلَى سَقْفَهَا.",
+            "meaning_normalized": "أعلى سقفها"
+          },
+          {
+            "ayah_number": 29,
+            "word": "وَأَغْطَشَ لَيْلَهَا",
+            "word_normalized": "وأغطش ليلها",
+            "meaning": "أَظْلَمَ لَيْلَهَا بِغُرُوبِ شَمْسِهَا.",
+            "meaning_normalized": "أظلم ليلها بغروب شمسها"
+          },
+          {
+            "ayah_number": 29,
+            "word": "وَأَخْرَجَ ضُحَاهَا",
+            "word_normalized": "وأخرج ضحاها",
+            "meaning": "أَبْرَزَ نَهَارَهَا بِشُرُوقِ شَمْسِهَا.",
+            "meaning_normalized": "أبرز نهارها بشروق شمسها"
+          },
+          {
+            "ayah_number": 30,
+            "word": "دَحَاهَا",
+            "word_normalized": "دحاها",
+            "meaning": "بَسَطَهَا، وَأَوْدَعَ فِيهَا مَنَافِعَهَا.",
+            "meaning_normalized": "بسطها وأودع فيها منافعها"
+          },
+          {
+            "ayah_number": 31,
+            "word": "وَمَرْعَاهَا",
+            "word_normalized": "ومرعاها",
+            "meaning": "مَا يُرْعَى مِنَ النَّبَاتِ.",
+            "meaning_normalized": "ما يرعى من النبات"
+          },
+          {
+            "ayah_number": 32,
+            "word": "أَرْسَاهَا",
+            "word_normalized": "أرساها",
+            "meaning": "أَثْبَتَهَا عَلَى الْأَرْضِ؛ كَالْأَوْتَادِ.",
+            "meaning_normalized": "أثبتها على الأرض كالأوتاد"
+          },
+          {
+            "ayah_number": 34,
+            "word": "الطَّامَّةُ",
+            "word_normalized": "الطامة",
+            "meaning": "الْقِيَامَةُ، وَهِيَ النَّفْخَةُ الثَّانِيَةُ.",
+            "meaning_normalized": "القيامة وهي النفخة الثانية"
+          },
+          {
+            "ayah_number": 36,
+            "word": "وَبُرِّزَتِ",
+            "word_normalized": "وبرزت",
+            "meaning": "أُظْهِرَتْ إِظْهَارًا بَيِّنًا.",
+            "meaning_normalized": "أظهرت إظهارا بينا"
+          },
+          {
+            "ayah_number": 39,
+            "word": "الْمَأْوَى",
+            "word_normalized": "المأوى",
+            "meaning": "الْمَصِيرُ.",
+            "meaning_normalized": "المصير"
+          },
+          {
+            "ayah_number": 40,
+            "word": "مَقَامَ رَبِّهِ",
+            "word_normalized": "مقام ربه",
+            "meaning": "الْقِيَامَ بَيْنَ يَدَيْ رَبِّهِ لِلْحِسَابِ.",
+            "meaning_normalized": "القيام بين يدي ربه للحساب"
+          },
+          {
+            "ayah_number": 42,
+            "word": "أَيَّانَ مُرْسَاهَا",
+            "word_normalized": "أيان مرساها",
+            "meaning": "مَتَى وَقْتُ حُلُولِهَا؟",
+            "meaning_normalized": "متى وقت حلولها"
+          },
+          {
+            "ayah_number": 43,
+            "word": "فِيمَ أَنْتَ مِنْ ذِكْرَاهَا",
+            "word_normalized": "فيم أنت من ذكراها",
+            "meaning": "لَيْسَ عِنْدَكَ عِلْمُهَا؛ حَتَّى تَذْكُرَهَا.",
+            "meaning_normalized": "ليس عندك علمها حتى تذكرها"
+          },
+          {
+            "ayah_number": 46,
+            "word": "عَشِيَّةً",
+            "word_normalized": "عشية",
+            "meaning": "مَا بَيْنَ الظُّهْرِ إِلَى غُرُوبِ الشَّمْسِ.",
+            "meaning_normalized": "ما بين الظهر إلى غروب الشمس"
+          },
+          {
+            "ayah_number": 46,
+            "word": "ضُحَاهَا",
+            "word_normalized": "ضحاها",
+            "meaning": "مَا بَيْنَ طُلُوعِ الشَّمْسِ إِلَى نِصْفِ النَّهَارِ.",
+            "meaning_normalized": "ما بين طلوع الشمس إلى نصف النهار"
+          }
+        ]
+      }
+    ]
+  }
+}

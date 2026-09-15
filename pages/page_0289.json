@@ -1,0 +1,184 @@
+{
+  "page": {
+    "page_number": 289,
+    "header": {
+      "right": "سُورَةُ الْمُلْكِ",
+      "right_normalized": "سورة الملك",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُلْكِ",
+          "name_normalized": "سورة الملك",
+          "order": 67,
+          "ayat_count": 30,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 16,
+            "word": "تَمُورُ",
+            "word_normalized": "تمور",
+            "meaning": "تَضْطَرِبُ بِكُمْ حَتَّى تَهْلِكُوا.",
+            "meaning_normalized": "تضطرب بكم حتى تهلكوا"
+          },
+          {
+            "ayah_number": 17,
+            "word": "حَاصِبًا",
+            "word_normalized": "حاصبا",
+            "meaning": "رِيحًا تَرْجُمُكُمْ بِالْحِجَارَةِ الصَّغِيرَةِ.",
+            "meaning_normalized": "ريحا ترجمكم بالحجارة الصغيرة"
+          },
+          {
+            "ayah_number": 17,
+            "word": "نَذِيرِ",
+            "word_normalized": "نذير",
+            "meaning": "تَحْذِيرِي لَكُمْ.",
+            "meaning_normalized": "تحذيري لكم"
+          },
+          {
+            "ayah_number": 18,
+            "word": "نَكِيرِ",
+            "word_normalized": "نكير",
+            "meaning": "إِنْكَارِي عَلَيْهِمْ، وَتَغْيِيرِ مَا بِهِمْ مِنَ النِّعْمَةِ.",
+            "meaning_normalized": "إنكاري عليهم وتغيير ما بهم من النعمة"
+          },
+          {
+            "ayah_number": 19,
+            "word": "صَفَّتٍ",
+            "word_normalized": "صافات",
+            "meaning": "بَاسِطَاتٍ أَجْنِحَتَهَا عِنْدَ طَيَرَانِهَا فِي الْهَوَاءِ.",
+            "meaning_normalized": "باسطات أجنحتها عند طيرانها في الهواء"
+          },
+          {
+            "ayah_number": 19,
+            "word": "وَيَقْبِضْنَ",
+            "word_normalized": "ويقبضن",
+            "meaning": "يَضْمُمْنَهَا إِلَى جُنُوبِهَا أَحْيَانًا.",
+            "meaning_normalized": "يضممنها إلى جنوبها أحيانا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "غُرُورٍ",
+            "word_normalized": "غرور",
+            "meaning": "خِدَاعٍ وَضَلَالٍ مِنَ الشَّيْطَانِ.",
+            "meaning_normalized": "خداع وضلال من الشيطان"
+          },
+          {
+            "ayah_number": 21,
+            "word": "لَجُّوا",
+            "word_normalized": "لجوا",
+            "meaning": "اسْتَمَرُّوا، وَتَمَادَوْا.",
+            "meaning_normalized": "استمروا وتمادوا"
+          },
+          {
+            "ayah_number": 21,
+            "word": "عُتُوٍّ",
+            "word_normalized": "عتو",
+            "meaning": "مُعَانَدَةٍ، وَاسْتِكْبَارٍ.",
+            "meaning_normalized": "معاندة واستكبار"
+          },
+          {
+            "ayah_number": 21,
+            "word": "وَنُفُورٍ",
+            "word_normalized": "ونفور",
+            "meaning": "شُرُودٍ وَتَبَاعُدٍ عَنِ الْحَقِّ.",
+            "meaning_normalized": "شرود وتباعد عن الحق"
+          },
+          {
+            "ayah_number": 22,
+            "word": "مُكِبًّا",
+            "word_normalized": "مكبا",
+            "meaning": "مُنَكَّسًا.",
+            "meaning_normalized": "منكسا"
+          },
+          {
+            "ayah_number": 22,
+            "word": "سَوِيًّا",
+            "word_normalized": "سويا",
+            "meaning": "مُسْتَوِيًا، مُنْتَصِبَ الْقَامَةِ سَالِمًا.",
+            "meaning_normalized": "مستويا منتصب القامة سالما"
+          },
+          {
+            "ayah_number": 22,
+            "word": "صِرَطٍ مُسْتَقِيمٍ",
+            "word_normalized": "صراط مستقيم",
+            "meaning": "طَرِيقٍ وَاضِحٍ لَا اعْوِجَاجَ فِيهِ.",
+            "meaning_normalized": "طريق واضح لا اعوجاج فيه"
+          },
+          {
+            "ayah_number": 23,
+            "word": "أَنْشَأَكُمْ",
+            "word_normalized": "أنشأكم",
+            "meaning": "أَوْجَدَكُمْ.",
+            "meaning_normalized": "أوجدكم"
+          },
+          {
+            "ayah_number": 24,
+            "word": "ذَرَأَكُمْ",
+            "word_normalized": "ذرأكم",
+            "meaning": "خَلَقَكُمْ، وَنَشَرَكُمْ فِي الْأَرْضِ.",
+            "meaning_normalized": "خلقكم ونشركم في الأرض"
+          },
+          {
+            "ayah_number": 27,
+            "word": "رَأَوْهُ زُلْفَةً",
+            "word_normalized": "رأوه زلفة",
+            "meaning": "رَأَوْا عَذَابَ اللهِ قَرِيبًا.",
+            "meaning_normalized": "رأوا عذاب الله قريبا"
+          },
+          {
+            "ayah_number": 27,
+            "word": "سِيئَتْ",
+            "word_normalized": "سيئت",
+            "meaning": "ذَلَّتْ، وَاسْوَدَّتْ.",
+            "meaning_normalized": "ذلت واسودت"
+          },
+          {
+            "ayah_number": 27,
+            "word": "تَدَّعُونَ",
+            "word_normalized": "تدعون",
+            "meaning": "تَطْلُبُونَ أَنْ يُعَجَّلَ لَكُمْ مِنَ الْعَذَابِ اسْتِهْزَاءً.",
+            "meaning_normalized": "تطلبون أن يعجل لكم من العذاب استهزاء"
+          },
+          {
+            "ayah_number": 28,
+            "word": "يُجِيرُ",
+            "word_normalized": "يجير",
+            "meaning": "يَحْمِي.",
+            "meaning_normalized": "يحمي"
+          },
+          {
+            "ayah_number": 30,
+            "word": "أَرَءَيْتُمْ",
+            "word_normalized": "أرأيتم",
+            "meaning": "أَخْبِرُونِي.",
+            "meaning_normalized": "أخبروني"
+          },
+          {
+            "ayah_number": 30,
+            "word": "غَوْرًا",
+            "word_normalized": "غورا",
+            "meaning": "ذَاهِبًا فِي الْأَرْضِ لَا تَصِلُونَ إِلَيْهِ بِوَسِيلَةٍ.",
+            "meaning_normalized": "ذاهبا في الأرض لا تصلون إليه بوسيلة"
+          },
+          {
+            "ayah_number": 30,
+            "word": "مَعِينٍ",
+            "word_normalized": "معين",
+            "meaning": "جَارٍ عَلَى وَجْهِ الْأَرْضِ، ظَاهِرٍ لِلْعُيُونِ.",
+            "meaning_normalized": "جار على وجه الأرض ظاهر للعيون"
+          }
+        ]
+      }
+    ]
+  }
+}

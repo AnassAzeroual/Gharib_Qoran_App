@@ -1,0 +1,166 @@
+{
+  "page": {
+    "page_number": 303,
+    "header": {
+      "right": "سُورَةُ الْمُدَّثِّرِ",
+      "right_normalized": "سورة المدثر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُزَّمِّلِ",
+          "name_normalized": "سورة المزمل",
+          "order": 73,
+          "ayat_count": 20,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 18,
+            "word": "مَفْعُولًا",
+            "word_normalized": "مفعولا",
+            "meaning": "وَاقِعًا لَا مَحَالَةَ.",
+            "meaning_normalized": "واقعا لا محالة"
+          },
+          {
+            "ayah_number": 19,
+            "word": "سَبِيلًا",
+            "word_normalized": "سبيلا",
+            "meaning": "طَرِيقًا بِالطَّاعَةِ.",
+            "meaning_normalized": "طريقا بالطاعة"
+          },
+          {
+            "ayah_number": 20,
+            "word": "تَقُومُ",
+            "word_normalized": "تقوم",
+            "meaning": "تُصَلِّي مُتَهَجِّدًا مِنَ اللَّيْلِ.",
+            "meaning_normalized": "تصلي متهجدا من الليل"
+          },
+          {
+            "ayah_number": 20,
+            "word": "أَدْنَى",
+            "word_normalized": "أدنى",
+            "meaning": "أَقَلَّ.",
+            "meaning_normalized": "أقل"
+          },
+          {
+            "ayah_number": 20,
+            "word": "لَنْ تُحْصُوهُ",
+            "word_normalized": "لن تحصوه",
+            "meaning": "لَنْ يُمْكِنَكُمْ قِيَامُ اللَّيْلِ كُلِّهِ.",
+            "meaning_normalized": "لن يمكنكم قيام الليل كله"
+          },
+          {
+            "ayah_number": 20,
+            "word": "فَتَابَ عَلَيْكُمْ",
+            "word_normalized": "فتاب عليكم",
+            "meaning": "خَفَّفَ عَنْكُمْ.",
+            "meaning_normalized": "خفف عنكم"
+          },
+          {
+            "ayah_number": 20,
+            "word": "يَبْتَغُونَ",
+            "word_normalized": "يبتغون",
+            "meaning": "يَطْلُبُونَ بِالتَّنَقُّلِ فِي الْأَرْضِ.",
+            "meaning_normalized": "يطلبون بالتنقل في الأرض"
+          },
+          {
+            "ayah_number": 20,
+            "word": "فَضْلِ اللهِ",
+            "word_normalized": "فضل الله",
+            "meaning": "رِزْقِ اللهِ.",
+            "meaning_normalized": "رزق الله"
+          },
+          {
+            "ayah_number": 20,
+            "word": "وَأَقْرَضُوا",
+            "word_normalized": "وأقرضوا",
+            "meaning": "تَصَدَّقُوا.",
+            "meaning_normalized": "تصدقوا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "قَرْضًا حَسَنًا",
+            "word_normalized": "قرضا حسنا",
+            "meaning": "صَدَقَةً بِإِخْلَاصٍ، وَطِيبِ نَفْسٍ.",
+            "meaning_normalized": "صدقة بإخلاص وطيب نفس"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُدَّثِّرِ",
+          "name_normalized": "سورة المدثر",
+          "order": 74,
+          "ayat_count": 56,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "الْمُدَّثِّرُ",
+            "word_normalized": "المدثر",
+            "meaning": "أَصْلُهُ: الْمُتَدَثِّرُ، وَهُوَ الْمُتَغَطِّي بِثِيَابِهِ.",
+            "meaning_normalized": "أصله المتدثر وهو المتغطي بثيابه"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَرَبَّكَ فَكَبِّرْ",
+            "word_normalized": "وربك فكبر",
+            "meaning": "اخْصُصْ رَبَّكَ بِالتَّكْبِيرِ وَالتَّعْظِيمِ.",
+            "meaning_normalized": "اخصص ربك بالتكبير والتعظيم"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَثِيَابَكَ فَطَهِّرْ",
+            "word_normalized": "وثيابك فطهر",
+            "meaning": "طَهِّرْ نَفْسَكَ مِنَ الْمَعَاصِي وَالْآثَامِ.",
+            "meaning_normalized": "طهر نفسك من المعاصي والآثام"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَالرُّجْزَ",
+            "word_normalized": "والرجز",
+            "meaning": "الْأَصْنَامَ، وَأَعْمَالَ الشِّرْكِ.",
+            "meaning_normalized": "الأصنام وأعمال الشرك"
+          },
+          {
+            "ayah_number": 6,
+            "word": "وَلَا تَمْنُنْ تَسْتَكْثِرُ",
+            "word_normalized": "ولا تمنن تستكثر",
+            "meaning": "لَا تُعْطِ الْعَطِيَّةَ، كَيْ تَلْتَمِسَ أَكْثَرَ مِنْهَا.",
+            "meaning_normalized": "لا تعط العطية كي تلتمس أكثر منها"
+          },
+          {
+            "ayah_number": 8,
+            "word": "نُقِرَ فِي النَّاقُورِ",
+            "word_normalized": "نقر في الناقور",
+            "meaning": "نُفِخَ فِي الصُّورِ نَفْخَةُ الْبَعْثِ.",
+            "meaning_normalized": "نفخ في الصور نفخة البعث"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَحِيدًا",
+            "word_normalized": "وحيدا",
+            "meaning": "فَرِيدًا لَا مَالَ لَهُ، وَلَا وَلَدَ، وَالْمُرَادُ بِهِ: الْوَلِيدُ بْنُ الْمُغِيرَةِ.",
+            "meaning_normalized": "فريدا لا مال له ولا ولد والمراد به الوليد بن المغيرة"
+          }
+        ]
+      }
+    ]
+  }
+}

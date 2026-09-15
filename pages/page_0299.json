@@ -1,0 +1,145 @@
+{
+  "page": {
+    "page_number": 299,
+    "header": {
+      "right": "سُورَةُ الْجِنِّ",
+      "right_normalized": "سورة الجن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ نُوحٍ",
+          "name_normalized": "سورة نوح",
+          "order": 71,
+          "ayat_count": 28,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 19,
+            "word": "بِسَاطًا",
+            "word_normalized": "بساطا",
+            "meaning": "مُمَهَّدَةً.",
+            "meaning_normalized": "ممهدة"
+          },
+          {
+            "ayah_number": 20,
+            "word": "سُبُلًا",
+            "word_normalized": "سبلا",
+            "meaning": "طُرُقًا.",
+            "meaning_normalized": "طرقا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "فِجَاجًا",
+            "word_normalized": "فجاجا",
+            "meaning": "وَاسِعَةً.",
+            "meaning_normalized": "واسعة"
+          },
+          {
+            "ayah_number": 22,
+            "word": "كُبَّارًا",
+            "word_normalized": "كبارا",
+            "meaning": "عَظِيمًا.",
+            "meaning_normalized": "عظيما"
+          },
+          {
+            "ayah_number": 23,
+            "word": "لَا تَذَرُنَّ",
+            "word_normalized": "لا تذرن",
+            "meaning": "لَا تَتْرُكُنَّ.",
+            "meaning_normalized": "لا تتركن"
+          },
+          {
+            "ayah_number": 23,
+            "word": "وَدًّا وَلَا سُوَاعًا...",
+            "word_normalized": "ودا ولا سواعا",
+            "meaning": "هَذِهِ أَسْمَاءُ أَصْنَامِهِمْ، وَكَانَتْ أَسْمَاءَ رِجَالٍ صَالِحِينَ، لَمَّا مَاتُوا زَيَّنَ لَهُمُ الشَّيْطَانُ أَنْ يُقِيمُوا لَهُمُ التَّمَاثِيلَ وَالصُّوَرَ؛ لِيَنْشَطُوا عَلَى الطَّاعَةِ إِذَا رَأَوْهُمْ، فَلَمَّا طَالَ الْأَمَدُ، عَبَدُوهُمْ.",
+            "meaning_normalized": "هذه أسماء أصنامهم وكانت أسماء رجال صالحين لما ماتوا زين لهم الشيطان أن يقيموا لهم التماثيل والصور لينشطوا على الطاعة إذا رأوهم فلما طال الأمد عبدوهم"
+          },
+          {
+            "ayah_number": 24,
+            "word": "ضَلَلًا",
+            "word_normalized": "ضلالا",
+            "meaning": "بُعْدًا عَنِ الْحَقِّ.",
+            "meaning_normalized": "بعدا عن الحق"
+          },
+          {
+            "ayah_number": 25,
+            "word": "مِمَّا خَطِيئَتِهِمْ",
+            "word_normalized": "مما خطيئاتهم",
+            "meaning": "بِسَبَبِ ذُنُوبِهِمْ.",
+            "meaning_normalized": "بسبب ذنوبهم"
+          },
+          {
+            "ayah_number": 26,
+            "word": "دَيَّارًا",
+            "word_normalized": "ديارا",
+            "meaning": "أَحَدًا حَيًّا عَلَى الْأَرْضِ يَدُورُ، وَيَتَحَرَّكُ.",
+            "meaning_normalized": "أحدا حيا على الأرض يدور ويتحرك"
+          },
+          {
+            "ayah_number": 28,
+            "word": "تَبَارًا",
+            "word_normalized": "تبارا",
+            "meaning": "هَلَاكًا، وَخُسْرَانًا.",
+            "meaning_normalized": "هلاكا وخسرانا"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْجِنِّ",
+          "name_normalized": "سورة الجن",
+          "order": 72,
+          "ayat_count": 28,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "نَفَرٌ",
+            "word_normalized": "نفر",
+            "meaning": "جَمَاعَةٌ.",
+            "meaning_normalized": "جماعة"
+          },
+          {
+            "ayah_number": 1,
+            "word": "عَجَبًا",
+            "word_normalized": "عجبا",
+            "meaning": "يُتَعَجَّبُ مِنْهُ فِي فَصَاحَتِهِ، وَبَلَاغَتِهِ، وَمَعَانِيهِ.",
+            "meaning_normalized": "يتعجب منه في فصاحته وبلاغته ومعانيه"
+          },
+          {
+            "ayah_number": 2,
+            "word": "الرُّشْدِ",
+            "word_normalized": "الرشد",
+            "meaning": "الْحَقِّ، وَالْهُدَى.",
+            "meaning_normalized": "الحق والهدى"
+          },
+          {
+            "ayah_number": 3,
+            "word": "جَدُّ رَبِّنَا",
+            "word_normalized": "جد ربنا",
+            "meaning": "عَظَمَةُ رَبِّنَا، وَجَلَالُهُ، وَغِنَاهُ.",
+            "meaning_normalized": "عظمة ربنا وجلاله وغناه"
+          }
+        ]
+      }
+    ]
+  }
+}

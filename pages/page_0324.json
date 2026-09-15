@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 324,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الطَّارِقِ",
+          "name_normalized": "سورة الطارق",
+          "order": 86,
+          "ayat_count": 17,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 7,
+            "word": "الصُّلْبِ",
+            "word_normalized": "الصلب",
+            "meaning": "الظَّهْرِ.",
+            "meaning_normalized": "الظهر"
+          },
+          {
+            "ayah_number": 7,
+            "word": "وَالتَّرَائِبِ",
+            "word_normalized": "والترائب",
+            "meaning": "عِظَامِ الصَّدْرِ.",
+            "meaning_normalized": "عظام الصدر"
+          },
+          {
+            "ayah_number": 8,
+            "word": "رَجْعِهِ",
+            "word_normalized": "رجعه",
+            "meaning": "رَدِّهِ حَيًّا بَعْدَ الْمَوْتِ.",
+            "meaning_normalized": "رده حيا بعد الموت"
+          },
+          {
+            "ayah_number": 9,
+            "word": "تُبْلَى السَّرَائِرُ",
+            "word_normalized": "تبلى السرائر",
+            "meaning": "تُخْتَبَرُ، وَتُكْشَفُ ضَمَائِرُ الْقُلُوبِ.",
+            "meaning_normalized": "تختبر وتكشف ضمائر القلوب"
+          },
+          {
+            "ayah_number": 11,
+            "word": "ذَاتِ الرَّجْعِ",
+            "word_normalized": "ذات الرجع",
+            "meaning": "صَاحِبَةِ الْمَطَرِ الْمُتَكَرِّرِ.",
+            "meaning_normalized": "صاحبة المطر المتكرر"
+          },
+          {
+            "ayah_number": 12,
+            "word": "ذَاتِ الصَّدْعِ",
+            "word_normalized": "ذات الصدع",
+            "meaning": "ذَاتِ التَّشَقُّقِ بِالنَّبَاتِ.",
+            "meaning_normalized": "ذات التشقق بالنبات"
+          },
+          {
+            "ayah_number": 13,
+            "word": "فَصْلٌ",
+            "word_normalized": "فصل",
+            "meaning": "فَاصِلٌ بَيْنَ الْحَقِّ، وَالْبَاطِلِ.",
+            "meaning_normalized": "فاصل بين الحق والباطل"
+          },
+          {
+            "ayah_number": 17,
+            "word": "رُوَيْدًا",
+            "word_normalized": "رويدا",
+            "meaning": "قَلِيلًا.",
+            "meaning_normalized": "قليلا"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْأَعْلَى",
+          "name_normalized": "سورة الأعلى",
+          "order": 87,
+          "ayat_count": 19,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "سَبِّحِ اسْمَ رَبِّكَ",
+            "word_normalized": "سبح اسم ربك",
+            "meaning": "نَزِّهْ رَبَّكَ ذَاكِرًا اسْمَهُ بِلِسَانِكَ.",
+            "meaning_normalized": "نزه ربك ذاكرا اسمه بلسانك"
+          },
+          {
+            "ayah_number": 1,
+            "word": "الْأَعْلَى",
+            "word_normalized": "الأعلى",
+            "meaning": "الَّذِي لَهُ عُلُوُّ الذَّاتِ، وَعُلُوُّ الْقَدْرِ، وَعُلُوُّ الْقَهْرِ.",
+            "meaning_normalized": "الذي له علو الذات وعلو القدر وعلو القهر"
+          },
+          {
+            "ayah_number": 2,
+            "word": "فَسَوَّى",
+            "word_normalized": "فسوى",
+            "meaning": "أَتْقَنَ خَلْقَهُ، وَأَحْسَنَهُ.",
+            "meaning_normalized": "أتقن خلقه وأحسنه"
+          },
+          {
+            "ayah_number": 3,
+            "word": "فَهَدَى",
+            "word_normalized": "فهدى",
+            "meaning": "يَسَّرَ لَهُ مَا يُنَاسِبُهُ.",
+            "meaning_normalized": "يسر له ما يناسبه"
+          },
+          {
+            "ayah_number": 4,
+            "word": "الْمَرْعَى",
+            "word_normalized": "المرعى",
+            "meaning": "الْكَلَأَ الْأَخْضَرَ.",
+            "meaning_normalized": "الكلأ الأخضر"
+          },
+          {
+            "ayah_number": 5,
+            "word": "غُثَاءً",
+            "word_normalized": "غثاء",
+            "meaning": "هَشِيمًا جَافًّا.",
+            "meaning_normalized": "هشيما جافا"
+          },
+          {
+            "ayah_number": 5,
+            "word": "أَحْوَى",
+            "word_normalized": "أحوى",
+            "meaning": "مُتَغَيِّرًا.",
+            "meaning_normalized": "متغيرا"
+          },
+          {
+            "ayah_number": 7,
+            "word": "إِلَّا مَا شَاءَ اللهُ",
+            "word_normalized": "إلا ما شاء الله",
+            "meaning": "إِلَّا مَا أَرَادَ اللهُ أَنْ يَنْسَخَ تِلَاوَتَهُ وَحُكْمَهُ، وَيُنْسِيَكَ إِيَّاهُ.",
+            "meaning_normalized": "إلا ما أراد الله أن ينسخ تلاوته وحكمه وينسيك إياه"
+          }
+        ]
+      }
+    ]
+  }
+}

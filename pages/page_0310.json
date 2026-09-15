@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 310,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُرْسَلَاتِ",
+          "name_normalized": "سورة المرسلات",
+          "order": 77,
+          "ayat_count": 50,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "word": "فَالْفَارِقَاتِ فَرْقًا",
+            "word_normalized": "فالفارقات فرقا",
+            "meaning": "قَسَمٌ بِالْمَلَائِكَةِ الَّتِي تَنْزِلُ بِمَا يَفْرُقُ بَيْنَ الْحَقِّ، وَالْبَاطِلِ.",
+            "meaning_normalized": "قسم بالملائكة التي تنزل بما يفرق بين الحق والباطل"
+          },
+          {
+            "ayah_number": 5,
+            "word": "فَالْمُلْقِيَاتِ ذِكْرًا",
+            "word_normalized": "فالملقيات ذكرا",
+            "meaning": "قَسَمٌ بِالْمَلَائِكَةِ الَّتِي تَتَلَقَّى الْوَحْيَ مِنَ اللهِ، وَتَنْزِلُ بِهِ عَلَى الْأَنْبِيَاءِ.",
+            "meaning_normalized": "قسم بالملائكة التي تتلقى الوحي من الله وتنزل به على الأنبياء"
+          },
+          {
+            "ayah_number": 6,
+            "word": "عُذْرًا",
+            "word_normalized": "عذرا",
+            "meaning": "إِعْذَارًا مِنَ اللهِ إِلَى خَلْقِهِ.",
+            "meaning_normalized": "إعذارا من الله إلى خلقه"
+          },
+          {
+            "ayah_number": 6,
+            "word": "نُذْرًا",
+            "word_normalized": "نذرا",
+            "meaning": "لِلْإِنْذَارِ مِنَ اللهِ إِلَى خَلْقِهِ.",
+            "meaning_normalized": "للإنذار من الله إلى خلقه"
+          },
+          {
+            "ayah_number": 7,
+            "word": "تُوعَدُونَ",
+            "word_normalized": "توعدون",
+            "meaning": "مِنْ أَمْرِ الْقِيَامَةِ وَمَا فِيهَا مِنْ جَزَاءٍ، وَحِسَابٍ.",
+            "meaning_normalized": "من أمر القيامة وما فيها من جزاء وحساب"
+          },
+          {
+            "ayah_number": 8,
+            "word": "طُمِسَتْ",
+            "word_normalized": "طمست",
+            "meaning": "مُحِيَتْ، وَذَهَبَ نُورُهَا.",
+            "meaning_normalized": "محيت وذهب نورها"
+          },
+          {
+            "ayah_number": 9,
+            "word": "فُرِجَتْ",
+            "word_normalized": "فرجت",
+            "meaning": "تَصَدَّعَتْ، وَتَشَقَّقَتْ.",
+            "meaning_normalized": "تصدعت وتشققت"
+          },
+          {
+            "ayah_number": 10,
+            "word": "نُسِفَتْ",
+            "word_normalized": "نسفت",
+            "meaning": "تَطَايَرَتْ، وَتَنَاثَرَتْ.",
+            "meaning_normalized": "تطايرت وتناثرت"
+          },
+          {
+            "ayah_number": 11,
+            "word": "أُقِّتَتْ",
+            "word_normalized": "أقتت",
+            "meaning": "عُيِّنَ لَهُمْ وَقْتٌ وَأَجَلٌ، لِلْفَصْلِ بَيْنَهُمْ وَبَيْنَ أُمَمِهِمْ.",
+            "meaning_normalized": "عين لهم وقت وأجل للفصل بينهم وبين أممهم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "لِأَيِّ يَوْمٍ أُجِّلَتْ",
+            "word_normalized": "لأي يوم أجلت",
+            "meaning": "لِأَيِّ يَوْمٍ عَظِيمٍ أُخِّرَتِ الرُّسُلُ.",
+            "meaning_normalized": "لأي يوم عظيم أخرت الرسل"
+          },
+          {
+            "ayah_number": 13,
+            "word": "لِيَوْمِ الْفَصْلِ",
+            "word_normalized": "ليوم الفصل",
+            "meaning": "لِيَوْمٍ يُفْصَلُ فِيهِ وَيُقْضَى بَيْنَ الْخَلَائِقِ.",
+            "meaning_normalized": "ليوم يفصل فيه ويقضى بين الخلائق"
+          },
+          {
+            "ayah_number": 15,
+            "word": "وَيْلٌ",
+            "word_normalized": "ويل",
+            "meaning": "هَلَاكٌ عَظِيمٌ.",
+            "meaning_normalized": "هلاك عظيم"
+          },
+          {
+            "ayah_number": 20,
+            "word": "مَاءٍ مَهِينٍ",
+            "word_normalized": "ماء مهين",
+            "meaning": "ضَعِيفٍ حَقِيرٍ؛ وَهُوَ النُّطْفَةُ.",
+            "meaning_normalized": "ضعيف حقير وهو النطفة"
+          },
+          {
+            "ayah_number": 21,
+            "word": "قَرَارٍ مَكِينٍ",
+            "word_normalized": "قرار مكين",
+            "meaning": "مَكَانٍ حَصِينٍ مُتَمَكِّنٍ.",
+            "meaning_normalized": "مكان حصين متمكن"
+          },
+          {
+            "ayah_number": 22,
+            "word": "قَدَرٍ",
+            "word_normalized": "قدر",
+            "meaning": "وَقْتٍ.",
+            "meaning_normalized": "وقت"
+          },
+          {
+            "ayah_number": 25,
+            "word": "كِفَاتًا",
+            "word_normalized": "كفاتا",
+            "meaning": "وِعَاءً تَضُمُّ الْأَحْيَاءَ وَالْأَمْوَاتَ.",
+            "meaning_normalized": "وعاء تضم الأحياء والأموات"
+          },
+          {
+            "ayah_number": 27,
+            "word": "رَوَاسِيَ شَامِخَاتٍ",
+            "word_normalized": "رواسي شامخات",
+            "meaning": "جِبَالًا ثَوَابِتَ، مُرْتَفِعَاتٍ.",
+            "meaning_normalized": "جبالا ثوابت مرتفعات"
+          }
+        ]
+      }
+    ]
+  }
+}

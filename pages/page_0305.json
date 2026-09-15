@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 305,
+    "header": {
+      "right": "سُورَةُ الْقِيَامَةِ",
+      "right_normalized": "سورة القيامة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُدَّثِّرِ",
+          "name_normalized": "سورة المدثر",
+          "order": 74,
+          "ayat_count": 56,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 35,
+            "word": "إِنَّهَا لَإِحْدَى الْكُبَرِ",
+            "word_normalized": "إنها لإحدى الكبر",
+            "meaning": "إِنَّ النَّارَ لَإِحْدَى الْعَظَائِمِ.",
+            "meaning_normalized": "إن النار لإحدى العظائم"
+          },
+          {
+            "ayah_number": 38,
+            "word": "رَهِينَةٌ",
+            "word_normalized": "رهينة",
+            "meaning": "مَحْبُوسَةٌ بِعَمَلِهَا.",
+            "meaning_normalized": "محبوسة بعملها"
+          },
+          {
+            "ayah_number": 42,
+            "word": "مَا سَلَكَكُمْ",
+            "word_normalized": "ما سلككم",
+            "meaning": "مَا أَدْخَلَكُمْ.",
+            "meaning_normalized": "ما أدخلكم"
+          },
+          {
+            "ayah_number": 45,
+            "word": "نَخُوضُ",
+            "word_normalized": "نخوض",
+            "meaning": "نَتَحَدَّثُ بِالْبَاطِلِ.",
+            "meaning_normalized": "نتحدث بالباطل"
+          },
+          {
+            "ayah_number": 47,
+            "word": "الْيَقِينُ",
+            "word_normalized": "اليقين",
+            "meaning": "الْمَوْتُ.",
+            "meaning_normalized": "الموت"
+          },
+          {
+            "ayah_number": 50,
+            "word": "حُمُرٌ مُسْتَنْفِرَةٌ",
+            "word_normalized": "حمر مستنفرة",
+            "meaning": "حُمُرٌ وَحْشِيَّةٌ شَدِيدَةُ النِّفَارِ.",
+            "meaning_normalized": "حمر وحشية شديدة النفار"
+          },
+          {
+            "ayah_number": 51,
+            "word": "قَسْوَرَةٍ",
+            "word_normalized": "قسورة",
+            "meaning": "أَسَدٍ كَاسِرٍ.",
+            "meaning_normalized": "أسد كاسر"
+          },
+          {
+            "ayah_number": 56,
+            "word": "أَهْلُ التَّقْوَى",
+            "word_normalized": "أهل التقوى",
+            "meaning": "أَهْلٌ لِأَنْ يُتَّقَى، وَيُطَاعَ.",
+            "meaning_normalized": "أهل لأن يتقى ويطاع"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقِيَامَةِ",
+          "name_normalized": "سورة القيامة",
+          "order": 75,
+          "ayat_count": 40,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "لَا أُقْسِمُ",
+            "word_normalized": "لا أقسم",
+            "meaning": "أُقْسِمُ، وَ(لَا): تَأْكِيدٌ لِلْقَسَمِ.",
+            "meaning_normalized": "أقسم و لا تأكيد للقسم"
+          },
+          {
+            "ayah_number": 2,
+            "word": "اللَّوَّامَةِ",
+            "word_normalized": "اللوامة",
+            "meaning": "النَّفْسِ الَّتِي تَلُومُ صَاحِبَهَا.",
+            "meaning_normalized": "النفس التي تلوم صاحبها"
+          },
+          {
+            "ayah_number": 4,
+            "word": "نُسَوِّيَ بَنَانَهُ",
+            "word_normalized": "نسوي بنانه",
+            "meaning": "نَجْعَلَ أَصَابِعَ يَدَيْهِ وَرِجْلَيْهِ شَيْئًا مُسْتَوِيًا؛ كَخُفِّ الْبَعِيرِ، أَوْ نُعِيدَ خَلْقَهَا كَمَا كَانَتْ.",
+            "meaning_normalized": "نجعل أصابع يديه ورجليه شيئا مستويا كخف البعير أو نعيد خلقها كما كانت"
+          },
+          {
+            "ayah_number": 6,
+            "word": "أَيَّانَ",
+            "word_normalized": "أيان",
+            "meaning": "مَتَى؟",
+            "meaning_normalized": "متى"
+          },
+          {
+            "ayah_number": 7,
+            "word": "بَرِقَ الْبَصَرُ",
+            "word_normalized": "برق البصر",
+            "meaning": "تَحَيَّرَ الْبَصَرُ وَدُهِشَ لِأَهْوَالِ الْقِيَامَةِ.",
+            "meaning_normalized": "تحير البصر ودهش لأهوال القيامة"
+          },
+          {
+            "ayah_number": 8,
+            "word": "وَجُمِعَ الشَّمْسُ وَالْقَمَرُ",
+            "word_normalized": "وجمع الشمس والقمر",
+            "meaning": "قُرِنَ بَيْنَهُمَا فِي الطُّلُوعِ مِنَ الْمَغْرِبِ مُظْلِمَيْنِ.",
+            "meaning_normalized": "قرن بينهما في الطلوع من المغرب مظلمين"
+          },
+          {
+            "ayah_number": 11,
+            "word": "لَا وَزَرَ",
+            "word_normalized": "لا وزر",
+            "meaning": "لَا مَلْجَأَ وَلَا مَنْجَى لَهُ مِنَ اللهِ.",
+            "meaning_normalized": "لا ملجأ ولا منجى له من الله"
+          },
+          {
+            "ayah_number": 12,
+            "word": "الْمُسْتَقَرُّ",
+            "word_normalized": "المستقر",
+            "meaning": "الْمَرْجِعُ، وَالْمَصِيرُ.",
+            "meaning_normalized": "المرجع والمصير"
+          }
+        ]
+      }
+    ]
+  }
+}

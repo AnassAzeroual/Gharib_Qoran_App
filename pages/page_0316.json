@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 316,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ عَبَسَ",
+          "name_normalized": "سورة عبس",
+          "order": 80,
+          "ayat_count": 42,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "عَبَسَ",
+            "word_normalized": "عبس",
+            "meaning": "قَطَّبَ وَجْهَهُ، وَظَهَرَ أَثَرُ التَّغَيُّرِ عَلَيْهِ.",
+            "meaning_normalized": "قطب وجهه وظهر أثر التغير عليه"
+          },
+          {
+            "ayah_number": 1,
+            "word": "وَتَوَلَّى",
+            "word_normalized": "وتولى",
+            "meaning": "أَعْرَضَ.",
+            "meaning_normalized": "أعرض"
+          },
+          {
+            "ayah_number": 2,
+            "word": "أَنْ جَاءَهُ الْأَعْمَى",
+            "word_normalized": "أن جاءه الأعمى",
+            "meaning": "لِأَجْلِ مَجِيءِ عَبْدِ اللهِ بْنِ أُمِّ مَكْتُومٍ رضي الله عنه.",
+            "meaning_normalized": "لأجل مجيء عبد الله بن أم مكتوم"
+          },
+          {
+            "ayah_number": 3,
+            "word": "يَزَّكَّى",
+            "word_normalized": "يزكى",
+            "meaning": "يَتَطَهَّرُ مِنْ ذُنُوبِهِ.",
+            "meaning_normalized": "يتطهر من ذنوبه"
+          },
+          {
+            "ayah_number": 6,
+            "word": "تَصَدَّى",
+            "word_normalized": "تصدى",
+            "meaning": "تَتَعَرَّضُ لَهُ.",
+            "meaning_normalized": "تتعرض له"
+          },
+          {
+            "ayah_number": 10,
+            "word": "تَلَهَّى",
+            "word_normalized": "تلهى",
+            "meaning": "تَتَشَاغَلُ.",
+            "meaning_normalized": "تتشاغل"
+          },
+          {
+            "ayah_number": 11,
+            "word": "كَلَّا",
+            "word_normalized": "كلا",
+            "meaning": "لَيْسَ الْأَمْرُ كَمَا فَعَلْتَ.",
+            "meaning_normalized": "ليس الأمر كما فعلت"
+          },
+          {
+            "ayah_number": 15,
+            "word": "سَفَرَةٍ",
+            "word_normalized": "سفرة",
+            "meaning": "مَلَائِكَةٍ كَتَبَةٍ يَقُومُونَ بِالسِّفَارَةِ بَيْنَ اللهِ وَخَلْقِهِ.",
+            "meaning_normalized": "ملائكة كتبة يقومون بالسفارة بين الله وخلقه"
+          },
+          {
+            "ayah_number": 16,
+            "word": "بَرَرَةٍ",
+            "word_normalized": "بررة",
+            "meaning": "مُطِيعِينَ للهِ لَا يَعْصُونَهُ.",
+            "meaning_normalized": "مطيعين لله لا يعصونه"
+          },
+          {
+            "ayah_number": 17,
+            "word": "قُتِلَ الْإِنْسَانُ",
+            "word_normalized": "قتل الإنسان",
+            "meaning": "لُعِنَ الْكَافِرُ، وَعُذِّبَ.",
+            "meaning_normalized": "لعن الكافر وعذب"
+          },
+          {
+            "ayah_number": 17,
+            "word": "مَا أَكْفَرَهُ",
+            "word_normalized": "ما أكفره",
+            "meaning": "مَا أَشَدَّ كُفْرَهُ!",
+            "meaning_normalized": "ما أشد كفره"
+          },
+          {
+            "ayah_number": 19,
+            "word": "نُطْفَةٍ",
+            "word_normalized": "نطفة",
+            "meaning": "مَاءٍ قَلِيلٍ مَهِينٍ؛ وَهُوَ الْمَنِيُّ.",
+            "meaning_normalized": "ماء قليل مهين وهو المني"
+          },
+          {
+            "ayah_number": 19,
+            "word": "فَقَدَّرَهُ",
+            "word_normalized": "فقدره",
+            "meaning": "خَلَقَهُ أَطْوَارًا.",
+            "meaning_normalized": "خلقه أطوارا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "السَّبِيلَ يَسَّرَهُ",
+            "word_normalized": "السبيل يسره",
+            "meaning": "سَهَّلَ لَهُ طَرِيقَ خُرُوجِهِ مِنْ بَطْنِ أُمِّهِ، وَبَيَّنَ لَهُ طَرِيقَ الْخَيْرِ وَالشَّرِّ.",
+            "meaning_normalized": "سهل له طريق خروجه من بطن أمه وبين له طريق الخير والشر"
+          },
+          {
+            "ayah_number": 21,
+            "word": "فَأَقْبَرَهُ",
+            "word_normalized": "فأقبره",
+            "meaning": "جَعَلَ لَهُ مَكَانًا يُقْبَرُ فِيهِ.",
+            "meaning_normalized": "جعل له مكانا يقبر فيه"
+          },
+          {
+            "ayah_number": 22,
+            "word": "أَنْشَرَهُ",
+            "word_normalized": "أنشره",
+            "meaning": "أَحْيَاهُ.",
+            "meaning_normalized": "أحياه"
+          },
+          {
+            "ayah_number": 23,
+            "word": "لَمَّا يَقْضِ مَا أَمَرَهُ",
+            "word_normalized": "لما يقض ما أمره",
+            "meaning": "لَمْ يُؤَدِّ الْكَافِرُ مَا أَمَرَهُ اللهُ بِهِ مِنَ الْإِيمَانِ وَالطَّاعَةِ.",
+            "meaning_normalized": "لم يؤد الكافر ما أمره الله به من الإيمان والطاعة"
+          }
+        ]
+      }
+    ]
+  }
+}

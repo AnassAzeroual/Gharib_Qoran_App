@@ -1,0 +1,142 @@
+{
+  "page": {
+    "page_number": 328,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَلَدِ",
+          "name_normalized": "سورة البلد",
+          "order": 90,
+          "ayat_count": 20,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "لَا أُقْسِمُ",
+            "word_normalized": "لا أقسم",
+            "meaning": "أُقْسِمُ، وَ(لَا): لِتَأْكِيدِ الْقَسَمِ.",
+            "meaning_normalized": "أقسم و لا لتأكيد القسم"
+          },
+          {
+            "ayah_number": 1,
+            "word": "الْبَلَدِ",
+            "word_normalized": "البلد",
+            "meaning": "مَكَّةَ.",
+            "meaning_normalized": "مكة"
+          },
+          {
+            "ayah_number": 2,
+            "word": "حِلٌّ",
+            "word_normalized": "حل",
+            "meaning": "يَحِلُّ لَكَ مَا تَصْنَعُ بِهِ مِنَ الْمُقَاتَلَةِ، وَقَدْ أَنْجَزَ اللهُ لَهُ هَذَا الْوَعْدَ فِي فَتْحِ مَكَّةَ.",
+            "meaning_normalized": "يحل لك ما تصنع به من المقاتلة وقد أنجز الله له هذا الوعد في فتح مكة"
+          },
+          {
+            "ayah_number": 3,
+            "word": "وَوَالِدٍ وَمَا وَلَدَ",
+            "word_normalized": "ووالد وما ولد",
+            "meaning": "قَسَمٌ بِكُلِّ وَالِدٍ، وَبِكُلِّ مَوْلُودٍ، وَمِنْهُمْ آدَمُ عَلَيْهِ السَّلَامُ وَذُرِّيَّتُهُ.",
+            "meaning_normalized": "قسم بكل والد وبكل مولود ومنهم آدم عليه السلام وذريته"
+          },
+          {
+            "ayah_number": 4,
+            "word": "كَبَدٍ",
+            "word_normalized": "كبد",
+            "meaning": "شِدَّةٍ وَعَنَاءٍ مِنْ مُكَابَدَةِ الدُّنْيَا.",
+            "meaning_normalized": "شدة وعناء من مكابدة الدنيا"
+          },
+          {
+            "ayah_number": 5,
+            "word": "أَيَحْسَبُ",
+            "word_normalized": "أيحسب",
+            "meaning": "أَيَظُنُّ؟",
+            "meaning_normalized": "أيظن"
+          },
+          {
+            "ayah_number": 6,
+            "word": "لُبَدًا",
+            "word_normalized": "لبدا",
+            "meaning": "كَثِيرًا.",
+            "meaning_normalized": "كثيرا"
+          },
+          {
+            "ayah_number": 10,
+            "word": "وَهَدَيْنَاهُ",
+            "word_normalized": "وهديناه",
+            "meaning": "بَيَّنَّا لَهُ.",
+            "meaning_normalized": "بينا له"
+          },
+          {
+            "ayah_number": 10,
+            "word": "النَّجْدَيْنِ",
+            "word_normalized": "النجدين",
+            "meaning": "طَرِيقَيِ الْخَيْرِ وَالشَّرِّ.",
+            "meaning_normalized": "طريقي الخير والشر"
+          },
+          {
+            "ayah_number": 11,
+            "word": "فَلَا اقْتَحَمَ",
+            "word_normalized": "فلا اقتحم",
+            "meaning": "فَهَلَّا تَجَاوَزَ.",
+            "meaning_normalized": "فهلا تجاوز"
+          },
+          {
+            "ayah_number": 11,
+            "word": "الْعَقَبَةَ",
+            "word_normalized": "العقبة",
+            "meaning": "مَشَقَّةَ الْآخِرَةِ؛ بِإِنْفَاقِ الْمَالِ، وَالْعَمَلِ الصَّالِحِ.",
+            "meaning_normalized": "مشقة الآخرة بإنفاق المال والعمل الصالح"
+          },
+          {
+            "ayah_number": 13,
+            "word": "فَكُّ رَقَبَةٍ",
+            "word_normalized": "فك رقبة",
+            "meaning": "إِعْتَاقُهَا مِنَ الرِّقِّ.",
+            "meaning_normalized": "إعتاقها من الرق"
+          },
+          {
+            "ayah_number": 14,
+            "word": "مَسْغَبَةٍ",
+            "word_normalized": "مسغبة",
+            "meaning": "مَجَاعَةٍ شَدِيدَةٍ.",
+            "meaning_normalized": "مجاعة شديدة"
+          },
+          {
+            "ayah_number": 15,
+            "word": "ذَا مَقْرَبَةٍ",
+            "word_normalized": "ذا مقربة",
+            "meaning": "ذَا قَرَابَةٍ.",
+            "meaning_normalized": "ذا قرابة"
+          },
+          {
+            "ayah_number": 16,
+            "word": "ذَا مَتْرَبَةٍ",
+            "word_normalized": "ذا متربة",
+            "meaning": "مُعْدِمًا لَا شَيْءَ عِنْدَهُ.",
+            "meaning_normalized": "معدما لا شيء عنده"
+          },
+          {
+            "ayah_number": 18,
+            "word": "الْمَيْمَنَةِ",
+            "word_normalized": "الميمنة",
+            "meaning": "الْيَمِينِ؛ بِأَنْ يُؤْخَذَ بِهِمْ ذَاتَ الْيَمِينِ إِلَى الْجَنَّةِ.",
+            "meaning_normalized": "اليمين بأن يؤخذ بهم ذات اليمين إلى الجنة"
+          }
+        ]
+      }
+    ]
+  }
+}

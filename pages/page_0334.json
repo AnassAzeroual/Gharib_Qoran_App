@@ -1,0 +1,138 @@
+{
+  "page": {
+    "page_number": 334,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَدْرِ",
+          "name_normalized": "سورة القدر",
+          "order": 97,
+          "ayat_count": 5,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "أَنْزَلْنَاهُ",
+            "word_normalized": "أنزلناه",
+            "meaning": "أَنْزَلْنَا الْقُرْآنَ جُمْلَةً وَاحِدَةً مِنَ اللَّوْحِ الْمَحْفُوظِ إِلَى بَيْتِ الْعِزَّةِ فِي السَّمَاءِ الدُّنْيَا.",
+            "meaning_normalized": "أنزلنا القرآن جملة واحدة من اللوح المحفوظ إلى بيت العزة في السماء الدنيا"
+          },
+          {
+            "ayah_number": 1,
+            "word": "لَيْلَةِ الْقَدْرِ",
+            "word_normalized": "ليلة القدر",
+            "meaning": "لَيْلَةِ الشَّرَفِ، وَالْعَظَمَةِ، وَكِتَابِ الْمَقَادِيرِ.",
+            "meaning_normalized": "ليلة الشرف والعظمة وكتاب المقادير"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَالرُّوحُ",
+            "word_normalized": "والروح",
+            "meaning": "جِبْرِيلُ عَلَيْهِ السَّلَامُ.",
+            "meaning_normalized": "جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 4,
+            "word": "أَمْرٍ",
+            "word_normalized": "أمر",
+            "meaning": "قَضَاءٍ قَدَّرَهُ اللهُ فِي تِلْكَ السَّنَةِ.",
+            "meaning_normalized": "قضاء قدره الله في تلك السنة"
+          },
+          {
+            "ayah_number": 5,
+            "word": "سَلَامٌ",
+            "word_normalized": "سلام",
+            "meaning": "أَمْنٌ، وَسَلَامَةٌ، وَتَسْلِيمٌ مِنَ الْمَلَائِكَةِ.",
+            "meaning_normalized": "أمن وسلامة وتسليم من الملائكة"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَيِّنَةِ",
+          "name_normalized": "سورة البينة",
+          "order": 98,
+          "ayat_count": 8,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "مُنْفَكِّينَ",
+            "word_normalized": "منفكين",
+            "meaning": "تَارِكِينَ كُفْرَهُمْ.",
+            "meaning_normalized": "تاركين كفرهم"
+          },
+          {
+            "ayah_number": 1,
+            "word": "الْبَيِّنَةُ",
+            "word_normalized": "البينة",
+            "meaning": "الْعَلَامَةُ الَّتِي وُعِدُوا بِهَا فِي الْكُتُبِ السَّابِقَةِ.",
+            "meaning_normalized": "العلامة التي وعدوا بها في الكتب السابقة"
+          },
+          {
+            "ayah_number": 2,
+            "word": "رَسُولٌ مِنَ اللَّهِ",
+            "word_normalized": "رسول من الله",
+            "meaning": "أَيْ: وَالْبَيِّنَةُ رَسُولٌ مِنَ اللهِ.",
+            "meaning_normalized": "أي والبينة رسول من الله"
+          },
+          {
+            "ayah_number": 2,
+            "word": "يَتْلُو",
+            "word_normalized": "يتلو",
+            "meaning": "يَقْرَأُ.",
+            "meaning_normalized": "يقرأ"
+          },
+          {
+            "ayah_number": 2,
+            "word": "مُطَهَّرَةً",
+            "word_normalized": "مطهرة",
+            "meaning": "مُنَزَّهَةً مِنَ الْبَاطِلِ، مَحْفُوظَةً مِنَ الشَّيَاطِينِ.",
+            "meaning_normalized": "منزهة من الباطل محفوظة من الشياطين"
+          },
+          {
+            "ayah_number": 3,
+            "word": "كُتُبٌ قَيِّمَةٌ",
+            "word_normalized": "كتب قيمة",
+            "meaning": "أَخْبَارٌ صَادِقَةٌ، وَأَوَامِرُ عَادِلَةٌ.",
+            "meaning_normalized": "أخبار صادقة وأوامر عادلة"
+          },
+          {
+            "ayah_number": 4,
+            "word": "تَفَرَّقَ",
+            "word_normalized": "تفرق",
+            "meaning": "اخْتَلَفَ.",
+            "meaning_normalized": "اختلف"
+          },
+          {
+            "ayah_number": 4,
+            "word": "أُوتُوا الْكِتَابَ",
+            "word_normalized": "أوتوا الكتاب",
+            "meaning": "الْيَهُودُ وَالنَّصَارَى.",
+            "meaning_normalized": "اليهود والنصارى"
+          }
+        ]
+      }
+    ]
+  }
+}

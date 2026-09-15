@@ -1,0 +1,152 @@
+{
+  "page": {
+    "page_number": 283,
+    "header": {
+      "right": "سُورَةُ التَّغَابُنِ",
+      "right_normalized": "سورة التغابن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُنَافِقُونَ",
+          "name_normalized": "سورة المنافقون",
+          "order": 63,
+          "ayat_count": 11,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 8,
+            "word": "رَجَعْنَا",
+            "word_normalized": "رجعنا",
+            "meaning": "مِنْ غَزْوَةِ بَنِي الْمُصْطَلِقِ.",
+            "meaning_normalized": "من غزوة بني المصطلق"
+          },
+          {
+            "ayah_number": 8,
+            "word": "الْأَعَزُّ",
+            "word_normalized": "الأعز",
+            "meaning": "الْأَقْوَى؛ يَعْنُونَ: أَنْفُسَهُمْ.",
+            "meaning_normalized": "الأقوى يعنون أنفسهم"
+          },
+          {
+            "ayah_number": 8,
+            "word": "الْأَذَلَّ",
+            "word_normalized": "الأذل",
+            "meaning": "الْأَضْعَفَ وَالْأَهْوَنَ؛ يَعْنُونَ: رَسُولَ اللهِ ﷺ، وَمَنْ مَعَهُ!",
+            "meaning_normalized": "الأضعف والأهون يعنون رسول الله ومن معه"
+          },
+          {
+            "ayah_number": 8,
+            "word": "الْعِزَّةُ",
+            "word_normalized": "العزة",
+            "meaning": "الْقُوَّةُ، وَالْغَلَبَةُ.",
+            "meaning_normalized": "القوة والغلبة"
+          },
+          {
+            "ayah_number": 9,
+            "word": "لَا تُلْهِكُمْ",
+            "word_normalized": "لا تلهكم",
+            "meaning": "لَا تَشْغَلْكُمْ.",
+            "meaning_normalized": "لا تشغلكم"
+          },
+          {
+            "ayah_number": 10,
+            "word": "لَوْلَا أَخَّرْتَنِي",
+            "word_normalized": "لولا أخرتني",
+            "meaning": "هَلَّا أَمْهَلْتَنِي، وَأَخَّرْتَ أَجَلِي.",
+            "meaning_normalized": "هلا أمهلتني وأخرت أجلي"
+          },
+          {
+            "ayah_number": 11,
+            "word": "أَجَلَهَا",
+            "word_normalized": "أجلها",
+            "meaning": "وَقْتُ مَوْتِهَا.",
+            "meaning_normalized": "وقت موتها"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّغَابُنِ",
+          "name_normalized": "سورة التغابن",
+          "order": 64,
+          "ayat_count": 18,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "يُسَبِّحُ",
+            "word_normalized": "يسبح",
+            "meaning": "يُنَزِّهُ اللهَ عَمَّا لَا يَلِيقُ بِهِ.",
+            "meaning_normalized": "ينزه الله عما لا يليق به"
+          },
+          {
+            "ayah_number": 3,
+            "word": "الْمَصِيرُ",
+            "word_normalized": "المصير",
+            "meaning": "الْمَرْجِعُ.",
+            "meaning_normalized": "المرجع"
+          },
+          {
+            "ayah_number": 5,
+            "word": "وَبَالَ أَمْرِهِمْ",
+            "word_normalized": "وبال أمرهم",
+            "meaning": "سُوءَ عَاقِبَةِ كُفْرِهِمْ.",
+            "meaning_normalized": "سوء عاقبة كفرهم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "وَتَوَلَّوْا",
+            "word_normalized": "وتولوا",
+            "meaning": "أَعْرَضُوا عَنِ الْحَقِّ.",
+            "meaning_normalized": "أعرضوا عن الحق"
+          },
+          {
+            "ayah_number": 8,
+            "word": "وَالنُّورِ",
+            "word_normalized": "والنور",
+            "meaning": "الْقُرْآنَ.",
+            "meaning_normalized": "القرآن"
+          },
+          {
+            "ayah_number": 9,
+            "word": "لِيَوْمِ الْجَمْعِ",
+            "word_normalized": "ليوم الجمع",
+            "meaning": "يَوْمِ الْقِيَامَةِ الَّذِي يُحْشَرُ فِيهِ الْأَوَّلُونَ وَالْآخِرُونَ.",
+            "meaning_normalized": "يوم القيامة الذي يحشر فيه الأولون والآخرون"
+          },
+          {
+            "ayah_number": 9,
+            "word": "يَوْمُ التَّغَابُنِ",
+            "word_normalized": "يوم التغابن",
+            "meaning": "يَظْهَرُ فِيهِ خَسَارَةُ الْكُفَّارِ، وَغَبْنُهُمْ، بِتَرْكِهِمُ الْإِيمَانَ.",
+            "meaning_normalized": "يظهر فيه خسارة الكفار وغبنهم بتركهم الإيمان"
+          },
+          {
+            "ayah_number": 9,
+            "word": "يُكَفِّرْ",
+            "word_normalized": "يكفر",
+            "meaning": "يَمْحُ.",
+            "meaning_normalized": "يمح"
+          }
+        ]
+      }
+    ]
+  }
+}

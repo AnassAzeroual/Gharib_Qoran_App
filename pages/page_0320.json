@@ -1,0 +1,166 @@
+{
+  "page": {
+    "page_number": 320,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الِانْفِطَارِ",
+          "name_normalized": "سورة الانفطار",
+          "order": 82,
+          "ayat_count": 19,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 9,
+            "word": "بِالدِّينِ",
+            "word_normalized": "بالدين",
+            "meaning": "يَوْمِ الْجَزَاءِ، وَالْحِسَابِ.",
+            "meaning_normalized": "يوم الجزاء والحساب"
+          },
+          {
+            "ayah_number": 10,
+            "word": "لَحَافِظِينَ",
+            "word_normalized": "لحافظين",
+            "meaning": "لَمَلَائِكَةً رُقَبَاءَ يَكْتُبُونَ أَعْمَالَكُمْ.",
+            "meaning_normalized": "لملائكة رقباء يكتبون أعمالكم"
+          },
+          {
+            "ayah_number": 16,
+            "word": "بِغَائِبِينَ",
+            "word_normalized": "بغائبين",
+            "meaning": "فَلَا يَخْرُجُونَ مِنْ جَهَنَّمَ، وَلَا يَمُوتُونَ.",
+            "meaning_normalized": "فلا يخرجون من جهنم ولا يموتون"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُطَفِّفِينَ",
+          "name_normalized": "سورة المطففين",
+          "order": 83,
+          "ayat_count": 36,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "وَيْلٌ",
+            "word_normalized": "ويل",
+            "meaning": "عَذَابٌ شَدِيدٌ.",
+            "meaning_normalized": "عذاب شديد"
+          },
+          {
+            "ayah_number": 1,
+            "word": "لِلْمُطَفِّفِينَ",
+            "word_normalized": "للمطففين",
+            "meaning": "الَّذِينَ يَبْخَسُونَ الْمِكْيَالَ، وَالْمِيزَانَ.",
+            "meaning_normalized": "الذين يبخسون المكيال والميزان"
+          },
+          {
+            "ayah_number": 3,
+            "word": "يُخْسِرُونَ",
+            "word_normalized": "يخسرون",
+            "meaning": "يَنْقُصُونَ فِي الْمِكْيَالِ، وَالْمِيزَانِ.",
+            "meaning_normalized": "ينقصون في المكيال والميزان"
+          },
+          {
+            "ayah_number": 4,
+            "word": "يَظُنُّ",
+            "word_normalized": "يظن",
+            "meaning": "يَعْتَقِدُ.",
+            "meaning_normalized": "يعتقد"
+          },
+          {
+            "ayah_number": 7,
+            "word": "كِتَابَ الْفُجَّارِ",
+            "word_normalized": "كتاب الفجار",
+            "meaning": "كِتَابَ أَعْمَالِهِمْ، أَوْ مَصِيرَهُمْ.",
+            "meaning_normalized": "كتاب أعمالهم أو مصيرهم"
+          },
+          {
+            "ayah_number": 7,
+            "word": "سِجِّينٍ",
+            "word_normalized": "سجين",
+            "meaning": "سِجْنٍ، وَضِيقٍ.",
+            "meaning_normalized": "سجن وضيق"
+          },
+          {
+            "ayah_number": 9,
+            "word": "مَرْقُومٌ",
+            "word_normalized": "مرقوم",
+            "meaning": "مَكْتُوبٌ كَالرَّقْمِ فِي الثَّوْبِ لَا يُمْحَى.",
+            "meaning_normalized": "مكتوب كالرقم في الثوب لا يمحى"
+          },
+          {
+            "ayah_number": 12,
+            "word": "مُعْتَدٍ",
+            "word_normalized": "معتد",
+            "meaning": "ظَالِمٍ مُتَجَاوِزٍ لِلْحَدِّ.",
+            "meaning_normalized": "ظالم متجاوز للحد"
+          },
+          {
+            "ayah_number": 12,
+            "word": "أَثِيمٍ",
+            "word_normalized": "أثيم",
+            "meaning": "كَثِيرِ الْإِثْمِ.",
+            "meaning_normalized": "كثير الإثم"
+          },
+          {
+            "ayah_number": 13,
+            "word": "أَسَاطِيرُ",
+            "word_normalized": "أساطير",
+            "meaning": "أَبَاطِيلُ.",
+            "meaning_normalized": "أباطيل"
+          },
+          {
+            "ayah_number": 14,
+            "word": "رَانَ",
+            "word_normalized": "ران",
+            "meaning": "غَطَّى.",
+            "meaning_normalized": "غطى"
+          },
+          {
+            "ayah_number": 15,
+            "word": "لَمَحْجُوبُونَ",
+            "word_normalized": "لمحجوبون",
+            "meaning": "مَحْرُومُونَ مِنْ رُؤْيَةِ رَبِّهِمْ.",
+            "meaning_normalized": "محرومون من رؤية ربهم"
+          },
+          {
+            "ayah_number": 16,
+            "word": "لَصَالُو الْجَحِيمِ",
+            "word_normalized": "لصالو الجحيم",
+            "meaning": "لَدَاخِلُو النَّارِ يُقَاسُونَ حَرَّهَا.",
+            "meaning_normalized": "لداخلو النار يقاسون حرها"
+          },
+          {
+            "ayah_number": 18,
+            "word": "لَفِي عِلِّيِّينَ",
+            "word_normalized": "لفي عليين",
+            "meaning": "لَفِي مَرْتَبَةٍ، وَمَكَانٍ عَالٍ.",
+            "meaning_normalized": "لفي مرتبة ومكان عال"
+          }
+        ]
+      }
+    ]
+  }
+}

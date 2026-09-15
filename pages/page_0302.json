@@ -1,0 +1,163 @@
+{
+  "page": {
+    "page_number": 302,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُزَّمِّلِ",
+          "name_normalized": "سورة المزمل",
+          "order": 73,
+          "ayat_count": 20,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "الْمُزَّمِّلُ",
+            "word_normalized": "المزمل",
+            "meaning": "أَصْلُهَا: الْمُتَزَمِّلُ، أَيْ: الْمُتَلَفِّفُ بِثِيَابِهِ.",
+            "meaning_normalized": "أصلها المتزمل أي المتلفف بثيابه"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَرَتِّلِ",
+            "word_normalized": "ورتل",
+            "meaning": "اقْرَأْ بِتُؤَدَةٍ وَتَمَهُّلٍ؛ مُبَيِّنًا الْحُرُوفَ وَالْوُقُوفَ.",
+            "meaning_normalized": "اقرأ بتؤدة وتمهل مبينا الحروف والوقوف"
+          },
+          {
+            "ayah_number": 5,
+            "word": "ثَقِيلًا",
+            "word_normalized": "ثقيلا",
+            "meaning": "عَظِيمًا، مُشْتَمِلًا عَلَى الْأَوَامِرِ وَالنَّوَاهِي.",
+            "meaning_normalized": "عظيما مشتملا على الأوامر والنواهي"
+          },
+          {
+            "ayah_number": 6,
+            "word": "نَاشِئَةَ اللَّيْلِ",
+            "word_normalized": "ناشئة الليل",
+            "meaning": "الْعِبَادَةَ الَّتِي تَنْشَأُ فِي جَوْفِ اللَّيْلِ بَعْدَ النَّوْمِ.",
+            "meaning_normalized": "العبادة التي تنشأ في جوف الليل بعد النوم"
+          },
+          {
+            "ayah_number": 6,
+            "word": "هِيَ أَشَدُّ وَطْأً",
+            "word_normalized": "هي أشد وطأ",
+            "meaning": "أَشَدُّ تَأْثِيرًا فِي الْقَلْبِ.",
+            "meaning_normalized": "أشد تأثيرا في القلب"
+          },
+          {
+            "ayah_number": 6,
+            "word": "وَأَقْوَمُ قِيلًا",
+            "word_normalized": "وأقوم قيلا",
+            "meaning": "أَبْيَنُ قَوْلًا؛ لِحُضُورِ الْقَلْبِ، وَقِلَّةِ الشَّوَاغِلِ.",
+            "meaning_normalized": "أبين قولا لحضور القلب وقلة الشواغل"
+          },
+          {
+            "ayah_number": 7,
+            "word": "سَبْحًا",
+            "word_normalized": "سبحا",
+            "meaning": "تَصَرُّفًا، وَتَقَلُّبًا فِي مَصَالِحِكَ.",
+            "meaning_normalized": "تصرفا وتقلبا في مصالحك"
+          },
+          {
+            "ayah_number": 8,
+            "word": "وَتَبَتَّلْ",
+            "word_normalized": "وتبتل",
+            "meaning": "انْقَطِعْ لِعِبَادَتِهِ.",
+            "meaning_normalized": "انقطع لعبادته"
+          },
+          {
+            "ayah_number": 9,
+            "word": "وَكِيلًا",
+            "word_normalized": "وكيلا",
+            "meaning": "تُفَوِّضُ أُمُورَكَ إِلَيْهِ، وَتَعْتَمِدُ عَلَيْهِ.",
+            "meaning_normalized": "تفوض أمورك إليه وتعتمد عليه"
+          },
+          {
+            "ayah_number": 10,
+            "word": "هَجْرًا جَمِيلًا",
+            "word_normalized": "هجرا جميلا",
+            "meaning": "أَعْرِضْ عَنْهُمْ؛ تَارِكًا الِانْتِقَامَ مِنْهُمْ.",
+            "meaning_normalized": "أعرض عنهم تاركا الانتقام منهم"
+          },
+          {
+            "ayah_number": 11,
+            "word": "أُولِي النَّعْمَةِ",
+            "word_normalized": "أولي النعمة",
+            "meaning": "أَصْحَابَ النَّعِيمِ وَالتَّرَفِ.",
+            "meaning_normalized": "أصحاب النعيم والترف"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَمَهِّلْهُمْ قَلِيلًا",
+            "word_normalized": "ومهلهم قليلا",
+            "meaning": "أَجِّلْهُمْ زَمَنًا قَلِيلًا بِتَأْخِيرِ الْعَذَابِ عَنْهُمْ.",
+            "meaning_normalized": "أجلهم زمنا قليلا بتأخير العذاب عنهم"
+          },
+          {
+            "ayah_number": 12,
+            "word": "أَنكَالًا",
+            "word_normalized": "أنكالا",
+            "meaning": "قُيُودًا ثَقِيلَةً.",
+            "meaning_normalized": "قيودا ثقيلة"
+          },
+          {
+            "ayah_number": 13,
+            "word": "ذَا غُصَّةٍ",
+            "word_normalized": "ذا غصة",
+            "meaning": "يَنْشَبُ فِي الْحُلُوقِ، لَا يُسْتَسَاغُ؛ لِكَرَاهَتِهِ.",
+            "meaning_normalized": "ينشب في الحلوق لا يستساغ لكراهته"
+          },
+          {
+            "ayah_number": 14,
+            "word": "تَرْجُفُ",
+            "word_normalized": "ترجف",
+            "meaning": "تَضْطَرِبُ.",
+            "meaning_normalized": "تضطرب"
+          },
+          {
+            "ayah_number": 14,
+            "word": "كَثِيبًا",
+            "word_normalized": "كثيبا",
+            "meaning": "رَمْلًا مُجْتَمِعًا.",
+            "meaning_normalized": "رملا مجتمعا"
+          },
+          {
+            "ayah_number": 14,
+            "word": "مَهِيلًا",
+            "word_normalized": "مهيلا",
+            "meaning": "سَائِلًا مُتَنَاثِرًا.",
+            "meaning_normalized": "سائلا متناثرا"
+          },
+          {
+            "ayah_number": 16,
+            "word": "وَبِيلًا",
+            "word_normalized": "وبيلا",
+            "meaning": "شَدِيدًا.",
+            "meaning_normalized": "شديدا"
+          },
+          {
+            "ayah_number": 18,
+            "word": "مُنْفَطِرٌ بِهِ",
+            "word_normalized": "منفطر به",
+            "meaning": "مُتَصَدِّعَةٌ فِي يَوْمِ الْقِيَامَةِ.",
+            "meaning_normalized": "متصدعة في يوم القيامة"
+          }
+        ]
+      }
+    ]
+  }
+}

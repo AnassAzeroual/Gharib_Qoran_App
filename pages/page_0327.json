@@ -1,0 +1,156 @@
+{
+  "page": {
+    "page_number": 327,
+    "header": {
+      "right": "سُورَةُ الْفَجْرِ",
+      "right_normalized": "سورة الفجر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْفَجْرِ",
+          "name_normalized": "سورة الفجر",
+          "order": 89,
+          "ayat_count": 30,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 10,
+            "word": "ذِي الْأَوْتَادِ",
+            "word_normalized": "ذي الأوتاد",
+            "meaning": "صَاحِبِ الْجُنُودِ الَّذِينَ ثَبَّتُوا مُلْكَهُ.",
+            "meaning_normalized": "صاحب الجنود الذين ثبتوا ملكه"
+          },
+          {
+            "ayah_number": 11,
+            "word": "طَغَوْا",
+            "word_normalized": "طغوا",
+            "meaning": "تَجَاوَزُوا الْحَدَّ فِي الْإِفْسَادِ.",
+            "meaning_normalized": "تجاوزوا الحد في الإفساد"
+          },
+          {
+            "ayah_number": 13,
+            "word": "سَوْطَ عَذَابٍ",
+            "word_normalized": "سوط عذاب",
+            "meaning": "عَذَابًا شَدِيدًا.",
+            "meaning_normalized": "عذابا شديدا"
+          },
+          {
+            "ayah_number": 14,
+            "word": "لَبِالْمِرْصَادِ",
+            "word_normalized": "لبالمرصاد",
+            "meaning": "يَرْقُبُ الْعَاصِينَ، وَيُمْهِلُهُمْ، ثُمَّ يَأْخُذُهُمْ.",
+            "meaning_normalized": "يرقب العاصين ويمهلهم ثم يأخذهم"
+          },
+          {
+            "ayah_number": 15,
+            "word": "ابْتَلَاهُ",
+            "word_normalized": "ابتلاه",
+            "meaning": "اخْتَبَرَهُ بِالنِّعْمَةِ.",
+            "meaning_normalized": "اختبره بالنعمة"
+          },
+          {
+            "ayah_number": 16,
+            "word": "فَقَدَرَ",
+            "word_normalized": "فقدر",
+            "meaning": "ضَيَّقَ.",
+            "meaning_normalized": "ضيق"
+          },
+          {
+            "ayah_number": 17,
+            "word": "الْيَتِيمَ",
+            "word_normalized": "اليتيم",
+            "meaning": "الَّذِي مَاتَ أَبُوهُ قَبْلَ بُلُوغِهِ.",
+            "meaning_normalized": "الذي مات أبوه قبل بلوغه"
+          },
+          {
+            "ayah_number": 18,
+            "word": "وَلَا تَحَاضُّونَ",
+            "word_normalized": "ولا تحاضون",
+            "meaning": "لَا يَحُثُّ بَعْضُكُمْ بَعْضًا.",
+            "meaning_normalized": "لا يحث بعضكم بعضا"
+          },
+          {
+            "ayah_number": 19,
+            "word": "التُّرَاثَ",
+            "word_normalized": "التراث",
+            "meaning": "الْمِيرَاثَ.",
+            "meaning_normalized": "الميراث"
+          },
+          {
+            "ayah_number": 19,
+            "word": "لَمًّا",
+            "word_normalized": "لما",
+            "meaning": "شَدِيدًا.",
+            "meaning_normalized": "شديدا"
+          },
+          {
+            "ayah_number": 20,
+            "word": "جَمًّا",
+            "word_normalized": "جما",
+            "meaning": "مُفْرِطًا.",
+            "meaning_normalized": "مفرطا"
+          },
+          {
+            "ayah_number": 21,
+            "word": "دُكَّتْ",
+            "word_normalized": "دكت",
+            "meaning": "زُلْزِلَتْ.",
+            "meaning_normalized": "زلزلت"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَجَاءَ رَبُّكَ",
+            "word_normalized": "وجاء ربك",
+            "meaning": "جَاءَ رَبُّكَ لِفَصْلِ الْقَضَاءِ بَيْنَ الْعِبَادِ مَجِيئًا يَلِيقُ بِجَلَالِهِ.",
+            "meaning_normalized": "جاء ربك لفصل القضاء بين العباد مجيئا يليق بجلاله"
+          },
+          {
+            "ayah_number": 22,
+            "word": "وَالْمَلَكُ",
+            "word_normalized": "والملك",
+            "meaning": "الْمَلَائِكَةُ.",
+            "meaning_normalized": "الملائكة"
+          },
+          {
+            "ayah_number": 22,
+            "word": "صَفًّا صَفًّا",
+            "word_normalized": "صفا صفا",
+            "meaning": "صُفُوفًا كَثِيرَةً.",
+            "meaning_normalized": "صفوفا كثيرة"
+          },
+          {
+            "ayah_number": 23,
+            "word": "وَأَنَّى لَهُ الذِّكْرَى",
+            "word_normalized": "وأنى له الذكرى",
+            "meaning": "لَا يَنْفَعُهُ التَّذَكُّرُ؛ فَقَدْ فَاتَ أَوَانُهُ.",
+            "meaning_normalized": "لا ينفعه التذكر فقد فات أوانه"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَلَا يُوثِقُ",
+            "word_normalized": "ولا يوثق",
+            "meaning": "لَا يَشُدُّ بِالسَّلَاسِلِ، وَالْأَغْلَالِ.",
+            "meaning_normalized": "لا يشد بالسلاسل والأغلال"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وَثَاقَهُ",
+            "word_normalized": "وثاقه",
+            "meaning": "مِثْلَ إِيثَاقِهِ.",
+            "meaning_normalized": "مثل إيثاقه"
+          }
+        ]
+      }
+    ]
+  }
+}

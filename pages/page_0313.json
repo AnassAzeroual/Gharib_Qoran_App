@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 313,
+    "header": {
+      "right": "سُورَةُ النَّازِعَاتِ",
+      "right_normalized": "سورة النازعات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّبَإِ",
+          "name_normalized": "سورة النبإ",
+          "order": 78,
+          "ayat_count": 40,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 31,
+            "word": "مَفَازًا",
+            "word_normalized": "مفازا",
+            "meaning": "فَوْزًا بِدُخُولِهِمُ الْجَنَّةَ، أَوْ مَكَانًا يَفُوزُونَ بِهِ؛ وَهُوَ الْجَنَّةُ.",
+            "meaning_normalized": "فوزا بدخولهم الجنة أو مكانا يفوزون به وهو الجنة"
+          },
+          {
+            "ayah_number": 32,
+            "word": "حَدَائِقَ",
+            "word_normalized": "حدائق",
+            "meaning": "بَسَاتِينَ عَظِيمَةً قَدْ أَحْدَقَتْ بِهَا الْأَشْجَارُ.",
+            "meaning_normalized": "بساتين عظيمة قد أحدقت بها الأشجار"
+          },
+          {
+            "ayah_number": 33,
+            "word": "وَكَوَاعِبَ",
+            "word_normalized": "وكواعب",
+            "meaning": "حَدِيثَاتِ السِّنِّ، نَوَاهِدَ.",
+            "meaning_normalized": "حديثات السن نواهد"
+          },
+          {
+            "ayah_number": 33,
+            "word": "أَتْرَابًا",
+            "word_normalized": "أترابا",
+            "meaning": "مُسْتَوِيَاتٍ فِي سِنٍّ وَاحِدَةٍ.",
+            "meaning_normalized": "مستويات في سن واحدة"
+          },
+          {
+            "ayah_number": 34,
+            "word": "دِهَاقًا",
+            "word_normalized": "دهاقا",
+            "meaning": "مَمْلُوءَةً خَمْرًا.",
+            "meaning_normalized": "مملوءة خمرا"
+          },
+          {
+            "ayah_number": 35,
+            "word": "لَغْوًا",
+            "word_normalized": "لغوا",
+            "meaning": "بَاطِلًا مِنَ الْقَوْلِ.",
+            "meaning_normalized": "باطلا من القول"
+          },
+          {
+            "ayah_number": 36,
+            "word": "حِسَابًا",
+            "word_normalized": "حسابا",
+            "meaning": "كَثِيرًا، كَافِيًا لَهُمْ.",
+            "meaning_normalized": "كثيرا كافيا لهم"
+          },
+          {
+            "ayah_number": 37,
+            "word": "خِطَابًا",
+            "word_normalized": "خطابا",
+            "meaning": "كَلَامًا، وَسُؤَالًا إِلَّا بِإِذْنِهِ.",
+            "meaning_normalized": "كلاما وسؤالا إلا بإذنه"
+          },
+          {
+            "ayah_number": 38,
+            "word": "الرُّوحُ",
+            "word_normalized": "الروح",
+            "meaning": "جِبْرِيلُ ﷺ.",
+            "meaning_normalized": "جبريل"
+          },
+          {
+            "ayah_number": 38,
+            "word": "صَفًّا",
+            "word_normalized": "صفا",
+            "meaning": "مُصْطَفِّينَ.",
+            "meaning_normalized": "مصطفين"
+          },
+          {
+            "ayah_number": 38,
+            "word": "لَا يَتَكَلَّمُونَ",
+            "word_normalized": "لا يتكلمون",
+            "meaning": "لَا يَشْفَعُونَ.",
+            "meaning_normalized": "لا يشفعون"
+          },
+          {
+            "ayah_number": 38,
+            "word": "صَوَابًا",
+            "word_normalized": "صوابا",
+            "meaning": "حَقًّا، وَسَدَادًا.",
+            "meaning_normalized": "حقا وسدادا"
+          },
+          {
+            "ayah_number": 39,
+            "word": "الْحَقُّ",
+            "word_normalized": "الحق",
+            "meaning": "الَّذِي لَا رَيْبَ فِي وُقُوعِهِ.",
+            "meaning_normalized": "الذي لا ريب في وقوعه"
+          },
+          {
+            "ayah_number": 39,
+            "word": "مَآبًا",
+            "word_normalized": "مآبا",
+            "meaning": "مَرْجِعًا بِالْعَمَلِ الصَّالِحِ.",
+            "meaning_normalized": "مرجعا بالعمل الصالح"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّازِعَاتِ",
+          "name_normalized": "سورة النازعات",
+          "order": 79,
+          "ayat_count": 46,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "وَالنَّازِعَاتِ",
+            "word_normalized": "والنازعات",
+            "meaning": "قَسَمٌ بِالْمَلَائِكَةِ تَنْزِعُ أَرْوَاحَ الْكُفَّارِ.",
+            "meaning_normalized": "قسم بالملائكة تنزع أرواح الكفار"
+          },
+          {
+            "ayah_number": 1,
+            "word": "غَرْقًا",
+            "word_normalized": "غرقا",
+            "meaning": "نَزْعًا شَدِيدًا.",
+            "meaning_normalized": "نزعا شديدا"
+          }
+        ]
+      }
+    ]
+  }
+}

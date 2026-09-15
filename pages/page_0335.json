@@ -1,0 +1,159 @@
+{
+  "page": {
+    "page_number": 335,
+    "header": {
+      "right": "سُورَةُ الزَّلْزَلَةِ",
+      "right_normalized": "سورة الزلزلة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَيِّنَةِ",
+          "name_normalized": "سورة البينة",
+          "order": 98,
+          "ayat_count": 8,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "word": "الْبَيِّنَةُ",
+            "word_normalized": "البينة",
+            "meaning": "مِنْ بَعْدِ مَا تَبَيَّنُوا أَنَّهُ نَبِيٌّ حَقًّا، تَفَرَّقُوا، وَكَانُوا مُجْتَمِعِينَ عَلَى صِحَّةِ نُبُوَّتِهِ قَبْلَ ذَلِكَ.",
+            "meaning_normalized": "من بعد ما تبينوا أنه نبي حقا تفرقوا وكانوا مجتمعين على صحة نبوته قبل ذلك"
+          },
+          {
+            "ayah_number": 5,
+            "word": "مُخْلِصِينَ",
+            "word_normalized": "مخلصين",
+            "meaning": "قَاصِدِينَ وَجْهَ اللهِ وَحْدَهُ.",
+            "meaning_normalized": "قاصدين وجه الله وحده"
+          },
+          {
+            "ayah_number": 5,
+            "word": "حُنَفَاءَ",
+            "word_normalized": "حنفاء",
+            "meaning": "مَائِلِينَ عَنِ الشِّرْكِ إِلَى الْإِيمَانِ.",
+            "meaning_normalized": "مائلين عن الشرك إلى الإيمان"
+          },
+          {
+            "ayah_number": 5,
+            "word": "الْقَيِّمَةِ",
+            "word_normalized": "القيمة",
+            "meaning": "الِاسْتِقَامَةِ.",
+            "meaning_normalized": "الاستقامة"
+          },
+          {
+            "ayah_number": 6,
+            "word": "الْبَرِيَّةِ",
+            "word_normalized": "البرية",
+            "meaning": "الْخَلِيقَةِ.",
+            "meaning_normalized": "الخليقة"
+          },
+          {
+            "ayah_number": 8,
+            "word": "عَدْنٍ",
+            "word_normalized": "عدن",
+            "meaning": "إِقَامَةٍ، وَاسْتِقْرَارٍ.",
+            "meaning_normalized": "إقامة واستقرار"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الزَّلْزَلَةِ",
+          "name_normalized": "سورة الزلزلة",
+          "order": 99,
+          "ayat_count": 8,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "زُلْزِلَتِ",
+            "word_normalized": "زلزلت",
+            "meaning": "رُجَّتْ وَحُرِّكَتْ بِقُوَّةٍ.",
+            "meaning_normalized": "رجت وحركت بقوة"
+          },
+          {
+            "ayah_number": 1,
+            "word": "زِلْزَالَهَا",
+            "word_normalized": "زلزالها",
+            "meaning": "تَحْرِيكَهَا الشَّدِيدَ.",
+            "meaning_normalized": "تحريكها الشديد"
+          },
+          {
+            "ayah_number": 2,
+            "word": "أَثْقَالَهَا",
+            "word_normalized": "أثقالها",
+            "meaning": "مَا فِي بَطْنِهَا مِنَ الْمَوْتَى وَالْكُنُوزِ.",
+            "meaning_normalized": "ما في بطنها من الموتى والكنوز"
+          },
+          {
+            "ayah_number": 3,
+            "word": "مَا لَهَا",
+            "word_normalized": "ما لها",
+            "meaning": "مَا الَّذِي حَدَثَ لَهَا؟",
+            "meaning_normalized": "ما الذي حدث لها"
+          },
+          {
+            "ayah_number": 4,
+            "word": "تُحَدِّثُ أَخْبَارَهَا",
+            "word_normalized": "تحدث أخبارها",
+            "meaning": "تُخْبِرُ الْأَرْضُ بِمَا عُمِلَ عَلَيْهَا.",
+            "meaning_normalized": "تخبر الأرض بما عمل عليها"
+          },
+          {
+            "ayah_number": 5,
+            "word": "بِأَنَّ رَبَّكَ أَوْحَى لَهَا",
+            "word_normalized": "بأن ربك أوحى لها",
+            "meaning": "بِسَبَبِ أَنَّ رَبَّكَ أَمَرَهَا بِأَنْ تُخْبِرَ.",
+            "meaning_normalized": "بسبب أن ربك أمرها بأن تخبر"
+          },
+          {
+            "ayah_number": 6,
+            "word": "يَصْدُرُ النَّاسُ",
+            "word_normalized": "يصدر الناس",
+            "meaning": "يَرْجِعُونَ عَنْ مَوْقِفِ الْحِسَابِ.",
+            "meaning_normalized": "يرجعون عن موقف الحساب"
+          },
+          {
+            "ayah_number": 6,
+            "word": "أَشْتَاتًا",
+            "word_normalized": "أشتاتا",
+            "meaning": "أَصْنَافًا مُتَفَرِّقِينَ.",
+            "meaning_normalized": "أصنافا متفرقين"
+          },
+          {
+            "ayah_number": 6,
+            "word": "لِيُرَوْا أَعْمَالَهُمْ",
+            "word_normalized": "ليروا أعمالهم",
+            "meaning": "لِيُرِيَهُمُ اللهُ مَا عَمِلُوا، وَيُجَازِيَهُمْ عَلَيْهِ.",
+            "meaning_normalized": "ليريهم الله ما عملوا ويجازيهم عليه"
+          },
+          {
+            "ayah_number": 7,
+            "word": "مِثْقَالَ ذَرَّةٍ",
+            "word_normalized": "مثقال ذرة",
+            "meaning": "وَزْنَ نَمْلَةٍ صَغِيرَةٍ.",
+            "meaning_normalized": "وزن نملة صغيرة"
+          }
+        ]
+      }
+    ]
+  }
+}

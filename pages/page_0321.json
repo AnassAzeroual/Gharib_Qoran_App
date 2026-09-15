@@ -1,0 +1,166 @@
+{
+  "page": {
+    "page_number": 321,
+    "header": {
+      "right": "سُورَةُ الِانْشِقَاقِ",
+      "right_normalized": "سورة الانشقاق",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُطَفِّفِينَ",
+          "name_normalized": "سورة المطففين",
+          "order": 83,
+          "ayat_count": 36,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 23,
+            "word": "الْأَرَائِكِ",
+            "word_normalized": "الأرائك",
+            "meaning": "الْأَسِرَّةِ الْمُزَيَّنَةِ بِالسُّتُورِ، وَالثِّيَابِ.",
+            "meaning_normalized": "الأسرة المزينة بالستور والثياب"
+          },
+          {
+            "ayah_number": 24,
+            "word": "نَضْرَةَ",
+            "word_normalized": "نضرة",
+            "meaning": "بَهْجَةَ.",
+            "meaning_normalized": "بهجة"
+          },
+          {
+            "ayah_number": 25,
+            "word": "رَحِيقٍ",
+            "word_normalized": "رحيق",
+            "meaning": "خَمْرٍ صَافِيَةٍ.",
+            "meaning_normalized": "خمر صافية"
+          },
+          {
+            "ayah_number": 26,
+            "word": "خِتَامُهُ مِسْكٌ",
+            "word_normalized": "ختامه مسك",
+            "meaning": "آخِرُهُ رَائِحَةُ الْمِسْكِ.",
+            "meaning_normalized": "آخره رائحة المسك"
+          },
+          {
+            "ayah_number": 27,
+            "word": "وَمِزَاجُهُ",
+            "word_normalized": "ومزاجه",
+            "meaning": "خَلْطُهُ.",
+            "meaning_normalized": "خلطه"
+          },
+          {
+            "ayah_number": 27,
+            "word": "تَسْنِيمٍ",
+            "word_normalized": "تسنيم",
+            "meaning": "عَيْنٍ فِي أَعْلَى الْجَنَّةِ.",
+            "meaning_normalized": "عين في أعلى الجنة"
+          },
+          {
+            "ayah_number": 28,
+            "word": "يَشْرَبُ بِهَا",
+            "word_normalized": "يشرب بها",
+            "meaning": "يَشْرَبُونَ مُتَلَذِّذِينَ بِهَا.",
+            "meaning_normalized": "يشربون متلذذين بها"
+          },
+          {
+            "ayah_number": 30,
+            "word": "يَتَغَامَزُونَ",
+            "word_normalized": "يتغامزون",
+            "meaning": "يَغْمِزُ بَعْضُهُمْ بَعْضًا بِأَعْيُنِهِمُ اسْتِهْزَاءً.",
+            "meaning_normalized": "يغمز بعضهم بعضا بأعينهم استهزاء"
+          },
+          {
+            "ayah_number": 31,
+            "word": "انْقَلَبُوا",
+            "word_normalized": "انقلبوا",
+            "meaning": "رَجَعُوا.",
+            "meaning_normalized": "رجعوا"
+          },
+          {
+            "ayah_number": 31,
+            "word": "فَكِهِينَ",
+            "word_normalized": "فكهين",
+            "meaning": "مُتَلَذِّذِينَ بِسُخْرِيَتِهِمْ مِنَ الْمُؤْمِنِينَ.",
+            "meaning_normalized": "متلذذين بسخريتهم من المؤمنين"
+          },
+          {
+            "ayah_number": 33,
+            "word": "حَافِظِينَ",
+            "word_normalized": "حافظين",
+            "meaning": "رُقَبَاءَ يُحْصُونَ أَعْمَالَهُمْ.",
+            "meaning_normalized": "رقباء يحصون أعمالهم"
+          },
+          {
+            "ayah_number": 36,
+            "word": "ثُوِّبَ",
+            "word_normalized": "ثوب",
+            "meaning": "جُوزِيَ.",
+            "meaning_normalized": "جوزي"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الِانْشِقَاقِ",
+          "name_normalized": "سورة الانشقاق",
+          "order": 84,
+          "ayat_count": 25,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "انْشَقَّتْ",
+            "word_normalized": "انشقت",
+            "meaning": "تَصَدَّعَتْ، وَتَفَطَّرَتْ بِالْغَمَامِ يَوْمَ الْقِيَامَةِ.",
+            "meaning_normalized": "تصدعت وتفطرت بالغمام يوم القيامة"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَأَذِنَتْ لِرَبِّهَا",
+            "word_normalized": "وأذنت لربها",
+            "meaning": "أَطَاعَتْ أَمْرَ رَبِّهَا.",
+            "meaning_normalized": "أطاعت أمر ربها"
+          },
+          {
+            "ayah_number": 2,
+            "word": "وَحُقَّتْ",
+            "word_normalized": "وحقت",
+            "meaning": "وَحُقَّ لَهَا أَنْ تُطِيعَ.",
+            "meaning_normalized": "وحق لها أن تطيع"
+          },
+          {
+            "ayah_number": 3,
+            "word": "مُدَّتْ",
+            "word_normalized": "مدت",
+            "meaning": "بُسِطَتْ، وَوُسِّعَتْ، وَدُكَّتْ جِبَالُهَا.",
+            "meaning_normalized": "بسطت ووسعت ودكت جبالها"
+          },
+          {
+            "ayah_number": 4,
+            "word": "وَأَلْقَتْ",
+            "word_normalized": "وألقت",
+            "meaning": "قَذَفَتْ مَا فِي بَطْنِهَا مِنَ الْأَمْوَاتِ.",
+            "meaning_normalized": "قذفت ما في بطنها من الأموات"
+          }
+        ]
+      }
+    ]
+  }
+}

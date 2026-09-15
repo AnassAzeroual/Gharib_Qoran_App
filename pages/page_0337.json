@@ -1,0 +1,155 @@
+{
+  "page": {
+    "page_number": 337,
+    "header": {
+      "right": "سُورَةُ التَّكَاثُرِ - سُورَةُ الْعَصْرِ",
+      "right_normalized": "سورة التكاثر - سورة العصر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَارِعَةِ",
+          "name_normalized": "سورة القارعة",
+          "order": 101,
+          "ayat_count": 11,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 5,
+            "word": "الْمَنْفُوشِ",
+            "word_normalized": "المنفوش",
+            "meaning": "الَّذِي مُزِّقَ، وَنُفِشَ، فَتَفَرَّقَتْ أَجْزَاؤُهُ.",
+            "meaning_normalized": "الذي مزق ونفش فتفرقت أجزاؤه"
+          },
+          {
+            "ayah_number": 6,
+            "word": "ثَقُلَتْ مَوَازِينُهُ",
+            "word_normalized": "ثقلت موازينه",
+            "meaning": "رَجَحَتْ مَوَازِينُ حَسَنَاتِهِ.",
+            "meaning_normalized": "رجحت موازين حسناته"
+          },
+          {
+            "ayah_number": 9,
+            "word": "فَأُمُّهُ هَاوِيَةٌ",
+            "word_normalized": "فأمه هاوية",
+            "meaning": "مَأْوَاهُ إِلَى جَهَنَّمَ يَهْوِي عَلَى رَأْسِهِ.",
+            "meaning_normalized": "مأواه إلى جهنم يهوي على رأسه"
+          },
+          {
+            "ayah_number": 11,
+            "word": "حَامِيَةٌ",
+            "word_normalized": "حامية",
+            "meaning": "حَارَّةٌ قَدِ اشْتَدَّ إِيقَادُهَا.",
+            "meaning_normalized": "حارة قد اشتد إيقادها"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّكَاثُرِ",
+          "name_normalized": "سورة التكاثر",
+          "order": 102,
+          "ayat_count": 8,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "أَلْهَاكُمْ",
+            "word_normalized": "ألهاكم",
+            "meaning": "شَغَلَكُمْ عَنْ طَاعَةِ اللهِ.",
+            "meaning_normalized": "شغلكم عن طاعة الله"
+          },
+          {
+            "ayah_number": 1,
+            "word": "التَّكَاثُرُ",
+            "word_normalized": "التكاثر",
+            "meaning": "التَّفَاخُرُ بِكَثْرَةِ الْأَمْوَالِ وَالْأَوْلَادِ وَالْمَتَاعِ.",
+            "meaning_normalized": "التفاخر بكثرة الأموال والأولاد والمتاع"
+          },
+          {
+            "ayah_number": 2,
+            "word": "زُرْتُمُ الْمَقَابِرَ",
+            "word_normalized": "زرتم المقابر",
+            "meaning": "دُفِنْتُمْ فِي الْقُبُورِ.",
+            "meaning_normalized": "دفنتم في القبور"
+          },
+          {
+            "ayah_number": 5,
+            "word": "عِلْمَ الْيَقِينِ",
+            "word_normalized": "علم اليقين",
+            "meaning": "حَقَّ الْعِلْمِ.",
+            "meaning_normalized": "حق العلم"
+          },
+          {
+            "ayah_number": 7,
+            "word": "عَيْنَ الْيَقِينِ",
+            "word_normalized": "عين اليقين",
+            "meaning": "لَتُبْصِرُنَّ جَهَنَّمَ يَقِينًا بِلَا رَيْبٍ.",
+            "meaning_normalized": "لتبصرن جهنم يقينا بلا ريب"
+          },
+          {
+            "ayah_number": 8,
+            "word": "النَّعِيمِ",
+            "word_normalized": "النعيم",
+            "meaning": "كُلِّ أَنْوَاعِ النِّعَمِ مِنَ الْأَمْنِ، وَالْأَهْلِ، وَالْمَطْعَمِ، وَنَحْوِهَا.",
+            "meaning_normalized": "كل أنواع النعم من الأمن والأهل والمطعم ونحوها"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْعَصْرِ",
+          "name_normalized": "سورة العصر",
+          "order": 103,
+          "ayat_count": 3,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "وَالْعَصْرِ",
+            "word_normalized": "والعصر",
+            "meaning": "وَالدَّهْرِ.",
+            "meaning_normalized": "والدهر"
+          },
+          {
+            "ayah_number": 2,
+            "word": "الْإِنْسَانَ",
+            "word_normalized": "الإنسان",
+            "meaning": "كُلَّ بَنِي آدَمَ.",
+            "meaning_normalized": "كل بني آدم"
+          },
+          {
+            "ayah_number": 2,
+            "word": "خُسْرٍ",
+            "word_normalized": "خسر",
+            "meaning": "خُسْرَانٍ، وَهَلَكَةٍ، وَنُقْصَانٍ.",
+            "meaning_normalized": "خسران وهلكة ونقصان"
+          }
+        ]
+      }
+    ]
+  }
+}

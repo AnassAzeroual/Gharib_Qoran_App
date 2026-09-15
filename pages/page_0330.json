@@ -1,0 +1,152 @@
+{
+  "page": {
+    "page_number": 330,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشَّمْسِ",
+          "name_normalized": "سورة الشمس",
+          "order": 91,
+          "ayat_count": 15,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 13,
+            "word": "نَاقَةَ اللَّهِ وَسُقْيَاهَا",
+            "word_normalized": "ناقة الله وسقياها",
+            "meaning": "احْذَرُوا نَاقَةَ اللهِ أَنْ تَمَسُّوهَا بِسُوءٍ، وَأَنْ تَعْتَدُوا عَلَى سَقْيِهَا.",
+            "meaning_normalized": "احذروا ناقة الله أن تمسوها بسوء وأن تعتدوا على سقيها"
+          },
+          {
+            "ayah_number": 14,
+            "word": "فَعَقَرُوهَا",
+            "word_normalized": "فعقروها",
+            "meaning": "فَنَحَرُوهَا.",
+            "meaning_normalized": "فنحروها"
+          },
+          {
+            "ayah_number": 14,
+            "word": "فَدَمْدَمَ",
+            "word_normalized": "فدمدم",
+            "meaning": "فَأَطْبَقَ عَلَيْهِمُ الْعُقُوبَةَ.",
+            "meaning_normalized": "فأطبق عليهم العقوبة"
+          },
+          {
+            "ayah_number": 14,
+            "word": "فَسَوَّاهَا",
+            "word_normalized": "فسواها",
+            "meaning": "عَمَّهُمْ بِالْعُقُوبَةِ؛ فَلَمْ يُفْلِتْ مِنْهُمْ أَحَدٌ.",
+            "meaning_normalized": "عمهم بالعقوبة فلم يفلت منهم أحد"
+          },
+          {
+            "ayah_number": 15,
+            "word": "عُقْبَاهَا",
+            "word_normalized": "عقباها",
+            "meaning": "عَاقِبَةَ مَا نَزَلَ بِهِمْ مِنَ الْعُقُوبَةِ.",
+            "meaning_normalized": "عاقبة ما نزل بهم من العقوبة"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ اللَّيْلِ",
+          "name_normalized": "سورة الليل",
+          "order": 92,
+          "ayat_count": 21,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "word": "يَغْشَى",
+            "word_normalized": "يغشى",
+            "meaning": "يُغَطِّي بِظَلَامِهِ الْأَرْضَ.",
+            "meaning_normalized": "يغطي بظلامه الأرض"
+          },
+          {
+            "ayah_number": 2,
+            "word": "تَجَلَّى",
+            "word_normalized": "تجلى",
+            "meaning": "انْكَشَفَ بِضِيَائِهِ.",
+            "meaning_normalized": "انكشف بضيائه"
+          },
+          {
+            "ayah_number": 4,
+            "word": "لَشَتَّى",
+            "word_normalized": "لشتى",
+            "meaning": "لَمُخْتَلِفٌ.",
+            "meaning_normalized": "لمختلف"
+          },
+          {
+            "ayah_number": 5,
+            "word": "أَعْطَى",
+            "word_normalized": "أعطى",
+            "meaning": "بَذَلَ مَالَهُ مُتَصَدِّقًا.",
+            "meaning_normalized": "بذل ماله متصدقا"
+          },
+          {
+            "ayah_number": 6,
+            "word": "بِالْحُسْنَى",
+            "word_normalized": "بالحسنى",
+            "meaning": "بِالثَّوَابِ عَلَى أَعْمَالِهِ.",
+            "meaning_normalized": "بالثواب على أعماله"
+          },
+          {
+            "ayah_number": 7,
+            "word": "لِلْيُسْرَى",
+            "word_normalized": "لليسرى",
+            "meaning": "لِكُلِّ خَيْرٍ، وَسَعَادَةٍ.",
+            "meaning_normalized": "لكل خير وسعادة"
+          },
+          {
+            "ayah_number": 10,
+            "word": "لِلْعُسْرَى",
+            "word_normalized": "للعسرى",
+            "meaning": "لِكُلِّ عُسْرٍ، وَشَقَاوَةٍ.",
+            "meaning_normalized": "لكل عسر وشقاوة"
+          },
+          {
+            "ayah_number": 11,
+            "word": "وَمَا يُغْنِي",
+            "word_normalized": "وما يغني",
+            "meaning": "لَا يَنْفَعُهُ.",
+            "meaning_normalized": "لا ينفعه"
+          },
+          {
+            "ayah_number": 11,
+            "word": "تَرَدَّى",
+            "word_normalized": "تردى",
+            "meaning": "وَقَعَ فِي النَّارِ.",
+            "meaning_normalized": "وقع في النار"
+          },
+          {
+            "ayah_number": 12,
+            "word": "إِنَّ عَلَيْنَا لَلْهُدَى",
+            "word_normalized": "إن علينا للهدى",
+            "meaning": "عَلَيْنَا أَنْ نُبَيِّنَ طَرِيقَ الْهُدَى؛ فَضْلًا مِنَّا وَرَحْمَةً.",
+            "meaning_normalized": "علينا أن نبين طريق الهدى فضلا منا ورحمة"
+          }
+        ]
+      }
+    ]
+  }
+}

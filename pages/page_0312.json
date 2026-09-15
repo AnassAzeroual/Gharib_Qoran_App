@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 312,
+    "header": {
+      "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
+      "right_normalized": "السراج في بيان غريب القرآن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ النَّبَإِ",
+          "name_normalized": "سورة النبإ",
+          "order": 78,
+          "ayat_count": 40,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 8,
+            "word": "أَزْوَاجًا",
+            "word_normalized": "أزواجا",
+            "meaning": "أَصْنَافًا: ذُكُورًا وَإِنَاثًا.",
+            "meaning_normalized": "أصنافا ذكورا وإناثا"
+          },
+          {
+            "ayah_number": 9,
+            "word": "سُبَاتًا",
+            "word_normalized": "سباتا",
+            "meaning": "رَاحَةً لِأَبْدَانِكُمْ، وَقَطْعًا لِأَعْمَالِكُمْ.",
+            "meaning_normalized": "راحة لأبدانكم وقطعا لأعمالكم"
+          },
+          {
+            "ayah_number": 10,
+            "word": "لِبَاسًا",
+            "word_normalized": "لباسا",
+            "meaning": "سَاتِرًا لَكُمْ بِظُلْمَتِهِ؛ كَاللِّبَاسِ.",
+            "meaning_normalized": "ساترا لكم بظلمته كاللباس"
+          },
+          {
+            "ayah_number": 11,
+            "word": "مَعَاشًا",
+            "word_normalized": "معاشا",
+            "meaning": "تُحَصِّلُونَ فِيهِ مَا تَعِيشُونَ بِهِ.",
+            "meaning_normalized": "تحصلون فيه ما تعيشون به"
+          },
+          {
+            "ayah_number": 13,
+            "word": "سِرَاجًا وَهَّاجًا",
+            "word_normalized": "سراجا وهاجا",
+            "meaning": "مِصْبَاحًا وَقَّادًا، مُضِيئًا.",
+            "meaning_normalized": "مصباحا وقادا مضيئا"
+          },
+          {
+            "ayah_number": 14,
+            "word": "الْمُعْصِرَاتِ",
+            "word_normalized": "المعصرات",
+            "meaning": "السُّحُبِ الْمُمْطِرَةِ.",
+            "meaning_normalized": "السحب الممطرة"
+          },
+          {
+            "ayah_number": 14,
+            "word": "ثَجَّاجًا",
+            "word_normalized": "ثجاجا",
+            "meaning": "مُنْصَبًّا بِكَثْرَةٍ.",
+            "meaning_normalized": "منصبا بكثرة"
+          },
+          {
+            "ayah_number": 16,
+            "word": "وَجَنَّاتٍ أَلْفَافًا",
+            "word_normalized": "وجنات ألفافا",
+            "meaning": "بَسَاتِينَ مُلْتَفَّةً أَشْجَارُهَا.",
+            "meaning_normalized": "بساتين ملتفة أشجارها"
+          },
+          {
+            "ayah_number": 17,
+            "word": "مِيقَاتًا",
+            "word_normalized": "ميقاتا",
+            "meaning": "وَقْتًا، وَمِيعَادًا لِلْفَصْلِ بَيْنَ الْخَلْقِ.",
+            "meaning_normalized": "وقتا وميعادا للفصل بين الخلق"
+          },
+          {
+            "ayah_number": 18,
+            "word": "الصُّورِ",
+            "word_normalized": "الصور",
+            "meaning": "الْقَرْنِ الَّذِي يَنْفُخُ فِيهِ إِسْرَافِيلُ ﷺ.",
+            "meaning_normalized": "القرن الذي ينفخ فيه إسرافيل"
+          },
+          {
+            "ayah_number": 19,
+            "word": "أَبْوَابًا",
+            "word_normalized": "أبوابا",
+            "meaning": "ذَاتَ أَبْوَابٍ كَثِيرَةٍ؛ لِنُزُولِ الْمَلَائِكَةِ.",
+            "meaning_normalized": "ذات أبواب كثيرة لنزول الملائكة"
+          },
+          {
+            "ayah_number": 20,
+            "word": "وَسُيِّرَتْ",
+            "word_normalized": "وسيرت",
+            "meaning": "نُسِفَتْ بَعْدَ ثُبُوتِهَا.",
+            "meaning_normalized": "نسفت بعد ثبوتها"
+          },
+          {
+            "ayah_number": 20,
+            "word": "سَرَابًا",
+            "word_normalized": "سرابا",
+            "meaning": "كَالسَّرَابِ الَّذِي لَا حَقِيقَةَ لَهُ.",
+            "meaning_normalized": "كالسراب الذي لا حقيقة له"
+          },
+          {
+            "ayah_number": 21,
+            "word": "مِرْصَادًا",
+            "word_normalized": "مرصادا",
+            "meaning": "تَرْصُدُ أَهْلَهَا، وَتَرْقُبُهُمْ.",
+            "meaning_normalized": "ترصد أهلها وترقبهم"
+          },
+          {
+            "ayah_number": 23,
+            "word": "أَحْقَابًا",
+            "word_normalized": "أحقابا",
+            "meaning": "دُهُورًا لَا تَنْقَطِعُ.",
+            "meaning_normalized": "دهورا لا تنقطع"
+          },
+          {
+            "ayah_number": 24,
+            "word": "بَرْدًا",
+            "word_normalized": "بردا",
+            "meaning": "مَا يُبَرِّدُ حَرَّ النَّارِ عَلَى أَجْسَادِهِمْ.",
+            "meaning_normalized": "ما يبرد حر النار على أجسادهم"
+          },
+          {
+            "ayah_number": 25,
+            "word": "حَمِيمًا",
+            "word_normalized": "حميما",
+            "meaning": "مَاءً حَارًّا بَالِغًا نِهَايَةَ الْحَرَارَةِ.",
+            "meaning_normalized": "ماء حارا بالغا نهاية الحرارة"
+          },
+          {
+            "ayah_number": 25,
+            "word": "وَغَسَّاقًا",
+            "word_normalized": "وغساقا",
+            "meaning": "صَدِيدَ أَهْلِ النَّارِ.",
+            "meaning_normalized": "صديد أهل النار"
+          },
+          {
+            "ayah_number": 26,
+            "word": "وِفَاقًا",
+            "word_normalized": "وفاقا",
+            "meaning": "عَادِلًا، مُوَافِقًا لِأَعْمَالِهِمْ.",
+            "meaning_normalized": "عادلا موافقا لأعمالهم"
+          },
+          {
+            "ayah_number": 27,
+            "word": "لَا يَرْجُونَ",
+            "word_normalized": "لا يرجون",
+            "meaning": "لَا يَخَافُونَ.",
+            "meaning_normalized": "لا يخافون"
+          },
+          {
+            "ayah_number": 29,
+            "word": "أَحْصَيْنَاهُ",
+            "word_normalized": "أحصيناه",
+            "meaning": "حَفِظْنَاهُ، وَضَبَطْنَاهُ مَكْتُوبًا فِي اللَّوْحِ الْمَحْفُوظِ.",
+            "meaning_normalized": "حفظناه وضبطناه مكتوبا في اللوح المحفوظ"
+          }
+        ]
+      }
+    ]
+  }
+}
