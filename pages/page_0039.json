@@ -25,100 +25,100 @@
         "glossary": [
           {
             "ayah_number": 104,
-            "word": "حَسبُنَا",
+            "word": "حَسْبُنَا",
             "word_normalized": "حسبنا",
-            "meaning": "كَافِينَا",
+            "meaning": "كَافِينَا.",
             "meaning_normalized": "كافينا"
           },
           {
             "ayah_number": 105,
-            "word": "عَلَيكُمْ أَنفُسَكُمْ",
+            "word": "عَلَيْكُمْ أَنْفُسَكُمْ",
             "word_normalized": "عليكم أنفسكم",
-            "meaning": "اِلزَمُوا أَنفُسَكُمُ العَمَلَ بِالطَّاعَةِ",
-            "meaning_normalized": "الزموا أنفسكم العمل بالطاعة"
+            "meaning": "أَلْزِمُوا أَنْفُسَكُمُ الْعَمَلَ بِالطَّاعَةِ.",
+            "meaning_normalized": "ألزموا أنفسكم العمل بالطاعة"
           },
           {
             "ayah_number": 106,
-            "word": "حَضَرَكُمْ فِي الأَرضِ",
-            "word_normalized": "حضركم في الأرض",
-            "meaning": "سَأَقرَمُ",
-            "meaning_normalized": "سأقرم"
+            "word": "ضَرَبْتُمْ فِي الْأَرْضِ",
+            "word_normalized": "ضربتم في الأرض",
+            "meaning": "سَافَرْتُمْ.",
+            "meaning_normalized": "سافرتم"
           },
           {
             "ayah_number": 107,
-            "word": "إِثمًا",
+            "word": "إِثْمًا",
             "word_normalized": "إثما",
-            "meaning": "جِنَايَةً",
-            "meaning_normalized": "جناية"
+            "meaning": "خِيَانَةً.",
+            "meaning_normalized": "خيانة"
           },
           {
             "ayah_number": 107,
-            "word": "وَالأَولَيَانِ",
-            "word_normalized": "والأوليان",
-            "meaning": "الأَقرَبَانِ لِلمَيِّتِ",
+            "word": "الْأَوْلَيَانِ",
+            "word_normalized": "الأوليان",
+            "meaning": "الْأَقْرَبَانِ لِلْمَيِّتِ.",
             "meaning_normalized": "الأقربان للميت"
           },
           {
             "ayah_number": 108,
-            "word": "أَدنَى",
+            "word": "أَدْنَى",
             "word_normalized": "أدنى",
-            "meaning": "أَقرَبُ",
+            "meaning": "أَقْرَبُ.",
             "meaning_normalized": "أقرب"
           },
           {
             "ayah_number": 108,
-            "word": "عَلَى وَجهِهَا",
+            "word": "عَلَى وَجْهِهَا",
             "word_normalized": "على وجهها",
-            "meaning": "عَلَى حَقِيقَتِهَا",
+            "meaning": "عَلَى حَقِيقَتِهَا.",
             "meaning_normalized": "على حقيقتها"
           },
           {
             "ayah_number": 110,
-            "word": "وَأُذلِكَ",
-            "word_normalized": "وأذلك",
-            "meaning": "قَوَّيتُكَ",
+            "word": "أَيَّدْتُكَ",
+            "word_normalized": "أيدتك",
+            "meaning": "قَوَّيْتُكَ.",
             "meaning_normalized": "قويتك"
           },
           {
             "ayah_number": 110,
-            "word": "بِرُوحِ القُدُسِ",
+            "word": "بِرُوحِ الْقُدُسِ",
             "word_normalized": "بروح القدس",
-            "meaning": "جِبرِيلَ ﷺ",
-            "meaning_normalized": "جبريل ﷺ"
+            "meaning": "جِبْرِيلَ عليه السلام.",
+            "meaning_normalized": "جبريل عليه السلام"
           },
           {
             "ayah_number": 110,
-            "word": "وَالأَكمَهُ",
-            "word_normalized": "والأكمه",
-            "meaning": "مَن وُلِدَ أَعمَى",
+            "word": "الْأَكْمَهَ",
+            "word_normalized": "الأكمه",
+            "meaning": "مَنْ وُلِدَ أَعْمَى.",
             "meaning_normalized": "من ولد أعمى"
           },
           {
             "ayah_number": 112,
-            "word": "الحَوَارِيُّونَ",
+            "word": "الْحَوَارِيُّونَ",
             "word_normalized": "الحواريون",
-            "meaning": "أَصفِيَاءُ عِيسَى ﷺ",
-            "meaning_normalized": "أصفياء عيسى ﷺ"
-          },
-          {
-            "ayah_number": 112,
-            "word": "تَكُونُ لَنَا عِيدًا",
-            "word_normalized": "تكون لنا عيدا",
-            "meaning": "تَتَّخِذُ يَومَ نُزُولِهَا عِيدًا نُعَظِّمُهُ نَحنُ، وَمَن بَعدَنَا",
-            "meaning_normalized": "تتخذ يوم نزولها عيدا نعظمه نحن ومن بعدنا"
+            "meaning": "أَصْفِيَاءُ عِيسَى عليه السلام.",
+            "meaning_normalized": "أصفياء عيسى عليه السلام"
           },
           {
             "ayah_number": 114,
-            "word": "وَآيَةً مِنكَ",
+            "word": "تَكُونُ لَنَا عِيدًا",
+            "word_normalized": "تكون لنا عيدا",
+            "meaning": "نَتَّخِذُ يَوْمَ نُزُولِهَا عِيدًا نُعَظِّمُهُ نَحْنُ، وَمَنْ بَعْدَنَا.",
+            "meaning_normalized": "نتخذ يوم نزولها عيدا نعظمه نحن ومن بعدنا"
+          },
+          {
+            "ayah_number": 114,
+            "word": "وَآيَةً مِنْكَ",
             "word_normalized": "وآية منك",
-            "meaning": "عَلَامَةً عَلَى وَحدَانِيَّتِكَ وَنُبُوَّتِي",
+            "meaning": "عَلَامَةً عَلَى وَحْدَانِيَّتِكَ وَنُبُوَّتِي.",
             "meaning_normalized": "علامة على وحدانيتك ونبوتي"
           },
           {
             "ayah_number": 117,
             "word": "شَهِيدًا",
             "word_normalized": "شهيدا",
-            "meaning": "شَاهِدًا",
+            "meaning": "شَاهِدًا.",
             "meaning_normalized": "شاهدا"
           }
         ]
@@ -140,16 +140,16 @@
         "glossary": [
           {
             "ayah_number": 1,
-            "word": "جَعَلَ",
-            "word_normalized": "جعل",
-            "meaning": "خَلَقَ",
+            "word": "وَجَعَلَ",
+            "word_normalized": "وجعل",
+            "meaning": "خَلَقَ.",
             "meaning_normalized": "خلق"
           },
           {
-            "ayah_number": 2,
-            "word": "يَعدِلُونَ",
+            "ayah_number": 1,
+            "word": "يَعْدِلُونَ",
             "word_normalized": "يعدلون",
-            "meaning": "يُسَوُّونَ بِهِ غَيرَهُ، وَيُشرِكُونَ",
+            "meaning": "يُسَوُّونَ بِهِ غَيْرَهُ، وَيُشْرِكُونَ.",
             "meaning_normalized": "يسوون به غيره ويشركون"
           }
         ]

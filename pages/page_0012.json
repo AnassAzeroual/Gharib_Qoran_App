@@ -20,147 +20,147 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
             "ayah_number": 117,
             "word": "بَدِيعُ",
             "word_normalized": "بديع",
-            "meaning": "الْخَالِقُ عَلَى غَيرِ مِثَالٍ سَابِقٍ",
+            "meaning": "الْخَالِقُ عَلَى غَيْرِ مِثَالٍ سَابِقٍ.",
             "meaning_normalized": "الخالق على غير مثال سابق"
           },
           {
             "ayah_number": 125,
             "word": "مَثَابَةً",
             "word_normalized": "مثابة",
-            "meaning": "مَرجِعًا يَأتُونَهُ، ثُمَّ يَرجِعُونَ إِلَى أَهلِيهِم",
+            "meaning": "مَرْجِعًا يَأْتُونَهُ، ثُمَّ يَرْجِعُونَ إِلَى أَهْلِيهِمْ.",
             "meaning_normalized": "مرجعا يأتونه ثم يرجعون إلى أهليهم"
           },
           {
             "ayah_number": 126,
-            "word": "أَضطَرُّهُ",
+            "word": "أَضْطَرُّهُ",
             "word_normalized": "أضطره",
-            "meaning": "أُلجِئُهُ",
+            "meaning": "أُلْجِئُهُ.",
             "meaning_normalized": "ألجئه"
           },
           {
             "ayah_number": 126,
             "word": "الْمَصِيرُ",
             "word_normalized": "المصير",
-            "meaning": "الْمَرجِعُ، وَالْمَقَامُ",
+            "meaning": "الْمَرْجِعُ، وَالْمَقَامُ.",
             "meaning_normalized": "المرجع والمقام"
           },
           {
             "ayah_number": 127,
             "word": "الْقَوَاعِدَ",
             "word_normalized": "القواعد",
-            "meaning": "الْأُسُسَ",
+            "meaning": "الْأُسُسَ.",
             "meaning_normalized": "الأسس"
           },
           {
             "ayah_number": 128,
             "word": "وَأَرِنَا مَنَاسِكَنَا",
             "word_normalized": "وأرنا مناسكنا",
-            "meaning": "بَصِّرنَا بِمَعَالِمِ عِبَادَتِنَا لَكَ",
+            "meaning": "بَصِّرْنَا بِمَعَالِمِ عِبَادَتِنَا لَكَ.",
             "meaning_normalized": "بصرنا بمعالم عبادتنا لك"
           },
           {
             "ayah_number": 129,
-            "word": "وَيُزَكِّيهِم",
+            "word": "وَيُزَكِّيهِمْ",
             "word_normalized": "ويزكيهم",
-            "meaning": "يُطَهِّرُهُم مِنَ الشِّركِ وَسُوءِ الْأَخلَاقِ",
+            "meaning": "يُطَهِّرُهُمْ مِنَ الشِّرْكِ وَسُوءِ الْأَخْلَاقِ.",
             "meaning_normalized": "يطهرهم من الشرك وسوء الأخلاق"
           },
           {
             "ayah_number": 130,
-            "word": "يَرغَبُ",
+            "word": "يَرْغَبُ",
             "word_normalized": "يرغب",
-            "meaning": "يُعرِضُ وَيَنصَرِفُ",
+            "meaning": "يُعْرِضُ وَيَنْصَرِفُ.",
             "meaning_normalized": "يعرض وينصرف"
           },
           {
             "ayah_number": 130,
-            "word": "سَفِهَ نَفسَهُ",
+            "word": "سَفِهَ نَفْسَهُ",
             "word_normalized": "سفه نفسه",
-            "meaning": "سَفِيهٌ، جَاهِلٌ",
+            "meaning": "سَفِيهٌ، جَاهِلٌ.",
             "meaning_normalized": "سفيه جاهل"
           },
           {
-            "ayah_number": 133,
-            "word": "وَالْأَسبَاطَ",
+            "ayah_number": 136,
+            "word": "وَالْأَسْبَاطَ",
             "word_normalized": "والأسباط",
-            "meaning": "الْأَنبِيَاءُ مِن وَلَدِ يَعقُوبَ، الَّذِينَ كَانُوا فِي قَبَائِلِ بَنِي إِسرَائِيلَ",
+            "meaning": "الْأَنْبِيَاءُ مِنْ وَلَدِ يَعْقُوبَ، الَّذِينَ كَانُوا فِي قَبَائِلِ بَنِي إِسْرَائِيلَ.",
             "meaning_normalized": "الأنبياء من ولد يعقوب الذين كانوا في قبائل بني إسرائيل"
           },
           {
             "ayah_number": 137,
             "word": "شِقَاقٍ",
             "word_normalized": "شقاق",
-            "meaning": "خِلَافٍ شَدِيدٍ",
+            "meaning": "خِلَافٍ شَدِيدٍ.",
             "meaning_normalized": "خلاف شديد"
           },
           {
             "ayah_number": 138,
-            "word": "صِبغَةَ اللهِ",
+            "word": "صِبْغَةَ اللهِ",
             "word_normalized": "صبغة الله",
-            "meaning": "الزَمُوا دِينَ اللهِ وَفِطرَتَهُ",
+            "meaning": "الْزَمُوا دِينَ اللهِ وَفِطْرَتَهُ.",
             "meaning_normalized": "الزموا دين الله وفطرته"
           },
           {
             "ayah_number": 143,
-            "word": "يَنقَلِبُ عَلَى عَقِبَيهِ",
+            "word": "يَنْقَلِبُ عَلَى عَقِبَيْهِ",
             "word_normalized": "ينقلب على عقبيه",
-            "meaning": "يَرتَدُّ عَن دِينِهِ",
+            "meaning": "يَرْتَدُّ عَنْ دِينِهِ.",
             "meaning_normalized": "يرتد عن دينه"
           },
           {
             "ayah_number": 147,
             "word": "الْمُمتَرِينَ",
             "word_normalized": "الممترين",
-            "meaning": "الشَّاكِّينَ",
+            "meaning": "الشَّاكِّينَ.",
             "meaning_normalized": "الشاكين"
           },
           {
-            "ayah_number": 149,
-            "word": "يَلمُهُم",
-            "word_normalized": "يلمهم",
-            "meaning": "يَطرُدُهُم",
+            "ayah_number": 159,
+            "word": "يَلْعَنُهُمْ",
+            "word_normalized": "يلعنهم",
+            "meaning": "يَطْرُدُهُمْ.",
             "meaning_normalized": "يطردهم"
           },
           {
             "ayah_number": 164,
-            "word": "وَالْفُلكِ",
+            "word": "وَالْفُلْكِ",
             "word_normalized": "والفلك",
-            "meaning": "السُّفُنِ",
+            "meaning": "السُّفُنِ.",
             "meaning_normalized": "السفن"
           },
           {
             "ayah_number": 164,
             "word": "وَبَثَّ",
             "word_normalized": "وبث",
-            "meaning": "نَشَرَ",
+            "meaning": "نَشَرَ.",
             "meaning_normalized": "نشر"
           },
           {
             "ayah_number": 164,
-            "word": "وَتَصرِيفِ الرِّيَاحِ",
+            "word": "وَتَصْرِيفِ الرِّيَاحِ",
             "word_normalized": "وتصريف الرياح",
-            "meaning": "تَقلِيبِهَا، وَتَوجِيهِهَا",
+            "meaning": "تَقْلِيبِهَا، وَتَوْجِيهِهَا.",
             "meaning_normalized": "تقليبها وتوجيهها"
           },
           {
             "ayah_number": 166,
-            "word": "الْأَسبَابُ",
+            "word": "الْأَسْبَابُ",
             "word_normalized": "الأسباب",
-            "meaning": "الصِّلَاتُ",
+            "meaning": "الصِّلَاتُ.",
             "meaning_normalized": "الصلات"
           },
           {
             "ayah_number": 167,
             "word": "حَسَرَاتٍ",
             "word_normalized": "حسرات",
-            "meaning": "نَدَامَاتٍ",
+            "meaning": "نَدَامَاتٍ.",
             "meaning_normalized": "ندامات"
           }
         ]

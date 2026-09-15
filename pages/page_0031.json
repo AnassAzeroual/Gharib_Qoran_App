@@ -4,8 +4,8 @@
     "header": {
       "right": "سُورَةُ النِّسَاءِ",
       "right_normalized": "سورة النساء",
-      "left": "٣١",
-      "left_normalized": "31"
+      "left": "",
+      "left_normalized": ""
     },
     "sections": [
       {
@@ -20,148 +20,148 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
             "ayah_number": 125,
             "word": "حَنِيفًا",
             "word_normalized": "حنيفا",
-            "meaning": "مَائِلًا عَن الشِّركِ إِلَى التَّوحِيدِ",
+            "meaning": "مَائِلًا عَنِ الشِّرْكِ إِلَى التَّوْحِيدِ.",
             "meaning_normalized": "مائلا عن الشرك إلى التوحيد"
           },
           {
             "ayah_number": 125,
             "word": "خَلِيلًا",
             "word_normalized": "خليلا",
-            "meaning": "صَفِيًّا",
+            "meaning": "صَفِيًّا.",
             "meaning_normalized": "صفيا"
           },
           {
             "ayah_number": 127,
-            "word": "بِالقِسطِ",
+            "word": "بِالْقِسْطِ",
             "word_normalized": "بالقسط",
-            "meaning": "بِالعَدلِ",
+            "meaning": "بِالْعَدْلِ.",
             "meaning_normalized": "بالعدل"
           },
           {
             "ayah_number": 128,
-            "word": "نُشُورًا",
-            "word_normalized": "نشورا",
-            "meaning": "تَرَفُّعًا وَانصِرَافًا عَنهَا",
+            "word": "نُشُوزًا",
+            "word_normalized": "نشوزا",
+            "meaning": "تَرَفُّعًا وَانْصِرَافًا عَنْهَا.",
             "meaning_normalized": "ترفعا وانصرافا عنها"
           },
           {
             "ayah_number": 128,
-            "word": "وَأُحضِرَتِ الأَنفُسُ الشُّحَّ",
+            "word": "وَأُحْضِرَتِ الْأَنْفُسُ الشُّحَّ",
             "word_normalized": "وأحضرت الأنفس الشح",
-            "meaning": "جُبِلَت عَلَى الشُّحِّ وَالبَخلِ",
+            "meaning": "جُبِلَتْ عَلَى الشُّحِّ وَالْبُخْلِ.",
             "meaning_normalized": "جبلت على الشح والبخل"
           },
           {
             "ayah_number": 129,
             "word": "فَتَذَرُوهَا",
             "word_normalized": "فتذروها",
-            "meaning": "تَترُكُوهَا",
+            "meaning": "تَتْرُكُوهَا.",
             "meaning_normalized": "تتركوها"
           },
           {
             "ayah_number": 129,
-            "word": "كَالمُعَلَّقَةِ",
+            "word": "كَالْمُعَلَّقَةِ",
             "word_normalized": "كالمعلقة",
-            "meaning": "الَّتِي لَيسَت بِذَاتِ زَوجٍ، وَلَا مُطَلَّقَةٍ",
+            "meaning": "الَّتِي لَيْسَتْ بِذَاتِ زَوْجٍ، وَلَا مُطَلَّقَةٍ.",
             "meaning_normalized": "التي ليست بذات زوج ولا مطلقة"
           },
           {
             "ayah_number": 135,
-            "word": "قَوَّامِينَ",
+            "word": "قَوَّامِينَ",
             "word_normalized": "قوامين",
-            "meaning": "قَائِمِينَ",
+            "meaning": "قَائِمِينَ.",
             "meaning_normalized": "قائمين"
           },
           {
             "ayah_number": 135,
-            "word": "بِالقِسطِ",
+            "word": "بِالْقِسْطِ",
             "word_normalized": "بالقسط",
-            "meaning": "بِالعَدلِ",
+            "meaning": "بِالْعَدْلِ.",
             "meaning_normalized": "بالعدل"
           },
           {
             "ayah_number": 135,
-            "word": "تَلوُوا",
+            "word": "تَلْوُوا",
             "word_normalized": "تلووا",
-            "meaning": "تُحَرِّفُوا الشَّهَادَةَ بِأَلسِنَتِكُمْ",
+            "meaning": "تُحَرِّفُوا الشَّهَادَةَ بِأَلْسِنَتِكُمْ.",
             "meaning_normalized": "تحرفوا الشهادة بألسنتكم"
           },
           {
             "ayah_number": 135,
-            "word": "فَتُعرِضُوا",
-            "word_normalized": "فتعرضوا",
-            "meaning": "تَترُكُوا الشَّهَادَةَ",
+            "word": "تُعْرِضُوا",
+            "word_normalized": "تعرضوا",
+            "meaning": "تَتْرُكُوا الشَّهَادَةَ.",
             "meaning_normalized": "تتركوا الشهادة"
           },
           {
             "ayah_number": 141,
-            "word": "يَترَبَّصُونَ بِكُمْ",
+            "word": "يَتَرَبَّصُونَ بِكُمْ",
             "word_normalized": "يتربصون بكم",
-            "meaning": "يَنتَظِرُونَ مَا يَحِلُّ بِكُمْ",
+            "meaning": "يَنْتَظِرُونَ مَا يَحِلُّ بِكُمْ.",
             "meaning_normalized": "ينتظرون ما يحل بكم"
           },
           {
-            "ayah_number": 142,
-            "word": "تُسَاعِدُونَ عَلَيكُمْ",
-            "word_normalized": "تساعدون عليكم",
-            "meaning": "نُسَاعِدُكُمْ",
+            "ayah_number": 141,
+            "word": "نَسْتَحْوِذْ عَلَيْكُمْ",
+            "word_normalized": "نستحوذ عليكم",
+            "meaning": "نُسَاعِدْكُمْ.",
             "meaning_normalized": "نساعدكم"
           },
           {
             "ayah_number": 143,
-            "word": "مُذَبذَبِينَ",
+            "word": "مُذَبْذَبِينَ",
             "word_normalized": "مذبذبين",
-            "meaning": "مُتَرَدِّدِينَ",
+            "meaning": "مُتَرَدِّدِينَ.",
             "meaning_normalized": "مترددين"
           },
           {
             "ayah_number": 145,
-            "word": "الدَّركِ",
+            "word": "الدَّرْكِ",
             "word_normalized": "الدرك",
-            "meaning": "المَنزِلَةُ، وَالطَّبَقُ",
+            "meaning": "الْمَنْزِلَةُ، وَالطَّبَقُ.",
             "meaning_normalized": "المنزلة والطبق"
           },
           {
             "ayah_number": 154,
-            "word": "الطُّورِ",
+            "word": "الطُّورِ",
             "word_normalized": "الطور",
-            "meaning": "جَبَلٌ بِسَينَاءَ",
+            "meaning": "جَبَلٌ بِسَيْنَاءَ.",
             "meaning_normalized": "جبل بسيناء"
           },
           {
             "ayah_number": 154,
-            "word": "وَلَا تَعدُوا",
+            "word": "وَلَا تَعْدُوا",
             "word_normalized": "ولا تعدوا",
-            "meaning": "لَا تَتَعَدُّوا",
+            "meaning": "لَا تَتَعَدَّوْا.",
             "meaning_normalized": "لا تتعدوا"
           },
           {
             "ayah_number": 155,
-            "word": "غُلفًا",
-            "word_normalized": "غلفا",
-            "meaning": "مُغَطَّاةً",
+            "word": "غُلْفٌ",
+            "word_normalized": "غلف",
+            "meaning": "مُغَطَّاةٌ.",
             "meaning_normalized": "مغطاة"
           },
           {
-            "ayah_number": 160,
-            "word": "الرَّاسِخُونَ",
+            "ayah_number": 162,
+            "word": "الرَّاسِخُونَ",
             "word_normalized": "الراسخون",
-            "meaning": "المُتَمَكِّنُونَ",
+            "meaning": "الْمُتَمَكِّنُونَ.",
             "meaning_normalized": "المتمكنون"
           },
           {
-            "ayah_number": 162,
-            "word": "وَالأَسبَاطِ",
+            "ayah_number": 163,
+            "word": "وَالْأَسْبَاطِ",
             "word_normalized": "والأسباط",
-            "meaning": "الأَسبَاءُ مِن وَلَدِ يَعقُوبَ ﷺ ، الَّذِينَ بَعَثُوا فِي قَبَائِلِ بَنِي إِسرَائِيلَ الِاثنَتَي عَشَرَةَ",
-            "meaning_normalized": "الأسباء من ولد يعقوب ﷺ الذين بعثوا في قبائل بني إسرائيل الاثنتي عشرة"
+            "meaning": "الْأَنْبِيَاءُ مِنْ وَلَدِ يَعْقُوبَ عَلَيْهِ السَّلَامُ، الَّذِينَ بُعِثُوا فِي قَبَائِلِ بَنِي إِسْرَائِيلَ الِاثْنَتَيْ عَشْرَةَ.",
+            "meaning_normalized": "الأنبياء من ولد يعقوب عليه السلام الذين بعثوا في قبائل بني إسرائيل الاثنتي عشرة"
           }
         ]
       }

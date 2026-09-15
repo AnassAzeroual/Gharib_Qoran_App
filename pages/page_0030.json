@@ -4,8 +4,8 @@
     "header": {
       "right": "السِّرَاجُ فِي بَيَانِ غَرِيبِ الْقُرْآنِ",
       "right_normalized": "السراج في بيان غريب القرآن",
-      "left": "٣٠",
-      "left_normalized": "30"
+      "left": "",
+      "left_normalized": ""
     },
     "sections": [
       {
@@ -20,154 +20,154 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
-            "ayah_number": 101,
-            "word": "فَتَقصُرُوا",
-            "word_normalized": "فتقصروا",
-            "meaning": "تُسهِيرُونَ",
-            "meaning_normalized": "تسهيرون"
+            "ayah_number": 102,
+            "word": "تَغْفُلُونَ",
+            "word_normalized": "تغفلون",
+            "meaning": "تَسْهُونَ.",
+            "meaning_normalized": "تسهون"
           },
           {
             "ayah_number": 102,
-            "word": "قِمَلَةً وَاحِدَةً",
-            "word_normalized": "قملة واحدة",
-            "meaning": "جَمَاعَةٌ وَاحِدَةٌ لِيَقِفُوا عَلَيكُمْ",
-            "meaning_normalized": "جماعة واحدة ليقفوا عليكم"
+            "word": "مَيْلَةً وَاحِدَةً",
+            "word_normalized": "ميلة واحدة",
+            "meaning": "حَمْلَةً وَاحِدَةً لِيَقْضُوا عَلَيْكُمْ.",
+            "meaning_normalized": "حملة واحدة ليقضوا عليكم"
           },
           {
-            "ayah_number": 102,
-            "word": "وَكُنبًا",
-            "word_normalized": "وكنبا",
-            "meaning": "مَكتُوبًا مَفرُوضًا",
+            "ayah_number": 103,
+            "word": "كِتَابًا",
+            "word_normalized": "كتابا",
+            "meaning": "مَكْتُوبًا مَفْرُوضًا.",
             "meaning_normalized": "مكتوبا مفروضا"
           },
           {
-            "ayah_number": 102,
-            "word": "قَتَرَقُّوَا",
-            "word_normalized": "قترقوا",
-            "meaning": "مُحَدَّدًا فِي أَوقَاتٍ مَعلُومَةٍ",
+            "ayah_number": 103,
+            "word": "مَوْقُوتًا",
+            "word_normalized": "موقوتا",
+            "meaning": "مُحَدَّدًا فِي أَوْقَاتٍ مَعْلُومَةٍ.",
             "meaning_normalized": "محددا في أوقات معلومة"
           },
           {
             "ayah_number": 104,
             "word": "وَلَا تَهِنُوا",
             "word_normalized": "ولا تهنوا",
-            "meaning": "لَا تَضعُفُوا",
+            "meaning": "لَا تَضْعُفُوا.",
             "meaning_normalized": "لا تضعفوا"
           },
           {
             "ayah_number": 104,
-            "word": "ابتِغَاءِ القَومِ",
+            "word": "ابْتِغَاءِ الْقَوْمِ",
             "word_normalized": "ابتغاء القوم",
-            "meaning": "طَلَبِ العَدُوِّ",
+            "meaning": "طَلَبِ الْعَدُوِّ.",
             "meaning_normalized": "طلب العدو"
           },
           {
             "ayah_number": 105,
-            "word": "حَصِّيبًا",
-            "word_normalized": "حصيبا",
-            "meaning": "مُدَافِعًا عَنهُمْ",
+            "word": "خَصِيمًا",
+            "word_normalized": "خصيما",
+            "meaning": "مُدَافِعًا عَنْهُمْ.",
             "meaning_normalized": "مدافعا عنهم"
           },
           {
             "ayah_number": 107,
-            "word": "يُحَاذُونَ",
-            "word_normalized": "يحاذون",
-            "meaning": "يُحَوِّلُونَ أَنفُسَهُمْ بِالمَعصِيَةِ",
-            "meaning_normalized": "يحولون أنفسهم بالمعصية"
+            "word": "يَخْتَانُونَ",
+            "word_normalized": "يختانون",
+            "meaning": "يَخُونُونَ أَنْفُسَهُمْ بِالْمَعْصِيَةِ.",
+            "meaning_normalized": "يخونون أنفسهم بالمعصية"
           },
           {
             "ayah_number": 107,
-            "word": "حِوَانًا",
-            "word_normalized": "حوانا",
-            "meaning": "عَظِيمُ الخِيَانَةِ",
+            "word": "خَوَّانًا",
+            "word_normalized": "خوانا",
+            "meaning": "عَظِيمَ الْخِيَانَةِ.",
             "meaning_normalized": "عظيم الخيانة"
           },
           {
             "ayah_number": 108,
-            "word": "يَتَيَيُّونَ",
-            "word_normalized": "يتييون",
-            "meaning": "يَدبِرُونَ لَيلًا",
+            "word": "يُبَيِّتُونَ",
+            "word_normalized": "يبيتون",
+            "meaning": "يُدَبِّرُونَ لَيْلًا.",
             "meaning_normalized": "يدبرون ليلا"
           },
           {
-            "ayah_number": 109,
-            "word": "حَدَّثتُهُمْ",
-            "word_normalized": "حدثتهم",
-            "meaning": "حَدِيثُهُمْ سِرًّا",
+            "ayah_number": 114,
+            "word": "نَجْوَاهُمْ",
+            "word_normalized": "نجواهم",
+            "meaning": "حَدِيثَهُمْ سِرًّا.",
             "meaning_normalized": "حديثهم سرا"
           },
           {
             "ayah_number": 115,
             "word": "يُشَاقِقِ",
             "word_normalized": "يشاقق",
-            "meaning": "يُخَالِفُ عِنَادًا",
+            "meaning": "يُخَالِفْ عِنَادًا.",
             "meaning_normalized": "يخالف عنادا"
           },
           {
             "ayah_number": 115,
-            "word": "نُوَلِّهِ مَا تَوَلَّى",
+            "word": "نُوَلِّهِ مَا تَوَلَّى",
             "word_normalized": "نوله ما تولى",
-            "meaning": "نَترُكُهُ، وَمَا تَوَجَّهَ إِلَيهِ",
+            "meaning": "نَتْرُكْهُ، وَمَا تَوَجَّهَ إِلَيْهِ.",
             "meaning_normalized": "نتركه وما توجه إليه"
           },
           {
             "ayah_number": 117,
-            "word": "وَإِتًّا",
-            "word_normalized": "وإتا",
-            "meaning": "أَضدَادًا ؛ كَالَّلَاتِ وَالعُزَّى وَمَنَاةَ",
-            "meaning_normalized": "أضدادا كاللات والعزى ومناة"
+            "word": "إِنَاثًا",
+            "word_normalized": "إناثا",
+            "meaning": "أَصْنَامًا؛ كَاللَّاتِ وَالْعُزَّى وَمَنَاةَ.",
+            "meaning_normalized": "أصناما كاللات والعزى ومناة"
           },
           {
             "ayah_number": 117,
-            "word": "قَرِيدًا",
-            "word_normalized": "قريدا",
-            "meaning": "مُتَمَرِّدًا عَاتِيًا",
+            "word": "مَرِيدًا",
+            "word_normalized": "مريدا",
+            "meaning": "مُتَمَرِّدًا عَاتِيًا.",
             "meaning_normalized": "متمردا عاتيا"
           },
           {
             "ayah_number": 118,
-            "word": "نَصِيبًا مَفرُوضًا",
+            "word": "نَصِيبًا مَفْرُوضًا",
             "word_normalized": "نصيبا مفروضا",
-            "meaning": "جُزءًا مَعلُومًا",
+            "meaning": "جُزْءًا مَعْلُومًا.",
             "meaning_normalized": "جزءا معلوما"
           },
           {
             "ayah_number": 119,
-            "word": "فَلَيُيَيِّكُنَّ",
-            "word_normalized": "فليييكن",
-            "meaning": "فَليُقطَعُنَّ وَلَيُشَوِّهُنَّ",
-            "meaning_normalized": "فليقطعن وليشوهن"
+            "word": "فَلَيُبَتِّكُنَّ",
+            "word_normalized": "فليبتكن",
+            "meaning": "فَلَيُقَطِّعُنَّ وَلَيُشَقِّقُنَّ.",
+            "meaning_normalized": "فليقطعن وليشققن"
           },
           {
-            "ayah_number": 119,
-            "word": "مُحِيطًا",
-            "word_normalized": "محيطا",
-            "meaning": "مُحِيدًا، وَمُهَربًا",
+            "ayah_number": 121,
+            "word": "مَحِيصًا",
+            "word_normalized": "محيصا",
+            "meaning": "مَحِيدًا، وَمَهْرَبًا.",
             "meaning_normalized": "محيدا ومهربا"
           },
           {
             "ayah_number": 122,
-            "word": "وَكِيلًا",
-            "word_normalized": "وكيلا",
-            "meaning": "قَولًا",
+            "word": "قِيلًا",
+            "word_normalized": "قيلا",
+            "meaning": "قَوْلًا.",
             "meaning_normalized": "قولا"
           },
           {
-            "ayah_number": 122,
-            "word": "قَتُيمًا",
-            "word_normalized": "قتيما",
-            "meaning": "قَلِيلًا ؛ كَالقَترَةِ وَهِيَ الحُفرَةُ فِي ظَهرِ النَّوَاةِ",
-            "meaning_normalized": "قليلا كالقترة وهي الحفرة في ظهر النواة"
+            "ayah_number": 124,
+            "word": "نَقِيرًا",
+            "word_normalized": "نقيرا",
+            "meaning": "قَلِيلًا؛ كَالنُّقْرَةِ وَهِيَ الْحُفْرَةُ فِي ظَهْرِ النَّوَاةِ.",
+            "meaning_normalized": "قليلا كالنقرة وهي الحفرة في ظهر النواة"
           },
           {
             "ayah_number": 125,
-            "word": "أَسَلَمَ",
+            "word": "أَسْلَمَ",
             "word_normalized": "أسلم",
-            "meaning": "اِنقَادَ، وَاستَسلَمَ",
+            "meaning": "انْقَادَ، وَاسْتَسْلَمَ.",
             "meaning_normalized": "انقاد واستسلم"
           }
         ]

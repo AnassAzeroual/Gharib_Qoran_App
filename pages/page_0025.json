@@ -20,140 +20,140 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
             "ayah_number": 2,
             "word": "حُوبًا",
             "word_normalized": "حوبا",
-            "meaning": "إِثْمًا",
+            "meaning": "إِثْمًا.",
             "meaning_normalized": "إثما"
           },
           {
             "ayah_number": 3,
-            "word": "تَقسِطُوا",
+            "word": "تُقْسِطُوا",
             "word_normalized": "تقسطوا",
-            "meaning": "تَعدِلُوا",
+            "meaning": "تَعْدِلُوا.",
             "meaning_normalized": "تعدلوا"
           },
           {
             "ayah_number": 3,
-            "word": "أَلَّا تَعُولُوا",
-            "word_normalized": "ألا تعولوا",
-            "meaning": "أَقرَبُ إِلَى عَدَمِ الْجَورِ",
+            "word": "أَدْنَى أَلَّا تَعُولُوا",
+            "word_normalized": "أدنى ألا تعولوا",
+            "meaning": "أَقْرَبُ إِلَى عَدَمِ الْجَوْرِ.",
             "meaning_normalized": "أقرب إلى عدم الجور"
           },
           {
             "ayah_number": 4,
-            "word": "صَدُقَاتِهِنَّ",
+            "word": "صَدُقَاتِهِنَّ",
             "word_normalized": "صدقاتهن",
-            "meaning": "مُهُورَهُنَّ",
+            "meaning": "مُهُورَهُنَّ.",
             "meaning_normalized": "مهورهن"
           },
           {
-            "ayah_number": 5,
-            "word": "نِحلَةً",
+            "ayah_number": 4,
+            "word": "نِحْلَةً",
             "word_normalized": "نحلة",
-            "meaning": "فَرِيضَةً عَن طِيبِ نَفسٍ",
+            "meaning": "فَرِيضَةً عَنْ طِيبِ نَفْسٍ.",
             "meaning_normalized": "فريضة عن طيب نفس"
           },
           {
-            "ayah_number": 6,
+            "ayah_number": 4,
             "word": "هَنِيئًا مَرِيئًا",
             "word_normalized": "هنيئا مريئا",
-            "meaning": "حَلَالًا طَيِّبًا",
+            "meaning": "حَلَالًا طَيِّبًا.",
             "meaning_normalized": "حلالا طيبا"
           },
           {
-            "ayah_number": 7,
-            "word": "السُّفَهَاءَ",
+            "ayah_number": 5,
+            "word": "السُّفَهَاءَ",
             "word_normalized": "السفهاء",
-            "meaning": "مَن لَا يُحسِنُونَ التَّصَرُّفَ فِي الْمَالِ",
+            "meaning": "مَنْ لَا يُحْسِنُونَ التَّصَرُّفَ فِي الْمَالِ.",
             "meaning_normalized": "من لا يحسنون التصرف في المال"
           },
           {
-            "ayah_number": 8,
-            "word": "وَابنَ تَابَلًا",
-            "word_normalized": "وابن تابلا",
-            "meaning": "اختَبَرُوا",
+            "ayah_number": 6,
+            "word": "وَابْتَلُوا",
+            "word_normalized": "وابتلوا",
+            "meaning": "اخْتَبِرُوا.",
             "meaning_normalized": "اختبروا"
           },
           {
-            "ayah_number": 9,
-            "word": "عَلَّمتُمْ",
-            "word_normalized": "علمتم",
-            "meaning": "عَلِمتُمْ",
+            "ayah_number": 6,
+            "word": "آنَسْتُمْ",
+            "word_normalized": "آنستم",
+            "meaning": "عَلِمْتُمْ.",
             "meaning_normalized": "علمتم"
           },
           {
-            "ayah_number": 10,
-            "word": "وَنُشًا",
-            "word_normalized": "ونشا",
-            "meaning": "حُسنُ تَصَرُّفٍ فِي الْأَموَالِ",
+            "ayah_number": 6,
+            "word": "رُشْدًا",
+            "word_normalized": "رشدا",
+            "meaning": "حُسْنَ تَصَرُّفٍ فِي الْأَمْوَالِ.",
             "meaning_normalized": "حسن تصرف في الأموال"
           },
           {
-            "ayah_number": 11,
+            "ayah_number": 6,
             "word": "وَبِدَارًا",
             "word_normalized": "وبدارا",
-            "meaning": "مُبَادَرَةً",
+            "meaning": "مُبَادَرَةً.",
             "meaning_normalized": "مبادرة"
           },
           {
-            "ayah_number": 12,
-            "word": "حَصِينًا",
-            "word_normalized": "حصينا",
-            "meaning": "مُحَاصِبًا، وَمُشَاهِدًا",
-            "meaning_normalized": "محاصبا ومشاهدا"
+            "ayah_number": 6,
+            "word": "حَسِيبًا",
+            "word_normalized": "حسيبا",
+            "meaning": "مُحَاسِبًا، وَشَاهِدًا.",
+            "meaning_normalized": "محاسبا وشاهدا"
           },
           {
-            "ayah_number": 13,
-            "word": "وَسَيَدخُلُونَ",
-            "word_normalized": "وسيدخلون",
-            "meaning": "سَيَدخُلُونَ",
+            "ayah_number": 10,
+            "word": "وَسَيَصْلَوْنَ",
+            "word_normalized": "وسيصلون",
+            "meaning": "سَيَدْخُلُونَ.",
             "meaning_normalized": "سيدخلون"
           },
           {
-            "ayah_number": 14,
-            "word": "إِخرَجُهُ",
-            "word_normalized": "إخرجه",
-            "meaning": "اثنَا فَأَكثَرُ",
-            "meaning_normalized": "اثنا فأكثر"
+            "ayah_number": 11,
+            "word": "إِخْوَةٌ",
+            "word_normalized": "إخوة",
+            "meaning": "اثْنَانِ فَأَكْثَرُ.",
+            "meaning_normalized": "اثنان فأكثر"
           },
           {
-            "ayah_number": 15,
-            "word": "وُلدَكُمْ",
-            "word_normalized": "ولدكم",
-            "meaning": "ابنٌ، أَو بِنتٌ",
+            "ayah_number": 12,
+            "word": "وَلَدٌ",
+            "word_normalized": "ولد",
+            "meaning": "ابْنٌ، أَوْ بِنْتٌ.",
             "meaning_normalized": "ابن أو بنت"
           },
           {
-            "ayah_number": 16,
-            "word": "كَـ ـلَالَةً",
+            "ayah_number": 12,
+            "word": "كَلَالَةً",
             "word_normalized": "كلالة",
-            "meaning": "مَن لَيسَ لَهُ وَلَدٌ، وَلَا وَالِدٌ",
+            "meaning": "مَنْ لَيْسَ لَهُ وَلَدٌ، وَلَا وَالِدٌ.",
             "meaning_normalized": "من ليس له ولد ولا والد"
           },
           {
-            "ayah_number": 18,
-            "word": "التَّوبَةُ حَصَنَهُ",
-            "word_normalized": "التوبة حصنه",
-            "meaning": "النَّعلَةُ الْقَبِيحَةُ، وَهِيَ الزِّنَى",
-            "meaning_normalized": "النعلة القبيحة وهي الزنى"
+            "ayah_number": 15,
+            "word": "الْفَاحِشَةَ",
+            "word_normalized": "الفاحشة",
+            "meaning": "الْفِعْلَةَ الْقَبِيحَةَ، وَهِيَ الزِّنَى.",
+            "meaning_normalized": "الفعلة القبيحة وهي الزنى"
           },
           {
             "ayah_number": 17,
             "word": "بِجَهَالَةٍ",
             "word_normalized": "بجهالة",
-            "meaning": "بِسَفَهٍ، وَكُلُّ مَن عَصَى اللهَ فَهُوَ جَاهِلٌ",
+            "meaning": "بِسَفَهٍ، وَكُلُّ مَنْ عَصَى اللهَ فَهُوَ جَاهِلٌ.",
             "meaning_normalized": "بسفه وكل من عصى الله فهو جاهل"
           },
           {
             "ayah_number": 17,
-            "word": "مِن قَرِيبٍ",
+            "word": "مِنْ قَرِيبٍ",
             "word_normalized": "من قريب",
-            "meaning": "قَبلَ مُعَايَنَةِ الْمَوتِ",
+            "meaning": "قَبْلَ مُعَايَنَةِ الْمَوْتِ.",
             "meaning_normalized": "قبل معاينة الموت"
           }
         ]

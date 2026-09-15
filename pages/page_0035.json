@@ -25,142 +25,142 @@
         "glossary": [
           {
             "ayah_number": 21,
-            "word": "المُقَدَّسَةُ",
+            "word": "الْمُقَدَّسَةَ",
             "word_normalized": "المقدسة",
-            "meaning": "الطَّاهِرَةُ، وَهِيَ بَيتُ المَقدِسِ وَمَا حَولَهَا",
-            "meaning_normalized": "الطاهرة وهي بيت المقدس وما حولها"
+            "meaning": "الْمُطَهَّرَةَ، وَهِيَ بَيْتُ الْمَقْدِسِ وَمَا حَوْلَهَا.",
+            "meaning_normalized": "المطهرة وهي بيت المقدس وما حولها"
           },
           {
             "ayah_number": 21,
-            "word": "وَلَا تَرتَدُّوا",
+            "word": "وَلَا تَرْتَدُّوا",
             "word_normalized": "ولا ترتدوا",
-            "meaning": "لَا تَرجِعُوا عَن قِتَالِهِمْ",
+            "meaning": "لَا تَرْجِعُوا عَنْ قِتَالِهِمْ.",
             "meaning_normalized": "لا ترجعوا عن قتالهم"
           },
           {
             "ayah_number": 25,
-            "word": "فَاقرُق",
-            "word_normalized": "فاقرق",
-            "meaning": "فَاحكُمْ",
+            "word": "فَافْرُقْ",
+            "word_normalized": "فافرق",
+            "meaning": "فَاحْكُمْ.",
             "meaning_normalized": "فاحكم"
           },
           {
             "ayah_number": 26,
-            "word": "فَتَيهُونَ",
-            "word_normalized": "فتيهون",
-            "meaning": "يَسِيرُونَ ضَائِعِينَ مُتَحَيِّرِينَ",
+            "word": "يَتِيهُونَ",
+            "word_normalized": "يتيهون",
+            "meaning": "يَسِيرُونَ ضَائِعِينَ مُتَحَيِّرِينَ.",
             "meaning_normalized": "يسيرون ضائعين متحيرين"
           },
           {
             "ayah_number": 26,
-            "word": "وَلَا تَأسَ",
-            "word_normalized": "ولا تأس",
-            "meaning": "فَلَا تَحزَن",
+            "word": "فَلَا تَأْسَ",
+            "word_normalized": "فلا تأس",
+            "meaning": "فَلَا تَحْزَنْ.",
             "meaning_normalized": "فلا تحزن"
           },
           {
             "ayah_number": 27,
-            "word": "إِذ قَرَّبَا",
-            "word_normalized": "إذ قربا",
-            "meaning": "قَابِيلَ، وَهَابِيلَ",
+            "word": "ابْنَيْ آدَمَ",
+            "word_normalized": "ابني آدم",
+            "meaning": "قَابِيلَ، وَهَابِيلَ.",
             "meaning_normalized": "قابيل وهابيل"
           },
           {
             "ayah_number": 28,
-            "word": "بَسَطتَ",
+            "word": "بَسَطْتَ",
             "word_normalized": "بسطت",
-            "meaning": "مَدَدتَ",
+            "meaning": "مَدَدْتَ.",
             "meaning_normalized": "مددت"
           },
           {
             "ayah_number": 29,
-            "word": "بِإِثمِي",
-            "word_normalized": "بإثمي",
-            "meaning": "تَوَجَّعَ بِإِثمِ قَتلِي",
-            "meaning_normalized": "توجع بإثم قتلي"
+            "word": "تَبُوءَ بِإِثْمِي",
+            "word_normalized": "تبوء بإثمي",
+            "meaning": "تَرْجِعَ بِإِثْمِ قَتْلِي.",
+            "meaning_normalized": "ترجع بإثم قتلي"
           },
           {
             "ayah_number": 29,
-            "word": "وَإِثمِكَ",
+            "word": "وَإِثْمِكَ",
             "word_normalized": "وإثمك",
-            "meaning": "ذَنبِكَ الَّذِي عَلَيكَ قَبلَ ذَلِكَ",
+            "meaning": "ذَنْبِكَ الَّذِي عَلَيْكَ قَبْلَ ذَلِكَ.",
             "meaning_normalized": "ذنبك الذي عليك قبل ذلك"
           },
           {
             "ayah_number": 30,
-            "word": "فَطَوَّعَت",
+            "word": "فَطَوَّعَتْ",
             "word_normalized": "فطوعت",
-            "meaning": "قَوَّتَت",
-            "meaning_normalized": "قوتت"
+            "meaning": "زَيَّنَتْ.",
+            "meaning_normalized": "زينت"
           },
           {
             "ayah_number": 31,
-            "word": "يَبحَثُ فِي الأَرضِ",
+            "word": "يَبْحَثُ فِي الْأَرْضِ",
             "word_normalized": "يبحث في الأرض",
-            "meaning": "يَحفُرُ فِيهَا حُفرَةً",
+            "meaning": "يَحْفُرُ فِيهَا حُفْرَةً.",
             "meaning_normalized": "يحفر فيها حفرة"
           },
           {
             "ayah_number": 31,
-            "word": "سَوءَةَ",
+            "word": "سَوْءَةَ",
             "word_normalized": "سوءة",
-            "meaning": "عَورَةً، أَو جِيفَةَ أَخِيهِ",
+            "meaning": "عَوْرَةً، أَوْ جِيفَةَ أَخِيهِ.",
             "meaning_normalized": "عورة أو جيفة أخيه"
           },
           {
-            "ayah_number": 32,
-            "word": "فَصَلَّبُوا",
-            "word_normalized": "فصلبوا",
-            "meaning": "يُشَدُّوا عَلَى خَشَبَةٍ",
+            "ayah_number": 33,
+            "word": "يُصَلَّبُوا",
+            "word_normalized": "يصلبوا",
+            "meaning": "يُشَدُّوا عَلَى خَشَبَةٍ.",
             "meaning_normalized": "يشدوا على خشبة"
           },
           {
-            "ayah_number": 33,
-            "word": "وَاتَّبَغَوا",
-            "word_normalized": "واتبغوا",
-            "meaning": "أَظلَمُوا",
-            "meaning_normalized": "أظلموا"
+            "ayah_number": 35,
+            "word": "وَابْتَغُوا",
+            "word_normalized": "وابتغوا",
+            "meaning": "اطْلُبُوا.",
+            "meaning_normalized": "اطلبوا"
           },
           {
             "ayah_number": 35,
-            "word": "الوَسِيلَةَ",
+            "word": "الْوَسِيلَةَ",
             "word_normalized": "الوسيلة",
-            "meaning": "القُربَةَ وَالطَّاعَةَ",
+            "meaning": "الْقُرْبَةَ وَالطَّاعَةَ.",
             "meaning_normalized": "القربة والطاعة"
           },
           {
-            "ayah_number": 37,
-            "word": "كِفلًا",
-            "word_normalized": "كفلا",
-            "meaning": "عِقُوبَةً",
+            "ayah_number": 38,
+            "word": "نَكَالًا",
+            "word_normalized": "نكالا",
+            "meaning": "عُقُوبَةً.",
             "meaning_normalized": "عقوبة"
           },
           {
             "ayah_number": 41,
-            "word": "فَتَنَتَهُ",
+            "word": "فِتْنَتَهُ",
             "word_normalized": "فتنته",
-            "meaning": "ضَلَالَتُهُ",
+            "meaning": "ضَلَالَتَهُ.",
             "meaning_normalized": "ضلالته"
           },
           {
-            "ayah_number": 48,
-            "word": "المُسَخِّتُ",
-            "word_normalized": "المسخت",
-            "meaning": "لِلحَرَامِ",
+            "ayah_number": 42,
+            "word": "لِلسُّحْتِ",
+            "word_normalized": "للسحت",
+            "meaning": "لِلْحَرَامِ.",
             "meaning_normalized": "للحرام"
           },
           {
-            "ayah_number": 44,
-            "word": "المُقسِطِينَ",
+            "ayah_number": 42,
+            "word": "الْمُقْسِطِينَ",
             "word_normalized": "المقسطين",
-            "meaning": "العَادِلِينَ",
+            "meaning": "الْعَادِلِينَ.",
             "meaning_normalized": "العادلين"
           },
           {
             "ayah_number": 44,
             "word": "وَالرَّبَّانِيُّونَ",
             "word_normalized": "والربانيون",
-            "meaning": "العُبَّادُ مِن اليَهُودِ، الَّذِينَ يُرَبُّونَ النَّاسَ بِشَرعِ اللهِ",
+            "meaning": "الْعُبَّادُ مِنَ الْيَهُودِ، الَّذِينَ يُرَبُّونَ النَّاسَ بِشَرْعِ اللهِ.",
             "meaning_normalized": "العباد من اليهود الذين يربون الناس بشرع الله"
           }
         ]

@@ -20,147 +20,147 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
             "ayah_number": 2,
             "word": "لِلْمُتَّقِينَ",
             "word_normalized": "للمتقين",
-            "meaning": "مَن جَعَلُوا بَينَهُم وَبَينَ عَذَابِ اللهِ وِقَايَةً بِفِعلِ الْأَوَامِرِ وَتَركِ النَّوَاهِي",
+            "meaning": "مَنْ جَعَلُوا بَيْنَهُمْ وَبَيْنَ عَذَابِ اللهِ وِقَايَةً بِفِعْلِ الْأَوَامِرِ وَتَرْكِ النَّوَاهِي.",
             "meaning_normalized": "من جعلوا بينهم وبين عذاب الله وقاية بفعل الأوامر وترك النواهي"
           },
           {
             "ayah_number": 7,
             "word": "خَتَمَ اللهُ",
             "word_normalized": "ختم الله",
-            "meaning": "طَبَعَ اللهُ",
+            "meaning": "طَبَعَ اللهُ.",
             "meaning_normalized": "طبع الله"
           },
           {
             "ayah_number": 7,
             "word": "غِشَاوَةٌ",
             "word_normalized": "غشاوة",
-            "meaning": "غِطَاءٌ",
+            "meaning": "غِطَاءٌ.",
             "meaning_normalized": "غطاء"
           },
           {
             "ayah_number": 10,
             "word": "مَرَضٌ",
             "word_normalized": "مرض",
-            "meaning": "شَكٌّ، وَنِفَاقٌ",
+            "meaning": "شَكٌّ، وَنِفَاقٌ.",
             "meaning_normalized": "شك ونفاق"
           },
           {
             "ayah_number": 15,
             "word": "وَيَمُدُّهُمْ",
             "word_normalized": "ويمدهم",
-            "meaning": "يَزِيدُهُم، وَيُمهِلُهُم",
+            "meaning": "يَزِيدُهُمْ، وَيُمْهِلُهُمْ.",
             "meaning_normalized": "يزيدهم ويمهلهم"
           },
           {
             "ayah_number": 15,
-            "word": "يَعمَهُونَ",
+            "word": "يَعْمَهُونَ",
             "word_normalized": "يعمهون",
-            "meaning": "يَتَحَيَّرُونَ، وَيَعمَوْنَ عَنِ الرُّشدِ",
+            "meaning": "يَتَحَيَّرُونَ، وَيَعْمَوْنَ عَنِ الرُّشْدِ.",
             "meaning_normalized": "يتحيرون ويعمون عن الرشد"
           },
           {
             "ayah_number": 18,
             "word": "بُكْمٌ",
             "word_normalized": "بكم",
-            "meaning": "لَا يَنطِقُونَ بِالْحَقِّ",
+            "meaning": "لَا يَنْطِقُونَ بِالْحَقِّ.",
             "meaning_normalized": "لا ينطقون بالحق"
           },
           {
             "ayah_number": 19,
             "word": "كَصَيِّبٍ",
             "word_normalized": "كصيب",
-            "meaning": "كَمَطَرٍ شَدِيدٍ",
+            "meaning": "كَمَطَرٍ شَدِيدٍ.",
             "meaning_normalized": "كمطر شديد"
           },
           {
             "ayah_number": 22,
-            "word": "أَندَادًا",
+            "word": "أَنْدَادًا",
             "word_normalized": "أندادا",
-            "meaning": "نُظَرَاءَ، وَأَمثَالًا",
+            "meaning": "نُظَرَاءَ، وَأَمْثَالًا.",
             "meaning_normalized": "نظراء وأمثالا"
           },
           {
             "ayah_number": 23,
-            "word": "رَيبٍ",
+            "word": "رَيْبٍ",
             "word_normalized": "ريب",
-            "meaning": "شَكٍّ",
+            "meaning": "شَكٍّ.",
             "meaning_normalized": "شك"
           },
           {
             "ayah_number": 25,
             "word": "مُتَشَابِهًا",
             "word_normalized": "متشابها",
-            "meaning": "فِي اللَّونِ، وَالْمَنظَرِ، لَا فِي الطَّعمِ",
+            "meaning": "فِي اللَّوْنِ، وَالْمَنْظَرِ، لَا فِي الطَّعْمِ.",
             "meaning_normalized": "في اللون والمنظر لا في الطعم"
           },
           {
             "ayah_number": 29,
             "word": "اسْتَوَى",
             "word_normalized": "استوى",
-            "meaning": "قَصَدَ",
+            "meaning": "قَصَدَ.",
             "meaning_normalized": "قصد"
           },
           {
             "ayah_number": 30,
             "word": "خَلِيفَةً",
             "word_normalized": "خليفة",
-            "meaning": "أَقوَامًا يَخلُفُ بَعضُهُم بَعضًا",
+            "meaning": "أَقْوَامًا يَخْلُفُ بَعْضُهُمْ بَعْضًا.",
             "meaning_normalized": "أقواما يخلف بعضهم بعضا"
           },
           {
             "ayah_number": 30,
-            "word": "وَيَسفِكُ",
+            "word": "وَيَسْفِكُ",
             "word_normalized": "ويسفك",
-            "meaning": "يُرِيقُ",
+            "meaning": "يُرِيقُ.",
             "meaning_normalized": "يريق"
           },
           {
             "ayah_number": 30,
             "word": "وَنُقَدِّسُ لَكَ",
             "word_normalized": "ونقدس لك",
-            "meaning": "نُمَجِّدُكَ، وَنُطَهِّرُ ذِكرَكَ عَمَّا لَا يَلِيقُ",
+            "meaning": "نُمَجِّدُكَ، وَنُطَهِّرُ ذِكْرَكَ عَمَّا لَا يَلِيقُ.",
             "meaning_normalized": "نمجدك ونطهر ذكرك عما لا يليق"
           },
           {
             "ayah_number": 35,
             "word": "رَغَدًا",
             "word_normalized": "رغدا",
-            "meaning": "تَمَتُّعًا هَنِيئًا وَاسِعًا",
+            "meaning": "تَمَتُّعًا هَنِيئًا وَاسِعًا.",
             "meaning_normalized": "تمتعا هنيئا واسعا"
           },
           {
             "ayah_number": 36,
             "word": "فَأَزَلَّهُمَا",
             "word_normalized": "فأزلهما",
-            "meaning": "أَوقَعَهُمَا فِي الْخَطِيئَةِ",
+            "meaning": "أَوْقَعَهُمَا فِي الْخَطِيئَةِ.",
             "meaning_normalized": "أوقعهما في الخطيئة"
           },
           {
             "ayah_number": 40,
-            "word": "فَارهَبُونِ",
+            "word": "فَارْهَبُونِ",
             "word_normalized": "فارهبون",
-            "meaning": "خَافُونِ",
+            "meaning": "خَافُونِ.",
             "meaning_normalized": "خافون"
           },
           {
             "ayah_number": 42,
-            "word": "وَلَا تَلبِسُوا",
+            "word": "وَلَا تَلْبِسُوا",
             "word_normalized": "ولا تلبسوا",
-            "meaning": "لَا تَخلِطُوا",
+            "meaning": "لَا تَخْلِطُوا.",
             "meaning_normalized": "لا تخلطوا"
           },
           {
             "ayah_number": 46,
             "word": "يَظُنُّونَ",
             "word_normalized": "يظنون",
-            "meaning": "يُوقِنُونَ",
+            "meaning": "يُوقِنُونَ.",
             "meaning_normalized": "يوقنون"
           }
         ]

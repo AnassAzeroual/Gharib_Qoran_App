@@ -2,10 +2,10 @@
   "page": {
     "page_number": 29,
     "header": {
-      "right": "٢٩",
-      "right_normalized": "29",
-      "left": "سُورَةُ النِّسَاءِ",
-      "left_normalized": "سورة النساء"
+      "right": "سُورَةُ النِّسَاءِ",
+      "right_normalized": "سورة النساء",
+      "left": "",
+      "left_normalized": ""
     },
     "sections": [
       {
@@ -20,7 +20,7 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
@@ -39,7 +39,7 @@
           },
           {
             "ayah_number": 76,
-            "word": "الطَّٰغُوتِ",
+            "word": "الطَّاغُوتِ",
             "word_normalized": "الطاغوت",
             "meaning": "الْبَغْيَ وَالْفَسَادَ.",
             "meaning_normalized": "البغي والفساد"
@@ -53,7 +53,7 @@
           },
           {
             "ayah_number": 78,
-            "word": "بُرُوجٍ مُّشَيَّدَةٍ",
+            "word": "بُرُوجٍ مُشَيَّدَةٍ",
             "word_normalized": "بروج مشيدة",
             "meaning": "حُصُونٍ مَنِيعَةٍ.",
             "meaning_normalized": "حصون منيعة"
@@ -81,7 +81,7 @@
           },
           {
             "ayah_number": 84,
-            "word": "تَنكِيلًا",
+            "word": "تَنْكِيلًا",
             "word_normalized": "تنكيلا",
             "meaning": "عُقُوبَةً.",
             "meaning_normalized": "عقوبة"
@@ -90,12 +90,12 @@
             "ayah_number": 85,
             "word": "كِفْلٌ",
             "word_normalized": "كفل",
-            "meaning": "نَصِيبٌ مِّنْ وِزْرِهَا.",
+            "meaning": "نَصِيبٌ مِنْ وِزْرِهَا.",
             "meaning_normalized": "نصيب من وزرها"
           },
           {
             "ayah_number": 85,
-            "word": "مُّقِيتًا",
+            "word": "مُقِيتًا",
             "word_normalized": "مقيتا",
             "meaning": "شَاهِدًا، وَحَفِيظًا.",
             "meaning_normalized": "شاهدا وحفيظا"
@@ -109,7 +109,7 @@
           },
           {
             "ayah_number": 88,
-            "word": "أَرْكَسَهُم",
+            "word": "أَرْكَسَهُمْ",
             "word_normalized": "أركسهم",
             "meaning": "أَوْقَعَهُمْ، وَرَدَّهُمْ.",
             "meaning_normalized": "أوقعهم وردهم"
@@ -151,14 +151,14 @@
           },
           {
             "ayah_number": 94,
-            "word": "عَرَضَ الْحَيَوٰةِ",
-            "word_normalized": "عرض الحيوة",
+            "word": "عَرَضَ الْحَيَاةِ",
+            "word_normalized": "عرض الحياة",
             "meaning": "مَتَاعَهَا الزَّائِلَ، وَالْمَقْصُودُ: الْغَنِيمَةُ.",
             "meaning_normalized": "متاعها الزائل والمقصود الغنيمة"
           },
           {
             "ayah_number": 100,
-            "word": "مُرَٰغَمًا",
+            "word": "مُرَاغَمًا",
             "word_normalized": "مراغما",
             "meaning": "مُهَاجَرًا، وَمَكَانًا يَتَحَوَّلُ إِلَيْهِ.",
             "meaning_normalized": "مهاجرا ومكانا يتحول إليه"

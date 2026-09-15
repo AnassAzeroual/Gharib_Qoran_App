@@ -11,7 +11,7 @@
       {
         "type": "surah_section",
         "surah": {
-          "name": "سُورَةُ آلِ عِمرَانَ",
+          "name": "سُورَةُ آلِ عِمْرَانَ",
           "name_normalized": "سورة آل عمران",
           "order": 3,
           "ayat_count": 200,
@@ -20,140 +20,140 @@
         "table_headers": {
           "col1": "الْآيَة",
           "col2": "الْكَلِمَة",
-          "col3": "مَعنَاهَا"
+          "col3": "مَعْنَاهَا"
         },
         "glossary": [
           {
             "ayah_number": 154,
-            "word": "مَضَاجِعِهِم",
+            "word": "مَضَاجِعِهِمْ",
             "word_normalized": "مضاجعهم",
-            "meaning": "مَصَارِعِهِم",
+            "meaning": "مَصَارِعِهِمْ.",
             "meaning_normalized": "مصارعهم"
           },
           {
             "ayah_number": 156,
-            "word": "غُزًّى",
+            "word": "غُزًّى",
             "word_normalized": "غزى",
-            "meaning": "غُزَاةٌ مُجَاهِدِينَ",
+            "meaning": "غُزَاةٍ مُجَاهِدِينَ.",
             "meaning_normalized": "غزاة مجاهدين"
           },
           {
             "ayah_number": 159,
-            "word": "فَظًّا",
+            "word": "فَظًّا",
             "word_normalized": "فظا",
-            "meaning": "سَيِّئُ الْخُلُقِ",
+            "meaning": "سَيِّئَ الْخُلُقِ.",
             "meaning_normalized": "سيئ الخلق"
           },
           {
             "ayah_number": 161,
-            "word": "يَغُلَّ",
+            "word": "يَغُلَّ",
             "word_normalized": "يغل",
-            "meaning": "يَأخُذُ مِنَ الْغَنِيمَةِ قَبلَ قِسمَتِهَا",
+            "meaning": "يَأْخُذَ مِنَ الْغَنِيمَةِ قَبْلَ قِسْمَتِهَا.",
             "meaning_normalized": "يأخذ من الغنيمة قبل قسمتها"
           },
           {
             "ayah_number": 162,
             "word": "بَاءَ",
             "word_normalized": "باء",
-            "meaning": "رَجَعَ",
+            "meaning": "رَجَعَ.",
             "meaning_normalized": "رجع"
           },
           {
             "ayah_number": 172,
-            "word": "الْقَرحُ",
+            "word": "الْقَرْحُ",
             "word_normalized": "القرح",
-            "meaning": "الْجِرَاحُ، وَالْأَلَمُ",
+            "meaning": "الْجِرَاحُ، وَالْأَلَمُ.",
             "meaning_normalized": "الجراح والألم"
           },
           {
             "ayah_number": 173,
-            "word": "حَسبُنَا",
+            "word": "حَسْبُنَا",
             "word_normalized": "حسبنا",
-            "meaning": "كَافِينَا",
+            "meaning": "كَافِينَا.",
             "meaning_normalized": "كافينا"
           },
           {
             "ayah_number": 174,
-            "word": "فَانقَلَبُوا",
+            "word": "فَانْقَلَبُوا",
             "word_normalized": "فانقلبوا",
-            "meaning": "رَجَعُوا",
+            "meaning": "رَجَعُوا.",
             "meaning_normalized": "رجعوا"
           },
           {
             "ayah_number": 178,
-            "word": "نُملِي",
+            "word": "نُمْلِي",
             "word_normalized": "نملي",
-            "meaning": "نُمهِلُهُم بِطُولِ الْبَقَاءِ",
+            "meaning": "نُمْهِلُهُمْ بِطُولِ الْبَقَاءِ.",
             "meaning_normalized": "نمهلهم بطول البقاء"
           },
           {
             "ayah_number": 179,
-            "word": "يَجتَبِي",
+            "word": "يَجْتَبِي",
             "word_normalized": "يجتبي",
-            "meaning": "يَصطَفِي",
+            "meaning": "يَصْطَفِي.",
             "meaning_normalized": "يصطفي"
           },
           {
             "ayah_number": 183,
-            "word": "بِقُربَانٍ",
+            "word": "بِقُرْبَانٍ",
             "word_normalized": "بقربان",
-            "meaning": "بِصَدَقَةٍ يَتَقَرَّبُ بِهَا إِلَى اللهِ",
+            "meaning": "بِصَدَقَةٍ يُتَقَرَّبُ بِهَا إِلَى اللهِ.",
             "meaning_normalized": "بصدقة يتقرب بها إلى الله"
           },
           {
             "ayah_number": 184,
-            "word": "وَالزُّبُرِ",
+            "word": "وَالزُّبُرِ",
             "word_normalized": "والزبر",
-            "meaning": "الْكُتُبُ الْكَاشِفَةُ لِلظُّلُمَاتِ",
+            "meaning": "الْكُتُبِ الْكَاشِفَةِ لِلظُّلُمَاتِ.",
             "meaning_normalized": "الكتب الكاشفة للظلمات"
           },
           {
             "ayah_number": 185,
-            "word": "زُحزِحَ",
+            "word": "زُحْزِحَ",
             "word_normalized": "زحزح",
-            "meaning": "أُبعِدَ",
+            "meaning": "أُبْعِدَ.",
             "meaning_normalized": "أبعد"
           },
           {
             "ayah_number": 193,
-            "word": "وَكَفِّر",
+            "word": "وَكَفِّرْ",
             "word_normalized": "وكفر",
-            "meaning": "استُر",
+            "meaning": "اسْتُرْ.",
             "meaning_normalized": "استر"
           },
           {
             "ayah_number": 196,
-            "word": "تَقَلُّبُ",
+            "word": "تَقَلُّبُ",
             "word_normalized": "تقلب",
-            "meaning": "سَعَةُ عَيشٍ، وَكَثرَةُ تَنَقُّلٍ وَتَصَرُّفٍ",
+            "meaning": "سَعَةُ عَيْشٍ، وَكَثْرَةُ تَنَقُّلٍ وَتَصَرُّفٍ.",
             "meaning_normalized": "سعة عيش وكثرة تنقل وتصرف"
           },
           {
             "ayah_number": 197,
             "word": "الْمِهَادُ",
             "word_normalized": "المهاد",
-            "meaning": "الْفِرَاشُ",
+            "meaning": "الْفِرَاشُ.",
             "meaning_normalized": "الفراش"
           },
           {
             "ayah_number": 198,
             "word": "نُزُلًا",
             "word_normalized": "نزلا",
-            "meaning": "ضِيَافَةً، وَمَنزِلًا",
+            "meaning": "ضِيَافَةً، وَمَنْزِلًا.",
             "meaning_normalized": "ضيافة ومنزلا"
           },
           {
             "ayah_number": 200,
             "word": "وَصَابِرُوا",
             "word_normalized": "وصابروا",
-            "meaning": "غَالِبُوا الْأَعدَاءَ بِالصَّبرِ حَتَّى تَكُونُوا أَكثَرَ صَبرًا مِنهُم",
+            "meaning": "غَالِبُوا الْأَعْدَاءَ بِالصَّبْرِ حَتَّى تَكُونُوا أَكْثَرَ صَبْرًا مِنْهُمْ.",
             "meaning_normalized": "غالبوا الأعداء بالصبر حتى تكونوا أكثر صبرا منهم"
           },
           {
             "ayah_number": 200,
             "word": "وَرَابِطُوا",
             "word_normalized": "ورابطوا",
-            "meaning": "أَقِيمُوا عَلَى جِهَادِ عَدُوِّكُمْ",
+            "meaning": "أَقِيمُوا عَلَى جِهَادِ عَدُوِّكُمْ.",
             "meaning_normalized": "أقيموا على جهاد عدوكم"
           }
         ]
