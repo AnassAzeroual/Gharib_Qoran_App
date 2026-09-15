@@ -7,7 +7,7 @@
       "page_number": 7,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 11
     },
     {
       "order": 2,
@@ -16,7 +16,7 @@
       "page_number": 7,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 234
     },
     {
       "order": 3,
@@ -25,7 +25,7 @@
       "page_number": 19,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 100
     },
     {
       "order": 4,
@@ -34,7 +34,7 @@
       "page_number": 25,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 143
     },
     {
       "order": 5,
@@ -43,7 +43,7 @@
       "page_number": 32,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 129
     },
     {
       "order": 6,
@@ -52,7 +52,7 @@
       "page_number": 39,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 146
     },
     {
       "order": 7,
@@ -61,7 +61,7 @@
       "page_number": 47,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 214
     },
     {
       "order": 8,
@@ -70,7 +70,7 @@
       "page_number": 58,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 69
     },
     {
       "order": 9,
@@ -79,7 +79,7 @@
       "page_number": 62,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 134
     },
     {
       "order": 10,
@@ -88,7 +88,7 @@
       "page_number": 69,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 85
     },
     {
       "order": 11,
@@ -97,7 +97,7 @@
       "page_number": 73,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 148
     },
     {
       "order": 12,
@@ -106,7 +106,7 @@
       "page_number": 81,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 117
     },
     {
       "order": 13,
@@ -115,7 +115,7 @@
       "page_number": 87,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 39
     },
     {
       "order": 14,
@@ -124,7 +124,7 @@
       "page_number": 89,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 44
     },
     {
       "order": 15,
@@ -133,7 +133,7 @@
       "page_number": 91,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 65
     },
     {
       "order": 16,
@@ -142,7 +142,7 @@
       "page_number": 95,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 116
     },
     {
       "order": 17,
@@ -151,7 +151,7 @@
       "page_number": 101,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 139
     },
     {
       "order": 18,
@@ -160,7 +160,7 @@
       "page_number": 108,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 148
     },
     {
       "order": 19,
@@ -169,7 +169,7 @@
       "page_number": 116,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 85
     },
     {
       "order": 20,
@@ -178,7 +178,7 @@
       "page_number": 120,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 127
     },
     {
       "order": 21,
@@ -187,7 +187,7 @@
       "page_number": 126,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 101
     },
     {
       "order": 22,
@@ -196,7 +196,7 @@
       "page_number": 132,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 111
     },
     {
       "order": 23,
@@ -205,7 +205,7 @@
       "page_number": 138,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 75
     },
     {
       "order": 24,
@@ -214,7 +214,7 @@
       "page_number": 142,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 80
     },
     {
       "order": 25,
@@ -223,7 +223,7 @@
       "page_number": 146,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 74
     },
     {
       "order": 26,
@@ -232,7 +232,7 @@
       "page_number": 150,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 86
     },
     {
       "order": 27,
@@ -241,7 +241,7 @@
       "page_number": 155,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 106
     },
     {
       "order": 28,
@@ -250,7 +250,7 @@
       "page_number": 161,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 114
     },
     {
       "order": 29,
@@ -259,7 +259,7 @@
       "page_number": 166,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 59
     },
     {
       "order": 30,
@@ -268,7 +268,7 @@
       "page_number": 170,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 59
     },
     {
       "order": 31,
@@ -277,7 +277,7 @@
       "page_number": 173,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 41
     },
     {
       "order": 32,
@@ -286,7 +286,7 @@
       "page_number": 175,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 25
     },
     {
       "order": 33,
@@ -295,7 +295,7 @@
       "page_number": 176,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 130
     },
     {
       "order": 34,
@@ -304,7 +304,7 @@
       "page_number": 184,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 83
     },
     {
       "order": 35,
@@ -313,7 +313,7 @@
       "page_number": 188,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 64
     },
     {
       "order": 36,
@@ -322,7 +322,7 @@
       "page_number": 192,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 52
     },
     {
       "order": 37,
@@ -331,7 +331,7 @@
       "page_number": 195,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 97
     },
     {
       "order": 38,
@@ -340,7 +340,7 @@
       "page_number": 200,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 115
     },
     {
       "order": 39,
@@ -349,7 +349,7 @@
       "page_number": 206,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 102
     },
     {
       "order": 40,
@@ -358,7 +358,7 @@
       "page_number": 212,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 104
     },
     {
       "order": 41,
@@ -367,7 +367,7 @@
       "page_number": 217,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 84
     },
     {
       "order": 42,
@@ -376,7 +376,7 @@
       "page_number": 222,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 74
     },
     {
       "order": 43,
@@ -385,7 +385,7 @@
       "page_number": 226,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 94
     },
     {
       "order": 44,
@@ -394,7 +394,7 @@
       "page_number": 231,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 44
     },
     {
       "order": 45,
@@ -403,7 +403,7 @@
       "page_number": 233,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 28
     },
     {
       "order": 46,
@@ -412,7 +412,7 @@
       "page_number": 235,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 55
     },
     {
       "order": 47,
@@ -421,7 +421,7 @@
       "page_number": 238,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 60
     },
     {
       "order": 48,
@@ -430,7 +430,7 @@
       "page_number": 241,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 50
     },
     {
       "order": 49,
@@ -439,7 +439,7 @@
       "page_number": 244,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 27
     },
     {
       "order": 50,
@@ -448,7 +448,7 @@
       "page_number": 246,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 63
     },
     {
       "order": 51,
@@ -457,7 +457,7 @@
       "page_number": 249,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 50
     },
     {
       "order": 52,
@@ -466,7 +466,7 @@
       "page_number": 252,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 49
     },
     {
       "order": 53,
@@ -475,7 +475,7 @@
       "page_number": 255,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 46
     },
     {
       "order": 54,
@@ -484,7 +484,7 @@
       "page_number": 257,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 68
     },
     {
       "order": 55,
@@ -493,7 +493,7 @@
       "page_number": 261,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 62
     },
     {
       "order": 56,
@@ -502,7 +502,7 @@
       "page_number": 265,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 82
     },
     {
       "order": 57,
@@ -511,7 +511,7 @@
       "page_number": 270,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 57
     },
     {
       "order": 58,
@@ -520,7 +520,7 @@
       "page_number": 273,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 33
     },
     {
       "order": 59,
@@ -529,7 +529,7 @@
       "page_number": 274,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 50
     },
     {
       "order": 60,
@@ -538,7 +538,7 @@
       "page_number": 277,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 33
     },
     {
       "order": 61,
@@ -547,7 +547,7 @@
       "page_number": 279,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 20
     },
     {
       "order": 62,
@@ -556,7 +556,7 @@
       "page_number": 281,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 18
     },
     {
       "order": 63,
@@ -565,7 +565,7 @@
       "page_number": 282,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 20
     },
     {
       "order": 64,
@@ -574,7 +574,7 @@
       "page_number": 283,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 18
     },
     {
       "order": 65,
@@ -583,7 +583,7 @@
       "page_number": 284,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 25
     },
     {
       "order": 66,
@@ -592,7 +592,7 @@
       "page_number": 286,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 22
     },
     {
       "order": 67,
@@ -601,7 +601,7 @@
       "page_number": 287,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 47
     },
     {
       "order": 68,
@@ -610,7 +610,7 @@
       "page_number": 290,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 55
     },
     {
       "order": 69,
@@ -619,7 +619,7 @@
       "page_number": 293,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 51
     },
     {
       "order": 70,
@@ -628,7 +628,7 @@
       "page_number": 296,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 37
     },
     {
       "order": 71,
@@ -637,7 +637,7 @@
       "page_number": 298,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 23
     },
     {
       "order": 72,
@@ -646,7 +646,7 @@
       "page_number": 299,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 40
     },
     {
       "order": 73,
@@ -655,7 +655,7 @@
       "page_number": 302,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 29
     },
     {
       "order": 74,
@@ -664,7 +664,7 @@
       "page_number": 303,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 34
     },
     {
       "order": 75,
@@ -673,7 +673,7 @@
       "page_number": 305,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 32
     },
     {
       "order": 76,
@@ -682,7 +682,7 @@
       "page_number": 307,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 42
     },
     {
       "order": 77,
@@ -691,7 +691,7 @@
       "page_number": 309,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 32
     },
     {
       "order": 78,
@@ -700,7 +700,7 @@
       "page_number": 311,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 39
     },
     {
       "order": 79,
@@ -709,7 +709,7 @@
       "page_number": 313,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 37
     },
     {
       "order": 80,
@@ -718,7 +718,7 @@
       "page_number": 316,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 29
     },
     {
       "order": 81,
@@ -727,7 +727,7 @@
       "page_number": 317,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 30
     },
     {
       "order": 82,
@@ -736,7 +736,7 @@
       "page_number": 319,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 10
     },
     {
       "order": 83,
@@ -745,7 +745,7 @@
       "page_number": 320,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 26
     },
     {
       "order": 84,
@@ -754,7 +754,7 @@
       "page_number": 321,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 17
     },
     {
       "order": 85,
@@ -763,7 +763,7 @@
       "page_number": 322,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 14
     },
     {
       "order": 86,
@@ -772,7 +772,7 @@
       "page_number": 323,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 13
     },
     {
       "order": 87,
@@ -781,7 +781,7 @@
       "page_number": 324,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 13
     },
     {
       "order": 88,
@@ -790,7 +790,7 @@
       "page_number": 325,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 16
     },
     {
       "order": 89,
@@ -799,7 +799,7 @@
       "page_number": 326,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 27
     },
     {
       "order": 90,
@@ -808,7 +808,7 @@
       "page_number": 328,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 18
     },
     {
       "order": 91,
@@ -817,7 +817,7 @@
       "page_number": 329,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 19
     },
     {
       "order": 92,
@@ -826,7 +826,7 @@
       "page_number": 330,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 14
     },
     {
       "order": 93,
@@ -835,7 +835,7 @@
       "page_number": 331,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 10
     },
     {
       "order": 94,
@@ -844,7 +844,7 @@
       "page_number": 332,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 7
     },
     {
       "order": 95,
@@ -853,7 +853,7 @@
       "page_number": 332,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 6
     },
     {
       "order": 96,
@@ -862,7 +862,7 @@
       "page_number": 333,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 15
     },
     {
       "order": 97,
@@ -871,7 +871,7 @@
       "page_number": 334,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 5
     },
     {
       "order": 98,
@@ -880,7 +880,7 @@
       "page_number": 334,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 14
     },
     {
       "order": 99,
@@ -889,7 +889,7 @@
       "page_number": 335,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 10
     },
     {
       "order": 100,
@@ -898,7 +898,7 @@
       "page_number": 336,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 11
     },
     {
       "order": 101,
@@ -907,7 +907,7 @@
       "page_number": 336,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 7
     },
     {
       "order": 102,
@@ -916,7 +916,7 @@
       "page_number": 337,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 6
     },
     {
       "order": 103,
@@ -925,7 +925,7 @@
       "page_number": 337,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 5
     },
     {
       "order": 104,
@@ -934,7 +934,7 @@
       "page_number": 338,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 12
     },
     {
       "order": 105,
@@ -943,7 +943,7 @@
       "page_number": 339,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 7
     },
     {
       "order": 106,
@@ -952,7 +952,7 @@
       "page_number": 339,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 3
     },
     {
       "order": 107,
@@ -961,7 +961,7 @@
       "page_number": 340,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 7
     },
     {
       "order": 108,
@@ -970,7 +970,7 @@
       "page_number": 340,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 4
     },
     {
       "order": 109,
@@ -979,7 +979,7 @@
       "page_number": 341,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 3
     },
     {
       "order": 110,
@@ -988,7 +988,7 @@
       "page_number": 341,
       "type": "surah",
       "classification": "مدنية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 4
     },
     {
       "order": 111,
@@ -997,7 +997,7 @@
       "page_number": 341,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 9
     },
     {
       "order": 112,
@@ -1006,7 +1006,7 @@
       "page_number": 342,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 2
     },
     {
       "order": 113,
@@ -1015,7 +1015,7 @@
       "page_number": 342,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 6
     },
     {
       "order": 114,
@@ -1024,7 +1024,7 @@
       "page_number": 343,
       "type": "surah",
       "classification": "مكية",
-      "unfamiliar_words_count": 0
+      "unfamiliar_words_count": 6
     }
   ]
 }

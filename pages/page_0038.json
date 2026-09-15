@@ -53,6 +53,13 @@
           },
           {
             "ayah_number": 95,
+            "word": "هَدْيًا",
+            "word_normalized": "هديا",
+            "meaning": "يُهْدَى.",
+            "meaning_normalized": "يهدى"
+          },
+          {
+            "ayah_number": 95,
             "word": "بَالِغَ الكَعبَةِ",
             "word_normalized": "بالغ الكعبة",
             "meaning": "يَصِلُ لِفُقَرَاءِ الحَرَمِ",
