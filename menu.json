@@ -1,0 +1,1030 @@
+{
+  "quran_index": [
+    {
+      "order": 1,
+      "surah_name": "سُورَةُ ٱلْفَاتِحَةِ",
+      "title_normalized": "سورة الفاتحة",
+      "page_number": 7,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 2,
+      "surah_name": "سُورَةُ ٱلْبَقَرَةِ",
+      "title_normalized": "سورة البقرة",
+      "page_number": 7,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 3,
+      "surah_name": "سُورَةُ آلِ عِمْرَٰنَ",
+      "title_normalized": "سورة آل عمران",
+      "page_number": 19,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 4,
+      "surah_name": "سُورَةُ ٱلنِّسَآءِ",
+      "title_normalized": "سورة النساء",
+      "page_number": 25,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 5,
+      "surah_name": "سُورَةُ ٱلْمَآئِدَةِ",
+      "title_normalized": "سورة المائدة",
+      "page_number": 32,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 6,
+      "surah_name": "سُورَةُ ٱلْأَنْعَـٰمِ",
+      "title_normalized": "سورة الأنعام",
+      "page_number": 39,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 7,
+      "surah_name": "سُورَةُ ٱلْأَعْرَافِ",
+      "title_normalized": "سورة الأعراف",
+      "page_number": 47,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 8,
+      "surah_name": "سُورَةُ ٱلْأَنْفَالِ",
+      "title_normalized": "سورة الأنفال",
+      "page_number": 58,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 9,
+      "surah_name": "سُورَةُ ٱلتَّوْبَةِ",
+      "title_normalized": "سورة التوبة",
+      "page_number": 62,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 10,
+      "surah_name": "سُورَةُ يُونُسَ",
+      "title_normalized": "سورة يونس",
+      "page_number": 69,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 11,
+      "surah_name": "سُورَةُ هُودٍ",
+      "title_normalized": "سورة هود",
+      "page_number": 73,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 12,
+      "surah_name": "سُورَةُ يُوسُفَ",
+      "title_normalized": "سورة يوسف",
+      "page_number": 81,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 13,
+      "surah_name": "سُورَةُ ٱلرَّعْدِ",
+      "title_normalized": "سورة الرعد",
+      "page_number": 87,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 14,
+      "surah_name": "سُورَةُ إِبْرَٰهِيمَ",
+      "title_normalized": "سورة إبراهيم",
+      "page_number": 89,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 15,
+      "surah_name": "سُورَةُ ٱلْحِجْرِ",
+      "title_normalized": "سورة الحجر",
+      "page_number": 91,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 16,
+      "surah_name": "سُورَةُ ٱلنَّحْلِ",
+      "title_normalized": "سورة النحل",
+      "page_number": 95,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 17,
+      "surah_name": "سُورَةُ ٱلْإِسْرَآءِ",
+      "title_normalized": "سورة الإسراء",
+      "page_number": 101,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 18,
+      "surah_name": "سُورَةُ ٱلْكَهْفِ",
+      "title_normalized": "سورة الكهف",
+      "page_number": 108,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 19,
+      "surah_name": "سُورَةُ مَرْيَمَ",
+      "title_normalized": "سورة مريم",
+      "page_number": 116,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 20,
+      "surah_name": "سُورَةُ طٰهٰ",
+      "title_normalized": "سورة طه",
+      "page_number": 120,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 21,
+      "surah_name": "سُورَةُ ٱلْأَنْبِيَآءِ",
+      "title_normalized": "سورة الأنبياء",
+      "page_number": 126,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 22,
+      "surah_name": "سُورَةُ ٱلْحَجِّ",
+      "title_normalized": "سورة الحج",
+      "page_number": 132,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 23,
+      "surah_name": "سُورَةُ ٱلْمُؤْمِنُونَ",
+      "title_normalized": "سورة المؤمنون",
+      "page_number": 138,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 24,
+      "surah_name": "سُورَةُ ٱلنُّورِ",
+      "title_normalized": "سورة النور",
+      "page_number": 142,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 25,
+      "surah_name": "سُورَةُ ٱلْفُرْقَانِ",
+      "title_normalized": "سورة الفرقان",
+      "page_number": 146,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 26,
+      "surah_name": "سُورَةُ ٱلشُّعَرَآءِ",
+      "title_normalized": "سورة الشعراء",
+      "page_number": 150,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 27,
+      "surah_name": "سُورَةُ ٱلنَّمْلِ",
+      "title_normalized": "سورة النمل",
+      "page_number": 155,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 28,
+      "surah_name": "سُورَةُ ٱلْقَصَصِ",
+      "title_normalized": "سورة القصص",
+      "page_number": 161,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 29,
+      "surah_name": "سُورَةُ ٱلْعَنكَبُوتِ",
+      "title_normalized": "سورة العنكبوت",
+      "page_number": 166,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 30,
+      "surah_name": "سُورَةُ ٱلرُّومِ",
+      "title_normalized": "سورة الروم",
+      "page_number": 170,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 31,
+      "surah_name": "سُورَةُ لُقْمَـٰنَ",
+      "title_normalized": "سورة لقمان",
+      "page_number": 173,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 32,
+      "surah_name": "سُورَةُ ٱلسَّجْدَةِ",
+      "title_normalized": "سورة السجدة",
+      "page_number": 175,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 33,
+      "surah_name": "سُورَةُ ٱلْأَحْزَابِ",
+      "title_normalized": "سورة الأحزاب",
+      "page_number": 176,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 34,
+      "surah_name": "سُورَةُ سَبَإٍ",
+      "title_normalized": "سورة سبإ",
+      "page_number": 184,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 35,
+      "surah_name": "سُورَةُ فَاطِرٍ",
+      "title_normalized": "سورة فاطر",
+      "page_number": 188,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 36,
+      "surah_name": "سُورَةُ يسٓ",
+      "title_normalized": "سورة يس",
+      "page_number": 192,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 37,
+      "surah_name": "سُورَةُ ٱلصَّـٰفَّـٰتِ",
+      "title_normalized": "سورة الصافات",
+      "page_number": 195,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 38,
+      "surah_name": "سُورَةُ صٓ",
+      "title_normalized": "سورة ص",
+      "page_number": 200,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 39,
+      "surah_name": "سُورَةُ ٱلزُّمَرِ",
+      "title_normalized": "سورة الزمر",
+      "page_number": 206,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 40,
+      "surah_name": "سُورَةُ غَافِرٍ",
+      "title_normalized": "سورة غافر",
+      "page_number": 212,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 41,
+      "surah_name": "سُورَةُ فُصِّلَتْ",
+      "title_normalized": "سورة فصلت",
+      "page_number": 217,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 42,
+      "surah_name": "سُورَةُ ٱلشُّورَىٰ",
+      "title_normalized": "سورة الشورى",
+      "page_number": 222,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 43,
+      "surah_name": "سُورَةُ ٱلزُّخْرُفِ",
+      "title_normalized": "سورة الزخرف",
+      "page_number": 226,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 44,
+      "surah_name": "سُورَةُ ٱلدُّخَانِ",
+      "title_normalized": "سورة الدخان",
+      "page_number": 231,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 45,
+      "surah_name": "سُورَةُ ٱلْجَاثِيَةِ",
+      "title_normalized": "سورة الجاثية",
+      "page_number": 233,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 46,
+      "surah_name": "سُورَةُ ٱلْأَحْقَافِ",
+      "title_normalized": "سورة الأحقاف",
+      "page_number": 235,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 47,
+      "surah_name": "سُورَةُ مُحَمَّدٍ",
+      "title_normalized": "سورة محمد",
+      "page_number": 238,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 48,
+      "surah_name": "سُورَةُ ٱلْفَتْحِ",
+      "title_normalized": "سورة الفتح",
+      "page_number": 241,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 49,
+      "surah_name": "سُورَةُ ٱلْحُجُرَٰتِ",
+      "title_normalized": "سورة الحجرات",
+      "page_number": 244,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 50,
+      "surah_name": "سُورَةُ قٓ",
+      "title_normalized": "سورة ق",
+      "page_number": 246,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 51,
+      "surah_name": "سُورَةُ ٱلذَّٰرِيَـٰتِ",
+      "title_normalized": "سورة الذاريات",
+      "page_number": 249,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 52,
+      "surah_name": "سُورَةُ ٱلطُّورِ",
+      "title_normalized": "سورة الطور",
+      "page_number": 252,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 53,
+      "surah_name": "سُورَةُ ٱلنَّجْمِ",
+      "title_normalized": "سورة النجم",
+      "page_number": 255,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 54,
+      "surah_name": "سُورَةُ ٱلْقَمَرِ",
+      "title_normalized": "سورة القمر",
+      "page_number": 257,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 55,
+      "surah_name": "سُورَةُ ٱلرَّحْمَـٰنِ",
+      "title_normalized": "سورة الرحمن",
+      "page_number": 261,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 56,
+      "surah_name": "سُورَةُ ٱلْوَٰقِعَةِ",
+      "title_normalized": "سورة الواقعة",
+      "page_number": 265,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 57,
+      "surah_name": "سُورَةُ ٱلْحَدِيدِ",
+      "title_normalized": "سورة الحديد",
+      "page_number": 270,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 58,
+      "surah_name": "سُورَةُ ٱلْمُجَـٰدَلَةِ",
+      "title_normalized": "سورة المجادلة",
+      "page_number": 273,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 59,
+      "surah_name": "سُورَةُ ٱلْحَشْرِ",
+      "title_normalized": "سورة الحشر",
+      "page_number": 274,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 60,
+      "surah_name": "سُورَةُ ٱلْمُمْتَحَنَةِ",
+      "title_normalized": "سورة الممتحنة",
+      "page_number": 277,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 61,
+      "surah_name": "سُورَةُ ٱلصَّفِّ",
+      "title_normalized": "سورة الصف",
+      "page_number": 279,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 62,
+      "surah_name": "سُورَةُ ٱلْجُمُعَةِ",
+      "title_normalized": "سورة الجمعة",
+      "page_number": 281,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 63,
+      "surah_name": "سُورَةُ ٱلْمُنَـٰفِقُونَ",
+      "title_normalized": "سورة المنافقون",
+      "page_number": 282,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 64,
+      "surah_name": "سُورَةُ ٱلتَّغَابُنِ",
+      "title_normalized": "سورة التغابن",
+      "page_number": 283,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 65,
+      "surah_name": "سُورَةُ ٱلطَّلَـٰقِ",
+      "title_normalized": "سورة الطلاق",
+      "page_number": 284,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 66,
+      "surah_name": "سُورَةُ ٱلتَّحْرِيمِ",
+      "title_normalized": "سورة التحريم",
+      "page_number": 286,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 67,
+      "surah_name": "سُورَةُ ٱلْمُلْكِ",
+      "title_normalized": "سورة الملك",
+      "page_number": 287,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 68,
+      "surah_name": "سُورَةُ ٱلْقَلَمِ",
+      "title_normalized": "سورة القلم",
+      "page_number": 290,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 69,
+      "surah_name": "سُورَةُ ٱلْحَآقَّةِ",
+      "title_normalized": "سورة الحاقة",
+      "page_number": 293,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 70,
+      "surah_name": "سُورَةُ ٱلْمَعَارِجِ",
+      "title_normalized": "سورة المعارج",
+      "page_number": 296,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 71,
+      "surah_name": "سُورَةُ نُوحٍ",
+      "title_normalized": "سورة نوح",
+      "page_number": 298,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 72,
+      "surah_name": "سُورَةُ ٱلْجِنِّ",
+      "title_normalized": "سورة الجن",
+      "page_number": 299,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 73,
+      "surah_name": "سُورَةُ ٱلْمُزَّمِّلِ",
+      "title_normalized": "سورة المزمل",
+      "page_number": 302,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 74,
+      "surah_name": "سُورَةُ ٱلْمُدَّثِّرِ",
+      "title_normalized": "سورة المدثر",
+      "page_number": 303,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 75,
+      "surah_name": "سُورَةُ ٱلْقِيَـٰمَةِ",
+      "title_normalized": "سورة القيامة",
+      "page_number": 305,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 76,
+      "surah_name": "سُورَةُ ٱلْإِنسَـٰنِ",
+      "title_normalized": "سورة الإنسان",
+      "page_number": 307,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 77,
+      "surah_name": "سُورَةُ ٱلْمُرْسَلَـٰتِ",
+      "title_normalized": "سورة المرسلات",
+      "page_number": 309,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 78,
+      "surah_name": "سُورَةُ ٱلنَّبَإِ",
+      "title_normalized": "سورة النبإ",
+      "page_number": 311,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 79,
+      "surah_name": "سُورَةُ ٱلنَّـٰزِعَـٰتِ",
+      "title_normalized": "سورة النازعات",
+      "page_number": 313,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 80,
+      "surah_name": "سُورَةُ عَبَسَ",
+      "title_normalized": "سورة عبس",
+      "page_number": 316,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 81,
+      "surah_name": "سُورَةُ ٱلتَّكْوِيرِ",
+      "title_normalized": "سورة التكوير",
+      "page_number": 317,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 82,
+      "surah_name": "سُورَةُ ٱلْإِنفِطَارِ",
+      "title_normalized": "سورة الانفطار",
+      "page_number": 319,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 83,
+      "surah_name": "سُورَةُ ٱلْمُطَفِّفِينَ",
+      "title_normalized": "سورة المطففين",
+      "page_number": 320,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 84,
+      "surah_name": "سُورَةُ ٱلْإِنشِقَاقِ",
+      "title_normalized": "سورة الانشقاق",
+      "page_number": 321,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 85,
+      "surah_name": "سُورَةُ ٱلْبُرُوجِ",
+      "title_normalized": "سورة البروج",
+      "page_number": 322,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 86,
+      "surah_name": "سُورَةُ ٱلطَّارِقِ",
+      "title_normalized": "سورة الطارق",
+      "page_number": 323,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 87,
+      "surah_name": "سُورَةُ ٱلْأَعْلَىٰ",
+      "title_normalized": "سورة الأعلى",
+      "page_number": 324,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 88,
+      "surah_name": "سُورَةُ ٱلْغَـٰشِيَةِ",
+      "title_normalized": "سورة الغاشية",
+      "page_number": 325,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 89,
+      "surah_name": "سُورَةُ ٱلْفَجْرِ",
+      "title_normalized": "سورة الفجر",
+      "page_number": 326,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 90,
+      "surah_name": "سُورَةُ ٱلْبَلَدِ",
+      "title_normalized": "سورة البلد",
+      "page_number": 328,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 91,
+      "surah_name": "سُورَةُ ٱلشَّمْسِ",
+      "title_normalized": "سورة الشمس",
+      "page_number": 329,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 92,
+      "surah_name": "سُورَةُ ٱلَّيْلِ",
+      "title_normalized": "سورة الليل",
+      "page_number": 330,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 93,
+      "surah_name": "سُورَةُ ٱلضُّحَىٰ",
+      "title_normalized": "سورة الضحى",
+      "page_number": 331,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 94,
+      "surah_name": "سُورَةُ ٱلشَّرْحِ",
+      "title_normalized": "سورة الشرح",
+      "page_number": 332,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 95,
+      "surah_name": "سُورَةُ ٱلتِّينِ",
+      "title_normalized": "سورة التين",
+      "page_number": 332,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 96,
+      "surah_name": "سُورَةُ ٱلْعَلَقِ",
+      "title_normalized": "سورة العلق",
+      "page_number": 333,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 97,
+      "surah_name": "سُورَةُ ٱلْقَدْرِ",
+      "title_normalized": "سورة القدر",
+      "page_number": 334,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 98,
+      "surah_name": "سُورَةُ ٱلْبَيِّنَةِ",
+      "title_normalized": "سورة البينة",
+      "page_number": 334,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 99,
+      "surah_name": "سُورَةُ ٱلزَّلْزَلَةِ",
+      "title_normalized": "سورة الززلزلة",
+      "page_number": 335,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 100,
+      "surah_name": "سُورَةُ ٱلْعَـٰدِيَـٰتِ",
+      "title_normalized": "سورة العاديات",
+      "page_number": 336,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 101,
+      "surah_name": "سُورَةُ ٱلْقَارِعَةِ",
+      "title_normalized": "سورة القارعة",
+      "page_number": 336,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 102,
+      "surah_name": "سُورَةُ ٱلتَّكَاثُرِ",
+      "title_normalized": "سورة التكاثر",
+      "page_number": 337,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 103,
+      "surah_name": "سُورَةُ ٱلْعَصْرِ",
+      "title_normalized": "سورة العصر",
+      "page_number": 337,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 104,
+      "surah_name": "سُورَةُ ٱلْهُمَزَةِ",
+      "title_normalized": "سورة الهمزة",
+      "page_number": 338,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 105,
+      "surah_name": "سُورَةُ ٱلْفِيلِ",
+      "title_normalized": "سورة الفيل",
+      "page_number": 339,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 106,
+      "surah_name": "سُورَةُ قُرَيْشٍ",
+      "title_normalized": "سورة قريش",
+      "page_number": 339,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 107,
+      "surah_name": "سُورَةُ ٱلْمَاعُونِ",
+      "title_normalized": "سورة الماعون",
+      "page_number": 340,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 108,
+      "surah_name": "سُورَةُ ٱلْكَوْثَرِ",
+      "title_normalized": "سورة الكوثر",
+      "page_number": 340,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 109,
+      "surah_name": "سُورَةُ ٱلْكَـٰفِرُونَ",
+      "title_normalized": "سورة الكافرون",
+      "page_number": 341,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 110,
+      "surah_name": "سُورَةُ ٱلنَّصْرِ",
+      "title_normalized": "سورة النصر",
+      "page_number": 341,
+      "type": "surah",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 111,
+      "surah_name": "سُورَةُ ٱلْمَسَدِ",
+      "title_normalized": "سورة المسد",
+      "page_number": 341,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 112,
+      "surah_name": "سُورَةُ ٱلْإِخْلَاصِ",
+      "title_normalized": "سورة الإخلاص",
+      "page_number": 342,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 113,
+      "surah_name": "سُورَةُ ٱلْفَلَقِ",
+      "title_normalized": "سورة الفلق",
+      "page_number": 342,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    },
+    {
+      "order": 114,
+      "surah_name": "سُورَةُ ٱلنَّاسِ",
+      "title_normalized": "سورة الناس",
+      "page_number": 343,
+      "type": "surah",
+      "classification": "مكية",
+      "unfamiliar_words_count": 0
+    }
+  ]
+}
