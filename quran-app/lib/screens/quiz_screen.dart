@@ -193,11 +193,18 @@ class _QuizScreenState extends State<QuizScreen> {
         body: SafeArea(
           child: _loading
               ? const Center(child: CircularProgressIndicator())
-              : Column(
-                  children: [
-                    Expanded(child: _contentList()),
-                    _bottomBar(),
-                  ],
+              // Center the content and cap its width so it doesn't stretch
+              // edge-to-edge on wide screens (web / large monitors).
+              : Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 720),
+                    child: Column(
+                      children: [
+                        Expanded(child: _contentList()),
+                        _bottomBar(),
+                      ],
+                    ),
+                  ),
                 ),
         ),
       ),

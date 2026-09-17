@@ -44,14 +44,19 @@ class ThumunWordsScreen extends StatelessWidget {
                 ],
               ),
             )
-          : ListView.builder(
-              padding: EdgeInsets.fromLTRB(
-                  12, 12, 12, 24 + MediaQuery.of(context).padding.bottom),
-              itemCount: words.length,
-              itemBuilder: (context, index) {
-                final w = words[index];
-                return _WordCard(word: w);
-              },
+          : Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 720),
+                child: ListView.builder(
+                  padding: EdgeInsets.fromLTRB(
+                      12, 12, 12, 24 + MediaQuery.of(context).padding.bottom),
+                  itemCount: words.length,
+                  itemBuilder: (context, index) {
+                    final w = words[index];
+                    return _WordCard(word: w);
+                  },
+                ),
+              ),
             ),
     );
   }

@@ -44,11 +44,14 @@ class QuizResultScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('نتيجة الاختبار')),
       body: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.all(20),
-          child: Column(
-            children: [
-              const SizedBox(height: 8),
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 560),
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(20),
+              child: Column(
+                children: [
+                  const SizedBox(height: 8),
               Container(
                 width: 180,
                 height: 180,
@@ -152,20 +155,22 @@ class QuizResultScreen extends StatelessWidget {
                   },
                 ),
               ),
-              const SizedBox(height: 10),
-              SizedBox(
-                width: double.infinity,
-                child: OutlinedButton.icon(
-                  icon: const Icon(Icons.home_outlined),
-                  label: const Text('العودة إلى الرئيسية'),
-                  style: OutlinedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(vertical: 14),
+                  const SizedBox(height: 10),
+                  SizedBox(
+                    width: double.infinity,
+                    child: OutlinedButton.icon(
+                      icon: const Icon(Icons.home_outlined),
+                      label: const Text('العودة إلى الرئيسية'),
+                      style: OutlinedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                      ),
+                      onPressed: () =>
+                          Navigator.of(context).popUntil((r) => r.isFirst),
+                    ),
                   ),
-                  onPressed: () =>
-                      Navigator.of(context).popUntil((r) => r.isFirst),
-                ),
+                ],
               ),
-            ],
+            ),
           ),
         ),
       ),
