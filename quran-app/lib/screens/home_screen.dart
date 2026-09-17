@@ -1110,8 +1110,8 @@ class _HizbCard extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
-                          width: 32,
-                          height: 32,
+                          width: 38,
+                          height: 38,
                           decoration: BoxDecoration(
                             color: badgeColor.withValues(alpha: 0.08),
                             shape: BoxShape.circle,
@@ -1121,15 +1121,16 @@ class _HizbCard extends StatelessWidget {
                               toArabicDigits(hizb.hizb),
                               style: const TextStyle(
                                 color: badgeColor,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 13,
+                                fontWeight: FontWeight.w900,
+                                fontSize: 17,
+                                fontFamily: 'Amiri',
                               ),
                             ),
                           ),
                         ),
                         Container(
                           padding: const EdgeInsets.symmetric(
-                              horizontal: 8, vertical: 3),
+                              horizontal: 10, vertical: 4),
                           decoration: BoxDecoration(
                             color: badgeColor.withValues(alpha: 0.12),
                             borderRadius: BorderRadius.circular(8),
@@ -1138,8 +1139,9 @@ class _HizbCard extends StatelessWidget {
                             'جزء ${toArabicDigits(juz)}',
                             style: const TextStyle(
                               color: badgeColor,
-                              fontSize: 11,
+                              fontSize: 14,
                               fontWeight: FontWeight.bold,
+                              fontFamily: 'Amiri',
                             ),
                           ),
                         ),
@@ -1153,8 +1155,8 @@ class _HizbCard extends StatelessWidget {
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
+                          fontSize: 22,
+                          fontWeight: FontWeight.w900,
                           color: scheme.onSurface,
                           fontFamily: 'Amiri',
                         ),
@@ -1204,7 +1206,7 @@ class _HizbCard extends StatelessWidget {
     required ColorScheme scheme,
   }) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
       decoration: BoxDecoration(
         color: color.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(8),
@@ -1217,15 +1219,16 @@ class _HizbCard extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(icon, size: 12, color: color.withValues(alpha: 0.85)),
-            const SizedBox(width: 4),
+            Icon(icon, size: 15, color: color.withValues(alpha: 0.85)),
+            const SizedBox(width: 5),
             Text(
               label,
               maxLines: 1,
               style: TextStyle(
-                fontSize: 11,
+                fontSize: 14,
                 color: scheme.onSurfaceVariant,
-                fontWeight: FontWeight.w600,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Amiri',
               ),
             ),
           ],
