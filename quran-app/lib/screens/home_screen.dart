@@ -787,8 +787,8 @@ class _HomeScreenState extends State<HomeScreen>
       padding:
           EdgeInsets.only(top: topPadding, left: 16, right: 16, bottom: 24),
       gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-        maxCrossAxisExtent: 190,
-        mainAxisExtent: 132,
+        maxCrossAxisExtent: 210,
+        mainAxisExtent: 162,
         mainAxisSpacing: 12,
         crossAxisSpacing: 12,
       ),
@@ -1101,7 +1101,7 @@ class _HizbCard extends StatelessWidget {
                 child: Container(color: badgeColor),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(14, 12, 18, 12),
+                padding: const EdgeInsets.fromLTRB(18, 18, 22, 18),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
@@ -1110,8 +1110,8 @@ class _HizbCard extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
-                          width: 38,
-                          height: 38,
+                          width: 50,
+                          height: 50,
                           decoration: BoxDecoration(
                             color: badgeColor.withValues(alpha: 0.08),
                             shape: BoxShape.circle,
@@ -1122,7 +1122,7 @@ class _HizbCard extends StatelessWidget {
                               style: const TextStyle(
                                 color: badgeColor,
                                 fontWeight: FontWeight.w900,
-                                fontSize: 17,
+                                fontSize: 22,
                                 fontFamily: 'Amiri',
                               ),
                             ),
@@ -1130,17 +1130,17 @@ class _HizbCard extends StatelessWidget {
                         ),
                         Container(
                           padding: const EdgeInsets.symmetric(
-                              horizontal: 10, vertical: 4),
+                              horizontal: 14, vertical: 7),
                           decoration: BoxDecoration(
                             color: badgeColor.withValues(alpha: 0.12),
-                            borderRadius: BorderRadius.circular(8),
+                            borderRadius: BorderRadius.circular(10),
                           ),
                           child: Text(
                             'جزء ${toArabicDigits(juz)}',
                             style: const TextStyle(
                               color: badgeColor,
-                              fontSize: 14,
-                              fontWeight: FontWeight.bold,
+                              fontSize: 17,
+                              fontWeight: FontWeight.w800,
                               fontFamily: 'Amiri',
                             ),
                           ),
@@ -1148,17 +1148,19 @@ class _HizbCard extends StatelessWidget {
                       ],
                     ),
                     const Spacer(),
-                    // Middle: "الحزب N" centered.
+                    // Middle: "الحزب N" centered (dominant element).
                     Center(
-                      child: Text(
-                        'الحزب ${toArabicDigits(hizb.hizb)}',
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.w900,
-                          color: scheme.onSurface,
-                          fontFamily: 'Amiri',
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Text(
+                          'الحزب ${toArabicDigits(hizb.hizb)}',
+                          maxLines: 1,
+                          style: TextStyle(
+                            fontSize: 32,
+                            fontWeight: FontWeight.w900,
+                            color: scheme.onSurface,
+                            fontFamily: 'Amiri',
+                          ),
                         ),
                       ),
                     ),
@@ -1175,7 +1177,7 @@ class _HizbCard extends StatelessWidget {
                             scheme: scheme,
                           ),
                         ),
-                        const SizedBox(width: 8),
+                        const SizedBox(width: 10),
                         Expanded(
                           child: _hizbStatBadge(
                             icon: Icons.menu_book_rounded,
@@ -1206,10 +1208,10 @@ class _HizbCard extends StatelessWidget {
     required ColorScheme scheme,
   }) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
       decoration: BoxDecoration(
         color: color.withValues(alpha: 0.08),
-        borderRadius: BorderRadius.circular(8),
+        borderRadius: BorderRadius.circular(10),
       ),
       child: FittedBox(
         fit: BoxFit.scaleDown,
@@ -1219,13 +1221,13 @@ class _HizbCard extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(icon, size: 15, color: color.withValues(alpha: 0.85)),
-            const SizedBox(width: 5),
+            Icon(icon, size: 18, color: color.withValues(alpha: 0.85)),
+            const SizedBox(width: 6),
             Text(
               label,
               maxLines: 1,
               style: TextStyle(
-                fontSize: 14,
+                fontSize: 16,
                 color: scheme.onSurfaceVariant,
                 fontWeight: FontWeight.bold,
                 fontFamily: 'Amiri',
