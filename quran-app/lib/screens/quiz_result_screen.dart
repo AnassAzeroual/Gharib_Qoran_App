@@ -8,6 +8,8 @@ class QuizResultScreen extends StatelessWidget {
   final QuizSession session;
   final int? surahOrder;
   final int? hizb;
+  final int? thumun;
+  final String? thumunLabel;
   final String surahName;
 
   const QuizResultScreen({
@@ -16,6 +18,8 @@ class QuizResultScreen extends StatelessWidget {
     required this.surahName,
     this.surahOrder,
     this.hizb,
+    this.thumun,
+    this.thumunLabel,
   });
 
   int get _total => session.correctCount + session.wrongCount;
@@ -137,8 +141,12 @@ class QuizResultScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute(
-                        builder: (_) =>
-                            QuizScreen(surahOrder: surahOrder, hizb: hizb),
+                        builder: (_) => QuizScreen(
+                          surahOrder: surahOrder,
+                          hizb: hizb,
+                          thumun: thumun,
+                          thumunLabel: thumunLabel,
+                        ),
                       ),
                     );
                   },

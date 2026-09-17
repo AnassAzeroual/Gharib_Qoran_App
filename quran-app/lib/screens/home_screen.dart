@@ -760,14 +760,12 @@ class _HomeScreenState extends State<HomeScreen>
 
   // -------------------------------------------------------------- hizb list
   void _openHizb(HizbEntry hizb) {
-    if (_quizMode) {
-      Navigator.of(context).push(
-        MaterialPageRoute(builder: (_) => QuizScreen(hizb: hizb.hizb)),
-      );
-      return;
-    }
+    // In both reading and quiz mode we drill into the thumun list; quizMode
+    // makes that screen offer "whole hizb" + per-thumun quizzes.
     Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => HizbThumunsScreen(hizb: hizb)),
+      MaterialPageRoute(
+        builder: (_) => HizbThumunsScreen(hizb: hizb, quizMode: _quizMode),
+      ),
     );
   }
 

@@ -38,6 +38,9 @@ class QuizService {
   List<QuizWord> wordsForHizb(int hizb) =>
       _allWords.where((w) => w.hizb == hizb).toList();
 
+  List<QuizWord> wordsForThumun(int thumun) =>
+      _allWords.where((w) => w.thumun == thumun).toList();
+
   QuizWord nextAllWord() {
     if (_shuffledQueue.isEmpty) _shuffledQueue = List.of(_allWords)..shuffle(_rng);
     if (_queueIndex >= _shuffledQueue.length) {

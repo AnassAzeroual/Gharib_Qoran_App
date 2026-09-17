@@ -13,8 +13,11 @@ import 'quiz_result_screen.dart';
 class QuizScreen extends StatefulWidget {
   final int? surahOrder;
   final int? hizb;
+  final int? thumun; // global 1..480
+  final String? thumunLabel; // e.g. "الحزب ٥١ · الثمن ٨" for the title
 
-  const QuizScreen({super.key, this.surahOrder, this.hizb});
+  const QuizScreen(
+      {super.key, this.surahOrder, this.hizb, this.thumun, this.thumunLabel});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -37,8 +40,10 @@ class _QuizScreenState extends State<QuizScreen> {
   int? _correctPick;
   int? _answered;
 
-  bool get _isHizbMode => widget.hizb != null;
-  bool get _isAllMode => widget.surahOrder == null && widget.hizb == null;
+  bool get _isThumunMode => widget.thumun != null;
+  bool get _isHizbMode => widget.hizb != null && widget.thumun == null;
+  bool get _isAllMode =>
+      widget.surahOrder == null && widget.hizb == null && widget.thumun == null;
 
   @override
   void initState() {
@@ -50,9 +55,11 @@ class _QuizScreenState extends State<QuizScreen> {
     _quiz.prime(_data.allQuizWords);
     final List<QuizWord> words = _isAllMode
         ? const []
-        : _isHizbMode
-            ? _quiz.wordsForHizb(widget.hizb!)
-            : _quiz.wordsForSurah(widget.surahOrder!);
+        : _isThumunMode
+            ? _quiz.wordsForThumun(widget.thumun!)
+            : _isHizbMode
+                ? _quiz.wordsForHizb(widget.hizb!)
+                : _quiz.wordsForSurah(widget.surahOrder!);
     if (!_isAllMode && words.isEmpty) {
       if (!mounted) return;
       _showEmptyAndPop();
@@ -69,9 +76,11 @@ class _QuizScreenState extends State<QuizScreen> {
   void _showEmptyAndPop() {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text(_isHizbMode
-            ? 'لا توجد كلمات غريبة في هذا الحزب'
-            : 'لا توجد كلمات غريبة في هذه السورة'),
+        content: Text(_isThumunMode
+            ? 'لا توجد كلمات غريبة في هذا الثمن'
+            : _isHizbMode
+                ? 'لا توجد كلمات غريبة في هذا الحزب'
+                : 'لا توجد كلمات غريبة في هذه السورة'),
       ),
     );
     Navigator.of(context).maybePop();
@@ -120,6 +129,9 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   String _scopeLabel() {
+    if (_isThumunMode) {
+      return widget.thumunLabel ?? 'الثمن';
+    }
     if (_isHizbMode) return 'الحزب ${toArabicDigits(widget.hizb!)}';
     if (_isAllMode) return 'كل القرآن';
     return kQuranSurahs
@@ -137,6 +149,8 @@ class _QuizScreenState extends State<QuizScreen> {
           session: _session,
           surahOrder: widget.surahOrder,
           hizb: widget.hizb,
+          thumun: widget.thumun,
+          thumunLabel: widget.thumunLabel,
           surahName: _scopeLabel(),
         ),
       ),

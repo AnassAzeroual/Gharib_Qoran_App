@@ -160,6 +160,7 @@ class DataService {
             meaning: entry.meaning,
             meaningNormalized: entry.meaningNormalized,
             hizb: entry.hizb,
+            thumun: entry.thumun,
           ));
           // Collect by thumun (additive; does not affect search).
           if (entry.thumun != null) {
