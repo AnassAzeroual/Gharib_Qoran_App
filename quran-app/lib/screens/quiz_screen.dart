@@ -12,8 +12,9 @@ import 'quiz_result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
   final int? surahOrder;
+  final int? hizb;
 
-  const QuizScreen({super.key, this.surahOrder});
+  const QuizScreen({super.key, this.surahOrder, this.hizb});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -36,7 +37,8 @@ class _QuizScreenState extends State<QuizScreen> {
   int? _correctPick;
   int? _answered;
 
-  bool get _isAllMode => widget.surahOrder == null;
+  bool get _isHizbMode => widget.hizb != null;
+  bool get _isAllMode => widget.surahOrder == null && widget.hizb == null;
 
   @override
   void initState() {
@@ -48,7 +50,9 @@ class _QuizScreenState extends State<QuizScreen> {
     _quiz.prime(_data.allQuizWords);
     final List<QuizWord> words = _isAllMode
         ? const []
-        : _quiz.wordsForSurah(widget.surahOrder!);
+        : _isHizbMode
+            ? _quiz.wordsForHizb(widget.hizb!)
+            : _quiz.wordsForSurah(widget.surahOrder!);
     if (!_isAllMode && words.isEmpty) {
       if (!mounted) return;
       _showEmptyAndPop();
@@ -64,7 +68,11 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _showEmptyAndPop() {
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('لا توجد كلمات غريبة في هذه السورة')),
+      SnackBar(
+        content: Text(_isHizbMode
+            ? 'لا توجد كلمات غريبة في هذا الحزب'
+            : 'لا توجد كلمات غريبة في هذه السورة'),
+      ),
     );
     Navigator.of(context).maybePop();
   }
@@ -111,6 +119,15 @@ class _QuizScreenState extends State<QuizScreen> {
     }
   }
 
+  String _scopeLabel() {
+    if (_isHizbMode) return 'الحزب ${toArabicDigits(widget.hizb!)}';
+    if (_isAllMode) return 'كل القرآن';
+    return kQuranSurahs
+        .firstWhere((s) => s.order == widget.surahOrder,
+            orElse: () => kQuranSurahs.first)
+        .name;
+  }
+
   void _finish() {
     _sound.playFinish();
     setState(() => _finished = true);
@@ -119,25 +136,14 @@ class _QuizScreenState extends State<QuizScreen> {
         builder: (_) => QuizResultScreen(
           session: _session,
           surahOrder: widget.surahOrder,
-          surahName: !_isAllMode
-              ? kQuranSurahs
-                  .firstWhere((s) => s.order == widget.surahOrder,
-                      orElse: () => kQuranSurahs.first)
-                  .name
-              : 'كل القرآن',
+          hizb: widget.hizb,
+          surahName: _scopeLabel(),
         ),
       ),
     );
   }
 
-  String _title() {
-    final surah = widget.surahOrder;
-    if (surah == null) return 'اختبر نفسك — كل القرآن';
-    final name = kQuranSurahs
-        .firstWhere((s) => s.order == surah, orElse: () => kQuranSurahs.first)
-        .name;
-    return 'اختبر نفسك — $name';
-  }
+  String _title() => 'اختبر نفسك — ${_scopeLabel()}';
 
   @override
   Widget build(BuildContext context) {

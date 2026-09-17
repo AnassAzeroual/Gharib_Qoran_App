@@ -35,6 +35,9 @@ class QuizService {
   List<QuizWord> wordsForSurah(int surahOrder) =>
       _allWords.where((w) => w.surahOrder == surahOrder).toList();
 
+  List<QuizWord> wordsForHizb(int hizb) =>
+      _allWords.where((w) => w.hizb == hizb).toList();
+
   QuizWord nextAllWord() {
     if (_shuffledQueue.isEmpty) _shuffledQueue = List.of(_allWords)..shuffle(_rng);
     if (_queueIndex >= _shuffledQueue.length) {

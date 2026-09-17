@@ -43,6 +43,11 @@ class _HomeScreenState extends State<HomeScreen>
   late final AnimationController _collapseController;
   late final Animation<double> _collapseAnim; // curved 0..1
 
+  // Drives the التحقق chip show/hide when switching Surah<->Hizb menu.
+  // value 1 = verify chip fully shown (Surah), 0 = fully hidden (Hizb).
+  late final AnimationController _verifyController;
+  late final Animation<double> _verifyAnim; // curved 0..1
+
   // Measured heights (via GlobalKey + postFrame, never context.size in build).
   final GlobalKey _barKey = GlobalKey();
   final GlobalKey _searchKey = GlobalKey();
@@ -96,17 +101,43 @@ class _HomeScreenState extends State<HomeScreen>
       curve: Curves.easeInOutCubic,
       reverseCurve: Curves.easeInOutCubic,
     );
+    _verifyController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 250),
+      reverseDuration: const Duration(milliseconds: 250),
+      // Start shown (Surah is the default menu mode).
+      value: menuModeNotifier.value == MenuMode.surah ? 1.0 : 0.0,
+    );
+    _verifyAnim = CurvedAnimation(
+      parent: _verifyController,
+      curve: Curves.easeInOut,
+      reverseCurve: Curves.easeInOut,
+    );
     _scrollController.addListener(_onScroll);
+    menuModeNotifier.addListener(_onMenuModeChanged);
     WidgetsBinding.instance.addPostFrameCallback((_) => _measureBar());
     _load();
+  }
+
+  // التحقق is hidden in Hizb mode; animate it out and, if it was the active
+  // mode, fall back to المطالعة so a valid chip stays selected.
+  void _onMenuModeChanged() {
+    if (menuModeNotifier.value == MenuMode.hizb) {
+      _verifyController.reverse(); // animate verify chip away
+      if (_verifyMode) setState(() => _verifyMode = false);
+    } else {
+      _verifyController.forward(); // animate verify chip back in
+    }
   }
 
   @override
   void dispose() {
     _scrollController.removeListener(_onScroll);
+    menuModeNotifier.removeListener(_onMenuModeChanged);
     _scrollController.dispose();
     _barController.dispose();
     _collapseController.dispose();
+    _verifyController.dispose();
     _searchController.dispose();
     super.dispose();
   }
@@ -512,6 +543,9 @@ class _HomeScreenState extends State<HomeScreen>
   }
 
   // ------------------------------------------------------------- mode toggle
+  // In Surah mode: المطالعة / التحقق / اختبر نفسك (3 chips).
+  // In Hizb mode:  المطالعة / اختبر نفسك (التحقق is animated-hidden — it is
+  // page/surah oriented and has no meaning for hizb navigation).
   Widget _modeToggle() {
     final scheme = Theme.of(context).colorScheme;
     return Padding(
@@ -524,39 +558,72 @@ class _HomeScreenState extends State<HomeScreen>
           borderRadius: BorderRadius.circular(14),
           border: Border.all(color: scheme.outlineVariant),
         ),
-        child: Row(
-          children: [
-            Expanded(
-              child: _modeChip(
-                label: 'المطالعة',
-                active: !_verifyMode && !_quizMode,
-                onTap: () => setState(() {
-                  _verifyMode = false;
-                  _quizMode = false;
-                }),
-              ),
-            ),
-            Expanded(
-              child: _modeChip(
-                label: 'التحقق',
-                active: _verifyMode,
-                onTap: () => setState(() {
-                  _verifyMode = true;
-                  _quizMode = false;
-                }),
-              ),
-            ),
-            Expanded(
-              child: _modeChip(
-                label: 'اختبر نفسك',
-                active: _quizMode,
-                onTap: () => setState(() {
-                  _quizMode = true;
-                  _verifyMode = false;
-                }),
-              ),
-            ),
-          ],
+        // Drive the التحقق chip's width from a real AnimationController so the
+        // value genuinely interpolates (t: 1 shown -> 0 hidden). The three
+        // chips ALWAYS stay in the widget tree (no if-removal -> no render-tree
+        // jump). المطالعة and اختبر نفسك keep equal flex; التحقق's flex animates
+        // 1000 -> 0 while fading and clipping, so it collapses smoothly and the
+        // two side chips stretch evenly. Fixed row height avoids vertical jump.
+        child: SizedBox(
+          height: 34,
+          child: AnimatedBuilder(
+            animation: _verifyAnim,
+            builder: (context, _) {
+              final double t = _verifyAnim.value.clamp(0.0, 1.0);
+              // Keep a minimum flex of 1 so Flexible never fully degenerates
+              // mid-frame; visual width still reaches ~0 via the tiny flex.
+              final int verifyFlex = (t * 1000).round();
+              return Row(
+                children: [
+                  Expanded(
+                    flex: 1000,
+                    child: _modeChip(
+                      label: 'المطالعة',
+                      active: !_verifyMode && !_quizMode,
+                      onTap: () => setState(() {
+                        _verifyMode = false;
+                        _quizMode = false;
+                      }),
+                    ),
+                  ),
+                  Flexible(
+                    flex: verifyFlex < 1 ? 1 : verifyFlex,
+                    child: ClipRect(
+                      child: Align(
+                        alignment: Alignment.center,
+                        widthFactor: t, // shrink horizontally to 0
+                        child: Opacity(
+                          opacity: t,
+                          child: IgnorePointer(
+                            ignoring: t < 0.5,
+                            child: _modeChip(
+                              label: 'التحقق',
+                              active: _verifyMode,
+                              onTap: () => setState(() {
+                                _verifyMode = true;
+                                _quizMode = false;
+                              }),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    flex: 1000,
+                    child: _modeChip(
+                      label: 'اختبر نفسك',
+                      active: _quizMode,
+                      onTap: () => setState(() {
+                        _quizMode = true;
+                        _verifyMode = false;
+                      }),
+                    ),
+                  ),
+                ],
+              );
+            },
+          ),
         ),
       ),
     );
@@ -570,19 +637,29 @@ class _HomeScreenState extends State<HomeScreen>
     return GestureDetector(
       onTap: onTap,
       child: Container(
+        height: double.infinity,
         alignment: Alignment.center,
-        padding: const EdgeInsets.symmetric(vertical: 8),
+        padding: const EdgeInsets.symmetric(horizontal: 6),
         decoration: BoxDecoration(
           color: active ? const Color(0xFF0F766E) : Colors.transparent,
           borderRadius: BorderRadius.circular(10),
         ),
-        child: Text(
-          label,
-          style: TextStyle(
-            color: active ? Colors.white : Theme.of(context).colorScheme.onSurfaceVariant,
-            fontWeight: FontWeight.w600,
-            fontSize: 13,
-            fontFamily: 'Amiri',
+        // Guard against reflow/wrap glitches while the chip width animates.
+        child: FittedBox(
+          fit: BoxFit.scaleDown,
+          child: Text(
+            label,
+            maxLines: 1,
+            softWrap: false,
+            overflow: TextOverflow.clip,
+            style: TextStyle(
+              color: active
+                  ? Colors.white
+                  : Theme.of(context).colorScheme.onSurfaceVariant,
+              fontWeight: FontWeight.w600,
+              fontSize: 13,
+              fontFamily: 'Amiri',
+            ),
           ),
         ),
       ),
@@ -683,6 +760,12 @@ class _HomeScreenState extends State<HomeScreen>
 
   // -------------------------------------------------------------- hizb list
   void _openHizb(HizbEntry hizb) {
+    if (_quizMode) {
+      Navigator.of(context).push(
+        MaterialPageRoute(builder: (_) => QuizScreen(hizb: hizb.hizb)),
+      );
+      return;
+    }
     Navigator.of(context).push(
       MaterialPageRoute(builder: (_) => HizbThumunsScreen(hizb: hizb)),
     );
@@ -700,6 +783,7 @@ class _HomeScreenState extends State<HomeScreen>
         ),
       );
     }
+    final bool quizMode = _quizMode;
     return GridView.builder(
       controller: _scrollController,
       padding:
@@ -710,9 +794,11 @@ class _HomeScreenState extends State<HomeScreen>
         mainAxisSpacing: 12,
         crossAxisSpacing: 12,
       ),
-      itemCount: menu.hizbs.length,
+      // In quiz mode, prepend the "all-Quran" quiz tile (same as surah grid).
+      itemCount: menu.hizbs.length + (quizMode ? 1 : 0),
       itemBuilder: (context, index) {
-        final h = menu.hizbs[index];
+        if (quizMode && index == 0) return _allQuranTile();
+        final h = menu.hizbs[index - (quizMode ? 1 : 0)];
         return _HizbCard(hizb: h, onTap: () => _openHizb(h));
       },
     );

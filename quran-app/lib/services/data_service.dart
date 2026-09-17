@@ -159,6 +159,7 @@ class DataService {
             wordNormalized: entry.wordNormalized,
             meaning: entry.meaning,
             meaningNormalized: entry.meaningNormalized,
+            hizb: entry.hizb,
           ));
           // Collect by thumun (additive; does not affect search).
           if (entry.thumun != null) {

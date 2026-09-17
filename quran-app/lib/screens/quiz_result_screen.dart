@@ -7,6 +7,7 @@ import 'quiz_screen.dart';
 class QuizResultScreen extends StatelessWidget {
   final QuizSession session;
   final int? surahOrder;
+  final int? hizb;
   final String surahName;
 
   const QuizResultScreen({
@@ -14,6 +15,7 @@ class QuizResultScreen extends StatelessWidget {
     required this.session,
     required this.surahName,
     this.surahOrder,
+    this.hizb,
   });
 
   int get _total => session.correctCount + session.wrongCount;
@@ -135,7 +137,8 @@ class QuizResultScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute(
-                        builder: (_) => QuizScreen(surahOrder: surahOrder),
+                        builder: (_) =>
+                            QuizScreen(surahOrder: surahOrder, hizb: hizb),
                       ),
                     );
                   },

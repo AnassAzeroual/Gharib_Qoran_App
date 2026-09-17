@@ -7,6 +7,7 @@ class QuizWord {
   final String wordNormalized;
   final String meaning;
   final String meaningNormalized;
+  final int? hizb; // 1..60, for per-hizb quiz filtering
 
   const QuizWord({
     this.surahOrder = 0,
@@ -17,6 +18,7 @@ class QuizWord {
     required this.wordNormalized,
     required this.meaning,
     required this.meaningNormalized,
+    this.hizb,
   });
 }
 
