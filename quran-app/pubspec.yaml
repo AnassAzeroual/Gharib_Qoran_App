@@ -83,6 +83,7 @@ flutter:
     - assets/sounds/
     - assets/surah_index.json
     - assets/thumun-menu.json
+    - assets/search_index.json
 
   fonts:
     - family: Amiri
