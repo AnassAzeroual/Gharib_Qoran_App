@@ -788,7 +788,7 @@ class _HomeScreenState extends State<HomeScreen>
           EdgeInsets.only(top: topPadding, left: 16, right: 16, bottom: 24),
       gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
         maxCrossAxisExtent: 210,
-        mainAxisExtent: 162,
+        mainAxisExtent: 176,
         mainAxisSpacing: 12,
         crossAxisSpacing: 12,
       ),
@@ -1101,7 +1101,7 @@ class _HizbCard extends StatelessWidget {
                 child: Container(color: badgeColor),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(18, 18, 22, 18),
+                padding: const EdgeInsets.fromLTRB(18, 14, 22, 14),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
