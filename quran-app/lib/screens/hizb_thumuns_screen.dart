@@ -125,6 +125,7 @@ class _WholeHizbTile extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
             child: Row(
+              textDirection: TextDirection.rtl,
               children: [
                 const Icon(Icons.quiz, color: Color(0xFFFCD34D), size: 26),
                 const SizedBox(width: 14),
@@ -196,6 +197,7 @@ class _ThumunTile extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
             child: Row(
+              textDirection: TextDirection.rtl,
               children: [
                 Container(
                   width: 44,
