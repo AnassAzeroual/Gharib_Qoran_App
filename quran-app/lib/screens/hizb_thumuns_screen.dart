@@ -233,7 +233,7 @@ class _ThumunTile extends StatelessWidget {
                       ),
                       const SizedBox(height: 2),
                       Text(
-                        '${toArabicDigits(thumun.entryCount)} كلمة · صفحة ${toArabicDigits(thumun.firstPage)}',
+                        'كلمة ${toArabicDigits(thumun.entryCount)} · صفحة ${toArabicDigits(thumun.firstPage)}',
                         style: TextStyle(
                           fontSize: 13,
                           color: scheme.onSurfaceVariant,

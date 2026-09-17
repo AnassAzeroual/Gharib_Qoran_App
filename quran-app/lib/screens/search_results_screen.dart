@@ -60,7 +60,7 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
                     padding:
                         const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                     child: Text(
-                      '${toArabicDigits(_results.length)} نتيجة',
+                      'نتيجة ${toArabicDigits(_results.length)}',
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.onSurfaceVariant,
                         fontSize: 13,

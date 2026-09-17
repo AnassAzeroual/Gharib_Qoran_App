@@ -694,7 +694,7 @@ class _HomeScreenState extends State<HomeScreen>
           child: Row(
             children: [
               Text(
-                '${toArabicDigits(_liveResults.length)} نتيجة',
+                'نتيجة ${toArabicDigits(_liveResults.length)}',
                 style: TextStyle(
                   color: scheme.onSurfaceVariant,
                   fontSize: 13,
@@ -1167,7 +1167,7 @@ class _HizbCard extends StatelessWidget {
                         Expanded(
                           child: _hizbStatBadge(
                             icon: Icons.bookmark_border_rounded,
-                            label: '${toArabicDigits(hizb.thumunCount)} ثمن',
+                            label: 'ثمن ${toArabicDigits(hizb.thumunCount)}',
                             color: badgeColor,
                             alignStart: true,
                             scheme: scheme,
@@ -1178,7 +1178,7 @@ class _HizbCard extends StatelessWidget {
                           child: _hizbStatBadge(
                             icon: Icons.menu_book_rounded,
                             label:
-                                '${toArabicDigits(hizb.totalEntries)} كلمة',
+                                'كلمة ${toArabicDigits(hizb.totalEntries)}',
                             color: badgeColor,
                             alignStart: false,
                             scheme: scheme,
