@@ -102,8 +102,9 @@ class _WordCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Row(
+                  textDirection: TextDirection.rtl,
                   children: [
-                    // Page badge (jump target).
+                    // Page badge (jump target) — sits on the right (RTL start).
                     Container(
                       padding: const EdgeInsets.symmetric(
                           horizontal: 10, vertical: 4),
@@ -112,6 +113,7 @@ class _WordCard extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Row(
+                        textDirection: TextDirection.rtl,
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           const Icon(Icons.menu_book_rounded,
@@ -135,7 +137,7 @@ class _WordCard extends StatelessWidget {
                           word.ayahNumber != null
                               ? '${word.surahName} · آية ${toArabicDigits(word.ayahNumber!)}'
                               : word.surahName,
-                          textAlign: TextAlign.left,
+                          textAlign: TextAlign.right,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             color: scheme.onSurfaceVariant,
