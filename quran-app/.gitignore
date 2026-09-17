@@ -1,0 +1,22 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+
+# Generated book resources (regenerate with: python sync_resources.py)
+assets/images/
+assets/json/
+assets/surah_index.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Android signing (never commit keystore or passwords)
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
