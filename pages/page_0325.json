@@ -60,8 +60,8 @@
             "ayah": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
             "word": "إِنَّ هَـٰذَا",
             "word_normalized": "ان هذا",
-            "meaning": "أَيْ: مِنْ قَوْلِهِ: <span class=\"book-ayah text-primary\">﴿قَدْ أَفْلَحَ مَن تَزَكَّى﴾</span>.",
-            "meaning_normalized": "أي من قوله <span class=bookayah textprimary>﴿قد أفلح من تزكى﴾</span>"
+            "meaning": "أَيْ: مِنْ قَوْلِهِ: ﴿قَدْ أَفْلَحَ مَن تَزَكَّىٰ...﴾.",
+            "meaning_normalized": "أي: من قوله: قد أفلح من تزكى..."
           }
         ]
       },
