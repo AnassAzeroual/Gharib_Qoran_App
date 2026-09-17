@@ -71,24 +71,29 @@ class HizbThumunsScreen extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 16, color: scheme.onSurfaceVariant)),
             )
-          : ListView.builder(
-              padding: EdgeInsets.fromLTRB(12, 12, 12, 24 + bottomInset),
-              itemCount: hizb.thumuns.length + extra,
-              itemBuilder: (context, index) {
-                if (quizMode && index == 0) {
-                  return _WholeHizbTile(
-                    hizb: hizb,
-                    onTap: () => _quizWholeHizb(context),
-                  );
-                }
-                final t = hizb.thumuns[index - extra];
-                return _ThumunTile(
-                  hizb: hizb.hizb,
-                  thumun: t,
-                  quizMode: quizMode,
-                  onTap: () => _openThumun(context, t),
-                );
-              },
+          : Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 720),
+                child: ListView.builder(
+                  padding: EdgeInsets.fromLTRB(12, 12, 12, 24 + bottomInset),
+                  itemCount: hizb.thumuns.length + extra,
+                  itemBuilder: (context, index) {
+                    if (quizMode && index == 0) {
+                      return _WholeHizbTile(
+                        hizb: hizb,
+                        onTap: () => _quizWholeHizb(context),
+                      );
+                    }
+                    final t = hizb.thumuns[index - extra];
+                    return _ThumunTile(
+                      hizb: hizb.hizb,
+                      thumun: t,
+                      quizMode: quizMode,
+                      onTap: () => _openThumun(context, t),
+                    );
+                  },
+                ),
+              ),
             ),
     );
   }

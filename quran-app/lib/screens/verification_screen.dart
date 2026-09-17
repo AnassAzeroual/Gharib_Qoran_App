@@ -233,8 +233,11 @@ class _VerificationScreenState extends State<VerificationScreen> {
         behavior: HitTestBehavior.opaque,
         onVerticalDragUpdate:
             wide ? null : (d) => applyDelta(d.delta.dy),
+        // In wide mode the layout is RTL: the image pane sits on the RIGHT, so
+        // growing its fraction must correspond to dragging the handle LEFT.
+        // Physical dx is negative when dragging left, hence invert it.
         onHorizontalDragUpdate:
-            wide ? (d) => applyDelta(d.delta.dx) : null,
+            wide ? (d) => applyDelta(-d.delta.dx) : null,
         // Double-tap the handle to reset to the default split.
         onDoubleTap: () => setState(() => _imageFraction = 0.6),
         child: SizedBox(
