@@ -377,7 +377,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
           borderRadius: BorderRadius.circular(10),
         ),
         child: Text(
-          '${surah.name} — ${toArabicDigits(section.glossary.length)} كلمة',
+          '${surah.name} — كلمة ${toArabicDigits(section.glossary.length)}',
           style: TextStyle(
             color: Colors.white,
             fontSize: _listFontSize * 0.77,
