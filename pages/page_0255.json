@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 49,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَإِدْبَـٰرَ ٱلنُّجُومِ",
             "word": "فَسَبِّحْهُ",
             "word_normalized": "فسبحه",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 49,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَإِدْبَـٰرَ ٱلنُّجُومِ",
             "word": "وَإِدْبَـٰرَ ٱلنُّجُومِ",
             "word_normalized": "وادبر النجوم",
@@ -58,6 +64,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلنَّجْمِ إِذَا هَوَىٰ",
             "word": "وَٱلنَّجْمِ إِذَا هَوَىٰ",
             "word_normalized": "والنجم اذا هوي",
@@ -66,6 +75,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
             "word": "مَا ضَلَّ",
             "word_normalized": "ما ضل",
@@ -74,6 +86,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
             "word": "وَمَا غَوَى",
             "word_normalized": "وما غوى",
@@ -82,6 +97,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "إِنْ هُوَ إِلَّا وَحْىٌۭ يُوحَىٰ",
             "word": "إِنْ هُوَ",
             "word_normalized": "إن هو",
@@ -90,6 +108,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "عَلَّمَهُۥ شَدِيدُ ٱلْقُوَىٰ",
             "word": "شَدِيدُ ٱلْقُوَىٰ",
             "word_normalized": "شديد القوي",
@@ -98,6 +119,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "ذُو مِرَّةٍۢ فَٱسْتَوَىٰ",
             "word": "ذُو مِرَّةٍ",
             "word_normalized": "ذو مرة",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "ذُو مِرَّةٍۢ فَٱسْتَوَىٰ",
             "word": "فَٱسْتَوَىٰ",
             "word_normalized": "فاستوي",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "وَهُوَ بِٱلْأُفُقِ ٱلْأَعْلَىٰ",
             "word": "بِٱلْأُفُقِ ٱلْأَعْلَىٰ",
             "word_normalized": "بالافق الاعلي",
@@ -122,6 +152,9 @@
           },
           {
             "ayah_number": 8,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "ثُمَّ دَنَا فَتَدَلَّىٰ",
             "word": "دَنَا",
             "word_normalized": "دنا",
@@ -130,6 +163,9 @@
           },
           {
             "ayah_number": 8,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "ثُمَّ دَنَا فَتَدَلَّىٰ",
             "word": "فَتَدَلَّى",
             "word_normalized": "فتدلى",
@@ -138,6 +174,9 @@
           },
           {
             "ayah_number": 9,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ",
             "word": "قَابَ قَوْسَيْنِ",
             "word_normalized": "قاب قوسين",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "فَأَوْحَىٰٓ إِلَىٰ عَبْدِهِۦ مَآ أَوْحَىٰ",
             "word": "عَبْدِهِ",
             "word_normalized": "عبده",
@@ -154,6 +196,9 @@
           },
           {
             "ayah_number": 12,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "أَفَتُمَـٰرُونَهُۥ عَلَىٰ مَا يَرَىٰ",
             "word": "أَفَتُمَـٰرُونَهُۥ",
             "word_normalized": "افتمرونه",
@@ -162,6 +207,9 @@
           },
           {
             "ayah_number": 13,
+            "thumun": 420,
+            "hizb": 53,
+            "thumun_in_hizb": 4,
             "ayah": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ",
             "word": "نَزْلَةً أُخْرَى",
             "word_normalized": "نزلة أخرى",

@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 28,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "فِى سِدْرٍۢ مَّخْضُودٍۢ",
             "word": "سِدْرٍۢ مَّخْضُودٍۢ",
             "word_normalized": "سدر مخضود",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 29,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "وَطَلْحٍۢ مَّنضُودٍۢ",
             "word": "وَطَلْحٍۢ مَّنضُودٍۢ",
             "word_normalized": "وطلح منضود",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 30,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "وَظِلٍّۢ مَّمْدُودٍۢ",
             "word": "وَظِلٍّۢ مَّمْدُودٍۢ",
             "word_normalized": "وظل ممدود",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 31,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "وَمَآءٍۢ مَّسْكُوبٍۢ",
             "word": "مَّسْكُوبٍ",
             "word_normalized": "مسكوب",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 34,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "وَفُرُشٍۢ مَّرْفُوعَةٍ",
             "word": "مَّرْفُوعَةٍ",
             "word_normalized": "مرفوعة",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 35,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "إِنَّآ أَنشَأْنَـٰهُنَّ إِنشَآءًۭ",
             "word": "أَنشَأْنَـٰهُنَّ إِنشَآءًۭ",
             "word_normalized": "انشانهن انشاء",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 37,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "عُرُبًا أَتْرَابًۭا",
             "word": "عُرُبًا",
             "word_normalized": "عربا",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 37,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "عُرُبًا أَتْرَابًۭا",
             "word": "أَتْرَابًۭا",
             "word_normalized": "اترابا",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 42,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "فِى سَمُومٍۢ وَحَمِيمٍۢ",
             "word": "سَمُومٍ",
             "word_normalized": "سموم",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 42,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "فِى سَمُومٍۢ وَحَمِيمٍۢ",
             "word": "وَحَمِيمٍ",
             "word_normalized": "وحميم",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 43,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "وَظِلٍّۢ مِّن يَحْمُومٍۢ",
             "word": "يَحْمُومٍ",
             "word_normalized": "يحموم",
@@ -113,6 +146,9 @@
           },
           {
             "ayah_number": 44,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "لَّا بَارِدٍۢ وَلَا كَرِيمٍ",
             "word": "لَّا بَارِدٍۢ وَلَا كَرِيمٍ",
             "word_normalized": "لا بارد ولا كريم",
@@ -121,6 +157,9 @@
           },
           {
             "ayah_number": 45,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
             "word": "مُتْرَفِينَ",
             "word_normalized": "مترفين",
@@ -129,6 +168,9 @@
           },
           {
             "ayah_number": 46,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
             "word": "ٱلْحِنثِ ٱلْعَظِيمِ",
             "word_normalized": "الحنث العظيم",
@@ -137,6 +179,9 @@
           },
           {
             "ayah_number": 48,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
             "word": "أَوَءَابَآؤُنَا",
             "word_normalized": "اوءاباأنا",
@@ -145,6 +190,9 @@
           },
           {
             "ayah_number": 52,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "لَـَٔاكِلُونَ مِن شَجَرٍۢ مِّن زَقُّومٍۢ",
             "word": "زَقُّومٍ",
             "word_normalized": "زقوم",
@@ -153,6 +201,9 @@
           },
           {
             "ayah_number": 54,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
             "ayah": "فَشَـٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
             "word": "ٱلْحَمِيمِ",
             "word_normalized": "الحميم",

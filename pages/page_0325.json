@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 8,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
             "word": "لِلْيُسْرَى",
             "word_normalized": "لليسرى",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 12,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
             "word": "يَصْلَى ٱلنَّارَ",
             "word_normalized": "يصلي النار",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 14,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
             "word": "أَفْلَحَ",
             "word_normalized": "أفلح",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 14,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
             "word": "تَزَكَّى",
             "word_normalized": "تزكى",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 18,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
             "word": "إِنَّ هَـٰذَا",
             "word_normalized": "ان هذا",
@@ -82,6 +97,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
             "word": "ٱلْغَـٰشِيَةِ",
             "word_normalized": "الغشيه",
@@ -90,6 +108,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "وُجُوهٌۭ يَوْمَئِذٍ خَـٰشِعَةٌ",
             "word": "خَـٰشِعَةٌ",
             "word_normalized": "خشعه",
@@ -98,6 +119,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "عَامِلَةٌۭ نَّاصِبَةٌۭ",
             "word": "عَامِلَةٌۭ نَّاصِبَةٌۭ",
             "word_normalized": "عامله ناصبه",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "تَصْلَىٰ نَارًا حَامِيَةًۭ",
             "word": "تَصْلَىٰ نَارًا",
             "word_normalized": "تصلي نارا",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "تَصْلَىٰ نَارًا حَامِيَةًۭ",
             "word": "حَامِيَةً",
             "word_normalized": "حامية",
@@ -122,6 +152,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍۢ",
             "word": "ءَانِيَةٍۢ",
             "word_normalized": "ءانيه",
@@ -130,6 +163,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍۢ",
             "word": "ضَرِيعٍ",
             "word_normalized": "ضريع",
@@ -138,6 +174,9 @@
           },
           {
             "ayah_number": 9,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "لِّسَعْيِهَا رَاضِيَةٌۭ",
             "word": "لِسَعْيِهَا",
             "word_normalized": "لسعيها",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 11,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةًۭ",
             "word": "لَـٰغِيَةًۭ",
             "word_normalized": "لغيه",
@@ -154,6 +196,9 @@
           },
           {
             "ayah_number": 12,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "فِيهَا عَيْنٌۭ جَارِيَةٌۭ",
             "word": "جَارِيَةٌ",
             "word_normalized": "جارية",
@@ -162,6 +207,9 @@
           },
           {
             "ayah_number": 14,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
             "ayah": "وَأَكْوَابٌۭ مَّوْضُوعَةٌۭ",
             "word": "مَّوْضُوعَةٌ",
             "word_normalized": "موضوعة",

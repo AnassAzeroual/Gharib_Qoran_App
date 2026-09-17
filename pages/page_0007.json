@@ -42,6 +42,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
             "word": "بِسْمِ ٱللَّهِ",
             "word_normalized": "بسم الله",
@@ -50,6 +53,9 @@
           },
           {
             "ayah_number": 1,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
             "word": "ٱلرَّحْمَـٰنِ",
             "word_normalized": "الرحمن",
@@ -58,6 +64,9 @@
           },
           {
             "ayah_number": 1,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
             "word": "ٱلرَّحِيمِ",
             "word_normalized": "الرحيم",
@@ -66,6 +75,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
             "word": "رَبِّ",
             "word_normalized": "رب",
@@ -74,6 +86,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
             "word": "ٱلْعَـٰلَمِينَ",
             "word_normalized": "العلمين",
@@ -82,6 +97,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
             "word": "يَوْمِ ٱلدِّينِ",
             "word_normalized": "يوم الدين",
@@ -90,6 +108,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
             "word": "إِيَّاكَ نَعْبُدُ",
             "word_normalized": "إياك نعبد",
@@ -98,6 +119,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
             "word": "وإِيَّاكَ نَسْتَعِينُ",
             "word_normalized": "وإياك نستعين",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
             "word": "ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
             "word_normalized": "الصرط المستقيم",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
             "word": "غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ",
             "word_normalized": "غير المغضوب عليهم",
@@ -122,6 +152,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
             "word": "ٱلضَّآلِّينَ",
             "word_normalized": "الضالين",
@@ -147,6 +180,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 1,
+            "hizb": 1,
+            "thumun_in_hizb": 1,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ الٓمٓ",
             "word": "الٓمٓ",
             "word_normalized": "الم",

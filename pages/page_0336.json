@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلْعَـٰدِيَـٰتِ ضَبْحًۭا",
             "word": "وَٱلْعَـٰدِيَـٰتِ ضَبْحًۭا",
             "word_normalized": "والعديت ضبحا",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "فَٱلْمُورِيَـٰتِ قَدْحًۭا",
             "word": "فَٱلْمُورِيَـٰتِ قَدْحًۭا",
             "word_normalized": "فالموريت قدحا",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
             "word": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
             "word_normalized": "فالمغيرت صبحا",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
             "word": "فَأَثَرْنَ",
             "word_normalized": "فأثرن",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
             "word": "نَقْعًۭا",
             "word_normalized": "نقعا",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "فَوَسَطْنَ بِهِۦ جَمْعًا",
             "word": "فَوَسَطْنَ بِهِۦ جَمْعًا",
             "word_normalized": "فوسطن به جمعا",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
             "word": "لَكَنُودٌ",
             "word_normalized": "لكنود",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
             "word": "لَشَهِيدٌ",
             "word_normalized": "لشهيد",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 8,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
             "ayah": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
             "word": "ٱلْخَيْرِ",
             "word_normalized": "الخير",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 9,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
             "ayah": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
             "word": "بُعْثِرَ",
             "word_normalized": "بعثر",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
             "ayah": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
             "word": "وَحُصِّلَ",
             "word_normalized": "وحصل",
@@ -130,6 +163,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ",
             "word": "ٱلْقَارِعَةُ",
             "word_normalized": "القارعه",
@@ -138,6 +174,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
             "ayah": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
             "word": "ٱلْمَبْثُوثِ",
             "word_normalized": "المبثوث",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
             "ayah": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
             "word": "كَٱلْعِهْنِ",
             "word_normalized": "كالعهن",

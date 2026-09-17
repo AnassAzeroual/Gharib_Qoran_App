@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 45,
+            "thumun": 417,
+            "hizb": 53,
+            "thumun_in_hizb": 1,
             "ayah": "فَمَا ٱسْتَطَـٰعُوا۟ مِن قِيَامٍۢ وَمَا كَانُوا۟ مُنتَصِرِينَ",
             "word": "مِن قِيَامٍ",
             "word_normalized": "من قيام",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 47,
+            "thumun": 417,
+            "hizb": 53,
+            "thumun_in_hizb": 1,
             "ayah": "وَٱلسَّمَآءَ بَنَيْنَـٰهَا بِأَيْي۟دٍۢ وَإِنَّا لَمُوسِعُونَ",
             "word": "بِأَيْي۟دٍۢ",
             "word_normalized": "باييد",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 48,
+            "thumun": 417,
+            "hizb": 53,
+            "thumun_in_hizb": 1,
             "ayah": "وَٱلْأَرْضَ فَرَشْنَـٰهَا فَنِعْمَ ٱلْمَـٰهِدُونَ",
             "word": "فَرَشْنَـٰهَا",
             "word_normalized": "فرشنها",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 49,
+            "thumun": 417,
+            "hizb": 53,
+            "thumun_in_hizb": 1,
             "ayah": "وَمِن كُلِّ شَىْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ",
             "word": "زَوْجَيْنِ",
             "word_normalized": "زوجين",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 53,
+            "thumun": 417,
+            "hizb": 53,
+            "thumun_in_hizb": 1,
             "ayah": "أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌۭ طَاغُونَ",
             "word": "أَتَوَاصَوْا بِهِ",
             "word_normalized": "أتواصوا به",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 53,
+            "thumun": 417,
+            "hizb": 53,
+            "thumun_in_hizb": 1,
             "ayah": "أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌۭ طَاغُونَ",
             "word": "طَاغُونَ",
             "word_normalized": "طاغون",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 59,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "فَإِنَّ لِلَّذِينَ ظَلَمُوا۟ ذَنُوبًۭا مِّثْلَ ذَنُوبِ أَصْحَـٰبِهِمْ فَلَا يَسْتَعْجِلُونِ",
             "word": "ذَنُوبًۭا",
             "word_normalized": "ذنوبا",
@@ -98,6 +119,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلطُّورِ",
             "word": "وَٱلطُّورِ",
             "word_normalized": "والطور",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "وَكِتَـٰبٍۢ مَّسْطُورٍۢ",
             "word": "وَكِتَـٰبٍۢ مَّسْطُورٍۢ",
             "word_normalized": "وكتب مسطور",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "فِى رَقٍّۢ مَّنشُورٍۢ",
             "word": "فِى رَقٍّۢ مَّنشُورٍۢ",
             "word_normalized": "في رق منشور",
@@ -122,6 +152,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "وَٱلْبَيْتِ ٱلْمَعْمُورِ",
             "word": "وَٱلْبَيْتِ ٱلْمَعْمُورِ",
             "word_normalized": "والبيت المعمور",
@@ -130,6 +163,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "وَٱلسَّقْفِ ٱلْمَرْفُوعِ",
             "word": "وَٱلسَّقْفِ ٱلْمَرْفُوعِ",
             "word_normalized": "والسقف المرفوع",
@@ -138,6 +174,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "وَٱلْبَحْرِ ٱلْمَسْجُورِ",
             "word": "ٱلْمَسْجُورِ",
             "word_normalized": "المسجور",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 9,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "يَوْمَ تَمُورُ ٱلسَّمَآءُ مَوْرًۭا",
             "word": "تَمُورُ",
             "word_normalized": "تمور",
@@ -154,6 +196,9 @@
           },
           {
             "ayah_number": 13,
+            "thumun": 418,
+            "hizb": 53,
+            "thumun_in_hizb": 2,
             "ayah": "يَوْمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا",
             "word": "يُدَعُّونَ",
             "word_normalized": "يدعون",

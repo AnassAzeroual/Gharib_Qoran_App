@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ",
             "word": "لَا أُقْسِمُ",
             "word_normalized": "لا أقسم",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 1,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ",
             "word": "ٱلْبَلَدِ",
             "word_normalized": "البلد",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ",
             "word": "حِلٌّ",
             "word_normalized": "حل",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَوَالِدٍۢ وَمَا وَلَدَ",
             "word": "وَوَالِدٍۢ وَمَا وَلَدَ",
             "word_normalized": "ووالد وما ولد",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ",
             "word": "كَبَدٍ",
             "word_normalized": "كبد",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌۭ",
             "word": "أَيَحْسَبُ",
             "word_normalized": "أيحسب",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "يَقُولُ أَهْلَكْتُ مَالًۭا لُّبَدًا",
             "word": "لُّبَدًا",
             "word_normalized": "لبدا",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ",
             "word": "وَهَدَيْنَـٰهُ",
             "word_normalized": "وهدينه",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ",
             "word": "ٱلنَّجْدَيْنِ",
             "word_normalized": "النجدين",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 11,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
             "word": "فَلَا ٱقْتَحَمَ",
             "word_normalized": "فلا اقتحم",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 11,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
             "word": "ٱلْعَقَبَةَ",
             "word_normalized": "العقبه",
@@ -113,6 +146,9 @@
           },
           {
             "ayah_number": 13,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "فَكُّ رَقَبَةٍ",
             "word": "فَكُّ رَقَبَةٍ",
             "word_normalized": "فك رقبة",
@@ -121,6 +157,9 @@
           },
           {
             "ayah_number": 14,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "أَوْ إِطْعَـٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ",
             "word": "مَسْغَبَةٍ",
             "word_normalized": "مسغبة",
@@ -129,6 +168,9 @@
           },
           {
             "ayah_number": 15,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "يَتِيمًۭا ذَا مَقْرَبَةٍ",
             "word": "ذَا مَقْرَبَةٍ",
             "word_normalized": "ذا مقربة",
@@ -137,6 +179,9 @@
           },
           {
             "ayah_number": 16,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ",
             "word": "ذَا مَتْرَبَةٍ",
             "word_normalized": "ذا متربة",
@@ -145,6 +190,9 @@
           },
           {
             "ayah_number": 18,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
             "word": "ٱلْمَيْمَنَةِ",
             "word_normalized": "الميمنه",

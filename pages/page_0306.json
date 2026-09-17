@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 14,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "بَلِ ٱلْإِنسَـٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ",
             "word": "عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ",
             "word_normalized": "علي نفسه بصيره",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 15,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ",
             "word": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ",
             "word_normalized": "ولو القي معاذيره",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 16,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "لَا تُحَرِّكْ بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ",
             "word": "لِتَعْجَلَ بِهِ",
             "word_normalized": "لتعجل به",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 17,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ",
             "word": "جَمْعَهُ",
             "word_normalized": "جمعه",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 17,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ",
             "word": "وَقُرْءَانَهُۥ",
             "word_normalized": "وقرءانه",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 18,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "فَإِذَا قَرَأْنَـٰهُ فَٱتَّبِعْ قُرْءَانَهُۥ",
             "word": "فَٱتَّبِعْ قُرْءَانَهُۥ",
             "word_normalized": "فاتبع قرءانه",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 19,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُۥ",
             "word": "بَيَانَهُ",
             "word_normalized": "بيانه",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 22,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "وُجُوهٌۭ يَوْمَئِذٍۢ نَّاضِرَةٌ",
             "word": "نَّاضِرَةٌ",
             "word_normalized": "ناضرة",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 23,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "إِلَىٰ رَبِّهَا نَاظِرَةٌۭ",
             "word": "نَاظِرَةٌ",
             "word_normalized": "ناظرة",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 24,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "وَوُجُوهٌۭ يَوْمَئِذٍۭ بَاسِرَةٌۭ",
             "word": "بَاسِرَةٌ",
             "word_normalized": "باسرة",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 25,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "تَظُنُّ أَن يُفْعَلَ بِهَا فَاقِرَةٌۭ",
             "word": "فَاقِرَةٌ",
             "word_normalized": "فاقرة",
@@ -113,6 +146,9 @@
           },
           {
             "ayah_number": 26,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ",
             "word": "كَلَّا",
             "word_normalized": "كلا",
@@ -121,6 +157,9 @@
           },
           {
             "ayah_number": 26,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ",
             "word": "بَلَغَتِ ٱلتَّرَاقِىَ",
             "word_normalized": "بلغت التراقي",
@@ -129,6 +168,9 @@
           },
           {
             "ayah_number": 27,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "وَقِيلَ مَنْ ۜ رَاقٍۢ",
             "word": "مَنْ ۜ رَاقٍ",
             "word_normalized": "من راق",
@@ -137,6 +179,9 @@
           },
           {
             "ayah_number": 28,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "وَظَنَّ أَنَّهُ ٱلْفِرَاقُ",
             "word": "وَظَنَّ",
             "word_normalized": "وظن",
@@ -145,6 +190,9 @@
           },
           {
             "ayah_number": 29,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
             "word": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
             "word_normalized": "والتفت الساق بالساق",
@@ -153,6 +201,9 @@
           },
           {
             "ayah_number": 30,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ",
             "word": "ٱلْمَسَاقُ",
             "word_normalized": "المساق",
@@ -161,6 +212,9 @@
           },
           {
             "ayah_number": 32,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ",
             "word": "وَتَوَلَّى",
             "word_normalized": "وتولى",
@@ -169,6 +223,9 @@
           },
           {
             "ayah_number": 33,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
             "ayah": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ",
             "word": "يَتَمَطَّى",
             "word_normalized": "يتمطى",

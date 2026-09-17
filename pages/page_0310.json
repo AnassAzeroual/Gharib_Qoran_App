@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 4,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "فَٱلْفَـٰرِقَـٰتِ فَرْقًۭا",
             "word": "فَٱلْفَـٰرِقَـٰتِ فَرْقًۭا",
             "word_normalized": "فالفرقت فرقا",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا",
             "word": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا",
             "word_normalized": "فالملقيت ذكرا",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "عُذْرًا أَوْ نُذْرًا",
             "word": "عُذْرًا",
             "word_normalized": "عذرا",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "عُذْرًا أَوْ نُذْرًا",
             "word": "نُذْرًا",
             "word_normalized": "نذرا",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌۭ",
             "word": "تُوعَدُونَ",
             "word_normalized": "توعدون",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 8,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
             "word": "طُمِسَتْ",
             "word_normalized": "طمست",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 9,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
             "word": "فُرِجَتْ",
             "word_normalized": "فرجت",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
             "word": "نُسِفَتْ",
             "word_normalized": "نسفت",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 11,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
             "word": "أُقِّتَتْ",
             "word_normalized": "أقتت",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 12,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
             "word": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
             "word_normalized": "لاي يوم اجلت",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 13,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "لِيَوْمِ ٱلْفَصْلِ",
             "word": "لِيَوْمِ ٱلْفَصْلِ",
             "word_normalized": "ليوم الفصل",
@@ -113,6 +146,9 @@
           },
           {
             "ayah_number": 15,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
             "ayah": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
             "word": "وَيْلٌ",
             "word_normalized": "ويل",
@@ -121,6 +157,9 @@
           },
           {
             "ayah_number": 20,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
             "ayah": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍۢ مَّهِينٍۢ",
             "word": "مَّآءٍۢ مَّهِينٍۢ",
             "word_normalized": "ماء مهين",
@@ -129,6 +168,9 @@
           },
           {
             "ayah_number": 21,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
             "ayah": "فَجَعَلْنَـٰهُ فِى قَرَارٍۢ مَّكِينٍ",
             "word": "قَرَارٍۢ مَّكِينٍ",
             "word_normalized": "قرار مكين",
@@ -137,6 +179,9 @@
           },
           {
             "ayah_number": 22,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
             "ayah": "إِلَىٰ قَدَرٍۢ مَّعْلُومٍۢ",
             "word": "قَدَرٍ",
             "word_normalized": "قدر",
@@ -145,6 +190,9 @@
           },
           {
             "ayah_number": 25,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
             "ayah": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
             "word": "كِفَاتًا",
             "word_normalized": "كفاتا",
@@ -153,6 +201,9 @@
           },
           {
             "ayah_number": 27,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
             "ayah": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍۢ وَأَسْقَيْنَـٰكُم مَّآءًۭ فُرَاتًۭا",
             "word": "رَوَٰسِىَ شَـٰمِخَـٰتٍۢ",
             "word_normalized": "روسي شمخت",

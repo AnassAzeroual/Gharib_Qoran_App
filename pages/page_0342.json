@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
             "word": "مَآ أَغْنَىٰ عَنْهُ",
             "word_normalized": "ما اغني عنه",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
             "word": "وَمَا كَسَبَ",
             "word_normalized": "وما كسب",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
             "word": "سَيَصْلَىٰ نَارًۭا",
             "word_normalized": "سيصلي نارا",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
             "word": "ذَاتَ لَهَبٍ",
             "word_normalized": "ذات لهب",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
             "word": "حَمَّالَةَ ٱلْحَطَبِ",
             "word_normalized": "حماله الحطب",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
             "word": "جِيدِهَا",
             "word_normalized": "جيدها",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
             "word": "مِّن مَّسَدٍ",
             "word_normalized": "من مسد",
@@ -98,6 +119,9 @@
         "glossary": [
           {
             "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "ٱللَّهُ ٱلصَّمَدُ",
             "word": "ٱلصَّمَدُ",
             "word_normalized": "الصمد",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
             "word": "كُفُوًا",
             "word_normalized": "كفوا",
@@ -131,6 +158,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
             "word": "أَعُوذُ",
             "word_normalized": "أعوذ",
@@ -139,6 +169,9 @@
           },
           {
             "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
             "word": "ٱلْفَلَقِ",
             "word_normalized": "الفلق",

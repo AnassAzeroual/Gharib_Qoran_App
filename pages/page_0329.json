@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 19,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
             "word": "ٱلْمَشْـَٔمَةِ",
             "word_normalized": "المشمه",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 20,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ",
             "word": "مُّؤْصَدَةٌ",
             "word_normalized": "مؤصدة",
@@ -58,6 +64,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلشَّمْسِ وَضُحَىٰهَا",
             "word": "وَضُحَىٰهَا",
             "word_normalized": "وضحيها",
@@ -66,6 +75,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
             "word": "تَلَىٰهَا",
             "word_normalized": "تليها",
@@ -74,6 +86,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
             "word": "جَلَّىٰهَا",
             "word_normalized": "جليها",
@@ -82,6 +97,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
             "word": "يَغْشَىٰهَا",
             "word_normalized": "يغشيها",
@@ -90,6 +108,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
             "word": "طَحَىٰهَا",
             "word_normalized": "طحيها",
@@ -98,6 +119,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَنَفْسٍۢ وَمَا سَوَّىٰهَا",
             "word": "سَوَّىٰهَا",
             "word_normalized": "سويها",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 8,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
             "word": "فَأَلْهَمَهَا",
             "word_normalized": "فألهمها",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 8,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
             "word": "فُجُورَهَا وَتَقْوَىٰهَا",
             "word_normalized": "فجورها وتقويها",
@@ -122,6 +152,9 @@
           },
           {
             "ayah_number": 9,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
             "word": "زَكَّىٰهَا",
             "word_normalized": "زكيها",
@@ -130,6 +163,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
             "word": "خَابَ",
             "word_normalized": "خاب",
@@ -138,6 +174,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
             "word": "دَسَّىٰهَا",
             "word_normalized": "دسيها",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 11,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
             "word": "بِطَغْوَىٰهَآ",
             "word_normalized": "بطغويها",
@@ -154,6 +196,9 @@
           },
           {
             "ayah_number": 12,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
             "word": "ٱنۢبَعَثَ",
             "word_normalized": "انبعث",
@@ -162,6 +207,9 @@
           },
           {
             "ayah_number": 12,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
             "ayah": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
             "word": "أَشْقَىٰهَا",
             "word_normalized": "اشقيها",

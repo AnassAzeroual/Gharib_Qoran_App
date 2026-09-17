@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
             "word": "غَاسِقٍ",
             "word_normalized": "غاسق",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
             "word": "إِذَا وَقَبَ",
             "word_normalized": "إذا وقب",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
             "word": "ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
             "word_normalized": "النفثت في العقد",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
             "word": "حَاسِدٍ",
             "word_normalized": "حاسد",
@@ -74,6 +86,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
             "word": "أَعُوذُ",
             "word_normalized": "أعوذ",
@@ -82,6 +97,9 @@
           },
           {
             "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
             "word": "بِرَبِّ ٱلنَّاسِ",
             "word_normalized": "برب الناس",
@@ -90,6 +108,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "إِلَـٰهِ ٱلنَّاسِ",
             "word": "إِلَـٰهِ ٱلنَّاسِ",
             "word_normalized": "اله الناس",
@@ -98,6 +119,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
             "word": "ٱلْوَسْوَاسِ",
             "word_normalized": "الوسواس",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
             "word": "ٱلْخَنَّاسِ",
             "word_normalized": "الخناس",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
             "word": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
             "word_normalized": "من الجنه والناس",

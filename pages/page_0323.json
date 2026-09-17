@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 4,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
             "ayah": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
             "word": "قُتِلَ",
             "word_normalized": "قتل",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
             "ayah": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
             "word": "أَصْحَـٰبُ ٱلْأُخْدُودِ",
             "word_normalized": "اصحب الاخدود",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
             "ayah": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
             "word": "ٱلْوَقُودِ",
             "word_normalized": "الوقود",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
             "ayah": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌۭ",
             "word": "شُهُودٌ",
             "word_normalized": "شهود",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
             "ayah": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
             "word": "فَتَنُوا",
             "word_normalized": "فتنوا",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
             "ayah": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
             "word": "عَذَابُ ٱلْحَرِيقِ",
             "word_normalized": "عذاب الحريق",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 12,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
             "word": "بَطْشَ",
             "word_normalized": "بطش",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 13,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
             "word": "يُبْدِئُ",
             "word_normalized": "يبدئ",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 13,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
             "word": "وَيُعِيدُ",
             "word_normalized": "ويعيد",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 14,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
             "word": "ٱلْوَدُودُ",
             "word_normalized": "الودود",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 15,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
             "word": "ٱلْمَجِيدُ",
             "word_normalized": "المجيد",
@@ -130,6 +163,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ وَٱلطَّارِقِ",
             "word": "وَٱلطَّارِقِ",
             "word_normalized": "والطارق",
@@ -138,6 +174,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "ٱلنَّجْمُ ٱلثَّاقِبُ",
             "word": "ٱلثَّاقِبُ",
             "word_normalized": "الثاقب",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "إِن كُلُّ نَفْسٍۢ لَّمَّا عَلَيْهَا حَافِظٌۭ",
             "word": "إِن كُلُّ نَفْسٍۢ لَّمَّا",
             "word_normalized": "ان كل نفس لما",
@@ -154,6 +196,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "إِن كُلُّ نَفْسٍۢ لَّمَّا عَلَيْهَا حَافِظٌۭ",
             "word": "حَافِظٌ",
             "word_normalized": "حافظ",
@@ -162,6 +207,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
             "ayah": "خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ",
             "word": "دَافِقٍ",
             "word_normalized": "دافق",

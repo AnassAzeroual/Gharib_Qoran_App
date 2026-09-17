@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 14,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "فَأَنذَرْتُكُمْ نَارًۭا تَلَظَّىٰ",
             "word": "تَلَظَّى",
             "word_normalized": "تلظى",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 15,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
             "word": "لَا يَصْلَىٰهَآ",
             "word_normalized": "لا يصليها",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 17,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
             "word": "وَسَيُجَنَّبُهَا",
             "word_normalized": "وسيجنبها",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 19,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ",
             "word": "تُجْزَى",
             "word_normalized": "تجزى",
@@ -74,6 +86,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
             "word": "وَٱلضُّحَىٰ",
             "word_normalized": "والضحي",
@@ -82,6 +97,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "وَٱلَّيْلِ إِذَا سَجَىٰ",
             "word": "سَجَى",
             "word_normalized": "سجى",
@@ -90,6 +108,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
             "word": "مَا وَدَّعَكَ",
             "word_normalized": "ما ودعك",
@@ -98,6 +119,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
             "word": "وَمَا قَلَى",
             "word_normalized": "وما قلى",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
             "word": "فَـَٔاوَىٰ",
             "word_normalized": "فاوي",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
             "word": "ضَآلًّۭا",
             "word_normalized": "ضالا",
@@ -122,6 +152,9 @@
           },
           {
             "ayah_number": 8,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
             "word": "عَآئِلًۭا",
             "word_normalized": "عاألا",
@@ -130,6 +163,9 @@
           },
           {
             "ayah_number": 9,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
             "word": "فَلَا تَقْهَرْ",
             "word_normalized": "فلا تقهر",
@@ -138,6 +174,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
             "word": "ٱلسَّآئِلَ",
             "word_normalized": "الساأل",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 476,
+            "hizb": 60,
+            "thumun_in_hizb": 4,
             "ayah": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
             "word": "فَلَا تَنْهَرْ",
             "word_normalized": "فلا تنهر",

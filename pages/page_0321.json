@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 23,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
             "word": "ٱلْأَرَآئِكِ",
             "word_normalized": "الاراأك",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 24,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
             "word": "نَضْرَةَ",
             "word_normalized": "نضرة",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 25,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "يُسْقَوْنَ مِن رَّحِيقٍۢ مَّخْتُومٍ",
             "word": "رَّحِيقٍ",
             "word_normalized": "رحيق",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 26,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "خِتَـٰمُهُۥ مِسْكٌۭ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَـٰفِسُونَ",
             "word": "خِتَـٰمُهُۥ مِسْكٌۭ",
             "word_normalized": "ختمه مسك",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 27,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
             "word": "وَمِزَاجُهُ",
             "word_normalized": "ومزاجه",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 27,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
             "word": "تَسْنِيمٍ",
             "word_normalized": "تسنيم",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 28,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "عَيْنًۭا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
             "word": "يَشْرَبُ بِهَا",
             "word_normalized": "يشرب بها",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 30,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
             "word": "يَتَغَامَزُونَ",
             "word_normalized": "يتغامزون",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 31,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
             "word": "ٱنقَلَبُوٓا",
             "word_normalized": "انقلبوا",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 31,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
             "word": "فَكِهِينَ",
             "word_normalized": "فكهين",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 33,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَـٰفِظِينَ",
             "word": "حَـٰفِظِينَ",
             "word_normalized": "حفظين",
@@ -113,6 +146,9 @@
           },
           {
             "ayah_number": 36,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
             "word": "ثُوِّبَ",
             "word_normalized": "ثوب",
@@ -138,6 +174,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
             "word": "ٱنشَقَّتْ",
             "word_normalized": "انشقت",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
             "word": "وَأَذِنَتْ لِرَبِّهَا",
             "word_normalized": "وأذنت لربها",
@@ -154,6 +196,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
             "word": "وَحُقَّتْ",
             "word_normalized": "وحقت",
@@ -162,6 +207,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
             "word": "مُدَّتْ",
             "word_normalized": "مدت",
@@ -170,6 +218,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
             "ayah": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
             "word": "وَأَلْقَتْ",
             "word_normalized": "وألقت",

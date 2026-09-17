@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 2,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "وَٱلنَّـٰشِطَـٰتِ نَشْطًۭا",
             "word": "وَٱلنَّـٰشِطَـٰتِ",
             "word_normalized": "والنشطت",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "وَٱلسَّـٰبِحَـٰتِ سَبْحًۭا",
             "word": "وَٱلسَّـٰبِحَـٰتِ",
             "word_normalized": "والسبحت",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "فَٱلسَّـٰبِقَـٰتِ سَبْقًۭا",
             "word": "فَٱلسَّـٰبِقَـٰتِ",
             "word_normalized": "فالسبقت",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "فَٱلْمُدَبِّرَٰتِ أَمْرًۭا",
             "word": "فَٱلْمُدَبِّرَٰتِ أَمْرًۭا",
             "word_normalized": "فالمدبرت امرا",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ",
             "word": "تَرْجُفُ ٱلرَّاجِفَةُ",
             "word_normalized": "ترجف الراجفه",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "تَتْبَعُهَا ٱلرَّادِفَةُ",
             "word": "تَتْبَعُهَا ٱلرَّادِفَةُ",
             "word_normalized": "تتبعها الرادفه",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 8,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "قُلُوبٌۭ يَوْمَئِذٍۢ وَاجِفَةٌ",
             "word": "وَاجِفَةٌ",
             "word_normalized": "واجفة",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 9,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "أَبْصَـٰرُهَا خَـٰشِعَةٌۭ",
             "word": "خَـٰشِعَةٌۭ",
             "word_normalized": "خشعه",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 10,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "يَقُولُونَ أَءِنَّا لَمَرْدُودُونَ فِى ٱلْحَافِرَةِ",
             "word": "ٱلْحَافِرَةِ",
             "word_normalized": "الحافره",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 11,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "أَءِذَا كُنَّا عِظَـٰمًۭا نَّخِرَةًۭ",
             "word": "نَّخِرَةً",
             "word_normalized": "نخرة",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 12,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "قَالُوا۟ تِلْكَ إِذًۭا كَرَّةٌ خَاسِرَةٌۭ",
             "word": "كَرَّةٌ خَاسِرَةٌۭ",
             "word_normalized": "كرة خاسرة",
@@ -113,6 +146,9 @@
           },
           {
             "ayah_number": 13,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ",
             "word": "زَجْرَةٌ",
             "word_normalized": "زجرة",
@@ -121,6 +157,9 @@
           },
           {
             "ayah_number": 14,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "فَإِذَا هُم بِٱلسَّاهِرَةِ",
             "word": "بِٱلسَّاهِرَةِ",
             "word_normalized": "بالساهره",
@@ -129,6 +168,9 @@
           },
           {
             "ayah_number": 16,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
             "word": "ٱلْمُقَدَّسِ",
             "word_normalized": "المقدس",
@@ -137,6 +179,9 @@
           },
           {
             "ayah_number": 16,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
             "word": "طُوًى",
             "word_normalized": "طوى",
@@ -145,6 +190,9 @@
           },
           {
             "ayah_number": 18,
+            "thumun": 466,
+            "hizb": 59,
+            "thumun_in_hizb": 2,
             "ayah": "فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ",
             "word": "تَزَكَّى",
             "word_normalized": "تزكى",

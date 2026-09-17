@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
             "word": "بِٱلدِّينِ",
             "word_normalized": "بالدين",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
             "word": "يَدُعُّ ٱلْيَتِيمَ",
             "word_normalized": "يدع اليتيم",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
             "word": "وَلَا يَحُضُّ",
             "word_normalized": "ولا يحض",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "فَوَيْلٌۭ لِّلْمُصَلِّينَ",
             "word": "فَوَيْلٌ",
             "word_normalized": "فويل",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 5,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
             "word": "سَاهُونَ",
             "word_normalized": "ساهون",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
             "word": "يُرَآءُونَ",
             "word_normalized": "يراءون",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
             "word": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
             "word_normalized": "ويمنعون الماعون",
@@ -98,6 +119,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ",
             "word": "ٱلْكَوْثَرَ",
             "word_normalized": "الكوثر",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
             "word": "وَٱنْحَرْ",
             "word_normalized": "وانحر",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
             "word": "شَانِئَكَ",
             "word_normalized": "شانئك",
@@ -122,6 +152,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
             "ayah": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
             "word": "ٱلْأَبْتَرُ",
             "word_normalized": "الابتر",

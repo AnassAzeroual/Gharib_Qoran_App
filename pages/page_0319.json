@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 21,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "مُّطَاعٍۢ ثَمَّ أَمِينٍۢ",
             "word": "ثَمَّ",
             "word_normalized": "ثم",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 23,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "وَلَقَدْ رَءَاهُ بِٱلْأُفُقِ ٱلْمُبِينِ",
             "word": "رَءَاهُ بِٱلْأُفُقِ",
             "word_normalized": "رءاه بالافق",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 24,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍۢ",
             "word": "بِضَنِينٍ",
             "word_normalized": "بضنين",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 25,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "وَمَا هُوَ بِقَوْلِ شَيْطَـٰنٍۢ رَّجِيمٍۢ",
             "word": "رَجِيمٍ",
             "word_normalized": "رجيم",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 27,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَـٰلَمِينَ",
             "word": "إِنْ هُوَ",
             "word_normalized": "إن هو",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 27,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَـٰلَمِينَ",
             "word": "لِّلْعَـٰلَمِينَ",
             "word_normalized": "للعلمين",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 29,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ",
             "word": "رَبُّ ٱلْعَـٰلَمِينَ",
             "word_normalized": "رب العلمين",
@@ -98,6 +119,9 @@
         "glossary": [
           {
             "ayah_number": 1,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
             "word": "ٱنفَطَرَتْ",
             "word_normalized": "انفطرت",
@@ -106,6 +130,9 @@
           },
           {
             "ayah_number": 2,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
             "word": "ٱنتَثَرَتْ",
             "word_normalized": "انتثرت",
@@ -114,6 +141,9 @@
           },
           {
             "ayah_number": 3,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ",
             "word": "فُجِّرَتْ",
             "word_normalized": "فجرت",
@@ -122,6 +152,9 @@
           },
           {
             "ayah_number": 4,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ",
             "word": "بُعْثِرَتْ",
             "word_normalized": "بعثرت",
@@ -130,6 +163,9 @@
           },
           {
             "ayah_number": 6,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
             "word": "مَا غَرَّكَ بِرَبِّكَ",
             "word_normalized": "ما غرك بربك",
@@ -138,6 +174,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
             "word": "فَسَوَّىٰكَ",
             "word_normalized": "فسويك",
@@ -146,6 +185,9 @@
           },
           {
             "ayah_number": 7,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
             "ayah": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
             "word": "فَعَدَلَكَ",
             "word_normalized": "فعدلك",

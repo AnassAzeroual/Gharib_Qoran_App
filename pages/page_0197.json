@@ -25,6 +25,9 @@
         "glossary": [
           {
             "ayah_number": 63,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "إِنَّا جَعَلْنَـٰهَا فِتْنَةًۭ لِّلظَّـٰلِمِينَ",
             "word": "فِتْنَةً",
             "word_normalized": "فتنة",
@@ -33,6 +36,9 @@
           },
           {
             "ayah_number": 64,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "إِنَّهَا شَجَرَةٌۭ تَخْرُجُ فِىٓ أَصْلِ ٱلْجَحِيمِ",
             "word": "أَصْلِ ٱلْجَحِيمِ",
             "word_normalized": "اصل الجحيم",
@@ -41,6 +47,9 @@
           },
           {
             "ayah_number": 65,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "طَلْعُهَا كَأَنَّهُۥ رُءُوسُ ٱلشَّيَـٰطِينِ",
             "word": "طَلْعُهَا",
             "word_normalized": "طلعها",
@@ -49,6 +58,9 @@
           },
           {
             "ayah_number": 67,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "ثُمَّ إِنَّ لَهُمْ عَلَيْهَا لَشَوْبًۭا مِّنْ حَمِيمٍۢ",
             "word": "لَشَوْبًۭا",
             "word_normalized": "لشوبا",
@@ -57,6 +69,9 @@
           },
           {
             "ayah_number": 67,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "ثُمَّ إِنَّ لَهُمْ عَلَيْهَا لَشَوْبًۭا مِّنْ حَمِيمٍۢ",
             "word": "حَمِيمٍ",
             "word_normalized": "حميم",
@@ -65,6 +80,9 @@
           },
           {
             "ayah_number": 69,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ",
             "word": "أَلْفَوْا",
             "word_normalized": "ألفوا",
@@ -73,6 +91,9 @@
           },
           {
             "ayah_number": 70,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "فَهُمْ عَلَىٰٓ ءَاثَـٰرِهِمْ يُهْرَعُونَ",
             "word": "يُهْرَعُونَ",
             "word_normalized": "يهرعون",
@@ -81,6 +102,9 @@
           },
           {
             "ayah_number": 78,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْـَٔاخِرِينَ",
             "word": "وَتَرَكْنَا عَلَيْهِ",
             "word_normalized": "وتركنا عليه",
@@ -89,6 +113,9 @@
           },
           {
             "ayah_number": 78,
+            "thumun": 358,
+            "hizb": 45,
+            "thumun_in_hizb": 6,
             "ayah": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْـَٔاخِرِينَ",
             "word": "فِى ٱلْـَٔاخِرِينَ",
             "word_normalized": "في الاخرين",
@@ -97,6 +124,9 @@
           },
           {
             "ayah_number": 83,
+            "thumun": 359,
+            "hizb": 45,
+            "thumun_in_hizb": 7,
             "ayah": "وَإِنَّ مِن شِيعَتِهِۦ لَإِبْرَٰهِيمَ",
             "word": "شِيعَتِهِ",
             "word_normalized": "شيعته",
@@ -105,6 +135,9 @@
           },
           {
             "ayah_number": 84,
+            "thumun": 359,
+            "hizb": 45,
+            "thumun_in_hizb": 7,
             "ayah": "إِذْ جَآءَ رَبَّهُۥ بِقَلْبٍۢ سَلِيمٍ",
             "word": "سَلِيمٍ",
             "word_normalized": "سليم",
@@ -113,6 +146,9 @@
           },
           {
             "ayah_number": 86,
+            "thumun": 359,
+            "hizb": 45,
+            "thumun_in_hizb": 7,
             "ayah": "أَئِفْكًا ءَالِهَةًۭ دُونَ ٱللَّهِ تُرِيدُونَ",
             "word": "أَئِفْكًا ءَالِهَةًۭ",
             "word_normalized": "اأفكا ءالهه",
@@ -121,6 +157,9 @@
           },
           {
             "ayah_number": 88,
+            "thumun": 359,
+            "hizb": 45,
+            "thumun_in_hizb": 7,
             "ayah": "فَنَظَرَ نَظْرَةًۭ فِى ٱلنُّجُومِ",
             "word": "فَنَظَرَ",
             "word_normalized": "فنظر",
@@ -129,6 +168,9 @@
           },
           {
             "ayah_number": 89,
+            "thumun": 359,
+            "hizb": 45,
+            "thumun_in_hizb": 7,
             "ayah": "فَقَالَ إِنِّى سَقِيمٌۭ",
             "word": "سَقِيمٌ",
             "word_normalized": "سقيم",
@@ -137,6 +179,9 @@
           },
           {
             "ayah_number": 91,
+            "thumun": 359,
+            "hizb": 45,
+            "thumun_in_hizb": 7,
             "ayah": "فَرَاغَ إِلَىٰٓ ءَالِهَتِهِمْ فَقَالَ أَلَا تَأْكُلُونَ",
             "word": "فَرَاغَ إِلَىٰٓ ءَالِهَتِهِمْ",
             "word_normalized": "فراغ الي ءالهتهم",
@@ -145,6 +190,9 @@
           },
           {
             "ayah_number": 93,
+            "thumun": 359,
+            "hizb": 45,
+            "thumun_in_hizb": 7,
             "ayah": "فَرَاغَ عَلَيْهِمْ ضَرْبًۢا بِٱلْيَمِينِ",
             "word": "بِٱلْيَمِينِ",
             "word_normalized": "باليمين",
@@ -153,6 +201,9 @@
           },
           {
             "ayah_number": 94,
+            "thumun": 359,
+            "hizb": 45,
+            "thumun_in_hizb": 7,
             "ayah": "فَأَقْبَلُوٓا۟ إِلَيْهِ يَزِفُّونَ",
             "word": "يَزِفُّونَ",
             "word_normalized": "يزفون",
