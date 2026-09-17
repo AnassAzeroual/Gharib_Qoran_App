@@ -1,0 +1,74 @@
+name: Deploy Flutter Web to GitHub Pages
+
+# Builds the Flutter web app (in quran-app/) and publishes it to GitHub Pages.
+# The book resources (page images + JSON) are generated at build time from the
+# repo's own pages/ folder via sync_resources.py, so they are NOT committed.
+
+on:
+  push:
+    branches: [main]
+    # Only rebuild when something that affects the web build changes.
+    paths:
+      - "quran-app/**"
+      - "pages/**"
+      - "menu.json"
+      - "thumun-menu.json"
+      - ".github/workflows/deploy-web.yml"
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+# Permissions required for the GitHub Pages deployment.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Avoid overlapping deployments.
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Generate book resources (images + JSON + indexes)
+        working-directory: quran-app
+        run: python sync_resources.py
+
+      - name: Install dependencies
+        working-directory: quran-app
+        run: flutter pub get
+
+      - name: Build web
+        working-directory: quran-app
+        # base-href must match the project-pages sub-path: /<repo>/
+        run: flutter build web --release --base-href /Gharib_Qoran_App/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quran-app/build/web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

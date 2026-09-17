@@ -13,9 +13,14 @@ import shutil
 import sys
 from datetime import date
 
-# Paths (edit these if your folders moved)
-SOURCE_DIR = r"C:\Users\devtips\Documents\pdf-to-images\pages"
+# Paths.
+# Local default (this machine); if it doesn't exist (e.g. CI on Linux), fall
+# back to the `pages/` folder in the parent repo — since quran-app lives inside
+# the pdf-to-images repo, `../pages` is the committed source of truth.
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
+_LOCAL_SOURCE = r"C:\Users\devtips\Documents\pdf-to-images\pages"
+_REPO_SOURCE = os.path.normpath(os.path.join(APP_DIR, "..", "pages"))
+SOURCE_DIR = _LOCAL_SOURCE if os.path.isdir(_LOCAL_SOURCE) else _REPO_SOURCE
 IMG_DEST = os.path.join(APP_DIR, "assets", "images")
 JSON_DEST = os.path.join(APP_DIR, "assets", "json")
 INDEX_PATH = os.path.join(APP_DIR, "assets", "surah_index.json")
