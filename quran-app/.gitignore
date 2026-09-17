@@ -10,6 +10,7 @@ build/
 assets/images/
 assets/json/
 assets/surah_index.json
+assets/search_index.json
 
 # IDE
 .idea/

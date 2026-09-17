@@ -25,6 +25,7 @@ IMG_DEST = os.path.join(APP_DIR, "assets", "images")
 JSON_DEST = os.path.join(APP_DIR, "assets", "json")
 INDEX_PATH = os.path.join(APP_DIR, "assets", "surah_index.json")
 THUMUN_MENU_PATH = os.path.join(APP_DIR, "assets", "thumun-menu.json")
+SEARCH_INDEX_PATH = os.path.join(APP_DIR, "assets", "search_index.json")
 
 
 def strip_prefix(name):
@@ -138,7 +139,7 @@ def main():
     }
     with open(INDEX_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
-    print(f"[3/4] Index written: {len(surah_list)} surahs, {len(available_pages)} pages")
+    print(f"[3/5] Index written: {len(surah_list)} surahs, {len(available_pages)} pages")
 
     # 4) Copy the Hizb -> Thumun navigation index (thumun-menu.json) which lives
     #    next to menu.json (one dir above the pages/ source folder).
@@ -147,11 +148,77 @@ def main():
         if (not os.path.exists(THUMUN_MENU_PATH)
                 or os.path.getmtime(thumun_src) > os.path.getmtime(THUMUN_MENU_PATH)):
             shutil.copy2(thumun_src, THUMUN_MENU_PATH)
-            print("[4/4] Thumun menu: copied thumun-menu.json")
+            print("[4/5] Thumun menu: copied thumun-menu.json")
         else:
-            print("[4/4] Thumun menu: up to date")
+            print("[4/5] Thumun menu: up to date")
     else:
-        print("[4/4] Thumun menu: [warn] thumun-menu.json not found; Hizb menu will be unavailable")
+        print("[4/5] Thumun menu: [warn] thumun-menu.json not found; Hizb menu will be unavailable")
+
+    # 5) Build a SINGLE combined search index so the app loads one file at
+    #    startup instead of fetching all per-page JSONs (337 HTTP requests on
+    #    web). Each record is flat and typed; the app reconstructs its in-memory
+    #    search index / quiz words / thumun word-lists from this one file.
+    #    Per-page JSONs are then only fetched lazily when a page is opened.
+    entries = []
+    for f in jsons:
+        path = os.path.join(SOURCE_DIR, f)
+        try:
+            data = json.load(open(path, encoding="utf-8"))
+        except Exception:
+            continue
+        page = data.get("page", {}) or {}
+        page_num = page.get("page_number")
+        header = page.get("header", {}) or {}
+        header_right_norm = header.get("right_normalized", "") or ""
+        for section in page.get("sections", []) or []:
+            stype = section.get("type")
+            if stype == "surah_section":
+                surah = section.get("surah") or {}
+                surah_order = surah.get("order") or 0
+                surah_name_norm = surah.get("name_normalized", "") or ""
+                # a "surah name" search record for this section's surah
+                entries.append({
+                    "t": "surah",  # surah-name hit
+                    "page": page_num,
+                    "surahOrder": surah_order,
+                    "surahName": surah_name_norm,
+                })
+                for e in section.get("glossary", []) or []:
+                    entries.append({
+                        "t": "g",  # glossary entry
+                        "page": page_num,
+                        "surahOrder": surah_order,
+                        "surahName": surah_name_norm or header_right_norm,
+                        "ayahNumber": e.get("ayah_number"),
+                        "word": e.get("word", "") or "",
+                        "wordNormalized": e.get("word_normalized", "") or "",
+                        "meaning": e.get("meaning", "") or "",
+                        "meaningNormalized": e.get("meaning_normalized", "") or "",
+                        "ayah": e.get("ayah", "") or "",
+                        "hizb": e.get("hizb"),
+                        "thumun": e.get("thumun"),
+                    })
+            elif stype == "preliminary_entries":
+                for e in section.get("entries", []) or []:
+                    word = (e.get("word") or e.get("term") or "")
+                    word_norm = (e.get("word_normalized")
+                                 or e.get("term_normalized") or "")
+                    entries.append({
+                        "t": "p",  # preliminary entry (no surah)
+                        "page": page_num,
+                        "word": word,
+                        "wordNormalized": word_norm,
+                        "meaning": e.get("meaning", "") or "",
+                        "meaningNormalized": e.get("meaning_normalized", "") or "",
+                    })
+    search_index = {
+        "generated": date.today().isoformat(),
+        "entry_count": len(entries),
+        "entries": entries,
+    }
+    with open(SEARCH_INDEX_PATH, "w", encoding="utf-8") as f:
+        json.dump(search_index, f, ensure_ascii=False)
+    print(f"[5/5] Search index written: {len(entries)} entries")
 
     print("DONE. Re-build the app or refresh assets.")
 
