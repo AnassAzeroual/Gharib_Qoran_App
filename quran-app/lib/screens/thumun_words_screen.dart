@@ -45,7 +45,8 @@ class ThumunWordsScreen extends StatelessWidget {
               ),
             )
           : ListView.builder(
-              padding: const EdgeInsets.fromLTRB(12, 12, 12, 24),
+              padding: EdgeInsets.fromLTRB(
+                  12, 12, 12, 24 + MediaQuery.of(context).padding.bottom),
               itemCount: words.length,
               itemBuilder: (context, index) {
                 final w = words[index];
