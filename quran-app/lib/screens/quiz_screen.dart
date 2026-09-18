@@ -41,6 +41,10 @@ class _QuizScreenState extends State<QuizScreen> {
   int? _correctPick;
   int? _answered;
 
+  // Whether the ayah context panel is revealed (hidden by default; the
+  // chevron toggles it with a smooth expand/collapse animation).
+  bool _ayahExpanded = false;
+
   bool get _isThumunMode => widget.thumun != null;
   bool get _isHizbMode => widget.hizb != null && widget.thumun == null;
   bool get _isAllMode =>
@@ -92,6 +96,7 @@ class _QuizScreenState extends State<QuizScreen> {
       _wrongPicks = {};
       _correctPick = null;
       _answered = null;
+      _ayahExpanded = false; // hide the ayah again for the new question
     });
     final QuizWord target = _isAllMode ? _quiz.nextAllWord() : _queue[_index++];
     setState(() {
@@ -358,27 +363,65 @@ class _QuizScreenState extends State<QuizScreen> {
                 ),
               ),
               if (q.word.ayah.isNotEmpty) ...[
-                const SizedBox(height: 8),
-                Container(
-                  width: double.infinity,
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                  decoration: BoxDecoration(
-                    color: scheme.surfaceContainerHighest,
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Text(
-                    q.word.ayah,
-                    textDirection: TextDirection.rtl,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontFamily: 'Amiri',
-                      fontSize: 19 * scale,
-                      height: 1.7,
-                      color: scheme.onSurface,
-                    ),
-                  ),
+                // Animated collapsible ayah panel (hidden by default).
+                AnimatedSize(
+                  duration: const Duration(milliseconds: 280),
+                  curve: Curves.easeInOut,
+                  alignment: Alignment.topCenter,
+                  child: _ayahExpanded
+                      ? Padding(
+                          padding: const EdgeInsets.only(top: 12),
+                          child: Container(
+                            width: double.infinity,
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 12, vertical: 12),
+                            decoration: BoxDecoration(
+                              color: scheme.surfaceContainerHighest,
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Column(
+                              children: [
+                                Text(
+                                  'قال تعالى',
+                                  style: TextStyle(
+                                    fontFamily: 'Amiri',
+                                    fontSize: 13 * scale,
+                                    color: scheme.onSurfaceVariant,
+                                  ),
+                                ),
+                                const SizedBox(height: 6),
+                                Text(
+                                  q.word.ayah,
+                                  textDirection: TextDirection.rtl,
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    fontFamily: 'Amiri',
+                                    fontSize: 19 * scale,
+                                    height: 1.7,
+                                    color: scheme.onSurface,
+                                  ),
+                                ),
+                                if (q.word.surahName.isNotEmpty ||
+                                    q.word.ayahNumber != null) ...[
+                                  const SizedBox(height: 6),
+                                  Text(
+                                    _ayahReference(q),
+                                    style: TextStyle(
+                                      fontFamily: 'Amiri',
+                                      fontSize: 12 * scale,
+                                      color: scheme.onSurfaceVariant,
+                                    ),
+                                  ),
+                                ],
+                              ],
+                            ),
+                          ),
+                        )
+                      : const SizedBox(width: double.infinity),
                 ),
+                const SizedBox(height: 10),
+                // Circular chevron toggle: reveals / hides the ayah.
+                _ayahToggle(scheme),
               ],
             ],
           ),
@@ -470,6 +513,52 @@ class _QuizScreenState extends State<QuizScreen> {
           child: Padding(
             padding: const EdgeInsets.all(6),
             child: Icon(icon, size: 20, color: scheme.primary),
+          ),
+        ),
+      ),
+    );
+  }
+
+  // Reference line shown under the ayah, e.g. "[الفاتحة : ١]".
+  String _ayahReference(QuizQuestion q) {
+    final name = q.word.surahName;
+    final ayah = q.word.ayahNumber;
+    if (name.isNotEmpty && ayah != null) {
+      return '[$name : ${toArabicDigits(ayah)}]';
+    }
+    if (name.isNotEmpty) return '[$name]';
+    if (ayah != null) return '[آية ${toArabicDigits(ayah)}]';
+    return '';
+  }
+
+  // Circular chevron button that toggles the ayah panel. Rotates ⌄ <-> ⌃.
+  Widget _ayahToggle(ColorScheme scheme) {
+    return Center(
+      child: Material(
+        color: scheme.surface,
+        shape: CircleBorder(
+          side: BorderSide(
+            color: const Color(0xFFCBAE6B), // soft gold ring (matches design)
+            width: 1.4,
+          ),
+        ),
+        elevation: 2,
+        shadowColor: Colors.black.withValues(alpha: 0.15),
+        child: InkWell(
+          onTap: () => setState(() => _ayahExpanded = !_ayahExpanded),
+          customBorder: const CircleBorder(),
+          child: Padding(
+            padding: const EdgeInsets.all(6),
+            child: AnimatedRotation(
+              turns: _ayahExpanded ? 0.5 : 0.0,
+              duration: const Duration(milliseconds: 280),
+              curve: Curves.easeInOut,
+              child: const Icon(
+                Icons.keyboard_arrow_down_rounded,
+                size: 24,
+                color: Color(0xFFB8923F),
+              ),
+            ),
           ),
         ),
       ),
