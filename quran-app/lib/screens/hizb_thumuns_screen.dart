@@ -67,7 +67,12 @@ class HizbThumunsScreen extends StatelessWidget {
                 : 'الحزب ${displayNumber(hizb.hizb)}',
             style: const TextStyle(fontFamily: 'Amiri'),
           ),
-          actions: const [NumeralToggleButton()],
+          actions: const [
+            Padding(
+              padding: EdgeInsetsDirectional.only(start: 12),
+              child: NumeralToggleButton(),
+            ),
+          ],
         ),
         body: hizb.thumuns.isEmpty
             ? Center(

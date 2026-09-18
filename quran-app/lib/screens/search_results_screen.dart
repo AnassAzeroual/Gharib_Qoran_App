@@ -39,7 +39,12 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
             overflow: TextOverflow.ellipsis,
             style: const TextStyle(fontSize: 17),
           ),
-          actions: const [NumeralToggleButton()],
+          actions: const [
+            Padding(
+              padding: EdgeInsetsDirectional.only(start: 12),
+              child: NumeralToggleButton(),
+            ),
+          ],
         ),
         body: _results.isEmpty
             ? Center(
