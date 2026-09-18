@@ -202,6 +202,8 @@ class _QuizScreenState extends State<QuizScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final bool isDark = Theme.of(context).brightness == Brightness.dark;
+    final Color canvas = isDark ? const Color(0xFF101418) : _canvas;
     return PopScope(
       canPop: _finished,
       onPopInvokedWithResult: (didPop, _) {
@@ -213,6 +215,10 @@ class _QuizScreenState extends State<QuizScreen> {
         builder: (context, numeral, _) => Scaffold(
           appBar: AppBar(
             title: Text(_title()),
+            // Fixed teal header in both light and dark modes; white icons stay
+            // legible on it (the dark theme's mint primary would wash them out).
+            backgroundColor: const Color(0xFF0F766E),
+            foregroundColor: Colors.white,
             actions: [
               const NumeralToggleButton(),
               ValueListenableBuilder<bool>(
@@ -234,7 +240,7 @@ class _QuizScreenState extends State<QuizScreen> {
               ),
             ],
           ),
-          backgroundColor: _canvas,
+          backgroundColor: canvas,
           body: SafeArea(
             child: _loading
                 ? const Center(child: CircularProgressIndicator())
@@ -258,6 +264,9 @@ class _QuizScreenState extends State<QuizScreen> {
   // choices are always on screen at the bottom.
   Widget _quizBody(double scale) {
     final scheme = Theme.of(context).colorScheme;
+    final bool isDark = Theme.of(context).brightness == Brightness.dark;
+    final Color wordColor = isDark ? scheme.onSurface : _wordDark;
+    final Color refColor = isDark ? scheme.onSurfaceVariant : _refGrey;
     final q = _question;
     if (q == null) return const SizedBox.shrink();
 
@@ -301,7 +310,7 @@ class _QuizScreenState extends State<QuizScreen> {
               _isAllMode
                   ? 'جميع السور'
                   : '${displayNumber(_index)} / ${displayNumber(_queue.length)}',
-              style: const TextStyle(color: _refGrey, fontSize: 13),
+              style: TextStyle(color: refColor, fontSize: 13),
             ),
           ],
         ),
@@ -331,7 +340,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       fontFamily: 'Amiri',
                       fontSize: 30 * scale,
                       fontWeight: FontWeight.bold,
-                      color: _wordDark,
+                      color: wordColor,
                     ),
                   ),
                 ],
@@ -348,7 +357,7 @@ class _QuizScreenState extends State<QuizScreen> {
           curve: Curves.easeInOut,
           alignment: Alignment.topCenter,
           child: _ayahExpanded
-              ? _verseBlock(q, scheme, scale)
+              ? _verseBlock(q, scale, wordColor, refColor)
               : const SizedBox(width: double.infinity),
         ),
         const SizedBox(height: 12),
@@ -422,7 +431,12 @@ class _QuizScreenState extends State<QuizScreen> {
 
   // Centered verse block: "قال تعالى" + the verse (with brackets ﴿ ﴾ and the
   // active word highlighted green) + the reference, all on the clean canvas.
-  Widget _verseBlock(QuizQuestion q, ColorScheme scheme, double scale) {
+  Widget _verseBlock(
+    QuizQuestion q,
+    double scale,
+    Color wordColor,
+    Color refColor,
+  ) {
     if (q.word.ayah.isEmpty) {
       return const SizedBox.shrink();
     }
@@ -434,11 +448,11 @@ class _QuizScreenState extends State<QuizScreen> {
           style: TextStyle(
             fontFamily: 'Amiri',
             fontSize: 15 * scale,
-            color: _refGrey,
+            color: refColor,
           ),
         ),
         SizedBox(height: 14 * scale),
-        _ayahText(q, scale),
+        _ayahText(q, scale, wordColor, refColor),
         if (q.word.surahName.isNotEmpty || q.word.ayahNumber != null) ...[
           SizedBox(height: 22 * scale),
           Text(
@@ -446,7 +460,7 @@ class _QuizScreenState extends State<QuizScreen> {
             style: TextStyle(
               fontFamily: 'Amiri',
               fontSize: 13 * scale,
-              color: _refGrey,
+              color: refColor,
             ),
           ),
         ],
@@ -514,14 +528,19 @@ class _QuizScreenState extends State<QuizScreen> {
   // Renders the verse wrapped in ornate brackets ﴿ ﴾ with the glossary word
   // highlighted green. Falls back to plain (bracketed) text when the word
   // can't be located cleanly — the Quran text is never altered, only colored.
-  Widget _ayahText(QuizQuestion q, double scale) {
+  Widget _ayahText(
+    QuizQuestion q,
+    double scale,
+    Color wordColor,
+    Color refColor,
+  ) {
     final baseStyle = TextStyle(
       fontFamily: 'Amiri',
       fontSize: 24 * scale,
       height: 1.8,
-      color: _wordDark,
+      color: wordColor,
     );
-    const bracketStyle = TextStyle(color: _refGrey);
+    final bracketStyle = TextStyle(color: refColor);
 
     final match = AyahHighlighter.split(q.word.ayah, q.word.word);
 
@@ -546,9 +565,9 @@ class _QuizScreenState extends State<QuizScreen> {
       TextSpan(
         style: baseStyle,
         children: [
-          const TextSpan(text: '﴿ ', style: bracketStyle),
+          TextSpan(text: '﴿ ', style: bracketStyle),
           ...verseSpans,
-          const TextSpan(text: ' ﴾', style: bracketStyle),
+          TextSpan(text: ' ﴾', style: bracketStyle),
         ],
       ),
       textDirection: TextDirection.rtl,
