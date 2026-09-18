@@ -110,7 +110,8 @@ class _QuizScreenState extends State<QuizScreen> {
       _wrongPicks = {};
       _correctPick = null;
       _answered = null;
-      _ayahExpanded = false; // hide the verse again so the new word shows first
+      // Keep the user's ayah open/closed choice across questions; it only
+      // resets when they leave the quiz page (this state is recreated).
     });
     final QuizWord target = _isAllMode ? _quiz.nextAllWord() : _queue[_index++];
     setState(() {
@@ -250,113 +251,98 @@ class _QuizScreenState extends State<QuizScreen> {
         ? _quiz.allModeProgress
         : (_queue.isEmpty ? 0.0 : (_index / _queue.length).clamp(0.0, 1.0));
 
-    return Column(
+    // Single scroll flow: expanding a long ayah naturally pushes the answer
+    // choices down (they never float under/behind it), and the gold toggle
+    // always sits right beneath the verse.
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
       children: [
-        Padding(
-          padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
-          child: Row(
-            children: [
-              // Compact live score: ✓ correct  ✗ wrong.
-              _miniScore(Icons.check_circle, _session.correctCount,
-                  const Color(0xFF16A34A)),
-              const SizedBox(width: 8),
-              _miniScore(Icons.cancel, _session.wrongCount,
-                  const Color(0xFFDC2626)),
-              const SizedBox(width: 12),
-              Expanded(
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(6),
-                  child: LinearProgressIndicator(
-                    value: progress,
-                    minHeight: 6,
-                    backgroundColor: scheme.outlineVariant,
-                  ),
+        Row(
+          children: [
+            // Compact live score: ✓ correct  ✗ wrong.
+            _miniScore(Icons.check_circle, _session.correctCount,
+                const Color(0xFF16A34A)),
+            const SizedBox(width: 8),
+            _miniScore(Icons.cancel, _session.wrongCount,
+                const Color(0xFFDC2626)),
+            const SizedBox(width: 12),
+            Expanded(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(6),
+                child: LinearProgressIndicator(
+                  value: progress,
+                  minHeight: 6,
+                  backgroundColor: scheme.outlineVariant,
                 ),
               ),
-              const SizedBox(width: 10),
-              Text(
-                _isAllMode
-                    ? 'جميع السور'
-                    : '${toArabicDigits(_index)} / ${toArabicDigits(_queue.length)}',
-                style: const TextStyle(color: _refGrey, fontSize: 13),
-              ),
-            ],
-          ),
+            ),
+            const SizedBox(width: 10),
+            Text(
+              _isAllMode
+                  ? 'جميع السور'
+                  : '${toArabicDigits(_index)} / ${toArabicDigits(_queue.length)}',
+              style: const TextStyle(color: _refGrey, fontSize: 13),
+            ),
+          ],
         ),
         const SizedBox(height: 4),
         _fontSizeControl(scheme),
         const SizedBox(height: 6),
         // Prompt, aligned to the top-right.
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24),
-          child: Align(
-            alignment: Alignment.centerRight,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Text(
-                  'ما معنى كلمة',
+        Align(
+          alignment: Alignment.centerRight,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              Text(
+                'ما معنى كلمة',
+                style: TextStyle(
+                  fontFamily: 'Amiri',
+                  fontSize: 15 * scale,
+                  color: _promptOrange,
+                ),
+              ),
+              const SizedBox(height: 2),
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                alignment: Alignment.centerRight,
+                child: Text(
+                  '${q.word.word}؟',
+                  textDirection: TextDirection.rtl,
                   style: TextStyle(
                     fontFamily: 'Amiri',
-                    fontSize: 15 * scale,
-                    color: _promptOrange,
+                    fontSize: 32 * scale,
+                    fontWeight: FontWeight.bold,
+                    color: _wordDark,
                   ),
                 ),
-                const SizedBox(height: 2),
-                FittedBox(
-                  fit: BoxFit.scaleDown,
-                  alignment: Alignment.centerRight,
-                  child: Text(
-                    '${q.word.word}؟',
-                    textDirection: TextDirection.rtl,
-                    style: TextStyle(
-                      fontFamily: 'Amiri',
-                      fontSize: 32 * scale,
-                      fontWeight: FontWeight.bold,
-                      color: _wordDark,
-                    ),
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
-        // Collapsible verse: hidden by default, the gold toggle reveals it
-        // without moving the answer choices.
-        Expanded(
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(24, 8, 24, 8),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                AnimatedSize(
-                  duration: const Duration(milliseconds: 320),
-                  curve: Curves.easeInOut,
-                  alignment: Alignment.topCenter,
-                  child: _ayahExpanded
-                      ? _verseBlock(q, scheme, scale)
-                      : const SizedBox(width: double.infinity),
-                ),
-                const SizedBox(height: 16),
-                _ayahToggle(),
-              ],
-            ),
-          ),
+        const SizedBox(height: 8),
+        // Collapsible verse: hidden by default, the gold toggle reveals it.
+        // Growing the verse pushes the answers down instead of overlaying them.
+        AnimatedSize(
+          duration: const Duration(milliseconds: 320),
+          curve: Curves.easeInOut,
+          alignment: Alignment.topCenter,
+          child: _ayahExpanded
+              ? _verseBlock(q, scheme, scale)
+              : const SizedBox(width: double.infinity),
         ),
+        const SizedBox(height: 12),
+        Center(child: _ayahToggle()),
+        const SizedBox(height: 20),
         // Answer choices, always on screen.
-        Flexible(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.fromLTRB(20, 4, 20, 16),
-            child: Column(
-              children: [
-                for (var i = 0; i < q.options.length; i++)
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 10),
-                    child: _optionCard(context, i, q, scale),
-                  ),
-              ],
-            ),
-          ),
+        Column(
+          children: [
+            for (var i = 0; i < q.options.length; i++)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: _optionCard(context, i, q, scale),
+              ),
+          ],
         ),
       ],
     );
