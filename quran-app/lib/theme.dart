@@ -15,6 +15,15 @@ enum MenuMode { surah, hizb }
 final ValueNotifier<MenuMode> menuModeNotifier =
     ValueNotifier(MenuMode.surah);
 
+/// User-adjustable font-size multiplier for the quiz page. The ⊕ / ⊖ buttons
+/// scale ALL text on the quiz screen (word, ayah, chips, options). 1.0 is the
+/// design default; clamped to [kQuizScaleMin, kQuizScaleMax]. Not persisted
+/// across restarts (mirrors the notifiers above).
+const double kQuizScaleMin = 0.8;
+const double kQuizScaleMax = 1.8;
+const double kQuizScaleStep = 0.1;
+final ValueNotifier<double> quizFontScaleNotifier = ValueNotifier(1.0);
+
 ThemeData _baseTheme(
     Brightness brightness, ColorScheme colorScheme, Color scaffoldColor) {
   return ThemeData(

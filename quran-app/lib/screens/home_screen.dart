@@ -735,10 +735,10 @@ class _HomeScreenState extends State<HomeScreen>
       // Fatihah/Bakarah sit flush below the buttons and flow up as it hides.
       padding: EdgeInsets.only(top: topPadding, left: 16, right: 16, bottom: 24),
       gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-        maxCrossAxisExtent: 190,
-        mainAxisExtent: 132,
-        mainAxisSpacing: 12,
-        crossAxisSpacing: 12,
+        maxCrossAxisExtent: 200,
+        mainAxisExtent: 166,
+        mainAxisSpacing: 14,
+        crossAxisSpacing: 14,
       ),
       itemCount: kQuranSurahs.length + (quizMode ? 1 : 0),
       itemBuilder: (context, index) {
@@ -787,10 +787,10 @@ class _HomeScreenState extends State<HomeScreen>
       padding:
           EdgeInsets.only(top: topPadding, left: 16, right: 16, bottom: 24),
       gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-        maxCrossAxisExtent: 210,
-        mainAxisExtent: 176,
-        mainAxisSpacing: 12,
-        crossAxisSpacing: 12,
+        maxCrossAxisExtent: 200,
+        mainAxisExtent: 166,
+        mainAxisSpacing: 14,
+        crossAxisSpacing: 14,
       ),
       // In quiz mode, prepend the "all-Quran" quiz tile (same as surah grid).
       itemCount: menu.hizbs.length + (quizMode ? 1 : 0),
@@ -810,33 +810,45 @@ class _HomeScreenState extends State<HomeScreen>
           end: Alignment.bottomLeft,
           colors: [Color(0xFF0F766E), Color(0xFF134E4A)],
         ),
-        borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: [
+          BoxShadow(
+            color: const Color(0xFF0F766E).withValues(alpha: 0.35),
+            blurRadius: 16,
+            offset: const Offset(0, 6),
+          ),
+        ],
       ),
       child: Material(
         color: Colors.transparent,
         child: InkWell(
           onTap: _startAllQuiz,
-          borderRadius: BorderRadius.circular(18),
-          child: const Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(Icons.quiz, color: Color(0xFFFCD34D), size: 30),
-              SizedBox(height: 6),
-              Text(
-                'كل القرآن',
-                style: TextStyle(
-                  fontFamily: 'Amiri',
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
+          borderRadius: BorderRadius.circular(20),
+          child: const Padding(
+            padding: EdgeInsets.all(12),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.quiz, color: Color(0xFFFCD34D), size: 36),
+                SizedBox(height: 8),
+                Text(
+                  'كل القرآن',
+                  style: TextStyle(
+                    fontFamily: 'Amiri',
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white,
+                  ),
                 ),
-              ),
-              SizedBox(height: 2),
-              Text(
-                'أسئلة مستمرة من جميع السور',
-                style: TextStyle(fontSize: 11, color: Colors.white70),
-              ),
-            ],
+                SizedBox(height: 4),
+                Text(
+                  'أسئلة مستمرة من جميع السور',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontFamily: 'Amiri', fontSize: 13, color: Colors.white70),
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -869,112 +881,169 @@ class _SurahCard extends StatelessWidget {
     final int startPage = entry?.startPage ?? 0;
     final int unfamiliarWordsCount = entry?.unfamiliarWordsCount ?? 0;
 
+    final bool isDark = Theme.of(context).brightness == Brightness.dark;
+    final Color cardColor =
+        enabled ? scheme.surface : scheme.surfaceContainerHighest;
+
     return Container(
       decoration: BoxDecoration(
-        color: enabled ? scheme.surface : scheme.surfaceContainerHighest,
-        borderRadius: BorderRadius.circular(18),
+        color: cardColor,
+        borderRadius: BorderRadius.circular(20),
         boxShadow: enabled
             ? [
+                // Soft drop shadow (depth).
                 BoxShadow(
-                  color: Colors.black.withValues(alpha: 0.04),
-                  blurRadius: 12,
-                  offset: const Offset(0, 4),
+                  color: Colors.black.withValues(alpha: isDark ? 0.35 : 0.08),
+                  blurRadius: 16,
+                  offset: const Offset(0, 6),
+                ),
+                // Top-left highlight for a gentle raised bevel.
+                BoxShadow(
+                  color:
+                      Colors.white.withValues(alpha: isDark ? 0.04 : 0.7),
+                  blurRadius: 10,
+                  offset: const Offset(-4, -4),
                 ),
               ]
             : null,
       ),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(20),
         child: InkWell(
           onTap: onTap,
           splashColor: badgeColor.withValues(alpha: 0.1),
           highlightColor: Colors.transparent,
           child: Stack(
             children: [
-              // Subtle Accent Strip on the Side
+              // Green/orange "spine" on the right edge with a subtle gradient.
               Positioned(
                 top: 0,
                 bottom: 0,
                 right: 0,
-                width: 4,
-                child: Container(color: badgeColor),
+                width: 8,
+                child: Container(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.centerLeft,
+                      end: Alignment.centerRight,
+                      colors: [
+                        badgeColor,
+                        Color.lerp(badgeColor, Colors.black, 0.25)!,
+                      ],
+                    ),
+                  ),
+                ),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(14, 12, 18, 12),
+                padding: const EdgeInsets.fromLTRB(16, 12, 18, 12),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    // Top Row: Number Circle Badge + Type Chip
+                    // Top Row: type chip (left) + ringed number (right).
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Container(
-                          width: 32,
-                          height: 32,
-                          decoration: BoxDecoration(
-                            color: badgeColor.withValues(alpha: 0.08),
-                            shape: BoxShape.circle,
-                          ),
-                          child: Center(
-                            child: Text(
-                              toArabicDigits(surah.order),
-                              style: TextStyle(
-                                color: badgeColor,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 13,
-                              ),
-                            ),
-                          ),
-                        ),
                         if (enabled && type.isNotEmpty)
                           Container(
                             padding: const EdgeInsets.symmetric(
-                                horizontal: 8, vertical: 3),
+                                horizontal: 12, vertical: 7),
                             decoration: BoxDecoration(
-                              color: badgeColor.withValues(alpha: 0.12),
-                              borderRadius: BorderRadius.circular(8),
+                              color: badgeColor.withValues(alpha: 0.10),
+                              borderRadius: BorderRadius.circular(12),
+                              border: Border.all(
+                                color: badgeColor.withValues(alpha: 0.22),
+                                width: 1.2,
+                              ),
                             ),
                             child: Text(
                               type,
                               style: TextStyle(
                                 color: badgeColor,
-                                fontSize: 11,
-                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Amiri',
                               ),
                             ),
                           )
                         else if (!enabled)
-                          Text(
-                            'غير متاحة',
-                            style: TextStyle(
-                              fontSize: 10,
-                              color: scheme.onSurfaceVariant,
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 12, vertical: 7),
+                            decoration: BoxDecoration(
+                              color: badgeColor.withValues(alpha: 0.10),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Text(
+                              'غير متاحة',
+                              style: TextStyle(
+                                fontSize: 13,
+                                color: scheme.onSurfaceVariant,
+                                fontFamily: 'Amiri',
+                              ),
+                            ),
+                          )
+                        else
+                          const SizedBox.shrink(),
+                        // Ringed number circle.
+                        Container(
+                          width: 46,
+                          height: 46,
+                          decoration: BoxDecoration(
+                            color: cardColor,
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              color: badgeColor.withValues(alpha: 0.5),
+                              width: 1.6,
+                            ),
+                            boxShadow: enabled
+                                ? [
+                                    BoxShadow(
+                                      color: Colors.black
+                                          .withValues(alpha: 0.06),
+                                      blurRadius: 6,
+                                      offset: const Offset(0, 2),
+                                    ),
+                                  ]
+                                : null,
+                          ),
+                          child: Center(
+                            child: Text(
+                              toArabicDigits(surah.order),
+                              style: TextStyle(
+                                color: enabled
+                                    ? scheme.onSurface
+                                    : scheme.onSurfaceVariant,
+                                fontWeight: FontWeight.w600,
+                                fontSize: 18,
+                                fontFamily: 'Amiri',
+                              ),
                             ),
                           ),
+                        ),
                       ],
                     ),
-const SizedBox(height: 8),
-
-                    // Middle: Surah Name (vertically centered in card)
                     const Spacer(),
+                    // Middle: Surah Name (calligraphic, centered).
                     Center(
-                      child: Text(
-                        surah.name,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: enabled
-                              ? scheme.onSurface
-                              : scheme.onSurfaceVariant,
-                          fontFamily: 'Amiri',
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Text(
+                          surah.name,
+                          maxLines: 1,
+                          style: TextStyle(
+                            fontSize: 28,
+                            fontWeight: FontWeight.normal,
+                            color: enabled
+                                ? scheme.onSurface
+                                : scheme.onSurfaceVariant,
+                            fontFamily: 'Amiri',
+                          ),
                         ),
                       ),
                     ),
                     const Spacer(),
-
-                    // Stats Row: Page badge (right) + Word count badge (left)
+                    // Stats Row: Page badge (right) + Word count badge (left).
                     Row(
                       children: [
                         Expanded(
@@ -982,9 +1051,11 @@ const SizedBox(height: 8),
                             icon: Icons.menu_book_rounded,
                             label: 'صفحة ${toArabicDigits(startPage)}',
                             color: badgeColor,
+                            cardColor: cardColor,
                             enabled: enabled,
                             alignStart: true,
                             scheme: scheme,
+                            isDark: isDark,
                           ),
                         ),
                         const SizedBox(width: 8),
@@ -994,9 +1065,11 @@ const SizedBox(height: 8),
                             label:
                                 'كلمة ${toArabicDigits(unfamiliarWordsCount)}',
                             color: badgeColor,
+                            cardColor: cardColor,
                             enabled: enabled,
                             alignStart: false,
                             scheme: scheme,
+                            isDark: isDark,
                           ),
                         ),
                       ],
@@ -1004,26 +1077,44 @@ const SizedBox(height: 8),
                   ],
                 ),
               ),
-              ],
-            ),
+            ],
           ),
         ),
+      ),
     );
   }
 
+  // Softly raised pill (surface fill + subtle border/shadow).
   Widget _statBadge({
     required IconData icon,
     required String label,
     required Color color,
+    required Color cardColor,
     required bool enabled,
     required bool alignStart,
     required ColorScheme scheme,
+    required bool isDark,
   }) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
       decoration: BoxDecoration(
-        color: (enabled ? color : Colors.grey.shade400).withValues(alpha: 0.08),
-        borderRadius: BorderRadius.circular(8),
+        color: cardColor,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: (enabled ? color : Colors.grey.shade400)
+              .withValues(alpha: 0.14),
+          width: 1,
+        ),
+        boxShadow: enabled
+            ? [
+                BoxShadow(
+                  color:
+                      Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
+                  blurRadius: 5,
+                  offset: const Offset(0, 2),
+                ),
+              ]
+            : null,
       ),
       child: FittedBox(
         fit: BoxFit.scaleDown,
@@ -1035,19 +1126,20 @@ const SizedBox(height: 8),
           children: [
             Icon(
               icon,
-              size: 12,
+              size: 18,
               color: enabled
                   ? color.withValues(alpha: 0.85)
                   : scheme.onSurfaceVariant,
             ),
-            const SizedBox(width: 4),
+            const SizedBox(width: 6),
             Text(
               label,
               maxLines: 1,
               style: TextStyle(
-                fontSize: 11,
-                color: scheme.onSurfaceVariant,
+                fontSize: 16,
+                color: scheme.onSurface,
                 fontWeight: FontWeight.w600,
+                fontFamily: 'Amiri',
               ),
             ),
           ],
@@ -1072,83 +1164,125 @@ class _HizbCard extends StatelessWidget {
     const Color badgeColor = Color(0xFF0F766E);
     final int juz = ((hizb.hizb + 1) ~/ 2); // hizb 1-2 -> juz 1, etc.
 
+    final bool isDark = Theme.of(context).brightness == Brightness.dark;
+    // Card surface a touch lighter than the page for a raised feel.
+    final Color cardColor = scheme.surface;
+
     return Container(
       decoration: BoxDecoration(
-        color: scheme.surface,
-        borderRadius: BorderRadius.circular(18),
+        color: cardColor,
+        borderRadius: BorderRadius.circular(20),
         boxShadow: [
+          // Soft drop shadow (depth).
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.04),
-            blurRadius: 12,
-            offset: const Offset(0, 4),
+            color: Colors.black.withValues(alpha: isDark ? 0.35 : 0.08),
+            blurRadius: 16,
+            offset: const Offset(0, 6),
+          ),
+          // Top-left highlight to fake a gentle raised bevel.
+          BoxShadow(
+            color: Colors.white.withValues(alpha: isDark ? 0.04 : 0.7),
+            blurRadius: 10,
+            offset: const Offset(-4, -4),
           ),
         ],
       ),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(20),
         child: InkWell(
           onTap: onTap,
           splashColor: badgeColor.withValues(alpha: 0.1),
           highlightColor: Colors.transparent,
           child: Stack(
             children: [
-              // Accent strip on the side (matches surah cards).
+              // Green "spine" on the right edge with a subtle gradient
+              // (fakes the leather book-spine look).
               Positioned(
                 top: 0,
                 bottom: 0,
                 right: 0,
-                width: 4,
-                child: Container(color: badgeColor),
+                width: 8,
+                child: Container(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.centerLeft,
+                      end: Alignment.centerRight,
+                      colors: [
+                        badgeColor,
+                        const Color(0xFF0B5B54),
+                      ],
+                    ),
+                  ),
+                ),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(18, 14, 22, 14),
+                padding: const EdgeInsets.fromLTRB(16, 12, 18, 12),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    // Top row: number badge + juz chip.
+                    // Top row: juz chip (left) + ringed number (right).
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Container(
-                          width: 50,
-                          height: 50,
-                          decoration: BoxDecoration(
-                            color: badgeColor.withValues(alpha: 0.08),
-                            shape: BoxShape.circle,
-                          ),
-                          child: Center(
-                            child: Text(
-                              toArabicDigits(hizb.hizb),
-                              style: const TextStyle(
-                                color: badgeColor,
-                                fontWeight: FontWeight.w900,
-                                fontSize: 22,
-                                fontFamily: 'Amiri',
-                              ),
-                            ),
-                          ),
-                        ),
+                        // Bezeled "جزء N" chip.
                         Container(
                           padding: const EdgeInsets.symmetric(
-                              horizontal: 14, vertical: 7),
+                              horizontal: 14, vertical: 8),
                           decoration: BoxDecoration(
-                            color: badgeColor.withValues(alpha: 0.12),
-                            borderRadius: BorderRadius.circular(10),
+                            color: badgeColor.withValues(alpha: 0.10),
+                            borderRadius: BorderRadius.circular(12),
+                            border: Border.all(
+                              color: badgeColor.withValues(alpha: 0.22),
+                              width: 1.2,
+                            ),
                           ),
                           child: Text(
                             'جزء ${toArabicDigits(juz)}',
                             style: const TextStyle(
                               color: badgeColor,
                               fontSize: 17,
-                              fontWeight: FontWeight.w800,
+                              fontWeight: FontWeight.w600,
                               fontFamily: 'Amiri',
+                            ),
+                          ),
+                        ),
+                        // Ringed number circle.
+                        Container(
+                          width: 46,
+                          height: 46,
+                          decoration: BoxDecoration(
+                            color: cardColor,
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              color: badgeColor.withValues(alpha: 0.5),
+                              width: 1.6,
+                            ),
+                            boxShadow: [
+                              BoxShadow(
+                                color:
+                                    Colors.black.withValues(alpha: 0.06),
+                                blurRadius: 6,
+                                offset: const Offset(0, 2),
+                              ),
+                            ],
+                          ),
+                          child: Center(
+                            child: Text(
+                              toArabicDigits(hizb.hizb),
+                              style: TextStyle(
+                                color: scheme.onSurface,
+                                fontWeight: FontWeight.w600,
+                                fontSize: 20,
+                                fontFamily: 'Amiri',
+                              ),
                             ),
                           ),
                         ),
                       ],
                     ),
                     const Spacer(),
-                    // Middle: "الحزب N" centered (dominant element).
+                    // Middle: "الحزب N" centered (calligraphic, normal weight).
                     Center(
                       child: FittedBox(
                         fit: BoxFit.scaleDown,
@@ -1156,8 +1290,8 @@ class _HizbCard extends StatelessWidget {
                           'الحزب ${toArabicDigits(hizb.hizb)}',
                           maxLines: 1,
                           style: TextStyle(
-                            fontSize: 32,
-                            fontWeight: FontWeight.w900,
+                            fontSize: 30,
+                            fontWeight: FontWeight.normal,
                             color: scheme.onSurface,
                             fontFamily: 'Amiri',
                           ),
@@ -1173,19 +1307,23 @@ class _HizbCard extends StatelessWidget {
                             icon: Icons.bookmark_border_rounded,
                             label: 'ثمن ${toArabicDigits(hizb.thumunCount)}',
                             color: badgeColor,
+                            cardColor: cardColor,
                             alignStart: true,
                             scheme: scheme,
+                            isDark: isDark,
                           ),
                         ),
-                        const SizedBox(width: 10),
+                        const SizedBox(width: 8),
                         Expanded(
                           child: _hizbStatBadge(
                             icon: Icons.menu_book_rounded,
                             label:
                                 'كلمة ${toArabicDigits(hizb.totalEntries)}',
                             color: badgeColor,
+                            cardColor: cardColor,
                             alignStart: false,
                             scheme: scheme,
+                            isDark: isDark,
                           ),
                         ),
                       ],
@@ -1200,18 +1338,32 @@ class _HizbCard extends StatelessWidget {
     );
   }
 
+  // Softly raised pill (white fill + subtle shadow), matching the mockup.
   Widget _hizbStatBadge({
     required IconData icon,
     required String label,
     required Color color,
+    required Color cardColor,
     required bool alignStart,
     required ColorScheme scheme,
+    required bool isDark,
   }) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 9),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.08),
-        borderRadius: BorderRadius.circular(10),
+        color: cardColor,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: color.withValues(alpha: 0.14),
+          width: 1,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
+            blurRadius: 5,
+            offset: const Offset(0, 2),
+          ),
+        ],
       ),
       child: FittedBox(
         fit: BoxFit.scaleDown,
@@ -1221,15 +1373,15 @@ class _HizbCard extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(icon, size: 18, color: color.withValues(alpha: 0.85)),
+            Icon(icon, size: 19, color: color.withValues(alpha: 0.85)),
             const SizedBox(width: 6),
             Text(
               label,
               maxLines: 1,
               style: TextStyle(
-                fontSize: 16,
-                color: scheme.onSurfaceVariant,
-                fontWeight: FontWeight.bold,
+                fontSize: 17,
+                color: scheme.onSurface,
+                fontWeight: FontWeight.w600,
                 fontFamily: 'Amiri',
               ),
             ),
