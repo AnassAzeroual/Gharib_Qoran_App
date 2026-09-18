@@ -30,7 +30,7 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
       builder: (context, numeral, _) => Scaffold(
-        backgroundColor: const Color(0xFFF6F3EC),
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         appBar: AppBar(
           titleSpacing: 0,
           title: Text(
