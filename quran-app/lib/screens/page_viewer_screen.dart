@@ -172,7 +172,12 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
           ),
           backgroundColor: const Color(0xFF16191F),
           elevation: 0,
-          actions: const [NumeralToggleButton()],
+          actions: const [
+            Padding(
+              padding: EdgeInsetsDirectional.only(start: 12),
+              child: NumeralToggleButton(),
+            ),
+          ],
         ),
         body: Column(
           children: [

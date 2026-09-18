@@ -48,7 +48,15 @@ class QuizResultScreen extends StatelessWidget {
       builder: (context, numeral, _) => Scaffold(
         appBar: AppBar(
           title: const Text('نتيجة الاختبار'),
-          actions: const [NumeralToggleButton()],
+          // Fixed teal header in both light and dark modes, matching the quiz.
+          backgroundColor: const Color(0xFF0F766E),
+          foregroundColor: Colors.white,
+          actions: const [
+            Padding(
+              padding: EdgeInsetsDirectional.only(start: 12),
+              child: NumeralToggleButton(),
+            ),
+          ],
         ),
         body: SafeArea(
           child: Center(

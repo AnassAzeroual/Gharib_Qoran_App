@@ -36,7 +36,6 @@ class _QuizScreenState extends State<QuizScreen> {
 
   // Palette from the minimalist target design.
   static const Color _canvas = Color(0xFFFBFBFB);
-  static const Color _promptOrange = Color(0xFFE07A5F);
   static const Color _wordDark = Color(0xFF4A4A4A);
   static const Color _verseGreen = Color(0xFF2FA885);
   static const Color _refGrey = Color(0xFF9AA0A6);
@@ -220,7 +219,10 @@ class _QuizScreenState extends State<QuizScreen> {
             backgroundColor: const Color(0xFF0F766E),
             foregroundColor: Colors.white,
             actions: [
-              const NumeralToggleButton(),
+              const Padding(
+                padding: EdgeInsetsDirectional.only(start: 12),
+                child: NumeralToggleButton(),
+              ),
               ValueListenableBuilder<bool>(
                 valueListenable: _sound.soundEnabled,
                 builder: (context, on, _) => IconButton(
@@ -282,6 +284,25 @@ class _QuizScreenState extends State<QuizScreen> {
       children: [
         Row(
           children: [
+            // Scope / question counter on the RTL-start (right) edge.
+            Text(
+              _isAllMode
+                  ? 'جميع السور'
+                  : '${displayNumber(_index)} / ${displayNumber(_queue.length)}',
+              style: TextStyle(color: refColor, fontSize: 13),
+            ),
+            const SizedBox(width: 10),
+            Expanded(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(6),
+                child: LinearProgressIndicator(
+                  value: progress,
+                  minHeight: 6,
+                  backgroundColor: scheme.outlineVariant,
+                ),
+              ),
+            ),
+            const SizedBox(width: 12),
             // Compact live score: ✓ correct  ✗ wrong.
             _miniScore(
               Icons.check_circle,
@@ -293,24 +314,6 @@ class _QuizScreenState extends State<QuizScreen> {
               Icons.cancel,
               _session.wrongCount,
               const Color(0xFFDC2626),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(6),
-                child: LinearProgressIndicator(
-                  value: progress,
-                  minHeight: 6,
-                  backgroundColor: scheme.outlineVariant,
-                ),
-              ),
-            ),
-            const SizedBox(width: 10),
-            Text(
-              _isAllMode
-                  ? 'جميع السور'
-                  : '${displayNumber(_index)} / ${displayNumber(_queue.length)}',
-              style: TextStyle(color: refColor, fontSize: 13),
             ),
           ],
         ),
@@ -331,7 +334,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     style: TextStyle(
                       fontFamily: 'Amiri',
                       fontSize: 20 * scale,
-                      color: _promptOrange,
+                      color: scheme.onSurface,
                     ),
                   ),
                   TextSpan(
@@ -340,7 +343,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       fontFamily: 'Amiri',
                       fontSize: 30 * scale,
                       fontWeight: FontWeight.bold,
-                      color: wordColor,
+                      color: _verseGreen,
                     ),
                   ),
                 ],

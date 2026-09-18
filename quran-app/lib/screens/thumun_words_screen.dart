@@ -33,7 +33,12 @@ class ThumunWordsScreen extends StatelessWidget {
             'الحزب ${displayNumber(hizb)} · الثمن ${displayNumber(thumunInHizb)}',
             style: const TextStyle(fontFamily: 'Amiri'),
           ),
-          actions: const [NumeralToggleButton()],
+          actions: const [
+            Padding(
+              padding: EdgeInsetsDirectional.only(start: 12),
+              child: NumeralToggleButton(),
+            ),
+          ],
         ),
         body: words.isEmpty
             ? Center(
