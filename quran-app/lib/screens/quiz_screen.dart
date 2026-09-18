@@ -285,42 +285,42 @@ class _QuizScreenState extends State<QuizScreen> {
             ),
           ],
         ),
-        const SizedBox(height: 4),
+        const SizedBox(height: 16),
         _fontSizeControl(scheme),
-        const SizedBox(height: 6),
-        // Prompt, aligned to the top-right.
+        const SizedBox(height: 24),
+        // Prompt + word on a single line, aligned to the right (RTL).
         Align(
           alignment: Alignment.centerRight,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: [
-              Text(
-                'ما معنى كلمة',
-                style: TextStyle(
-                  fontFamily: 'Amiri',
-                  fontSize: 15 * scale,
-                  color: _promptOrange,
-                ),
-              ),
-              const SizedBox(height: 2),
-              FittedBox(
-                fit: BoxFit.scaleDown,
-                alignment: Alignment.centerRight,
-                child: Text(
-                  '${q.word.word}؟',
-                  textDirection: TextDirection.rtl,
-                  style: TextStyle(
-                    fontFamily: 'Amiri',
-                    fontSize: 32 * scale,
-                    fontWeight: FontWeight.bold,
-                    color: _wordDark,
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            alignment: Alignment.centerRight,
+            child: Text.rich(
+              TextSpan(
+                children: [
+                  TextSpan(
+                    text: 'ما معنى كلمة: ',
+                    style: TextStyle(
+                      fontFamily: 'Amiri',
+                      fontSize: 20 * scale,
+                      color: _promptOrange,
+                    ),
                   ),
-                ),
+                  TextSpan(
+                    text: '${q.word.word}؟',
+                    style: TextStyle(
+                      fontFamily: 'Amiri',
+                      fontSize: 30 * scale,
+                      fontWeight: FontWeight.bold,
+                      color: _wordDark,
+                    ),
+                  ),
+                ],
               ),
-            ],
+              textDirection: TextDirection.rtl,
+            ),
           ),
         ),
-        const SizedBox(height: 8),
+        const SizedBox(height: 10),
         // Collapsible verse: hidden by default, the gold toggle reveals it.
         // Growing the verse pushes the answers down instead of overlaying them.
         AnimatedSize(
@@ -420,7 +420,7 @@ class _QuizScreenState extends State<QuizScreen> {
         SizedBox(height: 14 * scale),
         _ayahText(q, scale),
         if (q.word.surahName.isNotEmpty || q.word.ayahNumber != null) ...[
-          SizedBox(height: 12 * scale),
+          SizedBox(height: 22 * scale),
           Text(
             _ayahReference(q),
             style: TextStyle(
