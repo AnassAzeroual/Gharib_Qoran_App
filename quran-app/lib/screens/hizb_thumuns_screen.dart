@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 import '../models/hizb_menu.dart';
+import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/numeral_toggle_button.dart';
 import 'quiz_screen.dart';
 import 'thumun_words_screen.dart';
 
@@ -28,7 +30,7 @@ class HizbThumunsScreen extends StatelessWidget {
           builder: (_) => QuizScreen(
             thumun: t.thumun,
             thumunLabel:
-                'الحزب ${toArabicDigits(hizb.hizb)} · الثمن ${toArabicDigits(t.thumunInHizb)}',
+                'الحزب ${displayNumber(hizb.hizb)} · الثمن ${displayNumber(t.thumunInHizb)}',
           ),
         ),
       );
@@ -46,9 +48,8 @@ class HizbThumunsScreen extends StatelessWidget {
   }
 
   void _quizWholeHizb(BuildContext context) {
-    Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => QuizScreen(hizb: hizb.hizb)),
-    );
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (_) => QuizScreen(hizb: hizb.hizb)));
   }
 
   @override
@@ -56,45 +57,53 @@ class HizbThumunsScreen extends StatelessWidget {
     final scheme = Theme.of(context).colorScheme;
     final bottomInset = MediaQuery.of(context).padding.bottom;
     final int extra = quizMode ? 1 : 0; // "whole hizb" tile
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          quizMode
-              ? 'اختبر نفسك — الحزب ${toArabicDigits(hizb.hizb)}'
-              : 'الحزب ${toArabicDigits(hizb.hizb)}',
-          style: const TextStyle(fontFamily: 'Amiri'),
+    return ValueListenableBuilder<NumeralSystem>(
+      valueListenable: numeralNotifier,
+      builder: (context, numeral, _) => Scaffold(
+        appBar: AppBar(
+          title: Text(
+            quizMode
+                ? 'اختبر نفسك — الحزب ${displayNumber(hizb.hizb)}'
+                : 'الحزب ${displayNumber(hizb.hizb)}',
+            style: const TextStyle(fontFamily: 'Amiri'),
+          ),
+          actions: const [NumeralToggleButton()],
         ),
-      ),
-      body: hizb.thumuns.isEmpty
-          ? Center(
-              child: Text('لا توجد أثمان متاحة',
+        body: hizb.thumuns.isEmpty
+            ? Center(
+                child: Text(
+                  'لا توجد أثمان متاحة',
                   style: TextStyle(
-                      fontSize: 16, color: scheme.onSurfaceVariant)),
-            )
-          : Center(
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 720),
-                child: ListView.builder(
-                  padding: EdgeInsets.fromLTRB(12, 12, 12, 24 + bottomInset),
-                  itemCount: hizb.thumuns.length + extra,
-                  itemBuilder: (context, index) {
-                    if (quizMode && index == 0) {
-                      return _WholeHizbTile(
-                        hizb: hizb,
-                        onTap: () => _quizWholeHizb(context),
+                    fontSize: 16,
+                    color: scheme.onSurfaceVariant,
+                  ),
+                ),
+              )
+            : Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 720),
+                  child: ListView.builder(
+                    padding: EdgeInsets.fromLTRB(12, 12, 12, 24 + bottomInset),
+                    itemCount: hizb.thumuns.length + extra,
+                    itemBuilder: (context, index) {
+                      if (quizMode && index == 0) {
+                        return _WholeHizbTile(
+                          hizb: hizb,
+                          onTap: () => _quizWholeHizb(context),
+                        );
+                      }
+                      final t = hizb.thumuns[index - extra];
+                      return _ThumunTile(
+                        hizb: hizb.hizb,
+                        thumun: t,
+                        quizMode: quizMode,
+                        onTap: () => _openThumun(context, t),
                       );
-                    }
-                    final t = hizb.thumuns[index - extra];
-                    return _ThumunTile(
-                      hizb: hizb.hizb,
-                      thumun: t,
-                      quizMode: quizMode,
-                      onTap: () => _openThumun(context, t),
-                    );
-                  },
+                    },
+                  ),
                 ),
               ),
-            ),
+      ),
     );
   }
 }
@@ -144,9 +153,11 @@ class _WholeHizbTile extends StatelessWidget {
                       ),
                       const SizedBox(height: 2),
                       Text(
-                        'اختبار على ${toArabicDigits(hizb.totalEntries)} كلمة من كامل الحزب',
+                        'اختبار على ${displayNumber(hizb.totalEntries)} كلمة من كامل الحزب',
                         style: const TextStyle(
-                            fontSize: 12, color: Colors.white70),
+                          fontSize: 12,
+                          color: Colors.white70,
+                        ),
                       ),
                     ],
                   ),
@@ -208,7 +219,7 @@ class _ThumunTile extends StatelessWidget {
                   ),
                   child: Center(
                     child: Text(
-                      toArabicDigits(thumun.thumunInHizb),
+                      displayNumber(thumun.thumunInHizb),
                       style: const TextStyle(
                         color: accent,
                         fontWeight: FontWeight.bold,
@@ -224,7 +235,7 @@ class _ThumunTile extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'الثمن ${toArabicDigits(thumun.thumunInHizb)}',
+                        'الثمن ${displayNumber(thumun.thumunInHizb)}',
                         style: const TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -233,7 +244,7 @@ class _ThumunTile extends StatelessWidget {
                       ),
                       const SizedBox(height: 2),
                       Text(
-                        'كلمة ${toArabicDigits(thumun.entryCount)} · صفحة ${toArabicDigits(thumun.firstPage)}',
+                        'كلمة ${displayNumber(thumun.entryCount)} · صفحة ${displayNumber(thumun.firstPage)}',
                         style: TextStyle(
                           fontSize: 13,
                           color: scheme.onSurfaceVariant,

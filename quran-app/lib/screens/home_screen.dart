@@ -5,6 +5,7 @@ import '../models/hizb_menu.dart';
 import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/numeral_toggle_button.dart';
 import '../widgets/search_result_card.dart';
 import 'hizb_thumuns_screen.dart';
 import 'page_viewer_screen.dart';
@@ -19,8 +20,7 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen>
-    with TickerProviderStateMixin {
+class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   final TextEditingController _searchController = TextEditingController();
   final DataService _data = DataService.instance;
   bool _ready = false;
@@ -156,8 +156,7 @@ class _HomeScreenState extends State<HomeScreen>
     // Only trust the outer bar height while the toggle is fully expanded, so
     // the expanded height stays stable and isn't corrupted mid-collapse.
     final bool expanded = _collapseController.value == 0;
-    final nextBar =
-        expanded ? (barBox?.size.height ?? _barHeight) : _barHeight;
+    final nextBar = expanded ? (barBox?.size.height ?? _barHeight) : _barHeight;
     if (nextBar != _barHeight ||
         nextSearch != _searchHeight ||
         nextToggle != _toggleHeight) {
@@ -211,11 +210,8 @@ class _HomeScreenState extends State<HomeScreen>
   void _onSearchSubmitted(String query) {
     final q = query.trim();
     if (q.isEmpty) return;
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => SearchResultsScreen(query: q),
-      ),
-    );
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (_) => SearchResultsScreen(query: q)));
   }
 
   void _openSurah(Surah surah) {
@@ -261,9 +257,8 @@ class _HomeScreenState extends State<HomeScreen>
   }
 
   void _startAllQuiz() {
-    Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => const QuizScreen()),
-    );
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (_) => const QuizScreen()));
   }
 
   @override
@@ -271,17 +266,20 @@ class _HomeScreenState extends State<HomeScreen>
     // Re-measure each frame the layout might have changed (mode changes, etc.).
     WidgetsBinding.instance.addPostFrameCallback((_) => _measureBar());
 
-    return Scaffold(
-      body: SafeArea(
-        child: Column(
-          children: [
-            _header(context),
-            Expanded(
-              child: _ready
-                  ? _floatingBody(context)
-                  : const Center(child: CircularProgressIndicator()),
-            ),
-          ],
+    return ValueListenableBuilder<NumeralSystem>(
+      valueListenable: numeralNotifier,
+      builder: (context, numeral, _) => Scaffold(
+        body: SafeArea(
+          child: Column(
+            children: [
+              _header(context),
+              Expanded(
+                child: _ready
+                    ? _floatingBody(context)
+                    : const Center(child: CircularProgressIndicator()),
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -297,8 +295,10 @@ class _HomeScreenState extends State<HomeScreen>
       builder: (context, _) {
         // Effective expanded bar height shrinks as the button row collapses.
         final double collapsedBy = _toggleHeight * _collapseAnim.value;
-        final double effectiveBarHeight =
-            (_barHeight - collapsedBy).clamp(0.0, double.infinity);
+        final double effectiveBarHeight = (_barHeight - collapsedBy).clamp(
+          0.0,
+          double.infinity,
+        );
 
         // slide.dy goes 0 (shown) -> -1 (fully hidden, moved up by its height).
         final double slideDy = -_barSlide.value;
@@ -401,7 +401,11 @@ class _HomeScreenState extends State<HomeScreen>
                   color: Colors.white.withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(14),
                 ),
-                child: const Icon(Icons.menu_book, color: Color(0xFFFCD34D), size: 30),
+                child: const Icon(
+                  Icons.menu_book,
+                  color: Color(0xFFFCD34D),
+                  size: 30,
+                ),
               ),
               const SizedBox(width: 14),
               Expanded(
@@ -454,18 +458,31 @@ class _HomeScreenState extends State<HomeScreen>
                 ),
                 onPressed: () => themeModeNotifier.value =
                     Theme.of(context).brightness == Brightness.dark
-                        ? ThemeMode.light
-                        : ThemeMode.dark,
+                    ? ThemeMode.light
+                    : ThemeMode.dark,
+              ),
+              const Padding(
+                padding: EdgeInsets.only(right: 4),
+                child: NumeralToggleButton(),
               ),
             ],
           ),
           const SizedBox(height: 16),
           Row(
             children: [
-              _statChip(context, Icons.image_outlined, '$total صفحة', Colors.teal.shade100),
+              _statChip(
+                context,
+                Icons.image_outlined,
+                '${displayNumber(total)} صفحة',
+                Colors.teal.shade100,
+              ),
               const SizedBox(width: 8),
-              _statChip(context, Icons.check_circle_outline,
-                  '$available متاحة', const Color(0xFFFCD34D)),
+              _statChip(
+                context,
+                Icons.check_circle_outline,
+                '${displayNumber(available)} متاحة',
+                const Color(0xFFFCD34D),
+              ),
             ],
           ),
         ],
@@ -473,7 +490,12 @@ class _HomeScreenState extends State<HomeScreen>
     );
   }
 
-  Widget _statChip(BuildContext context, IconData icon, String label, Color color) {
+  Widget _statChip(
+    BuildContext context,
+    IconData icon,
+    String label,
+    Color color,
+  ) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       decoration: BoxDecoration(
@@ -506,7 +528,9 @@ class _HomeScreenState extends State<HomeScreen>
         decoration: InputDecoration(
           hintText: 'ابحث عن كلمة أو معنى...',
           hintStyle: TextStyle(
-              color: scheme.onSurfaceVariant, fontFamily: 'Amiri'),
+            color: scheme.onSurfaceVariant,
+            fontFamily: 'Amiri',
+          ),
           prefixIcon: const Padding(
             padding: EdgeInsets.only(left: 8),
             child: Icon(Icons.search, color: Color(0xFF0F766E)),
@@ -525,7 +549,10 @@ class _HomeScreenState extends State<HomeScreen>
           ),
           filled: true,
           fillColor: scheme.surface,
-          contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+          contentPadding: const EdgeInsets.symmetric(
+            horizontal: 16,
+            vertical: 14,
+          ),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(18),
             borderSide: BorderSide.none,
@@ -673,15 +700,17 @@ class _HomeScreenState extends State<HomeScreen>
       return Padding(
         padding: EdgeInsets.only(top: topPadding),
         child: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.search_off, size: 64, color: scheme.onSurfaceVariant),
-            const SizedBox(height: 12),
-            Text('لا توجد نتائج',
-                style: TextStyle(fontSize: 18, color: scheme.onSurfaceVariant)),
-          ],
-        ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(Icons.search_off, size: 64, color: scheme.onSurfaceVariant),
+              const SizedBox(height: 12),
+              Text(
+                'لا توجد نتائج',
+                style: TextStyle(fontSize: 18, color: scheme.onSurfaceVariant),
+              ),
+            ],
+          ),
         ),
       );
     }
@@ -694,7 +723,7 @@ class _HomeScreenState extends State<HomeScreen>
           child: Row(
             children: [
               Text(
-                'نتيجة ${toArabicDigits(_liveResults.length)}',
+                'نتيجة ${displayNumber(_liveResults.length)}',
                 style: TextStyle(
                   color: scheme.onSurfaceVariant,
                   fontSize: 13,
@@ -733,7 +762,12 @@ class _HomeScreenState extends State<HomeScreen>
       controller: _scrollController,
       // Top padding tracks the floating bar's bottom edge (curved), so at rest
       // Fatihah/Bakarah sit flush below the buttons and flow up as it hides.
-      padding: EdgeInsets.only(top: topPadding, left: 16, right: 16, bottom: 24),
+      padding: EdgeInsets.only(
+        top: topPadding,
+        left: 16,
+        right: 16,
+        bottom: 24,
+      ),
       gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
         maxCrossAxisExtent: 200,
         mainAxisExtent: 166,
@@ -776,16 +810,22 @@ class _HomeScreenState extends State<HomeScreen>
       return Padding(
         padding: EdgeInsets.only(top: topPadding),
         child: Center(
-          child: Text('قائمة الأحزاب غير متوفرة',
-              style: TextStyle(fontSize: 16, color: scheme.onSurfaceVariant)),
+          child: Text(
+            'قائمة الأحزاب غير متوفرة',
+            style: TextStyle(fontSize: 16, color: scheme.onSurfaceVariant),
+          ),
         ),
       );
     }
     final bool quizMode = _quizMode;
     return GridView.builder(
       controller: _scrollController,
-      padding:
-          EdgeInsets.only(top: topPadding, left: 16, right: 16, bottom: 24),
+      padding: EdgeInsets.only(
+        top: topPadding,
+        left: 16,
+        right: 16,
+        bottom: 24,
+      ),
       gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
         maxCrossAxisExtent: 200,
         mainAxisExtent: 166,
@@ -845,7 +885,10 @@ class _HomeScreenState extends State<HomeScreen>
                   'أسئلة مستمرة من جميع السور',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                      fontFamily: 'Amiri', fontSize: 13, color: Colors.white70),
+                    fontFamily: 'Amiri',
+                    fontSize: 13,
+                    color: Colors.white70,
+                  ),
                 ),
               ],
             ),
@@ -882,8 +925,9 @@ class _SurahCard extends StatelessWidget {
     final int unfamiliarWordsCount = entry?.unfamiliarWordsCount ?? 0;
 
     final bool isDark = Theme.of(context).brightness == Brightness.dark;
-    final Color cardColor =
-        enabled ? scheme.surface : scheme.surfaceContainerHighest;
+    final Color cardColor = enabled
+        ? scheme.surface
+        : scheme.surfaceContainerHighest;
 
     return Container(
       decoration: BoxDecoration(
@@ -899,8 +943,7 @@ class _SurahCard extends StatelessWidget {
                 ),
                 // Top-left highlight for a gentle raised bevel.
                 BoxShadow(
-                  color:
-                      Colors.white.withValues(alpha: isDark ? 0.04 : 0.7),
+                  color: Colors.white.withValues(alpha: isDark ? 0.04 : 0.7),
                   blurRadius: 10,
                   offset: const Offset(-4, -4),
                 ),
@@ -947,7 +990,9 @@ class _SurahCard extends StatelessWidget {
                         if (enabled && type.isNotEmpty)
                           Container(
                             padding: const EdgeInsets.symmetric(
-                                horizontal: 12, vertical: 7),
+                              horizontal: 12,
+                              vertical: 7,
+                            ),
                             decoration: BoxDecoration(
                               color: badgeColor.withValues(alpha: 0.10),
                               borderRadius: BorderRadius.circular(12),
@@ -969,7 +1014,9 @@ class _SurahCard extends StatelessWidget {
                         else if (!enabled)
                           Container(
                             padding: const EdgeInsets.symmetric(
-                                horizontal: 12, vertical: 7),
+                              horizontal: 12,
+                              vertical: 7,
+                            ),
                             decoration: BoxDecoration(
                               color: badgeColor.withValues(alpha: 0.10),
                               borderRadius: BorderRadius.circular(12),
@@ -999,8 +1046,9 @@ class _SurahCard extends StatelessWidget {
                             boxShadow: enabled
                                 ? [
                                     BoxShadow(
-                                      color: Colors.black
-                                          .withValues(alpha: 0.06),
+                                      color: Colors.black.withValues(
+                                        alpha: 0.06,
+                                      ),
                                       blurRadius: 6,
                                       offset: const Offset(0, 2),
                                     ),
@@ -1009,7 +1057,7 @@ class _SurahCard extends StatelessWidget {
                           ),
                           child: Center(
                             child: Text(
-                              toArabicDigits(surah.order),
+                              displayNumber(surah.order),
                               style: TextStyle(
                                 color: enabled
                                     ? scheme.onSurface
@@ -1049,7 +1097,7 @@ class _SurahCard extends StatelessWidget {
                         Expanded(
                           child: _statBadge(
                             icon: Icons.menu_book_rounded,
-                            label: 'صفحة ${toArabicDigits(startPage)}',
+                            label: 'صفحة ${displayNumber(startPage)}',
                             color: badgeColor,
                             cardColor: cardColor,
                             enabled: enabled,
@@ -1063,7 +1111,7 @@ class _SurahCard extends StatelessWidget {
                           child: _statBadge(
                             icon: Icons.text_snippet_outlined,
                             label:
-                                'كلمة ${toArabicDigits(unfamiliarWordsCount)}',
+                                'كلمة ${displayNumber(unfamiliarWordsCount)}',
                             color: badgeColor,
                             cardColor: cardColor,
                             enabled: enabled,
@@ -1101,15 +1149,15 @@ class _SurahCard extends StatelessWidget {
         color: cardColor,
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
-          color: (enabled ? color : Colors.grey.shade400)
-              .withValues(alpha: 0.14),
+          color: (enabled ? color : Colors.grey.shade400).withValues(
+            alpha: 0.14,
+          ),
           width: 1,
         ),
         boxShadow: enabled
             ? [
                 BoxShadow(
-                  color:
-                      Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
+                  color: Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
                   blurRadius: 5,
                   offset: const Offset(0, 2),
                 ),
@@ -1207,10 +1255,7 @@ class _HizbCard extends StatelessWidget {
                     gradient: LinearGradient(
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
-                      colors: [
-                        badgeColor,
-                        const Color(0xFF0B5B54),
-                      ],
+                      colors: [badgeColor, const Color(0xFF0B5B54)],
                     ),
                   ),
                 ),
@@ -1228,7 +1273,9 @@ class _HizbCard extends StatelessWidget {
                         // Bezeled "جزء N" chip.
                         Container(
                           padding: const EdgeInsets.symmetric(
-                              horizontal: 14, vertical: 8),
+                            horizontal: 14,
+                            vertical: 8,
+                          ),
                           decoration: BoxDecoration(
                             color: badgeColor.withValues(alpha: 0.10),
                             borderRadius: BorderRadius.circular(12),
@@ -1238,7 +1285,7 @@ class _HizbCard extends StatelessWidget {
                             ),
                           ),
                           child: Text(
-                            'جزء ${toArabicDigits(juz)}',
+                            'جزء ${displayNumber(juz)}',
                             style: const TextStyle(
                               color: badgeColor,
                               fontSize: 17,
@@ -1260,8 +1307,7 @@ class _HizbCard extends StatelessWidget {
                             ),
                             boxShadow: [
                               BoxShadow(
-                                color:
-                                    Colors.black.withValues(alpha: 0.06),
+                                color: Colors.black.withValues(alpha: 0.06),
                                 blurRadius: 6,
                                 offset: const Offset(0, 2),
                               ),
@@ -1269,7 +1315,7 @@ class _HizbCard extends StatelessWidget {
                           ),
                           child: Center(
                             child: Text(
-                              toArabicDigits(hizb.hizb),
+                              displayNumber(hizb.hizb),
                               style: TextStyle(
                                 color: scheme.onSurface,
                                 fontWeight: FontWeight.w600,
@@ -1287,7 +1333,7 @@ class _HizbCard extends StatelessWidget {
                       child: FittedBox(
                         fit: BoxFit.scaleDown,
                         child: Text(
-                          'الحزب ${toArabicDigits(hizb.hizb)}',
+                          'الحزب ${displayNumber(hizb.hizb)}',
                           maxLines: 1,
                           style: TextStyle(
                             fontSize: 30,
@@ -1305,7 +1351,7 @@ class _HizbCard extends StatelessWidget {
                         Expanded(
                           child: _hizbStatBadge(
                             icon: Icons.bookmark_border_rounded,
-                            label: 'ثمن ${toArabicDigits(hizb.thumunCount)}',
+                            label: 'ثمن ${displayNumber(hizb.thumunCount)}',
                             color: badgeColor,
                             cardColor: cardColor,
                             alignStart: true,
@@ -1317,8 +1363,7 @@ class _HizbCard extends StatelessWidget {
                         Expanded(
                           child: _hizbStatBadge(
                             icon: Icons.menu_book_rounded,
-                            label:
-                                'كلمة ${toArabicDigits(hizb.totalEntries)}',
+                            label: 'كلمة ${displayNumber(hizb.totalEntries)}',
                             color: badgeColor,
                             cardColor: cardColor,
                             alignStart: false,
@@ -1353,10 +1398,7 @@ class _HizbCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: cardColor,
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: color.withValues(alpha: 0.14),
-          width: 1,
-        ),
+        border: Border.all(color: color.withValues(alpha: 0.14), width: 1),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),

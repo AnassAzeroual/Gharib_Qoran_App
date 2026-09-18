@@ -4,7 +4,9 @@ import 'package:flutter/services.dart';
 
 import '../models/page_data.dart';
 import '../services/data_service.dart';
+import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/numeral_toggle_button.dart';
 
 /// Side-by-side verification screen: the scanned page image on one side and
 /// the OCR glossary list for that same page on the other, with prev/next
@@ -53,8 +55,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
 
   void _changeFontSize(double delta) {
     setState(() {
-      _listFontSize =
-          (_listFontSize + delta).clamp(_minFontSize, _maxFontSize);
+      _listFontSize = (_listFontSize + delta).clamp(_minFontSize, _maxFontSize);
     });
   }
 
@@ -139,104 +140,113 @@ class _VerificationScreenState extends State<VerificationScreen> {
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    return Scaffold(
-      backgroundColor: scheme.surface,
-      // Immersive: no AppBar, the panes fill the whole screen. A floating mini
-      // header (back + reference, rotate on phones) and the bottom bar overlay
-      // the content. Tapping anywhere toggles a pure fullscreen mode where all
-      // of these (plus the Android system bars) are hidden.
-      body: GestureDetector(
-        behavior: HitTestBehavior.opaque,
-        onTap: _toggleFullscreen,
-        child: Stack(
-          children: [
-            Positioned.fill(
-              child: Column(
-                children: [
-                  Expanded(
-                    child: LayoutBuilder(
-                      builder: (context, constraints) {
-                        final bool wide = constraints.maxWidth >= 600;
-                        // Keep the top of the list clear of the floating header
-                        // in wide/landscape mode, where they overlap.
-                        final double listTopInset =
-                            (!_fullscreen && wide) ? 64 : 0;
-                        // Available space for the two panes (minus the divider).
-                        final double total = (wide
-                                ? constraints.maxWidth
-                                : constraints.maxHeight) -
-                            _dividerThickness;
-                        final double imageExtent =
-                            (total * _imageFraction).clamp(0.0, total);
-                        final double listExtent = total - imageExtent;
+    return ValueListenableBuilder<NumeralSystem>(
+      valueListenable: numeralNotifier,
+      builder: (context, numeral, _) => Scaffold(
+        backgroundColor: scheme.surface,
+        // Immersive: no AppBar, the panes fill the whole screen. A floating mini
+        // header (back + reference, rotate on phones) and the bottom bar overlay
+        // the content. Tapping anywhere toggles a pure fullscreen mode where all
+        // of these (plus the Android system bars) are hidden.
+        body: GestureDetector(
+          behavior: HitTestBehavior.opaque,
+          onTap: _toggleFullscreen,
+          child: Stack(
+            children: [
+              Positioned.fill(
+                child: Column(
+                  children: [
+                    Expanded(
+                      child: LayoutBuilder(
+                        builder: (context, constraints) {
+                          final bool wide = constraints.maxWidth >= 600;
+                          // Keep the top of the list clear of the floating header
+                          // in wide/landscape mode, where they overlap.
+                          final double listTopInset = (!_fullscreen && wide)
+                              ? 64
+                              : 0;
+                          // Available space for the two panes (minus the divider).
+                          final double total =
+                              (wide
+                                  ? constraints.maxWidth
+                                  : constraints.maxHeight) -
+                              _dividerThickness;
+                          final double imageExtent = (total * _imageFraction)
+                              .clamp(0.0, total);
+                          final double listExtent = total - imageExtent;
 
-                        if (wide) {
-                          return Row(
-                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                          if (wide) {
+                            return Row(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                              children: [
+                                // Right side (RTL start): page image
+                                SizedBox(
+                                  width: imageExtent,
+                                  child: _imagePane(),
+                                ),
+                                _dividerHandle(wide: true, total: total),
+                                // Left side (RTL end): glossary list
+                                SizedBox(
+                                  width: listExtent,
+                                  child: _listPane(topInset: listTopInset),
+                                ),
+                              ],
+                            );
+                          }
+                          return Column(
                             children: [
-                              // Right side (RTL start): page image
-                              SizedBox(width: imageExtent, child: _imagePane()),
-                              _dividerHandle(wide: true, total: total),
-                              // Left side (RTL end): glossary list
                               SizedBox(
-                                width: listExtent,
+                                height: imageExtent,
+                                child: _imagePane(),
+                              ),
+                              _dividerHandle(wide: false, total: total),
+                              SizedBox(
+                                height: listExtent,
                                 child: _listPane(topInset: listTopInset),
                               ),
                             ],
                           );
-                        }
-                        return Column(
-                          children: [
-                            SizedBox(height: imageExtent, child: _imagePane()),
-                            _dividerHandle(wide: false, total: total),
-                            SizedBox(
-                              height: listExtent,
-                              child: _listPane(topInset: listTopInset),
-                            ),
-                          ],
-                        );
-                      },
+                        },
+                      ),
                     ),
-                  ),
-                  if (!_fullscreen) _bottomBar(context),
-                ],
+                    if (!_fullscreen) _bottomBar(context),
+                  ],
+                ),
               ),
-            ),
-            // Floating mini header (hidden in fullscreen).
-            if (!_fullscreen)
-              Positioned(
-                top: 0,
-                left: 0,
-                right: 0,
-                child: SafeArea(
-                  bottom: false,
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(10, 8, 10, 0),
-                    child: Row(
-                      textDirection: TextDirection.rtl,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        _floatingRoundIcon(
-                          Icons.arrow_back_rounded,
-                          'رجوع',
-                          () => Navigator.of(context).maybePop(),
-                        ),
-                        Expanded(
-                          child: Center(child: _referenceChip()),
-                        ),
-                        _isMobile
-                            ? _floatingRoundIcon(
-                                Icons.screen_rotation_rounded,
-                                _landscape ? 'دوران عمودي' : 'دوران أفقي',
-                                _toggleOrientation,
-                              )
-                            : const SizedBox(width: 36),
-                      ],
+              // Floating mini header (hidden in fullscreen).
+              if (!_fullscreen)
+                Positioned(
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  child: SafeArea(
+                    bottom: false,
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(10, 8, 10, 0),
+                      child: Row(
+                        textDirection: TextDirection.rtl,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          _floatingRoundIcon(
+                            Icons.arrow_back_rounded,
+                            'رجوع',
+                            () => Navigator.of(context).maybePop(),
+                          ),
+                          Expanded(child: Center(child: _referenceChip())),
+                          _isMobile
+                              ? _floatingRoundIcon(
+                                  Icons.screen_rotation_rounded,
+                                  _landscape ? 'دوران عمودي' : 'دوران أفقي',
+                                  _toggleOrientation,
+                                )
+                              : const SizedBox(width: 36),
+                        ],
+                      ),
                     ),
                   ),
                 ),
-              ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -273,8 +283,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
     }
   }
 
-  Widget _floatingRoundIcon(
-      IconData icon, String tooltip, VoidCallback onTap) {
+  Widget _floatingRoundIcon(IconData icon, String tooltip, VoidCallback onTap) {
     final scheme = Theme.of(context).colorScheme;
     return Material(
       color: scheme.surface,
@@ -336,8 +345,10 @@ class _VerificationScreenState extends State<VerificationScreen> {
     void applyDelta(double delta) {
       if (total <= 0) return;
       setState(() {
-        _imageFraction = (_imageFraction + delta / total)
-            .clamp(_minImageFraction, _maxImageFraction);
+        _imageFraction = (_imageFraction + delta / total).clamp(
+          _minImageFraction,
+          _maxImageFraction,
+        );
       });
     }
 
@@ -360,13 +371,11 @@ class _VerificationScreenState extends State<VerificationScreen> {
           : SystemMouseCursors.resizeRow,
       child: GestureDetector(
         behavior: HitTestBehavior.opaque,
-        onVerticalDragUpdate:
-            wide ? null : (d) => applyDelta(d.delta.dy),
+        onVerticalDragUpdate: wide ? null : (d) => applyDelta(d.delta.dy),
         // In wide mode the layout is RTL: the image pane sits on the RIGHT, so
         // growing its fraction must correspond to dragging the handle LEFT.
         // Physical dx is negative when dragging left, hence invert it.
-        onHorizontalDragUpdate:
-            wide ? (d) => applyDelta(-d.delta.dx) : null,
+        onHorizontalDragUpdate: wide ? (d) => applyDelta(-d.delta.dx) : null,
         // Double-tap the handle to reset to the default split.
         onDoubleTap: () => setState(() => _imageFraction = 0.6),
         child: SizedBox(
@@ -432,8 +441,12 @@ class _VerificationScreenState extends State<VerificationScreen> {
             iconSize: 20,
             visualDensity: VisualDensity.compact,
             tooltip: 'تصغير الخط',
-            icon: Icon(Icons.remove_circle_outline,
-                color: canDecrease ? Theme.of(context).colorScheme.primary : Colors.grey),
+            icon: Icon(
+              Icons.remove_circle_outline,
+              color: canDecrease
+                  ? Theme.of(context).colorScheme.primary
+                  : Colors.grey,
+            ),
             onPressed: canDecrease ? () => _changeFontSize(-2) : null,
           ),
           const SizedBox(width: 4),
@@ -450,8 +463,12 @@ class _VerificationScreenState extends State<VerificationScreen> {
             iconSize: 20,
             visualDensity: VisualDensity.compact,
             tooltip: 'تكبير الخط',
-            icon: Icon(Icons.add_circle_outline,
-                color: canIncrease ? Theme.of(context).colorScheme.primary : Colors.grey),
+            icon: Icon(
+              Icons.add_circle_outline,
+              color: canIncrease
+                  ? Theme.of(context).colorScheme.primary
+                  : Colors.grey,
+            ),
             onPressed: canIncrease ? () => _changeFontSize(2) : null,
           ),
         ],
@@ -468,8 +485,9 @@ class _VerificationScreenState extends State<VerificationScreen> {
       return Center(
         child: Text(
           'لا توجد بيانات JSON لهذه الصفحة',
-          style:
-              TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.onSurfaceVariant,
+          ),
         ),
       );
     }
@@ -480,8 +498,9 @@ class _VerificationScreenState extends State<VerificationScreen> {
         child: Text(
           'لا توجد كلمات غريبة في هذه الصفحة',
           style: TextStyle(
-              color: Theme.of(context).colorScheme.onSurfaceVariant,
-              fontSize: 15),
+            color: Theme.of(context).colorScheme.onSurfaceVariant,
+            fontSize: 15,
+          ),
         ),
       );
     }
@@ -489,9 +508,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
     return ListView(
       controller: _listScroll,
       padding: const EdgeInsets.fromLTRB(10, 8, 10, 12),
-      children: [
-        for (final section in sections) ..._sectionWidgets(section),
-      ],
+      children: [for (final section in sections) ..._sectionWidgets(section)],
     );
   }
 
@@ -500,44 +517,17 @@ class _VerificationScreenState extends State<VerificationScreen> {
 
     if (section.type == 'surah_section' && section.surah != null) {
       final surah = section.surah!;
-      widgets.add(Container(
-        width: double.infinity,
-        margin: const EdgeInsets.only(bottom: 8),
-        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-        decoration: BoxDecoration(
-          color: const Color(0xFF0F766E),
-          borderRadius: BorderRadius.circular(10),
-        ),
-        child: Text(
-          '${surah.name} — كلمة ${toArabicDigits(section.glossary.length)}',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: _listFontSize * 0.77,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'Amiri',
-          ),
-          textDirection: TextDirection.rtl,
-        ),
-      ));
-      for (final entry in section.glossary) {
-        widgets.add(_entryTile(
-          number: entry.ayahNumber,
-          word: entry.word,
-          meaning: entry.meaning,
-        ));
-      }
-    } else if (section.type == 'preliminary_entries') {
-      if (section.entries.isNotEmpty) {
-        widgets.add(Container(
+      widgets.add(
+        Container(
           width: double.infinity,
           margin: const EdgeInsets.only(bottom: 8),
           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
           decoration: BoxDecoration(
-            color: const Color(0xFFE6A15C),
+            color: const Color(0xFF0F766E),
             borderRadius: BorderRadius.circular(10),
           ),
           child: Text(
-            'مقدمة الكتاب',
+            '${surah.name} — كلمة ${displayNumber(section.glossary.length)}',
             style: TextStyle(
               color: Colors.white,
               fontSize: _listFontSize * 0.77,
@@ -546,13 +536,44 @@ class _VerificationScreenState extends State<VerificationScreen> {
             ),
             textDirection: TextDirection.rtl,
           ),
-        ));
-        for (final entry in section.entries) {
-          widgets.add(_entryTile(
-            number: null,
-            word: entry.term,
+        ),
+      );
+      for (final entry in section.glossary) {
+        widgets.add(
+          _entryTile(
+            number: entry.ayahNumber,
+            word: entry.word,
             meaning: entry.meaning,
-          ));
+          ),
+        );
+      }
+    } else if (section.type == 'preliminary_entries') {
+      if (section.entries.isNotEmpty) {
+        widgets.add(
+          Container(
+            width: double.infinity,
+            margin: const EdgeInsets.only(bottom: 8),
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+            decoration: BoxDecoration(
+              color: const Color(0xFFE6A15C),
+              borderRadius: BorderRadius.circular(10),
+            ),
+            child: Text(
+              'مقدمة الكتاب',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: _listFontSize * 0.77,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Amiri',
+              ),
+              textDirection: TextDirection.rtl,
+            ),
+          ),
+        );
+        for (final entry in section.entries) {
+          widgets.add(
+            _entryTile(number: null, word: entry.term, meaning: entry.meaning),
+          );
         }
       }
     }
@@ -560,7 +581,11 @@ class _VerificationScreenState extends State<VerificationScreen> {
     return widgets;
   }
 
-  Widget _entryTile({int? number, required String word, required String meaning}) {
+  Widget _entryTile({
+    int? number,
+    required String word,
+    required String meaning,
+  }) {
     final scheme = Theme.of(context).colorScheme;
     return Container(
       width: double.infinity,
@@ -579,13 +604,16 @@ class _VerificationScreenState extends State<VerificationScreen> {
             children: [
               if (number != null) ...[
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 6,
+                    vertical: 2,
+                  ),
                   decoration: BoxDecoration(
                     color: scheme.primary.withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(6),
                   ),
                   child: Text(
-                    'آية ${toArabicDigits(number)}',
+                    'آية ${displayNumber(number)}',
                     style: TextStyle(
                       fontSize: _listFontSize * 0.68,
                       color: scheme.primary,
@@ -613,9 +641,10 @@ class _VerificationScreenState extends State<VerificationScreen> {
           Text(
             'المعنى: ${meaning.isEmpty ? '—' : meaning}',
             style: TextStyle(
-                fontSize: _listFontSize * 0.82,
-                color: scheme.onSurfaceVariant,
-                height: 1.5),
+              fontSize: _listFontSize * 0.82,
+              color: scheme.onSurfaceVariant,
+              height: 1.5,
+            ),
             textDirection: TextDirection.rtl,
           ),
         ],
@@ -634,16 +663,20 @@ class _VerificationScreenState extends State<VerificationScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               IconButton(
-                icon: Icon(Icons.chevron_left,
-                    color: _currentPage < _maxPage ? const Color(0xFFFCD34D) : Colors.grey,
-                    size: 34),
+                icon: Icon(
+                  Icons.chevron_left,
+                  color: _currentPage < _maxPage
+                      ? const Color(0xFFFCD34D)
+                      : Colors.grey,
+                  size: 34,
+                ),
                 tooltip: 'الصفحة التالية',
                 onPressed: _currentPage < _maxPage
                     ? () => _goTo(_currentPage + 1)
                     : null,
               ),
               Text(
-                '${toArabicDigits(_currentPage)} / ${toArabicDigits(_maxPage)}',
+                '${displayNumber(_currentPage)} / ${displayNumber(_maxPage)}',
                 style: const TextStyle(
                   color: Colors.white,
                   fontSize: 16,
@@ -652,14 +685,20 @@ class _VerificationScreenState extends State<VerificationScreen> {
                 ),
               ),
               IconButton(
-                icon: Icon(Icons.chevron_right,
-                    color: _currentPage > _minPage ? const Color(0xFFFCD34D) : Colors.grey,
-                    size: 34),
+                icon: Icon(
+                  Icons.chevron_right,
+                  color: _currentPage > _minPage
+                      ? const Color(0xFFFCD34D)
+                      : Colors.grey,
+                  size: 34,
+                ),
                 tooltip: 'الصفحة السابقة',
                 onPressed: _currentPage > _minPage
                     ? () => _goTo(_currentPage - 1)
                     : null,
               ),
+              const SizedBox(width: 12),
+              const NumeralToggleButton(),
             ],
           ),
         ),

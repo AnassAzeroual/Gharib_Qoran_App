@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 import '../services/data_service.dart';
+import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/numeral_toggle_button.dart';
 import 'page_viewer_screen.dart';
 
 /// Shows the unfamiliar words (glossary entries) that belong to a single
@@ -23,41 +25,56 @@ class ThumunWordsScreen extends StatelessWidget {
     final scheme = Theme.of(context).colorScheme;
     final words = DataService.instance.glossaryByThumun(thumunGlobal);
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'الحزب ${toArabicDigits(hizb)} · الثمن ${toArabicDigits(thumunInHizb)}',
-          style: const TextStyle(fontFamily: 'Amiri'),
+    return ValueListenableBuilder<NumeralSystem>(
+      valueListenable: numeralNotifier,
+      builder: (context, numeral, _) => Scaffold(
+        appBar: AppBar(
+          title: Text(
+            'الحزب ${displayNumber(hizb)} · الثمن ${displayNumber(thumunInHizb)}',
+            style: const TextStyle(fontFamily: 'Amiri'),
+          ),
+          actions: const [NumeralToggleButton()],
         ),
-      ),
-      body: words.isEmpty
-          ? Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(Icons.menu_book_outlined,
-                      size: 64, color: scheme.onSurfaceVariant),
-                  const SizedBox(height: 12),
-                  Text('لا توجد كلمات غريبة في هذا الثمن',
+        body: words.isEmpty
+            ? Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(
+                      Icons.menu_book_outlined,
+                      size: 64,
+                      color: scheme.onSurfaceVariant,
+                    ),
+                    const SizedBox(height: 12),
+                    Text(
+                      'لا توجد كلمات غريبة في هذا الثمن',
                       style: TextStyle(
-                          fontSize: 16, color: scheme.onSurfaceVariant)),
-                ],
-              ),
-            )
-          : Center(
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 720),
-                child: ListView.builder(
-                  padding: EdgeInsets.fromLTRB(
-                      12, 12, 12, 24 + MediaQuery.of(context).padding.bottom),
-                  itemCount: words.length,
-                  itemBuilder: (context, index) {
-                    final w = words[index];
-                    return _WordCard(word: w);
-                  },
+                        fontSize: 16,
+                        color: scheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ],
+                ),
+              )
+            : Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 720),
+                  child: ListView.builder(
+                    padding: EdgeInsets.fromLTRB(
+                      12,
+                      12,
+                      12,
+                      24 + MediaQuery.of(context).padding.bottom,
+                    ),
+                    itemCount: words.length,
+                    itemBuilder: (context, index) {
+                      final w = words[index];
+                      return _WordCard(word: w);
+                    },
+                  ),
                 ),
               ),
-            ),
+      ),
     );
   }
 }
@@ -107,7 +124,9 @@ class _WordCard extends StatelessWidget {
                     // Page badge (jump target) — sits on the right (RTL start).
                     Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 10, vertical: 4),
+                        horizontal: 10,
+                        vertical: 4,
+                      ),
                       decoration: BoxDecoration(
                         color: accent.withValues(alpha: 0.1),
                         borderRadius: BorderRadius.circular(10),
@@ -116,11 +135,14 @@ class _WordCard extends StatelessWidget {
                         textDirection: TextDirection.rtl,
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          const Icon(Icons.menu_book_rounded,
-                              size: 14, color: accent),
+                          const Icon(
+                            Icons.menu_book_rounded,
+                            size: 14,
+                            color: accent,
+                          ),
                           const SizedBox(width: 4),
                           Text(
-                            'صفحة ${toArabicDigits(word.page)}',
+                            'صفحة ${displayNumber(word.page)}',
                             style: const TextStyle(
                               color: accent,
                               fontSize: 12,
@@ -135,7 +157,7 @@ class _WordCard extends StatelessWidget {
                       Flexible(
                         child: Text(
                           word.ayahNumber != null
-                              ? '${word.surahName} · آية ${toArabicDigits(word.ayahNumber!)}'
+                              ? '${word.surahName} · آية ${displayNumber(word.ayahNumber!)}'
                               : word.surahName,
                           textAlign: TextAlign.right,
                           overflow: TextOverflow.ellipsis,

@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 
 import '../models/page_data.dart';
 import '../services/data_service.dart';
+import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/numeral_toggle_button.dart';
 
 class PageViewerScreen extends StatefulWidget {
   final int initialPage;
@@ -40,8 +42,7 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
   bool _pinching = false;
 
   /// PageView should not swipe while pinching or while the page is zoomed.
-  bool get _scrollLocked =>
-      _pinching || _zoomedPages.contains(_currentIndex);
+  bool get _scrollLocked => _pinching || _zoomedPages.contains(_currentIndex);
 
   void _onPointerDown(PointerDownEvent event) {
     _activePointers++;
@@ -70,7 +71,10 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
       _minPage = 1;
       _maxPage = _data.totalImages > 0 ? _data.totalImages : 350;
     }
-    _currentIndex = (widget.initialPage - _minPage).clamp(0, _maxPage - _minPage);
+    _currentIndex = (widget.initialPage - _minPage).clamp(
+      0,
+      _maxPage - _minPage,
+    );
     _pageController = PageController(initialPage: _currentIndex);
     _loadMeta();
   }
@@ -152,45 +156,54 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0xFF16191F),
-      appBar: AppBar(
-        title: Text('الصفحة ${toArabicDigits(_currentPage)} من ${toArabicDigits(_maxPage)}'),
-        titleTextStyle: const TextStyle(
-          fontFamily: 'Amiri',
-          fontSize: 18,
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
-        ),
+    return ValueListenableBuilder<NumeralSystem>(
+      valueListenable: numeralNotifier,
+      builder: (context, numeral, _) => Scaffold(
         backgroundColor: const Color(0xFF16191F),
-        elevation: 0,
-      ),
-      body: Column(
-        children: [
-          if (_subtitle().isNotEmpty)
-            Padding(
-              padding: const EdgeInsets.only(top: 8),
-              child: Text(
-                _subtitle(),
-                style: const TextStyle(fontSize: 15, color: Color(0xFFFCD34D)),
-                textDirection: TextDirection.rtl,
+        appBar: AppBar(
+          title: Text(
+            'الصفحة ${displayNumber(_currentPage)} من ${displayNumber(_maxPage)}',
+          ),
+          titleTextStyle: const TextStyle(
+            fontFamily: 'Amiri',
+            fontSize: 18,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+          backgroundColor: const Color(0xFF16191F),
+          elevation: 0,
+          actions: const [NumeralToggleButton()],
+        ),
+        body: Column(
+          children: [
+            if (_subtitle().isNotEmpty)
+              Padding(
+                padding: const EdgeInsets.only(top: 8),
+                child: Text(
+                  _subtitle(),
+                  style: const TextStyle(
+                    fontSize: 15,
+                    color: Color(0xFFFCD34D),
+                  ),
+                  textDirection: TextDirection.rtl,
+                ),
+              ),
+            Expanded(
+              child: PageView.builder(
+                controller: _pageController,
+                onPageChanged: _onPageChanged,
+                physics: _scrollLocked
+                    ? const NeverScrollableScrollPhysics()
+                    : null,
+                itemCount: _maxPage - _minPage + 1,
+                itemBuilder: (context, index) {
+                  return _buildPage(index);
+                },
               ),
             ),
-          Expanded(
-            child: PageView.builder(
-              controller: _pageController,
-              onPageChanged: _onPageChanged,
-              physics: _scrollLocked
-                  ? const NeverScrollableScrollPhysics()
-                  : null,
-              itemCount: _maxPage - _minPage + 1,
-              itemBuilder: (context, index) {
-                return _buildPage(index);
-              },
-            ),
-          ),
-          _bottomBar(context),
-        ],
+            _bottomBar(context),
+          ],
+        ),
       ),
     );
   }
@@ -251,18 +264,20 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               IconButton(
-                icon: Icon(Icons.chevron_left,
-                    color: _currentIndex < _maxPage - _minPage
-                        ? const Color(0xFFFCD34D)
-                        : Colors.grey,
-                    size: 34),
+                icon: Icon(
+                  Icons.chevron_left,
+                  color: _currentIndex < _maxPage - _minPage
+                      ? const Color(0xFFFCD34D)
+                      : Colors.grey,
+                  size: 34,
+                ),
                 tooltip: 'الصفحة التالية',
                 onPressed: _currentIndex < _maxPage - _minPage
                     ? () => _goTo(_currentIndex + 1)
                     : null,
               ),
               Text(
-                '${toArabicDigits(_currentPage)} / ${toArabicDigits(_maxPage)}',
+                '${displayNumber(_currentPage)} / ${displayNumber(_maxPage)}',
                 style: const TextStyle(
                   color: Colors.white,
                   fontSize: 16,
@@ -271,11 +286,17 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
                 ),
               ),
               IconButton(
-                icon: Icon(Icons.chevron_right,
-                    color: _currentIndex > 0 ? const Color(0xFFFCD34D) : Colors.grey,
-                    size: 34),
+                icon: Icon(
+                  Icons.chevron_right,
+                  color: _currentIndex > 0
+                      ? const Color(0xFFFCD34D)
+                      : Colors.grey,
+                  size: 34,
+                ),
                 tooltip: 'الصفحة السابقة',
-                onPressed: _currentIndex > 0 ? () => _goTo(_currentIndex - 1) : null,
+                onPressed: _currentIndex > 0
+                    ? () => _goTo(_currentIndex - 1)
+                    : null,
               ),
             ],
           ),
