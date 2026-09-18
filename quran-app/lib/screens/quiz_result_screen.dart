@@ -5,6 +5,7 @@ import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/numeral_toggle_button.dart';
 import 'quiz_screen.dart';
+import 'quiz_words_list_screen.dart';
 
 class QuizResultScreen extends StatelessWidget {
   final QuizSession session;
@@ -133,6 +134,7 @@ class QuizResultScreen extends StatelessWidget {
                             color: const Color(0xFF16A34A),
                             label: 'إجابات صحيحة',
                             count: session.correctCount,
+                            onTap: () => _openList(context, correct: true),
                           ),
                         ),
                         const SizedBox(width: 10),
@@ -143,6 +145,7 @@ class QuizResultScreen extends StatelessWidget {
                             color: const Color(0xFFDC2626),
                             label: 'إجابات خاطئة',
                             count: session.wrongCount,
+                            onTap: () => _openList(context, correct: false),
                           ),
                         ),
                       ],
@@ -193,42 +196,82 @@ class QuizResultScreen extends StatelessWidget {
     );
   }
 
+  void _openList(BuildContext context, {required bool correct}) {
+    final words = correct ? session.correctWords : session.wrongWords;
+    if (words.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            correct ? 'لا توجد إجابات صحيحة' : 'لا توجد إجابات خاطئة',
+          ),
+        ),
+      );
+      return;
+    }
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => QuizWordsListScreen(words: words, correct: correct),
+      ),
+    );
+  }
+
   Widget _statCard({
     required ColorScheme scheme,
     required IconData icon,
     required Color color,
     required String label,
     required int count,
+    required VoidCallback onTap,
   }) {
-    return Container(
-      padding: const EdgeInsets.symmetric(vertical: 16),
-      decoration: BoxDecoration(
-        color: scheme.surface,
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: onTap,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: scheme.outlineVariant),
-      ),
-      child: Column(
-        children: [
-          Icon(icon, color: color, size: 28),
-          const SizedBox(height: 8),
-          FittedBox(
-            fit: BoxFit.scaleDown,
-            child: Text(
-              displayNumber(count),
-              style: TextStyle(
-                fontFamily: 'Amiri',
-                fontSize: 26,
-                fontWeight: FontWeight.bold,
-                color: scheme.onSurface,
+        splashColor: color.withValues(alpha: 0.08),
+        highlightColor: color.withValues(alpha: 0.05),
+        child: Container(
+          padding: const EdgeInsets.fromLTRB(12, 16, 12, 14),
+          decoration: BoxDecoration(
+            color: scheme.surface,
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: scheme.outlineVariant),
+          ),
+          child: Column(
+            children: [
+              Icon(icon, color: color, size: 28),
+              const SizedBox(height: 8),
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  displayNumber(count),
+                  style: TextStyle(
+                    fontFamily: 'Amiri',
+                    fontSize: 26,
+                    fontWeight: FontWeight.bold,
+                    color: scheme.onSurface,
+                  ),
+                ),
               ),
-            ),
+              const SizedBox(height: 2),
+              Text(
+                label,
+                style: TextStyle(color: scheme.onSurfaceVariant, fontSize: 13),
+              ),
+              const SizedBox(height: 6),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.chevron_left, color: color, size: 16),
+                  Text(
+                    'عرض القائمة',
+                    style: TextStyle(color: color, fontSize: 12),
+                  ),
+                ],
+              ),
+            ],
           ),
-          const SizedBox(height: 2),
-          Text(
-            label,
-            style: TextStyle(color: scheme.onSurfaceVariant, fontSize: 13),
-          ),
-        ],
+        ),
       ),
     );
   }
