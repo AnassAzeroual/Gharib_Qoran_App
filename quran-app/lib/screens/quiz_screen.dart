@@ -7,6 +7,7 @@ import '../models/quiz_word.dart';
 import '../services/data_service.dart';
 import '../services/quiz_service.dart';
 import '../services/sound_service.dart';
+import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import 'quiz_result_screen.dart';
 
@@ -96,6 +97,16 @@ class _QuizScreenState extends State<QuizScreen> {
     setState(() {
       _question = _quiz.buildQuestion(target);
     });
+  }
+
+  void _increaseFont() {
+    quizFontScaleNotifier.value = (quizFontScaleNotifier.value + kQuizScaleStep)
+        .clamp(kQuizScaleMin, kQuizScaleMax);
+  }
+
+  void _decreaseFont() {
+    quizFontScaleNotifier.value = (quizFontScaleNotifier.value - kQuizScaleStep)
+        .clamp(kQuizScaleMin, kQuizScaleMax);
   }
 
   void _onOptionTap(int i) {
@@ -200,7 +211,12 @@ class _QuizScreenState extends State<QuizScreen> {
                     constraints: const BoxConstraints(maxWidth: 720),
                     child: Column(
                       children: [
-                        Expanded(child: _contentList()),
+                        Expanded(
+                          child: ValueListenableBuilder<double>(
+                            valueListenable: quizFontScaleNotifier,
+                            builder: (context, scale, _) => _contentList(scale),
+                          ),
+                        ),
                         _bottomBar(),
                       ],
                     ),
@@ -263,7 +279,7 @@ class _QuizScreenState extends State<QuizScreen> {
     });
   }
 
-  Widget _contentList() {
+  Widget _contentList(double scale) {
     final scheme = Theme.of(context).colorScheme;
     final q = _question;
     if (q == null) return const SizedBox.shrink();
@@ -296,7 +312,10 @@ class _QuizScreenState extends State<QuizScreen> {
             ),
           ],
         ),
-        const SizedBox(height: 14),
+        const SizedBox(height: 10),
+        // Font-size control: ⊕  حجم الخط  ⊖  (scales all text on this page).
+        _fontSizeControl(scheme),
+        const SizedBox(height: 8),
         Container(
           width: double.infinity,
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 18),
@@ -313,12 +332,14 @@ class _QuizScreenState extends State<QuizScreen> {
                 runSpacing: 4,
                 children: [
                   if (q.word.surahName.isNotEmpty)
-                    _contextChip(Icons.menu_book, q.word.surahName, scheme),
+                    _contextChip(
+                        Icons.menu_book, q.word.surahName, scheme, scale),
                   if (q.word.ayahNumber != null)
                     _contextChip(
                         Icons.format_list_numbered,
                         'آية ${toArabicDigits(q.word.ayahNumber!)}',
-                        scheme),
+                        scheme,
+                        scale),
                 ],
               ),
               const SizedBox(height: 10),
@@ -330,7 +351,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontFamily: 'Amiri',
-                    fontSize: 34,
+                    fontSize: 34 * scale,
                     fontWeight: FontWeight.bold,
                     color: scheme.onSurface,
                   ),
@@ -352,7 +373,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontFamily: 'Amiri',
-                      fontSize: 19,
+                      fontSize: 19 * scale,
                       height: 1.7,
                       color: scheme.onSurface,
                     ),
@@ -366,13 +387,14 @@ class _QuizScreenState extends State<QuizScreen> {
         for (var i = 0; i < q.options.length; i++)
           Padding(
             padding: const EdgeInsets.only(bottom: 10),
-            child: _optionCard(context, i, q),
+            child: _optionCard(context, i, q, scale),
           ),
       ],
     );
   }
 
-  Widget _contextChip(IconData icon, String label, ColorScheme scheme) {
+  Widget _contextChip(
+      IconData icon, String label, ColorScheme scheme, double scale) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
@@ -382,13 +404,13 @@ class _QuizScreenState extends State<QuizScreen> {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, size: 14, color: scheme.primary),
+          Icon(icon, size: 14 * scale, color: scheme.primary),
           const SizedBox(width: 4),
           Text(
             label,
             style: TextStyle(
               color: scheme.primary,
-              fontSize: 12,
+              fontSize: 12 * scale,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -397,7 +419,64 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
-  Widget _optionCard(BuildContext context, int i, QuizQuestion q) {
+  // ⊕  حجم الخط  ⊖  control that scales all text on the quiz page.
+  Widget _fontSizeControl(ColorScheme scheme) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        _roundIconButton(
+          icon: Icons.add,
+          tooltip: 'تكبير حجم الخط',
+          onTap: _increaseFont,
+          scheme: scheme,
+        ),
+        const SizedBox(width: 12),
+        Text(
+          'حجم الخط',
+          style: TextStyle(
+            fontFamily: 'Amiri',
+            fontSize: 15,
+            color: scheme.onSurfaceVariant,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+        const SizedBox(width: 12),
+        _roundIconButton(
+          icon: Icons.remove,
+          tooltip: 'تصغير حجم الخط',
+          onTap: _decreaseFont,
+          scheme: scheme,
+        ),
+      ],
+    );
+  }
+
+  Widget _roundIconButton({
+    required IconData icon,
+    required String tooltip,
+    required VoidCallback onTap,
+    required ColorScheme scheme,
+  }) {
+    return Tooltip(
+      message: tooltip,
+      child: Material(
+        color: Colors.transparent,
+        shape: CircleBorder(
+          side: BorderSide(color: scheme.primary.withValues(alpha: 0.6)),
+        ),
+        child: InkWell(
+          onTap: onTap,
+          customBorder: const CircleBorder(),
+          child: Padding(
+            padding: const EdgeInsets.all(6),
+            child: Icon(icon, size: 20, color: scheme.primary),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _optionCard(BuildContext context, int i, QuizQuestion q, double scale) {
     final scheme = Theme.of(context).colorScheme;
     final option = q.options[i];
 
@@ -464,7 +543,7 @@ class _QuizScreenState extends State<QuizScreen> {
                         color: isCorrectPick || isWrongPick
                             ? Colors.white
                             : scheme.primary,
-                        fontSize: 15,
+                        fontSize: 15 * scale,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -477,7 +556,8 @@ class _QuizScreenState extends State<QuizScreen> {
                     textDirection: TextDirection.rtl,
                     style: TextStyle(
                       fontFamily: 'Amiri',
-                      fontSize: 18,
+                      fontSize: 18 * scale,
+                      height: 1.4,
                       color: fg,
                     ),
                   ),
