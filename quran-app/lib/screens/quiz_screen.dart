@@ -25,8 +25,7 @@ class QuizScreen extends StatefulWidget {
   State<QuizScreen> createState() => _QuizScreenState();
 }
 
-class _QuizScreenState extends State<QuizScreen>
-    with SingleTickerProviderStateMixin {
+class _QuizScreenState extends State<QuizScreen> {
   static const List<String> _letters = ['أ', 'ب', 'ج'];
 
   // Palette from the minimalist target design.
@@ -52,10 +51,9 @@ class _QuizScreenState extends State<QuizScreen>
   int? _correctPick;
   int? _answered;
 
-  // Sliding answer sheet: closed by default, opens when the gold button is
-  // tapped. Driven by an animation controller (0 = closed, 1 = fully open).
-  late final AnimationController _sheetController;
-  bool _sheetOpen = false;
+  // Whether the ayah (verse context) panel is revealed. Hidden by default so
+  // the rare word/meaning comes first; the gold toggle expands it.
+  bool _ayahExpanded = false;
 
   bool get _isThumunMode => widget.thumun != null;
   bool get _isHizbMode => widget.hizb != null && widget.thumun == null;
@@ -65,26 +63,11 @@ class _QuizScreenState extends State<QuizScreen>
   @override
   void initState() {
     super.initState();
-    _sheetController = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 320),
-    );
     _start();
   }
 
-  @override
-  void dispose() {
-    _sheetController.dispose();
-    super.dispose();
-  }
-
-  void _toggleSheet() {
-    setState(() => _sheetOpen = !_sheetOpen);
-    if (_sheetOpen) {
-      _sheetController.forward();
-    } else {
-      _sheetController.reverse();
-    }
+  void _toggleAyah() {
+    setState(() => _ayahExpanded = !_ayahExpanded);
   }
 
   Future<void> _start() async {
@@ -127,9 +110,8 @@ class _QuizScreenState extends State<QuizScreen>
       _wrongPicks = {};
       _correctPick = null;
       _answered = null;
-      _sheetOpen = false; // collapse the answers so the new word shows first
+      _ayahExpanded = false; // hide the verse again so the new word shows first
     });
-    _sheetController.reverse();
     final QuizWord target = _isAllMode ? _quiz.nextAllWord() : _queue[_index++];
     setState(() {
       _question = _quiz.buildQuestion(target);
@@ -256,9 +238,9 @@ class _QuizScreenState extends State<QuizScreen>
     );
   }
 
-  // Minimalist layout: clean canvas with the prompt top-right and the verse
-  // centered; the answer choices live in a sheet that slides up from the
-  // bottom when the gold button (nested in a convex dip) is tapped.
+  // Minimalist layout: clean canvas with the prompt top-right and a collapsible
+  // verse in the middle; the gold toggle reveals/hides the ayah. The answer
+  // choices are always on screen at the bottom.
   Widget _quizBody(double scale) {
     final scheme = Theme.of(context).colorScheme;
     final q = _question;
@@ -268,95 +250,114 @@ class _QuizScreenState extends State<QuizScreen>
         ? _quiz.allModeProgress
         : (_queue.isEmpty ? 0.0 : (_index / _queue.length).clamp(0.0, 1.0));
 
-    return Stack(
+    return Column(
       children: [
-        // ---- Main canvas: progress, font control, prompt, centered verse.
-        Positioned.fill(
-          child: Column(
+        Padding(
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
+          child: Row(
             children: [
-              Padding(
-                padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
-                child: Row(
-                  children: [
-                    // Compact live score: ✓ correct  ✗ wrong.
-                    _miniScore(Icons.check_circle, _session.correctCount,
-                        const Color(0xFF16A34A)),
-                    const SizedBox(width: 8),
-                    _miniScore(Icons.cancel, _session.wrongCount,
-                        const Color(0xFFDC2626)),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(6),
-                        child: LinearProgressIndicator(
-                          value: progress,
-                          minHeight: 6,
-                          backgroundColor: scheme.outlineVariant,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 10),
-                    Text(
-                      _isAllMode
-                          ? 'جميع السور'
-                          : '${toArabicDigits(_index)} / ${toArabicDigits(_queue.length)}',
-                      style: const TextStyle(color: _refGrey, fontSize: 13),
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 4),
-              _fontSizeControl(scheme),
-              const SizedBox(height: 6),
-              // Prompt, aligned to the top-right.
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24),
-                child: Align(
-                  alignment: Alignment.centerRight,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      Text(
-                        'ما معنى كلمة',
-                        style: TextStyle(
-                          fontFamily: 'Amiri',
-                          fontSize: 15 * scale,
-                          color: _promptOrange,
-                        ),
-                      ),
-                      const SizedBox(height: 2),
-                      FittedBox(
-                        fit: BoxFit.scaleDown,
-                        alignment: Alignment.centerRight,
-                        child: Text(
-                          '${q.word.word}؟',
-                          textDirection: TextDirection.rtl,
-                          style: TextStyle(
-                            fontFamily: 'Amiri',
-                            fontSize: 32 * scale,
-                            fontWeight: FontWeight.bold,
-                            color: _wordDark,
-                          ),
-                        ),
-                      ),
-                    ],
+              // Compact live score: ✓ correct  ✗ wrong.
+              _miniScore(Icons.check_circle, _session.correctCount,
+                  const Color(0xFF16A34A)),
+              const SizedBox(width: 8),
+              _miniScore(Icons.cancel, _session.wrongCount,
+                  const Color(0xFFDC2626)),
+              const SizedBox(width: 12),
+              Expanded(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(6),
+                  child: LinearProgressIndicator(
+                    value: progress,
+                    minHeight: 6,
+                    backgroundColor: scheme.outlineVariant,
                   ),
                 ),
               ),
-              // Centered verse block, filling the remaining space. Extra bottom
-              // padding leaves room for the sliding sheet's collapsed handle.
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(24, 8, 24, 80),
-                  child: Center(child: _verseBlock(q, scheme, scale)),
-                ),
+              const SizedBox(width: 10),
+              Text(
+                _isAllMode
+                    ? 'جميع السور'
+                    : '${toArabicDigits(_index)} / ${toArabicDigits(_queue.length)}',
+                style: const TextStyle(color: _refGrey, fontSize: 13),
               ),
             ],
           ),
         ),
-
-        // ---- Sliding answer sheet + gold toggle button in a convex dip.
-        _answerSheet(q, scheme, scale),
+        const SizedBox(height: 4),
+        _fontSizeControl(scheme),
+        const SizedBox(height: 6),
+        // Prompt, aligned to the top-right.
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 24),
+          child: Align(
+            alignment: Alignment.centerRight,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Text(
+                  'ما معنى كلمة',
+                  style: TextStyle(
+                    fontFamily: 'Amiri',
+                    fontSize: 15 * scale,
+                    color: _promptOrange,
+                  ),
+                ),
+                const SizedBox(height: 2),
+                FittedBox(
+                  fit: BoxFit.scaleDown,
+                  alignment: Alignment.centerRight,
+                  child: Text(
+                    '${q.word.word}؟',
+                    textDirection: TextDirection.rtl,
+                    style: TextStyle(
+                      fontFamily: 'Amiri',
+                      fontSize: 32 * scale,
+                      fontWeight: FontWeight.bold,
+                      color: _wordDark,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+        // Collapsible verse: hidden by default, the gold toggle reveals it
+        // without moving the answer choices.
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(24, 8, 24, 8),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                AnimatedSize(
+                  duration: const Duration(milliseconds: 320),
+                  curve: Curves.easeInOut,
+                  alignment: Alignment.topCenter,
+                  child: _ayahExpanded
+                      ? _verseBlock(q, scheme, scale)
+                      : const SizedBox(width: double.infinity),
+                ),
+                const SizedBox(height: 16),
+                _ayahToggle(),
+              ],
+            ),
+          ),
+        ),
+        // Answer choices, always on screen.
+        Flexible(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.fromLTRB(20, 4, 20, 16),
+            child: Column(
+              children: [
+                for (var i = 0; i < q.options.length; i++)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 10),
+                    child: _optionCard(context, i, q, scale),
+                  ),
+              ],
+            ),
+          ),
+        ),
       ],
     );
   }
@@ -561,68 +562,11 @@ class _QuizScreenState extends State<QuizScreen>
     return '';
   }
 
-  // Bottom answer sheet: a white panel with a convex dip along its top edge.
-  // A gold gradient toggle button nests in the dip. Tapping it slides the
-  // panel (holding the أ/ب/ج choices) up and down.
-  Widget _answerSheet(QuizQuestion q, ColorScheme scheme, double scale) {
-    // Collapsed: only the dip + button peek above the bottom. Expanded: the
-    // full options panel is visible.
-    const double handleHeight = 54; // dip + button zone always visible
-    final double sheetHeight =
-        (140 + q.options.length * (64 * scale)).clamp(220.0, 460.0);
-
-    return AnimatedBuilder(
-      animation: _sheetController,
-      builder: (context, _) {
-        final t = Curves.easeInOut.transform(_sheetController.value);
-        // Bottom offset: when closed, only the handle zone shows.
-        final double bottom = -(sheetHeight - handleHeight) * (1 - t);
-        return Positioned(
-          left: 0,
-          right: 0,
-          bottom: bottom,
-          height: sheetHeight,
-          child: Stack(
-            clipBehavior: Clip.none,
-            children: [
-              // The white sheet with the convex dip carved in its top edge.
-              Positioned.fill(
-                child: ClipPath(
-                  clipper: _ConvexDipClipper(),
-                  child: Container(
-                    color: scheme.surface,
-                    padding: const EdgeInsets.fromLTRB(20, 44, 20, 12),
-                    child: Column(
-                      children: [
-                        for (var i = 0; i < q.options.length; i++)
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 10),
-                            child: _optionCard(context, i, q, scale),
-                          ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-              // Gold gradient toggle button nested in the dip.
-              Positioned(
-                top: -6,
-                left: 0,
-                right: 0,
-                child: Center(child: _goldToggle()),
-              ),
-            ],
-          ),
-        );
-      },
-    );
-  }
-
-  // Circular gold gradient button with a chevron that flips as the sheet
-  // opens/closes.
-  Widget _goldToggle() {
+  // Circular gold gradient button that reveals/hides the ayah verse. The
+  // chevron flips as the panel expands/collapses.
+  Widget _ayahToggle() {
     return GestureDetector(
-      onTap: _toggleSheet,
+      onTap: _toggleAyah,
       child: Container(
         width: 46,
         height: 46,
@@ -642,11 +586,11 @@ class _QuizScreenState extends State<QuizScreen>
           ],
         ),
         child: AnimatedRotation(
-          turns: _sheetOpen ? 0.5 : 0.0,
+          turns: _ayahExpanded ? 0.5 : 0.0,
           duration: const Duration(milliseconds: 320),
           curve: Curves.easeInOut,
           child: const Icon(
-            Icons.keyboard_arrow_up_rounded,
+            Icons.keyboard_arrow_down_rounded,
             color: Colors.white,
             size: 28,
           ),
@@ -778,51 +722,4 @@ class _QuizScreenState extends State<QuizScreen>
       ),
     );
   }
-}
-
-/// Clips the answer sheet so its TOP edge dips downward (convex) at the center,
-/// forming a smooth scoop where the gold toggle button nests (matches design).
-class _ConvexDipClipper extends CustomClipper<Path> {
-  static const double _corner = 24; // rounded top corners
-  static const double _dipWidth = 92; // horizontal span of the dip
-  static const double _dipDepth = 30; // how far the dip curves down
-
-  @override
-  Path getClip(Size size) {
-    final w = size.width;
-    final h = size.height;
-    final cx = w / 2;
-    final path = Path();
-
-    // Start at the top-left rounded corner.
-    path.moveTo(0, h);
-    path.lineTo(0, _corner);
-    path.arcToPoint(Offset(_corner, 0),
-        radius: const Radius.circular(_corner));
-
-    // Top edge toward the dip.
-    path.lineTo(cx - _dipWidth / 2, 0);
-    // Smooth downward scoop using two cubic curves meeting at the low point.
-    path.cubicTo(
-      cx - _dipWidth / 4, 0,
-      cx - _dipWidth / 4, _dipDepth,
-      cx, _dipDepth,
-    );
-    path.cubicTo(
-      cx + _dipWidth / 4, _dipDepth,
-      cx + _dipWidth / 4, 0,
-      cx + _dipWidth / 2, 0,
-    );
-
-    // Continue to the top-right rounded corner.
-    path.lineTo(w - _corner, 0);
-    path.arcToPoint(Offset(w, _corner),
-        radius: const Radius.circular(_corner));
-    path.lineTo(w, h);
-    path.close();
-    return path;
-  }
-
-  @override
-  bool shouldReclip(covariant CustomClipper<Path> oldClipper) => false;
 }
