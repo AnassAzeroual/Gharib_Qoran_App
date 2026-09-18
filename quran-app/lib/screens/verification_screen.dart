@@ -1,4 +1,6 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../models/page_data.dart';
 import '../services/data_service.dart';
@@ -33,6 +35,8 @@ class _VerificationScreenState extends State<VerificationScreen> {
   final TransformationController _imageController = TransformationController();
   final ScrollController _listScroll = ScrollController();
   bool _zoomed = false;
+  bool _landscape = false;
+  bool _fullscreen = false;
 
   /// Base font size for the glossary list (adjustable with + / -).
   double _listFontSize = 22;
@@ -75,6 +79,11 @@ class _VerificationScreenState extends State<VerificationScreen> {
     _imageController.removeListener(_onZoomChanged);
     _imageController.dispose();
     _listScroll.dispose();
+    // Release any orientation and system-UI mode we forced while open.
+    SystemChrome.setPreferredOrientations([]);
+    if (_isMobile) {
+      SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+    }
     super.dispose();
   }
 
@@ -129,72 +138,192 @@ class _VerificationScreenState extends State<VerificationScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.surface,
-      appBar: AppBar(
-        title: Text(
-          'تحقق — الصفحة ${toArabicDigits(_currentPage)} من ${toArabicDigits(_maxPage)}',
-        ),
-        titleTextStyle: const TextStyle(
-          fontFamily: 'Amiri',
-          fontSize: 18,
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
-        ),
-      ),
-      body: Column(
-        children: [
-          if (_subtitle().isNotEmpty)
-            Padding(
-              padding: const EdgeInsets.only(top: 8),
-              child: Text(
-                _subtitle(),
-                style: TextStyle(
-                  fontSize: 15,
-                  color: Theme.of(context).colorScheme.primary,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'Amiri',
-                ),
-                textDirection: TextDirection.rtl,
+      backgroundColor: scheme.surface,
+      // Immersive: no AppBar, the panes fill the whole screen. A floating mini
+      // header (back + reference, rotate on phones) and the bottom bar overlay
+      // the content. Tapping anywhere toggles a pure fullscreen mode where all
+      // of these (plus the Android system bars) are hidden.
+      body: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTap: _toggleFullscreen,
+        child: Stack(
+          children: [
+            Positioned.fill(
+              child: Column(
+                children: [
+                  Expanded(
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        final bool wide = constraints.maxWidth >= 600;
+                        // Keep the top of the list clear of the floating header
+                        // in wide/landscape mode, where they overlap.
+                        final double listTopInset =
+                            (!_fullscreen && wide) ? 64 : 0;
+                        // Available space for the two panes (minus the divider).
+                        final double total = (wide
+                                ? constraints.maxWidth
+                                : constraints.maxHeight) -
+                            _dividerThickness;
+                        final double imageExtent =
+                            (total * _imageFraction).clamp(0.0, total);
+                        final double listExtent = total - imageExtent;
+
+                        if (wide) {
+                          return Row(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              // Right side (RTL start): page image
+                              SizedBox(width: imageExtent, child: _imagePane()),
+                              _dividerHandle(wide: true, total: total),
+                              // Left side (RTL end): glossary list
+                              SizedBox(
+                                width: listExtent,
+                                child: _listPane(topInset: listTopInset),
+                              ),
+                            ],
+                          );
+                        }
+                        return Column(
+                          children: [
+                            SizedBox(height: imageExtent, child: _imagePane()),
+                            _dividerHandle(wide: false, total: total),
+                            SizedBox(
+                              height: listExtent,
+                              child: _listPane(topInset: listTopInset),
+                            ),
+                          ],
+                        );
+                      },
+                    ),
+                  ),
+                  if (!_fullscreen) _bottomBar(context),
+                ],
               ),
             ),
-          Expanded(
-            child: LayoutBuilder(
-              builder: (context, constraints) {
-                final bool wide = constraints.maxWidth >= 600;
-                // Available space for the two panes (minus the divider handle).
-                final double total = (wide
-                        ? constraints.maxWidth
-                        : constraints.maxHeight) -
-                    _dividerThickness;
-                final double imageExtent =
-                    (total * _imageFraction).clamp(0.0, total);
-                final double listExtent = total - imageExtent;
+            // Floating mini header (hidden in fullscreen).
+            if (!_fullscreen)
+              Positioned(
+                top: 0,
+                left: 0,
+                right: 0,
+                child: SafeArea(
+                  bottom: false,
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(10, 8, 10, 0),
+                    child: Row(
+                      textDirection: TextDirection.rtl,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        _floatingRoundIcon(
+                          Icons.arrow_back_rounded,
+                          'رجوع',
+                          () => Navigator.of(context).maybePop(),
+                        ),
+                        Expanded(
+                          child: Center(child: _referenceChip()),
+                        ),
+                        _isMobile
+                            ? _floatingRoundIcon(
+                                Icons.screen_rotation_rounded,
+                                _landscape ? 'دوران عمودي' : 'دوران أفقي',
+                                _toggleOrientation,
+                              )
+                            : const SizedBox(width: 36),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
 
-                if (wide) {
-                  return Row(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      // Right side (RTL start): page image
-                      SizedBox(width: imageExtent, child: _imagePane()),
-                      _dividerHandle(wide: true, total: total),
-                      // Left side (RTL end): glossary list
-                      SizedBox(width: listExtent, child: _listPane()),
-                    ],
-                  );
-                }
-                return Column(
-                  children: [
-                    SizedBox(height: imageExtent, child: _imagePane()),
-                    _dividerHandle(wide: false, total: total),
-                    SizedBox(height: listExtent, child: _listPane()),
-                  ],
-                );
-              },
-            ),
+  /// True fullscreen: hides every control AND the Android system bars so only
+  /// the page content is visible. Tapping again restores everything.
+  void _toggleFullscreen() {
+    setState(() => _fullscreen = !_fullscreen);
+    if (!_isMobile) return;
+    if (_fullscreen) {
+      SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+    } else {
+      SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+    }
+  }
+
+  // Whether this platform can rotate (phones/tablets). Desktops/web resize
+  // their window instead, so no orientation button is offered there.
+  bool get _isMobile =>
+      !kIsWeb &&
+      (defaultTargetPlatform == TargetPlatform.android ||
+          defaultTargetPlatform == TargetPlatform.iOS);
+
+  void _toggleOrientation() {
+    setState(() => _landscape = !_landscape);
+    if (_landscape) {
+      SystemChrome.setPreferredOrientations([
+        DeviceOrientation.landscapeLeft,
+        DeviceOrientation.landscapeRight,
+      ]);
+    } else {
+      SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+    }
+  }
+
+  Widget _floatingRoundIcon(
+      IconData icon, String tooltip, VoidCallback onTap) {
+    final scheme = Theme.of(context).colorScheme;
+    return Material(
+      color: scheme.surface,
+      elevation: 2,
+      shadowColor: Colors.black.withValues(alpha: 0.25),
+      shape: const CircleBorder(),
+      child: InkWell(
+        customBorder: const CircleBorder(),
+        onTap: onTap,
+        child: Tooltip(
+          message: tooltip,
+          child: Padding(
+            padding: const EdgeInsets.all(8),
+            child: Icon(icon, size: 20, color: scheme.onSurface),
           ),
-          _bottomBar(context),
+        ),
+      ),
+    );
+  }
+
+  // Small floating reference chip showing only the surah/page header text
+  // (no page counter) so it stays out of the way.
+  Widget _referenceChip() {
+    final subtitle = _subtitle();
+    if (subtitle.isEmpty) return const SizedBox.shrink();
+    final scheme = Theme.of(context).colorScheme;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+      decoration: BoxDecoration(
+        color: scheme.surface.withValues(alpha: 0.92),
+        borderRadius: BorderRadius.circular(14),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.18),
+            blurRadius: 10,
+            offset: const Offset(0, 2),
+          ),
         ],
+      ),
+      child: Text(
+        subtitle,
+        style: TextStyle(
+          fontFamily: 'Amiri',
+          fontSize: 14,
+          color: scheme.onSurface,
+          fontWeight: FontWeight.bold,
+        ),
+        textDirection: TextDirection.rtl,
+        textAlign: TextAlign.center,
       ),
     );
   }
@@ -278,12 +407,15 @@ class _VerificationScreenState extends State<VerificationScreen> {
     );
   }
 
-  Widget _listPane() {
-    return Column(
-      children: [
-        _fontControls(),
-        Expanded(child: _listContent()),
-      ],
+  Widget _listPane({double topInset = 0}) {
+    return Padding(
+      padding: EdgeInsets.only(top: topInset),
+      child: Column(
+        children: [
+          _fontControls(),
+          Expanded(child: _listContent()),
+        ],
+      ),
     );
   }
 
