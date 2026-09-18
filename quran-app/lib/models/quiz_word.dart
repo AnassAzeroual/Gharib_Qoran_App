@@ -37,17 +37,28 @@ class QuizQuestion {
 
   const QuizQuestion({required this.word, required this.options});
 
-  int get correctIndex =>
-      options.indexWhere((o) => o.isCorrect);
+  int get correctIndex => options.indexWhere((o) => o.isCorrect);
 }
 
 class QuizSession {
   int correctCount = 0;
   int wrongCount = 0;
 
-  void onWrong() => wrongCount++;
+  /// Every word answered correctly, in answer order (for review lists).
+  final List<QuizWord> correctWords = [];
 
-  void onCorrect() => correctCount++;
+  /// Every word answered wrong, in answer order (for review lists).
+  final List<QuizWord> wrongWords = [];
+
+  void onWrong(QuizWord word) {
+    wrongCount++;
+    wrongWords.add(word);
+  }
+
+  void onCorrect(QuizWord word) {
+    correctCount++;
+    correctWords.add(word);
+  }
 
   double get percentage {
     final total = correctCount + wrongCount;

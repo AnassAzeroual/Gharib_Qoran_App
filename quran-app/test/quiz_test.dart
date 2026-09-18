@@ -86,26 +86,26 @@ void main() {
   group('QuizSession', () {
     test('wrong answer increments wrongCount only', () {
       final s = QuizSession();
-      s.onWrong();
-      s.onWrong();
+      s.onWrong(w('السراج', 'المصباح'));
+      s.onWrong(w('السراج', 'المصباح'));
       expect(s.wrongCount, 2);
       expect(s.correctCount, 0);
     });
 
     test('correct answer increments correctCount and advances', () {
       final s = QuizSession();
-      s.onWrong();
-      s.onWrong();
-      s.onCorrect();
+      s.onWrong(w('السراج', 'المصباح'));
+      s.onWrong(w('السراج', 'المصباح'));
+      s.onCorrect(w('السراج', 'المصباح'));
       expect(s.wrongCount, 2);
       expect(s.correctCount, 1);
     });
 
     test('percentage = correct / (correct + wrong) * 100', () {
       final s = QuizSession();
-      s.onWrong();
-      s.onWrong();
-      s.onCorrect();
+      s.onWrong(w('السراج', 'المصباح'));
+      s.onWrong(w('السراج', 'المصباح'));
+      s.onCorrect(w('السراج', 'المصباح'));
       expect(s.percentage, closeTo(33.333, 0.01));
     });
 

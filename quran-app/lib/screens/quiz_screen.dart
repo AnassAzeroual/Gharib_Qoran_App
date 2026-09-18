@@ -141,7 +141,7 @@ class _QuizScreenState extends State<QuizScreen> {
     if (q == null || _finished || _answered != null) return;
     final option = q.options[i];
     if (option.isCorrect) {
-      _session.onCorrect();
+      _session.onCorrect(q.word);
       _sound.playCorrect();
       setState(() {
         _correctPick = i;
@@ -158,7 +158,7 @@ class _QuizScreenState extends State<QuizScreen> {
         }
       });
     } else {
-      _session.onWrong();
+      _session.onWrong(q.word);
       _sound.playWrong();
       setState(() {
         _wrongPicks.add(i);
