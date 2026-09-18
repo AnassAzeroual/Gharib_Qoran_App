@@ -6,6 +6,7 @@ import '../data/surahs.dart';
 import '../models/quiz_word.dart';
 import '../services/data_service.dart';
 import '../services/quiz_service.dart';
+import '../services/ayah_highlighter.dart';
 import '../services/sound_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
@@ -96,7 +97,8 @@ class _QuizScreenState extends State<QuizScreen> {
       _wrongPicks = {};
       _correctPick = null;
       _answered = null;
-      _ayahExpanded = false; // hide the ayah again for the new question
+      // Keep the user's ayah open/closed choice across questions; it only
+      // resets when they leave the quiz page (the state field is recreated).
     });
     final QuizWord target = _isAllMode ? _quiz.nextAllWord() : _queue[_index++];
     setState(() {
@@ -321,33 +323,41 @@ class _QuizScreenState extends State<QuizScreen> {
         // Font-size control: ⊕  حجم الخط  ⊖  (scales all text on this page).
         _fontSizeControl(scheme),
         const SizedBox(height: 8),
-        Container(
-          width: double.infinity,
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 18),
-          decoration: BoxDecoration(
-            color: scheme.surface,
-            borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: scheme.outlineVariant),
-          ),
-          child: Column(
-            children: [
-              Wrap(
+        // Header card with a concave notch carved out of its bottom-center,
+        // where the chevron toggle nests (matches the design).
+        Stack(
+          alignment: Alignment.bottomCenter,
+          clipBehavior: Clip.none,
+          children: [
+            ClipPath(
+              clipper: _NotchClipper(),
+              child: Container(
+                width: double.infinity,
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 18),
+                color: scheme.surface,
+                child: Column(
+                  children: [
+                    Wrap(
                 alignment: WrapAlignment.center,
                 spacing: 8,
                 runSpacing: 4,
                 children: [
-                  if (q.word.surahName.isNotEmpty)
-                    _contextChip(
-                        Icons.menu_book, q.word.surahName, scheme, scale),
                   if (q.word.ayahNumber != null)
                     _contextChip(
-                        Icons.format_list_numbered,
+                        Icons.format_list_bulleted,
                         'آية ${toArabicDigits(q.word.ayahNumber!)}',
+                        scheme,
+                        scale),
+                  if (q.word.surahName.isNotEmpty)
+                    _contextChip(
+                        Icons.menu_book,
+                        'سورة ${q.word.surahName}',
                         scheme,
                         scale),
                 ],
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 12),
               FittedBox(
                 fit: BoxFit.scaleDown,
                 child: Text(
@@ -356,9 +366,9 @@ class _QuizScreenState extends State<QuizScreen> {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontFamily: 'Amiri',
-                    fontSize: 34 * scale,
+                    fontSize: 36 * scale,
                     fontWeight: FontWeight.bold,
-                    color: scheme.onSurface,
+                    color: const Color(0xFF0F766E), // green word (matches design)
                   ),
                 ),
               ),
@@ -390,17 +400,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                   ),
                                 ),
                                 const SizedBox(height: 6),
-                                Text(
-                                  q.word.ayah,
-                                  textDirection: TextDirection.rtl,
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                    fontFamily: 'Amiri',
-                                    fontSize: 19 * scale,
-                                    height: 1.7,
-                                    color: scheme.onSurface,
-                                  ),
-                                ),
+                                _ayahText(q, scheme, scale),
                                 if (q.word.surahName.isNotEmpty ||
                                     q.word.ayahNumber != null) ...[
                                   const SizedBox(height: 6),
@@ -419,12 +419,19 @@ class _QuizScreenState extends State<QuizScreen> {
                         )
                       : const SizedBox(width: double.infinity),
                 ),
-                const SizedBox(height: 10),
-                // Circular chevron toggle: reveals / hides the ayah.
-                _ayahToggle(scheme),
+                // Extra bottom room so the notch + chevron have space.
+                const SizedBox(height: 22),
               ],
-            ],
-          ),
+                  ],
+                ),
+              ),
+            ),
+            // Chevron nested in the notch, straddling the bottom edge.
+            Positioned(
+              bottom: -6,
+              child: _ayahToggle(scheme),
+            ),
+          ],
         ),
         const SizedBox(height: 16),
         for (var i = 0; i < q.options.length; i++)
@@ -438,25 +445,28 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Widget _contextChip(
       IconData icon, String label, ColorScheme scheme, double scale) {
+    const Color teal = Color(0xFF0F766E);
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       decoration: BoxDecoration(
-        color: scheme.primary.withValues(alpha: 0.1),
+        color: teal.withValues(alpha: 0.06),
         borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: teal.withValues(alpha: 0.35)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, size: 14 * scale, color: scheme.primary),
-          const SizedBox(width: 4),
           Text(
             label,
             style: TextStyle(
-              color: scheme.primary,
-              fontSize: 12 * scale,
-              fontWeight: FontWeight.bold,
+              fontFamily: 'Amiri',
+              color: teal,
+              fontSize: 13 * scale,
+              fontWeight: FontWeight.w600,
             ),
           ),
+          const SizedBox(width: 5),
+          Icon(icon, size: 15 * scale, color: teal),
         ],
       ),
     );
@@ -516,6 +526,48 @@ class _QuizScreenState extends State<QuizScreen> {
           ),
         ),
       ),
+    );
+  }
+
+  // Renders the ayah with the glossary word highlighted in red (#A8120B).
+  // Falls back to plain text when the word can't be located cleanly, so the
+  // Quran text is never altered — only colored.
+  Widget _ayahText(QuizQuestion q, ColorScheme scheme, double scale) {
+    const Color highlight = Color(0xFFA8120B);
+    final baseStyle = TextStyle(
+      fontFamily: 'Amiri',
+      fontSize: 19 * scale,
+      height: 1.7,
+      color: scheme.onSurface,
+    );
+
+    final match = AyahHighlighter.split(q.word.ayah, q.word.word);
+    if (match == null) {
+      return Text(
+        q.word.ayah,
+        textDirection: TextDirection.rtl,
+        textAlign: TextAlign.center,
+        style: baseStyle,
+      );
+    }
+
+    return Text.rich(
+      TextSpan(
+        style: baseStyle,
+        children: [
+          TextSpan(text: match.before),
+          TextSpan(
+            text: match.match,
+            style: const TextStyle(
+              color: highlight,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          TextSpan(text: match.after),
+        ],
+      ),
+      textDirection: TextDirection.rtl,
+      textAlign: TextAlign.center,
     );
   }
 
@@ -734,4 +786,48 @@ class _QuizScreenState extends State<QuizScreen> {
       ),
     );
   }
+}
+
+/// Clips a card so its bottom edge has a concave semicircular notch at the
+/// center — the chevron toggle nests inside this scoop (matches the design).
+class _NotchClipper extends CustomClipper<Path> {
+  static const double _radius = 22; // notch radius
+  static const double _corner = 20; // matches the card's borderRadius
+
+  @override
+  Path getClip(Size size) {
+    final w = size.width;
+    final h = size.height;
+    final path = Path();
+
+    // Start just after the top-left rounded corner and go clockwise.
+    path.moveTo(_corner, 0);
+    path.lineTo(w - _corner, 0);
+    path.arcToPoint(Offset(w, _corner),
+        radius: const Radius.circular(_corner));
+    path.lineTo(w, h - _corner);
+    path.arcToPoint(Offset(w - _corner, h),
+        radius: const Radius.circular(_corner));
+
+    // Bottom edge: run right-to-left toward the center, carve the notch, then
+    // continue to the left corner.
+    path.lineTo(w / 2 + _radius, h);
+    // Concave scoop (curving upward into the card).
+    path.arcToPoint(
+      Offset(w / 2 - _radius, h),
+      radius: const Radius.circular(_radius),
+      clockwise: false,
+    );
+    path.lineTo(_corner, h);
+    path.arcToPoint(Offset(0, h - _corner),
+        radius: const Radius.circular(_corner));
+    path.lineTo(0, _corner);
+    path.arcToPoint(Offset(_corner, 0),
+        radius: const Radius.circular(_corner));
+    path.close();
+    return path;
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) => false;
 }
