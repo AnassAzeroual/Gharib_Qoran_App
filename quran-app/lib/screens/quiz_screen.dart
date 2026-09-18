@@ -25,8 +25,18 @@ class QuizScreen extends StatefulWidget {
   State<QuizScreen> createState() => _QuizScreenState();
 }
 
-class _QuizScreenState extends State<QuizScreen> {
+class _QuizScreenState extends State<QuizScreen>
+    with SingleTickerProviderStateMixin {
   static const List<String> _letters = ['أ', 'ب', 'ج'];
+
+  // Palette from the minimalist target design.
+  static const Color _canvas = Color(0xFFFBFBFB);
+  static const Color _promptOrange = Color(0xFFE07A5F);
+  static const Color _wordDark = Color(0xFF4A4A4A);
+  static const Color _verseGreen = Color(0xFF2FA885);
+  static const Color _refGrey = Color(0xFF9AA0A6);
+  static const Color _goldTop = Color(0xFFE5C158);
+  static const Color _goldBottom = Color(0xFFC89B27);
 
   final QuizService _quiz = QuizService.instance;
   final DataService _data = DataService.instance;
@@ -42,9 +52,10 @@ class _QuizScreenState extends State<QuizScreen> {
   int? _correctPick;
   int? _answered;
 
-  // Whether the ayah context panel is revealed (hidden by default; the
-  // chevron toggles it with a smooth expand/collapse animation).
-  bool _ayahExpanded = false;
+  // Sliding answer sheet: closed by default, opens when the gold button is
+  // tapped. Driven by an animation controller (0 = closed, 1 = fully open).
+  late final AnimationController _sheetController;
+  bool _sheetOpen = false;
 
   bool get _isThumunMode => widget.thumun != null;
   bool get _isHizbMode => widget.hizb != null && widget.thumun == null;
@@ -54,7 +65,26 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   void initState() {
     super.initState();
+    _sheetController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 320),
+    );
     _start();
+  }
+
+  @override
+  void dispose() {
+    _sheetController.dispose();
+    super.dispose();
+  }
+
+  void _toggleSheet() {
+    setState(() => _sheetOpen = !_sheetOpen);
+    if (_sheetOpen) {
+      _sheetController.forward();
+    } else {
+      _sheetController.reverse();
+    }
   }
 
   Future<void> _start() async {
@@ -97,9 +127,9 @@ class _QuizScreenState extends State<QuizScreen> {
       _wrongPicks = {};
       _correctPick = null;
       _answered = null;
-      // Keep the user's ayah open/closed choice across questions; it only
-      // resets when they leave the quiz page (the state field is recreated).
+      _sheetOpen = false; // collapse the answers so the new word shows first
     });
+    _sheetController.reverse();
     final QuizWord target = _isAllMode ? _quiz.nextAllWord() : _queue[_index++];
     setState(() {
       _question = _quiz.buildQuestion(target);
@@ -208,29 +238,126 @@ class _QuizScreenState extends State<QuizScreen> {
             ),
           ],
         ),
+        backgroundColor: _canvas,
         body: SafeArea(
           child: _loading
               ? const Center(child: CircularProgressIndicator())
-              // Center the content and cap its width so it doesn't stretch
-              // edge-to-edge on wide screens (web / large monitors).
               : Center(
                   child: ConstrainedBox(
                     constraints: const BoxConstraints(maxWidth: 720),
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: ValueListenableBuilder<double>(
-                            valueListenable: quizFontScaleNotifier,
-                            builder: (context, scale, _) => _contentList(scale),
-                          ),
-                        ),
-                        _bottomBar(),
-                      ],
+                    child: ValueListenableBuilder<double>(
+                      valueListenable: quizFontScaleNotifier,
+                      builder: (context, scale, _) => _quizBody(scale),
                     ),
                   ),
                 ),
         ),
       ),
+    );
+  }
+
+  // Minimalist layout: clean canvas with the prompt top-right and the verse
+  // centered; the answer choices live in a sheet that slides up from the
+  // bottom when the gold button (nested in a convex dip) is tapped.
+  Widget _quizBody(double scale) {
+    final scheme = Theme.of(context).colorScheme;
+    final q = _question;
+    if (q == null) return const SizedBox.shrink();
+
+    final progress = _isAllMode
+        ? _quiz.allModeProgress
+        : (_queue.isEmpty ? 0.0 : (_index / _queue.length).clamp(0.0, 1.0));
+
+    return Stack(
+      children: [
+        // ---- Main canvas: progress, font control, prompt, centered verse.
+        Positioned.fill(
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
+                child: Row(
+                  children: [
+                    // Compact live score: ✓ correct  ✗ wrong.
+                    _miniScore(Icons.check_circle, _session.correctCount,
+                        const Color(0xFF16A34A)),
+                    const SizedBox(width: 8),
+                    _miniScore(Icons.cancel, _session.wrongCount,
+                        const Color(0xFFDC2626)),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(6),
+                        child: LinearProgressIndicator(
+                          value: progress,
+                          minHeight: 6,
+                          backgroundColor: scheme.outlineVariant,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    Text(
+                      _isAllMode
+                          ? 'جميع السور'
+                          : '${toArabicDigits(_index)} / ${toArabicDigits(_queue.length)}',
+                      style: const TextStyle(color: _refGrey, fontSize: 13),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 4),
+              _fontSizeControl(scheme),
+              const SizedBox(height: 6),
+              // Prompt, aligned to the top-right.
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                child: Align(
+                  alignment: Alignment.centerRight,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        'ما معنى كلمة',
+                        style: TextStyle(
+                          fontFamily: 'Amiri',
+                          fontSize: 15 * scale,
+                          color: _promptOrange,
+                        ),
+                      ),
+                      const SizedBox(height: 2),
+                      FittedBox(
+                        fit: BoxFit.scaleDown,
+                        alignment: Alignment.centerRight,
+                        child: Text(
+                          '${q.word.word}؟',
+                          textDirection: TextDirection.rtl,
+                          style: TextStyle(
+                            fontFamily: 'Amiri',
+                            fontSize: 32 * scale,
+                            fontWeight: FontWeight.bold,
+                            color: _wordDark,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              // Centered verse block, filling the remaining space. Extra bottom
+              // padding leaves room for the sliding sheet's collapsed handle.
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(24, 8, 24, 80),
+                  child: Center(child: _verseBlock(q, scheme, scale)),
+                ),
+              ),
+            ],
+          ),
+        ),
+
+        // ---- Sliding answer sheet + gold toggle button in a convex dip.
+        _answerSheet(q, scheme, scale),
+      ],
     );
   }
 
@@ -286,189 +413,37 @@ class _QuizScreenState extends State<QuizScreen> {
     });
   }
 
-  Widget _contentList(double scale) {
-    final scheme = Theme.of(context).colorScheme;
-    final q = _question;
-    if (q == null) return const SizedBox.shrink();
-
-    final progress = _isAllMode
-        ? _quiz.allModeProgress
-        : (_queue.isEmpty ? 0.0 : (_index / _queue.length).clamp(0.0, 1.0));
-
-    return ListView(
-      padding: const EdgeInsets.fromLTRB(20, 12, 20, 16),
+  // Centered verse block: "قال تعالى" + the verse (with brackets ﴿ ﴾ and the
+  // active word highlighted green) + the reference, all on the clean canvas.
+  Widget _verseBlock(QuizQuestion q, ColorScheme scheme, double scale) {
+    if (q.word.ayah.isEmpty) {
+      return const SizedBox.shrink();
+    }
+    return Column(
+      mainAxisSize: MainAxisSize.min,
       children: [
-        Row(
-          children: [
-            Text(
-              _isAllMode
-                  ? 'جميع السور'
-                  : '${toArabicDigits(_index)} / ${toArabicDigits(_queue.length)}',
-              style: TextStyle(color: scheme.onSurfaceVariant, fontSize: 13),
-            ),
-            const SizedBox(width: 10),
-            Expanded(
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(6),
-                child: LinearProgressIndicator(
-                  value: progress,
-                  minHeight: 6,
-                  backgroundColor: scheme.outlineVariant,
-                ),
-              ),
-            ),
-          ],
-        ),
-        const SizedBox(height: 10),
-        // Font-size control: ⊕  حجم الخط  ⊖  (scales all text on this page).
-        _fontSizeControl(scheme),
-        const SizedBox(height: 8),
-        // Header card with a concave notch carved out of its bottom-center,
-        // where the chevron toggle nests (matches the design).
-        Stack(
-          alignment: Alignment.bottomCenter,
-          clipBehavior: Clip.none,
-          children: [
-            ClipPath(
-              clipper: _NotchClipper(),
-              child: Container(
-                width: double.infinity,
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 16, vertical: 18),
-                color: scheme.surface,
-                child: Column(
-                  children: [
-                    Wrap(
-                alignment: WrapAlignment.center,
-                spacing: 8,
-                runSpacing: 4,
-                children: [
-                  if (q.word.ayahNumber != null)
-                    _contextChip(
-                        Icons.format_list_bulleted,
-                        'آية ${toArabicDigits(q.word.ayahNumber!)}',
-                        scheme,
-                        scale),
-                  if (q.word.surahName.isNotEmpty)
-                    _contextChip(
-                        Icons.menu_book,
-                        'سورة ${q.word.surahName}',
-                        scheme,
-                        scale),
-                ],
-              ),
-              const SizedBox(height: 12),
-              FittedBox(
-                fit: BoxFit.scaleDown,
-                child: Text(
-                  q.word.word,
-                  textDirection: TextDirection.rtl,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontFamily: 'Amiri',
-                    fontSize: 36 * scale,
-                    fontWeight: FontWeight.bold,
-                    color: const Color(0xFF0F766E), // green word (matches design)
-                  ),
-                ),
-              ),
-              if (q.word.ayah.isNotEmpty) ...[
-                // Animated collapsible ayah panel (hidden by default).
-                AnimatedSize(
-                  duration: const Duration(milliseconds: 280),
-                  curve: Curves.easeInOut,
-                  alignment: Alignment.topCenter,
-                  child: _ayahExpanded
-                      ? Padding(
-                          padding: const EdgeInsets.only(top: 12),
-                          child: Container(
-                            width: double.infinity,
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 12, vertical: 12),
-                            decoration: BoxDecoration(
-                              color: scheme.surfaceContainerHighest,
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            child: Column(
-                              children: [
-                                Text(
-                                  'قال تعالى',
-                                  style: TextStyle(
-                                    fontFamily: 'Amiri',
-                                    fontSize: 13 * scale,
-                                    color: scheme.onSurfaceVariant,
-                                  ),
-                                ),
-                                const SizedBox(height: 6),
-                                _ayahText(q, scheme, scale),
-                                if (q.word.surahName.isNotEmpty ||
-                                    q.word.ayahNumber != null) ...[
-                                  const SizedBox(height: 6),
-                                  Text(
-                                    _ayahReference(q),
-                                    style: TextStyle(
-                                      fontFamily: 'Amiri',
-                                      fontSize: 12 * scale,
-                                      color: scheme.onSurfaceVariant,
-                                    ),
-                                  ),
-                                ],
-                              ],
-                            ),
-                          ),
-                        )
-                      : const SizedBox(width: double.infinity),
-                ),
-                // Extra bottom room so the notch + chevron have space.
-                const SizedBox(height: 22),
-              ],
-                  ],
-                ),
-              ),
-            ),
-            // Chevron nested in the notch, straddling the bottom edge.
-            Positioned(
-              bottom: -6,
-              child: _ayahToggle(scheme),
-            ),
-          ],
-        ),
-        const SizedBox(height: 16),
-        for (var i = 0; i < q.options.length; i++)
-          Padding(
-            padding: const EdgeInsets.only(bottom: 10),
-            child: _optionCard(context, i, q, scale),
+        Text(
+          'قَالَ تَعَالَىٰ:',
+          style: TextStyle(
+            fontFamily: 'Amiri',
+            fontSize: 15 * scale,
+            color: _refGrey,
           ),
-      ],
-    );
-  }
-
-  Widget _contextChip(
-      IconData icon, String label, ColorScheme scheme, double scale) {
-    const Color teal = Color(0xFF0F766E);
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-      decoration: BoxDecoration(
-        color: teal.withValues(alpha: 0.06),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: teal.withValues(alpha: 0.35)),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
+        ),
+        SizedBox(height: 14 * scale),
+        _ayahText(q, scale),
+        if (q.word.surahName.isNotEmpty || q.word.ayahNumber != null) ...[
+          SizedBox(height: 12 * scale),
           Text(
-            label,
+            _ayahReference(q),
             style: TextStyle(
               fontFamily: 'Amiri',
-              color: teal,
               fontSize: 13 * scale,
-              fontWeight: FontWeight.w600,
+              color: _refGrey,
             ),
           ),
-          const SizedBox(width: 5),
-          Icon(icon, size: 15 * scale, color: teal),
         ],
-      ),
+      ],
     );
   }
 
@@ -529,41 +504,44 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
-  // Renders the ayah with the glossary word highlighted in red (#A8120B).
-  // Falls back to plain text when the word can't be located cleanly, so the
-  // Quran text is never altered — only colored.
-  Widget _ayahText(QuizQuestion q, ColorScheme scheme, double scale) {
-    const Color highlight = Color(0xFFA8120B);
+  // Renders the verse wrapped in ornate brackets ﴿ ﴾ with the glossary word
+  // highlighted green. Falls back to plain (bracketed) text when the word
+  // can't be located cleanly — the Quran text is never altered, only colored.
+  Widget _ayahText(QuizQuestion q, double scale) {
     final baseStyle = TextStyle(
       fontFamily: 'Amiri',
-      fontSize: 19 * scale,
-      height: 1.7,
-      color: scheme.onSurface,
+      fontSize: 24 * scale,
+      height: 1.8,
+      color: _wordDark,
     );
+    const bracketStyle = TextStyle(color: _refGrey);
 
     final match = AyahHighlighter.split(q.word.ayah, q.word.word);
+
+    final List<InlineSpan> verseSpans;
     if (match == null) {
-      return Text(
-        q.word.ayah,
-        textDirection: TextDirection.rtl,
-        textAlign: TextAlign.center,
-        style: baseStyle,
-      );
+      verseSpans = [TextSpan(text: q.word.ayah)];
+    } else {
+      verseSpans = [
+        TextSpan(text: match.before),
+        TextSpan(
+          text: match.match,
+          style: const TextStyle(
+            color: _verseGreen,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        TextSpan(text: match.after),
+      ];
     }
 
     return Text.rich(
       TextSpan(
         style: baseStyle,
         children: [
-          TextSpan(text: match.before),
-          TextSpan(
-            text: match.match,
-            style: const TextStyle(
-              color: highlight,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          TextSpan(text: match.after),
+          const TextSpan(text: '﴿ ', style: bracketStyle),
+          ...verseSpans,
+          const TextSpan(text: ' ﴾', style: bracketStyle),
         ],
       ),
       textDirection: TextDirection.rtl,
@@ -583,34 +561,94 @@ class _QuizScreenState extends State<QuizScreen> {
     return '';
   }
 
-  // Circular chevron button that toggles the ayah panel. Rotates ⌄ <-> ⌃.
-  Widget _ayahToggle(ColorScheme scheme) {
-    return Center(
-      child: Material(
-        color: scheme.surface,
-        shape: CircleBorder(
-          side: BorderSide(
-            color: const Color(0xFFCBAE6B), // soft gold ring (matches design)
-            width: 1.4,
-          ),
-        ),
-        elevation: 2,
-        shadowColor: Colors.black.withValues(alpha: 0.15),
-        child: InkWell(
-          onTap: () => setState(() => _ayahExpanded = !_ayahExpanded),
-          customBorder: const CircleBorder(),
-          child: Padding(
-            padding: const EdgeInsets.all(6),
-            child: AnimatedRotation(
-              turns: _ayahExpanded ? 0.5 : 0.0,
-              duration: const Duration(milliseconds: 280),
-              curve: Curves.easeInOut,
-              child: const Icon(
-                Icons.keyboard_arrow_down_rounded,
-                size: 24,
-                color: Color(0xFFB8923F),
+  // Bottom answer sheet: a white panel with a convex dip along its top edge.
+  // A gold gradient toggle button nests in the dip. Tapping it slides the
+  // panel (holding the أ/ب/ج choices) up and down.
+  Widget _answerSheet(QuizQuestion q, ColorScheme scheme, double scale) {
+    // Collapsed: only the dip + button peek above the bottom. Expanded: the
+    // full options panel is visible.
+    const double handleHeight = 54; // dip + button zone always visible
+    final double sheetHeight =
+        (140 + q.options.length * (64 * scale)).clamp(220.0, 460.0);
+
+    return AnimatedBuilder(
+      animation: _sheetController,
+      builder: (context, _) {
+        final t = Curves.easeInOut.transform(_sheetController.value);
+        // Bottom offset: when closed, only the handle zone shows.
+        final double bottom = -(sheetHeight - handleHeight) * (1 - t);
+        return Positioned(
+          left: 0,
+          right: 0,
+          bottom: bottom,
+          height: sheetHeight,
+          child: Stack(
+            clipBehavior: Clip.none,
+            children: [
+              // The white sheet with the convex dip carved in its top edge.
+              Positioned.fill(
+                child: ClipPath(
+                  clipper: _ConvexDipClipper(),
+                  child: Container(
+                    color: scheme.surface,
+                    padding: const EdgeInsets.fromLTRB(20, 44, 20, 12),
+                    child: Column(
+                      children: [
+                        for (var i = 0; i < q.options.length; i++)
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 10),
+                            child: _optionCard(context, i, q, scale),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
               ),
+              // Gold gradient toggle button nested in the dip.
+              Positioned(
+                top: -6,
+                left: 0,
+                right: 0,
+                child: Center(child: _goldToggle()),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  // Circular gold gradient button with a chevron that flips as the sheet
+  // opens/closes.
+  Widget _goldToggle() {
+    return GestureDetector(
+      onTap: _toggleSheet,
+      child: Container(
+        width: 46,
+        height: 46,
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          gradient: const LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [_goldTop, _goldBottom],
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: _goldBottom.withValues(alpha: 0.45),
+              blurRadius: 10,
+              offset: const Offset(0, 3),
             ),
+          ],
+        ),
+        child: AnimatedRotation(
+          turns: _sheetOpen ? 0.5 : 0.0,
+          duration: const Duration(milliseconds: 320),
+          curve: Curves.easeInOut,
+          child: const Icon(
+            Icons.keyboard_arrow_up_rounded,
+            color: Colors.white,
+            size: 28,
           ),
         ),
       ),
@@ -715,71 +753,25 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
-  Widget _bottomBar() {
-    final scheme = Theme.of(context).colorScheme;
+  // Compact live score chip: icon + count.
+  Widget _miniScore(IconData icon, int count, Color color) {
     return Container(
-      padding: const EdgeInsets.fromLTRB(16, 10, 16, 14),
-      decoration: BoxDecoration(
-        color: scheme.surface,
-        border: Border(top: BorderSide(color: scheme.outlineVariant)),
-      ),
-      child: Row(
-        children: [
-          Expanded(
-            child: _scoreCard(
-              label: 'إجابات صحيحة',
-              count: _session.correctCount,
-              color: const Color(0xFF16A34A),
-              icon: Icons.check_circle_outline,
-              scheme: scheme,
-            ),
-          ),
-          const SizedBox(width: 10),
-          Expanded(
-            child: _scoreCard(
-              label: 'إجابات خاطئة',
-              count: _session.wrongCount,
-              color: const Color(0xFFDC2626),
-              icon: Icons.cancel_outlined,
-              scheme: scheme,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _scoreCard({
-    required String label,
-    required int count,
-    required Color color,
-    required IconData icon,
-    required ColorScheme scheme,
-  }) {
-    return Container(
-      height: 58,
-      padding: const EdgeInsets.symmetric(horizontal: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
         color: color.withValues(alpha: 0.08),
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: color.withValues(alpha: 0.25)),
+        borderRadius: BorderRadius.circular(12),
       ),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, color: color, size: 20),
-          const SizedBox(width: 6),
-          Flexible(
-            child: FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
-                '$label ${toArabicDigits(count)}',
-                style: TextStyle(
-                  color: scheme.onSurface,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 14,
-                ),
-              ),
+          Icon(icon, color: color, size: 16),
+          const SizedBox(width: 4),
+          Text(
+            toArabicDigits(count),
+            style: TextStyle(
+              color: color,
+              fontWeight: FontWeight.bold,
+              fontSize: 13,
             ),
           ),
         ],
@@ -788,42 +780,45 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 }
 
-/// Clips a card so its bottom edge has a concave semicircular notch at the
-/// center — the chevron toggle nests inside this scoop (matches the design).
-class _NotchClipper extends CustomClipper<Path> {
-  static const double _radius = 22; // notch radius
-  static const double _corner = 20; // matches the card's borderRadius
+/// Clips the answer sheet so its TOP edge dips downward (convex) at the center,
+/// forming a smooth scoop where the gold toggle button nests (matches design).
+class _ConvexDipClipper extends CustomClipper<Path> {
+  static const double _corner = 24; // rounded top corners
+  static const double _dipWidth = 92; // horizontal span of the dip
+  static const double _dipDepth = 30; // how far the dip curves down
 
   @override
   Path getClip(Size size) {
     final w = size.width;
     final h = size.height;
+    final cx = w / 2;
     final path = Path();
 
-    // Start just after the top-left rounded corner and go clockwise.
-    path.moveTo(_corner, 0);
-    path.lineTo(w - _corner, 0);
-    path.arcToPoint(Offset(w, _corner),
-        radius: const Radius.circular(_corner));
-    path.lineTo(w, h - _corner);
-    path.arcToPoint(Offset(w - _corner, h),
-        radius: const Radius.circular(_corner));
-
-    // Bottom edge: run right-to-left toward the center, carve the notch, then
-    // continue to the left corner.
-    path.lineTo(w / 2 + _radius, h);
-    // Concave scoop (curving upward into the card).
-    path.arcToPoint(
-      Offset(w / 2 - _radius, h),
-      radius: const Radius.circular(_radius),
-      clockwise: false,
-    );
-    path.lineTo(_corner, h);
-    path.arcToPoint(Offset(0, h - _corner),
-        radius: const Radius.circular(_corner));
+    // Start at the top-left rounded corner.
+    path.moveTo(0, h);
     path.lineTo(0, _corner);
     path.arcToPoint(Offset(_corner, 0),
         radius: const Radius.circular(_corner));
+
+    // Top edge toward the dip.
+    path.lineTo(cx - _dipWidth / 2, 0);
+    // Smooth downward scoop using two cubic curves meeting at the low point.
+    path.cubicTo(
+      cx - _dipWidth / 4, 0,
+      cx - _dipWidth / 4, _dipDepth,
+      cx, _dipDepth,
+    );
+    path.cubicTo(
+      cx + _dipWidth / 4, _dipDepth,
+      cx + _dipWidth / 4, 0,
+      cx + _dipWidth / 2, 0,
+    );
+
+    // Continue to the top-right rounded corner.
+    path.lineTo(w - _corner, 0);
+    path.arcToPoint(Offset(w, _corner),
+        radius: const Radius.circular(_corner));
+    path.lineTo(w, h);
     path.close();
     return path;
   }
