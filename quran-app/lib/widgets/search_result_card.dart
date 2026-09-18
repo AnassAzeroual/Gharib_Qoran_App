@@ -46,7 +46,7 @@ class SearchResultCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      toArabicDigits(hit.page),
+                      displayNumber(hit.page),
                       style: TextStyle(
                         color: scheme.primary,
                         fontWeight: FontWeight.bold,
@@ -83,7 +83,7 @@ class SearchResultCard extends StatelessWidget {
                           if (hit.ayahNumber != null) ...[
                             const SizedBox(width: 6),
                             Text(
-                              'آية ${toArabicDigits(hit.ayahNumber!)}',
+                              'آية ${displayNumber(hit.ayahNumber!)}',
                               style: TextStyle(
                                   color: scheme.onSurfaceVariant, fontSize: 12),
                             ),

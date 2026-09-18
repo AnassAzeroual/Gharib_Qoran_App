@@ -10,6 +10,7 @@ import '../services/ayah_highlighter.dart';
 import '../services/sound_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/numeral_toggle_button.dart';
 import 'quiz_result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
@@ -18,8 +19,13 @@ class QuizScreen extends StatefulWidget {
   final int? thumun; // global 1..480
   final String? thumunLabel; // e.g. "الحزب ٥١ · الثمن ٨" for the title
 
-  const QuizScreen(
-      {super.key, this.surahOrder, this.hizb, this.thumun, this.thumunLabel});
+  const QuizScreen({
+    super.key,
+    this.surahOrder,
+    this.hizb,
+    this.thumun,
+    this.thumunLabel,
+  });
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -75,10 +81,10 @@ class _QuizScreenState extends State<QuizScreen> {
     final List<QuizWord> words = _isAllMode
         ? const []
         : _isThumunMode
-            ? _quiz.wordsForThumun(widget.thumun!)
-            : _isHizbMode
-                ? _quiz.wordsForHizb(widget.hizb!)
-                : _quiz.wordsForSurah(widget.surahOrder!);
+        ? _quiz.wordsForThumun(widget.thumun!)
+        : _isHizbMode
+        ? _quiz.wordsForHizb(widget.hizb!)
+        : _quiz.wordsForSurah(widget.surahOrder!);
     if (!_isAllMode && words.isEmpty) {
       if (!mounted) return;
       _showEmptyAndPop();
@@ -95,11 +101,13 @@ class _QuizScreenState extends State<QuizScreen> {
   void _showEmptyAndPop() {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text(_isThumunMode
-            ? 'لا توجد كلمات غريبة في هذا الثمن'
-            : _isHizbMode
-                ? 'لا توجد كلمات غريبة في هذا الحزب'
-                : 'لا توجد كلمات غريبة في هذه السورة'),
+        content: Text(
+          _isThumunMode
+              ? 'لا توجد كلمات غريبة في هذا الثمن'
+              : _isHizbMode
+              ? 'لا توجد كلمات غريبة في هذا الحزب'
+              : 'لا توجد كلمات غريبة في هذه السورة',
+        ),
       ),
     );
     Navigator.of(context).maybePop();
@@ -163,11 +171,13 @@ class _QuizScreenState extends State<QuizScreen> {
     if (_isThumunMode) {
       return widget.thumunLabel ?? 'الثمن';
     }
-    if (_isHizbMode) return 'الحزب ${toArabicDigits(widget.hizb!)}';
+    if (_isHizbMode) return 'الحزب ${displayNumber(widget.hizb!)}';
     if (_isAllMode) return 'كل القرآن';
     return kQuranSurahs
-        .firstWhere((s) => s.order == widget.surahOrder,
-            orElse: () => kQuranSurahs.first)
+        .firstWhere(
+          (s) => s.order == widget.surahOrder,
+          orElse: () => kQuranSurahs.first,
+        )
         .name;
   }
 
@@ -198,42 +208,46 @@ class _QuizScreenState extends State<QuizScreen> {
         if (didPop) return;
         _confirmQuit();
       },
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text(_title()),
-          actions: [
-            ValueListenableBuilder<bool>(
-              valueListenable: _sound.soundEnabled,
-              builder: (context, on, _) => IconButton(
-                tooltip: on ? 'إيقاف الصوت' : 'تشغيل الصوت',
-                icon: Icon(
-                  on ? Icons.volume_up : Icons.volume_off,
-                  color: Colors.white,
+      child: ValueListenableBuilder<NumeralSystem>(
+        valueListenable: numeralNotifier,
+        builder: (context, numeral, _) => Scaffold(
+          appBar: AppBar(
+            title: Text(_title()),
+            actions: [
+              const NumeralToggleButton(),
+              ValueListenableBuilder<bool>(
+                valueListenable: _sound.soundEnabled,
+                builder: (context, on, _) => IconButton(
+                  tooltip: on ? 'إيقاف الصوت' : 'تشغيل الصوت',
+                  icon: Icon(
+                    on ? Icons.volume_up : Icons.volume_off,
+                    color: Colors.white,
+                  ),
+                  onPressed: () =>
+                      _sound.soundEnabled.value = !_sound.soundEnabled.value,
                 ),
-                onPressed: () =>
-                    _sound.soundEnabled.value = !_sound.soundEnabled.value,
               ),
-            ),
-            IconButton(
-              tooltip: 'إنهاء الاختبار',
-              icon: const Icon(Icons.flag_outlined, color: Colors.white),
-              onPressed: _confirmFinish,
-            ),
-          ],
-        ),
-        backgroundColor: _canvas,
-        body: SafeArea(
-          child: _loading
-              ? const Center(child: CircularProgressIndicator())
-              : Center(
-                  child: ConstrainedBox(
-                    constraints: const BoxConstraints(maxWidth: 720),
-                    child: ValueListenableBuilder<double>(
-                      valueListenable: quizFontScaleNotifier,
-                      builder: (context, scale, _) => _quizBody(scale),
+              IconButton(
+                tooltip: 'إنهاء الاختبار',
+                icon: const Icon(Icons.flag_outlined, color: Colors.white),
+                onPressed: _confirmFinish,
+              ),
+            ],
+          ),
+          backgroundColor: _canvas,
+          body: SafeArea(
+            child: _loading
+                ? const Center(child: CircularProgressIndicator())
+                : Center(
+                    child: ConstrainedBox(
+                      constraints: const BoxConstraints(maxWidth: 720),
+                      child: ValueListenableBuilder<double>(
+                        valueListenable: quizFontScaleNotifier,
+                        builder: (context, scale, _) => _quizBody(scale),
+                      ),
                     ),
                   ),
-                ),
+          ),
         ),
       ),
     );
@@ -260,11 +274,17 @@ class _QuizScreenState extends State<QuizScreen> {
         Row(
           children: [
             // Compact live score: ✓ correct  ✗ wrong.
-            _miniScore(Icons.check_circle, _session.correctCount,
-                const Color(0xFF16A34A)),
+            _miniScore(
+              Icons.check_circle,
+              _session.correctCount,
+              const Color(0xFF16A34A),
+            ),
             const SizedBox(width: 8),
-            _miniScore(Icons.cancel, _session.wrongCount,
-                const Color(0xFFDC2626)),
+            _miniScore(
+              Icons.cancel,
+              _session.wrongCount,
+              const Color(0xFFDC2626),
+            ),
             const SizedBox(width: 12),
             Expanded(
               child: ClipRRect(
@@ -280,7 +300,7 @@ class _QuizScreenState extends State<QuizScreen> {
             Text(
               _isAllMode
                   ? 'جميع السور'
-                  : '${toArabicDigits(_index)} / ${toArabicDigits(_queue.length)}',
+                  : '${displayNumber(_index)} / ${displayNumber(_queue.length)}',
               style: const TextStyle(color: _refGrey, fontSize: 13),
             ),
           ],
@@ -541,10 +561,10 @@ class _QuizScreenState extends State<QuizScreen> {
     final name = q.word.surahName;
     final ayah = q.word.ayahNumber;
     if (name.isNotEmpty && ayah != null) {
-      return '[$name : ${toArabicDigits(ayah)}]';
+      return '[$name : ${displayNumber(ayah)}]';
     }
     if (name.isNotEmpty) return '[$name]';
-    if (ayah != null) return '[آية ${toArabicDigits(ayah)}]';
+    if (ayah != null) return '[آية ${displayNumber(ayah)}]';
     return '';
   }
 
@@ -585,7 +605,12 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
-  Widget _optionCard(BuildContext context, int i, QuizQuestion q, double scale) {
+  Widget _optionCard(
+    BuildContext context,
+    int i,
+    QuizQuestion q,
+    double scale,
+  ) {
     final scheme = Theme.of(context).colorScheme;
     final option = q.options[i];
 
@@ -697,7 +722,7 @@ class _QuizScreenState extends State<QuizScreen> {
           Icon(icon, color: color, size: 16),
           const SizedBox(width: 4),
           Text(
-            toArabicDigits(count),
+            displayNumber(count),
             style: TextStyle(
               color: color,
               fontWeight: FontWeight.bold,

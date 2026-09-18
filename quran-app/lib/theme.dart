@@ -24,6 +24,14 @@ const double kQuizScaleMax = 1.8;
 const double kQuizScaleStep = 0.1;
 final ValueNotifier<double> quizFontScaleNotifier = ValueNotifier(1.0);
 
+/// App-wide numeral system: Arabic-Indic (١٢٣, default) or Western (123).
+/// Not persisted across restarts (mirrors the notifiers above).
+enum NumeralSystem { arabicIndic, western }
+
+/// Global numeral-format notifier so any screen can switch the digit style.
+final ValueNotifier<NumeralSystem> numeralNotifier =
+    ValueNotifier(NumeralSystem.arabicIndic);
+
 ThemeData _baseTheme(
     Brightness brightness, ColorScheme colorScheme, Color scaffoldColor) {
   return ThemeData(
