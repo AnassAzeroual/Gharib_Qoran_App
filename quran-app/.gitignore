@@ -1,4 +1,4 @@
-# Flutter / Dart
+﻿# Flutter / Dart
 .dart_tool/
 .packages
 build/
@@ -21,3 +21,6 @@ assets/search_index.json
 android/key.properties
 android/app/*.jks
 android/app/*.keystore
+# Installer build artifacts (generated)
+installer/AlSiraj-Setup.exe
+installer/build_install.log

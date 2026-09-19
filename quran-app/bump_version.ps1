@@ -28,8 +28,21 @@ $bumps = 0
 if ($Patch) { $bumps++ }
 if ($Minor) { $bumps++ }
 if ($Major) { $bumps++ }
-if ($bumps -ne 1) {
-    throw 'Pass exactly one of: -Patch, -Minor, -Major'
+if ($bumps -eq 0) {
+    Write-Host ''
+    Write-Host 'Usage:  .\bump_version.ps1 -Patch | -Minor | -Major [-Build]' -ForegroundColor Cyan
+    Write-Host '  -Patch : 1.0.0 -> 1.0.1   (bug fix)' -ForegroundColor Gray
+    Write-Host '  -Minor : 1.0.1 -> 1.1.0   (new feature)' -ForegroundColor Gray
+    Write-Host '  -Major : 1.1.0 -> 2.0.0   (breaking change)' -ForegroundColor Gray
+    Write-Host '  -Build : also bump the Android build number (+N).' -ForegroundColor Gray
+    Write-Host '           Required for every Google Play upload; without it +N stays the same.' -ForegroundColor Gray
+    Write-Host ''
+    Write-Host 'Example: .\bump_version.ps1 -Patch -Build' -ForegroundColor Green
+    Write-Host ''
+    exit 0
+}
+if ($bumps -gt 1) {
+    throw 'Pass only ONE of: -Patch, -Minor, -Major'
 }
 
 # ---- Read current version from the source of truth: pubspec.yaml -------------
