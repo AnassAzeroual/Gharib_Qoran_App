@@ -1,0 +1,250 @@
+{
+  "page": {
+    "page_number": 262,
+    "header": {
+      "right": "سُورَةُ الرَّحْمَٰنِ",
+      "right_normalized": "سورة الرحمن",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرَّحْمَٰنِ",
+          "name_normalized": "سورة الرحمن",
+          "order": 55,
+          "ayat_count": 78,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 6,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
+            "word": "وَٱلنَّجْمُ",
+            "word_normalized": "والنجم",
+            "meaning": "الكَوْكَبُ فِي السَّمَاءِ.",
+            "meaning_normalized": "الكوكب في السماء"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ",
+            "word": "وَوَضَعَ ٱلْمِيزَانَ",
+            "word_normalized": "ووضع الميزان",
+            "meaning": "وَضَعَ فِي الأَرْضِ العَدْلَ.",
+            "meaning_normalized": "وضع في الأرض العدل"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+            "word": "أَلَّا تَطْغَوْا",
+            "word_normalized": "ألا تطغوا",
+            "meaning": "لِئَلَّا تَعْتَدُوا، وَتَخُونُوا.",
+            "meaning_normalized": "لئلا تعتدوا وتخونوا"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+            "word": "بِٱلْقِسْطِ",
+            "word_normalized": "بالقسط",
+            "meaning": "بِالعَدْلِ.",
+            "meaning_normalized": "بالعدل"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+            "word": "وَلَا تُخْسِرُوا",
+            "word_normalized": "ولا تخسروا",
+            "meaning": "وَلَا تَنْقُصُوا.",
+            "meaning_normalized": "ولا تنقصوا"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+            "word": "وَضَعَهَا لِلْأَنَامِ",
+            "word_normalized": "وضعها للأنام",
+            "meaning": "مَهَّدَهَا؛ لِيَسْتَقِرَّ عَلَيْهَا الخَلْقُ.",
+            "meaning_normalized": "مهدها ليستقر عليها الخلق"
+          },
+          {
+            "ayah_number": 11,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "فِيهَا فَـٰكِهَةٌۭ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ",
+            "word": "ٱلْأَكْمَامِ",
+            "word_normalized": "الاكمام",
+            "meaning": "الأَوْعِيَةِ الَّتِي يَكُونُ مِنْهَا التَّمْرُ.",
+            "meaning_normalized": "الأوعية التي يكون منها التمر"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+            "word": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ",
+            "word_normalized": "والحب ذو العصف",
+            "meaning": "وَفِيهَا الحَبُّ ذُو القِشْرِ وَالتِّبْنِ؛ رِزْقًا لَكُمْ وَلِأَنْعَامِكُمْ.",
+            "meaning_normalized": "وفيها الحب ذو القشر والتبن رزقا لكم ولأنعامكم"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+            "word": "وَٱلرَّيْحَانُ",
+            "word_normalized": "والريحان",
+            "meaning": "كُلُّ نَبْتٍ طَيِّبِ الرَّائِحَةِ.",
+            "meaning_normalized": "كل نبت طيب الرائحة"
+          },
+          {
+            "ayah_number": 14,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "خَلَقَ ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍۢ كَٱلْفَخَّارِ",
+            "word": "ٱلْإِنسَـٰنَ",
+            "word_normalized": "الانسن",
+            "meaning": "آدَمَ - عليه السلام -.",
+            "meaning_normalized": "آدم عليه السلام"
+          },
+          {
+            "ayah_number": 14,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "خَلَقَ ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍۢ كَٱلْفَخَّارِ",
+            "word": "صَلْصَـٰلٍۢ",
+            "word_normalized": "صلصل",
+            "meaning": "طِينٍ يَابِسٍ يُسْمَعُ لَهُ صَلْصَلَةٌ.",
+            "meaning_normalized": "طين يابس يسمع له صلصلة"
+          },
+          {
+            "ayah_number": 14,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "خَلَقَ ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍۢ كَٱلْفَخَّارِ",
+            "word": "كَٱلْفَخَّارِ",
+            "word_normalized": "كالفخار",
+            "meaning": "هُوَ الطِّينُ الَّذِي يُطْبَخُ لِيَتَحَجَّرَ.",
+            "meaning_normalized": "هو الطين الذي يطبخ ليتحجر"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍۢ مِّن نَّارٍۢ",
+            "word": "ٱلْجَآنَّ",
+            "word_normalized": "الجان",
+            "meaning": "إِبْلِيسَ.",
+            "meaning_normalized": "إبليس"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍۢ مِّن نَّارٍۢ",
+            "word": "مَّارِجٍۢ مِّن نَّارٍۢ",
+            "word_normalized": "مارج من نار",
+            "meaning": "لَهَبِ النَّارِ المُخْتَلِطِ بَعْضُهُ بِبَعْضٍ.",
+            "meaning_normalized": "لهب النار المختلط بعضه ببعض"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+            "word": "ءَالَآءِ رَبِّكُمَا",
+            "word_normalized": "ءالاء ربكما",
+            "meaning": "نِعَمِ رَبِّكُمَا.",
+            "meaning_normalized": "نعم ربكما"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+            "word": "تُكَذِّبَانِ",
+            "word_normalized": "تكذبان",
+            "meaning": "يَا مَعْشَرَ الإِنْسِ وَالِجنِّ.",
+            "meaning_normalized": "يا معشر الإنس والجن"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
+            "word": "ٱلْمَشْرِقَيْنِ",
+            "word_normalized": "المشرقين",
+            "meaning": "مَشْرِقِ الشَّمْسِ؛ فِي الشِّتَاءِ، وَالصَّيْفِ.",
+            "meaning_normalized": "مشرق الشمس في الشتاء والصيف"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
+            "word": "ٱلْمَغْرِبَيْنِ",
+            "word_normalized": "المغربين",
+            "meaning": "مَغْرِبِ الشَّمْسِ؛ فِي الشِّتَاءِ، وَالصَّيْفِ.",
+            "meaning_normalized": "مغرب الشمس في الشتاء والصيف"
+          },
+          {
+            "ayah_number": 19,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+            "word": "مَرَجَ ٱلْبَحْرَيْنِ",
+            "word_normalized": "مرج البحرين",
+            "meaning": "خَلَطَ مَاءَ البَحْرَيْنِ: العَذْبَ، وَالمَالِحَ.",
+            "meaning_normalized": "خلط ماء البحرين العذب والمالح"
+          },
+          {
+            "ayah_number": 20,
+            "thumun": 425,
+            "hizb": 54,
+            "thumun_in_hizb": 1,
+            "ayah": "بَيْنَهُمَا بَرْزَخٌۭ لَّا يَبْغِيَانِ",
+            "word": "بَرْزَخٌ",
+            "word_normalized": "برزخ",
+            "meaning": "حَاجِزٌ.",
+            "meaning_normalized": "حاجز"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "page": {
+    "page_number": 336,
+    "header": {
+      "right": "سُورَةُ الْعَادِيَاتِ - سُورَةُ الْقَارِعَةِ",
+      "right_normalized": "سورة العاديات - سورة القارعة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْعَادِيَاتِ",
+          "name_normalized": "سورة العاديات",
+          "order": 100,
+          "ayat_count": 11,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلْعَـٰدِيَـٰتِ ضَبْحًۭا",
+            "word": "وَٱلْعَـٰدِيَـٰتِ ضَبْحًۭا",
+            "word_normalized": "والعديت ضبحا",
+            "meaning": "قَسَمٌ بِالخَيْلِ الجَارِيَةِ فِي سَبِيلِ اللهِ، حِينَ يَظْهَرُ صَوْتُهَا مِنْ سُرْعَةِ عَدْوِهَا.",
+            "meaning_normalized": "قسم بالخيل الجارية في سبيل الله حين يظهر صوتها من سرعة عدوها"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "فَٱلْمُورِيَـٰتِ قَدْحًۭا",
+            "word": "فَٱلْمُورِيَـٰتِ قَدْحًۭا",
+            "word_normalized": "فالموريت قدحا",
+            "meaning": "فَالمُوقِدَاتِ بِحَوَافِرِهَا النَّارَ مِنْ شِدَّةِ عَدْوِهَا.",
+            "meaning_normalized": "فالموقدات بحوافرها النار من شدة عدوها"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+            "word": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+            "word_normalized": "فالمغيرت صبحا",
+            "meaning": "فَالخَيْلِ الَّتِي تُغِيرُ وَتُبَاغِتُ العَدُوَّ صَبَاحًا.",
+            "meaning_normalized": "فالخيل التي تغير وتباغت العدو صباحا"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+            "word": "فَأَثَرْنَ",
+            "word_normalized": "فأثرن",
+            "meaning": "فَهَيَّجْنَ.",
+            "meaning_normalized": "فهيجن"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+            "word": "نَقْعًۭا",
+            "word_normalized": "نقعا",
+            "meaning": "غُبَارًا.",
+            "meaning_normalized": "غبارا"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+            "word": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+            "word_normalized": "فوسطن به جمعا",
+            "meaning": "فَتَوَسَّطْنَ بِرُكْبَانِهِنَّ جُمُوعَ الأَعْدَاءِ.",
+            "meaning_normalized": "فتوسطن بركبانهن جموع الأعداء"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+            "word": "لَكَنُودٌ",
+            "word_normalized": "لكنود",
+            "meaning": "لَجَحُودٌ.",
+            "meaning_normalized": "لجحود"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+            "word": "لَشَهِيدٌ",
+            "word_normalized": "لشهيد",
+            "meaning": "لَمُقِرٌّ عَلَى جُحُودِهِ.",
+            "meaning_normalized": "لمقر على جحوده"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 478,
+            "hizb": 60,
+            "thumun_in_hizb": 6,
+            "ayah": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+            "word": "ٱلْخَيْرِ",
+            "word_normalized": "الخير",
+            "meaning": "المَالِ.",
+            "meaning_normalized": "المال"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+            "word": "بُعْثِرَ",
+            "word_normalized": "بعثر",
+            "meaning": "أُثِيرَ، وَأُخْرِجَ.",
+            "meaning_normalized": "أثير وأخرج"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+            "word": "وَحُصِّلَ",
+            "word_normalized": "وحصل",
+            "meaning": "اُسْتُخْرِجَ، وَأُبْرِزَ.",
+            "meaning_normalized": "استخرج وأبرز"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَارِعَةِ",
+          "name_normalized": "سورة القارعة",
+          "order": 101,
+          "ayat_count": 11,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ",
+            "word": "ٱلْقَارِعَةُ",
+            "word_normalized": "القارعه",
+            "meaning": "القِيَامَةُ الَّتِي تَقْرَعُ القُلُوبَ بِأَهْوَالِهَا.",
+            "meaning_normalized": "القيامة التي تقرع القلوب بأهوالها"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+            "word": "ٱلْمَبْثُوثِ",
+            "word_normalized": "المبثوث",
+            "meaning": "المُنْتَشِرِ.",
+            "meaning_normalized": "المنتشر"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+            "word": "كَٱلْعِهْنِ",
+            "word_normalized": "كالعهن",
+            "meaning": "كَالصُّوفِ المَصْبُوغِ بِأَلْوَانٍ مُخْتَلِفَةٍ.",
+            "meaning_normalized": "كالصوف المصبوغ بألوان مختلفة"
+          }
+        ]
+      }
+    ]
+  }
+}

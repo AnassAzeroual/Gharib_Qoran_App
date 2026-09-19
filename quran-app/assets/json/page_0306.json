@@ -1,0 +1,239 @@
+{
+  "page": {
+    "page_number": 306,
+    "header": {
+      "right": "سُورَةُ الْقِيَامَةِ",
+      "right_normalized": "سورة القيامة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقِيَامَةِ",
+          "name_normalized": "سورة القيامة",
+          "order": 75,
+          "ayat_count": 40,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 14,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "بَلِ ٱلْإِنسَـٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ",
+            "word": "عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ",
+            "word_normalized": "علي نفسه بصيره",
+            "meaning": "شَاهِدٌ تَنْطقُ جَوَارِحُهُ بِعَملِهِ.",
+            "meaning_normalized": "شاهد تنطق جوارحه بعمله"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ",
+            "word": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ",
+            "word_normalized": "ولو القي معاذيره",
+            "meaning": "لَوْ جَاءَ بِكُلِّ مَعْذِرَةٍ يَعْتَذِرُ بِهَا، مَا قُبِلَتْ.",
+            "meaning_normalized": "لو جاء بكل معذرة يعتذر بها ما قبلت"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "لَا تُحَرِّكْ بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ",
+            "word": "لِتَعْجَلَ بِهِ",
+            "word_normalized": "لتعجل به",
+            "meaning": "لِتَسْتَعْجِلَ حِفْظَ مَا يُوحَى إِلَيْكَ.",
+            "meaning_normalized": "لتستعجل حفظ ما يوحى إليك"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ",
+            "word": "جَمْعَهُ",
+            "word_normalized": "جمعه",
+            "meaning": "فِي صَدْرِكَ.",
+            "meaning_normalized": "في صدرك"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ",
+            "word": "وَقُرْءَانَهُۥ",
+            "word_normalized": "وقرءانه",
+            "meaning": "قِرَاءَتَهُ بِلِسَانِكَ مَتَى شِئْتَ.",
+            "meaning_normalized": "قراءته بلسانك متى شئت"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "فَإِذَا قَرَأْنَـٰهُ فَٱتَّبِعْ قُرْءَانَهُۥ",
+            "word": "فَٱتَّبِعْ قُرْءَانَهُۥ",
+            "word_normalized": "فاتبع قرءانه",
+            "meaning": "اسْتَمِعْ لِقِرَاءَتِهِ مِنْ جِبْرِيلَ، ثُمَّ اقْرَاهُ كَمَا أَقْرَأَكَ.",
+            "meaning_normalized": "استمع لقراءته من جبريل ثم اقراه كما أقرأك"
+          },
+          {
+            "ayah_number": 19,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُۥ",
+            "word": "بَيَانَهُ",
+            "word_normalized": "بيانه",
+            "meaning": "تَفْسِيرَ مَا أَشْكَلَ عَلَيْكَ فَهْمُهُ.",
+            "meaning_normalized": "تفسير ما أشكل عليك فهمه"
+          },
+          {
+            "ayah_number": 22,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "وُجُوهٌۭ يَوْمَئِذٍۢ نَّاضِرَةٌ",
+            "word": "نَّاضِرَةٌ",
+            "word_normalized": "ناضرة",
+            "meaning": "مُشْرِقَةٌ، حَسَنَةٌ.",
+            "meaning_normalized": "مشرقة حسنة"
+          },
+          {
+            "ayah_number": 23,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "إِلَىٰ رَبِّهَا نَاظِرَةٌۭ",
+            "word": "نَاظِرَةٌ",
+            "word_normalized": "ناظرة",
+            "meaning": "تَرَى رَبَّهَا فِي الجَنَّةِ.",
+            "meaning_normalized": "ترى ربها في الجنة"
+          },
+          {
+            "ayah_number": 24,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "وَوُجُوهٌۭ يَوْمَئِذٍۭ بَاسِرَةٌۭ",
+            "word": "بَاسِرَةٌ",
+            "word_normalized": "باسرة",
+            "meaning": "عَابِسَةٌ، كَالِحَةٌ.",
+            "meaning_normalized": "عابسة كالحة"
+          },
+          {
+            "ayah_number": 25,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "تَظُنُّ أَن يُفْعَلَ بِهَا فَاقِرَةٌۭ",
+            "word": "فَاقِرَةٌ",
+            "word_normalized": "فاقرة",
+            "meaning": "مُصِيبَةٌ عَظِيمَةٌ تَقْصِمُ فَقَارَ الظَّهْرِ.",
+            "meaning_normalized": "مصيبة عظيمة تقصم فقار الظهر"
+          },
+          {
+            "ayah_number": 26,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ",
+            "word": "كَلَّا",
+            "word_normalized": "كلا",
+            "meaning": "حَقًّا.",
+            "meaning_normalized": "حقا"
+          },
+          {
+            "ayah_number": 26,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ",
+            "word": "بَلَغَتِ ٱلتَّرَاقِىَ",
+            "word_normalized": "بلغت التراقي",
+            "meaning": "وَصَلَتِ الرُّوحُ إِلَى أَعَالِي الصَّدْرِ.",
+            "meaning_normalized": "وصلت الروح إلى أعالي الصدر"
+          },
+          {
+            "ayah_number": 27,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "وَقِيلَ مَنْ ۜ رَاقٍۢ",
+            "word": "مَنْ ۜ رَاقٍ",
+            "word_normalized": "من راق",
+            "meaning": "هَلْ مِنْ رَاقٍ يَرْقِيهِ، وَيَشْفِيهِ؟",
+            "meaning_normalized": "هل من راق يرقيه ويشفيه"
+          },
+          {
+            "ayah_number": 28,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "وَظَنَّ أَنَّهُ ٱلْفِرَاقُ",
+            "word": "وَظَنَّ",
+            "word_normalized": "وظن",
+            "meaning": "أَيْقَنَ المُحْتَضِرُ.",
+            "meaning_normalized": "أيقن المحتضر"
+          },
+          {
+            "ayah_number": 29,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
+            "word": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
+            "word_normalized": "والتفت الساق بالساق",
+            "meaning": "اتَّصَلَتْ شِدَّةُ آخِرِ الدُّنْيَا بِشِدَّةِ أَوَّلِ الآخِرَةِ، وَالْتَفَّتْ إِحْدَى سَاقَيْهِ بِالأُخْرَى عِنْدَ المَوْتِ.",
+            "meaning_normalized": "اتصلت شدة آخر الدنيا بشدة أول الآخرة والتفت إحدى ساقيه بالأخرى عند الموت"
+          },
+          {
+            "ayah_number": 30,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ",
+            "word": "ٱلْمَسَاقُ",
+            "word_normalized": "المساق",
+            "meaning": "سَوْقُ العِبَادِ لِلْجَزَاءِ.",
+            "meaning_normalized": "سوق العباد للجزاء"
+          },
+          {
+            "ayah_number": 32,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ",
+            "word": "وَتَوَلَّى",
+            "word_normalized": "وتولى",
+            "meaning": "أَعْرَضَ عَنِ الإِيمَانِ.",
+            "meaning_normalized": "أعرض عن الإيمان"
+          },
+          {
+            "ayah_number": 33,
+            "thumun": 461,
+            "hizb": 58,
+            "thumun_in_hizb": 5,
+            "ayah": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ",
+            "word": "يَتَمَطَّى",
+            "word_normalized": "يتمطى",
+            "meaning": "يَتَبَخْتَرُ فِي مِشْيَتِهِ مُخْتَالًا.",
+            "meaning_normalized": "يتبختر في مشيته مختالا"
+          }
+        ]
+      }
+    ]
+  }
+}

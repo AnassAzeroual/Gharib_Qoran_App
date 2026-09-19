@@ -1,0 +1,234 @@
+{
+  "page": {
+    "page_number": 320,
+    "header": {
+      "right": "سُورَةُ الِانْفِطَارِ - سُورَةُ الْمُطَفِّفِينَ",
+      "right_normalized": "سورة الانفطار - سورة المطففين",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الِانْفِطَارِ",
+          "name_normalized": "سورة الانفطار",
+          "order": 82,
+          "ayat_count": 19,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 9,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ",
+            "word": "بِٱلدِّينِ",
+            "word_normalized": "بالدين",
+            "meaning": "يَوْمِ الجَزَاءِ، وَالحِسَابِ.",
+            "meaning_normalized": "يوم الجزاء والحساب"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "وَإِنَّ عَلَيْكُمْ لَحَـٰفِظِينَ",
+            "word": "لَحَـٰفِظِينَ",
+            "word_normalized": "لحفظين",
+            "meaning": "لَمَلَائِكَةً رُقَبَاءَ يَكْتُبُونَ أَعْمَالَكُم.",
+            "meaning_normalized": "لملائكة رقباء يكتبون أعمالكم"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "وَمَا هُمْ عَنْهَا بِغَآئِبِينَ",
+            "word": "بِغَائِبِينَ",
+            "word_normalized": "بغائبين",
+            "meaning": "فَلَا يَخْرُجُونَ مِنْ جَهَنَّمَ، وَلَا يَمُوتُونَ.",
+            "meaning_normalized": "فلا يخرجون من جهنم ولا يموتون"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُطَفِّفِينَ",
+          "name_normalized": "سورة المطففين",
+          "order": 83,
+          "ayat_count": 36,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+            "word": "وَيْلٌ",
+            "word_normalized": "ويل",
+            "meaning": "عَذَابٌ شَدِيدٌ.",
+            "meaning_normalized": "عذاب شديد"
+          },
+          {
+            "ayah_number": 1,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+            "word": "لِّلْمُطَفِّفِينَ",
+            "word_normalized": "للمطففين",
+            "meaning": "الَّذِينَ يَبْخَسُونَ المِكْيَالَ، وَالمِيزَانَ.",
+            "meaning_normalized": "الذين يبخسون المكيال والميزان"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+            "word": "يُخْسِرُونَ",
+            "word_normalized": "يخسرون",
+            "meaning": "يَنْقُصُونَ فيِ المِكْيَالِ، وَالمِيزَانَ.",
+            "meaning_normalized": "ينقصون في المكيال والميزان"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "أَلَا يَظُنُّ أُو۟لَـٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+            "word": "يَظُنُّ",
+            "word_normalized": "يظن",
+            "meaning": "يَعتَقِدُ.",
+            "meaning_normalized": "يعتقد"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ",
+            "word": "كِتَـٰبَ ٱلْفُجَّارِ",
+            "word_normalized": "كتب الفجار",
+            "meaning": "كِتَابَ أَعْمَالِهِمْ، أَوْ مَصِيرَهُمِ.",
+            "meaning_normalized": "كتاب أعمالهم أو مصيرهم"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ",
+            "word": "سِجِّينٍ",
+            "word_normalized": "سجين",
+            "meaning": "سِجْنٍ، وَضِيقٍ.",
+            "meaning_normalized": "سجن وضيق"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "كِتَـٰبٌۭ مَّرْقُومٌۭ",
+            "word": "مَّرْقُومٌ",
+            "word_normalized": "مرقوم",
+            "meaning": "مَكْتُوبٌ كَالرَّقْمِ فِي الثَّوْبِ لَا يُمْحَى.",
+            "meaning_normalized": "مكتوب كالرقم في الثوب لا يمحى"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+            "word": "مُعْتَدٍ",
+            "word_normalized": "معتد",
+            "meaning": "ظَالِمِ مُتَجَاوِزٍ لِلْحَدِّ.",
+            "meaning_normalized": "ظالم متجاوز للحد"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+            "word": "أَثِيمٍ",
+            "word_normalized": "أثيم",
+            "meaning": "كَثِيرِ الإِثْمِ.",
+            "meaning_normalized": "كثير الإثم"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
+            "word": "أَسَـٰطِيرُ",
+            "word_normalized": "اسطير",
+            "meaning": "أَبَاطِيلُ.",
+            "meaning_normalized": "أباطيل"
+          },
+          {
+            "ayah_number": 14,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+            "word": "رَانَ",
+            "word_normalized": "ران",
+            "meaning": "غَطَّى.",
+            "meaning_normalized": "غطى"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ",
+            "word": "لَّمَحْجُوبُونَ",
+            "word_normalized": "لمحجوبون",
+            "meaning": "مَحْرُومُونَ مِنْ رُؤْيَةِ رَبِّهِمْ.",
+            "meaning_normalized": "محرومون من رؤية ربهم"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+            "word": "لَصَالُوا۟ ٱلْجَحِيمِ",
+            "word_normalized": "لصالوا الجحيم",
+            "meaning": "لَدَاخِلُو النَّارِ يُقَاسُونَ حَرَّهَا.",
+            "meaning_normalized": "لداخلو النار يقاسون حرها"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 470,
+            "hizb": 59,
+            "thumun_in_hizb": 6,
+            "ayah": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+            "word": "لَفِى عِلِّيِّينَ",
+            "word_normalized": "لفي عليين",
+            "meaning": "لَفِي مَرْتَبَةٍ، وَمَكَانٍ عَالٍ.",
+            "meaning_normalized": "لفي مرتبة ومكان عال"
+          }
+        ]
+      }
+    ]
+  }
+}

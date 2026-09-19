@@ -1,0 +1,217 @@
+{
+  "page": {
+    "page_number": 310,
+    "header": {
+      "right": "سُورَةُ الْمُرْسَلَاتِ",
+      "right_normalized": "سورة المرسلات",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمُرْسَلَاتِ",
+          "name_normalized": "سورة المرسلات",
+          "order": 77,
+          "ayat_count": 50,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "فَٱلْفَـٰرِقَـٰتِ فَرْقًۭا",
+            "word": "فَٱلْفَـٰرِقَـٰتِ فَرْقًۭا",
+            "word_normalized": "فالفرقت فرقا",
+            "meaning": "قَسَمٌ بِالمَلَائِكَةِ الَّتِي تَنْزِلُ بِما يَفْرِقُ بَيْنَ الحَقِّ، وَالبَاطِلِ.",
+            "meaning_normalized": "قسم بالملائكة التي تنزل بما يفرق بين الحق والباطل"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا",
+            "word": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا",
+            "word_normalized": "فالملقيت ذكرا",
+            "meaning": "قَسَمٌ بِالمَلَائِكَةِ الَّتِي تَتَلَقَّى الوَحْيَ مِنَ اللهِ، وَتَنْزِلُ بِهِ عَلَى الأَنْبِيَاءِ.",
+            "meaning_normalized": "قسم بالملائكة التي تتلقى الوحي من الله وتنزل به على الأنبياء"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "عُذْرًا أَوْ نُذْرًا",
+            "word": "عُذْرًا",
+            "word_normalized": "عذرا",
+            "meaning": "إِعْذَارًا مِنَ اللهِ إِلَى خَلْقِهِ.",
+            "meaning_normalized": "إعذارا من الله إلى خلقه"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "عُذْرًا أَوْ نُذْرًا",
+            "word": "نُذْرًا",
+            "word_normalized": "نذرا",
+            "meaning": "لِلإِنْذَارِ مِنَ اللهِ إَلَى خَلْقِهِ.",
+            "meaning_normalized": "للإنذار من الله إلى خلقه"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌۭ",
+            "word": "تُوعَدُونَ",
+            "word_normalized": "توعدون",
+            "meaning": "مِنْ أَمْرِ القِيَامَةِ وَمَا فِيهَا مِنْ جَزَاءٍ، وَحِسَابٍ.",
+            "meaning_normalized": "من أمر القيامة وما فيها من جزاء وحساب"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
+            "word": "طُمِسَتْ",
+            "word_normalized": "طمست",
+            "meaning": "مُحِيَتْ، وَذَهَبَ نُورُهَا.",
+            "meaning_normalized": "محيت وذهب نورها"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
+            "word": "فُرِجَتْ",
+            "word_normalized": "فرجت",
+            "meaning": "تَصَدَّعَتْ، وَتَشَقَّقَتْ.",
+            "meaning_normalized": "تصدعت وتشققت"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
+            "word": "نُسِفَتْ",
+            "word_normalized": "نسفت",
+            "meaning": "تَطَايَرَتْ، وَتَنَاثَرَتْ.",
+            "meaning_normalized": "تطايرت وتناثرت"
+          },
+          {
+            "ayah_number": 11,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
+            "word": "أُقِّتَتْ",
+            "word_normalized": "أقتت",
+            "meaning": "عُيِّنَ لَهُمْ وَقْتٌ وَأَجَلٌ، لِلْفَصْلِ بَيْنَهُمْ وَبَيْنَ أُمَمِهِمْ.",
+            "meaning_normalized": "عين لهم وقت وأجل للفصل بينهم وبين أممهم"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
+            "word": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
+            "word_normalized": "لاي يوم اجلت",
+            "meaning": "لِأَيِّ يَوْمٍ عَظِيمٍ أُخِّرَتِ الرُّسُلُ.",
+            "meaning_normalized": "لأي يوم عظيم أخرت الرسل"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "لِيَوْمِ ٱلْفَصْلِ",
+            "word": "لِيَوْمِ ٱلْفَصْلِ",
+            "word_normalized": "ليوم الفصل",
+            "meaning": "لِيَوْمٍ يُفْصَلُ فِيهِ وَيُقْضَى بَيْنَ الخَلَائِقِ.",
+            "meaning_normalized": "ليوم يفصل فيه ويقضى بين الخلائق"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 463,
+            "hizb": 58,
+            "thumun_in_hizb": 7,
+            "ayah": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+            "word": "وَيْلٌ",
+            "word_normalized": "ويل",
+            "meaning": "هَلَاكٌ عَظِيمٌ.",
+            "meaning_normalized": "هلاك عظيم"
+          },
+          {
+            "ayah_number": 20,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
+            "ayah": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍۢ مَّهِينٍۢ",
+            "word": "مَّآءٍۢ مَّهِينٍۢ",
+            "word_normalized": "ماء مهين",
+            "meaning": "ضَعِيفٍ حَقِيرٍ؛ وَهُوَ النُّطْفَةُ.",
+            "meaning_normalized": "ضعيف حقير وهو النطفة"
+          },
+          {
+            "ayah_number": 21,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
+            "ayah": "فَجَعَلْنَـٰهُ فِى قَرَارٍۢ مَّكِينٍ",
+            "word": "قَرَارٍۢ مَّكِينٍ",
+            "word_normalized": "قرار مكين",
+            "meaning": "مَكَانٍ حَصِينٍ مُتَمَكِّنٍ.",
+            "meaning_normalized": "مكان حصين متمكن"
+          },
+          {
+            "ayah_number": 22,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
+            "ayah": "إِلَىٰ قَدَرٍۢ مَّعْلُومٍۢ",
+            "word": "قَدَرٍ",
+            "word_normalized": "قدر",
+            "meaning": "وَقْتٍ.",
+            "meaning_normalized": "وقت"
+          },
+          {
+            "ayah_number": 25,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
+            "ayah": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
+            "word": "كِفَاتًا",
+            "word_normalized": "كفاتا",
+            "meaning": "وِعَاءً تَضُمُّ الأَحْيَاءَ وَالأَمْوَاتَ.",
+            "meaning_normalized": "وعاء تضم الأحياء والأموات"
+          },
+          {
+            "ayah_number": 27,
+            "thumun": 464,
+            "hizb": 58,
+            "thumun_in_hizb": 8,
+            "ayah": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍۢ وَأَسْقَيْنَـٰكُم مَّآءًۭ فُرَاتًۭا",
+            "word": "رَوَٰسِىَ شَـٰمِخَـٰتٍۢ",
+            "word_normalized": "روسي شمخت",
+            "meaning": "جِبَالًا ثَوَابِتَ، مُرْتَفِعَاتٍ.",
+            "meaning_normalized": "جبالا ثوابت مرتفعات"
+          }
+        ]
+      }
+    ]
+  }
+}

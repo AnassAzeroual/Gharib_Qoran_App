@@ -1,0 +1,223 @@
+{
+  "page": {
+    "page_number": 329,
+    "header": {
+      "right": "سُورَةُ الشَّمْسِ",
+      "right_normalized": "سورة الشمس",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبَلَدِ",
+          "name_normalized": "سورة البلد",
+          "order": 90,
+          "ayat_count": 20,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 19,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+            "word": "ٱلْمَشْـَٔمَةِ",
+            "word_normalized": "المشمه",
+            "meaning": "الشِّمَالِ؛ بِأَنْ يُؤْخَذَ بِهِمْ ذَاتَ الشِّمَالِ إِلَى النَّارِ.",
+            "meaning_normalized": "الشمال بأن يؤخذ بهم ذات الشمال إلى النار"
+          },
+          {
+            "ayah_number": 20,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ",
+            "word": "مُّؤْصَدَةٌ",
+            "word_normalized": "مؤصدة",
+            "meaning": "مُطْبَقَةٌ مُغْلَقَةٌ.",
+            "meaning_normalized": "مطبقة مغلقة"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشَّمْسِ",
+          "name_normalized": "سورة الشمس",
+          "order": 91,
+          "ayat_count": 15,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلشَّمْسِ وَضُحَىٰهَا",
+            "word": "وَضُحَىٰهَا",
+            "word_normalized": "وضحيها",
+            "meaning": "قَسَمٌ بِإِشِرَاقِ الشَّمْسِ ضُحًى.",
+            "meaning_normalized": "قسم بإشراق الشمس ضحى"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+            "word": "تَلَىٰهَا",
+            "word_normalized": "تليها",
+            "meaning": "تَبِعَ الشَّمْسَ فيِ الطُّلُوعِ وَالأُفُولِ.",
+            "meaning_normalized": "تبع الشمس في الطلوع والأفول"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+            "word": "جَلَّىٰهَا",
+            "word_normalized": "جليها",
+            "meaning": "كَشَفَ ظْلْمَةَ اللَّيْلِ وَأَزَالَهَا.",
+            "meaning_normalized": "كشف ظلمة الليل وأزالها"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+            "word": "يَغْشَىٰهَا",
+            "word_normalized": "يغشيها",
+            "meaning": "يُغَطِّي الأَرْضَ بِظُلْمَتِهِ.",
+            "meaning_normalized": "يغطي الأرض بظلمته"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+            "word": "طَحَىٰهَا",
+            "word_normalized": "طحيها",
+            "meaning": "بَسَطَهَا.",
+            "meaning_normalized": "بسطها"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "وَنَفْسٍۢ وَمَا سَوَّىٰهَا",
+            "word": "سَوَّىٰهَا",
+            "word_normalized": "سويها",
+            "meaning": "أَكْمَلَ خَلْقَهَا؛ لِأَدَاءِ مُهِمَّتِهَا.",
+            "meaning_normalized": "أكمل خلقها لأداء مهمتها"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+            "word": "فَأَلْهَمَهَا",
+            "word_normalized": "فألهمها",
+            "meaning": "بَيَّنَ لَهَا.",
+            "meaning_normalized": "بين لها"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+            "word": "فُجُورَهَا وَتَقْوَىٰهَا",
+            "word_normalized": "فجورها وتقويها",
+            "meaning": "طَرِيقَ الخَيْرِ، وَطَرِيقَ الشَّرِّ.",
+            "meaning_normalized": "طريق الخير وطريق الشر"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+            "word": "زَكَّىٰهَا",
+            "word_normalized": "زكيها",
+            "meaning": "طَهَّرَهَا وَنَمَّاهَا بِالطَّاعَةِ.",
+            "meaning_normalized": "طهرها ونماها بالطاعة"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+            "word": "خَابَ",
+            "word_normalized": "خاب",
+            "meaning": "خَسِرَ.",
+            "meaning_normalized": "خسر"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+            "word": "دَسَّىٰهَا",
+            "word_normalized": "دسيها",
+            "meaning": "أَخْفَى نَفْسَهُ، وَنَقَصَهَا بِالمَعَاصِي.",
+            "meaning_normalized": "أخفى نفسه ونقصها بالمعاصي"
+          },
+          {
+            "ayah_number": 11,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+            "word": "بِطَغْوَىٰهَآ",
+            "word_normalized": "بطغويها",
+            "meaning": "بِسَبَبِ طُغْيَانِهَا، وَتَجَاوُزِهَا الحَدَّ فِي العِصْيَانِ.",
+            "meaning_normalized": "بسبب طغيانها وتجاوزها الحد في العصيان"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+            "word": "ٱنۢبَعَثَ",
+            "word_normalized": "انبعث",
+            "meaning": "نَهَضَ مُسْرِعًا؛ لِعَقْرِ النَّاقَةِ.",
+            "meaning_normalized": "نهض مسرعا لعقر الناقة"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 475,
+            "hizb": 60,
+            "thumun_in_hizb": 3,
+            "ayah": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+            "word": "أَشْقَىٰهَا",
+            "word_normalized": "اشقيها",
+            "meaning": "أَكْثَرُهُمْ شَقَاوَةً، وَتَمَرُّدًا؛ وَهُوَ قُدَارُ بْنُ سَالِفٍ.",
+            "meaning_normalized": "أكثرهم شقاوة وتمردا وهو قدار بن سالف"
+          }
+        ]
+      }
+    ]
+  }
+}

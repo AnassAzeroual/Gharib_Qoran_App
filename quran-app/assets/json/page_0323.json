@@ -1,0 +1,223 @@
+{
+  "page": {
+    "page_number": 323,
+    "header": {
+      "right": "سُورَةُ الطَّارِقِ",
+      "right_normalized": "سورة الطارق",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْبُرُوجِ",
+          "name_normalized": "سورة البروج",
+          "order": 85,
+          "ayat_count": 22,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
+            "ayah": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
+            "word": "قُتِلَ",
+            "word_normalized": "قتل",
+            "meaning": "لُعِنَ، وَعُذِّبَ، وَهَلَكَ.",
+            "meaning_normalized": "لعن وعذب وهلك"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
+            "ayah": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
+            "word": "أَصْحَـٰبُ ٱلْأُخْدُودِ",
+            "word_normalized": "اصحب الاخدود",
+            "meaning": "الَّذِينَ شَقُّوا فِي الأَرْضِ شَقًّا عَظِيمًا؛ لِإِحْرَاقِ المُؤْمِنِينَ.",
+            "meaning_normalized": "الذين شقوا في الأرض شقا عظيما لإحراق المؤمنين"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
+            "ayah": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
+            "word": "ٱلْوَقُودِ",
+            "word_normalized": "الوقود",
+            "meaning": "مَا تُشْعَلُ وَتُوقَدُ بِهِ النَّارُ.",
+            "meaning_normalized": "ما تشعل وتوقد به النار"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
+            "ayah": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌۭ",
+            "word": "شُهُودٌ",
+            "word_normalized": "شهود",
+            "meaning": "حُضُورٌ.",
+            "meaning_normalized": "حضور"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
+            "ayah": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+            "word": "فَتَنُوا",
+            "word_normalized": "فتنوا",
+            "meaning": "حَرَّقُوا بِالنَّارِ.",
+            "meaning_normalized": "حرقوا بالنار"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 471,
+            "hizb": 59,
+            "thumun_in_hizb": 7,
+            "ayah": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+            "word": "عَذَابُ ٱلْحَرِيقِ",
+            "word_normalized": "عذاب الحريق",
+            "meaning": "العَذَابُ المُحْرِقُ.",
+            "meaning_normalized": "العذاب المحرق"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+            "word": "بَطْشَ",
+            "word_normalized": "بطش",
+            "meaning": "انْتِقَامَ.",
+            "meaning_normalized": "انتقام"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+            "word": "يُبْدِئُ",
+            "word_normalized": "يبدئ",
+            "meaning": "يَخْلُقُ الخَلْقَ ابْتِدَاءً.",
+            "meaning_normalized": "يخلق الخلق ابتداء"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+            "word": "وَيُعِيدُ",
+            "word_normalized": "ويعيد",
+            "meaning": "يُحْيِيهِمْ بَعْدَ مَوْتِهِمْ.",
+            "meaning_normalized": "يحييهم بعد موتهم"
+          },
+          {
+            "ayah_number": 14,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
+            "word": "ٱلْوَدُودُ",
+            "word_normalized": "الودود",
+            "meaning": "المُحِبُّ لِأَوْلِيَائِهِ، المَحْبُوبُ لَهُمْ.",
+            "meaning_normalized": "المحب لأوليائه المحبوب لهم"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
+            "word": "ٱلْمَجِيدُ",
+            "word_normalized": "المجيد",
+            "meaning": "العَظِيمُ.",
+            "meaning_normalized": "العظيم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الطَّارِقِ",
+          "name_normalized": "سورة الطارق",
+          "order": 86,
+          "ayat_count": 17,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+            "word": "وَٱلطَّارِقِ",
+            "word_normalized": "والطارق",
+            "meaning": "النَّجْمِ الَّذِي يَطْلُعُ لَيْلًا.",
+            "meaning_normalized": "النجم الذي يطلع ليلا"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+            "word": "ٱلثَّاقِبُ",
+            "word_normalized": "الثاقب",
+            "meaning": "المُضِيءُ المُتَوَهِّجُ.",
+            "meaning_normalized": "المضيء المتوهج"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "إِن كُلُّ نَفْسٍۢ لَّمَّا عَلَيْهَا حَافِظٌۭ",
+            "word": "إِن كُلُّ نَفْسٍۢ لَّمَّا",
+            "word_normalized": "ان كل نفس لما",
+            "meaning": "مَا كُلُّ نَفْسٍ إِلَّا.",
+            "meaning_normalized": "ما كل نفس إلا"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "إِن كُلُّ نَفْسٍۢ لَّمَّا عَلَيْهَا حَافِظٌۭ",
+            "word": "حَافِظٌ",
+            "word_normalized": "حافظ",
+            "meaning": "مَلَكٌ يَحْفَظُ أَعْمَالَهَا.",
+            "meaning_normalized": "ملك يحفظ أعمالها"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 472,
+            "hizb": 59,
+            "thumun_in_hizb": 8,
+            "ayah": "خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ",
+            "word": "دَافِقٍ",
+            "word_normalized": "دافق",
+            "meaning": "مُنْصَبٍّ بِسُرْعَةٍ فِي الرَّحِمِ.",
+            "meaning_normalized": "منصب بسرعة في الرحم"
+          }
+        ]
+      }
+    ]
+  }
+}

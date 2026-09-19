@@ -1,0 +1,223 @@
+{
+  "page": {
+    "page_number": 317,
+    "header": {
+      "right": "سُورَةُ التَّكْوِيرِ",
+      "right_normalized": "سورة التكوير",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ عَبَسَ",
+          "name_normalized": "سورة عبس",
+          "order": 80,
+          "ayat_count": 42,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 28,
+            "thumun": 467,
+            "hizb": 59,
+            "thumun_in_hizb": 3,
+            "ayah": "وَعِنَبًۭا وَقَضْبًۭا",
+            "word": "وَقَضْبًۭا",
+            "word_normalized": "وقضبا",
+            "meaning": "عَلَفًا لِلدَّوَابِّ.",
+            "meaning_normalized": "علفا للدواب"
+          },
+          {
+            "ayah_number": 30,
+            "thumun": 467,
+            "hizb": 59,
+            "thumun_in_hizb": 3,
+            "ayah": "وَحَدَآئِقَ غُلْبًۭا",
+            "word": "غُلْبًۭا",
+            "word_normalized": "غلبا",
+            "meaning": "عَظِيمَةَ الأَشْجَارِ.",
+            "meaning_normalized": "عظيمة الأشجار"
+          },
+          {
+            "ayah_number": 31,
+            "thumun": 467,
+            "hizb": 59,
+            "thumun_in_hizb": 3,
+            "ayah": "وَفَـٰكِهَةًۭ وَأَبًّۭا",
+            "word": "وَأَبًّۭا",
+            "word_normalized": "وابا",
+            "meaning": "كَلَأً لِلْبَهَائِمِ.",
+            "meaning_normalized": "كلأ للبهائم"
+          },
+          {
+            "ayah_number": 33,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+            "word": "ٱلصَّآخَّةُ",
+            "word_normalized": "الصاخه",
+            "meaning": "صَيْحَةُ يَوْمِ القِيَامَةِ الَّتِي تَصُمُّ الآذَانَ مِنْ هَوْلِهَا.",
+            "meaning_normalized": "صيحة يوم القيامة التي تصم الآذان من هولها"
+          },
+          {
+            "ayah_number": 37,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "لِكُلِّ ٱمْرِئٍۢ مِّنْهُمْ يَوْمَئِذٍۢ شَأْنٌۭ يُغْنِيهِ",
+            "word": "يُغْنِيهِ",
+            "word_normalized": "يغنيه",
+            "meaning": "يَشْغَلُهُ.",
+            "meaning_normalized": "يشغله"
+          },
+          {
+            "ayah_number": 38,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وُجُوهٌۭ يَوْمَئِذٍۢ مُّسْفِرَةٌۭ",
+            "word": "مُّسْفِرَةٌ",
+            "word_normalized": "مسفرة",
+            "meaning": "مُسْتَنِيرَةٌ.",
+            "meaning_normalized": "مستنيرة"
+          },
+          {
+            "ayah_number": 39,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "ضَاحِكَةٌۭ مُّسْتَبْشِرَةٌۭ",
+            "word": "مُّسْتَبْشِرَةٌ",
+            "word_normalized": "مستبشرة",
+            "meaning": "فَرِحَةٌ.",
+            "meaning_normalized": "فرحة"
+          },
+          {
+            "ayah_number": 40,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَوُجُوهٌۭ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌۭ",
+            "word": "غَبَرَةٌ",
+            "word_normalized": "غبرة",
+            "meaning": "غُبَارٌ، وَكُدُورَةٌ.",
+            "meaning_normalized": "غبار وكدورة"
+          },
+          {
+            "ayah_number": 41,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "تَرْهَقُهَا قَتَرَةٌ",
+            "word": "تَرْهَقُهَا",
+            "word_normalized": "ترهقها",
+            "meaning": "تَغْشَاهَا.",
+            "meaning_normalized": "تغشاها"
+          },
+          {
+            "ayah_number": 41,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "تَرْهَقُهَا قَتَرَةٌ",
+            "word": "قَتَرَةٌ",
+            "word_normalized": "قترة",
+            "meaning": "ذِلَّةٌ، وَظُلْمَةٌ.",
+            "meaning_normalized": "ذلة وظلمة"
+          },
+          {
+            "ayah_number": 42,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+            "word": "ٱلْكَفَرَةُ",
+            "word_normalized": "الكفره",
+            "meaning": "الجَاحِدُونَ بِقُلُوبِهِمْ.",
+            "meaning_normalized": "الجاحدون بقلوبهم"
+          },
+          {
+            "ayah_number": 42,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+            "word": "ٱلْفَجَرَةُ",
+            "word_normalized": "الفجره",
+            "meaning": "العُصَاةُ بِأَعْمَالِهِمْ.",
+            "meaning_normalized": "العصاة بأعمالهم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّكْوِيرِ",
+          "name_normalized": "سورة التكوير",
+          "order": 81,
+          "ayat_count": 29,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+            "word": "كُوِّرَتْ",
+            "word_normalized": "كورت",
+            "meaning": "لُفَّتْ، وَذَهَبَ ضَوْؤُهَا.",
+            "meaning_normalized": "لفت وذهب ضوؤها"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
+            "word": "ٱنكَدَرَتْ",
+            "word_normalized": "انكدرت",
+            "meaning": "تَنَاثَرَتْ، وَذَهَبَ نُورُهَا.",
+            "meaning_normalized": "تناثرت وذهب نورها"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلْجِبَالُ سُيِّرَتْ",
+            "word": "سُيِّرَتْ",
+            "word_normalized": "سيرت",
+            "meaning": "أُزِيلَتْ عَنْ وَجْهِ الأَرْضِ؛ فَصَارَتْ هَبَاءً مَنْثُورًا.",
+            "meaning_normalized": "أزيلت عن وجه الأرض فصارت هباء منثورا"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
+            "word": "ٱلْعِشَارُ",
+            "word_normalized": "العشار",
+            "meaning": "النُّوقُ الحَوَامِلُ.",
+            "meaning_normalized": "النوق الحوامل"
+          }
+        ]
+      }
+    ]
+  }
+}

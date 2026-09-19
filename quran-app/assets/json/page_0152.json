@@ -1,0 +1,261 @@
+{
+  "page": {
+    "page_number": 152,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّعَرَاءِ",
+          "name_normalized": "سورة الشعراء",
+          "order": 26,
+          "ayat_count": 227,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 63,
+            "thumun": 294,
+            "hizb": 37,
+            "thumun_in_hizb": 6,
+            "ayah": "فَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْبَحْرَ ۖ فَٱنفَلَقَ فَكَانَ كُلُّ فِرْقٍۢ كَٱلطَّوْدِ ٱلْعَظِيمِ",
+            "word": "كَٱلطَّوْدِ",
+            "word_normalized": "كالطود",
+            "meaning": "كَالجَبَلِ.",
+            "meaning_normalized": "كالجبل"
+          },
+          {
+            "ayah_number": 64,
+            "thumun": 294,
+            "hizb": 37,
+            "thumun_in_hizb": 6,
+            "ayah": "وَأَزْلَفْنَا ثَمَّ ٱلْـَٔاخَرِينَ",
+            "word": "وَأَزْلَفْنَا ثَمَّ ٱلْـَٔاخَرِينَ",
+            "word_normalized": "وازلفنا ثم الاخرين",
+            "meaning": "قَرَّبْنَا هُنَاكَ، فِرَعْوَنَ، وَقَوْمَهُ.",
+            "meaning_normalized": "قربنا هناك فرعون وقومه"
+          },
+          {
+            "ayah_number": 71,
+            "thumun": 295,
+            "hizb": 37,
+            "thumun_in_hizb": 7,
+            "ayah": "قَالُوا۟ نَعْبُدُ أَصْنَامًۭا فَنَظَلُّ لَهَا عَـٰكِفِينَ",
+            "word": "عَـٰكِفِينَ",
+            "word_normalized": "عكفين",
+            "meaning": "مُقِيمِينَ عَلَى عِبَادَتِها.",
+            "meaning_normalized": "مقيمين على عبادتها"
+          },
+          {
+            "ayah_number": 75,
+            "thumun": 295,
+            "hizb": 37,
+            "thumun_in_hizb": 7,
+            "ayah": "قَالَ أَفَرَءَيْتُم مَّا كُنتُمْ تَعْبُدُونَ",
+            "word": "أَفَرَءَيْتُم",
+            "word_normalized": "افرءيتم",
+            "meaning": "أَبْصَرْتُمْ بِتَدَبُّرٍ.",
+            "meaning_normalized": "أبصرتم بتدبر"
+          },
+          {
+            "ayah_number": 83,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "رَبِّ هَبْ لِى حُكْمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
+            "word": "حُكْمًۭا",
+            "word_normalized": "حكما",
+            "meaning": "عِلْمًا وَفَهْمًا.",
+            "meaning_normalized": "علما وفهما"
+          },
+          {
+            "ayah_number": 84,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "وَٱجْعَل لِّى لِسَانَ صِدْقٍۢ فِى ٱلْـَٔاخِرِينَ",
+            "word": "لِسَانَ صِدْقٍ",
+            "word_normalized": "لسان صدق",
+            "meaning": "ثَنَاءً حَسَنًا.",
+            "meaning_normalized": "ثناء حسنا"
+          },
+          {
+            "ayah_number": 84,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "وَٱجْعَل لِّى لِسَانَ صِدْقٍۢ فِى ٱلْـَٔاخِرِينَ",
+            "word": "ٱلْـَٔاخِرِينَ",
+            "word_normalized": "الاخرين",
+            "meaning": "مَنْ يَاتُونَ بَعْدِي إِلَى يَوْمِ القِيَامَةِ.",
+            "meaning_normalized": "من ياتون بعدي إلى يوم القيامة"
+          },
+          {
+            "ayah_number": 89,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "إِلَّا مَنْ أَتَى ٱللَّهَ بِقَلْبٍۢ سَلِيمٍۢ",
+            "word": "سَلِيمٍ",
+            "word_normalized": "سليم",
+            "meaning": "سَالِمٍ مِنَ الشِّرْكِ وَالنِّفَاقِ وَالضَّغِينَةِ.",
+            "meaning_normalized": "سالم من الشرك والنفاق والضغينة"
+          },
+          {
+            "ayah_number": 90,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "وَأُزْلِفَتِ ٱلْجَنَّةُ لِلْمُتَّقِينَ",
+            "word": "وَأُزْلِفَتِ",
+            "word_normalized": "وأزلفت",
+            "meaning": "قُرِّبَتْ.",
+            "meaning_normalized": "قربت"
+          },
+          {
+            "ayah_number": 91,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "وَبُرِّزَتِ ٱلْجَحِيمُ لِلْغَاوِينَ",
+            "word": "وَبُرِّزَتِ",
+            "word_normalized": "وبرزت",
+            "meaning": "أُظْهِرَتْ.",
+            "meaning_normalized": "أظهرت"
+          },
+          {
+            "ayah_number": 94,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "فَكُبْكِبُوا۟ فِيهَا هُمْ وَٱلْغَاوُۥنَ",
+            "word": "فَكُبْكِبُوا",
+            "word_normalized": "فكبكبوا",
+            "meaning": "فَجُمِعُوا، وَأُلْقُوا.",
+            "meaning_normalized": "فجمعوا وألقوا"
+          },
+          {
+            "ayah_number": 101,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "وَلَا صَدِيقٍ حَمِيمٍۢ",
+            "word": "حَمِيمٍ",
+            "word_normalized": "حميم",
+            "meaning": "مُشْفِقٍ يَهْتَمُّ بِأَمْرِنَا.",
+            "meaning_normalized": "مشفق يهتم بأمرنا"
+          },
+          {
+            "ayah_number": 102,
+            "thumun": 296,
+            "hizb": 37,
+            "thumun_in_hizb": 8,
+            "ayah": "فَلَوْ أَنَّ لَنَا كَرَّةًۭ فَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
+            "word": "كَرَّةً",
+            "word_normalized": "كرة",
+            "meaning": "رَجْعَةً إِلَى الدُّنْيَا.",
+            "meaning_normalized": "رجعة إلى الدنيا"
+          },
+          {
+            "ayah_number": 111,
+            "thumun": 297,
+            "hizb": 38,
+            "thumun_in_hizb": 1,
+            "ayah": "قَالُوٓا۟ أَنُؤْمِنُ لَكَ وَٱتَّبَعَكَ ٱلْأَرْذَلُونَ",
+            "word": "ٱلْأَرْذَلُونَ",
+            "word_normalized": "الارذلون",
+            "meaning": "السَّفَلَةُ مِنَ النَّاسِ.",
+            "meaning_normalized": "السفلة من الناس"
+          },
+          {
+            "ayah_number": 116,
+            "thumun": 297,
+            "hizb": 38,
+            "thumun_in_hizb": 1,
+            "ayah": "قَالُوا۟ لَئِن لَّمْ تَنتَهِ يَـٰنُوحُ لَتَكُونَنَّ مِنَ ٱلْمَرْجُومِينَ",
+            "word": "ٱلْمَرْجُومِينَ",
+            "word_normalized": "المرجومين",
+            "meaning": "المَقْتُولِينَ رَمْيًا بِالحِجَارَةِ.",
+            "meaning_normalized": "المقتولين رميا بالحجارة"
+          },
+          {
+            "ayah_number": 118,
+            "thumun": 297,
+            "hizb": 38,
+            "thumun_in_hizb": 1,
+            "ayah": "فَٱفْتَحْ بَيْنِى وَبَيْنَهُمْ فَتْحًۭا وَنَجِّنِى وَمَن مَّعِىَ مِنَ ٱلْمُؤْمِنِينَ",
+            "word": "فَٱفْتَحْ",
+            "word_normalized": "فافتح",
+            "meaning": "احْكُمْ.",
+            "meaning_normalized": "احكم"
+          },
+          {
+            "ayah_number": 119,
+            "thumun": 297,
+            "hizb": 38,
+            "thumun_in_hizb": 1,
+            "ayah": "فَأَنجَيْنَـٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+            "word": "ٱلْمَشْحُونِ",
+            "word_normalized": "المشحون",
+            "meaning": "المَمْلُوءِ بِالنَّاسِ، وَالدَّوَابِّ، وَالمَتَاعِ.",
+            "meaning_normalized": "المملوء بالناس والدواب والمتاع"
+          },
+          {
+            "ayah_number": 128,
+            "thumun": 297,
+            "hizb": 38,
+            "thumun_in_hizb": 1,
+            "ayah": "أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ",
+            "word": "رِيعٍ",
+            "word_normalized": "ريع",
+            "meaning": "مَكَانٍ مُرْتَفِعٍ.",
+            "meaning_normalized": "مكان مرتفع"
+          },
+          {
+            "ayah_number": 128,
+            "thumun": 297,
+            "hizb": 38,
+            "thumun_in_hizb": 1,
+            "ayah": "أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ",
+            "word": "ءَايَةًۭ",
+            "word_normalized": "ءايه",
+            "meaning": "بِنَاءً عَالِيًا.",
+            "meaning_normalized": "بناء عاليا"
+          },
+          {
+            "ayah_number": 128,
+            "thumun": 297,
+            "hizb": 38,
+            "thumun_in_hizb": 1,
+            "ayah": "أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ",
+            "word": "تَعْبَثُونَ",
+            "word_normalized": "تعبثون",
+            "meaning": "تُشْرِفُونَ مِنْهُ فَتَسْخَرُونَ مِنَ المَارَّةِ.",
+            "meaning_normalized": "تشرفون منه فتسخرون من المارة"
+          },
+          {
+            "ayah_number": 129,
+            "thumun": 297,
+            "hizb": 38,
+            "thumun_in_hizb": 1,
+            "ayah": "وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ",
+            "word": "مَصَانِعَ",
+            "word_normalized": "مصانع",
+            "meaning": "قُصُورًا مَنِيعَةً وَحُصُونًا مُشَيَّدَةً.",
+            "meaning_normalized": "قصورا منيعة وحصونا مشيدة"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": {
+    "page_number": 266,
+    "header": {
+      "right": "سُورَةُ الْوَاقِعَةِ",
+      "right_normalized": "سورة الواقعة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْوَاقِعَةِ",
+          "name_normalized": "سورة الواقعة",
+          "order": 56,
+          "ayat_count": 96,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 10,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "وَٱلسَّـٰبِقُونَ ٱلسَّـٰبِقُونَ",
+            "word": "ٱلسَّـٰبِقُونَ",
+            "word_normalized": "السبقون",
+            "meaning": "الَّذِينَ يَسْبِقُونَ إِلَى المَنَازِلِ العَالِيَةِ فِي الجَنَّةِ.",
+            "meaning_normalized": "الذين يسبقون إلى المنازل العالية في الجنة"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
+            "word": "ثُلَّةٌ",
+            "word_normalized": "ثلة",
+            "meaning": "جَمَاعَةٌ كَثِيرَةٌ.",
+            "meaning_normalized": "جماعة كثيرة"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
+            "word": "ٱلْأَوَّلِينَ",
+            "word_normalized": "الاولين",
+            "meaning": "صَدْرِ هَذِهِ الأُمَّةِ وَغَيْرِهِمْ مِنَ الأُمَمِ الأُخْرَى.",
+            "meaning_normalized": "صدر هذه الأمة وغيرهم من الأمم الأخرى"
+          },
+          {
+            "ayah_number": 14,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "وَقَلِيلٌۭ مِّنَ ٱلْـَٔاخِرِينَ",
+            "word": "ٱلْـَٔاخِرِينَ",
+            "word_normalized": "الاخرين",
+            "meaning": "آخِرِ هَذِهِ الأُمَّةِ.",
+            "meaning_normalized": "آخر هذه الأمة"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "عَلَىٰ سُرُرٍۢ مَّوْضُونَةٍۢ",
+            "word": "مَّوْضُونَةٍ",
+            "word_normalized": "موضونة",
+            "meaning": "مَنْسُوجَةٍ بِالذَّهَبِ.",
+            "meaning_normalized": "منسوجة بالذهب"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌۭ مُّخَلَّدُونَ",
+            "word": "وِلْدَٰنٌۭ مُّخَلَّدُونَ",
+            "word_normalized": "ولدن مخلدون",
+            "meaning": "غِلْمَانٌ لِلْخِدْمَةِ لَا يَهْرَمُونَ، وَلَا يَمُوتُونَ.",
+            "meaning_normalized": "غلمان للخدمة لا يهرمون ولا يموتون"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "بِأَكْوَابٍۢ وَأَبَارِيقَ وَكَأْسٍۢ مِّن مَّعِينٍۢ",
+            "word": "بِأَكْوَابٍ",
+            "word_normalized": "بأكواب",
+            "meaning": "أَقْدَاحٍ لَا عُرَى لَهَا، وَلَا خَرَاطِيمَ.",
+            "meaning_normalized": "أقداح لا عرى لها ولا خراطيم"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "بِأَكْوَابٍۢ وَأَبَارِيقَ وَكَأْسٍۢ مِّن مَّعِينٍۢ",
+            "word": "وَأَبَارِيقَ",
+            "word_normalized": "وأباريق",
+            "meaning": "أَوَانٍ لَهَا عُرًى، وَخَرَاطِيمُ.",
+            "meaning_normalized": "أوان لها عرى وخراطيم"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "بِأَكْوَابٍۢ وَأَبَارِيقَ وَكَأْسٍۢ مِّن مَّعِينٍۢ",
+            "word": "وَكَأْسٍۢ",
+            "word_normalized": "وكاس",
+            "meaning": "خَمْرٍ، أَوْ قَدَحٍ فِيهِ خَمْرٌ.",
+            "meaning_normalized": "خمر أو قدح فيه خمر"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "بِأَكْوَابٍۢ وَأَبَارِيقَ وَكَأْسٍۢ مِّن مَّعِينٍۢ",
+            "word": "مِّن مَّعِينٍ",
+            "word_normalized": "من معين",
+            "meaning": "خَمْرٍ جَارِيَةٍ فِي الجَنَّةِ.",
+            "meaning_normalized": "خمر جارية في الجنة"
+          },
+          {
+            "ayah_number": 19,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+            "word": "لَا يُصَدَّعُونَ عَنْهَا",
+            "word_normalized": "لا يصدعون عنها",
+            "meaning": "لَا تُصَدَّعُ مِنْهَا رُؤُوسُهُمْ.",
+            "meaning_normalized": "لا تصدع منها رؤوسهم"
+          },
+          {
+            "ayah_number": 19,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+            "word": "وَلَا يُنزِفُونَ",
+            "word_normalized": "ولا ينزفون",
+            "meaning": "لَا تَذْهَبُ بِعُقُولِهِمْ.",
+            "meaning_normalized": "لا تذهب بعقولهم"
+          },
+          {
+            "ayah_number": 22,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "وَحُورٌ عِينٌۭ",
+            "word": "وَحُورٌ عِينٌ",
+            "word_normalized": "وحور عين",
+            "meaning": "نِسَاءٌ بِيضٌ وَاسِعَاتُ الأَعْيُنِ حِسَانُهَا.",
+            "meaning_normalized": "نساء بيض واسعات الأعين حسانها"
+          },
+          {
+            "ayah_number": 23,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "كَأَمْثَـٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
+            "word": "ٱلْمَكْنُونِ",
+            "word_normalized": "المكنون",
+            "meaning": "المَصُونِ فيِ أَصْدَافِهِ مِنْ صَفَائِهِنَّ، وَجَمَالِهِنَّ.",
+            "meaning_normalized": "المصون في أصدافه من صفائهن وجمالهن"
+          },
+          {
+            "ayah_number": 25,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "لَا يَسْمَعُونَ فِيهَا لَغْوًۭا وَلَا تَأْثِيمًا",
+            "word": "لَغْوًۭا",
+            "word_normalized": "لغوا",
+            "meaning": "بَاطِلًا، وَكَلَامًا لَا خَيْرَ فِيهِ.",
+            "meaning_normalized": "باطلا وكلاما لا خير فيه"
+          },
+          {
+            "ayah_number": 25,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "لَا يَسْمَعُونَ فِيهَا لَغْوًۭا وَلَا تَأْثِيمًا",
+            "word": "تَأْثِيمًا",
+            "word_normalized": "تاثيما",
+            "meaning": "مَا يَتَأَثَّمُونَ بِسَمَاعِهِ.",
+            "meaning_normalized": "ما يتأثمون بسماعه"
+          },
+          {
+            "ayah_number": 26,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "إِلَّا قِيلًۭا سَلَـٰمًۭا سَلَـٰمًۭا",
+            "word": "قِيلًۭا",
+            "word_normalized": "قيلا",
+            "meaning": "قَوْلًا.",
+            "meaning_normalized": "قولا"
+          },
+          {
+            "ayah_number": 26,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "إِلَّا قِيلًۭا سَلَـٰمًۭا سَلَـٰمًۭا",
+            "word": "سَلَـٰمًۭا",
+            "word_normalized": "سلما",
+            "meaning": "إِلَّا قَوْلًا سَالِمًا مِنْ هَذِهِ العُيُوبِ، وَإِلَّا تَسْلِيمَ بَعْضِهِمْ عَلَى بَعْضٍ.",
+            "meaning_normalized": "إلا قولا سالما من هذه العيوب وإلا تسليم بعضهم على بعض"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "page": {
+    "page_number": 326,
+    "header": {
+      "right": "سُورَةُ الْغَاشِيَةِ - سُورَةُ الْفَجْرِ",
+      "right_normalized": "سورة الغاشية - سورة الفجر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْغَاشِيَةِ",
+          "name_normalized": "سورة الغاشية",
+          "order": 88,
+          "ayat_count": 26,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 15,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
+            "ayah": "وَنَمَارِقُ مَصْفُوفَةٌۭ",
+            "word": "وَنَمَارِقُ",
+            "word_normalized": "ونمارق",
+            "meaning": "وَسَائِدُ.",
+            "meaning_normalized": "وسائد"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 473,
+            "hizb": 60,
+            "thumun_in_hizb": 1,
+            "ayah": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+            "word": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+            "word_normalized": "وزرابي مبثوثه",
+            "meaning": "بُسُطٌ كَثِيرَةٌ مَفْرُوشَةٌ.",
+            "meaning_normalized": "بسط كثيرة مفروشة"
+          },
+          {
+            "ayah_number": 20,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+            "word": "سُطِحَتْ",
+            "word_normalized": "سطحت",
+            "meaning": "بُسِطَتْ، وَمُهِّدَتْ.",
+            "meaning_normalized": "بسطت ومهدت"
+          },
+          {
+            "ayah_number": 22,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+            "word": "بِمُصَيْطِرٍ",
+            "word_normalized": "بمصيطر",
+            "meaning": "بِمُتَسَلِّطٍ تُكْرِهُهُمْ عَلَى الإِيمَانِ.",
+            "meaning_normalized": "بمتسلط تكرههم على الإيمان"
+          },
+          {
+            "ayah_number": 25,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+            "word": "إِيَابَهُمْ",
+            "word_normalized": "إيابهم",
+            "meaning": "مَرْجِعَهُمْ بَعْدَ المَوْتِ.",
+            "meaning_normalized": "مرجعهم بعد الموت"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْفَجْرِ",
+          "name_normalized": "سورة الفجر",
+          "order": 89,
+          "ayat_count": 30,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
+            "word": "وَٱلْفَجْرِ",
+            "word_normalized": "والفجر",
+            "meaning": "قَسَمٌ بِالوَقْتِ المَعْرُوفِ أَوَّلَ النَّهَارِ.",
+            "meaning_normalized": "قسم بالوقت المعروف أول النهار"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "وَلَيَالٍ عَشْرٍۢ",
+            "word": "وَلَيَالٍ عَشْرٍ",
+            "word_normalized": "وليال عشر",
+            "meaning": "قَسَمٌ بِلَيَالِي عَشْرِ ذِي الحِجَّةِ الأُوَلِ، وَمَا شَرُفَتْ بِهِ مِنْ أَعْمَالٍ.",
+            "meaning_normalized": "قسم بليالي عشر ذي الحجة الأول وما شرفت به من أعمال"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+            "word": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+            "word_normalized": "والشفع والوتر",
+            "meaning": "قَسَمٌ بِكُلِّ زَوْجٍ، وَفَرْدٍ.",
+            "meaning_normalized": "قسم بكل زوج وفرد"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "وَٱلَّيْلِ إِذَا يَسْرِ",
+            "word": "يَسْرِ",
+            "word_normalized": "يسر",
+            "meaning": "يَسْرِي بِظَلَامِهِ، وَجَوَابُ القَسَمِ مَحْذُوفٌ، تَقْدِيرُهُ: لَتُبْعَثُنَّ.",
+            "meaning_normalized": "يسري بظلامه وجواب القسم محذوف تقديره لتبعثن"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ",
+            "word": "لِّذِى حِجْرٍ",
+            "word_normalized": "لذي حجر",
+            "meaning": "لِصَاحِبِ عَقْلٍ.",
+            "meaning_normalized": "لصاحب عقل"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+            "word": "إِرَمَ",
+            "word_normalized": "إرم",
+            "meaning": "قَبِيلَةِ إِرَمَ؛ نِسْبَةُ إِلَى جَدِّهِمْ.",
+            "meaning_normalized": "قبيلة إرم نسبة إلى جدهم"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+            "word": "ذَاتِ ٱلْعِمَادِ",
+            "word_normalized": "ذات العماد",
+            "meaning": "صَاحِبَةِ القُوَّةِ، وَالأَبْنِيَةِ المَرْفُوعَةِ عَلَى الأَعْمِدَةِ.",
+            "meaning_normalized": "صاحبة القوة والأبنية المرفوعة على الأعمدة"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+            "word": "جَابُوا",
+            "word_normalized": "جابوا",
+            "meaning": "قَطَعُوا.",
+            "meaning_normalized": "قطعوا"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 474,
+            "hizb": 60,
+            "thumun_in_hizb": 2,
+            "ayah": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+            "word": "بِٱلْوَادِ",
+            "word_normalized": "بالواد",
+            "meaning": "وَادِي القُرَى شَمَالَ غَرْبِ الجَزِيرَةِ العَرَبِيَّةِ.",
+            "meaning_normalized": "وادي القرى شمال غرب الجزيرة العربية"
+          }
+        ]
+      }
+    ]
+  }
+}

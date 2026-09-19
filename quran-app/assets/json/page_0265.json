@@ -1,0 +1,223 @@
+{
+  "page": {
+    "page_number": 265,
+    "header": {
+      "right": "سُورَةُ الْوَاقِعَةِ",
+      "right_normalized": "سورة الواقعة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الرَّحْمَٰنِ",
+          "name_normalized": "سورة الرحمن",
+          "order": 55,
+          "ayat_count": 78,
+          "classification": "مدنية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 72,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "حُورٌۭ مَّقْصُورَٰتٌۭ فِى ٱلْخِيَامِ",
+            "word": "مَّقْصُورَٰتٌۭ",
+            "word_normalized": "مقصورت",
+            "meaning": "مَسْتُورَاتٌ مَصُونَاتٌ.",
+            "meaning_normalized": "مستورات مصونات"
+          },
+          {
+            "ayah_number": 74,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "لَمْ يَطْمِثْهُنَّ إِنسٌۭ قَبْلَهُمْ وَلَا جَآنٌّۭ",
+            "word": "يَطْمِثْهُنَّ",
+            "word_normalized": "يطمثهن",
+            "meaning": "يَطَاهُنَّ.",
+            "meaning_normalized": "يطاهن"
+          },
+          {
+            "ayah_number": 76,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍۢ وَعَبْقَرِىٍّ حِسَانٍۢ",
+            "word": "رَفْرَفٍ خُضْرٍ",
+            "word_normalized": "رفرف خضر",
+            "meaning": "وَسَائِدَ ذَوَاتِ أَغْطِيَةٍ خُضْرٍ.",
+            "meaning_normalized": "وسائد ذوات أغطية خضر"
+          },
+          {
+            "ayah_number": 76,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍۢ وَعَبْقَرِىٍّ حِسَانٍۢ",
+            "word": "وَعَبْقَرِىٍّ",
+            "word_normalized": "وعبقري",
+            "meaning": "فُرُشٍ، وَبُسُطٍ.",
+            "meaning_normalized": "فرش وبسط"
+          },
+          {
+            "ayah_number": 78,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "تَبَـٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ",
+            "word": "تَبَـٰرَكَ",
+            "word_normalized": "تبرك",
+            "meaning": "كَثُرَتْ بَرَكَتُهُ، وَخَيْرُهُ.",
+            "meaning_normalized": "كثرت بركته وخيره"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْوَاقِعَةِ",
+          "name_normalized": "سورة الواقعة",
+          "order": 56,
+          "ayat_count": 96,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
+            "word": "ٱلْوَاقِعَةُ",
+            "word_normalized": "الواقعه",
+            "meaning": "القِيَامَةُ.",
+            "meaning_normalized": "القيامة"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+            "word": "لَيْسَ لِوَقْعَتِهَا",
+            "word_normalized": "ليس لوقعتها",
+            "meaning": "لَيْسَ لِوُقُوعِهَا، وَقِيَامِهَا.",
+            "meaning_normalized": "ليس لوقوعها وقيامها"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+            "word": "كَاذِبَةٌ",
+            "word_normalized": "كاذبة",
+            "meaning": "نَفْسٌ تُكَذِّبُ بِذَلِكَ.",
+            "meaning_normalized": "نفس تكذب بذلك"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "خَافِضَةٌۭ رَّافِعَةٌ",
+            "word": "خَافِضَةٌۭ رَّافِعَةٌ",
+            "word_normalized": "خافضه رافعه",
+            "meaning": "تَخْفِضُ الكُفَّارَ فِي النَّارِ، وَتَرْفَعُ المُؤْمِنِينَ فِي الجَنَّةِ.",
+            "meaning_normalized": "تخفض الكفار في النار وترفع المؤمنين في الجنة"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّۭا",
+            "word": "رُجَّتِ",
+            "word_normalized": "رجت",
+            "meaning": "حُرِّكَتْ.",
+            "meaning_normalized": "حركت"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّۭا",
+            "word": "رَجًّۭا",
+            "word_normalized": "رجا",
+            "meaning": "تَحْرِيكًا شَدِيدًا.",
+            "meaning_normalized": "تحريكا شديدا"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "وَبُسَّتِ ٱلْجِبَالُ بَسًّۭا",
+            "word": "وَبُسَّتِ",
+            "word_normalized": "وبست",
+            "meaning": "فُتِّتَتْ.",
+            "meaning_normalized": "فتتت"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "فَكَانَتْ هَبَآءًۭ مُّنۢبَثًّۭا",
+            "word": "هَبَآءًۭ مُّنۢبَثًّۭا",
+            "word_normalized": "هباء منبثا",
+            "meaning": "غُبَارًا مُتَطَايِرًا فِي الجَوِّ.",
+            "meaning_normalized": "غبارا متطايرا في الجو"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "وَكُنتُمْ أَزْوَٰجًۭا ثَلَـٰثَةًۭ",
+            "word": "أَزْوَٰجًۭا",
+            "word_normalized": "ازوجا",
+            "meaning": "أَصْنَافًا.",
+            "meaning_normalized": "أصنافا"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "وَأَصْحَـٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+            "word": "ٱلْمَشْـَٔمَةِ",
+            "word_normalized": "المشمه",
+            "meaning": "الشِّمَالِ.",
+            "meaning_normalized": "الشمال"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 427,
+            "hizb": 54,
+            "thumun_in_hizb": 3,
+            "ayah": "وَٱلسَّـٰبِقُونَ ٱلسَّـٰبِقُونَ",
+            "word": "وَٱلسَّـٰبِقُونَ",
+            "word_normalized": "والسبقون",
+            "meaning": "الَّذِينَ يَسْبِقُونَ إِلَى الخَيْرَاتِ، وَيُسَارِعُونَ لِلطَّاعَاتِ.",
+            "meaning_normalized": "الذين يسبقون إلى الخيرات ويسارعون للطاعات"
+          }
+        ]
+      }
+    ]
+  }
+}

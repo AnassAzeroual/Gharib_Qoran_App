@@ -1,0 +1,206 @@
+{
+  "page": {
+    "page_number": 296,
+    "header": {
+      "right": "سُورَةُ الْمَعَارِجِ",
+      "right_normalized": "سورة المعارج",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمَعَارِجِ",
+          "name_normalized": "سورة المعارج",
+          "order": 70,
+          "ayat_count": 44,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ سَأَلَ سَآئِلٌۢ بِعَذَابٍۢ وَاقِعٍۢ",
+            "word": "سَأَلَ سَائِلٌ",
+            "word_normalized": "سأل سائل",
+            "meaning": "دَعَا دَاعٍ.",
+            "meaning_normalized": "دعا داع"
+          },
+          {
+            "ayah_number": 1,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ سَأَلَ سَآئِلٌۢ بِعَذَابٍۢ وَاقِعٍۢ",
+            "word": "بِعَذَابٍۢ وَاقِعٍۢ",
+            "word_normalized": "بعذاب واقع",
+            "meaning": "بِوُقُوعِ العَذَابِ عَلَيْهِمْ.",
+            "meaning_normalized": "بوقوع العذاب عليهم"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "مِّنَ ٱللَّهِ ذِى ٱلْمَعَارِجِ",
+            "word": "ذِى ٱلْمَعَارِجِ",
+            "word_normalized": "ذي المعارج",
+            "meaning": "صَاحِبِ العُلُوِّ وَالجَلَالِ.",
+            "meaning_normalized": "صاحب العلو والجلال"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "تَعْرُجُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍۢ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍۢ",
+            "word": "تَعْرُجُ",
+            "word_normalized": "تعرج",
+            "meaning": "تَصْعَدُ.",
+            "meaning_normalized": "تصعد"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "تَعْرُجُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍۢ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍۢ",
+            "word": "وَٱلرُّوحُ",
+            "word_normalized": "والروح",
+            "meaning": "جِبْرِيلُ - عليه السلام -.",
+            "meaning_normalized": "جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "فَٱصْبِرْ صَبْرًۭا جَمِيلًا",
+            "word": "صَبْرًۭا جَمِيلًا",
+            "word_normalized": "صبرا جميلا",
+            "meaning": "لَا جَزَعَ فِيهِ، وَلَا شَكْوَى مِنْهُ لِغَيْرِ اللهِ.",
+            "meaning_normalized": "لا جزع فيه ولا شكوى منه لغير الله"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "يَوْمَ تَكُونُ ٱلسَّمَآءُ كَٱلْمُهْلِ",
+            "word": "كَٱلْمُهْلِ",
+            "word_normalized": "كالمهل",
+            "meaning": "مِثْلَ حُثَالَةِ الزَّيْتِ.",
+            "meaning_normalized": "مثل حثالة الزيت"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ",
+            "word": "كَٱلْعِهْنِ",
+            "word_normalized": "كالعهن",
+            "meaning": "كَالصُّوفِ المَصْبُوغِ المَنْفُوشِ الَّذِي ذَرَتْهُ الرِّيحُ.",
+            "meaning_normalized": "كالصوف المصبوغ المنفوش الذي ذرته الريح"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "وَلَا يَسْـَٔلُ حَمِيمٌ حَمِيمًۭا",
+            "word": "حَمِيمٌ",
+            "word_normalized": "حميم",
+            "meaning": "قَرِيبٌ.",
+            "meaning_normalized": "قريب"
+          },
+          {
+            "ayah_number": 11,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "يُبَصَّرُونَهُمْ ۚ يَوَدُّ ٱلْمُجْرِمُ لَوْ يَفْتَدِى مِنْ عَذَابِ يَوْمِئِذٍۭ بِبَنِيهِ",
+            "word": "يُبَصَّرُونَهُمْ",
+            "word_normalized": "يبصرونهم",
+            "meaning": "يُشَاهِدُ بَعْضُهُمْ بَعْضًا، وَيَعْرِفُهُ وَلَا يُكَلِّمُهُ.",
+            "meaning_normalized": "يشاهد بعضهم بعضا ويعرفه ولا يكلمه"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "وَفَصِيلَتِهِ ٱلَّتِى تُـْٔوِيهِ",
+            "word": "وَفَصِيلَتِهِ",
+            "word_normalized": "وفصيلته",
+            "meaning": "عَشِيرَتِهِ.",
+            "meaning_normalized": "عشيرته"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "وَفَصِيلَتِهِ ٱلَّتِى تُـْٔوِيهِ",
+            "word": "تُـْٔوِيهِ",
+            "word_normalized": "تويه",
+            "meaning": "تَضُمُّهُ، وَيَنْتَمِي إِلَيْهَا.",
+            "meaning_normalized": "تضمه وينتمي إليها"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّآ ۖ إِنَّهَا لَظَىٰ",
+            "word": "كَلَّا",
+            "word_normalized": "كلا",
+            "meaning": "لَيْسَ الأَمْرُ كَمَا تَتَمَنَّاهُ أَيُّهَا الكَافِرُ مِنْ حُصُولِ الاِفْتِدَاءِ.",
+            "meaning_normalized": "ليس الأمر كما تتمناه أيها الكافر من حصول الافتداء"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّآ ۖ إِنَّهَا لَظَىٰ",
+            "word": "لَظَى",
+            "word_normalized": "لظى",
+            "meaning": "جَهَنَّمُ تَتَلَهَّبُ نَارُهَا، وَتَتَلَظَّى.",
+            "meaning_normalized": "جهنم تتلهب نارها وتتلظى"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "نَزَّاعَةًۭ لِّلشَّوَىٰ",
+            "word": "نَزَّاعَةًۭ لِّلشَّوَىٰ",
+            "word_normalized": "نزاعه للشوي",
+            "meaning": "تَنْزِعُ بِشِدَّةِ حَرِّهَا جِلْدَةَ الرَّاسِ، وَسَائِرَ أَطْرَافِ البَدَنِ.",
+            "meaning_normalized": "تنزع بشدة حرها جلدة الراس وسائر أطراف البدن"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 453,
+            "hizb": 57,
+            "thumun_in_hizb": 5,
+            "ayah": "وَجَمَعَ فَأَوْعَىٰٓ",
+            "word": "فَأَوْعَى",
+            "word_normalized": "فأوعى",
+            "meaning": "أَمْسَكَ مَالَهُ فِي وِعَاءٍ، وَلَمْ يُؤَدِّ حَقَّ اللهِ فِيهِ.",
+            "meaning_normalized": "أمسك ماله في وعاء ولم يؤد حق الله فيه"
+          }
+        ]
+      }
+    ]
+  }
+}
