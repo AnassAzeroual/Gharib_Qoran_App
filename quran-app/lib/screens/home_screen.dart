@@ -5,6 +5,7 @@ import '../models/hizb_menu.dart';
 import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../version.dart';
 import '../widgets/numeral_toggle_button.dart';
 import '../widgets/search_result_card.dart';
 import 'hizb_thumuns_screen.dart';
@@ -482,6 +483,21 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 Icons.check_circle_outline,
                 '${displayNumber(available)} متاحة',
                 const Color(0xFFFCD34D),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              const Icon(Icons.auto_awesome, size: 14, color: Colors.white60),
+              const SizedBox(width: 6),
+              Text(
+                'الإصدار ${appVersionLabel()}',
+                style: const TextStyle(
+                  fontFamily: 'Amiri',
+                  fontSize: 13,
+                  color: Colors.white60,
+                ),
               ),
             ],
           ),
