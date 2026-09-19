@@ -1,0 +1,250 @@
+{
+  "page": {
+    "page_number": 154,
+    "header": {
+      "right": "",
+      "right_normalized": "",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشُّعَرَاءِ",
+          "name_normalized": "سورة الشعراء",
+          "order": 26,
+          "ayat_count": 227,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 183,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+            "word": "وَلَا تَبْخَسُوا",
+            "word_normalized": "ولا تبخسوا",
+            "meaning": "لَا تَنْقُصُوا.",
+            "meaning_normalized": "لا تنقصوا"
+          },
+          {
+            "ayah_number": 183,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+            "word": "وَلَا تَعْثَوْا",
+            "word_normalized": "ولا تعثوا",
+            "meaning": "لَا تُكْثِرُوا الفَسَادَ.",
+            "meaning_normalized": "لا تكثروا الفساد"
+          },
+          {
+            "ayah_number": 184,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "وَٱتَّقُوا۟ ٱلَّذِى خَلَقَكُمْ وَٱلْجِبِلَّةَ ٱلْأَوَّلِينَ",
+            "word": "وَٱلْجِبِلَّةَ ٱلْأَوَّلِينَ",
+            "word_normalized": "والجبله الاولين",
+            "meaning": "الخَلِيقَةَ وَالأُمَمَ المَاضِينَ.",
+            "meaning_normalized": "الخليقة والأمم الماضين"
+          },
+          {
+            "ayah_number": 185,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "قَالُوٓا۟ إِنَّمَآ أَنتَ مِنَ ٱلْمُسَحَّرِينَ",
+            "word": "ٱلْمُسَحَّرِينَ",
+            "word_normalized": "المسحرين",
+            "meaning": "مَنْ أَصَابَهُمْ سِحْرٌ شَدِيدٌ، فَذَهَبَ بِعُقُولِهِمْ.",
+            "meaning_normalized": "من أصابهم سحر شديد فذهب بعقولهم"
+          },
+          {
+            "ayah_number": 187,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "فَأَسْقِطْ عَلَيْنَا كِسَفًۭا مِّنَ ٱلسَّمَآءِ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
+            "word": "كِسَفًۭا",
+            "word_normalized": "كسفا",
+            "meaning": "قِطَعًا مِنَ العَذَابِ.",
+            "meaning_normalized": "قطعا من العذاب"
+          },
+          {
+            "ayah_number": 189,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ ٱلظُّلَّةِ ۚ إِنَّهُۥ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ",
+            "word": "ٱلظُّلَّةِ",
+            "word_normalized": "الظله",
+            "meaning": "سَحَابَةٍ أَظَلَّتْهُمْ وَجَدُوا تَحْتَهَا بَرْدًا، فَلمَّا اجْتَمَعُوا أَحْرَقَتْهُمْ بِنَارِهَا.",
+            "meaning_normalized": "سحابة أظلتهم وجدوا تحتها بردا فلما اجتمعوا أحرقتهم بنارها"
+          },
+          {
+            "ayah_number": 193,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ",
+            "word": "ٱلرُّوحُ ٱلْأَمِينُ",
+            "word_normalized": "الروح الامين",
+            "meaning": "جِبْرِيلُ - عليه السلام -.",
+            "meaning_normalized": "جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 196,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "وَإِنَّهُۥ لَفِى زُبُرِ ٱلْأَوَّلِينَ",
+            "word": "زُبُرِ ٱلْأَوَّلِينَ",
+            "word_normalized": "زبر الاولين",
+            "meaning": "كُتُبِ الأَنْبِيَاءِ السَّابِقِينَ.",
+            "meaning_normalized": "كتب الأنبياء السابقين"
+          },
+          {
+            "ayah_number": 197,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "أَوَلَمْ يَكُن لَّهُمْ ءَايَةً أَن يَعْلَمَهُۥ عُلَمَـٰٓؤُا۟ بَنِىٓ إِسْرَٰٓءِيلَ",
+            "word": "ءَايَةً",
+            "word_normalized": "ءايه",
+            "meaning": "عَلَامَةً عَلَى صِحَّةِ نُبُوَّتِكَ.",
+            "meaning_normalized": "علامة على صحة نبوتك"
+          },
+          {
+            "ayah_number": 198,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "وَلَوْ نَزَّلْنَـٰهُ عَلَىٰ بَعْضِ ٱلْأَعْجَمِينَ",
+            "word": "ٱلْأَعْجَمِينَ",
+            "word_normalized": "الاعجمين",
+            "meaning": "الَّذِينَ لَا يَتَكَلَّمُونَ العَرَبِيَّةَ.",
+            "meaning_normalized": "الذين لا يتكلمون العربية"
+          },
+          {
+            "ayah_number": 200,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "كَذَٰلِكَ سَلَكْنَـٰهُ فِى قُلُوبِ ٱلْمُجْرِمِينَ",
+            "word": "سَلَكْنَـٰهُ",
+            "word_normalized": "سلكنه",
+            "meaning": "أَدْخَلْنَا التَّكْذِيبَ.",
+            "meaning_normalized": "أدخلنا التكذيب"
+          },
+          {
+            "ayah_number": 202,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "فَيَأْتِيَهُم بَغْتَةًۭ وَهُمْ لَا يَشْعُرُونَ",
+            "word": "بَغْتَةً",
+            "word_normalized": "بغتة",
+            "meaning": "فَجْأَةً.",
+            "meaning_normalized": "فجأة"
+          },
+          {
+            "ayah_number": 203,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "فَيَقُولُوا۟ هَلْ نَحْنُ مُنظَرُونَ",
+            "word": "مُنظَرُونَ",
+            "word_normalized": "منظرون",
+            "meaning": "مُمْهَلُونَ مُؤَخَّرُونَ.",
+            "meaning_normalized": "ممهلون مؤخرون"
+          },
+          {
+            "ayah_number": 205,
+            "thumun": 299,
+            "hizb": 38,
+            "thumun_in_hizb": 3,
+            "ayah": "أَفَرَءَيْتَ إِن مَّتَّعْنَـٰهُمْ سِنِينَ",
+            "word": "أَفَرَءَيْتَ",
+            "word_normalized": "افرءيت",
+            "meaning": "أَفَعَلِمْتَ؟",
+            "meaning_normalized": "أفعلمت"
+          },
+          {
+            "ayah_number": 212,
+            "thumun": 300,
+            "hizb": 38,
+            "thumun_in_hizb": 4,
+            "ayah": "إِنَّهُمْ عَنِ ٱلسَّمْعِ لَمَعْزُولُونَ",
+            "word": "ٱلسَّمْعِ",
+            "word_normalized": "السمع",
+            "meaning": "اسْتِمَاعِ القُرْآنِ مِنَ السَّمَاءِ.",
+            "meaning_normalized": "استماع القرآن من السماء"
+          },
+          {
+            "ayah_number": 212,
+            "thumun": 300,
+            "hizb": 38,
+            "thumun_in_hizb": 4,
+            "ayah": "إِنَّهُمْ عَنِ ٱلسَّمْعِ لَمَعْزُولُونَ",
+            "word": "لَمَعْزُولُونَ",
+            "word_normalized": "لمعزولون",
+            "meaning": "لَمَحْجُوبُونَ مَرْجُومُونَ بِالشُّهُبِ.",
+            "meaning_normalized": "لمحجوبون مرجومون بالشهب"
+          },
+          {
+            "ayah_number": 215,
+            "thumun": 300,
+            "hizb": 38,
+            "thumun_in_hizb": 4,
+            "ayah": "وَٱخْفِضْ جَنَاحَكَ لِمَنِ ٱتَّبَعَكَ مِنَ ٱلْمُؤْمِنِينَ",
+            "word": "وَٱخْفِضْ جَنَاحَكَ",
+            "word_normalized": "واخفض جناحك",
+            "meaning": "أَلِنْ جَانِبَكَ وَكَلامَكَ تَوَاضُعًا.",
+            "meaning_normalized": "ألن جانبك وكلامك تواضعا"
+          },
+          {
+            "ayah_number": 218,
+            "thumun": 300,
+            "hizb": 38,
+            "thumun_in_hizb": 4,
+            "ayah": "ٱلَّذِى يَرَىٰكَ حِينَ تَقُومُ",
+            "word": "حِينَ تَقُومُ",
+            "word_normalized": "حين تقوم",
+            "meaning": "تُصَلِّي اللَّيْلَ وَحْدَكَ.",
+            "meaning_normalized": "تصلي الليل وحدك"
+          },
+          {
+            "ayah_number": 222,
+            "thumun": 300,
+            "hizb": 38,
+            "thumun_in_hizb": 4,
+            "ayah": "تَنَزَّلُ عَلَىٰ كُلِّ أَفَّاكٍ أَثِيمٍۢ",
+            "word": "أَفَّاكٍ",
+            "word_normalized": "أفاك",
+            "meaning": "كَذَّابٍ.",
+            "meaning_normalized": "كذاب"
+          },
+          {
+            "ayah_number": 222,
+            "thumun": 300,
+            "hizb": 38,
+            "thumun_in_hizb": 4,
+            "ayah": "تَنَزَّلُ عَلَىٰ كُلِّ أَفَّاكٍ أَثِيمٍۢ",
+            "word": "أَثِيمٍ",
+            "word_normalized": "أثيم",
+            "meaning": "كَثِيرِ الآثَامِ.",
+            "meaning_normalized": "كثير الآثام"
+          }
+        ]
+      }
+    ]
+  }
+}

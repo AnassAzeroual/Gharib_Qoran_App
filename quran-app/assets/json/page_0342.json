@@ -1,0 +1,185 @@
+{
+  "page": {
+    "page_number": 342,
+    "header": {
+      "right": "سُورَةُ الْمَسَدِ - سُورَةُ الْإِخْلَاصِ - سُورَةُ الْفَلَقِ",
+      "right_normalized": "سورة المسد - سورة الإخلاص - سورة الفلق",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمَسَدِ",
+          "name_normalized": "سورة المسد",
+          "order": 111,
+          "ayat_count": 5,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+            "word": "مَآ أَغْنَىٰ عَنْهُ",
+            "word_normalized": "ما اغني عنه",
+            "meaning": "مَا دَفَعَ عَنْهُ الخَسَارَ.",
+            "meaning_normalized": "ما دفع عنه الخسار"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+            "word": "وَمَا كَسَبَ",
+            "word_normalized": "وما كسب",
+            "meaning": "وَهُوَ وَلَدُهُ.",
+            "meaning_normalized": "وهو ولده"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+            "word": "سَيَصْلَىٰ نَارًۭا",
+            "word_normalized": "سيصلي نارا",
+            "meaning": "سَيَدْخُلُ نَارًا يُقَاسِي حَرَّهَا.",
+            "meaning_normalized": "سيدخل نارا يقاسي حرها"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+            "word": "ذَاتَ لَهَبٍ",
+            "word_normalized": "ذات لهب",
+            "meaning": "نَارًا مُتَأَجِّجَةً، مُتَّقِدَةً.",
+            "meaning_normalized": "نارا متأججة متقدة"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+            "word": "حَمَّالَةَ ٱلْحَطَبِ",
+            "word_normalized": "حماله الحطب",
+            "meaning": "تَحْمِلُ الشَّوْكَ، فَتَطْرَحُهُ فِي طَرِيقِ النَّبِيَّ - صلى الله عليه وسلم -؛ لِتُؤْذِيَهُ.",
+            "meaning_normalized": "تحمل الشوك فتطرحه في طريق النبي صلى الله عليه وسلم لتؤذيه"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+            "word": "جِيدِهَا",
+            "word_normalized": "جيدها",
+            "meaning": "عُنُقِهَا.",
+            "meaning_normalized": "عنقها"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+            "word": "مِّن مَّسَدٍ",
+            "word_normalized": "من مسد",
+            "meaning": "مِنْ لِيفٍ شَدِيدٍ خَشِنٍ تُرْفَعُ بهِ فيِ النَّارِ، ثُمَّ تُرْمَى.",
+            "meaning_normalized": "من ليف شديد خشن ترفع به في النار ثم ترمى"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْإِخْلَاصِ",
+          "name_normalized": "سورة الإخلاص",
+          "order": 112,
+          "ayat_count": 4,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "ٱللَّهُ ٱلصَّمَدُ",
+            "word": "ٱلصَّمَدُ",
+            "word_normalized": "الصمد",
+            "meaning": "السَّيِّدُ الَّذِي كَمُلَ فِي سُؤْدَدِهِ وَغِنَاهُ، وَالَّذِي يُقْصَدُ فيِ قَضَاءِ الحَوَائِجِ.",
+            "meaning_normalized": "السيد الذي كمل في سؤدده وغناه والذي يقصد في قضاء الحوائج"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+            "word": "كُفُوًا",
+            "word_normalized": "كفوا",
+            "meaning": "مُكَافِئًا، وَمُمَاثِلًا، وَنَظِيرًا.",
+            "meaning_normalized": "مكافئا ومماثلا ونظيرا"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْفَلَقِ",
+          "name_normalized": "سورة الفلق",
+          "order": 113,
+          "ayat_count": 5,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+            "word": "أَعُوذُ",
+            "word_normalized": "أعوذ",
+            "meaning": "أَعْتَصِمُ، وَأَلْتَجِئُ.",
+            "meaning_normalized": "أعتصم وألتجئ"
+          },
+          {
+            "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+            "word": "ٱلْفَلَقِ",
+            "word_normalized": "الفلق",
+            "meaning": "الصُّبْحِ.",
+            "meaning_normalized": "الصبح"
+          }
+        ]
+      }
+    ]
+  }
+}

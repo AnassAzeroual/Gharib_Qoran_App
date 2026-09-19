@@ -1,0 +1,239 @@
+{
+  "page": {
+    "page_number": 269,
+    "header": {
+      "right": "سُورَةُ الْوَاقِعَةِ",
+      "right_normalized": "سورة الواقعة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْوَاقِعَةِ",
+          "name_normalized": "سورة الواقعة",
+          "order": 56,
+          "ayat_count": 96,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 74,
+            "thumun": 428,
+            "hizb": 54,
+            "thumun_in_hizb": 4,
+            "ayah": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+            "word": "فَسَبِّحْ بِٱسْمِ رَبِّكَ",
+            "word_normalized": "فسبح باسم ربك",
+            "meaning": "نَزِّهُ رَبَّكَ ذَاكِرًا اسْمَهُ.",
+            "meaning_normalized": "نزه ربك ذاكرا اسمه"
+          },
+          {
+            "ayah_number": 75,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+            "word": "فَلَا أُقْسِمُ",
+            "word_normalized": "فلا أقسم",
+            "meaning": "أُقْسِمُ وَأَحْلِفُ، وَ (لَا): تَوْكِيدٌ لِلْقَسَمِ.",
+            "meaning_normalized": "أقسم وأحلف و لا توكيد للقسم"
+          },
+          {
+            "ayah_number": 75,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+            "word": "بِمَوَٰقِعِ ٱلنُّجُومِ",
+            "word_normalized": "بموقع النجوم",
+            "meaning": "بِمَسَاقِطِهَا فِي مَغَارِبِهَا فِي السَّمَاءِ.",
+            "meaning_normalized": "بمساقطها في مغاربها في السماء"
+          },
+          {
+            "ayah_number": 77,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "إِنَّهُۥ لَقُرْءَانٌۭ كَرِيمٌۭ",
+            "word": "كَرِيمٌ",
+            "word_normalized": "كريم",
+            "meaning": "عَظِيمُ المَنَافِعِ، كَثِيرُ الخَيْرِ، غَزِيرُ العِلْمِ.",
+            "meaning_normalized": "عظيم المنافع كثير الخير غزير العلم"
+          },
+          {
+            "ayah_number": 78,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فِى كِتَـٰبٍۢ مَّكْنُونٍۢ",
+            "word": "مَّكْنُونٍ",
+            "word_normalized": "مكنون",
+            "meaning": "مَسْتُورٍ مَصُونٍ.",
+            "meaning_normalized": "مستور مصون"
+          },
+          {
+            "ayah_number": 81,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "أَفَبِهَـٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+            "word": "ٱلْحَدِيثِ",
+            "word_normalized": "الحديث",
+            "meaning": "القُرْآنِ.",
+            "meaning_normalized": "القرآن"
+          },
+          {
+            "ayah_number": 81,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "أَفَبِهَـٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+            "word": "مُّدْهِنُونَ",
+            "word_normalized": "مدهنون",
+            "meaning": "مُكَذِّبُونَ.",
+            "meaning_normalized": "مكذبون"
+          },
+          {
+            "ayah_number": 82,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+            "word": "وَتَجْعَلُونَ رِزْقَكُمْ",
+            "word_normalized": "وتجعلون رزقكم",
+            "meaning": "تَجْعَلُونَ شُكْرَ نِعَمِ اللهِ عَلَيْكُمْ.",
+            "meaning_normalized": "تجعلون شكر نعم الله عليكم"
+          },
+          {
+            "ayah_number": 83,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ",
+            "word": "بَلَغَتِ ٱلْحُلْقُومَ",
+            "word_normalized": "بلغت الحلقوم",
+            "meaning": "وَصَلَتِ الرُّوحُ الحُلْقُومَ عِنْدَ المَوْتِ.",
+            "meaning_normalized": "وصلت الروح الحلقوم عند الموت"
+          },
+          {
+            "ayah_number": 86,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ",
+            "word": "غَيْرَ مَدِينِينَ",
+            "word_normalized": "غير مدينين",
+            "meaning": "غَيْرَ مَجْزِيِّينَ، وَمُحَاسَبِينَ.",
+            "meaning_normalized": "غير مجزيين ومحاسبين"
+          },
+          {
+            "ayah_number": 87,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "تَرْجِعُونَهَآ إِن كُنتُمْ صَـٰدِقِينَ",
+            "word": "تَرْجِعُونَهَا",
+            "word_normalized": "ترجعونها",
+            "meaning": "تَرُدُّونَ الرُّوحَ إِلَى الجَسَدِ.",
+            "meaning_normalized": "تردون الروح إلى الجسد"
+          },
+          {
+            "ayah_number": 89,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَرَوْحٌۭ وَرَيْحَانٌۭ وَجَنَّتُ نَعِيمٍۢ",
+            "word": "فَرَوْحٌ",
+            "word_normalized": "فروح",
+            "meaning": "رَحْمَةٌ وَاسِعَةٌ، وَاسْتِرَاحَةٌ، وَفَرَحٌ.",
+            "meaning_normalized": "رحمة واسعة واستراحة وفرح"
+          },
+          {
+            "ayah_number": 89,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَرَوْحٌۭ وَرَيْحَانٌۭ وَجَنَّتُ نَعِيمٍۢ",
+            "word": "وَرَيْحَانٌ",
+            "word_normalized": "وريحان",
+            "meaning": "رِزْقٌ حَسَنٌ، وَرَائِحَةٌ طَيِّبَةٌ، وَجَمِيعُ مَا تَطِيبُ بِهِ نَفْسُهُ.",
+            "meaning_normalized": "رزق حسن ورائحة طيبة وجميع ما تطيب به نفسه"
+          },
+          {
+            "ayah_number": 91,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَسَلَـٰمٌۭ لَّكَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+            "word": "فَسَلَـٰمٌۭ لَّكَ",
+            "word_normalized": "فسلم لك",
+            "meaning": "يُقَالُ لَهُ: سَلَامَةٌ لَكَ، وَأَمْنٌ.",
+            "meaning_normalized": "يقال له سلامة لك وأمن"
+          },
+          {
+            "ayah_number": 91,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَسَلَـٰمٌۭ لَّكَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+            "word": "مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+            "word_normalized": "من اصحب اليمين",
+            "meaning": "لِكَوْنِكَ مِنْ أَصْحَابِ اليَمِينِ.",
+            "meaning_normalized": "لكونك من أصحاب اليمين"
+          },
+          {
+            "ayah_number": 93,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَنُزُلٌۭ مِّنْ حَمِيمٍۢ",
+            "word": "فَنُزُلٌ",
+            "word_normalized": "فنزل",
+            "meaning": "ضِيَافَةٌ.",
+            "meaning_normalized": "ضيافة"
+          },
+          {
+            "ayah_number": 93,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "فَنُزُلٌۭ مِّنْ حَمِيمٍۢ",
+            "word": "حَمِيمٍ",
+            "word_normalized": "حميم",
+            "meaning": "شَرَابِ جَهَنَّمَ المُتَنَاهِي فِي الحَرَارَةِ.",
+            "meaning_normalized": "شراب جهنم المتناهي في الحرارة"
+          },
+          {
+            "ayah_number": 94,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "وَتَصْلِيَةُ جَحِيمٍ",
+            "word": "وَتَصْلِيَةُ جَحِيمٍ",
+            "word_normalized": "وتصلية جحيم",
+            "meaning": "يَدْخُلُ فِيهَا، وَيُقَاسِي حَرَّهَا.",
+            "meaning_normalized": "يدخل فيها ويقاسي حرها"
+          },
+          {
+            "ayah_number": 95,
+            "thumun": 429,
+            "hizb": 54,
+            "thumun_in_hizb": 5,
+            "ayah": "إِنَّ هَـٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
+            "word": "حَقُّ ٱلْيَقِينِ",
+            "word_normalized": "حق اليقين",
+            "meaning": "لَا مِرْيَةَ فِيهِ.",
+            "meaning_normalized": "لا مرية فيه"
+          }
+        ]
+      }
+    ]
+  }
+}

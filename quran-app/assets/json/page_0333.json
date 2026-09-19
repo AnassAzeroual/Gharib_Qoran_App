@@ -1,0 +1,195 @@
+{
+  "page": {
+    "page_number": 333,
+    "header": {
+      "right": "سُورَةُ الْعَلَقِ",
+      "right_normalized": "سورة العلق",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْعَلَقِ",
+          "name_normalized": "سورة العلق",
+          "order": 96,
+          "ayat_count": 19,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+            "word": "عَلَقٍ",
+            "word_normalized": "علق",
+            "meaning": "قِطْعَةِ دَمٍ غَلِيظٍ.",
+            "meaning_normalized": "قطعة دم غليظ"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+            "word": "كَلَّا",
+            "word_normalized": "كلا",
+            "meaning": "حَقًّا.",
+            "meaning_normalized": "حقا"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+            "word": "لَيَطْغَى",
+            "word_normalized": "ليطغى",
+            "meaning": "لَيَتَجَاوُزُ الحَدَّ فِي العِصْيَانِ، وَالكِبْرِ.",
+            "meaning_normalized": "ليتجاوز الحد في العصيان والكبر"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+            "word": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+            "word_normalized": "ان رءاه استغني",
+            "meaning": "بِسَبَبِ أَنْ رَأَى نَفْسَهُ مُسْتَغِنيًا بِمَالِهِ.",
+            "meaning_normalized": "بسبب أن رأى نفسه مستغنيا بماله"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+            "word": "ٱلرُّجْعَىٰٓ",
+            "word_normalized": "الرجعي",
+            "meaning": "الرُّجُوعَ، وَالمَصِيرَ.",
+            "meaning_normalized": "الرجوع والمصير"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+            "word": "أَرَءَيْتَ",
+            "word_normalized": "ارءيت",
+            "meaning": "أَلَا تَعْجَبُ!!",
+            "meaning_normalized": "ألا تعجب"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+            "word": "وَتَوَلَّى",
+            "word_normalized": "وتولى",
+            "meaning": "أَعْرَضَ عَنِ الإِيمَانِ.",
+            "meaning_normalized": "أعرض عن الإيمان"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+            "word": "لَنَسْفَعًۢا",
+            "word_normalized": "لنسفعا",
+            "meaning": "لَنَاخُذَنْهُ أَخْذًا عَنِيفًا فَنَطْرَحُهُ فِي النَّارِ.",
+            "meaning_normalized": "لناخذنه أخذا عنيفا فنطرحه في النار"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+            "word": "بِٱلنَّاصِيَةِ",
+            "word_normalized": "بالناصيه",
+            "meaning": "بِمُقَدَّمِ رَاسِهِ.",
+            "meaning_normalized": "بمقدم راسه"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "نَاصِيَةٍۢ كَـٰذِبَةٍ خَاطِئَةٍۢ",
+            "word": "خَاطِئَةٍ",
+            "word_normalized": "خاطئة",
+            "meaning": "آثِمَةٍ.",
+            "meaning_normalized": "آثمة"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "فَلْيَدْعُ نَادِيَهُۥ",
+            "word": "فَلْيَدْعُ",
+            "word_normalized": "فليدع",
+            "meaning": "فَلْيُحْضِرْ، وَلْيُنَادِ.",
+            "meaning_normalized": "فليحضر وليناد"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "فَلْيَدْعُ نَادِيَهُۥ",
+            "word": "نَادِيَه",
+            "word_normalized": "ناديه",
+            "meaning": "أَهْلَ مَجْلِسِهِ مِنْ قَوْمِهِ، وَعَشِيرَتِهِ.",
+            "meaning_normalized": "أهل مجلسه من قومه وعشيرته"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+            "word": "ٱلزَّبَانِيَةَ",
+            "word_normalized": "الزبانيه",
+            "meaning": "مَلَائِكَةَ العَذَابِ.",
+            "meaning_normalized": "ملائكة العذاب"
+          },
+          {
+            "ayah_number": 19,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+            "word": "كَلَّا",
+            "word_normalized": "كلا",
+            "meaning": "لَيْسَ الأَمْرُ عَلَى مَا يَظُنُّ أَبُو جَهْلٍ.",
+            "meaning_normalized": "ليس الأمر على ما يظن أبو جهل"
+          },
+          {
+            "ayah_number": 19,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+            "word": "وَٱقْتَرِب",
+            "word_normalized": "واقترب",
+            "meaning": "ادْنُ مِنْهُ بِالطَّاعَةِ.",
+            "meaning_normalized": "ادن منه بالطاعة"
+          }
+        ]
+      }
+    ]
+  }
+}

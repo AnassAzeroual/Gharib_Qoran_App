@@ -1,0 +1,1905 @@
+{
+  "generated": "2026-09-17",
+  "page_count": 337,
+  "image_count": 337,
+  "pages": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343
+  ],
+  "surahs": [
+    {
+      "order": 1,
+      "name_normalized": "سورة الفاتحة",
+      "short_normalized": "الفاتحة",
+      "classification": "مكية",
+      "unfamiliar_words_count": 11,
+      "start_page": 7,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "order": 2,
+      "name_normalized": "سورة البقرة",
+      "short_normalized": "البقرة",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 234,
+      "start_page": 7,
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "order": 3,
+      "name_normalized": "سورة آل عمران",
+      "short_normalized": "آل عمران",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 100,
+      "start_page": 19,
+      "pages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "order": 4,
+      "name_normalized": "سورة النساء",
+      "short_normalized": "النساء",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 143,
+      "start_page": 25,
+      "pages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "order": 5,
+      "name_normalized": "سورة المائدة",
+      "short_normalized": "المائدة",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 129,
+      "start_page": 32,
+      "pages": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "order": 6,
+      "name_normalized": "سورة الأنعام",
+      "short_normalized": "الأنعام",
+      "classification": "مكية",
+      "unfamiliar_words_count": 146,
+      "start_page": 39,
+      "pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "order": 7,
+      "name_normalized": "سورة الأعراف",
+      "short_normalized": "الأعراف",
+      "classification": "مكية",
+      "unfamiliar_words_count": 215,
+      "start_page": 47,
+      "pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "order": 8,
+      "name_normalized": "سورة الأنفال",
+      "short_normalized": "الأنفال",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 69,
+      "start_page": 58,
+      "pages": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "order": 9,
+      "name_normalized": "سورة التوبة",
+      "short_normalized": "التوبة",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 134,
+      "start_page": 62,
+      "pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "order": 10,
+      "name_normalized": "سورة يونس",
+      "short_normalized": "يونس",
+      "classification": "مكية",
+      "unfamiliar_words_count": 85,
+      "start_page": 69,
+      "pages": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "order": 11,
+      "name_normalized": "سورة هود",
+      "short_normalized": "هود",
+      "classification": "مكية",
+      "unfamiliar_words_count": 148,
+      "start_page": 73,
+      "pages": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "order": 12,
+      "name_normalized": "سورة يوسف",
+      "short_normalized": "يوسف",
+      "classification": "مكية",
+      "unfamiliar_words_count": 117,
+      "start_page": 81,
+      "pages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ]
+    },
+    {
+      "order": 13,
+      "name_normalized": "سورة الرعد",
+      "short_normalized": "الرعد",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 39,
+      "start_page": 87,
+      "pages": [
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "order": 14,
+      "name_normalized": "سورة إبراهيم",
+      "short_normalized": "إبراهيم",
+      "classification": "مكية",
+      "unfamiliar_words_count": 44,
+      "start_page": 89,
+      "pages": [
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "order": 15,
+      "name_normalized": "سورة الحجر",
+      "short_normalized": "الحجر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 65,
+      "start_page": 91,
+      "pages": [
+        91,
+        92,
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "order": 16,
+      "name_normalized": "سورة النحل",
+      "short_normalized": "النحل",
+      "classification": "مكية",
+      "unfamiliar_words_count": 116,
+      "start_page": 95,
+      "pages": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "order": 17,
+      "name_normalized": "سورة الإسراء",
+      "short_normalized": "الإسراء",
+      "classification": "مكية",
+      "unfamiliar_words_count": 139,
+      "start_page": 101,
+      "pages": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "order": 18,
+      "name_normalized": "سورة الكهف",
+      "short_normalized": "الكهف",
+      "classification": "مكية",
+      "unfamiliar_words_count": 148,
+      "start_page": 108,
+      "pages": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ]
+    },
+    {
+      "order": 19,
+      "name_normalized": "سورة مريم",
+      "short_normalized": "مريم",
+      "classification": "مكية",
+      "unfamiliar_words_count": 85,
+      "start_page": 116,
+      "pages": [
+        116,
+        117,
+        118,
+        119,
+        120
+      ]
+    },
+    {
+      "order": 20,
+      "name_normalized": "سورة طه",
+      "short_normalized": "طه",
+      "classification": "مكية",
+      "unfamiliar_words_count": 127,
+      "start_page": 120,
+      "pages": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ]
+    },
+    {
+      "order": 21,
+      "name_normalized": "سورة الأنبياء",
+      "short_normalized": "الأنبياء",
+      "classification": "مكية",
+      "unfamiliar_words_count": 101,
+      "start_page": 126,
+      "pages": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ]
+    },
+    {
+      "order": 22,
+      "name_normalized": "سورة الحج",
+      "short_normalized": "الحج",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 111,
+      "start_page": 132,
+      "pages": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ]
+    },
+    {
+      "order": 23,
+      "name_normalized": "سورة المؤمنون",
+      "short_normalized": "المؤمنون",
+      "classification": "مكية",
+      "unfamiliar_words_count": 75,
+      "start_page": 138,
+      "pages": [
+        138,
+        139,
+        140,
+        141
+      ]
+    },
+    {
+      "order": 24,
+      "name_normalized": "سورة النور",
+      "short_normalized": "النور",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 80,
+      "start_page": 142,
+      "pages": [
+        142,
+        143,
+        144,
+        145,
+        146
+      ]
+    },
+    {
+      "order": 25,
+      "name_normalized": "سورة الفرقان",
+      "short_normalized": "الفرقان",
+      "classification": "مكية",
+      "unfamiliar_words_count": 74,
+      "start_page": 146,
+      "pages": [
+        146,
+        147,
+        148,
+        149,
+        150
+      ]
+    },
+    {
+      "order": 26,
+      "name_normalized": "سورة الشعراء",
+      "short_normalized": "الشعراء",
+      "classification": "مكية",
+      "unfamiliar_words_count": 86,
+      "start_page": 150,
+      "pages": [
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
+      ]
+    },
+    {
+      "order": 27,
+      "name_normalized": "سورة النمل",
+      "short_normalized": "النمل",
+      "classification": "مكية",
+      "unfamiliar_words_count": 106,
+      "start_page": 155,
+      "pages": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ]
+    },
+    {
+      "order": 28,
+      "name_normalized": "سورة القصص",
+      "short_normalized": "القصص",
+      "classification": "مكية",
+      "unfamiliar_words_count": 114,
+      "start_page": 161,
+      "pages": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
+      ]
+    },
+    {
+      "order": 29,
+      "name_normalized": "سورة العنكبوت",
+      "short_normalized": "العنكبوت",
+      "classification": "مكية",
+      "unfamiliar_words_count": 59,
+      "start_page": 166,
+      "pages": [
+        166,
+        167,
+        168,
+        169
+      ]
+    },
+    {
+      "order": 30,
+      "name_normalized": "سورة الروم",
+      "short_normalized": "الروم",
+      "classification": "مكية",
+      "unfamiliar_words_count": 59,
+      "start_page": 170,
+      "pages": [
+        170,
+        171,
+        172,
+        173
+      ]
+    },
+    {
+      "order": 31,
+      "name_normalized": "سورة لقمان",
+      "short_normalized": "لقمان",
+      "classification": "مكية",
+      "unfamiliar_words_count": 41,
+      "start_page": 173,
+      "pages": [
+        173,
+        174,
+        175
+      ]
+    },
+    {
+      "order": 32,
+      "name_normalized": "سورة السجدة",
+      "short_normalized": "السجدة",
+      "classification": "مكية",
+      "unfamiliar_words_count": 25,
+      "start_page": 175,
+      "pages": [
+        175,
+        176
+      ]
+    },
+    {
+      "order": 33,
+      "name_normalized": "سورة الأحزاب",
+      "short_normalized": "الأحزاب",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 130,
+      "start_page": 176,
+      "pages": [
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
+      ]
+    },
+    {
+      "order": 34,
+      "name_normalized": "سورة سبإ",
+      "short_normalized": "سبإ",
+      "classification": "مكية",
+      "unfamiliar_words_count": 83,
+      "start_page": 184,
+      "pages": [
+        184,
+        185,
+        186,
+        187,
+        188
+      ]
+    },
+    {
+      "order": 35,
+      "name_normalized": "سورة فاطر",
+      "short_normalized": "فاطر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 64,
+      "start_page": 188,
+      "pages": [
+        188,
+        189,
+        190,
+        191
+      ]
+    },
+    {
+      "order": 36,
+      "name_normalized": "سورة يس",
+      "short_normalized": "يس",
+      "classification": "مكية",
+      "unfamiliar_words_count": 52,
+      "start_page": 192,
+      "pages": [
+        192,
+        193,
+        194
+      ]
+    },
+    {
+      "order": 37,
+      "name_normalized": "سورة الصافات",
+      "short_normalized": "الصافات",
+      "classification": "مكية",
+      "unfamiliar_words_count": 97,
+      "start_page": 195,
+      "pages": [
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ]
+    },
+    {
+      "order": 38,
+      "name_normalized": "سورة ص",
+      "short_normalized": "ص",
+      "classification": "مكية",
+      "unfamiliar_words_count": 115,
+      "start_page": 200,
+      "pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ]
+    },
+    {
+      "order": 39,
+      "name_normalized": "سورة الزمر",
+      "short_normalized": "الزمر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 102,
+      "start_page": 206,
+      "pages": [
+        206,
+        207,
+        208,
+        209,
+        210,
+        211
+      ]
+    },
+    {
+      "order": 40,
+      "name_normalized": "سورة غافر",
+      "short_normalized": "غافر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 104,
+      "start_page": 212,
+      "pages": [
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ]
+    },
+    {
+      "order": 41,
+      "name_normalized": "سورة فصلت",
+      "short_normalized": "فصلت",
+      "classification": "مكية",
+      "unfamiliar_words_count": 84,
+      "start_page": 217,
+      "pages": [
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
+      ]
+    },
+    {
+      "order": 42,
+      "name_normalized": "سورة الشورى",
+      "short_normalized": "الشورى",
+      "classification": "مكية",
+      "unfamiliar_words_count": 74,
+      "start_page": 222,
+      "pages": [
+        222,
+        223,
+        224,
+        225,
+        226
+      ]
+    },
+    {
+      "order": 43,
+      "name_normalized": "سورة الزخرف",
+      "short_normalized": "الزخرف",
+      "classification": "مكية",
+      "unfamiliar_words_count": 94,
+      "start_page": 226,
+      "pages": [
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
+      ]
+    },
+    {
+      "order": 44,
+      "name_normalized": "سورة الدخان",
+      "short_normalized": "الدخان",
+      "classification": "مكية",
+      "unfamiliar_words_count": 44,
+      "start_page": 231,
+      "pages": [
+        231,
+        232,
+        233
+      ]
+    },
+    {
+      "order": 45,
+      "name_normalized": "سورة الجاثية",
+      "short_normalized": "الجاثية",
+      "classification": "مكية",
+      "unfamiliar_words_count": 28,
+      "start_page": 233,
+      "pages": [
+        233,
+        234,
+        235
+      ]
+    },
+    {
+      "order": 46,
+      "name_normalized": "سورة الأحقاف",
+      "short_normalized": "الأحقاف",
+      "classification": "مكية",
+      "unfamiliar_words_count": 55,
+      "start_page": 235,
+      "pages": [
+        235,
+        236,
+        237,
+        238
+      ]
+    },
+    {
+      "order": 47,
+      "name_normalized": "سورة محمد",
+      "short_normalized": "محمد",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 60,
+      "start_page": 238,
+      "pages": [
+        238,
+        239,
+        240,
+        241
+      ]
+    },
+    {
+      "order": 48,
+      "name_normalized": "سورة الفتح",
+      "short_normalized": "الفتح",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 50,
+      "start_page": 241,
+      "pages": [
+        241,
+        242,
+        243,
+        244
+      ]
+    },
+    {
+      "order": 49,
+      "name_normalized": "سورة الحجرات",
+      "short_normalized": "الحجرات",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 27,
+      "start_page": 244,
+      "pages": [
+        244,
+        245
+      ]
+    },
+    {
+      "order": 50,
+      "name_normalized": "سورة ق",
+      "short_normalized": "ق",
+      "classification": "مكية",
+      "unfamiliar_words_count": 63,
+      "start_page": 246,
+      "pages": [
+        246,
+        247,
+        248,
+        249
+      ]
+    },
+    {
+      "order": 51,
+      "name_normalized": "سورة الذاريات",
+      "short_normalized": "الذاريات",
+      "classification": "مكية",
+      "unfamiliar_words_count": 50,
+      "start_page": 249,
+      "pages": [
+        249,
+        250,
+        251,
+        252
+      ]
+    },
+    {
+      "order": 52,
+      "name_normalized": "سورة الطور",
+      "short_normalized": "الطور",
+      "classification": "مكية",
+      "unfamiliar_words_count": 49,
+      "start_page": 252,
+      "pages": [
+        252,
+        253,
+        254,
+        255
+      ]
+    },
+    {
+      "order": 53,
+      "name_normalized": "سورة النجم",
+      "short_normalized": "النجم",
+      "classification": "مكية",
+      "unfamiliar_words_count": 46,
+      "start_page": 255,
+      "pages": [
+        255,
+        256,
+        257
+      ]
+    },
+    {
+      "order": 54,
+      "name_normalized": "سورة القمر",
+      "short_normalized": "القمر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 68,
+      "start_page": 257,
+      "pages": [
+        257,
+        258,
+        259,
+        260,
+        261
+      ]
+    },
+    {
+      "order": 55,
+      "name_normalized": "سورة الرحمن",
+      "short_normalized": "الرحمن",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 62,
+      "start_page": 261,
+      "pages": [
+        261,
+        262,
+        263,
+        264,
+        265
+      ]
+    },
+    {
+      "order": 56,
+      "name_normalized": "سورة الواقعة",
+      "short_normalized": "الواقعة",
+      "classification": "مكية",
+      "unfamiliar_words_count": 82,
+      "start_page": 265,
+      "pages": [
+        265,
+        266,
+        267,
+        268,
+        269
+      ]
+    },
+    {
+      "order": 57,
+      "name_normalized": "سورة الحديد",
+      "short_normalized": "الحديد",
+      "classification": "مكية",
+      "unfamiliar_words_count": 57,
+      "start_page": 270,
+      "pages": [
+        270,
+        271,
+        272
+      ]
+    },
+    {
+      "order": 58,
+      "name_normalized": "سورة المجادلة",
+      "short_normalized": "المجادلة",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 33,
+      "start_page": 273,
+      "pages": [
+        273,
+        274
+      ]
+    },
+    {
+      "order": 59,
+      "name_normalized": "سورة الحشر",
+      "short_normalized": "الحشر",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 50,
+      "start_page": 274,
+      "pages": [
+        274,
+        275,
+        276,
+        277
+      ]
+    },
+    {
+      "order": 60,
+      "name_normalized": "سورة الممتحنة",
+      "short_normalized": "الممتحنة",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 33,
+      "start_page": 277,
+      "pages": [
+        277,
+        278,
+        279
+      ]
+    },
+    {
+      "order": 61,
+      "name_normalized": "سورة الصف",
+      "short_normalized": "الصف",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 20,
+      "start_page": 279,
+      "pages": [
+        279,
+        280
+      ]
+    },
+    {
+      "order": 62,
+      "name_normalized": "سورة الجمعة",
+      "short_normalized": "الجمعة",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 18,
+      "start_page": 281,
+      "pages": [
+        281,
+        282
+      ]
+    },
+    {
+      "order": 63,
+      "name_normalized": "سورة المنافقون",
+      "short_normalized": "المنافقون",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 20,
+      "start_page": 282,
+      "pages": [
+        282,
+        283
+      ]
+    },
+    {
+      "order": 64,
+      "name_normalized": "سورة التغابن",
+      "short_normalized": "التغابن",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 18,
+      "start_page": 283,
+      "pages": [
+        283,
+        284
+      ]
+    },
+    {
+      "order": 65,
+      "name_normalized": "سورة الطلاق",
+      "short_normalized": "الطلاق",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 25,
+      "start_page": 284,
+      "pages": [
+        284,
+        285,
+        286
+      ]
+    },
+    {
+      "order": 66,
+      "name_normalized": "سورة التحريم",
+      "short_normalized": "التحريم",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 22,
+      "start_page": 286,
+      "pages": [
+        286,
+        287
+      ]
+    },
+    {
+      "order": 67,
+      "name_normalized": "سورة الملك",
+      "short_normalized": "الملك",
+      "classification": "مكية",
+      "unfamiliar_words_count": 47,
+      "start_page": 287,
+      "pages": [
+        287,
+        288,
+        289
+      ]
+    },
+    {
+      "order": 68,
+      "name_normalized": "سورة القلم",
+      "short_normalized": "القلم",
+      "classification": "مكية",
+      "unfamiliar_words_count": 55,
+      "start_page": 290,
+      "pages": [
+        290,
+        291,
+        292,
+        293
+      ]
+    },
+    {
+      "order": 69,
+      "name_normalized": "سورة الحاقة",
+      "short_normalized": "الحاقة",
+      "classification": "مكية",
+      "unfamiliar_words_count": 51,
+      "start_page": 293,
+      "pages": [
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "order": 70,
+      "name_normalized": "سورة المعارج",
+      "short_normalized": "المعارج",
+      "classification": "مكية",
+      "unfamiliar_words_count": 37,
+      "start_page": 296,
+      "pages": [
+        296,
+        297,
+        298
+      ]
+    },
+    {
+      "order": 71,
+      "name_normalized": "سورة نوح",
+      "short_normalized": "نوح",
+      "classification": "مكية",
+      "unfamiliar_words_count": 23,
+      "start_page": 298,
+      "pages": [
+        298,
+        299
+      ]
+    },
+    {
+      "order": 72,
+      "name_normalized": "سورة الجن",
+      "short_normalized": "الجن",
+      "classification": "مكية",
+      "unfamiliar_words_count": 40,
+      "start_page": 299,
+      "pages": [
+        299,
+        300,
+        301
+      ]
+    },
+    {
+      "order": 73,
+      "name_normalized": "سورة المزمل",
+      "short_normalized": "المزمل",
+      "classification": "مكية",
+      "unfamiliar_words_count": 29,
+      "start_page": 302,
+      "pages": [
+        302,
+        303
+      ]
+    },
+    {
+      "order": 74,
+      "name_normalized": "سورة المدثر",
+      "short_normalized": "المدثر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 34,
+      "start_page": 303,
+      "pages": [
+        303,
+        304,
+        305
+      ]
+    },
+    {
+      "order": 75,
+      "name_normalized": "سورة القيامة",
+      "short_normalized": "القيامة",
+      "classification": "مكية",
+      "unfamiliar_words_count": 32,
+      "start_page": 305,
+      "pages": [
+        305,
+        306,
+        307
+      ]
+    },
+    {
+      "order": 76,
+      "name_normalized": "سورة الإنسان",
+      "short_normalized": "الإنسان",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 42,
+      "start_page": 307,
+      "pages": [
+        307,
+        308,
+        309
+      ]
+    },
+    {
+      "order": 77,
+      "name_normalized": "سورة المرسلات",
+      "short_normalized": "المرسلات",
+      "classification": "مكية",
+      "unfamiliar_words_count": 32,
+      "start_page": 309,
+      "pages": [
+        309,
+        310,
+        311
+      ]
+    },
+    {
+      "order": 78,
+      "name_normalized": "سورة النبإ",
+      "short_normalized": "النبإ",
+      "classification": "مكية",
+      "unfamiliar_words_count": 39,
+      "start_page": 311,
+      "pages": [
+        311,
+        312,
+        313
+      ]
+    },
+    {
+      "order": 79,
+      "name_normalized": "سورة النازعات",
+      "short_normalized": "النازعات",
+      "classification": "مكية",
+      "unfamiliar_words_count": 37,
+      "start_page": 313,
+      "pages": [
+        313,
+        314,
+        315
+      ]
+    },
+    {
+      "order": 80,
+      "name_normalized": "سورة عبس",
+      "short_normalized": "عبس",
+      "classification": "مكية",
+      "unfamiliar_words_count": 29,
+      "start_page": 316,
+      "pages": [
+        316,
+        317
+      ]
+    },
+    {
+      "order": 81,
+      "name_normalized": "سورة التكوير",
+      "short_normalized": "التكوير",
+      "classification": "مكية",
+      "unfamiliar_words_count": 30,
+      "start_page": 317,
+      "pages": [
+        317,
+        318,
+        319
+      ]
+    },
+    {
+      "order": 82,
+      "name_normalized": "سورة الانفطار",
+      "short_normalized": "الانفطار",
+      "classification": "مكية",
+      "unfamiliar_words_count": 10,
+      "start_page": 319,
+      "pages": [
+        319,
+        320
+      ]
+    },
+    {
+      "order": 83,
+      "name_normalized": "سورة المطففين",
+      "short_normalized": "المطففين",
+      "classification": "مكية",
+      "unfamiliar_words_count": 26,
+      "start_page": 320,
+      "pages": [
+        320,
+        321
+      ]
+    },
+    {
+      "order": 84,
+      "name_normalized": "سورة الانشقاق",
+      "short_normalized": "الانشقاق",
+      "classification": "مكية",
+      "unfamiliar_words_count": 17,
+      "start_page": 321,
+      "pages": [
+        321,
+        322
+      ]
+    },
+    {
+      "order": 85,
+      "name_normalized": "سورة البروج",
+      "short_normalized": "البروج",
+      "classification": "مكية",
+      "unfamiliar_words_count": 14,
+      "start_page": 322,
+      "pages": [
+        322,
+        323
+      ]
+    },
+    {
+      "order": 86,
+      "name_normalized": "سورة الطارق",
+      "short_normalized": "الطارق",
+      "classification": "مكية",
+      "unfamiliar_words_count": 13,
+      "start_page": 323,
+      "pages": [
+        323,
+        324
+      ]
+    },
+    {
+      "order": 87,
+      "name_normalized": "سورة الأعلى",
+      "short_normalized": "الأعلى",
+      "classification": "مكية",
+      "unfamiliar_words_count": 13,
+      "start_page": 324,
+      "pages": [
+        324,
+        325
+      ]
+    },
+    {
+      "order": 88,
+      "name_normalized": "سورة الغاشية",
+      "short_normalized": "الغاشية",
+      "classification": "مكية",
+      "unfamiliar_words_count": 16,
+      "start_page": 325,
+      "pages": [
+        325,
+        326
+      ]
+    },
+    {
+      "order": 89,
+      "name_normalized": "سورة الفجر",
+      "short_normalized": "الفجر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 27,
+      "start_page": 326,
+      "pages": [
+        326,
+        327
+      ]
+    },
+    {
+      "order": 90,
+      "name_normalized": "سورة البلد",
+      "short_normalized": "البلد",
+      "classification": "مكية",
+      "unfamiliar_words_count": 18,
+      "start_page": 328,
+      "pages": [
+        328,
+        329
+      ]
+    },
+    {
+      "order": 91,
+      "name_normalized": "سورة الشمس",
+      "short_normalized": "الشمس",
+      "classification": "مكية",
+      "unfamiliar_words_count": 19,
+      "start_page": 329,
+      "pages": [
+        329,
+        330
+      ]
+    },
+    {
+      "order": 92,
+      "name_normalized": "سورة الليل",
+      "short_normalized": "الليل",
+      "classification": "مكية",
+      "unfamiliar_words_count": 14,
+      "start_page": 330,
+      "pages": [
+        330,
+        331
+      ]
+    },
+    {
+      "order": 93,
+      "name_normalized": "سورة الضحى",
+      "short_normalized": "الضحى",
+      "classification": "مكية",
+      "unfamiliar_words_count": 10,
+      "start_page": 331,
+      "pages": [
+        331
+      ]
+    },
+    {
+      "order": 94,
+      "name_normalized": "سورة الشرح",
+      "short_normalized": "الشرح",
+      "classification": "مكية",
+      "unfamiliar_words_count": 7,
+      "start_page": 332,
+      "pages": [
+        332
+      ]
+    },
+    {
+      "order": 95,
+      "name_normalized": "سورة التين",
+      "short_normalized": "التين",
+      "classification": "مكية",
+      "unfamiliar_words_count": 6,
+      "start_page": 332,
+      "pages": [
+        332
+      ]
+    },
+    {
+      "order": 96,
+      "name_normalized": "سورة العلق",
+      "short_normalized": "العلق",
+      "classification": "مكية",
+      "unfamiliar_words_count": 15,
+      "start_page": 333,
+      "pages": [
+        333
+      ]
+    },
+    {
+      "order": 97,
+      "name_normalized": "سورة القدر",
+      "short_normalized": "القدر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 5,
+      "start_page": 334,
+      "pages": [
+        334
+      ]
+    },
+    {
+      "order": 98,
+      "name_normalized": "سورة البينة",
+      "short_normalized": "البينة",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 14,
+      "start_page": 334,
+      "pages": [
+        334,
+        335
+      ]
+    },
+    {
+      "order": 99,
+      "name_normalized": "سورة الززلزلة",
+      "short_normalized": "الززلزلة",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 10,
+      "start_page": 335,
+      "pages": [
+        335
+      ]
+    },
+    {
+      "order": 100,
+      "name_normalized": "سورة العاديات",
+      "short_normalized": "العاديات",
+      "classification": "مكية",
+      "unfamiliar_words_count": 11,
+      "start_page": 336,
+      "pages": [
+        336
+      ]
+    },
+    {
+      "order": 101,
+      "name_normalized": "سورة القارعة",
+      "short_normalized": "القارعة",
+      "classification": "مكية",
+      "unfamiliar_words_count": 7,
+      "start_page": 336,
+      "pages": [
+        336,
+        337
+      ]
+    },
+    {
+      "order": 102,
+      "name_normalized": "سورة التكاثر",
+      "short_normalized": "التكاثر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 6,
+      "start_page": 337,
+      "pages": [
+        337
+      ]
+    },
+    {
+      "order": 103,
+      "name_normalized": "سورة العصر",
+      "short_normalized": "العصر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 5,
+      "start_page": 337,
+      "pages": [
+        337,
+        338
+      ]
+    },
+    {
+      "order": 104,
+      "name_normalized": "سورة الهمزة",
+      "short_normalized": "الهمزة",
+      "classification": "مكية",
+      "unfamiliar_words_count": 12,
+      "start_page": 338,
+      "pages": [
+        338
+      ]
+    },
+    {
+      "order": 105,
+      "name_normalized": "سورة الفيل",
+      "short_normalized": "الفيل",
+      "classification": "مكية",
+      "unfamiliar_words_count": 7,
+      "start_page": 339,
+      "pages": [
+        339
+      ]
+    },
+    {
+      "order": 106,
+      "name_normalized": "سورة قريش",
+      "short_normalized": "قريش",
+      "classification": "مكية",
+      "unfamiliar_words_count": 3,
+      "start_page": 339,
+      "pages": [
+        339
+      ]
+    },
+    {
+      "order": 107,
+      "name_normalized": "سورة الماعون",
+      "short_normalized": "الماعون",
+      "classification": "مكية",
+      "unfamiliar_words_count": 7,
+      "start_page": 340,
+      "pages": [
+        340
+      ]
+    },
+    {
+      "order": 108,
+      "name_normalized": "سورة الكوثر",
+      "short_normalized": "الكوثر",
+      "classification": "مكية",
+      "unfamiliar_words_count": 4,
+      "start_page": 340,
+      "pages": [
+        340
+      ]
+    },
+    {
+      "order": 109,
+      "name_normalized": "سورة الكافرون",
+      "short_normalized": "الكافرون",
+      "classification": "مكية",
+      "unfamiliar_words_count": 3,
+      "start_page": 341,
+      "pages": [
+        341
+      ]
+    },
+    {
+      "order": 110,
+      "name_normalized": "سورة النصر",
+      "short_normalized": "النصر",
+      "classification": "مدنية",
+      "unfamiliar_words_count": 4,
+      "start_page": 341,
+      "pages": [
+        341
+      ]
+    },
+    {
+      "order": 111,
+      "name_normalized": "سورة المسد",
+      "short_normalized": "المسد",
+      "classification": "مكية",
+      "unfamiliar_words_count": 9,
+      "start_page": 341,
+      "pages": [
+        341,
+        342
+      ]
+    },
+    {
+      "order": 112,
+      "name_normalized": "سورة الإخلاص",
+      "short_normalized": "الإخلاص",
+      "classification": "مكية",
+      "unfamiliar_words_count": 2,
+      "start_page": 342,
+      "pages": [
+        342
+      ]
+    },
+    {
+      "order": 113,
+      "name_normalized": "سورة الفلق",
+      "short_normalized": "الفلق",
+      "classification": "مكية",
+      "unfamiliar_words_count": 6,
+      "start_page": 342,
+      "pages": [
+        342,
+        343
+      ]
+    },
+    {
+      "order": 114,
+      "name_normalized": "سورة الناس",
+      "short_normalized": "الناس",
+      "classification": "مكية",
+      "unfamiliar_words_count": 6,
+      "start_page": 343,
+      "pages": [
+        343
+      ]
+    }
+  ]
+}

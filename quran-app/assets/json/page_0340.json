@@ -1,0 +1,168 @@
+{
+  "page": {
+    "page_number": 340,
+    "header": {
+      "right": "سُورَةُ الْمَاعُونِ - سُورَةُ الْكَوْثَرِ",
+      "right_normalized": "سورة الماعون - سورة الكوثر",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْمَاعُونِ",
+          "name_normalized": "سورة الماعون",
+          "order": 107,
+          "ayat_count": 7,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+            "word": "بِٱلدِّينِ",
+            "word_normalized": "بالدين",
+            "meaning": "بِالبَعْثِ، وَالجَزَاءِ.",
+            "meaning_normalized": "بالبعث والجزاء"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+            "word": "يَدُعُّ ٱلْيَتِيمَ",
+            "word_normalized": "يدع اليتيم",
+            "meaning": "يَدْفَعُ اليَتِيمَ بِعُنْفٍ عَنْ حَقِّهِ.",
+            "meaning_normalized": "يدفع اليتيم بعنف عن حقه"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+            "word": "وَلَا يَحُضُّ",
+            "word_normalized": "ولا يحض",
+            "meaning": "لَا يَحُثُّ النَّاسَ.",
+            "meaning_normalized": "لا يحث الناس"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "فَوَيْلٌۭ لِّلْمُصَلِّينَ",
+            "word": "فَوَيْلٌ",
+            "word_normalized": "فويل",
+            "meaning": "فَعَذَابٌ شَدِيدٌ.",
+            "meaning_normalized": "فعذاب شديد"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+            "word": "سَاهُونَ",
+            "word_normalized": "ساهون",
+            "meaning": "غَيْرُ مُبَالِينَ بِهَا؛ يُؤَخِّرُونَها عَنْ وَقْتِهَا، وَلَا يُقْيمُونَهَا عَلَى وَجْهِهَا.",
+            "meaning_normalized": "غير مبالين بها يؤخرونها عن وقتها ولا يقيمونها على وجهها"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+            "word": "يُرَآءُونَ",
+            "word_normalized": "يراءون",
+            "meaning": "يُظَاهِرُونَ بِأَعْمَالِهِمْ؛ مُرَاءَاةً لِلنَّاسِ.",
+            "meaning_normalized": "يظاهرون بأعمالهم مراءاة للناس"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+            "word": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+            "word_normalized": "ويمنعون الماعون",
+            "meaning": "يَمْنَعُونَ إِعَارَةَ مَا لَا تَضُرُّ إِعَارَتُهُ مِنَ الآنِيَةِ وَغَيْرِهَا؛ لِبُخْلِهِمْ.",
+            "meaning_normalized": "يمنعون إعارة ما لا تضر إعارته من الآنية وغيرها لبخلهم"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْكَوْثَرِ",
+          "name_normalized": "سورة الكوثر",
+          "order": 108,
+          "ayat_count": 3,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ",
+            "word": "ٱلْكَوْثَرَ",
+            "word_normalized": "الكوثر",
+            "meaning": "الخَيْرَ الكَثِيرَ، وَمِنْهَ نَهْرُ الكَوْثَرِ فِي الجَنَّةِ.",
+            "meaning_normalized": "الخير الكثير ومنه نهر الكوثر في الجنة"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+            "word": "وَٱنْحَرْ",
+            "word_normalized": "وانحر",
+            "meaning": "اذْبَحْ ذَبِيحَتَكَ للهِ وَحْدَهُ.",
+            "meaning_normalized": "اذبح ذبيحتك لله وحده"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+            "word": "شَانِئَكَ",
+            "word_normalized": "شانئك",
+            "meaning": "مُبْغِضَكَ.",
+            "meaning_normalized": "مبغضك"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 480,
+            "hizb": 60,
+            "thumun_in_hizb": 8,
+            "ayah": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+            "word": "ٱلْأَبْتَرُ",
+            "word_normalized": "الابتر",
+            "meaning": "المُنْقَطِعُ أَثَرُهُ، المَقْطُوعُ مِنْ كُلِّ خَيْرٍ.",
+            "meaning_normalized": "المنقطع أثره المقطوع من كل خير"
+          }
+        ]
+      }
+    ]
+  }
+}

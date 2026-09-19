@@ -1,0 +1,217 @@
+{
+  "page": {
+    "page_number": 290,
+    "header": {
+      "right": "سُورَةُ الْقَلَمِ",
+      "right_normalized": "سورة القلم",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْقَلَمِ",
+          "name_normalized": "سورة القلم",
+          "order": 68,
+          "ayat_count": 52,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ",
+            "word": "وَٱلْقَلَمِ",
+            "word_normalized": "والقلم",
+            "meaning": "قَسَمٌ بِالقَلَمِ الَّذِي تَكْتُبُ بِهِ المَلَائِكَةُ، وَالنَّاسُ.",
+            "meaning_normalized": "قسم بالقلم الذي تكتب به الملائكة والناس"
+          },
+          {
+            "ayah_number": 1,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ",
+            "word": "وَمَا يَسْطُرُونَ",
+            "word_normalized": "وما يسطرون",
+            "meaning": "وَالَّذِي يَكْتُبُونَهُ بِالقَلَمِ.",
+            "meaning_normalized": "والذي يكتبونه بالقلم"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍۢ",
+            "word": "مَمْنُونٍ",
+            "word_normalized": "ممنون",
+            "meaning": "مَنْقُوصٍ، وَلَا مُنْقَطِعٍ.",
+            "meaning_normalized": "منقوص ولا منقطع"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "بِأَييِّكُمُ ٱلْمَفْتُونُ",
+            "word": "بِأَييِّكُمُ ٱلْمَفْتُونُ",
+            "word_normalized": "باييكم المفتون",
+            "meaning": "فَي أَيِّ الفَرِيقَيْنِ الفِتْنَةُ، وَالجُنُونُ؟",
+            "meaning_normalized": "في أي الفريقين الفتنة والجنون"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "وَدُّوا۟ لَوْ تُدْهِنُ فَيُدْهِنُونَ",
+            "word": "تُدْهِنُ",
+            "word_normalized": "تدهن",
+            "meaning": "تُلَايِنُ، وَتُصَانِعُ.",
+            "meaning_normalized": "تلاين وتصانع"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "وَلَا تُطِعْ كُلَّ حَلَّافٍۢ مَّهِينٍ",
+            "word": "حَلَّافٍ",
+            "word_normalized": "حلاف",
+            "meaning": "كَثِيرِ الحَلِفِ.",
+            "meaning_normalized": "كثير الحلف"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "وَلَا تُطِعْ كُلَّ حَلَّافٍۢ مَّهِينٍ",
+            "word": "مَّهِينٍ",
+            "word_normalized": "مهين",
+            "meaning": "كَذَّابٍ، حَقِيرٍ.",
+            "meaning_normalized": "كذاب حقير"
+          },
+          {
+            "ayah_number": 11,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "هَمَّازٍۢ مَّشَّآءٍۭ بِنَمِيمٍۢ",
+            "word": "هَمَّازٍ",
+            "word_normalized": "هماز",
+            "meaning": "مُغْتَابٍ لِلنَّاسِ.",
+            "meaning_normalized": "مغتاب للناس"
+          },
+          {
+            "ayah_number": 11,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "هَمَّازٍۢ مَّشَّآءٍۭ بِنَمِيمٍۢ",
+            "word": "مَّشَّآءٍۭ بِنَمِيمٍۢ",
+            "word_normalized": "مشاء بنميم",
+            "meaning": "يَمْشِي بِالنَّمِيمَةِ، وَهِيَ: نَقْلُ الحَدِيثِ بَيْنَ النَّاسِ عَلَى وَجْهِ الإِفْسَادِ.",
+            "meaning_normalized": "يمشي بالنميمة وهي نقل الحديث بين الناس على وجه الإفساد"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "عُتُلٍّۭ بَعْدَ ذَٰلِكَ زَنِيمٍ",
+            "word": "عُتُلٍّ",
+            "word_normalized": "عتل",
+            "meaning": "فَاحِشٍ، لَئِيمٍ، غَلِيظٍ فيِ كُفْرِهِ.",
+            "meaning_normalized": "فاحش لئيم غليظ في كفره"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "عُتُلٍّۭ بَعْدَ ذَٰلِكَ زَنِيمٍ",
+            "word": "زَنِيمٍ",
+            "word_normalized": "زنيم",
+            "meaning": "مَنْسُوبٍ لِغَيْرِ أَبِيهِ.",
+            "meaning_normalized": "منسوب لغير أبيه"
+          },
+          {
+            "ayah_number": 14,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "أَن كَانَ ذَا مَالٍۢ وَبَنِينَ",
+            "word": "أَن كَانَ",
+            "word_normalized": "أن كان",
+            "meaning": "مِنْ أَجْلِ أَنَّهُ كَانَ.",
+            "meaning_normalized": "من أجل أنه كان"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
+            "word": "أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
+            "word_normalized": "اسطير الاولين",
+            "meaning": "أَبَاطِيلُهُمْ، وَخُرَافَاتُهُمْ.",
+            "meaning_normalized": "أباطيلهم وخرافاتهم"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ",
+            "word": "سَنَسِمُهُ",
+            "word_normalized": "سنسمه",
+            "meaning": "سَنَجْعَلُ لَهُ عَلَامَةً لَا تُفَارِقُهُ.",
+            "meaning_normalized": "سنجعل له علامة لا تفارقه"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ",
+            "word": "ٱلْخُرْطُومِ",
+            "word_normalized": "الخرطوم",
+            "meaning": "أَنْفِهِ.",
+            "meaning_normalized": "أنفه"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "إِنَّا بَلَوْنَـٰهُمْ كَمَا بَلَوْنَآ أَصْحَـٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ",
+            "word": "بَلَوْنَـٰهُمْ",
+            "word_normalized": "بلونهم",
+            "meaning": "اخْتَبَرْنَاهُمْ.",
+            "meaning_normalized": "اختبرناهم"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 450,
+            "hizb": 57,
+            "thumun_in_hizb": 2,
+            "ayah": "إِنَّا بَلَوْنَـٰهُمْ كَمَا بَلَوْنَآ أَصْحَـٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ",
+            "word": "ٱلْجَنَّةِ",
+            "word_normalized": "الجنه",
+            "meaning": "الحَدِيقَةِ.",
+            "meaning_normalized": "الحديقة"
+          }
+        ]
+      }
+    ]
+  }
+}

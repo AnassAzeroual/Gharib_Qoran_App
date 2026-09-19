@@ -1,0 +1,201 @@
+{
+  "page": {
+    "page_number": 338,
+    "header": {
+      "right": "سُورَةُ الْعَصْرِ - سُورَةُ الْهُمَزَةِ",
+      "right_normalized": "سورة العصر - سورة الهمزة",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْعَصْرِ",
+          "name_normalized": "سورة العصر",
+          "order": 103,
+          "ayat_count": 3,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 3,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+            "word": "بِٱلْحَقِّ",
+            "word_normalized": "بالحق",
+            "meaning": "بِالخَيْرِ كُلِّهِ: اعْتِقَادًا، وَعَمَلًا.",
+            "meaning_normalized": "بالخير كله اعتقادا وعملا"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+            "word": "بِٱلصَّبْرِ",
+            "word_normalized": "بالصبر",
+            "meaning": "عَلَى الطَّاعَةِ، وَعَنِ المَعْصِيَةِ، وَعَلَى أَقْدَارِ اللهِ المُؤْلِمَةِ.",
+            "meaning_normalized": "على الطاعة وعن المعصية وعلى أقدار الله المؤلمة"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الْهُمَزَةِ",
+          "name_normalized": "سورة الهمزة",
+          "order": 104,
+          "ayat_count": 9,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+            "word": "وَيْلٌ",
+            "word_normalized": "ويل",
+            "meaning": "شَرٌّ، وَهَلَاكٌ.",
+            "meaning_normalized": "شر وهلاك"
+          },
+          {
+            "ayah_number": 1,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+            "word": "هُمَزَةٍ",
+            "word_normalized": "همزة",
+            "meaning": "مُغْتَابٍ لِلنَّاسِ.",
+            "meaning_normalized": "مغتاب للناس"
+          },
+          {
+            "ayah_number": 1,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+            "word": "لُّمَزَةٍ",
+            "word_normalized": "لمزة",
+            "meaning": "طَعَّانٍ فيِ النَّاسِ.",
+            "meaning_normalized": "طعان في الناس"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ",
+            "word": "وَعَدَّدَهُ",
+            "word_normalized": "وعدده",
+            "meaning": "أَحْصَاهُ.",
+            "meaning_normalized": "أحصاه"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+            "word": "يَحْسَبُ",
+            "word_normalized": "يحسب",
+            "meaning": "يَظُنُّ.",
+            "meaning_normalized": "يظن"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+            "word": "أَخْلَدَهُ",
+            "word_normalized": "أخلده",
+            "meaning": "أَبْقَاهُ خَالِدًا فِي الدُّنْيَا.",
+            "meaning_normalized": "أبقاه خالدا في الدنيا"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+            "word": "كَلَّا",
+            "word_normalized": "كلا",
+            "meaning": "لَيْسَ الأَمْرُ كَمَا يَظُنُّ.",
+            "meaning_normalized": "ليس الأمر كما يظن"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+            "word": "لَيُنۢبَذَنَّ",
+            "word_normalized": "لينبذن",
+            "meaning": "لَيُطْرَحَنَّ.",
+            "meaning_normalized": "ليطرحن"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+            "word": "ٱلْحُطَمَةِ",
+            "word_normalized": "الحطمه",
+            "meaning": "النَّارِ الَّتِي تَهْشِمُ كُلَّ مَا يُلْقَى فِيهَا.",
+            "meaning_normalized": "النار التي تهشم كل ما يلقى فيها"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+            "word": "تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+            "word_normalized": "تطلع علي الافده",
+            "meaning": "تَنْفُذُ لِشِدَّتِهَا مِنْ أَجْسَامِهِمْ إِلَى قُلُوبِهِمْ.",
+            "meaning_normalized": "تنفذ لشدتها من أجسامهم إلى قلوبهم"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ",
+            "word": "مُّؤْصَدَةٌ",
+            "word_normalized": "مؤصدة",
+            "meaning": "مُطْبَقَةٌ.",
+            "meaning_normalized": "مطبقة"
+          },
+          {
+            "ayah_number": 9,
+            "thumun": 479,
+            "hizb": 60,
+            "thumun_in_hizb": 7,
+            "ayah": "فِى عَمَدٍۢ مُّمَدَّدَةٍۭ",
+            "word": "فِى عَمَدٍۢ مُّمَدَّدَةٍۭ",
+            "word_normalized": "في عمد ممدده",
+            "meaning": "يُعَذَّبُونَ فِي أَعْمِدَةٍ طَوِيلَةٍ مِنَ النَّارِ، أَوْ أَنَّ أَبْوَابَهَا مُغْلَقَةٌ بِأَعْمِدَةٍ مُمَدَّدَةٍ؛ لِئَلَّا يَخْرُجُوا مِنْهَا.",
+            "meaning_normalized": "يعذبون في أعمدة طويلة من النار أو أن أبوابها مغلقة بأعمدة ممددة لئلا يخرجوا منها"
+          }
+        ]
+      }
+    ]
+  }
+}

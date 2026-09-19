@@ -1,0 +1,190 @@
+{
+  "page": {
+    "page_number": 332,
+    "header": {
+      "right": "سُورَةُ الشَّرْحِ - سُورَةُ التِّينِ",
+      "right_normalized": "سورة الشرح - سورة التين",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ الشَّرْحِ",
+          "name_normalized": "سورة الشرح",
+          "order": 94,
+          "ayat_count": 8,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 1,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+            "word": "أَلَمْ نَشْرَحْ",
+            "word_normalized": "ألم نشرح",
+            "meaning": "قَدْ وَسَّعْنَا بِنُورِ الإِسْلَامِ بَعْدَ الحَيْرَةِ وَالضِّيقِ.",
+            "meaning_normalized": "قد وسعنا بنور الإسلام بعد الحيرة والضيق"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+            "word": "وَوَضَعْنَا",
+            "word_normalized": "ووضعنا",
+            "meaning": "حَطَطْنَا، وَغَفَرْنَا.",
+            "meaning_normalized": "حططنا وغفرنا"
+          },
+          {
+            "ayah_number": 2,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+            "word": "وِزْرَكَ",
+            "word_normalized": "وزرك",
+            "meaning": "ذَنْبَكَ.",
+            "meaning_normalized": "ذنبك"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+            "word": "أَنقَضَ",
+            "word_normalized": "أنقض",
+            "meaning": "أَثْقَلَ.",
+            "meaning_normalized": "أثقل"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+            "word": "فَرَغْتَ",
+            "word_normalized": "فرغت",
+            "meaning": "مِنْ أَشْغَالِ الدُّنْيَا.",
+            "meaning_normalized": "من أشغال الدنيا"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+            "word": "فَٱنصَبْ",
+            "word_normalized": "فانصب",
+            "meaning": "فَجِدَّ فيِ العِبَادَةِ.",
+            "meaning_normalized": "فجد في العبادة"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+            "word": "فَٱرْغَب",
+            "word_normalized": "فارغب",
+            "meaning": "فَتَوَجَّهْ، وَاطْلُبْ، وَتَضَرَّعْ.",
+            "meaning_normalized": "فتوجه واطلب وتضرع"
+          }
+        ]
+      },
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التِّينِ",
+          "name_normalized": "سورة التين",
+          "order": 95,
+          "ayat_count": 8,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 2,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "وَطُورِ سِينِينَ",
+            "word": "وَطُورِ سِينِينَ",
+            "word_normalized": "وطور سينين",
+            "meaning": "جَبَلِ طُورِ سَيْنَاءَ الَّذِي كَلَّمَ اللهُ عَلَيْهِ مُوسَى - عليه السلام -.",
+            "meaning_normalized": "جبل طور سيناء الذي كلم الله عليه موسى عليه السلام"
+          },
+          {
+            "ayah_number": 3,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+            "word": "وَهَـٰذَا ٱلْبَلَدِ",
+            "word_normalized": "وهذا البلد",
+            "meaning": "مَكَّةَ.",
+            "meaning_normalized": "مكة"
+          },
+          {
+            "ayah_number": 4,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ",
+            "word": "تَقْوِيمٍ",
+            "word_normalized": "تقويم",
+            "meaning": "صُورَةٍ.",
+            "meaning_normalized": "صورة"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ",
+            "word": "أَسْفَلَ سَـٰفِلِينَ",
+            "word_normalized": "اسفل سفلين",
+            "meaning": "النَّارَ؛ إِنْ لَمْ يُطِعِ اللهَ.",
+            "meaning_normalized": "النار إن لم يطع الله"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ",
+            "word": "غَيْرُ مَمْنُونٍ",
+            "word_normalized": "غير ممنون",
+            "meaning": "غَيْرُ مَقْطُوعٍ، وَلَا مَنْقُوصٍ.",
+            "meaning_normalized": "غير مقطوع ولا منقوص"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 477,
+            "hizb": 60,
+            "thumun_in_hizb": 5,
+            "ayah": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+            "word": "بِٱلدِّينِ",
+            "word_normalized": "بالدين",
+            "meaning": "بِالبَعْثِ، وَالجَزَاءِ.",
+            "meaning_normalized": "بالبعث والجزاء"
+          }
+        ]
+      }
+    ]
+  }
+}

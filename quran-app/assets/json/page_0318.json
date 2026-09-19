@@ -1,0 +1,239 @@
+{
+  "page": {
+    "page_number": 318,
+    "header": {
+      "right": "سُورَةُ التَّكْوِيرِ",
+      "right_normalized": "سورة التكوير",
+      "left": "",
+      "left_normalized": ""
+    },
+    "sections": [
+      {
+        "type": "surah_section",
+        "surah": {
+          "name": "سُورَةُ التَّكْوِيرِ",
+          "name_normalized": "سورة التكوير",
+          "order": 81,
+          "ayat_count": 29,
+          "classification": "مكية"
+        },
+        "table_headers": {
+          "col1": "الْآيَة",
+          "col2": "الْكَلِمَة",
+          "col3": "مَعْنَاهَا"
+        },
+        "glossary": [
+          {
+            "ayah_number": 4,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
+            "word": "عُطِّلَتْ",
+            "word_normalized": "عطلت",
+            "meaning": "أُهْمِلَتْ، وَتُرِكَتْ.",
+            "meaning_normalized": "أهملت وتركت"
+          },
+          {
+            "ayah_number": 5,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ",
+            "word": "حُشِرَتْ",
+            "word_normalized": "حشرت",
+            "meaning": "جُمِعَتْ، وَاخْتَلَطَتْ؛ لِيُقْتَصَّ لِبَعْضِهَا مِنْ بَعْضٍ.",
+            "meaning_normalized": "جمعت واختلطت ليقتص لبعضها من بعض"
+          },
+          {
+            "ayah_number": 6,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلْبِحَارُ سُجِّرَتْ",
+            "word": "سُجِّرَتْ",
+            "word_normalized": "سجرت",
+            "meaning": "مُلِئَتْ حَتَّى خَاضَتْ، فَانْفَجَرَت، ثُمَّ اتَّقَدَتْ نِيرَانًا.",
+            "meaning_normalized": "ملئت حتى خاضت فانفجرت ثم اتقدت نيرانا"
+          },
+          {
+            "ayah_number": 7,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتْ",
+            "word": "زُوِّجَتْ",
+            "word_normalized": "زوجت",
+            "meaning": "قُرِنَتْ بِأَمْثَالِهَا وَنَظَائِرِهَا.",
+            "meaning_normalized": "قرنت بأمثالها ونظائرها"
+          },
+          {
+            "ayah_number": 8,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
+            "word": "ٱلْمَوْءُۥدَةُ",
+            "word_normalized": "الموءده",
+            "meaning": "الطِّفْلَةُ المَدْفُونَةُ حَيَّةً.",
+            "meaning_normalized": "الطفلة المدفونة حية"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلصُّحُفُ نُشِرَتْ",
+            "word": "ٱلصُّحُفُ",
+            "word_normalized": "الصحف",
+            "meaning": "صُحُفُ الأَعْمَالِ.",
+            "meaning_normalized": "صحف الأعمال"
+          },
+          {
+            "ayah_number": 10,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلصُّحُفُ نُشِرَتْ",
+            "word": "نُشِرَتْ",
+            "word_normalized": "نشرت",
+            "meaning": "فُتِحَتْ، وَبُسِطَتْ.",
+            "meaning_normalized": "فتحت وبسطت"
+          },
+          {
+            "ayah_number": 11,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ",
+            "word": "كُشِطَتْ",
+            "word_normalized": "كشطت",
+            "meaning": "قُلِعَتْ، وَأُزِيلَتْ.",
+            "meaning_normalized": "قلعت وأزيلت"
+          },
+          {
+            "ayah_number": 12,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ",
+            "word": "سُعِّرَتْ",
+            "word_normalized": "سعرت",
+            "meaning": "أُوقِدَتْ، فَأُضْرِمَتْ.",
+            "meaning_normalized": "أوقدت فأضرمت"
+          },
+          {
+            "ayah_number": 13,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ",
+            "word": "أُزْلِفَتْ",
+            "word_normalized": "أزلفت",
+            "meaning": "قُرِّبَتْ مِنْ أَهْلِهَا.",
+            "meaning_normalized": "قربت من أهلها"
+          },
+          {
+            "ayah_number": 14,
+            "thumun": 468,
+            "hizb": 59,
+            "thumun_in_hizb": 4,
+            "ayah": "عَلِمَتْ نَفْسٌۭ مَّآ أَحْضَرَتْ",
+            "word": "أَحْضَرَتْ",
+            "word_normalized": "أحضرت",
+            "meaning": "قَدَّمَتْ مِنْ خَيْرٍ أَوْ شَرٍّ.",
+            "meaning_normalized": "قدمت من خير أو شر"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ",
+            "word": "فَلَا أُقْسِمُ",
+            "word_normalized": "فلا أقسم",
+            "meaning": "أُقْسِمُ، وَ (لَا): لِتَاكِيدِ الْقَسَمِ.",
+            "meaning_normalized": "أقسم و لا لتاكيد القسم"
+          },
+          {
+            "ayah_number": 15,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ",
+            "word": "بِٱلْخُنَّسِ",
+            "word_normalized": "بالخنس",
+            "meaning": "النُّجُومِ المُخْتَفِيَةِ أَنْوَارُهَا نَهَارًا.",
+            "meaning_normalized": "النجوم المختفية أنوارها نهارا"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "ٱلْجَوَارِ ٱلْكُنَّسِ",
+            "word": "ٱلْجَوَارِ",
+            "word_normalized": "الجوار",
+            "meaning": "النُّجُومِ الجَارِيَةِ فيِ أَفْلَاكِهَا.",
+            "meaning_normalized": "النجوم الجارية في أفلاكها"
+          },
+          {
+            "ayah_number": 16,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "ٱلْجَوَارِ ٱلْكُنَّسِ",
+            "word": "ٱلْكُنَّسِ",
+            "word_normalized": "الكنس",
+            "meaning": "النُّجُومِ المُسْتَتِرَةِ فِي أَبْرَاجِهِا.",
+            "meaning_normalized": "النجوم المستترة في أبراجها"
+          },
+          {
+            "ayah_number": 17,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "وَٱلَّيْلِ إِذَا عَسْعَسَ",
+            "word": "عَسْعَسَ",
+            "word_normalized": "عسعس",
+            "meaning": "أَقْبَلَ بِظَلَامِهِ، وَأَدْبَرَ.",
+            "meaning_normalized": "أقبل بظلامه وأدبر"
+          },
+          {
+            "ayah_number": 18,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "وَٱلصُّبْحِ إِذَا تَنَفَّسَ",
+            "word": "تَنَفَّسَ",
+            "word_normalized": "تنفس",
+            "meaning": "ظَهَرَ ضِيَاؤْهُ، وَامْتَدَّ.",
+            "meaning_normalized": "ظهر ضياؤه وامتد"
+          },
+          {
+            "ayah_number": 19,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
+            "word": "رَسُولٍۢ كَرِيمٍۢ",
+            "word_normalized": "رسول كريم",
+            "meaning": "هُوَ: جِبْرِيلُ - عليه السلام -.",
+            "meaning_normalized": "هو جبريل عليه السلام"
+          },
+          {
+            "ayah_number": 20,
+            "thumun": 469,
+            "hizb": 59,
+            "thumun_in_hizb": 5,
+            "ayah": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍۢ",
+            "word": "مَكِينٍ",
+            "word_normalized": "مكين",
+            "meaning": "ذِي مَكَانَةٍ رَفِيعَةٍ عِنْدَ اللهِ.",
+            "meaning_normalized": "ذي مكانة رفيعة عند الله"
+          }
+        ]
+      }
+    ]
+  }
+}
