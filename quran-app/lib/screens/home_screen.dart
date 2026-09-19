@@ -375,8 +375,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
 
   // ---------------------------------------------------------------- header
   Widget _header(BuildContext context) {
-    final available = _data.availablePages.length;
-    final total = _data.totalImages;
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
@@ -471,24 +469,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           const SizedBox(height: 16),
           Row(
             children: [
-              _statChip(
-                context,
-                Icons.image_outlined,
-                '${displayNumber(total)} صفحة',
-                Colors.teal.shade100,
-              ),
-              const SizedBox(width: 8),
-              _statChip(
-                context,
-                Icons.check_circle_outline,
-                '${displayNumber(available)} متاحة',
-                const Color(0xFFFCD34D),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12),
-          Row(
-            children: [
               const Icon(Icons.auto_awesome, size: 14, color: Colors.white60),
               const SizedBox(width: 6),
               Text(
@@ -500,32 +480,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 ),
               ),
             ],
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _statChip(
-    BuildContext context,
-    IconData icon,
-    String label,
-    Color color,
-  ) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-      decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.12),
-        borderRadius: BorderRadius.circular(20),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: 16, color: color),
-          const SizedBox(width: 6),
-          Text(
-            label,
-            style: const TextStyle(color: Colors.white, fontSize: 13),
           ),
         ],
       ),
