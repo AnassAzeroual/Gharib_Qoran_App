@@ -115,7 +115,8 @@ C:/flutter/bin/flutter run -d chrome     # تشغيل على المتصفح
 ### أندرويد
 
 ```
-C:/flutter/bin/flutter build apk --release          # APK (توقيع الإصدار تلقائيًا)
+C:/flutter/bin/flutter build apk --release                                          # APK (توقيع الإصدار تلقائيًا)
+C:/flutter/bin/flutter build apk --release --target-platform android-arm64,android-arm   # APK أصغر (~64MB) لمعماريات الهواتف فقط
 C:/flutter/bin/flutter build appbundle --release    # AAB لنشر Play Store
 ```
 
@@ -177,7 +178,7 @@ C:/Users/devtips/AppData/Local/Android/Sdk/build-tools/36.0.0/apksigner verify -
 
 | المنصة | الملف |
 |---|---|
-| أندرويد (APK) | `build/app/outputs/flutter-apk/app-release.apk` (حوالي 84MB) |
+| أندرويد (APK) | `build/app/outputs/flutter-apk/app-release.apk` (حوالي 64MB بأمر `--target-platform`، أو ~82MB بدونه) |
 | أندرويد (AAB — متجر) | `build/app/outputs/bundle/release/app-release.aab` |
 | ويندوز | `build/windows/x64/runner/Release/AlSiraj.exe` |
 | ويب | `build/web/index.html` |
