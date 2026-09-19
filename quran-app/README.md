@@ -163,16 +163,31 @@ C:/Users/devtips/AppData/Local/Android/Sdk/build-tools/36.0.0/apksigner verify -
 |---|---|
 | الملف | `android/app/upload-keystore.jks` |
 | الاسم المستعار (alias) | `upload` |
-| كلمة المرور | `6gYlqRom7hwFuObN9jB8` |
-| صاحب المفتاح | CN=Siraj, O=Siraj, C=EG |
-| الصلاحية | 30 سنة |
-| SHA-256 | `7a37980acd71ab31b38c243699efcbb149ea4731f0bdb9fc1a19dababd2e888b` |
+| صاحب المفتاح | CN=Siraj App, OU=Mobile, O=Siraj, C=MA |
+| الصلاحية | 10,000 يوم |
+| SHA-256 | `ca438e3d826a9bc31cfcf0424f39f138a5dfbc3f51bb02b12880bfb7cc1d71c6` |
 
 - تُقرأ البيانات تلقائيًا من `android/key.properties` أثناء البناء.
+- كلمة المرور موجودة في `android/key.properties` فقط ولا تُكتب في README (المستودع عام) —
+  أي فقدان لها يعني استحالة تحديث التطبيق مستقبلًا. احفظ نسخة 
+  `upload-keystore.jks` + `key.properties` في مكان آمن.
 - إذا حُذف `key.properties` يتراجع البناء تلقائيًا إلى توقيع التصحيح (debug) حتى لا يتعطل.
-- **تحذير أمني:** الملفان أعلاه وملف كلمة المرور في README مخصصان لهذا المشروع فقط؛
-  لا تنشر هذا المستودع علنًا وإلا تعرّضت المفاتيح للخطر. احتفظ بنسخة من
-  `upload-keystore.jks` + كلمة المرور في مكان آمن — أنت بحاجة للمفتاح نفسه لأي تحديث مستقبلي للتطبيق.
+
+### إعداد جهاز جديد (استعادة مفاتيح التوقيع)
+
+المستودع لا يحتوي على مفاتيح التوقيع إطلاقًا (كلاهما gitignored). بعد `git clone` + `flutter pub get`
+على جهاز جديد، انسخ ملفين فقط من النسخة الاحتياطية (MEGA):
+
+```
+<repo>\android\key.properties          # من الأرشيف الاحتياطي كما هو
+<repo>\android\app\upload-keystore.jks # مفتاح التوقيع من الأرشيف
+```
+
+- `build.gradle.kts` يقرأ `android/key.properties` تلقائيًا، و`storeFile=upload-keystore.jks`
+  يُحلّ نسبيًا إلى مجلد `android/app/`. لا حاجة لأي إعداد آخر.
+- بعد النسخ تحقق: `git status` — لا يجوز أن يظهر أي من الملفين (كلاهما gitignored).
+- إذا غاب `key.properties` يُبنى التطبيق بتوقيع التصحيح (debug) ويُرفض عند الرفع إلى
+  Play — تحقق قبل البناء أن الملفين موجودان.
 
 ## المخرجات
 
