@@ -50,12 +50,23 @@ if ($proc) {
     Start-Sleep -Seconds 2
 }
 
-# 2) Build the Windows release
+# 2) Sync resources (page images/JSON) so the build bundles the latest assets
+$SyncScript = Join-Path $ProjectRoot 'sync_resources.py'
+$python = (Get-Command python -ErrorAction SilentlyContinue).Source
+if ($python -and (Test-Path $SyncScript)) {
+    Log 'Syncing resources (python sync_resources.py)...'
+    & $python $SyncScript
+    if ($LASTEXITCODE -ne 0) { throw 'sync_resources.py failed' }
+} else {
+    Log 'sync_resources.py or python not found — skipping resource sync.'
+}
+
+# 3) Build the Windows release
 Log 'Building Windows release (flutter build windows --release)...'
 & $Flutter build windows --release
 if ($LASTEXITCODE -ne 0) { throw 'Flutter build failed' }
 
-# 3) Compile the Inno Setup installer
+# 4) Compile the Inno Setup installer
 Log 'Compiling installer with Inno Setup...'
 if (-not (Test-Path $ISCC)) { throw "Inno Setup not found at: $ISCC" }
 & $ISCC $IssScript | Out-Null
@@ -63,7 +74,7 @@ if ($LASTEXITCODE -ne 0) { throw 'Inno Setup compile failed' }
 if (-not (Test-Path $SetupExe)) { throw "Installer not produced: $SetupExe" }
 Log "Installer ready: $SetupExe"
 
-# 4) Find and silently remove the old installation
+# 5) Find and silently remove the old installation
 function Get-AlSirajUninstaller {
     $roots = @(
         'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*',
@@ -90,12 +101,12 @@ if ($uninstaller -and (Test-Path $uninstaller)) {
     Log 'No previous installation found — skipping uninstall.'
 }
 
-# 5) Install the new version silently
+# 6) Install the new version silently
 Log 'Installing new version...'
 $p = Start-Process -FilePath $SetupExe -ArgumentList '/VERYSILENT','/SUPPRESSMSGBOXES','/NORESTART' -Wait -PassThru
 if ($p.ExitCode -ne 0) { throw "Installer failed with exit code $($p.ExitCode)" }
 
-# 6) Verify
+# 7) Verify
 $installed = @(
     "$env:ProgramFiles\AlSiraj\AlSiraj.exe",
     "${env:ProgramFiles(x86)}\AlSiraj\AlSiraj.exe",
@@ -110,7 +121,7 @@ if ($NoLaunch) { Log 'Done (install only).' } else {
     Log 'Done.'
 }
 
-# 7) Android: build the slim release APK and install it on a USB-connected device
+# 8) Android: build the slim release APK and install it on a USB-connected device
 function Find-Adb {
     $sdk = $env:ANDROID_HOME
     if (-not $sdk) { $sdk = "$env:LOCALAPPDATA\Android\Sdk" }
