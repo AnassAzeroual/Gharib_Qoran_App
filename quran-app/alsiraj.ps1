@@ -37,73 +37,6 @@ function Run-Dev([string]$Device) {
     Start-Sleep -Milliseconds 800
 }
 
-function Show-DevMenu {
-    while ($true) {
-        Clear-Host
-        Write-Host '================================================' -ForegroundColor Cyan
-        Write-Host '            Developer Console' -ForegroundColor Cyan
-        Write-Host '================================================' -ForegroundColor Cyan
-        Write-Host '   1. Flutter DevTools (debugger UI)'
-        Write-Host '   2. Google Play Console (browser)'
-        Write-Host '   3. Project PowerShell prompt'
-        Write-Host '   4. VS Code in project'
-        Write-Host '   B. Back to main menu'
-        Write-Host '   Q. Quit'
-        Write-Host ''
-        $sel = Read-Host '   Choose (1-4, B, Q)'
-        Write-Host ''
-
-        switch -Regex ($sel.Trim().ToLowerInvariant()) {
-            '^1$' {
-                Write-Host '=== Flutter DevTools ===' -ForegroundColor Cyan
-                $devtools = "$env:LOCALAPPDATA\Pub\Cache\bin\devtools.bat"
-                if (Test-Path $devtools) {
-                    Write-Host 'Opening in a NEW window...' -ForegroundColor Gray
-                    Start-Process powershell.exe -ArgumentList @(
-                        '-NoExit', '-NoProfile', '-ExecutionPolicy', 'Bypass',
-                        '-Command', "& '$devtools'"
-                    ) -WorkingDirectory $ProjectRoot -WindowStyle Normal
-                } else {
-                    Write-Host 'DevTools is built into the Flutter tool - it connects to a running app.' -ForegroundColor Green
-                    $dev = Read-Host 'Start the app now? (W = Windows / C = Chrome)'
-                    if ($dev -match '^c') { Run-Dev 'chrome' } else { Run-Dev 'windows' }
-                    Write-Host ''
-                    Write-Host 'In the app window that just opened, press  d  then Enter.' -ForegroundColor Green
-                }
-                Write-Host ''
-                Read-Host '   Press Enter to return to this menu' | Out-Null
-            }
-            '^2$' {
-                Write-Host '=== Google Play Console ===' -ForegroundColor Cyan
-                Start-Process 'https://play.google.com/console'
-            }
-            '^3$' {
-                Write-Host '=== Project PowerShell prompt ===' -ForegroundColor Cyan
-                Start-Process powershell.exe -ArgumentList @(
-                    '-NoExit', '-NoProfile', '-ExecutionPolicy', 'Bypass'
-                ) -WorkingDirectory $ProjectRoot -WindowStyle Normal
-            }
-            '^4$' {
-                Write-Host '=== VS Code in project ===' -ForegroundColor Cyan
-                $code = (Get-Command code.cmd -ErrorAction SilentlyContinue).Source
-                if ($code) {
-                    Start-Process $code -ArgumentList '.' -WorkingDirectory $ProjectRoot
-                } elseif (Test-Path "$env:LOCALAPPDATA\Programs\Microsoft VS Code\Code.exe") {
-                    Start-Process "$env:LOCALAPPDATA\Programs\Microsoft VS Code\Code.exe" -ArgumentList '.' -WorkingDirectory $ProjectRoot
-                } else {
-                    Write-Host 'VS Code not found on PATH or default location.' -ForegroundColor Yellow
-                }
-            }
-            '^b$' { return }
-            '^q$' { exit }
-            default {
-                Write-Host "Invalid choice: $sel" -ForegroundColor Yellow
-            }
-        }
-        Start-Sleep -Milliseconds 800
-    }
-}
-
 while ($true) {
     Clear-Host
     Write-Host '================================================' -ForegroundColor Cyan
@@ -118,10 +51,13 @@ while ($true) {
     Write-Host '   5. Build Android AAB (Google Play upload)'
     Write-Host '   6. Run app on Windows (dev, hover/hot-reload)'
     Write-Host '   7. Run app on Web/Chrome (dev)'
-    Write-Host '   8. Developer console (DevTools / Play / prompt / VS Code)'
+    Write-Host '   8. Flutter DevTools'
+    Write-Host '   9. Google Play Console (browser)'
+    Write-Host '   10. Project PowerShell prompt'
+    Write-Host '   11. VS Code in project'
     Write-Host '   Q. Quit'
     Write-Host ''
-    $sel = Read-Host '   Choose (1-8, Q)'
+    $sel = Read-Host '   Choose (1-11, Q)'
     Write-Host ''
 
     switch -Regex ($sel.Trim().ToLowerInvariant()) {
@@ -147,7 +83,47 @@ while ($true) {
             Run-Dev 'chrome'
         }
         '^8$' {
-            Show-DevMenu
+            Write-Host '=== Flutter DevTools ===' -ForegroundColor Cyan
+            $devtools = "$env:LOCALAPPDATA\Pub\Cache\bin\devtools.bat"
+            if (Test-Path $devtools) {
+                Write-Host 'Opening in a NEW window...' -ForegroundColor Gray
+                Start-Process powershell.exe -ArgumentList @(
+                    '-NoExit', '-NoProfile', '-ExecutionPolicy', 'Bypass',
+                    '-Command', "& '$devtools'"
+                ) -WorkingDirectory $ProjectRoot -WindowStyle Normal
+            } else {
+                Write-Host 'DevTools is built into the Flutter tool - it connects to a running app.' -ForegroundColor Green
+                $dev = Read-Host 'Start the app now? (W = Windows / C = Chrome)'
+                if ($dev -match '^c') { Run-Dev 'chrome' } else { Run-Dev 'windows' }
+                Write-Host ''
+                Write-Host 'In the app window that just opened, press  d  then Enter.' -ForegroundColor Green
+            }
+            Write-Host ''
+            Read-Host '   Press Enter to continue' | Out-Null
+        }
+        '^9$' {
+            Write-Host '=== Google Play Console ===' -ForegroundColor Cyan
+            Start-Process 'https://play.google.com/console'
+            Start-Sleep -Milliseconds 500
+        }
+        '^10$' {
+            Write-Host '=== Project PowerShell prompt ===' -ForegroundColor Cyan
+            Start-Process powershell.exe -ArgumentList @(
+                '-NoExit', '-NoProfile', '-ExecutionPolicy', 'Bypass'
+            ) -WorkingDirectory $ProjectRoot -WindowStyle Normal
+            Start-Sleep -Milliseconds 500
+        }
+        '^11$' {
+            Write-Host '=== VS Code in project ===' -ForegroundColor Cyan
+            $code = (Get-Command code.cmd -ErrorAction SilentlyContinue).Source
+            if ($code) {
+                Start-Process $code -ArgumentList '.' -WorkingDirectory $ProjectRoot
+            } elseif (Test-Path "$env:LOCALAPPDATA\Programs\Microsoft VS Code\Code.exe") {
+                Start-Process "$env:LOCALAPPDATA\Programs\Microsoft VS Code\Code.exe" -ArgumentList '.' -WorkingDirectory $ProjectRoot
+            } else {
+                Write-Host 'VS Code not found on PATH or default location.' -ForegroundColor Yellow
+            }
+            Start-Sleep -Milliseconds 500
         }
         '^q$' {
             Write-Host 'Bye.' -ForegroundColor Green
