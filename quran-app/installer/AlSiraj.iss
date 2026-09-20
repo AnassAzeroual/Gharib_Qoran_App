@@ -2,7 +2,7 @@
 ; Compile: ISCC.exe installer\AlSiraj.iss
 
 #define MyAppName "السراج في بيان غريب القرآن"
-#define MyAppVersion "1.0.2"
+#define MyAppVersion "1.1.0"
 #define MyAppPublisher "Siraj"
 #define MyAppExeName "AlSiraj.exe"
 #define MyAppAssocName "AlSiraj"

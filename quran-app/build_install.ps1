@@ -1,19 +1,38 @@
-﻿# build_install.ps1 — build AlSiraj (Windows) + create Inno Setup installer + reinstall
-#               Also: build the release APK and install it on a USB-connected Android device.
-# Usage:  powershell -ExecutionPolicy Bypass -File .\build_install.ps1
+﻿# build_install.ps1 - build/install AlSiraj (Windows and/or Android).
+# Usage:
+#   .\build_install.ps1                 : Windows build+install AND Android release APK+install
+#   .\build_install.ps1 -Windows        : only Windows build + Inno installer + install
+#   .\build_install.ps1 -AndroidRelease : only build signed release APK + USB install
+#   .\build_install.ps1 -AndroidDebug   : only build debug APK + USB install
+#   .\build_install.ps1 -Aab            : only build release AAB for Google Play
 #   -NoLaunch   : install but do not launch the app at the end
-#   -SkipAndroid: skip the Android APK build + device install
-# Rebuilds with Flutter, compiles the installer with Inno Setup,
-# silently uninstalls the old copy and installs the new one.
+#   -SkipAndroid: (legacy) same as -Windows
 
 param(
     [switch]$NoLaunch,
-    [switch]$SkipAndroid
+    [switch]$SkipAndroid,
+    [switch]$Windows,
+    [switch]$AndroidRelease,
+    [switch]$AndroidDebug,
+    [switch]$Aab
 )
 
 $ErrorActionPreference = 'Stop'
 $ProjectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $ProjectRoot
+
+# ---- Which targets to run? ---------------------------------------------------
+$hasMode = $Windows -or $AndroidRelease -or $AndroidDebug -or $Aab
+if ($hasMode) {
+    $doWindows        = $Windows
+    $doAndroid        = $AndroidRelease -or $AndroidDebug
+} else {
+    $doWindows        = $true
+    $doAndroid        = -not $SkipAndroid
+}
+$doAndroidRelease = if ($AndroidDebug) { $false } elseif ($hasMode) { $AndroidRelease } else { $doAndroid }
+$doAndroidDebug   = $AndroidDebug
+$doAab            = $Aab
 
 $Flutter   = 'C:/flutter/bin/flutter.bat'
 $ISCC      = "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe"
@@ -29,15 +48,20 @@ function Log([string]$Message) {
 
 if (Test-Path $LogFile) { Remove-Item $LogFile -Force }
 
-# ---- Must run as administrator (install/uninstall into Program Files) ----
+# ---- Must run as administrator for the Windows install step ----
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
         [Security.Principal.WindowsBuiltInRole]::Administrator)) {
-    Write-Host 'Requesting administrator rights...' -ForegroundColor Yellow
-    $args = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', "`"$PSCommandPath`"")
-    if ($NoLaunch) { $args += '-NoLaunch' }
-    if ($SkipAndroid) { $args += '-SkipAndroid' }
-    Start-Process powershell.exe -ArgumentList $args -Verb RunAs -Wait
-    exit $LASTEXITCODE
+    if ($doWindows) {
+        Write-Host 'Requesting administrator rights...' -ForegroundColor Yellow
+        $args = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', "`"$PSCommandPath`"")
+        foreach ($flag in @('NoLaunch', 'Windows', 'AndroidRelease', 'AndroidDebug', 'Aab')) {
+            if ((Get-Variable $flag -ValueOnly)) { $args += "-$flag" }
+        }
+        Start-Process powershell.exe -ArgumentList $args -Verb RunAs -Wait
+        exit $LASTEXITCODE
+    } else {
+        Write-Host 'Running Android-only steps (no admin needed).'
+    }
 }
 
 Log '=== AlSiraj build + install ==='
@@ -60,6 +84,8 @@ if ($python -and (Test-Path $SyncScript)) {
 } else {
     Log 'sync_resources.py or python not found — skipping resource sync.'
 }
+
+if ($doWindows) {
 
 # 3) Build the Windows release
 Log 'Building Windows release (flutter build windows --release)...'
@@ -121,6 +147,8 @@ if ($NoLaunch) { Log 'Done (install only).' } else {
     Log 'Done.'
 }
 
+}
+
 # 8) Android: build the slim release APK and install it on a USB-connected device
 function Find-Adb {
     $sdk = $env:ANDROID_HOME
@@ -130,7 +158,7 @@ function Find-Adb {
     return $adb
 }
 
-if (-not $SkipAndroid) {
+if ($doAndroidRelease -or $doAndroidDebug) {
     $adb = Find-Adb
     if (-not $adb) {
         Log 'Android SDK (adb) not found — skipping APK install.'
@@ -139,10 +167,16 @@ if (-not $SkipAndroid) {
         if (-not $devices) {
             Log 'No Android device connected (adb devices) — skipping APK install.'
         } else {
-            Log 'Building release APK (arm64 + arm)...'
-            & $Flutter build apk --release --target-platform android-arm64,android-arm
+            if ($doAndroidRelease) {
+                Log 'Building release APK (arm64 + arm)...'
+                & $Flutter build apk --release --target-platform android-arm64,android-arm
+                $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-release.apk'
+            } else {
+                Log 'Building debug APK (arm64 + arm)...'
+                & $Flutter build apk --debug --target-platform android-arm64,android-arm
+                $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-debug.apk'
+            }
             if ($LASTEXITCODE -ne 0) { throw 'Flutter APK build failed' }
-            $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-release.apk'
             if (-not (Test-Path $apk)) { throw "APK not produced: $apk" }
             foreach ($line in $devices) {
                 $serial = ($line -split '\s+')[0]
@@ -158,4 +192,17 @@ if (-not $SkipAndroid) {
             Log 'APK installed on device(s).'
         }
     }
+}
+
+if ($doAab) {
+    Log 'Building release App Bundle (arm64 + arm)...'
+    & $Flutter build appbundle --release --target-platform android-arm64,android-arm
+    if ($LASTEXITCODE -ne 0) { throw 'Flutter AAB build failed' }
+    $aab = Join-Path $ProjectRoot 'build\app\outputs\bundle\release\app-release.aab'
+    if (-not (Test-Path $aab)) { throw "AAB not produced: $aab" }
+    Log "AAB ready: $aab (upload to Google Play Console)"
+}
+
+if (-not ($doWindows -or $doAndroidRelease -or $doAndroidDebug -or $doAab)) {
+    Log 'Nothing to do — pass at least one target (-Windows / -AndroidRelease / -AndroidDebug / -Aab).'
 }

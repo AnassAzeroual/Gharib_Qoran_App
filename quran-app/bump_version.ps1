@@ -4,6 +4,8 @@
 #          powershell -ExecutionPolicy Bypass -File .\bump_version.ps1 -Major
 #   -Patch / -Minor / -Major : which semantic part to increment (pick exactly one)
 #   -Build                   : also increment the Android build number (+N)
+#   (no flags)               : interactive mode - answers prompts one by one,
+#                              perfect for right-click > "Run with PowerShell".
 # Updates: pubspec.yaml `version:`, lib/version.dart kAppVersion,
 #          installer/AlSiraj.iss MyAppVersion. Verifies all three agree first.
 
@@ -21,28 +23,6 @@ function Read-Text([string]$Path) { [System.IO.File]::ReadAllText($Path) }
 function Write-Text([string]$Path, [string]$Content) {
     $utf8 = New-Object System.Text.UTF8Encoding($false)
     [System.IO.File]::WriteAllText($Path, $Content, $utf8)
-}
-
-# ---- Which bump? ------------------------------------------------------------
-$bumps = 0
-if ($Patch) { $bumps++ }
-if ($Minor) { $bumps++ }
-if ($Major) { $bumps++ }
-if ($bumps -eq 0) {
-    Write-Host ''
-    Write-Host 'Usage:  .\bump_version.ps1 -Patch | -Minor | -Major [-Build]' -ForegroundColor Cyan
-    Write-Host '  -Patch : 1.0.0 -> 1.0.1   (bug fix)' -ForegroundColor Gray
-    Write-Host '  -Minor : 1.0.1 -> 1.1.0   (new feature)' -ForegroundColor Gray
-    Write-Host '  -Major : 1.1.0 -> 2.0.0   (breaking change)' -ForegroundColor Gray
-    Write-Host '  -Build : also bump the Android build number (+N).' -ForegroundColor Gray
-    Write-Host '           Required for every Google Play upload; without it +N stays the same.' -ForegroundColor Gray
-    Write-Host ''
-    Write-Host 'Example: .\bump_version.ps1 -Patch -Build' -ForegroundColor Green
-    Write-Host ''
-    exit 0
-}
-if ($bumps -gt 1) {
-    throw 'Pass only ONE of: -Patch, -Minor, -Major'
 }
 
 # ---- Read current version from the source of truth: pubspec.yaml -------------
@@ -67,14 +47,42 @@ if (-not ((Read-Text $IssPath) -match ('#define\s+MyAppVersion\s+"' + [regex]::E
     throw "installer/AlSiraj.iss does not match version $vers - fix drift before bumping"
 }
 
+$oldBuild = [int]$m.Groups[4].Value
+
+# ---- Which bump? ------------------------------------------------------------
+$bumps = 0
+if ($Patch) { $bumps++ }
+if ($Minor) { $bumps++ }
+if ($Major) { $bumps++ }
+if ($bumps -gt 1) { throw 'Pass only ONE of: -Patch, -Minor, -Major' }
+
+$applyPatch = $Patch
+$applyMinor = $Minor
+$applyMajor = $Major
+$interactive = $bumps -eq 0
+
+if ($interactive) {
+    Write-Host ''
+    Write-Host "Current version: $vers+$oldBuild" -ForegroundColor Cyan
+    Write-Host ''
+    $choice = Read-Host 'Bump type? [P]atch, [M]inor, Ma[j]or (Enter = Patch)'
+    switch -Regex ($choice.Trim().ToLowerInvariant()) {
+        '^m'    { $applyMinor = $true }
+        '^j'    { $applyMajor = $true }
+        default { $applyPatch = $true }
+    }
+    $tickBuild = Read-Host 'Also tick Android build number (+N)? [y/N]'
+    if ($tickBuild -match '^y') { $Build = $true }
+    Write-Host ''
+}
+
 # ---- Compute new version -----------------------------------------------------
-if ($Major) { $verMajor++; $verMinor = 0; $verPatch = 0 }
-elseif ($Minor) { $verMinor++; $verPatch = 0 }
+if ($applyMajor) { $verMajor++; $verMinor = 0; $verPatch = 0 }
+elseif ($applyMinor) { $verMinor++; $verPatch = 0 }
 else { $verPatch++ }
 
 $newVer = "$verMajor.$verMinor.$verPatch"
 
-$oldBuild = [int]$m.Groups[4].Value
 $newBuild = $oldBuild
 if ($Build) { $newBuild++ }
 
@@ -106,3 +114,8 @@ if (-not $Build) {
     Write-Host "Note: Android build number kept at +$oldBuild. Use -Build to tick it (required for every Google Play upload)."
 }
 Write-Host "Next: rebuild + reinstall with build_install.ps1"
+
+if ($interactive) {
+    Write-Host ''
+    Read-Host 'Press Enter to close' | Out-Null
+}
