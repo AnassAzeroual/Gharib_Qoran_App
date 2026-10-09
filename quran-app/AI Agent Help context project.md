@@ -170,7 +170,11 @@ Key conventions:
 - Fonts: Amiri (bundled `assets/fonts/`). Theme colors: teal gradient header `0xFF0F766E → 0xFF134E4A`, accent gold `0xFFFCD34D`, dark background `0xFF16191F`.
 - App/package id: **`com.siraj.alsiraj`** (Android). Windows binary: `AlSiraj.exe`.
 
-Verification (`test/widget_test.dart`) has a KNOWN pre-existing failure (`pumpAndSettle` timeout) — do not chase it; it fails before your changes too.
+Widget tests that need bundled assets must preload them via
+`tester.runAsync()` (real async): `testWidgets` runs inside FakeAsync, where
+`rootBundle` loading of the multi-MB `search_index.json` never resolves and
+`pumpAndSettle` times out. All `DataService` loaders are idempotent, so the
+app's own startup load then returns immediately.
 
 ---
 

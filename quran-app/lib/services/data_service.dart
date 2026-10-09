@@ -92,6 +92,7 @@ class DataService {
   int totalImages = 0;
   List<int> _availablePages = const [];
   Map<int, SurahIndexEntry> _surahIndex = {};
+  bool _indexLoaded = false;
   bool _searchBuilt = false;
   final List<SearchHit> _searchIndex = [];
   final List<QuizWord> _allQuizWords = [];
@@ -116,6 +117,10 @@ class DataService {
   List<QuizWord> get allQuizWords => _allQuizWords;
 
   Future<void> loadIndex() async {
+    // Idempotent like the other loaders: repeat calls (e.g. the app's own
+    // startup load after a test preloaded everything outside FakeAsync
+    // via tester.runAsync) return immediately instead of reloading.
+    if (_indexLoaded) return;
     final raw = await rootBundle.loadString('assets/surah_index.json');
     final json = jsonDecode(raw) as Map<String, dynamic>;
     totalImages = json['image_count'] as int? ?? 0;
@@ -125,6 +130,7 @@ class DataService {
         (e as Map<String, dynamic>)['order'] as int:
             SurahIndexEntry.fromJson(e),
     };
+    _indexLoaded = true;
   }
 
   /// Builds the in-memory search index from ONE precomputed file
