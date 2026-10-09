@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
 import '../models/quiz_word.dart';
+import '../services/bookmarks_store.dart';
+import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
 
 /// Review list of all questions answered correctly or wrongly in a quiz.
@@ -129,6 +132,16 @@ class QuizWordsListScreen extends StatelessWidget {
                           color: scheme.onSurfaceVariant,
                         ),
                       ),
+                    BookmarkStarButton(
+                      bookmark: Bookmark.fromQuiz(
+                        w,
+                        DataService.instance.findPageFor(
+                          word: w.word,
+                          surahOrder: w.surahOrder,
+                          ayahNumber: w.ayahNumber,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(height: 6),

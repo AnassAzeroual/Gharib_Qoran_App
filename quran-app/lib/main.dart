@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'screens/home_screen.dart';
+import 'services/bookmarks_store.dart';
 import 'services/palette_store.dart';
 import 'theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await PaletteStore.loadInto(paletteNotifier);
+  await BookmarksStore.load();
   runApp(const QuranApp());
 }
 

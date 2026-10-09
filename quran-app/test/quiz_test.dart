@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:quran_app/models/quiz_word.dart';
+import 'package:quran_app/services/bookmarks_store.dart';
 import 'package:quran_app/services/quiz_service.dart';
 
 void main() {
@@ -69,6 +70,23 @@ void main() {
       final list = service.wordsForSurah(2);
       expect(list, hasLength(1));
       expect(list.single.word, 'أخرى');
+    });
+
+    test('wordsForKeys filters favorites in book order', () {
+      final service = QuizService();
+      final a = w('السراج', 'المصباح', surah: 105, ayah: 1);
+      final b = w('غريب', 'الوحيد', surah: 105, ayah: 2);
+      final c = w('بيان', 'الإيضاح', surah: 106, ayah: 1);
+      service.prime([a, b, c]);
+
+      String keyOf(QuizWord x) => BookmarksStore.keyFor(
+        word: x.word,
+        surahOrder: x.surahOrder,
+        ayahNumber: x.ayahNumber,
+      );
+      final got = service.wordsForKeys({keyOf(b), keyOf(c)});
+      expect(got.map((x) => x.word).toList(), ['غريب', 'بيان']);
+      expect(service.wordsForKeys(const {}), isEmpty);
     });
 
     test('nextAllWord never returns the same word twice in a cycle', () {

@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../data/surahs.dart';
 import '../models/hizb_menu.dart';
+import '../services/bookmarks_store.dart';
 import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../version.dart';
 import '../widgets/numeral_toggle_button.dart';
 import '../widgets/search_result_card.dart';
+import 'bookmarks_screen.dart';
 import 'hizb_thumuns_screen.dart';
 import 'page_viewer_screen.dart';
 import 'quiz_screen.dart';
@@ -693,10 +695,11 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         mainAxisSpacing: 14,
         crossAxisSpacing: 14,
       ),
-      itemCount: kQuranSurahs.length + (quizMode ? 1 : 0),
+      itemCount: kQuranSurahs.length + (quizMode ? 2 : 1),
       itemBuilder: (context, index) {
         if (quizMode && index == 0) return _allQuranTile();
-        final surah = kQuranSurahs[index - (quizMode ? 1 : 0)];
+        if (index == (quizMode ? 1 : 0)) return _favoritesTile();
+        final surah = kQuranSurahs[index - (quizMode ? 2 : 1)];
         final entry = _data.surahByOrder(surah.order);
         final enabled = quizMode
             ? (entry?.unfamiliarWordsCount ?? 0) > 0
@@ -757,11 +760,98 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         crossAxisSpacing: 14,
       ),
       // In quiz mode, prepend the "all-Quran" quiz tile (same as surah grid).
-      itemCount: menu.hizbs.length + (quizMode ? 1 : 0),
+      itemCount: menu.hizbs.length + (quizMode ? 2 : 1),
       itemBuilder: (context, index) {
         if (quizMode && index == 0) return _allQuranTile();
-        final h = menu.hizbs[index - (quizMode ? 1 : 0)];
+        if (index == (quizMode ? 1 : 0)) return _favoritesTile();
+        final h = menu.hizbs[index - (quizMode ? 2 : 1)];
         return _HizbCard(hizb: h, onTap: () => _openHizb(h));
+      },
+    );
+  }
+
+  Widget _favoritesTile() {
+    return ValueListenableBuilder<List<Bookmark>>(
+      valueListenable: BookmarksStore.bookmarksNotifier,
+      builder: (context, bookmarks, _) {
+        final scheme = Theme.of(context).colorScheme;
+        final star = paletteNotifier.value.favoriteStar;
+        return Container(
+          decoration: BoxDecoration(
+            color: scheme.surface,
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(
+              color: star.withValues(alpha: 0.45),
+              width: 1.5,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.06),
+                blurRadius: 16,
+                offset: const Offset(0, 6),
+              ),
+            ],
+          ),
+          child: Material(
+            color: Colors.transparent,
+            child: InkWell(
+              onTap: () {
+                if (_quizMode) {
+                  if (BookmarksStore.bookmarksNotifier.value.isEmpty) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('لا توجد كلمات محفوظة بعد'),
+                        duration: Duration(seconds: 2),
+                      ),
+                    );
+                    return;
+                  }
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const QuizScreen(favorites: true),
+                    ),
+                  );
+                  return;
+                }
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => BookmarksScreen(verifyMode: _verifyMode),
+                  ),
+                );
+              },
+              borderRadius: BorderRadius.circular(20),
+              child: Padding(
+                padding: const EdgeInsets.all(12),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.star_rounded, color: star, size: 36),
+                    const SizedBox(height: 8),
+                    Text(
+                      'المفضلة',
+                      style: TextStyle(
+                        fontFamily: 'Amiri',
+                        fontSize: 20,
+                        fontWeight: FontWeight.w600,
+                        color: scheme.onSurface,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      'كلمة ${displayNumber(bookmarks.length)}',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontFamily: 'Amiri',
+                        fontSize: 13,
+                        color: scheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        );
       },
     );
   }

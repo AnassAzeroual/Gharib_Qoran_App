@@ -2,9 +2,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../services/bookmarks_store.dart';
 import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
 
 /// Thumun verification screen: the thumun's glossary words on one side and
@@ -527,6 +529,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
                           ),
                         ),
                       ),
+                    BookmarkStarButton(bookmark: Bookmark.fromThumun(w)),
                   ],
                 ),
                 const SizedBox(height: 8),

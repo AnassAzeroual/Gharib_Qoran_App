@@ -256,6 +256,13 @@ const List<PaletteEntry> kPaletteEntries = [
     fallback: Color(0xFFE6A15C),
   ),
   PaletteEntry(
+    key: 'favoriteStar',
+    section: 'الشارات والعارض',
+    label: 'نجمة المفضلة',
+    usage: 'نجمة الحفظ وبلاطة قائمة المفضلة',
+    fallback: Color(0xFFE5A81C),
+  ),
+  PaletteEntry(
     key: 'hizbSpineEnd',
     section: 'الشارات والعارض',
     label: 'كعب الحزب',
@@ -306,6 +313,7 @@ class AppPalette {
   final Color quizCorrect;
   final Color quizWrong;
   final Color makki;
+  final Color favoriteStar;
   final Color hizbSpineEnd;
   final Color viewerBg;
 
@@ -342,6 +350,7 @@ class AppPalette {
     required this.quizCorrect,
     required this.quizWrong,
     required this.makki,
+    required this.favoriteStar,
     required this.hizbSpineEnd,
     required this.viewerBg,
   });
@@ -384,6 +393,7 @@ class AppPalette {
       quizCorrect: fb('quizCorrect'),
       quizWrong: fb('quizWrong'),
       makki: fb('makki'),
+      favoriteStar: fb('favoriteStar'),
       hizbSpineEnd: fb('hizbSpineEnd'),
       viewerBg: fb('viewerBg'),
     );
@@ -422,6 +432,7 @@ class AppPalette {
     Color? quizCorrect,
     Color? quizWrong,
     Color? makki,
+    Color? favoriteStar,
     Color? hizbSpineEnd,
     Color? viewerBg,
   }) {
@@ -458,6 +469,7 @@ class AppPalette {
       quizCorrect: quizCorrect ?? this.quizCorrect,
       quizWrong: quizWrong ?? this.quizWrong,
       makki: makki ?? this.makki,
+      favoriteStar: favoriteStar ?? this.favoriteStar,
       hizbSpineEnd: hizbSpineEnd ?? this.hizbSpineEnd,
       viewerBg: viewerBg ?? this.viewerBg,
     );
@@ -529,6 +541,8 @@ class AppPalette {
         return quizWrong;
       case 'makki':
         return makki;
+      case 'favoriteStar':
+        return favoriteStar;
       case 'hizbSpineEnd':
         return hizbSpineEnd;
       case 'viewerBg':
@@ -603,6 +617,8 @@ class AppPalette {
         return copyWith(quizWrong: value);
       case 'makki':
         return copyWith(makki: value);
+      case 'favoriteStar':
+        return copyWith(favoriteStar: value);
       case 'hizbSpineEnd':
         return copyWith(hizbSpineEnd: value);
       case 'viewerBg':

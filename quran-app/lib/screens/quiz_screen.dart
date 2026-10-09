@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../data/surahs.dart';
 import '../models/quiz_word.dart';
+import '../services/bookmarks_store.dart';
 import '../services/data_service.dart';
 import '../services/quiz_service.dart';
 import '../services/ayah_highlighter.dart';
@@ -18,6 +19,7 @@ class QuizScreen extends StatefulWidget {
   final int? hizb;
   final int? thumun; // global 1..480
   final String? thumunLabel; // e.g. "الحزب ٥١ · الثمن ٨" for the title
+  final bool favorites; // quiz over saved favorite words
 
   const QuizScreen({
     super.key,
@@ -25,6 +27,7 @@ class QuizScreen extends StatefulWidget {
     this.hizb,
     this.thumun,
     this.thumunLabel,
+    this.favorites = false,
   });
 
   @override
@@ -57,8 +60,12 @@ class _QuizScreenState extends State<QuizScreen> {
 
   bool get _isThumunMode => widget.thumun != null;
   bool get _isHizbMode => widget.hizb != null && widget.thumun == null;
+  bool get _isFavoritesMode => widget.favorites;
   bool get _isAllMode =>
-      widget.surahOrder == null && widget.hizb == null && widget.thumun == null;
+      !widget.favorites &&
+      widget.surahOrder == null &&
+      widget.hizb == null &&
+      widget.thumun == null;
 
   @override
   void initState() {
@@ -74,6 +81,12 @@ class _QuizScreenState extends State<QuizScreen> {
     _quiz.prime(_data.allQuizWords);
     final List<QuizWord> words = _isAllMode
         ? const []
+        : _isFavoritesMode
+        ? _quiz.wordsForKeys(
+            BookmarksStore.bookmarksNotifier.value
+                .map((b) => b.key)
+                .toSet(),
+          )
         : _isThumunMode
         ? _quiz.wordsForThumun(widget.thumun!)
         : _isHizbMode
@@ -96,7 +109,9 @@ class _QuizScreenState extends State<QuizScreen> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(
-          _isThumunMode
+          _isFavoritesMode
+              ? 'لا توجد كلمات محفوظة بعد — احفظ كلمات بالنجمة أولا'
+              : _isThumunMode
               ? 'لا توجد كلمات غريبة في هذا الثمن'
               : _isHizbMode
               ? 'لا توجد كلمات غريبة في هذا الحزب'
@@ -162,6 +177,9 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   String _scopeLabel() {
+    if (_isFavoritesMode) {
+      return 'المفضلة';
+    }
     if (_isThumunMode) {
       return widget.thumunLabel ?? 'الثمن';
     }
@@ -186,6 +204,7 @@ class _QuizScreenState extends State<QuizScreen> {
           hizb: widget.hizb,
           thumun: widget.thumun,
           thumunLabel: widget.thumunLabel,
+          favorites: widget.favorites,
           surahName: _scopeLabel(),
         ),
       ),

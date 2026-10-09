@@ -350,6 +350,23 @@ class DataService {
     return 1;
   }
 
+  /// First page containing this exact glossary word (for jumping from the
+  /// favorites list when the saved snapshot has no page). Null if unknown.
+  /// Requires buildSearchIndex() to have run.
+  int? findPageFor({
+    required String word,
+    required int surahOrder,
+    required int? ayahNumber,
+  }) {
+    for (final hit in _searchIndex) {
+      if (hit.word != word) continue;
+      if (hit.surahOrder != surahOrder) continue;
+      if (hit.ayahNumber != ayahNumber) continue;
+      return hit.page;
+    }
+    return null;
+  }
+
   /// Loads one page's JSON (for header/surah info in the page viewer).
   Future<PageData?> loadPage(int page) async {
     try {

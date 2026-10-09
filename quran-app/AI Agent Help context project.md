@@ -153,15 +153,15 @@ Generated asset files are **gitignored**; to snapshot them into git (not normall
 ```
 lib/
 ├── main.dart                          entry point; RTL + Amiri font setup
-├── theme.dart                         light/dark mode; menuModeNotifier (surah/hizb); AppPalette (34 colors: per-page headers + verify/viewer accents + shared tokens) + paletteNotifier
-├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter, palette_store (SharedPreferences)
+├── theme.dart                         light/dark mode; menuModeNotifier (surah/hizb); AppPalette (35 colors: per-page headers + verify/viewer accents + shared tokens) + paletteNotifier
+├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter, palette_store + bookmarks_store (SharedPreferences)
 ├── version.dart                        kAppVersion + appVersionLabel()
 ├── data/                               static lists (kQuranSurahs, etc.)
 ├── models/                             page_data.dart, hizb_menu.dart, quiz_word.dart
-├── screens/                            home, page_viewer, verification, thumun_verification, settings, quiz*, search_*, hizb_*
+├── screens/                            home, page_viewer, verification, thumun_verification, settings, bookmarks, quiz*, search_*, hizb_*
 ├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter
 ├── utils/                              arabic_digits.dart (displayNumber), etc.
-└── widgets/                            search_result_card, numeral_toggle_button, ...
+└── widgets/                            search_result_card, numeral_toggle_button, bookmark_star_button, ...
 ```
 
 Key conventions:

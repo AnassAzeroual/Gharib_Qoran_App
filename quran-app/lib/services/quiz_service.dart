@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import '../models/quiz_word.dart';
+import 'bookmarks_store.dart';
 
 class QuizService {
   final Random _rng = Random();
@@ -45,6 +46,22 @@ class QuizService {
 
   List<QuizWord> wordsForThumun(int thumun) =>
       _allWords.where((w) => w.thumun == thumun).toList();
+
+  /// Words matching saved favorite keys, in book order. Distractors still
+  /// come from the full corpus via buildQuestion.
+  List<QuizWord> wordsForKeys(Set<String> keys) {
+    if (keys.isEmpty) return const [];
+    return _allWords.where((w) {
+      final raw = w.wordNormalized.isEmpty ? w.word : w.wordNormalized;
+      return keys.contains(
+        BookmarksStore.keyFor(
+          word: raw,
+          surahOrder: w.surahOrder,
+          ayahNumber: w.ayahNumber,
+        ),
+      );
+    }).toList();
+  }
 
   QuizWord nextAllWord() {
     if (_shuffledQueue.isEmpty) _shuffledQueue = List.of(_allWords)..shuffle(_rng);

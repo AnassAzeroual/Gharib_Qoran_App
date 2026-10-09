@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../models/page_data.dart';
+import '../services/bookmarks_store.dart';
 import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
 
 /// Side-by-side verification screen: the scanned page image on one side and
@@ -544,6 +546,9 @@ class _VerificationScreenState extends State<VerificationScreen> {
             number: entry.ayahNumber,
             word: entry.word,
             meaning: entry.meaning,
+            surahOrder: surah.order,
+            surahName: surah.name,
+            page: _currentPage,
           ),
         );
       }
@@ -572,7 +577,14 @@ class _VerificationScreenState extends State<VerificationScreen> {
         );
         for (final entry in section.entries) {
           widgets.add(
-            _entryTile(number: null, word: entry.term, meaning: entry.meaning),
+            _entryTile(
+              number: null,
+              word: entry.term,
+              meaning: entry.meaning,
+              surahOrder: 0,
+              surahName: '',
+              page: _currentPage,
+            ),
           );
         }
       }
@@ -585,6 +597,9 @@ class _VerificationScreenState extends State<VerificationScreen> {
     int? number,
     required String word,
     required String meaning,
+    required int surahOrder,
+    required String surahName,
+    required int page,
   }) {
     final scheme = Theme.of(context).colorScheme;
     return Container(
@@ -633,6 +648,21 @@ class _VerificationScreenState extends State<VerificationScreen> {
                     fontFamily: 'Amiri',
                   ),
                   textDirection: TextDirection.rtl,
+                ),
+              ),
+              BookmarkStarButton(
+                bookmark: Bookmark(
+                  key: BookmarkStarButton.keyOf(
+                    word: word,
+                    surahOrder: surahOrder,
+                    ayahNumber: number,
+                  ),
+                  word: word,
+                  meaning: meaning,
+                  surahOrder: surahOrder,
+                  surahName: surahName,
+                  ayahNumber: number,
+                  page: page,
                 ),
               ),
             ],

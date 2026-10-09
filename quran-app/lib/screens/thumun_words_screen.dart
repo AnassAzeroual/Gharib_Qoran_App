@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
+import '../services/bookmarks_store.dart';
 import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
+import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
 import 'page_viewer_screen.dart';
 
@@ -175,6 +177,7 @@ class _WordCard extends StatelessWidget {
                           ),
                         ),
                       ),
+                    BookmarkStarButton(bookmark: Bookmark.fromThumun(word)),
                   ],
                 ),
                 const SizedBox(height: 10),

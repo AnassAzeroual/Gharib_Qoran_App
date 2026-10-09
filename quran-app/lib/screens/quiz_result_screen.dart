@@ -13,6 +13,7 @@ class QuizResultScreen extends StatelessWidget {
   final int? hizb;
   final int? thumun;
   final String? thumunLabel;
+  final bool favorites;
   final String surahName;
 
   const QuizResultScreen({
@@ -23,6 +24,7 @@ class QuizResultScreen extends StatelessWidget {
     this.hizb,
     this.thumun,
     this.thumunLabel,
+    this.favorites = false,
   });
 
   int get _total => session.correctCount + session.wrongCount;
@@ -167,6 +169,7 @@ class QuizResultScreen extends StatelessWidget {
                                 hizb: hizb,
                                 thumun: thumun,
                                 thumunLabel: thumunLabel,
+                                favorites: favorites,
                               ),
                             ),
                           );
