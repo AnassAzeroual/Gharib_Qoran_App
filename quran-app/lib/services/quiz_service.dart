@@ -20,6 +20,11 @@ class QuizService {
       if (key.isEmpty) continue;
       if (seen.add(key)) _allWords.add(w);
     }
+    // Book-order guarantee: real data already arrives as (surah, ayah)
+    // ascending (sections ascend within every page, ayahs within every
+    // section), and Dart's sort is stable — so this is a no-op on book data
+    // and scoped (surah/hizb/thumun) quizzes walk questions in original
+    // JSON/book order. All-Quran mode shuffles separately on top.
     _allWords.sort((a, b) {
       if (a.surahOrder != b.surahOrder) return a.surahOrder - b.surahOrder;
       return (a.ayahNumber ?? 0) - (b.ayahNumber ?? 0);

@@ -371,16 +371,16 @@ class DataService {
     return _hizbMenu;
   }
 
-  /// Glossary words in a given thumun (global 1..480), ordered by page then
-  /// ayah. Requires buildSearchIndex() to have run. Returns [] if none.
+  /// Glossary words in a given thumun (global 1..480). Requires
+  /// buildSearchIndex() to have run. Returns [] if none.
+  ///
+  /// Order is the original JSON order: pages ascending, and within a page the
+  /// glossary array order (surah sections stay grouped, as in the book). Do
+  /// NOT sort by ayah here: that interleaves same-page surah sections and
+  /// breaks the book's order.
   List<ThumunWord> glossaryByThumun(int thumun) {
     final list = _wordsByThumun[thumun];
     if (list == null) return const [];
-    final sorted = [...list];
-    sorted.sort((a, b) {
-      if (a.page != b.page) return a.page - b.page;
-      return (a.ayahNumber ?? 0) - (b.ayahNumber ?? 0);
-    });
-    return sorted;
+    return [...list];
   }
 }

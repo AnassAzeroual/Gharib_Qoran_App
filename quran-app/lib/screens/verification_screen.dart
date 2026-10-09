@@ -677,6 +677,9 @@ class _VerificationScreenState extends State<VerificationScreen> {
               ),
               Text(
                 '${displayNumber(_currentPage)} / ${displayNumber(_maxPage)}',
+                // LTR base direction so "339 / 350" is not bidi-reordered
+                // into "350 / 339" by the surrounding RTL context.
+                textDirection: TextDirection.ltr,
                 style: const TextStyle(
                   color: Colors.white,
                   fontSize: 16,

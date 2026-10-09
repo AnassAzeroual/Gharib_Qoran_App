@@ -44,11 +44,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   late final AnimationController _collapseController;
   late final Animation<double> _collapseAnim; // curved 0..1
 
-  // Drives the التحقق chip show/hide when switching Surah<->Hizb menu.
-  // value 1 = verify chip fully shown (Surah), 0 = fully hidden (Hizb).
-  late final AnimationController _verifyController;
-  late final Animation<double> _verifyAnim; // curved 0..1
-
   // Measured heights (via GlobalKey + postFrame, never context.size in build).
   final GlobalKey _barKey = GlobalKey();
   final GlobalKey _searchKey = GlobalKey();
@@ -102,43 +97,17 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       curve: Curves.easeInOutCubic,
       reverseCurve: Curves.easeInOutCubic,
     );
-    _verifyController = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 250),
-      reverseDuration: const Duration(milliseconds: 250),
-      // Start shown (Surah is the default menu mode).
-      value: menuModeNotifier.value == MenuMode.surah ? 1.0 : 0.0,
-    );
-    _verifyAnim = CurvedAnimation(
-      parent: _verifyController,
-      curve: Curves.easeInOut,
-      reverseCurve: Curves.easeInOut,
-    );
     _scrollController.addListener(_onScroll);
-    menuModeNotifier.addListener(_onMenuModeChanged);
     WidgetsBinding.instance.addPostFrameCallback((_) => _measureBar());
     _load();
-  }
-
-  // التحقق is hidden in Hizb mode; animate it out and, if it was the active
-  // mode, fall back to المطالعة so a valid chip stays selected.
-  void _onMenuModeChanged() {
-    if (menuModeNotifier.value == MenuMode.hizb) {
-      _verifyController.reverse(); // animate verify chip away
-      if (_verifyMode) setState(() => _verifyMode = false);
-    } else {
-      _verifyController.forward(); // animate verify chip back in
-    }
   }
 
   @override
   void dispose() {
     _scrollController.removeListener(_onScroll);
-    menuModeNotifier.removeListener(_onMenuModeChanged);
     _scrollController.dispose();
     _barController.dispose();
     _collapseController.dispose();
-    _verifyController.dispose();
     _searchController.dispose();
     super.dispose();
   }
@@ -540,9 +509,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   }
 
   // ------------------------------------------------------------- mode toggle
-  // In Surah mode: المطالعة / التحقق / اختبر نفسك (3 chips).
-  // In Hizb mode:  المطالعة / اختبر نفسك (التحقق is animated-hidden — it is
-  // page/surah oriented and has no meaning for hizb navigation).
+  // Three mode chips in both Surah and Hizb menus: المطالعة / التحقق /
+  // اختبر نفسك. In Hizb mode التحقق opens the thumun verification screen
+  // (words + page image side by side).
   Widget _modeToggle() {
     final scheme = Theme.of(context).colorScheme;
     return Padding(
@@ -555,71 +524,43 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           borderRadius: BorderRadius.circular(14),
           border: Border.all(color: scheme.outlineVariant),
         ),
-        // Drive the التحقق chip's width from a real AnimationController so the
-        // value genuinely interpolates (t: 1 shown -> 0 hidden). The three
-        // chips ALWAYS stay in the widget tree (no if-removal -> no render-tree
-        // jump). المطالعة and اختبر نفسك keep equal flex; التحقق's flex animates
-        // 1000 -> 0 while fading and clipping, so it collapses smoothly and the
-        // two side chips stretch evenly. Fixed row height avoids vertical jump.
+        // The three mode chips always share the row equally. Fixed row
+        // height avoids vertical jump.
         child: SizedBox(
           height: 34,
-          child: AnimatedBuilder(
-            animation: _verifyAnim,
-            builder: (context, _) {
-              final double t = _verifyAnim.value.clamp(0.0, 1.0);
-              // Keep a minimum flex of 1 so Flexible never fully degenerates
-              // mid-frame; visual width still reaches ~0 via the tiny flex.
-              final int verifyFlex = (t * 1000).round();
-              return Row(
-                children: [
-                  Expanded(
-                    flex: 1000,
-                    child: _modeChip(
-                      label: 'المطالعة',
-                      active: !_verifyMode && !_quizMode,
-                      onTap: () => setState(() {
-                        _verifyMode = false;
-                        _quizMode = false;
-                      }),
-                    ),
-                  ),
-                  Flexible(
-                    flex: verifyFlex < 1 ? 1 : verifyFlex,
-                    child: ClipRect(
-                      child: Align(
-                        alignment: Alignment.center,
-                        widthFactor: t, // shrink horizontally to 0
-                        child: Opacity(
-                          opacity: t,
-                          child: IgnorePointer(
-                            ignoring: t < 0.5,
-                            child: _modeChip(
-                              label: 'التحقق',
-                              active: _verifyMode,
-                              onTap: () => setState(() {
-                                _verifyMode = true;
-                                _quizMode = false;
-                              }),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Expanded(
-                    flex: 1000,
-                    child: _modeChip(
-                      label: 'اختبر نفسك',
-                      active: _quizMode,
-                      onTap: () => setState(() {
-                        _quizMode = true;
-                        _verifyMode = false;
-                      }),
-                    ),
-                  ),
-                ],
-              );
-            },
+          child: Row(
+            children: [
+              Expanded(
+                child: _modeChip(
+                  label: 'المطالعة',
+                  active: !_verifyMode && !_quizMode,
+                  onTap: () => setState(() {
+                    _verifyMode = false;
+                    _quizMode = false;
+                  }),
+                ),
+              ),
+              Expanded(
+                child: _modeChip(
+                  label: 'التحقق',
+                  active: _verifyMode,
+                  onTap: () => setState(() {
+                    _verifyMode = true;
+                    _quizMode = false;
+                  }),
+                ),
+              ),
+              Expanded(
+                child: _modeChip(
+                  label: 'اختبر نفسك',
+                  active: _quizMode,
+                  onTap: () => setState(() {
+                    _quizMode = true;
+                    _verifyMode = false;
+                  }),
+                ),
+              ),
+            ],
           ),
         ),
       ),
@@ -641,7 +582,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           color: active ? const Color(0xFF0F766E) : Colors.transparent,
           borderRadius: BorderRadius.circular(10),
         ),
-        // Guard against reflow/wrap glitches while the chip width animates.
+        // Guard against reflow/wrap glitches on narrow screens.
         child: FittedBox(
           fit: BoxFit.scaleDown,
           child: Text(
@@ -764,11 +705,16 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
 
   // -------------------------------------------------------------- hizb list
   void _openHizb(HizbEntry hizb) {
-    // In both reading and quiz mode we drill into the thumun list; quizMode
-    // makes that screen offer "whole hizb" + per-thumun quizzes.
+    // Reading, verification, and quiz modes all drill into the thumun list;
+    // quizMode offers "whole hizb" + per-thumun quizzes, verifyMode opens
+    // the thumun verification screen (words + page image).
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => HizbThumunsScreen(hizb: hizb, quizMode: _quizMode),
+        builder: (_) => HizbThumunsScreen(
+          hizb: hizb,
+          quizMode: _quizMode,
+          verifyMode: _verifyMode,
+        ),
       ),
     );
   }

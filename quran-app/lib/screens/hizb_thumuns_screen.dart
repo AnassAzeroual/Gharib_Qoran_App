@@ -5,22 +5,27 @@ import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/numeral_toggle_button.dart';
 import 'quiz_screen.dart';
+import 'thumun_verification_screen.dart';
 import 'thumun_words_screen.dart';
 
 /// Second-level menu: lists the 8 thumuns of a chosen hizb (only those that
 /// contain unfamiliar words).
 ///
-/// - Reading mode (quizMode == false): tapping a thumun opens its word list.
+/// - Reading mode: tapping a thumun opens its word list.
+/// - Verification mode (verifyMode == true): tapping a thumun opens the
+///   thumun verification screen (words + page image side by side).
 /// - Quiz mode (quizMode == true): a "كل الحزب" tile at the top quizzes the
 ///   whole hizb; tapping a thumun quizzes just that thumun.
 class HizbThumunsScreen extends StatelessWidget {
   final HizbEntry hizb;
   final bool quizMode;
+  final bool verifyMode;
 
   const HizbThumunsScreen({
     super.key,
     required this.hizb,
     this.quizMode = false,
+    this.verifyMode = false,
   });
 
   void _openThumun(BuildContext context, ThumunEntry t) {
@@ -31,6 +36,22 @@ class HizbThumunsScreen extends StatelessWidget {
             thumun: t.thumun,
             thumunLabel:
                 'الحزب ${displayNumber(hizb.hizb)} · الثمن ${displayNumber(t.thumunInHizb)}',
+          ),
+        ),
+      );
+      return;
+    }
+    // Reading and verification modes both land on thumun content;
+    // verification mode shows the split words+image screen instead of
+    // the plain word list.
+    if (verifyMode) {
+      Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (_) => ThumunVerificationScreen(
+            hizb: hizb.hizb,
+            thumunInHizb: t.thumunInHizb,
+            thumunGlobal: t.thumun,
+            pages: t.pages,
           ),
         ),
       );
@@ -64,7 +85,9 @@ class HizbThumunsScreen extends StatelessWidget {
           title: Text(
             quizMode
                 ? 'اختبر نفسك — الحزب ${displayNumber(hizb.hizb)}'
-                : 'الحزب ${displayNumber(hizb.hizb)}',
+                : verifyMode
+                    ? 'التحقق — الحزب ${displayNumber(hizb.hizb)}'
+                    : 'الحزب ${displayNumber(hizb.hizb)}',
             style: const TextStyle(fontFamily: 'Amiri'),
           ),
           actions: const [
@@ -102,6 +125,7 @@ class HizbThumunsScreen extends StatelessWidget {
                         hizb: hizb.hizb,
                         thumun: t,
                         quizMode: quizMode,
+                        verifyMode: verifyMode,
                         onTap: () => _openThumun(context, t),
                       );
                     },
@@ -180,12 +204,14 @@ class _ThumunTile extends StatelessWidget {
   final int hizb;
   final ThumunEntry thumun;
   final bool quizMode;
+  final bool verifyMode;
   final VoidCallback onTap;
 
   const _ThumunTile({
     required this.hizb,
     required this.thumun,
     required this.quizMode,
+    this.verifyMode = false,
     required this.onTap,
   });
 
@@ -260,8 +286,14 @@ class _ThumunTile extends StatelessWidget {
                   ),
                 ),
                 Icon(
-                  quizMode ? Icons.quiz_outlined : Icons.chevron_left,
-                  color: quizMode ? accent : scheme.onSurfaceVariant,
+                  quizMode
+                      ? Icons.quiz_outlined
+                      : verifyMode
+                          ? Icons.verified_outlined
+                          : Icons.chevron_left,
+                  color: (quizMode || verifyMode)
+                      ? accent
+                      : scheme.onSurfaceVariant,
                 ),
               ],
             ),

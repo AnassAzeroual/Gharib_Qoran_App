@@ -126,6 +126,12 @@ Behavior:
 - No flags = interactive mode (asks patch/minor/major + build-tick, pauses at end) so right-click works.
 - Writes files with exact `.Replace()` on full lines — never hand-edit siblings.
 
+### 5.4 `instalation_dev_env_windows.ps1` — one-shot dev-environment setup (Windows)
+Right-click → **Run with PowerShell** (interactive), or `.\instalation_dev_env_windows.ps1 -Yes` for non-interactive.
+Installs missing pieces idempotently: Git → Python 3.12 (winget) → Flutter stable clone to `C:\flutter` (+ `precache`, persists `C:\flutter\bin` to User PATH) → Android Studio/SDK + Inno Setup 6 (skipped with `-NoAndroid`), then `flutter pub get` + `python sync_resources.py` + `flutter doctor`.
+Filters: `-FlutterOnly`, `-PythonOnly`, `-NoAndroid`. Flutter clone self-elevates to admin (UAC).
+Ends with a stay-open summary menu: `[OK]/[MISSING]` checks for Git, Python 3, Flutter, Dart, Android SDK, Inno Setup, pub deps, app assets — plus actions (install missing, doctor, pub get, sync, control center). `-NoMenu` prints the summary once and exits (used for the non-interactive re-run).
+
 ---
 
 ## 6. DATA & ASSET PIPELINE
@@ -151,7 +157,7 @@ lib/
 ├── version.dart                        kAppVersion + appVersionLabel()
 ├── data/                               static lists (kQuranSurahs, etc.)
 ├── models/                             page_data.dart, hizb_menu.dart, quiz_word.dart
-├── screens/                            home, page_viewer, verification, quiz*, search_*, hizb_*
+├── screens/                            home, page_viewer, verification, thumun_verification, quiz*, search_*, hizb_*
 ├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter
 ├── utils/                              arabic_digits.dart (displayNumber), etc.
 └── widgets/                            search_result_card, numeral_toggle_button, ...
