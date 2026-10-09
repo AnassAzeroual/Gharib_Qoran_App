@@ -159,7 +159,7 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
       builder: (context, numeral, _) => Scaffold(
-        backgroundColor: const Color(0xFF16191F),
+        backgroundColor: paletteNotifier.value.viewerBg,
         appBar: AppBar(
           title: Text(
             'الصفحة ${displayNumber(_currentPage)} من ${displayNumber(_maxPage)}',
@@ -170,7 +170,7 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
             fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
-          backgroundColor: const Color(0xFF16191F),
+          backgroundColor: paletteNotifier.value.viewerBg,
           elevation: 0,
           actions: const [
             Padding(
@@ -186,9 +186,9 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
                 padding: const EdgeInsets.only(top: 8),
                 child: Text(
                   _subtitle(),
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 15,
-                    color: Color(0xFFFCD34D),
+                    color: paletteNotifier.value.gold,
                   ),
                   textDirection: TextDirection.rtl,
                 ),
@@ -260,7 +260,7 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
 
   Widget _bottomBar(BuildContext context) {
     return Container(
-      color: const Color(0xFF16191F),
+      color: paletteNotifier.value.pageViewerNav,
       child: SafeArea(
         top: false,
         child: Padding(
@@ -272,7 +272,7 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
                 icon: Icon(
                   Icons.chevron_left,
                   color: _currentIndex < _maxPage - _minPage
-                      ? const Color(0xFFFCD34D)
+                      ? paletteNotifier.value.gold
                       : Colors.grey,
                   size: 34,
                 ),
@@ -283,6 +283,9 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
               ),
               Text(
                 '${displayNumber(_currentPage)} / ${displayNumber(_maxPage)}',
+                // LTR base direction so "339 / 350" is not bidi-reordered
+                // into "350 / 339" by the surrounding RTL context.
+                textDirection: TextDirection.ltr,
                 style: const TextStyle(
                   color: Colors.white,
                   fontSize: 16,
@@ -294,7 +297,7 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
                 icon: Icon(
                   Icons.chevron_right,
                   color: _currentIndex > 0
-                      ? const Color(0xFFFCD34D)
+                      ? paletteNotifier.value.gold
                       : Colors.grey,
                   size: 34,
                 ),

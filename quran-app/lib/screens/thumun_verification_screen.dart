@@ -350,7 +350,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
   Widget _imagePane() {
     if (_pages.isEmpty) {
       return Container(
-        color: const Color(0xFF16191F),
+        color: paletteNotifier.value.viewerBg,
         alignment: Alignment.center,
         child: const Text(
           'لا توجد صفحات لهذا الثمن',
@@ -359,7 +359,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
       );
     }
     return Container(
-      color: const Color(0xFF16191F),
+      color: paletteNotifier.value.viewerBg,
       child: InteractiveViewer(
         transformationController: _imageController,
         minScale: 1,
@@ -469,7 +469,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
 
   Widget _wordTile(ThumunWord w, {required bool current}) {
     final scheme = Theme.of(context).colorScheme;
-    const accent = Color(0xFF0F766E);
+    final accent = paletteNotifier.value.thumunVerifyAccent;
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
       decoration: BoxDecoration(
@@ -565,7 +565,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
     final bool hasPrev = index > 0;
     final bool hasNext = index >= 0 && index < _pages.length - 1;
     return Container(
-      color: const Color(0xFF16191F),
+      color: paletteNotifier.value.thumunVerifyNav,
       child: SafeArea(
         top: false,
         child: Padding(
@@ -576,7 +576,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
               IconButton(
                 icon: Icon(
                   Icons.chevron_left,
-                  color: hasNext ? const Color(0xFFFCD34D) : Colors.grey,
+                  color: hasNext ? paletteNotifier.value.gold : Colors.grey,
                   size: 34,
                 ),
                 tooltip: 'الصفحة التالية',
@@ -599,7 +599,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
               IconButton(
                 icon: Icon(
                   Icons.chevron_right,
-                  color: hasPrev ? const Color(0xFFFCD34D) : Colors.grey,
+                  color: hasPrev ? paletteNotifier.value.gold : Colors.grey,
                   size: 34,
                 ),
                 tooltip: 'الصفحة السابقة',

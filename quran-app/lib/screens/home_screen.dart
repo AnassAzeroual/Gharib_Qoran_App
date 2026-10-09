@@ -12,6 +12,7 @@ import 'hizb_thumuns_screen.dart';
 import 'page_viewer_screen.dart';
 import 'quiz_screen.dart';
 import 'search_results_screen.dart';
+import 'settings_screen.dart';
 import 'verification_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -347,11 +348,11 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
-          colors: [Color(0xFF0F766E), Color(0xFF134E4A)],
+          colors: [paletteNotifier.value.homeHeaderStart, paletteNotifier.value.homeHeaderEnd],
         ),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(28),
@@ -369,9 +370,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   color: Colors.white.withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(14),
                 ),
-                child: const Icon(
+                child: Icon(
                   Icons.menu_book,
-                  color: Color(0xFFFCD34D),
+                  color: paletteNotifier.value.gold,
                   size: 30,
                 ),
               ),
@@ -429,6 +430,13 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                     ? ThemeMode.light
                     : ThemeMode.dark,
               ),
+              IconButton(
+                tooltip: 'إعدادات الألوان',
+                icon: const Icon(Icons.settings_outlined, color: Colors.white),
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => const SettingsScreen()),
+                ),
+              ),
               const Padding(
                 padding: EdgeInsets.only(right: 4),
                 child: NumeralToggleButton(),
@@ -470,9 +478,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
             color: scheme.onSurfaceVariant,
             fontFamily: 'Amiri',
           ),
-          prefixIcon: const Padding(
-            padding: EdgeInsets.only(left: 8),
-            child: Icon(Icons.search, color: Color(0xFF0F766E)),
+          prefixIcon: Padding(
+            padding: const EdgeInsets.only(left: 8),
+            child: Icon(Icons.search, color: paletteNotifier.value.seed),
           ),
           suffixIcon: ValueListenableBuilder<TextEditingValue>(
             valueListenable: _searchController,
@@ -579,7 +587,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         alignment: Alignment.center,
         padding: const EdgeInsets.symmetric(horizontal: 6),
         decoration: BoxDecoration(
-          color: active ? const Color(0xFF0F766E) : Colors.transparent,
+          color: active ? paletteNotifier.value.seed : Colors.transparent,
           borderRadius: BorderRadius.circular(10),
         ),
         // Guard against reflow/wrap glitches on narrow screens.
@@ -761,15 +769,15 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   Widget _allQuranTile() {
     return Container(
       decoration: BoxDecoration(
-        gradient: const LinearGradient(
+        gradient: LinearGradient(
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
-          colors: [Color(0xFF0F766E), Color(0xFF134E4A)],
+          colors: [paletteNotifier.value.homeHeaderStart, paletteNotifier.value.homeHeaderEnd],
         ),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFF0F766E).withValues(alpha: 0.35),
+            color: paletteNotifier.value.homeHeaderStart.withValues(alpha: 0.35),
             blurRadius: 16,
             offset: const Offset(0, 6),
           ),
@@ -780,12 +788,12 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         child: InkWell(
           onTap: _startAllQuiz,
           borderRadius: BorderRadius.circular(20),
-          child: const Padding(
-            padding: EdgeInsets.all(12),
+          child: Padding(
+            padding: const EdgeInsets.all(12),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.quiz, color: Color(0xFFFCD34D), size: 36),
+                Icon(Icons.quiz, color: paletteNotifier.value.gold, size: 36),
                 SizedBox(height: 8),
                 Text(
                   'كل القرآن',
@@ -835,7 +843,9 @@ class _SurahCard extends StatelessWidget {
     final bool isMakki = entry?.classification.contains('مك') ?? false;
     final Color badgeColor = !enabled
         ? Colors.grey.shade400
-        : (isMakki ? const Color(0xFFE6A15C) : const Color(0xFF0F766E));
+        : (isMakki
+            ? paletteNotifier.value.makki
+            : paletteNotifier.value.seed);
     final String type = entry?.classification ?? '';
     final int startPage = entry?.startPage ?? 0;
     final int unfamiliarWordsCount = entry?.unfamiliarWordsCount ?? 0;
@@ -1125,7 +1135,7 @@ class _HizbCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    const Color badgeColor = Color(0xFF0F766E);
+    final Color badgeColor = paletteNotifier.value.seed;
     final int juz = ((hizb.hizb + 1) ~/ 2); // hizb 1-2 -> juz 1, etc.
 
     final bool isDark = Theme.of(context).brightness == Brightness.dark;
@@ -1171,7 +1181,7 @@ class _HizbCard extends StatelessWidget {
                     gradient: LinearGradient(
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
-                      colors: [badgeColor, const Color(0xFF0B5B54)],
+                      colors: [badgeColor, paletteNotifier.value.hizbSpineEnd],
                     ),
                   ),
                 ),
@@ -1202,7 +1212,7 @@ class _HizbCard extends StatelessWidget {
                           ),
                           child: Text(
                             'جزء ${displayNumber(juz)}',
-                            style: const TextStyle(
+                            style: TextStyle(
                               color: badgeColor,
                               fontSize: 17,
                               fontWeight: FontWeight.w600,

@@ -32,6 +32,8 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
       builder: (context, numeral, _) => Scaffold(
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         appBar: AppBar(
+          backgroundColor: paletteNotifier.value.searchHeader,
+          foregroundColor: Colors.white,
           titleSpacing: 0,
           title: Text(
             'نتائج البحث: «${widget.query}»',

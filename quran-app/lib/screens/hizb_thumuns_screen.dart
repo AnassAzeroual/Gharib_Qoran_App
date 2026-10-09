@@ -82,6 +82,8 @@ class HizbThumunsScreen extends StatelessWidget {
       valueListenable: numeralNotifier,
       builder: (context, numeral, _) => Scaffold(
         appBar: AppBar(
+          backgroundColor: paletteNotifier.value.hizbHeader,
+          foregroundColor: Colors.white,
           title: Text(
             quizMode
                 ? 'اختبر نفسك — الحزب ${displayNumber(hizb.hizb)}'
@@ -148,10 +150,17 @@ class _WholeHizbTile extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(
-        gradient: const LinearGradient(
+        gradient: LinearGradient(
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
-          colors: [Color(0xFF0F766E), Color(0xFF134E4A)],
+          colors: [
+            paletteNotifier.value.hizbHeader,
+            Color.lerp(
+              paletteNotifier.value.hizbHeader,
+              Colors.black,
+              0.25,
+            )!,
+          ],
         ),
         borderRadius: BorderRadius.circular(16),
       ),
@@ -165,7 +174,8 @@ class _WholeHizbTile extends StatelessWidget {
             child: Row(
               textDirection: TextDirection.rtl,
               children: [
-                const Icon(Icons.quiz, color: Color(0xFFFCD34D), size: 26),
+                Icon(Icons.quiz,
+                    color: paletteNotifier.value.gold, size: 26),
                 const SizedBox(width: 14),
                 Expanded(
                   child: Column(
@@ -218,7 +228,7 @@ class _ThumunTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    const accent = Color(0xFF0F766E);
+    final accent = paletteNotifier.value.seed;
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(
@@ -251,7 +261,7 @@ class _ThumunTile extends StatelessWidget {
                   child: Center(
                     child: Text(
                       displayNumber(thumun.thumunInHizb),
-                      style: const TextStyle(
+                      style: TextStyle(
                         color: accent,
                         fontWeight: FontWeight.bold,
                         fontSize: 18,

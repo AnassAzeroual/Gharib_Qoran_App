@@ -29,6 +29,8 @@ class ThumunWordsScreen extends StatelessWidget {
       valueListenable: numeralNotifier,
       builder: (context, numeral, _) => Scaffold(
         appBar: AppBar(
+          backgroundColor: paletteNotifier.value.thumunWordsHeader,
+          foregroundColor: Colors.white,
           title: Text(
             'الحزب ${displayNumber(hizb)} · الثمن ${displayNumber(thumunInHizb)}',
             style: const TextStyle(fontFamily: 'Amiri'),
@@ -91,7 +93,7 @@ class _WordCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    const accent = Color(0xFF0F766E);
+    final accent = paletteNotifier.value.seed;
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(
@@ -140,7 +142,7 @@ class _WordCard extends StatelessWidget {
                         textDirection: TextDirection.rtl,
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          const Icon(
+                          Icon(
                             Icons.menu_book_rounded,
                             size: 14,
                             color: accent,
@@ -148,7 +150,7 @@ class _WordCard extends StatelessWidget {
                           const SizedBox(width: 4),
                           Text(
                             'صفحة ${displayNumber(word.page)}',
-                            style: const TextStyle(
+                            style: TextStyle(
                               color: accent,
                               fontSize: 12,
                               fontWeight: FontWeight.bold,

@@ -21,7 +21,9 @@ class QuizWordsListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    final accent = correct ? const Color(0xFF16A34A) : const Color(0xFFDC2626);
+    final accent = correct
+        ? paletteNotifier.value.quizCorrect
+        : paletteNotifier.value.quizWrong;
     final bottomInset = MediaQuery.of(context).padding.bottom;
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
@@ -33,7 +35,7 @@ class QuizWordsListScreen extends StatelessWidget {
                 : 'الإجابات الخاطئة ${displayNumber(words.length)}',
             style: const TextStyle(fontFamily: 'Amiri'),
           ),
-          backgroundColor: const Color(0xFF0F766E),
+          backgroundColor: paletteNotifier.value.quizWordsHeader,
           foregroundColor: Colors.white,
           actions: const [
             Padding(

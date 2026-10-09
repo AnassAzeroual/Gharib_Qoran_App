@@ -389,7 +389,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
 
   Widget _imagePane() {
     return Container(
-      color: const Color(0xFF16191F),
+      color: paletteNotifier.value.viewerBg,
       child: InteractiveViewer(
         transformationController: _imageController,
         minScale: 1,
@@ -523,7 +523,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
           margin: const EdgeInsets.only(bottom: 8),
           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
           decoration: BoxDecoration(
-            color: const Color(0xFF0F766E),
+            color: paletteNotifier.value.surahVerifyAccent,
             borderRadius: BorderRadius.circular(10),
           ),
           child: Text(
@@ -555,7 +555,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             margin: const EdgeInsets.only(bottom: 8),
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
             decoration: BoxDecoration(
-              color: const Color(0xFFE6A15C),
+              color: paletteNotifier.value.makki,
               borderRadius: BorderRadius.circular(10),
             ),
             child: Text(
@@ -654,7 +654,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
 
   Widget _bottomBar(BuildContext context) {
     return Container(
-      color: const Color(0xFF16191F),
+      color: paletteNotifier.value.surahVerifyNav,
       child: SafeArea(
         top: false,
         child: Padding(
@@ -666,7 +666,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
                 icon: Icon(
                   Icons.chevron_left,
                   color: _currentPage < _maxPage
-                      ? const Color(0xFFFCD34D)
+                      ? paletteNotifier.value.gold
                       : Colors.grey,
                   size: 34,
                 ),
@@ -691,7 +691,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
                 icon: Icon(
                   Icons.chevron_right,
                   color: _currentPage > _minPage
-                      ? const Color(0xFFFCD34D)
+                      ? paletteNotifier.value.gold
                       : Colors.grey,
                   size: 34,
                 ),

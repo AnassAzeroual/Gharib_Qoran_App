@@ -34,13 +34,8 @@ class QuizScreen extends StatefulWidget {
 class _QuizScreenState extends State<QuizScreen> {
   static const List<String> _letters = ['أ', 'ب', 'ج'];
 
-  // Palette from the minimalist target design.
-  static const Color _canvas = Color(0xFFFBFBFB);
-  static const Color _wordDark = Color(0xFF4A4A4A);
-  static const Color _verseGreen = Color(0xFF2FA885);
-  static const Color _refGrey = Color(0xFF9AA0A6);
-  static const Color _goldTop = Color(0xFFE5C158);
-  static const Color _goldBottom = Color(0xFFC89B27);
+  // Quiz colors come from the live palette (theme.dart) so the settings
+  // page can recolor them; resolved at each use site via paletteNotifier.
 
   final QuizService _quiz = QuizService.instance;
   final DataService _data = DataService.instance;
@@ -202,7 +197,7 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   Widget build(BuildContext context) {
     final bool isDark = Theme.of(context).brightness == Brightness.dark;
-    final Color canvas = isDark ? const Color(0xFF101418) : _canvas;
+    final Color canvas = isDark ? paletteNotifier.value.darkSurface : paletteNotifier.value.quizCanvas;
     return PopScope(
       canPop: _finished,
       onPopInvokedWithResult: (didPop, _) {
@@ -216,7 +211,7 @@ class _QuizScreenState extends State<QuizScreen> {
             title: Text(_title()),
             // Fixed teal header in both light and dark modes; white icons stay
             // legible on it (the dark theme's mint primary would wash them out).
-            backgroundColor: const Color(0xFF0F766E),
+            backgroundColor: paletteNotifier.value.quizHeader,
             foregroundColor: Colors.white,
             actions: [
               const Padding(
@@ -267,8 +262,8 @@ class _QuizScreenState extends State<QuizScreen> {
   Widget _quizBody(double scale) {
     final scheme = Theme.of(context).colorScheme;
     final bool isDark = Theme.of(context).brightness == Brightness.dark;
-    final Color wordColor = isDark ? scheme.onSurface : _wordDark;
-    final Color refColor = isDark ? scheme.onSurfaceVariant : _refGrey;
+    final Color wordColor = isDark ? scheme.onSurface : paletteNotifier.value.quizWord;
+    final Color refColor = isDark ? scheme.onSurfaceVariant : paletteNotifier.value.quizRef;
     final q = _question;
     if (q == null) return const SizedBox.shrink();
 
@@ -310,14 +305,14 @@ class _QuizScreenState extends State<QuizScreen> {
             _miniScore(
               Icons.check_circle,
               _session.correctCount,
-              const Color(0xFF16A34A),
+              paletteNotifier.value.quizCorrect,
               scale,
             ),
             const SizedBox(width: 8),
             _miniScore(
               Icons.cancel,
               _session.wrongCount,
-              const Color(0xFFDC2626),
+              paletteNotifier.value.quizWrong,
               scale,
             ),
           ],
@@ -348,7 +343,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       fontFamily: 'Amiri',
                       fontSize: 30 * scale,
                       fontWeight: FontWeight.bold,
-                      color: _verseGreen,
+                      color: paletteNotifier.value.quizVerse,
                     ),
                   ),
                 ],
@@ -560,8 +555,8 @@ class _QuizScreenState extends State<QuizScreen> {
         TextSpan(text: match.before),
         TextSpan(
           text: match.match,
-          style: const TextStyle(
-            color: _verseGreen,
+          style: TextStyle(
+            color: paletteNotifier.value.quizVerse,
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -605,14 +600,14 @@ class _QuizScreenState extends State<QuizScreen> {
         height: 46,
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          gradient: const LinearGradient(
+          gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [_goldTop, _goldBottom],
+            colors: [paletteNotifier.value.quizGoldTop, paletteNotifier.value.quizGoldBottom],
           ),
           boxShadow: [
             BoxShadow(
-              color: _goldBottom.withValues(alpha: 0.45),
+              color: paletteNotifier.value.quizGoldBottom.withValues(alpha: 0.45),
               blurRadius: 10,
               offset: const Offset(0, 3),
             ),
@@ -648,11 +643,11 @@ class _QuizScreenState extends State<QuizScreen> {
     final Color fg;
     Color border = scheme.outlineVariant;
     if (isCorrectPick) {
-      bg = const Color(0xFF16A34A);
+      bg = paletteNotifier.value.quizCorrect;
       fg = Colors.white;
       border = Colors.transparent;
     } else if (isWrongPick) {
-      bg = const Color(0xFFDC2626);
+      bg = paletteNotifier.value.quizWrong;
       fg = Colors.white;
       border = Colors.transparent;
     } else {

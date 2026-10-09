@@ -50,7 +50,7 @@ class QuizResultScreen extends StatelessWidget {
         appBar: AppBar(
           title: const Text('نتيجة الاختبار'),
           // Fixed teal header in both light and dark modes, matching the quiz.
-          backgroundColor: const Color(0xFF0F766E),
+          backgroundColor: paletteNotifier.value.quizResultHeader,
           foregroundColor: Colors.white,
           actions: const [
             Padding(
@@ -131,7 +131,7 @@ class QuizResultScreen extends StatelessWidget {
                           child: _statCard(
                             scheme: scheme,
                             icon: Icons.check_circle_outline,
-                            color: const Color(0xFF16A34A),
+                            color: paletteNotifier.value.quizCorrect,
                             label: 'إجابات صحيحة',
                             count: session.correctCount,
                             onTap: () => _openList(context, correct: true),
@@ -142,7 +142,7 @@ class QuizResultScreen extends StatelessWidget {
                           child: _statCard(
                             scheme: scheme,
                             icon: Icons.cancel_outlined,
-                            color: const Color(0xFFDC2626),
+                            color: paletteNotifier.value.quizWrong,
                             label: 'إجابات خاطئة',
                             count: session.wrongCount,
                             onTap: () => _openList(context, correct: false),

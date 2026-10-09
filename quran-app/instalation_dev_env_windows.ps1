@@ -241,6 +241,20 @@ function Get-EnvStatus {
     $pubCfg = Join-Path $ProjectRoot '.dart_tool\package_config.json'
     $rows += [pscustomobject]@{ Name = 'Pub deps'; Ok = (Test-Path $pubCfg); Detail = $(if (Test-Path $pubCfg) { 'ready' } else { 'run flutter pub get' }) }
 
+    # Windows plugin builds need symlink rights: Developer Mode or an
+    # elevated terminal. Probe it so the summary tells the truth.
+    $linkOk = $false
+    try {
+        $probeTarget = Join-Path ([System.IO.Path]::GetTempPath()) 'alsiraj_linkprobe_target'
+        $probeLink = Join-Path ([System.IO.Path]::GetTempPath()) 'alsiraj_linkprobe'
+        if (-not (Test-Path $probeTarget)) { New-Item -ItemType Directory -Path $probeTarget -Force | Out-Null }
+        if (Test-Path $probeLink) { Remove-Item $probeLink -Force }
+        New-Item -ItemType SymbolicLink -Path $probeLink -Target $probeTarget -ErrorAction Stop | Out-Null
+        Remove-Item $probeLink -Force
+        $linkOk = $true
+    } catch { $linkOk = $false }
+    $rows += [pscustomobject]@{ Name = 'Symlinks (Windows builds)'; Ok = $linkOk; Detail = $(if ($linkOk) { 'ready' } else { 'enable Developer Mode or build elevated' }) }
+
     $imgDir = Join-Path $ProjectRoot 'assets\images'
     $jsonDir = Join-Path $ProjectRoot 'assets\json'
     $imgCount = 0
