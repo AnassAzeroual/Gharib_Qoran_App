@@ -109,7 +109,7 @@ Flow (logged to `installer\build_install.log`):
 1. Stop a running AlSiraj process (if it is a Windows job).
 2. **Sync resources**: runs `python sync_resources.py` when python exists (skips gracefully otherwise).
 3. Windows: `flutter build windows --release` → `ISCC` compile → silent uninstall old (`/VERYSILENT /SUPPRESSMSGBOXES /NORESTART`) → install → verify exe exists → launch (unless `-NoLaunch`).
-4. Android: builds `app-release.apk` (arm64+arm, slim ~64MB) or `app-debug.apk`; if a device is connected (`adb devices` state `device`), `adb install -r`. **On signature-mismatch install failure, it automatically uninstalls the app and retries** (needed after the 2025 key rotation).
+4. Android: ALWAYS builds `app-release.apk` (arm64+arm, slim ~64MB) or `app-debug.apk` first; then, only if a device is connected (`adb devices` state `device`), `adb install -r`. Without USB the APK stays in `build/app/outputs/flutter-apk/` for manual transfer (e.g. WhatsApp). **On signature-mismatch install failure, it automatically uninstalls the app and retries** (needed after the 2025 key rotation).
 5. AAB: builds `app-release.aab` only.
 - **UAC self-elevation** happens ONLY for Windows installs; Android-only jobs run without admin. Flags are forwarded through the elevated relaunch.
 
@@ -118,6 +118,7 @@ Flow (logged to `installer\build_install.log`):
 .\bump_version.ps1 -Patch [-Build]        # 1.0.1 -> 1.0.2 (+N ticks with -Build)
 .\bump_version.ps1 -Minor  [-Build]       # 1.0.2 -> 1.1.0
 .\bump_version.ps1 -Major  [-Build]       # 1.1.0 -> 2.0.0
+.\bump_version.ps1 -Build                 # tick +N ONLY (1.1.1+4 -> 1.1.1+5)
 .\bump_version.ps1                        # interactive prompts (right-click friendly)
 ```
 Behavior:
@@ -153,15 +154,15 @@ Generated asset files are **gitignored**; to snapshot them into git (not normall
 ```
 lib/
 ├── main.dart                          entry point; RTL + Amiri font setup
-├── theme.dart                         light/dark mode; menuModeNotifier (surah/hizb); AppPalette (35 colors: per-page headers + verify/viewer accents + shared tokens) + paletteNotifier
-├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter, palette_store + bookmarks_store (SharedPreferences)
+├── theme.dart                         light/dark mode; menuModeNotifier (surah/hizb); AppPalette (36 colors) + paletteNotifier; fontFamilyNotifier (Amiri/Rubik) + kAppFonts
+├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter, palette_store + bookmarks_store + progress_store + ui_settings_store (SharedPreferences)
 ├── version.dart                        kAppVersion + appVersionLabel()
 ├── data/                               static lists (kQuranSurahs, etc.)
 ├── models/                             page_data.dart, hizb_menu.dart, quiz_word.dart
 ├── screens/                            home, page_viewer, verification, thumun_verification, settings, bookmarks, quiz*, search_*, hizb_*
 ├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter
 ├── utils/                              arabic_digits.dart (displayNumber), etc.
-└── widgets/                            search_result_card, numeral_toggle_button, bookmark_star_button, ...
+└── widgets/                            search_result_card, numeral_toggle_button, bookmark_star_button, palette_live, ...
 ```
 
 Key conventions:
@@ -171,11 +172,17 @@ Key conventions:
 - Fonts: Amiri (bundled `assets/fonts/`). Theme colors: teal gradient header `0xFF0F766E → 0xFF134E4A`, accent gold `0xFFFCD34D`, dark background `0xFF16191F`.
 - App/package id: **`com.siraj.alsiraj`** (Android). Windows binary: `AlSiraj.exe`.
 
-Widget tests that need bundled assets must preload them via
+- Widget tests that need bundled assets must preload them via
 `tester.runAsync()` (real async): `testWidgets` runs inside FakeAsync, where
 `rootBundle` loading of the multi-MB `search_index.json` never resolves and
 `pumpAndSettle` times out. All `DataService` loaders are idempotent, so the
 app's own startup load then returns immediately.
+- Ancestor rebuilds from `main.dart` (theme/palette/font listeners) stop at
+Navigator route entries: covered routes neither repaint live nor refresh on
+pop-back. Every screen therefore wraps its `Scaffold` in `PaletteLive`
+(direct `paletteNotifier` subscription below the Overlay), and
+`test/palette_live_test.dart` drives the real settings-editor path to prove
+a covered home header repaints without navigating.
 
 ---
 
@@ -256,6 +263,7 @@ $c = [System.IO.File]::ReadAllText('script.ps1', [System.Text.Encoding]::UTF8)
 - MSIX packaging was tried then REVERTED (user disliked it) — stay on the Inno Setup installer path.
 - Anatomy of confusion: a user right-clicking a script expects it to act; scripts must be interactive-safe when run flag-less.
 - The Android APK on phones signed with the OLD (purged) key cannot be upgraded in place — first install after rotation requires uninstall. `build_install.ps1` auto-handles this.
+- Windows **N** editions ship without Media Foundation (`mfplat.dll`), and the app cannot start there (`audioplayers` needs it for quiz sounds): install the Media Feature Pack (Settings → System → Optional features, or `DISM /Online /Add-Capability /CapabilityName:Media.MediaFeaturePack~~~~0.0.1.0` as admin) and reboot.
 
 ---
 

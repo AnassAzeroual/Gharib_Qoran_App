@@ -99,6 +99,10 @@ class DataService {
   // Thumun (global 1..480) -> its glossary words, collected during the same
   // page scan that builds the search index. Ordered by page then ayah.
   final Map<int, List<ThumunWord>> _wordsByThumun = {};
+  // Surah order -> distinct thumuns containing its glossary words. Powers
+  // the memorization-progress sync: a surah counts as memorized when every
+  // thumun in this set is marked completed.
+  final Map<int, Set<int>> _thumunsBySurah = {};
   HizbMenu? _hizbMenu;
 
   /// Pages that have a JSON file available.
@@ -203,6 +207,9 @@ class DataService {
               word: word,
               meaning: meaning,
             ));
+        if (surahOrder > 0) {
+          _thumunsBySurah.putIfAbsent(surahOrder, () => {}).add(thumun);
+        }
       }
     } else if (type == 'p') {
       _searchIndex.add(_hit(
@@ -269,6 +276,10 @@ class DataService {
                   word: entry.word,
                   meaning: entry.meaning,
                 ));
+            final order = surah?.order ?? 0;
+            if (order > 0) {
+              _thumunsBySurah.putIfAbsent(order, () => {}).add(entry.thumun!);
+            }
           }
         }
       } else if (section.type == 'preliminary_entries') {
@@ -366,6 +377,11 @@ class DataService {
     }
     return null;
   }
+
+  /// Distinct thumuns (global 1..480) containing this surah's glossary
+  /// words. Requires buildSearchIndex() to have run.
+  Set<int> thumunsOfSurah(int surahOrder) =>
+      _thumunsBySurah[surahOrder] ?? const {};
 
   /// Loads one page's JSON (for header/surah info in the page viewer).
   Future<PageData?> loadPage(int page) async {

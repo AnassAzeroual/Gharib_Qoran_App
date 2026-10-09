@@ -263,6 +263,13 @@ const List<PaletteEntry> kPaletteEntries = [
     fallback: Color(0xFFE5A81C),
   ),
   PaletteEntry(
+    key: 'memorized',
+    section: 'الشارات والعارض',
+    label: 'المحفوظ',
+    usage: 'تلوين أرقام الأحزاب والأثمان والسور المكتملة الحفظ',
+    fallback: Color(0xFF16A34A),
+  ),
+  PaletteEntry(
     key: 'hizbSpineEnd',
     section: 'الشارات والعارض',
     label: 'كعب الحزب',
@@ -314,6 +321,7 @@ class AppPalette {
   final Color quizWrong;
   final Color makki;
   final Color favoriteStar;
+  final Color memorized;
   final Color hizbSpineEnd;
   final Color viewerBg;
 
@@ -351,6 +359,7 @@ class AppPalette {
     required this.quizWrong,
     required this.makki,
     required this.favoriteStar,
+    required this.memorized,
     required this.hizbSpineEnd,
     required this.viewerBg,
   });
@@ -394,6 +403,7 @@ class AppPalette {
       quizWrong: fb('quizWrong'),
       makki: fb('makki'),
       favoriteStar: fb('favoriteStar'),
+      memorized: fb('memorized'),
       hizbSpineEnd: fb('hizbSpineEnd'),
       viewerBg: fb('viewerBg'),
     );
@@ -433,6 +443,7 @@ class AppPalette {
     Color? quizWrong,
     Color? makki,
     Color? favoriteStar,
+    Color? memorized,
     Color? hizbSpineEnd,
     Color? viewerBg,
   }) {
@@ -470,6 +481,7 @@ class AppPalette {
       quizWrong: quizWrong ?? this.quizWrong,
       makki: makki ?? this.makki,
       favoriteStar: favoriteStar ?? this.favoriteStar,
+      memorized: memorized ?? this.memorized,
       hizbSpineEnd: hizbSpineEnd ?? this.hizbSpineEnd,
       viewerBg: viewerBg ?? this.viewerBg,
     );
@@ -543,6 +555,8 @@ class AppPalette {
         return makki;
       case 'favoriteStar':
         return favoriteStar;
+      case 'memorized':
+        return memorized;
       case 'hizbSpineEnd':
         return hizbSpineEnd;
       case 'viewerBg':
@@ -619,6 +633,8 @@ class AppPalette {
         return copyWith(makki: value);
       case 'favoriteStar':
         return copyWith(favoriteStar: value);
+      case 'memorized':
+        return copyWith(memorized: value);
       case 'hizbSpineEnd':
         return copyWith(hizbSpineEnd: value);
       case 'viewerBg':
@@ -679,23 +695,45 @@ enum NumeralSystem { arabicIndic, western }
 final ValueNotifier<NumeralSystem> numeralNotifier =
     ValueNotifier(NumeralSystem.arabicIndic);
 
+/// A bundled font family the user can pick from in settings.
+class AppFont {
+  final String family;
+  final String label;
+
+  const AppFont(this.family, this.label);
+}
+
+const String kAppDefaultFont = 'Amiri';
+
+const List<AppFont> kAppFonts = [
+  AppFont('Amiri', 'أميري'),
+  AppFont('Rubik', 'روبيك'),
+];
+
+/// Global font-family notifier; text styles read this value so the settings
+/// choice applies instantly everywhere. Persisted via UiSettingsStore.
+final ValueNotifier<String> fontFamilyNotifier = ValueNotifier(
+  kAppDefaultFont,
+);
+
 ThemeData _baseTheme(
   Brightness brightness,
   ColorScheme colorScheme,
   Color scaffoldColor,
+  String family,
 ) {
   return ThemeData(
     useMaterial3: true,
     brightness: brightness,
     colorScheme: colorScheme,
     scaffoldBackgroundColor: scaffoldColor,
-    fontFamily: 'Amiri',
+    fontFamily: family,
     appBarTheme: AppBarTheme(
       centerTitle: true,
       backgroundColor: colorScheme.primary,
       foregroundColor: Colors.white,
-      titleTextStyle: const TextStyle(
-        fontFamily: 'Amiri',
+      titleTextStyle: TextStyle(
+        fontFamily: family,
         fontSize: 20,
         fontWeight: FontWeight.bold,
         color: Colors.white,
@@ -717,6 +755,7 @@ ThemeData buildLightTheme(AppPalette p) => _baseTheme(
     onSurface: p.lightText,
   ),
   p.lightScaffold,
+  fontFamilyNotifier.value,
 );
 
 ThemeData buildDarkTheme(AppPalette p) => _baseTheme(
@@ -729,4 +768,5 @@ ThemeData buildDarkTheme(AppPalette p) => _baseTheme(
     onSurface: p.darkText,
   ),
   p.darkScaffold,
+  fontFamilyNotifier.value,
 );

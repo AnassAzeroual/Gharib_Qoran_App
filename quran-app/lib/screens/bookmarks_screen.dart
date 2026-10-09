@@ -5,6 +5,7 @@ import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 import 'page_viewer_screen.dart';
 import 'verification_screen.dart';
 
@@ -49,11 +50,11 @@ class BookmarksScreen extends StatelessWidget {
       valueListenable: numeralNotifier,
       builder: (context, numeral, _) => ValueListenableBuilder<List<Bookmark>>(
         valueListenable: BookmarksStore.bookmarksNotifier,
-        builder: (context, bookmarks, _) => Scaffold(
+        builder: (context, bookmarks, _) => PaletteLive(child: Scaffold(
           appBar: AppBar(
             title: Text(
               'المفضلة · ${displayNumber(bookmarks.length)}',
-              style: const TextStyle(fontFamily: 'Amiri'),
+              style: TextStyle(fontFamily: fontFamilyNotifier.value),
             ),
             actions: const [
               Padding(
@@ -78,7 +79,7 @@ class BookmarksScreen extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 18,
                           color: scheme.onSurfaceVariant,
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                         ),
                       ),
                       const SizedBox(height: 6),
@@ -87,7 +88,7 @@ class BookmarksScreen extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 14,
                           color: scheme.onSurfaceVariant,
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                         ),
                       ),
                     ],
@@ -114,7 +115,7 @@ class BookmarksScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-        ),
+        )),
       ),
     );
   }
@@ -187,22 +188,22 @@ class _BookmarkCard extends StatelessWidget {
                           ],
                         ),
                       ),
-                    const Spacer(),
-                    if (b.surahName.isNotEmpty)
-                      Flexible(
-                        child: Text(
-                          b.ayahNumber != null
-                              ? '${b.surahName} · آية ${displayNumber(b.ayahNumber!)}'
-                              : b.surahName,
-                          textAlign: TextAlign.right,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            color: scheme.onSurfaceVariant,
-                            fontSize: 12,
-                            fontFamily: 'Amiri',
-                          ),
-                        ),
-                      ),
+                    Expanded(
+                      child: b.surahName.isNotEmpty
+                          ? Text(
+                              b.ayahNumber != null
+                                  ? '${b.surahName} · آية ${displayNumber(b.ayahNumber!)}'
+                                  : b.surahName,
+                              textAlign: TextAlign.right,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(
+                                color: scheme.onSurfaceVariant,
+                                fontSize: 12,
+                                fontFamily: fontFamilyNotifier.value,
+                              ),
+                            )
+                          : const SizedBox.shrink(),
+                    ),
                     BookmarkStarButton(bookmark: b),
                   ],
                 ),
@@ -210,10 +211,10 @@ class _BookmarkCard extends StatelessWidget {
                 Text(
                   b.word,
                   textAlign: TextAlign.right,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Amiri',
+                    fontFamily: fontFamilyNotifier.value,
                   ),
                 ),
                 if (b.meaning.isNotEmpty) ...[
@@ -225,7 +226,7 @@ class _BookmarkCard extends StatelessWidget {
                       fontSize: 15,
                       height: 1.5,
                       color: scheme.onSurface,
-                      fontFamily: 'Amiri',
+                      fontFamily: fontFamilyNotifier.value,
                     ),
                   ),
                 ],

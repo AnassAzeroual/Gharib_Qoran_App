@@ -7,6 +7,7 @@ import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 
 class PageViewerScreen extends StatefulWidget {
   final int initialPage;
@@ -158,14 +159,14 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
   Widget build(BuildContext context) {
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
+      builder: (context, numeral, _) => PaletteLive(child: Scaffold(
         backgroundColor: paletteNotifier.value.viewerBg,
         appBar: AppBar(
           title: Text(
             'الصفحة ${displayNumber(_currentPage)} من ${displayNumber(_maxPage)}',
           ),
-          titleTextStyle: const TextStyle(
-            fontFamily: 'Amiri',
+          titleTextStyle: TextStyle(
+            fontFamily: fontFamilyNotifier.value,
             fontSize: 18,
             fontWeight: FontWeight.bold,
             color: Colors.white,
@@ -209,7 +210,7 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
             _bottomBar(context),
           ],
         ),
-      ),
+      )),
     );
   }
 
@@ -286,11 +287,11 @@ class _PageViewerScreenState extends State<PageViewerScreen> {
                 // LTR base direction so "339 / 350" is not bidi-reordered
                 // into "350 / 339" by the surrounding RTL context.
                 textDirection: TextDirection.ltr,
-                style: const TextStyle(
+                style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
-                  fontFamily: 'Amiri',
+                  fontFamily: fontFamilyNotifier.value,
                 ),
               ),
               IconButton(

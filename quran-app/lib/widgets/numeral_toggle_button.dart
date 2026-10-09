@@ -34,8 +34,8 @@ class NumeralToggleButton extends StatelessWidget {
               ),
               child: Text(
                 preview,
-                style: const TextStyle(
-                  fontFamily: 'Amiri',
+                style: TextStyle(
+                  fontFamily: fontFamilyNotifier.value,
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,

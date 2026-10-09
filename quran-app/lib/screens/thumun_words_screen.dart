@@ -6,6 +6,7 @@ import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 import 'page_viewer_screen.dart';
 
 /// Shows the unfamiliar words (glossary entries) that belong to a single
@@ -29,13 +30,13 @@ class ThumunWordsScreen extends StatelessWidget {
 
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
+      builder: (context, numeral, _) => PaletteLive(child: Scaffold(
         appBar: AppBar(
           backgroundColor: paletteNotifier.value.thumunWordsHeader,
           foregroundColor: Colors.white,
           title: Text(
             'الحزب ${displayNumber(hizb)} · الثمن ${displayNumber(thumunInHizb)}',
-            style: const TextStyle(fontFamily: 'Amiri'),
+            style: TextStyle(fontFamily: fontFamilyNotifier.value),
           ),
           actions: const [
             Padding(
@@ -83,7 +84,7 @@ class ThumunWordsScreen extends StatelessWidget {
                   ),
                 ),
               ),
-      ),
+      )),
     );
   }
 }
@@ -161,22 +162,22 @@ class _WordCard extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const Spacer(),
-                    if (word.surahName.isNotEmpty)
-                      Flexible(
-                        child: Text(
-                          word.ayahNumber != null
-                              ? '${word.surahName} · آية ${displayNumber(word.ayahNumber!)}'
-                              : word.surahName,
-                          textAlign: TextAlign.right,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            color: scheme.onSurfaceVariant,
-                            fontSize: 12,
-                            fontFamily: 'Amiri',
-                          ),
-                        ),
-                      ),
+                    Expanded(
+                      child: word.surahName.isNotEmpty
+                          ? Text(
+                              word.ayahNumber != null
+                                  ? '${word.surahName} · آية ${displayNumber(word.ayahNumber!)}'
+                                  : word.surahName,
+                              textAlign: TextAlign.right,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(
+                                color: scheme.onSurfaceVariant,
+                                fontSize: 12,
+                                fontFamily: fontFamilyNotifier.value,
+                              ),
+                            )
+                          : const SizedBox.shrink(),
+                    ),
                     BookmarkStarButton(bookmark: Bookmark.fromThumun(word)),
                   ],
                 ),
@@ -184,10 +185,10 @@ class _WordCard extends StatelessWidget {
                 Text(
                   word.word,
                   textAlign: TextAlign.right,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Amiri',
+                    fontFamily: fontFamilyNotifier.value,
                   ),
                 ),
                 if (word.meaning.isNotEmpty) ...[
@@ -199,7 +200,7 @@ class _WordCard extends StatelessWidget {
                       fontSize: 15,
                       height: 1.5,
                       color: scheme.onSurface,
-                      fontFamily: 'Amiri',
+                      fontFamily: fontFamilyNotifier.value,
                     ),
                   ),
                 ],

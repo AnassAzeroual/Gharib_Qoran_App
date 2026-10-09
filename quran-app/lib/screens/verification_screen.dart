@@ -9,6 +9,7 @@ import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 
 /// Side-by-side verification screen: the scanned page image on one side and
 /// the OCR glossary list for that same page on the other, with prev/next
@@ -144,7 +145,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
     final scheme = Theme.of(context).colorScheme;
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
+      builder: (context, numeral, _) => PaletteLive(child: Scaffold(
         backgroundColor: scheme.surface,
         // Immersive: no AppBar, the panes fill the whole screen. A floating mini
         // header (back + reference, rotate on phones) and the bottom bar overlay
@@ -250,7 +251,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             ],
           ),
         ),
-      ),
+      )),
     );
   }
 
@@ -328,7 +329,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
       child: Text(
         subtitle,
         style: TextStyle(
-          fontFamily: 'Amiri',
+          fontFamily: fontFamilyNotifier.value,
           fontSize: 14,
           color: scheme.onSurface,
           fontWeight: FontWeight.bold,
@@ -457,7 +458,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             style: TextStyle(
               fontSize: 12,
               color: Theme.of(context).colorScheme.onSurfaceVariant,
-              fontFamily: 'Amiri',
+              fontFamily: fontFamilyNotifier.value,
             ),
           ),
           const SizedBox(width: 4),
@@ -534,7 +535,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
               color: Colors.white,
               fontSize: _listFontSize * 0.77,
               fontWeight: FontWeight.bold,
-              fontFamily: 'Amiri',
+              fontFamily: fontFamilyNotifier.value,
             ),
             textDirection: TextDirection.rtl,
           ),
@@ -569,7 +570,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
                 color: Colors.white,
                 fontSize: _listFontSize * 0.77,
                 fontWeight: FontWeight.bold,
-                fontFamily: 'Amiri',
+                fontFamily: fontFamilyNotifier.value,
               ),
               textDirection: TextDirection.rtl,
             ),
@@ -645,7 +646,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
                     fontSize: _listFontSize,
                     fontWeight: FontWeight.bold,
                     color: scheme.onSurface,
-                    fontFamily: 'Amiri',
+                    fontFamily: fontFamilyNotifier.value,
                   ),
                   textDirection: TextDirection.rtl,
                 ),
@@ -710,11 +711,11 @@ class _VerificationScreenState extends State<VerificationScreen> {
                 // LTR base direction so "339 / 350" is not bidi-reordered
                 // into "350 / 339" by the surrounding RTL context.
                 textDirection: TextDirection.ltr,
-                style: const TextStyle(
+                style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
-                  fontFamily: 'Amiri',
+                  fontFamily: fontFamilyNotifier.value,
                 ),
               ),
               IconButton(

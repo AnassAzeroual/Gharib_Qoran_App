@@ -7,6 +7,7 @@ import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 
 /// Review list of all questions answered correctly or wrongly in a quiz.
 /// Shows each word with its correct meaning and Quran reference, so the user
@@ -30,13 +31,13 @@ class QuizWordsListScreen extends StatelessWidget {
     final bottomInset = MediaQuery.of(context).padding.bottom;
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
+      builder: (context, numeral, _) => PaletteLive(child: Scaffold(
         appBar: AppBar(
           title: Text(
             correct
                 ? 'الإجابات الصحيحة ${displayNumber(words.length)}'
                 : 'الإجابات الخاطئة ${displayNumber(words.length)}',
-            style: const TextStyle(fontFamily: 'Amiri'),
+            style: TextStyle(fontFamily: fontFamilyNotifier.value),
           ),
           backgroundColor: paletteNotifier.value.quizWordsHeader,
           foregroundColor: Colors.white,
@@ -65,7 +66,7 @@ class QuizWordsListScreen extends StatelessWidget {
                   return _wordTile(context, words[index], accent, scheme);
                 },
               ),
-      ),
+      )),
     );
   }
 
@@ -115,7 +116,7 @@ class QuizWordsListScreen extends StatelessWidget {
                         w.word,
                         textDirection: TextDirection.rtl,
                         style: TextStyle(
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                           color: scheme.onSurface,
@@ -123,13 +124,17 @@ class QuizWordsListScreen extends StatelessWidget {
                       ),
                     ),
                     if (reference.isNotEmpty)
-                      Text(
-                        reference,
-                        textDirection: TextDirection.rtl,
-                        style: TextStyle(
-                          fontFamily: 'Amiri',
-                          fontSize: 12,
-                          color: scheme.onSurfaceVariant,
+                      Flexible(
+                        child: Text(
+                          reference,
+                          textDirection: TextDirection.rtl,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                            fontFamily: fontFamilyNotifier.value,
+                            fontSize: 12,
+                            color: scheme.onSurfaceVariant,
+                          ),
                         ),
                       ),
                     BookmarkStarButton(
@@ -160,7 +165,7 @@ class QuizWordsListScreen extends StatelessWidget {
                   ),
                   textDirection: TextDirection.rtl,
                   style: TextStyle(
-                    fontFamily: 'Amiri',
+                    fontFamily: fontFamilyNotifier.value,
                     fontSize: 15,
                     height: 1.5,
                     color: scheme.onSurfaceVariant,

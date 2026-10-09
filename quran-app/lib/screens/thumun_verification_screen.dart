@@ -8,6 +8,7 @@ import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/bookmark_star_button.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 
 /// Thumun verification screen: the thumun's glossary words on one side and
 /// the real book page image on the other — the Hizb-menu counterpart of
@@ -124,7 +125,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
     final scheme = Theme.of(context).colorScheme;
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
+      builder: (context, numeral, _) => PaletteLive(child: Scaffold(
         backgroundColor: scheme.surface,
         // Immersive: no AppBar, the panes fill the whole screen. A floating
         // mini header (back + reference, rotate on phones) and the bottom
@@ -222,7 +223,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
             ),
           ],
         ),
-      ),
+      )),
     );
   }
 
@@ -288,7 +289,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
       child: Text(
         label,
         style: TextStyle(
-          fontFamily: 'Amiri',
+          fontFamily: fontFamilyNotifier.value,
           fontSize: 14,
           color: scheme.onSurface,
           fontWeight: FontWeight.bold,
@@ -354,9 +355,9 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
       return Container(
         color: paletteNotifier.value.viewerBg,
         alignment: Alignment.center,
-        child: const Text(
+        child: Text(
           'لا توجد صفحات لهذا الثمن',
-          style: TextStyle(color: Colors.white70, fontFamily: 'Amiri'),
+          style: TextStyle(color: Colors.white70, fontFamily: fontFamilyNotifier.value),
         ),
       );
     }
@@ -427,7 +428,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
             style: TextStyle(
               fontSize: 12,
               color: Theme.of(context).colorScheme.onSurfaceVariant,
-              fontFamily: 'Amiri',
+              fontFamily: fontFamilyNotifier.value,
             ),
           ),
           const SizedBox(width: 4),
@@ -513,22 +514,22 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
                         ),
                       ),
                     ),
-                    const Spacer(),
-                    if (w.surahName.isNotEmpty)
-                      Flexible(
-                        child: Text(
-                          w.ayahNumber != null
-                              ? '${w.surahName} · آية ${displayNumber(w.ayahNumber!)}'
-                              : w.surahName,
-                          textAlign: TextAlign.right,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            color: scheme.onSurfaceVariant,
-                            fontSize: _listFontSize * 0.6,
-                            fontFamily: 'Amiri',
-                          ),
-                        ),
-                      ),
+                    Expanded(
+                      child: w.surahName.isNotEmpty
+                          ? Text(
+                              w.ayahNumber != null
+                                  ? '${w.surahName} · آية ${displayNumber(w.ayahNumber!)}'
+                                  : w.surahName,
+                              textAlign: TextAlign.right,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(
+                                color: scheme.onSurfaceVariant,
+                                fontSize: _listFontSize * 0.6,
+                                fontFamily: fontFamilyNotifier.value,
+                              ),
+                            )
+                          : const SizedBox.shrink(),
+                    ),
                     BookmarkStarButton(bookmark: Bookmark.fromThumun(w)),
                   ],
                 ),
@@ -539,7 +540,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
                   style: TextStyle(
                     fontSize: _listFontSize,
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Amiri',
+                    fontFamily: fontFamilyNotifier.value,
                   ),
                 ),
                 if (w.meaning.isNotEmpty) ...[
@@ -551,7 +552,7 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
                       fontSize: _listFontSize * 0.75,
                       height: 1.5,
                       color: scheme.onSurface,
-                      fontFamily: 'Amiri',
+                      fontFamily: fontFamilyNotifier.value,
                     ),
                   ),
                 ],
@@ -592,11 +593,11 @@ class _ThumunVerificationScreenState extends State<ThumunVerificationScreen> {
                 // LTR base direction so the "1 / 5" position fraction is not
                 // bidi-reordered into "5 / 1" by the surrounding RTL text.
                 textDirection: TextDirection.ltr,
-                style: const TextStyle(
+                style: TextStyle(
                   color: Colors.white,
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
-                  fontFamily: 'Amiri',
+                  fontFamily: fontFamilyNotifier.value,
                 ),
               ),
               IconButton(

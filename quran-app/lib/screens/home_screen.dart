@@ -4,6 +4,7 @@ import '../data/surahs.dart';
 import '../models/hizb_menu.dart';
 import '../services/bookmarks_store.dart';
 import '../services/data_service.dart';
+import '../services/progress_store.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../version.dart';
@@ -241,17 +242,20 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
 
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
-        body: SafeArea(
-          child: Column(
-            children: [
-              _header(context),
-              Expanded(
-                child: _ready
-                    ? _floatingBody(context)
-                    : const Center(child: CircularProgressIndicator()),
-              ),
-            ],
+      builder: (context, numeral, _) => ValueListenableBuilder<AppPalette>(
+        valueListenable: paletteNotifier,
+        builder: (context, _, _) => Scaffold(
+          body: SafeArea(
+            child: Column(
+              children: [
+                _header(context),
+                Expanded(
+                  child: _ready
+                      ? _floatingBody(context)
+                      : const Center(child: CircularProgressIndicator()),
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -259,10 +263,13 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   }
 
   // ------------------------------------------------ floating-overlay body
+  // Wrapped in the palette listenable (in addition to the root one in
+  // main.dart): ancestor rebuilds stop at Navigator route entries, so each
+  // screen subscribes directly to repaint live, even when covered.
+  Widget _floatingBody(BuildContext context) {
   // The grid is full-bleed; the controls bar floats above it. The grid's top
   // padding is derived from the SAME curved slide value as the bar offset so
   // content tracks the bar's bottom edge frame-by-frame (no gaps/overlaps).
-  Widget _floatingBody(BuildContext context) {
     return AnimatedBuilder(
       animation: Listenable.merge([_barSlide, _collapseAnim]),
       builder: (context, _) {
@@ -367,26 +374,30 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           Row(
             children: [
               Container(
-                padding: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white.withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(14),
                 ),
-                child: Icon(
-                  Icons.menu_book,
-                  color: paletteNotifier.value.gold,
-                  size: 30,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(9),
+                  child: Image.asset(
+                    'assets/icon/app_icon.png',
+                    width: 36,
+                    height: 36,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
               const SizedBox(width: 14),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: const [
+                  children: [
                     Text(
                       'السِّراج',
                       style: TextStyle(
-                        fontFamily: 'Amiri',
+                        fontFamily: fontFamilyNotifier.value,
                         fontSize: 26,
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
@@ -395,7 +406,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                     Text(
                       'في بيان غريب القرآن',
                       style: TextStyle(
-                        fontFamily: 'Amiri',
+                        fontFamily: fontFamilyNotifier.value,
                         fontSize: 16,
                         color: Colors.white70,
                       ),
@@ -403,6 +414,22 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   ],
                 ),
               ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          Row(
+            children: [
+              const Icon(Icons.auto_awesome, size: 14, color: Colors.white60),
+              const SizedBox(width: 6),
+              Text(
+                'الإصدار ${appVersionLabel()}',
+                style: TextStyle(
+                  fontFamily: fontFamilyNotifier.value,
+                  fontSize: 13,
+                  color: Colors.white60,
+                ),
+              ),
+              const Spacer(),
               ValueListenableBuilder<MenuMode>(
                 valueListenable: menuModeNotifier,
                 builder: (context, mode, _) => IconButton(
@@ -445,21 +472,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
               ),
             ],
           ),
-          const SizedBox(height: 16),
-          Row(
-            children: [
-              const Icon(Icons.auto_awesome, size: 14, color: Colors.white60),
-              const SizedBox(width: 6),
-              Text(
-                'الإصدار ${appVersionLabel()}',
-                style: const TextStyle(
-                  fontFamily: 'Amiri',
-                  fontSize: 13,
-                  color: Colors.white60,
-                ),
-              ),
-            ],
-          ),
         ],
       ),
     );
@@ -478,7 +490,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           hintText: 'ابحث عن كلمة أو معنى...',
           hintStyle: TextStyle(
             color: scheme.onSurfaceVariant,
-            fontFamily: 'Amiri',
+            fontFamily: fontFamilyNotifier.value,
           ),
           prefixIcon: Padding(
             padding: const EdgeInsets.only(left: 8),
@@ -606,7 +618,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   : Theme.of(context).colorScheme.onSurfaceVariant,
               fontWeight: FontWeight.w600,
               fontSize: 13,
-              fontFamily: 'Amiri',
+              fontFamily: fontFamilyNotifier.value,
             ),
           ),
         ),
@@ -648,7 +660,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 style: TextStyle(
                   color: scheme.onSurfaceVariant,
                   fontSize: 13,
-                  fontFamily: 'Amiri',
+                  fontFamily: fontFamilyNotifier.value,
                 ),
               ),
               const Spacer(),
@@ -695,11 +707,10 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         mainAxisSpacing: 14,
         crossAxisSpacing: 14,
       ),
-      itemCount: kQuranSurahs.length + (quizMode ? 2 : 1),
+      itemCount: kQuranSurahs.length + (quizMode ? 1 : 0),
       itemBuilder: (context, index) {
         if (quizMode && index == 0) return _allQuranTile();
-        if (index == (quizMode ? 1 : 0)) return _favoritesTile();
-        final surah = kQuranSurahs[index - (quizMode ? 2 : 1)];
+        final surah = kQuranSurahs[index - (quizMode ? 1 : 0)];
         final entry = _data.surahByOrder(surah.order);
         final enabled = quizMode
             ? (entry?.unfamiliarWordsCount ?? 0) > 0
@@ -830,7 +841,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                     Text(
                       'المفضلة',
                       style: TextStyle(
-                        fontFamily: 'Amiri',
+                        fontFamily: fontFamilyNotifier.value,
                         fontSize: 20,
                         fontWeight: FontWeight.w600,
                         color: scheme.onSurface,
@@ -841,7 +852,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                       'كلمة ${displayNumber(bookmarks.length)}',
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontFamily: 'Amiri',
+                        fontFamily: fontFamilyNotifier.value,
                         fontSize: 13,
                         color: scheme.onSurfaceVariant,
                       ),
@@ -888,7 +899,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 Text(
                   'كل القرآن',
                   style: TextStyle(
-                    fontFamily: 'Amiri',
+                    fontFamily: fontFamilyNotifier.value,
                     fontSize: 20,
                     fontWeight: FontWeight.w600,
                     color: Colors.white,
@@ -899,7 +910,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   'أسئلة مستمرة من جميع السور',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontFamily: 'Amiri',
+                    fontFamily: fontFamilyNotifier.value,
                     fontSize: 13,
                     color: Colors.white70,
                   ),
@@ -1023,7 +1034,7 @@ class _SurahCard extends StatelessWidget {
                                 color: badgeColor,
                                 fontSize: 15,
                                 fontWeight: FontWeight.w600,
-                                fontFamily: 'Amiri',
+                                fontFamily: fontFamilyNotifier.value,
                               ),
                             ),
                           )
@@ -1042,48 +1053,62 @@ class _SurahCard extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 13,
                                 color: scheme.onSurfaceVariant,
-                                fontFamily: 'Amiri',
+                                fontFamily: fontFamilyNotifier.value,
                               ),
                             ),
                           )
                         else
                           const SizedBox.shrink(),
-                        // Ringed number circle.
-                        Container(
-                          width: 46,
-                          height: 46,
-                          decoration: BoxDecoration(
-                            color: cardColor,
-                            shape: BoxShape.circle,
-                            border: Border.all(
-                              color: badgeColor.withValues(alpha: 0.5),
-                              width: 1.6,
-                            ),
-                            boxShadow: enabled
-                                ? [
-                                    BoxShadow(
-                                      color: Colors.black.withValues(
-                                        alpha: 0.06,
-                                      ),
-                                      blurRadius: 6,
-                                      offset: const Offset(0, 2),
-                                    ),
-                                  ]
-                                : null,
-                          ),
-                          child: Center(
-                            child: Text(
-                              displayNumber(surah.order),
-                              style: TextStyle(
-                                color: enabled
-                                    ? scheme.onSurface
-                                    : scheme.onSurfaceVariant,
-                                fontWeight: FontWeight.w600,
-                                fontSize: 18,
-                                fontFamily: 'Amiri',
+                        // Ringed number circle (fills when memorized).
+                        ValueListenableBuilder<Set<int>>(
+                          valueListenable: ProgressStore.completedNotifier,
+                          builder: (context, completed, _) {
+                            final memorized = ProgressStore.surahCompleted(
+                              DataService.instance.thumunsOfSurah(surah.order),
+                              completed,
+                            );
+                            final fill = paletteNotifier.value.memorized;
+                            return Container(
+                              width: 46,
+                              height: 46,
+                              decoration: BoxDecoration(
+                                color: memorized ? fill : cardColor,
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: memorized
+                                      ? fill
+                                      : badgeColor.withValues(alpha: 0.5),
+                                  width: 1.6,
+                                ),
+                                boxShadow: enabled
+                                    ? [
+                                        BoxShadow(
+                                          color: Colors.black.withValues(
+                                            alpha: 0.06,
+                                          ),
+                                          blurRadius: 6,
+                                          offset: const Offset(0, 2),
+                                        ),
+                                      ]
+                                    : null,
                               ),
-                            ),
-                          ),
+                              child: Center(
+                                child: Text(
+                                  displayNumber(surah.order),
+                                  style: TextStyle(
+                                    color: memorized
+                                        ? Colors.white
+                                        : enabled
+                                            ? scheme.onSurface
+                                            : scheme.onSurfaceVariant,
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 18,
+                                    fontFamily: fontFamilyNotifier.value,
+                                  ),
+                                ),
+                              ),
+                            );
+                          },
                         ),
                       ],
                     ),
@@ -1101,7 +1126,7 @@ class _SurahCard extends StatelessWidget {
                             color: enabled
                                 ? scheme.onSurface
                                 : scheme.onSurfaceVariant,
-                            fontFamily: 'Amiri',
+                            fontFamily: fontFamilyNotifier.value,
                           ),
                         ),
                       ),
@@ -1203,7 +1228,7 @@ class _SurahCard extends StatelessWidget {
                 fontSize: 16,
                 color: scheme.onSurface,
                 fontWeight: FontWeight.w600,
-                fontFamily: 'Amiri',
+                fontFamily: fontFamilyNotifier.value,
               ),
             ),
           ],
@@ -1306,40 +1331,66 @@ class _HizbCard extends StatelessWidget {
                               color: badgeColor,
                               fontSize: 17,
                               fontWeight: FontWeight.w600,
-                              fontFamily: 'Amiri',
+                              fontFamily: fontFamilyNotifier.value,
                             ),
                           ),
                         ),
-                        // Ringed number circle.
-                        Container(
-                          width: 46,
-                          height: 46,
-                          decoration: BoxDecoration(
-                            color: cardColor,
-                            shape: BoxShape.circle,
-                            border: Border.all(
-                              color: badgeColor.withValues(alpha: 0.5),
-                              width: 1.6,
-                            ),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.black.withValues(alpha: 0.06),
-                                blurRadius: 6,
-                                offset: const Offset(0, 2),
+                        // Ringed number circle (fills when the whole hizb is
+                        // memorized; tap toggles all its thumuns at once).
+                        ValueListenableBuilder<Set<int>>(
+                          valueListenable: ProgressStore.completedNotifier,
+                          builder: (context, completed, _) {
+                            final memorizedAll =
+                                ProgressStore.hizbCompleted(hizb, completed);
+                            final fill = paletteNotifier.value.memorized;
+                            return GestureDetector(
+                              onTap: () => ProgressStore.setAll(
+                                hizb.thumuns.map((t) => t.thumun),
+                                !memorizedAll,
                               ),
-                            ],
-                          ),
-                          child: Center(
-                            child: Text(
-                              displayNumber(hizb.hizb),
-                              style: TextStyle(
-                                color: scheme.onSurface,
-                                fontWeight: FontWeight.w600,
-                                fontSize: 20,
-                                fontFamily: 'Amiri',
+                              child: Tooltip(
+                                message: memorizedAll
+                                    ? 'الحزب محفوظ — اضغط لإلغاء الكل'
+                                    : 'تعليم الحزب كاملا كمحفوظ',
+                                child: Container(
+                                  width: 46,
+                                  height: 46,
+                                  decoration: BoxDecoration(
+                                    color: memorizedAll ? fill : cardColor,
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                      color: memorizedAll
+                                          ? fill
+                                          : badgeColor.withValues(alpha: 0.5),
+                                      width: 1.6,
+                                    ),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Colors.black.withValues(
+                                          alpha: 0.06,
+                                        ),
+                                        blurRadius: 6,
+                                        offset: const Offset(0, 2),
+                                      ),
+                                    ],
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      displayNumber(hizb.hizb),
+                                      style: TextStyle(
+                                        color: memorizedAll
+                                            ? Colors.white
+                                            : scheme.onSurface,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 20,
+                                        fontFamily: fontFamilyNotifier.value,
+                                      ),
+                                    ),
+                                  ),
+                                ),
                               ),
-                            ),
-                          ),
+                            );
+                          },
                         ),
                       ],
                     ),
@@ -1355,7 +1406,7 @@ class _HizbCard extends StatelessWidget {
                             fontSize: 30,
                             fontWeight: FontWeight.normal,
                             color: scheme.onSurface,
-                            fontFamily: 'Amiri',
+                            fontFamily: fontFamilyNotifier.value,
                           ),
                         ),
                       ),
@@ -1440,7 +1491,7 @@ class _HizbCard extends StatelessWidget {
                 fontSize: 17,
                 color: scheme.onSurface,
                 fontWeight: FontWeight.w600,
-                fontFamily: 'Amiri',
+                fontFamily: fontFamilyNotifier.value,
               ),
             ),
           ],

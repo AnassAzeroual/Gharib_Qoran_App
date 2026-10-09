@@ -159,25 +159,28 @@ function Find-Adb {
 }
 
 if ($doAndroidRelease -or $doAndroidDebug) {
+    # The APK always builds; only the USB install needs a device (without
+    # one the APK stays ready for manual transfer, e.g. via WhatsApp).
+    if ($doAndroidRelease) {
+        Log 'Building release APK (arm64 + arm)...'
+        & $Flutter build apk --release --target-platform android-arm64,android-arm
+        $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-release.apk'
+    } else {
+        Log 'Building debug APK (arm64 + arm)...'
+        & $Flutter build apk --debug --target-platform android-arm64,android-arm
+        $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-debug.apk'
+    }
+    if ($LASTEXITCODE -ne 0) { throw 'Flutter APK build failed' }
+    if (-not (Test-Path $apk)) { throw "APK not produced: $apk" }
+    Log "APK built: $apk"
     $adb = Find-Adb
     if (-not $adb) {
-        Log 'Android SDK (adb) not found — skipping APK install.'
+        Log 'Android SDK (adb) not found — skipping USB install.'
     } else {
         $devices = & $adb devices | Where-Object { $_ -match '^\S+\s+device$' }
         if (-not $devices) {
-            Log 'No Android device connected (adb devices) — skipping APK install.'
+            Log 'No Android device connected (adb devices) — skipping USB install.'
         } else {
-            if ($doAndroidRelease) {
-                Log 'Building release APK (arm64 + arm)...'
-                & $Flutter build apk --release --target-platform android-arm64,android-arm
-                $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-release.apk'
-            } else {
-                Log 'Building debug APK (arm64 + arm)...'
-                & $Flutter build apk --debug --target-platform android-arm64,android-arm
-                $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-debug.apk'
-            }
-            if ($LASTEXITCODE -ne 0) { throw 'Flutter APK build failed' }
-            if (-not (Test-Path $apk)) { throw "APK not produced: $apk" }
             foreach ($line in $devices) {
                 $serial = ($line -split '\s+')[0]
                 Log "Installing APK on $serial..."

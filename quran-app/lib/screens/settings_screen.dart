@@ -28,13 +28,13 @@ class SettingsScreen extends StatelessWidget {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text(
+        title: Text(
           'استعادة الألوان الافتراضية؟',
-          style: TextStyle(fontFamily: 'Amiri'),
+          style: TextStyle(fontFamily: fontFamilyNotifier.value),
         ),
-        content: const Text(
+        content: Text(
           'سيتم تجاهل كل الألوان التي اخترتها والرجوع لألوان التطبيق الأصلية.',
-          style: TextStyle(fontFamily: 'Amiri'),
+          style: TextStyle(fontFamily: fontFamilyNotifier.value),
         ),
         actions: [
           TextButton(
@@ -88,9 +88,9 @@ class SettingsScreen extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: palette.settingsHeader,
             foregroundColor: Colors.white,
-            title: const Text(
+            title: Text(
               'إعدادات الألوان',
-              style: TextStyle(fontFamily: 'Amiri'),
+              style: TextStyle(fontFamily: fontFamilyNotifier.value),
             ),
             actions: [
               IconButton(
@@ -104,40 +104,147 @@ class SettingsScreen extends StatelessWidget {
               ),
             ],
           ),
-          body: ListView.builder(
-            padding: const EdgeInsets.fromLTRB(12, 12, 12, 24),
-            itemCount: _sectionTitles().length,
-            itemBuilder: (context, index) {
-              final title = _sectionTitles()[index];
-              final entries = kPaletteEntries
-                  .where((e) => e.section == title)
-                  .toList();
-              return Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(4, 12, 4, 8),
-                    child: Text(
-                      title,
-                      style: TextStyle(
-                        fontFamily: 'Amiri',
-                        fontSize: 17,
-                        fontWeight: FontWeight.bold,
-                        color: scheme.primary,
+          body: Column(
+            children: [
+              _FontSection(),
+              Expanded(
+                child: ListView.builder(
+                  padding: const EdgeInsets.fromLTRB(12, 4, 12, 24),
+                  itemCount: _sectionTitles().length,
+                  itemBuilder: (context, index) {
+                    final title = _sectionTitles()[index];
+                    final entries = kPaletteEntries
+                        .where((e) => e.section == title)
+                        .toList();
+                    return Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(4, 12, 4, 8),
+                          child: Text(
+                            title,
+                            style: TextStyle(
+                              fontFamily: fontFamilyNotifier.value,
+                              fontSize: 17,
+                              fontWeight: FontWeight.bold,
+                              color: scheme.primary,
+                            ),
+                            textAlign: TextAlign.right,
+                          ),
+                        ),
+                        for (final entry in entries)
+                          _ColorRow(
+                            entry: entry,
+                            current: palette.valueOf(entry.key),
+                            onTap: () => _openEditor(context, entry),
+                          ),
+                      ],
+                    );
+                  },
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Font family picker shown at the top of settings. Each option previews
+/// itself in its own font; the choice applies instantly and persists.
+class _FontSection extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return ValueListenableBuilder<String>(
+      valueListenable: fontFamilyNotifier,
+      builder: (context, family, _) => Padding(
+        padding: const EdgeInsets.fromLTRB(12, 12, 12, 0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(4, 0, 4, 8),
+              child: Text(
+                'الخط',
+                style: TextStyle(
+                  fontFamily: fontFamilyNotifier.value,
+                  fontSize: 17,
+                  fontWeight: FontWeight.bold,
+                  color: scheme.primary,
+                ),
+                textAlign: TextAlign.right,
+              ),
+            ),
+            for (final font in kAppFonts)
+              Container(
+                margin: const EdgeInsets.only(bottom: 8),
+                decoration: BoxDecoration(
+                  color: scheme.surface,
+                  borderRadius: BorderRadius.circular(14),
+                  border: Border.all(
+                    color: family == font.family
+                        ? scheme.primary
+                        : scheme.outlineVariant,
+                    width: family == font.family ? 1.8 : 1,
+                  ),
+                ),
+                child: Material(
+                  color: Colors.transparent,
+                  child: InkWell(
+                    onTap: () => fontFamilyNotifier.value = font.family,
+                    borderRadius: BorderRadius.circular(14),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 14,
+                        vertical: 10,
                       ),
-                      textAlign: TextAlign.right,
+                      child: Row(
+                        textDirection: TextDirection.rtl,
+                        children: [
+                          Icon(
+                            family == font.family
+                                ? Icons.radio_button_checked
+                                : Icons.radio_button_unchecked,
+                            color: family == font.family
+                                ? scheme.primary
+                                : scheme.onSurfaceVariant,
+                          ),
+                          const SizedBox(width: 12),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                              children: [
+                                Text(
+                                  font.label,
+                                  textAlign: TextAlign.right,
+                                  style: TextStyle(
+                                    fontFamily: font.family,
+                                    fontSize: 19,
+                                    fontWeight: FontWeight.bold,
+                                    color: scheme.onSurface,
+                                  ),
+                                ),
+                                Text(
+                                  'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
+                                  textAlign: TextAlign.right,
+                                  style: TextStyle(
+                                    fontFamily: font.family,
+                                    fontSize: 16,
+                                    color: scheme.onSurfaceVariant,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                  for (final entry in entries)
-                    _ColorRow(
-                      entry: entry,
-                      current: palette.valueOf(entry.key),
-                      onTap: () => _openEditor(context, entry),
-                    ),
-                ],
-              );
-            },
-          ),
+                ),
+              ),
+          ],
         ),
       ),
     );
@@ -201,7 +308,7 @@ class _ColorRow extends StatelessWidget {
                               entry.label,
                               textAlign: TextAlign.right,
                               style: TextStyle(
-                                fontFamily: 'Amiri',
+                                fontFamily: fontFamilyNotifier.value,
                                 fontSize: 17,
                                 fontWeight: FontWeight.bold,
                                 color: scheme.onSurface,
@@ -236,7 +343,7 @@ class _ColorRow extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 13,
                           color: scheme.onSurfaceVariant,
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                         ),
                       ),
                     ],
@@ -396,8 +503,8 @@ class _ColorEditorState extends State<_ColorEditor> {
                       Text(
                         widget.entry.label,
                         textAlign: TextAlign.right,
-                        style: const TextStyle(
-                          fontFamily: 'Amiri',
+                        style: TextStyle(
+                          fontFamily: fontFamilyNotifier.value,
                           fontSize: 19,
                           fontWeight: FontWeight.bold,
                         ),
@@ -408,7 +515,7 @@ class _ColorEditorState extends State<_ColorEditor> {
                         style: TextStyle(
                           fontSize: 13,
                           color: scheme.onSurfaceVariant,
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                         ),
                       ),
                     ],
@@ -422,21 +529,25 @@ class _ColorEditorState extends State<_ColorEditor> {
               spacing: 10,
               runSpacing: 10,
               children: [
-                for (final swatch in _swatches)
+                for (var i = 0; i < _swatches.length; i++)
                   GestureDetector(
-                    onTap: () => _apply(swatch),
+                    key: ValueKey('swatch_$i'),
+                    onTap: () => _apply(_swatches[i]),
                     child: Container(
                       width: 40,
                       height: 40,
                       decoration: BoxDecoration(
-                        color: swatch,
+                        color: _swatches[i],
                         shape: BoxShape.circle,
                         border: Border.all(
-                          color: _color.toARGB32() == swatch.toARGB32()
-                              ? scheme.primary
-                              : scheme.outlineVariant,
+                          color:
+                              _color.toARGB32() == _swatches[i].toARGB32()
+                                  ? scheme.primary
+                                  : scheme.outlineVariant,
                           width:
-                              _color.toARGB32() == swatch.toARGB32() ? 3 : 1,
+                              _color.toARGB32() == _swatches[i].toARGB32()
+                                  ? 3
+                                  : 1,
                         ),
                       ),
                     ),
@@ -467,6 +578,7 @@ class _ColorEditorState extends State<_ColorEditor> {
               controller: _hexController,
               textAlign: TextAlign.center,
               textDirection: TextDirection.ltr,
+              textInputAction: TextInputAction.done,
               inputFormatters: [
                 FilteringTextInputFormatter.allow(RegExp(r'[0-9a-fA-F#]')),
               ],

@@ -12,6 +12,7 @@ import '../services/sound_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 import 'quiz_result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
@@ -225,7 +226,7 @@ class _QuizScreenState extends State<QuizScreen> {
       },
       child: ValueListenableBuilder<NumeralSystem>(
         valueListenable: numeralNotifier,
-        builder: (context, numeral, _) => Scaffold(
+        builder: (context, numeral, _) => PaletteLive(child: Scaffold(
           appBar: AppBar(
             title: Text(_title()),
             // Fixed teal header in both light and dark modes; white icons stay
@@ -270,7 +271,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     ),
                   ),
           ),
-        ),
+        )),
       ),
     );
   }
@@ -351,7 +352,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   TextSpan(
                     text: 'ما معنى كلمة: ',
                     style: TextStyle(
-                      fontFamily: 'Amiri',
+                      fontFamily: fontFamilyNotifier.value,
                       fontSize: 20 * scale,
                       color: scheme.onSurface,
                     ),
@@ -359,7 +360,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   TextSpan(
                     text: '${q.word.word}؟',
                     style: TextStyle(
-                      fontFamily: 'Amiri',
+                      fontFamily: fontFamilyNotifier.value,
                       fontSize: 30 * scale,
                       fontWeight: FontWeight.bold,
                       color: paletteNotifier.value.quizVerse,
@@ -468,7 +469,7 @@ class _QuizScreenState extends State<QuizScreen> {
         Text(
           'قَالَ تَعَالَىٰ:',
           style: TextStyle(
-            fontFamily: 'Amiri',
+            fontFamily: fontFamilyNotifier.value,
             fontSize: 15 * scale,
             color: refColor,
           ),
@@ -480,7 +481,7 @@ class _QuizScreenState extends State<QuizScreen> {
           Text(
             _ayahReference(q),
             style: TextStyle(
-              fontFamily: 'Amiri',
+              fontFamily: fontFamilyNotifier.value,
               fontSize: 13 * scale,
               color: refColor,
             ),
@@ -505,7 +506,7 @@ class _QuizScreenState extends State<QuizScreen> {
         Text(
           'حجم الخط',
           style: TextStyle(
-            fontFamily: 'Amiri',
+            fontFamily: fontFamilyNotifier.value,
             fontSize: 15 * scale,
             color: scheme.onSurfaceVariant,
             fontWeight: FontWeight.w600,
@@ -557,7 +558,7 @@ class _QuizScreenState extends State<QuizScreen> {
     Color refColor,
   ) {
     final baseStyle = TextStyle(
-      fontFamily: 'Amiri',
+      fontFamily: fontFamilyNotifier.value,
       fontSize: 24 * scale,
       height: 1.8,
       color: wordColor,
@@ -730,7 +731,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     option.label,
                     textDirection: TextDirection.rtl,
                     style: TextStyle(
-                      fontFamily: 'Amiri',
+                      fontFamily: fontFamilyNotifier.value,
                       fontSize: 18 * scale,
                       height: 1.4,
                       color: fg,

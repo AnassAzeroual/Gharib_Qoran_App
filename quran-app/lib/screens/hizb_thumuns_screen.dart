@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 import '../models/hizb_menu.dart';
+import '../services/progress_store.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 import 'quiz_screen.dart';
 import 'thumun_verification_screen.dart';
 import 'thumun_words_screen.dart';
@@ -80,7 +82,7 @@ class HizbThumunsScreen extends StatelessWidget {
     final int extra = quizMode ? 1 : 0; // "whole hizb" tile
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
+      builder: (context, numeral, _) => PaletteLive(child: Scaffold(
         appBar: AppBar(
           backgroundColor: paletteNotifier.value.hizbHeader,
           foregroundColor: Colors.white,
@@ -90,7 +92,7 @@ class HizbThumunsScreen extends StatelessWidget {
                 : verifyMode
                     ? 'التحقق — الحزب ${displayNumber(hizb.hizb)}'
                     : 'الحزب ${displayNumber(hizb.hizb)}',
-            style: const TextStyle(fontFamily: 'Amiri'),
+            style: TextStyle(fontFamily: fontFamilyNotifier.value),
           ),
           actions: const [
             Padding(
@@ -134,7 +136,7 @@ class HizbThumunsScreen extends StatelessWidget {
                   ),
                 ),
               ),
-      ),
+      )),
     );
   }
 }
@@ -181,10 +183,10 @@ class _WholeHizbTile extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text(
+                      Text(
                         'كل الحزب',
                         style: TextStyle(
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
@@ -251,24 +253,43 @@ class _ThumunTile extends StatelessWidget {
             child: Row(
               textDirection: TextDirection.rtl,
               children: [
-                Container(
-                  width: 44,
-                  height: 44,
-                  decoration: BoxDecoration(
-                    color: accent.withValues(alpha: 0.1),
-                    shape: BoxShape.circle,
-                  ),
-                  child: Center(
-                    child: Text(
-                      displayNumber(thumun.thumunInHizb),
-                      style: TextStyle(
-                        color: accent,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18,
-                        fontFamily: 'Amiri',
+                ValueListenableBuilder<Set<int>>(
+                  valueListenable: ProgressStore.completedNotifier,
+                  builder: (context, completed, _) {
+                    final done = completed.contains(thumun.thumun);
+                    final memorized = paletteNotifier.value.memorized;
+                    return GestureDetector(
+                      // Tapping the number toggles memorized (the rest of
+                      // the tile still navigates as usual).
+                      onTap: () => ProgressStore.toggle(thumun.thumun),
+                      child: Tooltip(
+                        message: done
+                            ? 'محفوظ — اضغط للإلغاء'
+                            : 'تعليم كمحفوظ',
+                        child: Container(
+                          width: 44,
+                          height: 44,
+                          decoration: BoxDecoration(
+                            color: done
+                                ? memorized
+                                : accent.withValues(alpha: 0.1),
+                            shape: BoxShape.circle,
+                          ),
+                          child: Center(
+                            child: Text(
+                              displayNumber(thumun.thumunInHizb),
+                              style: TextStyle(
+                                color: done ? Colors.white : accent,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                                fontFamily: fontFamilyNotifier.value,
+                              ),
+                            ),
+                          ),
+                        ),
                       ),
-                    ),
-                  ),
+                    );
+                  },
                 ),
                 const SizedBox(width: 14),
                 Expanded(
@@ -277,10 +298,10 @@ class _ThumunTile extends StatelessWidget {
                     children: [
                       Text(
                         'الثمن ${displayNumber(thumun.thumunInHizb)}',
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                         ),
                       ),
                       const SizedBox(height: 2),
@@ -289,7 +310,7 @@ class _ThumunTile extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 13,
                           color: scheme.onSurfaceVariant,
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                         ),
                       ),
                     ],

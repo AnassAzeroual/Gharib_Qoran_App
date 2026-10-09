@@ -4,6 +4,7 @@ import '../models/quiz_word.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 import 'quiz_screen.dart';
 import 'quiz_words_list_screen.dart';
 
@@ -48,7 +49,7 @@ class QuizResultScreen extends StatelessWidget {
     final scheme = Theme.of(context).colorScheme;
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
+      builder: (context, numeral, _) => PaletteLive(child: Scaffold(
         appBar: AppBar(
           title: const Text('نتيجة الاختبار'),
           // Fixed teal header in both light and dark modes, matching the quiz.
@@ -88,7 +89,7 @@ class QuizResultScreen extends StatelessWidget {
                             Text(
                               '${displayNumber(session.percentage.round())}%',
                               style: TextStyle(
-                                fontFamily: 'Amiri',
+                                fontFamily: fontFamilyNotifier.value,
                                 fontSize: 42,
                                 fontWeight: FontWeight.bold,
                                 color: scheme.primary,
@@ -110,7 +111,7 @@ class QuizResultScreen extends StatelessWidget {
                       'مبارك عليك إتمام الاختبار: $surahName',
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontFamily: 'Amiri',
+                        fontFamily: fontFamilyNotifier.value,
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
                         color: scheme.onSurface,
@@ -121,7 +122,7 @@ class QuizResultScreen extends StatelessWidget {
                       _message,
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontFamily: 'Amiri',
+                        fontFamily: fontFamilyNotifier.value,
                         fontSize: 15,
                         color: scheme.onSurfaceVariant,
                       ),
@@ -195,7 +196,7 @@ class QuizResultScreen extends StatelessWidget {
             ),
           ),
         ),
-      ),
+      )),
     );
   }
 
@@ -249,7 +250,7 @@ class QuizResultScreen extends StatelessWidget {
                 child: Text(
                   displayNumber(count),
                   style: TextStyle(
-                    fontFamily: 'Amiri',
+                    fontFamily: fontFamilyNotifier.value,
                     fontSize: 26,
                     fontWeight: FontWeight.bold,
                     color: scheme.onSurface,

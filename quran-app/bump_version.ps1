@@ -2,8 +2,11 @@
 # Usage:   powershell -ExecutionPolicy Bypass -File .\bump_version.ps1 -Patch
 #          powershell -ExecutionPolicy Bypass -File .\bump_version.ps1 -Minor
 #          powershell -ExecutionPolicy Bypass -File .\bump_version.ps1 -Major
+#          powershell -ExecutionPolicy Bypass -File .\bump_version.ps1 -Build
 #   -Patch / -Minor / -Major : which semantic part to increment (pick exactly one)
-#   -Build                   : also increment the Android build number (+N)
+#   -Build                   : also increment the Android build number (+N);
+#                              ALONE it only ticks +N (1.1.1+4 -> 1.1.1+5),
+#                              which is all a Play Store re-upload needs
 #   (no flags)               : interactive mode - answers prompts one by one,
 #                              perfect for right-click > "Run with PowerShell".
 # Updates: pubspec.yaml `version:`, lib/version.dart kAppVersion,
@@ -59,7 +62,8 @@ if ($bumps -gt 1) { throw 'Pass only ONE of: -Patch, -Minor, -Major' }
 $applyPatch = $Patch
 $applyMinor = $Minor
 $applyMajor = $Major
-$interactive = $bumps -eq 0
+$buildOnly = $Build -and ($bumps -eq 0)
+$interactive = (-not $buildOnly) -and ($bumps -eq 0)
 
 if ($interactive) {
     Write-Host ''
@@ -77,7 +81,8 @@ if ($interactive) {
 }
 
 # ---- Compute new version -----------------------------------------------------
-if ($applyMajor) { $verMajor++; $verMinor = 0; $verPatch = 0 }
+if ($buildOnly) { $newVer = $vers }
+elseif ($applyMajor) { $verMajor++; $verMinor = 0; $verPatch = 0 }
 elseif ($applyMinor) { $verMinor++; $verPatch = 0 }
 else { $verPatch++ }
 

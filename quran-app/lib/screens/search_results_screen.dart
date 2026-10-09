@@ -4,6 +4,7 @@ import '../services/data_service.dart';
 import '../theme.dart';
 import '../utils/arabic_digits.dart';
 import '../widgets/numeral_toggle_button.dart';
+import '../widgets/palette_live.dart';
 import '../widgets/search_result_card.dart';
 
 class SearchResultsScreen extends StatefulWidget {
@@ -29,7 +30,7 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
   Widget build(BuildContext context) {
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
-      builder: (context, numeral, _) => Scaffold(
+      builder: (context, numeral, _) => PaletteLive(child: Scaffold(
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         appBar: AppBar(
           backgroundColor: paletteNotifier.value.searchHeader,
@@ -84,7 +85,7 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
                         style: TextStyle(
                           color: Theme.of(context).colorScheme.onSurfaceVariant,
                           fontSize: 13,
-                          fontFamily: 'Amiri',
+                          fontFamily: fontFamilyNotifier.value,
                         ),
                       ),
                     ),
@@ -101,7 +102,7 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
                   ],
                 ),
               ),
-      ),
+      )),
     );
   }
 }
