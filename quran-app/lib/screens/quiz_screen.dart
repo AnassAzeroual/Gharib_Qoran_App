@@ -289,7 +289,10 @@ class _QuizScreenState extends State<QuizScreen> {
               _isAllMode
                   ? 'جميع السور'
                   : '${displayNumber(_index)} / ${displayNumber(_queue.length)}',
-              style: TextStyle(color: refColor, fontSize: 13),
+              // LTR base direction so "5 / 20" is not bidi-reordered
+              // into "20 / 5" by the surrounding RTL context.
+              textDirection: TextDirection.ltr,
+              style: TextStyle(color: refColor, fontSize: 13 * scale),
             ),
             const SizedBox(width: 10),
             Expanded(
@@ -308,17 +311,19 @@ class _QuizScreenState extends State<QuizScreen> {
               Icons.check_circle,
               _session.correctCount,
               const Color(0xFF16A34A),
+              scale,
             ),
             const SizedBox(width: 8),
             _miniScore(
               Icons.cancel,
               _session.wrongCount,
               const Color(0xFFDC2626),
+              scale,
             ),
           ],
         ),
         const SizedBox(height: 16),
-        _fontSizeControl(scheme),
+        _fontSizeControl(scheme, scale),
         const SizedBox(height: 24),
         // Prompt + word on a single line, aligned to the right (RTL).
         Align(
@@ -472,7 +477,7 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   // ⊕  حجم الخط  ⊖  control that scales all text on the quiz page.
-  Widget _fontSizeControl(ColorScheme scheme) {
+  Widget _fontSizeControl(ColorScheme scheme, double scale) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -487,7 +492,7 @@ class _QuizScreenState extends State<QuizScreen> {
           'حجم الخط',
           style: TextStyle(
             fontFamily: 'Amiri',
-            fontSize: 15,
+            fontSize: 15 * scale,
             color: scheme.onSurfaceVariant,
             fontWeight: FontWeight.w600,
           ),
@@ -730,8 +735,9 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
-  // Compact live score chip: icon + count.
-  Widget _miniScore(IconData icon, int count, Color color) {
+  // Compact live score chip: icon + count. Both scale with the page font
+  // scale so the ⊕ / ⊖ control applies to the whole progress row.
+  Widget _miniScore(IconData icon, int count, Color color, double scale) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
@@ -741,14 +747,14 @@ class _QuizScreenState extends State<QuizScreen> {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, color: color, size: 16),
+          Icon(icon, color: color, size: 16 * scale),
           const SizedBox(width: 4),
           Text(
             displayNumber(count),
             style: TextStyle(
               color: color,
               fontWeight: FontWeight.bold,
-              fontSize: 13,
+              fontSize: 13 * scale,
             ),
           ),
         ],
