@@ -251,6 +251,435 @@ class _FontSection extends StatelessWidget {
   }
 }
 
+/// Live miniature mock of where a palette color lands in the real UI.
+/// Rendered from the current palette, so rows and the editor update
+/// instantly while editing.
+class _EntryPreview extends StatelessWidget {
+  final PaletteEntry entry;
+  final double height;
+
+  const _EntryPreview({required this.entry, this.height = 44});
+
+  @override
+  Widget build(BuildContext context) {
+    final p = paletteNotifier.value;
+    final font = fontFamilyNotifier.value;
+    final scheme = Theme.of(context).colorScheme;
+    final value = p.valueOf(entry.key);
+    BorderRadius radius(double r) => BorderRadius.circular(r);
+
+    Text whiteLabel(String text, [double size = 13]) => Text(
+      text,
+      textAlign: TextAlign.center,
+      style: TextStyle(
+        fontFamily: font,
+        fontSize: size,
+        fontWeight: FontWeight.bold,
+        color: Colors.white,
+      ),
+    );
+
+    final Widget body = switch (previewForKey(entry.key)) {
+      // Mini AppBar in this header color.
+      PalettePreview.appBar => Container(
+        height: height,
+        padding: const EdgeInsets.symmetric(horizontal: 10),
+        decoration: BoxDecoration(color: value, borderRadius: radius(10)),
+        child: Row(
+          textDirection: TextDirection.rtl,
+          children: [
+            const Icon(
+              Icons.arrow_back_rounded,
+              color: Colors.white,
+              size: 18,
+            ),
+            Expanded(child: whiteLabel('عنوان الصفحة')),
+            const SizedBox(width: 18),
+          ],
+        ),
+      ),
+      // Home gradient bar (both ends live).
+      PalettePreview.gradientBar => Container(
+        height: height,
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topRight,
+            end: Alignment.bottomLeft,
+            colors: [p.homeHeaderStart, p.homeHeaderEnd],
+          ),
+          borderRadius: radius(10),
+        ),
+        child: Center(child: whiteLabel('السِّراج', 15)),
+      ),
+      // Active mode chip.
+      PalettePreview.chip => Center(
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 7),
+          decoration: BoxDecoration(
+            color: value,
+            borderRadius: radius(12),
+          ),
+          child: whiteLabel('المطالعة'),
+        ),
+      ),
+      // Light sample card.
+      PalettePreview.cardLight => Container(
+        height: height,
+        padding: const EdgeInsets.all(5),
+        decoration: BoxDecoration(
+          color: p.lightScaffold,
+          borderRadius: radius(10),
+        ),
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+          decoration: BoxDecoration(
+            color: p.lightSurface,
+            borderRadius: radius(7),
+          ),
+          child: Text(
+            'نص تجريبي',
+            textAlign: TextAlign.right,
+            style: TextStyle(
+              fontFamily: font,
+              fontSize: 13,
+              color: p.lightText,
+            ),
+          ),
+        ),
+      ),
+      // Dark sample card.
+      PalettePreview.cardDark => Container(
+        height: height,
+        padding: const EdgeInsets.all(5),
+        decoration: BoxDecoration(
+          color: p.darkScaffold,
+          borderRadius: radius(10),
+        ),
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+          decoration: BoxDecoration(
+            color: p.darkSurface,
+            borderRadius: radius(7),
+          ),
+          child: Text(
+            'نص تجريبي',
+            textAlign: TextAlign.right,
+            style: TextStyle(
+              fontFamily: font,
+              fontSize: 13,
+              color: p.darkText,
+            ),
+          ),
+        ),
+      ),
+      // Quiz canvas with a prompt line.
+      PalettePreview.canvas => Container(
+        height: height,
+        decoration: BoxDecoration(
+          color: p.quizCanvas,
+          borderRadius: radius(10),
+          border: Border.all(color: scheme.outlineVariant),
+        ),
+        child: Center(
+          child: Text(
+            'ما معنى كلمة…؟',
+            style: TextStyle(
+              fontFamily: font,
+              fontSize: 14,
+              fontWeight: FontWeight.bold,
+              color: p.quizWord,
+            ),
+          ),
+        ),
+      ),
+      // Quiz word + meaning lines.
+      PalettePreview.prompt => Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Text(
+              'الكلمة الغريبة',
+              textAlign: TextAlign.right,
+              style: TextStyle(
+                fontFamily: font,
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+                color: p.quizWord,
+              ),
+            ),
+            Text(
+              'المعنى المقصود',
+              textAlign: TextAlign.right,
+              style: TextStyle(
+                fontFamily: font,
+                fontSize: 12,
+                color: p.quizRef,
+              ),
+            ),
+          ],
+        ),
+      ),
+      // Gold reveal-ayah button.
+      PalettePreview.goldButton => Center(
+        child: Container(
+          width: 36,
+          height: 36,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [p.quizGoldTop, p.quizGoldBottom],
+            ),
+          ),
+          child: const Icon(
+            Icons.keyboard_arrow_down_rounded,
+            color: Colors.white,
+            size: 22,
+          ),
+        ),
+      ),
+      // Quiz answer option in correct/wrong styling.
+      PalettePreview.optionTile => Container(
+        height: height,
+        padding: const EdgeInsets.symmetric(horizontal: 10),
+        decoration: BoxDecoration(
+          color: scheme.surface,
+          borderRadius: radius(10),
+          border: Border.all(color: value, width: 1.4),
+        ),
+        child: Row(
+          textDirection: TextDirection.rtl,
+          children: [
+            Icon(
+              entry.key == 'quizCorrect'
+                  ? Icons.check_circle
+                  : Icons.cancel,
+              color: value,
+              size: 20,
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                entry.key == 'quizCorrect' ? 'إجابة صحيحة' : 'إجابة خاطئة',
+                textAlign: TextAlign.right,
+                style: TextStyle(fontFamily: font, fontSize: 13),
+              ),
+            ),
+          ],
+        ),
+      ),
+      // Makki classification chip.
+      PalettePreview.badgeChip => Center(
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+          decoration: BoxDecoration(
+            color: value.withValues(alpha: 0.10),
+            borderRadius: radius(10),
+            border: Border.all(
+              color: value.withValues(alpha: 0.30),
+              width: 1.2,
+            ),
+          ),
+          child: Text(
+            'مكية',
+            style: TextStyle(
+              fontFamily: font,
+              fontSize: 14,
+              fontWeight: FontWeight.bold,
+              color: value,
+            ),
+          ),
+        ),
+      ),
+      // Hizb card side spine.
+      PalettePreview.spineCard => Container(
+        height: height,
+        decoration: BoxDecoration(
+          color: scheme.surface,
+          borderRadius: radius(10),
+          border: Border.all(color: scheme.outlineVariant),
+        ),
+        child: Row(
+          textDirection: TextDirection.rtl,
+          children: [
+            Container(
+              width: 8,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.centerLeft,
+                  end: Alignment.centerRight,
+                  colors: [p.seed, value],
+                ),
+                borderRadius: const BorderRadius.only(
+                  topRight: Radius.circular(10),
+                  bottomRight: Radius.circular(10),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Center(
+                child: Text(
+                  'الحزب',
+                  style: TextStyle(fontFamily: font, fontSize: 15),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+      // Favorite star.
+      PalettePreview.star => Center(
+        child: Icon(Icons.star_rounded, color: value, size: 30),
+      ),
+      // Memorized number ring.
+      PalettePreview.numberRing => Center(
+        child: Container(
+          width: 36,
+          height: 36,
+          decoration: BoxDecoration(color: value, shape: BoxShape.circle),
+          child: Center(
+            child: Text(
+              displayNumber(8),
+              style: const TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                fontSize: 16,
+              ),
+            ),
+          ),
+        ),
+      ),
+      // Bottom navigation bar of viewer/verification screens.
+      PalettePreview.bottomBar => Container(
+        height: height,
+        decoration: BoxDecoration(
+          color: value,
+          borderRadius: radius(10),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.chevron_left, color: p.gold, size: 22),
+            const SizedBox(width: 6),
+            const Text(
+              '339',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 13,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(width: 6),
+            Icon(Icons.chevron_right, color: p.gold, size: 22),
+          ],
+        ),
+      ),
+      // Surah title strip in verification.
+      PalettePreview.sectionStrip => Container(
+        height: height,
+        decoration: BoxDecoration(
+          color: value,
+          borderRadius: radius(10),
+        ),
+        child: Center(child: whiteLabel('سورة الفيل — كلمة 7', 12)),
+      ),
+      // Active word card in thumun verification.
+      PalettePreview.activeCard => Container(
+        height: height,
+        padding: const EdgeInsets.symmetric(horizontal: 10),
+        decoration: BoxDecoration(
+          color: scheme.surface,
+          borderRadius: radius(10),
+          border: Border.all(color: value, width: 1.6),
+        ),
+        child: Row(
+          textDirection: TextDirection.rtl,
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+              decoration: BoxDecoration(
+                color: value.withValues(alpha: 0.1),
+                borderRadius: radius(8),
+              ),
+              child: Text(
+                'صفحة 339',
+                style: TextStyle(
+                  color: value,
+                  fontSize: 11,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const Spacer(),
+            Text(
+              'الكلمة',
+              style: TextStyle(
+                fontFamily: font,
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
+        ),
+      ),
+      // Page-image backdrop.
+      PalettePreview.imagePane => Container(
+        height: height,
+        decoration: BoxDecoration(
+          color: value,
+          borderRadius: radius(10),
+        ),
+        child: Center(
+          child: Container(
+            width: 44,
+            height: 30,
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.9),
+              borderRadius: radius(2),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 3,
+                  margin: const EdgeInsets.symmetric(horizontal: 8),
+                  color: Colors.black26,
+                ),
+                const SizedBox(height: 3),
+                Container(
+                  height: 3,
+                  margin: const EdgeInsets.symmetric(horizontal: 12),
+                  color: Colors.black26,
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+      // Gold navigation chevrons row.
+      PalettePreview.chevronStrip => Container(
+        height: height,
+        decoration: BoxDecoration(
+          color: p.viewerBg,
+          borderRadius: radius(10),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.chevron_left, color: value, size: 24),
+            const SizedBox(width: 10),
+            Icon(Icons.chevron_right, color: value, size: 24),
+          ],
+        ),
+      ),
+    };
+
+    return SizedBox(width: double.infinity, height: height, child: body);
+  }
+}
+
 class _ColorRow extends StatelessWidget {
   final PaletteEntry entry;
   final Color current;
@@ -346,6 +775,8 @@ class _ColorRow extends StatelessWidget {
                           fontFamily: fontFamilyNotifier.value,
                         ),
                       ),
+                      const SizedBox(height: 6),
+                      _EntryPreview(entry: entry, height: 40),
                     ],
                   ),
                 ),
@@ -523,6 +954,8 @@ class _ColorEditorState extends State<_ColorEditor> {
                 ),
               ],
             ),
+            const SizedBox(height: 10),
+            _EntryPreview(entry: widget.entry, height: 56),
             const SizedBox(height: 14),
             Wrap(
               alignment: WrapAlignment.center,

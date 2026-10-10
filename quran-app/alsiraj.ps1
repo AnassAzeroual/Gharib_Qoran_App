@@ -55,9 +55,11 @@ while ($true) {
     Write-Host '   9. Google Play Console (browser)'
     Write-Host '   10. Project PowerShell prompt'
     Write-Host '   11. VS Code in project'
+    Write-Host '   12. Run Windows with auto-reload (watch lib/)'
+    Write-Host '   13. Run Chrome (web) with auto-reload (watch lib/)'
     Write-Host '   Q. Quit'
     Write-Host ''
-    $sel = Read-Host '   Choose (1-11, Q)'
+    $sel = Read-Host '   Choose (1-13, Q)'
     Write-Host ''
 
     switch -Regex ($sel.Trim().ToLowerInvariant()) {
@@ -124,6 +126,12 @@ while ($true) {
                 Write-Host 'VS Code not found on PATH or default location.' -ForegroundColor Yellow
             }
             Start-Sleep -Milliseconds 500
+        }
+        '^12$' {
+            Run-Script @((Join-Path $ProjectRoot 'watch_windows.ps1')) 'Watch Windows (auto-reload)'
+        }
+        '^13$' {
+            Run-Script @((Join-Path $ProjectRoot 'watch_windows.ps1'), '-Device', 'chrome') 'Watch Chrome (auto-reload)'
         }
         '^q$' {
             Write-Host 'Bye.' -ForegroundColor Green

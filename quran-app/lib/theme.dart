@@ -659,6 +659,92 @@ class AppPalette {
   }
 }
 
+/// Miniature UI mock shown in settings so each color row (and the editor)
+/// previews exactly where the color lands. Rendered live from the current
+/// palette in `settings_screen.dart`.
+enum PalettePreview {
+  appBar,
+  gradientBar,
+  chip,
+  cardLight,
+  cardDark,
+  canvas,
+  prompt,
+  goldButton,
+  optionTile,
+  badgeChip,
+  spineCard,
+  star,
+  numberRing,
+  bottomBar,
+  sectionStrip,
+  activeCard,
+  imagePane,
+  chevronStrip,
+}
+
+/// Maps every palette key to its preview mock. Must stay exhaustive — the
+/// palette test asserts all [kPaletteEntries] keys are covered.
+PalettePreview previewForKey(String key) {
+  switch (key) {
+    case 'homeHeaderStart':
+    case 'homeHeaderEnd':
+      return PalettePreview.gradientBar;
+    case 'quizHeader':
+    case 'quizResultHeader':
+    case 'quizWordsHeader':
+    case 'searchHeader':
+    case 'thumunWordsHeader':
+    case 'hizbHeader':
+    case 'settingsHeader':
+    case 'darkPrimary':
+      return PalettePreview.appBar;
+    case 'seed':
+      return PalettePreview.chip;
+    case 'gold':
+      return PalettePreview.chevronStrip;
+    case 'lightScaffold':
+    case 'lightSurface':
+    case 'lightText':
+      return PalettePreview.cardLight;
+    case 'darkScaffold':
+    case 'darkSurface':
+    case 'darkText':
+      return PalettePreview.cardDark;
+    case 'quizCanvas':
+      return PalettePreview.canvas;
+    case 'quizWord':
+    case 'quizVerse':
+    case 'quizRef':
+      return PalettePreview.prompt;
+    case 'quizGoldTop':
+    case 'quizGoldBottom':
+      return PalettePreview.goldButton;
+    case 'quizCorrect':
+    case 'quizWrong':
+      return PalettePreview.optionTile;
+    case 'makki':
+      return PalettePreview.badgeChip;
+    case 'hizbSpineEnd':
+      return PalettePreview.spineCard;
+    case 'favoriteStar':
+      return PalettePreview.star;
+    case 'memorized':
+      return PalettePreview.numberRing;
+    case 'pageViewerNav':
+    case 'surahVerifyNav':
+    case 'thumunVerifyNav':
+      return PalettePreview.bottomBar;
+    case 'surahVerifyAccent':
+      return PalettePreview.sectionStrip;
+    case 'thumunVerifyAccent':
+      return PalettePreview.activeCard;
+    case 'viewerBg':
+      return PalettePreview.imagePane;
+  }
+  throw ArgumentError('No preview for palette key: $key');
+}
+
 /// The live palette. Assign a modified copy to apply new colors instantly
 /// across the whole app (MaterialApp rebuilds from this notifier).
 final ValueNotifier<AppPalette> paletteNotifier = ValueNotifier(

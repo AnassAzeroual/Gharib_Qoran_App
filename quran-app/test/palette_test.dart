@@ -30,4 +30,14 @@ void main() {
       AppPalette.defaults().gold.toARGB32(),
     );
   });
+
+  test('every palette entry has a preview mapping', () {
+    for (final entry in kPaletteEntries) {
+      expect(
+        previewForKey(entry.key),
+        isA<PalettePreview>(),
+        reason: entry.key,
+      );
+    }
+  });
 }

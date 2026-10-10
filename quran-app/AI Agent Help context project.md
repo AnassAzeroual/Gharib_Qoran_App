@@ -80,7 +80,7 @@ Rules:
 ## 5. AUTOMATION SCRIPTS (all in `quran-app/`)
 
 ### 5.1 `alsiraj.ps1` — the control center (interactive menu)
-Right-click → **Run with PowerShell**. Shows current version and a FLAT 11-option menu:
+Right-click → **Run with PowerShell**. Shows current version and a FLAT 13-option menu:
 
 ```
  1 Bump version                      6 Run Windows (dev, flutter run)
@@ -89,10 +89,13 @@ Right-click → **Run with PowerShell**. Shows current version and a FLAT 11-opt
  4 Build Android debug + USB         9 Google Play Console (browser)
  5 Build Android AAB (Play)         10 Project PowerShell prompt
                                     11 VS Code in project
+                                     12 Run Windows with auto-reload (watch)
+                                     13 Run Chrome (web) with auto-reload (watch)
  Q Quit
 ```
 
 - Every job opens in its **own console window** (`Start-Process powershell -NoExit -WorkingDirectory $ProjectRoot`), so the menu stays responsive.
+- Option 12 (`watch_windows.ps1`): starts `flutter run -d windows` and pipes `r` (hot reload) into its stdin on every `lib/**/*.dart` save (700ms settle delay). `R` + Enter = hot restart, `Q` + Enter = clean quit. New assets/plugins still need `R`. Option 13 is the same for web (`-Device chrome`).
 - Option 8 (DevTools): the standalone `devtools` pub package is RETIRED (dead since 2022, can't resolve on Dart 3). DevTools is built into `flutter run` — menu launches the app (W=Windows / C=Chrome) and tells the user to press `d`.
 
 ### 5.2 `build_install.ps1` — one-command build/install
