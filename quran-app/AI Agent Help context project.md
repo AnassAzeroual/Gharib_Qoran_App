@@ -157,7 +157,7 @@ Generated asset files are **gitignored**; to snapshot them into git (not normall
 ```
 lib/
 ├── main.dart                          entry point; RTL + Amiri font setup
-├── theme.dart                         light/dark mode; menuModeNotifier (surah/hizb); AppPalette (36 colors) + paletteNotifier; fontFamilyNotifier (Amiri/Rubik) + kAppFonts
+├── theme.dart                         light/dark mode; menuModeNotifier (surah/hizb); AppPalette (36 colors) + paletteNotifier + kPalettePresets (5 one-tap themes) + activePresetIdNotifier; fontFamilyNotifier (Amiri/Rubik) + kAppFonts
 ├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter, palette_store + bookmarks_store + progress_store + ui_settings_store (SharedPreferences)
 ├── version.dart                        kAppVersion + appVersionLabel()
 ├── data/                               static lists (kQuranSurahs, etc.)

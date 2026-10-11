@@ -79,7 +79,6 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final scheme = Theme.of(context).colorScheme;
     return ValueListenableBuilder<NumeralSystem>(
       valueListenable: numeralNotifier,
       builder: (context, numeral, _) => ValueListenableBuilder<AppPalette>(
@@ -104,47 +103,246 @@ class SettingsScreen extends StatelessWidget {
               ),
             ],
           ),
-          body: Column(
-            children: [
-              _FontSection(),
-              Expanded(
-                child: ListView.builder(
-                  padding: const EdgeInsets.fromLTRB(12, 4, 12, 24),
-                  itemCount: _sectionTitles().length,
-                  itemBuilder: (context, index) {
-                    final title = _sectionTitles()[index];
-                    final entries = kPaletteEntries
-                        .where((e) => e.section == title)
-                        .toList();
-                    return Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.fromLTRB(4, 12, 4, 8),
-                          child: Text(
-                            title,
-                            style: TextStyle(
-                              fontFamily: fontFamilyNotifier.value,
-                              fontSize: 17,
-                              fontWeight: FontWeight.bold,
-                              color: scheme.primary,
-                            ),
-                            textAlign: TextAlign.right,
-                          ),
+          body: SingleChildScrollView(
+            padding: const EdgeInsets.only(bottom: 24),
+            child: Column(
+              children: [
+                _AppearanceSection(),
+                _FontSection(),
+                _AdvancedSection(
+                  palette: palette,
+                  onOpenEditor: (entry) => _openEditor(context, entry),
+                ),
+              ],
+            ),
+          ),
+          ),
+        ),
+    );
+  }
+}
+
+/// Curated full-app themes. One tap applies a coherent palette instantly;
+/// any later manual color edit switches the state to custom.
+class _AppearanceSection extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return ValueListenableBuilder<String>(
+      valueListenable: activePresetIdNotifier,
+      builder: (context, activeId, _) => Padding(
+        padding: const EdgeInsets.fromLTRB(12, 12, 12, 0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(4, 0, 4, 8),
+              child: Row(
+                textDirection: TextDirection.rtl,
+                children: [
+                  Expanded(
+                    child: Text(
+                      'المظهر',
+                      textAlign: TextAlign.right,
+                      style: TextStyle(
+                        fontFamily: fontFamilyNotifier.value,
+                        fontSize: 17,
+                        fontWeight: FontWeight.bold,
+                        color: scheme.primary,
+                      ),
+                    ),
+                  ),
+                  if (activeId == 'custom')
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 3,
+                      ),
+                      decoration: BoxDecoration(
+                        color: scheme.primary.withValues(alpha: 0.12),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Text(
+                        'تخصيص يدوي',
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: scheme.primary,
+                          fontWeight: FontWeight.bold,
                         ),
-                        for (final entry in entries)
-                          _ColorRow(
-                            entry: entry,
-                            current: palette.valueOf(entry.key),
-                            onTap: () => _openEditor(context, entry),
-                          ),
-                      ],
-                    );
-                  },
+                      ),
+                    ),
+                ],
+              ),
+            ),
+            GridView.builder(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                mainAxisSpacing: 8,
+                crossAxisSpacing: 8,
+                mainAxisExtent: 92,
+              ),
+              itemCount: kPalettePresets.length,
+              itemBuilder: (context, index) {
+                final preset = kPalettePresets[index];
+                final preview = preset.build();
+                final selected = activeId == preset.id;
+                return Container(
+                  decoration: BoxDecoration(
+                    color: scheme.surface,
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(
+                      color: selected
+                          ? scheme.primary
+                          : scheme.outlineVariant,
+                      width: selected ? 1.8 : 1,
+                    ),
+                  ),
+                  child: Material(
+                    color: Colors.transparent,
+                    child: InkWell(
+                      onTap: () => applyPreset(preset.id),
+                      borderRadius: BorderRadius.circular(14),
+                      child: Padding(
+                        padding: const EdgeInsets.all(10),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Row(
+                              textDirection: TextDirection.rtl,
+                              children: [
+                                Expanded(
+                                  child: Text(
+                                    preset.label,
+                                    textAlign: TextAlign.right,
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: TextStyle(
+                                      fontFamily: fontFamilyNotifier.value,
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold,
+                                      color: scheme.onSurface,
+                                    ),
+                                  ),
+                                ),
+                                if (selected)
+                                  Icon(
+                                    Icons.check_circle,
+                                    color: scheme.primary,
+                                    size: 18,
+                                  ),
+                              ],
+                            ),
+                            const Spacer(),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                for (final c in [
+                                  preview.seed,
+                                  preview.gold,
+                                  preview.homeHeaderEnd,
+                                ])
+                                  Container(
+                                    width: 22,
+                                    height: 22,
+                                    margin: const EdgeInsets.symmetric(
+                                      horizontal: 3,
+                                    ),
+                                    decoration: BoxDecoration(
+                                      color: c,
+                                      shape: BoxShape.circle,
+                                      border: Border.all(
+                                        color: scheme.outlineVariant,
+                                      ),
+                                    ),
+                                  ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                );
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Collapsed-by-default advanced editor with all individual color rows.
+class _AdvancedSection extends StatelessWidget {
+  final AppPalette palette;
+  final ValueChanged<PaletteEntry> onOpenEditor;
+
+  const _AdvancedSection({required this.palette, required this.onOpenEditor});
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(12, 12, 12, 0),
+      child: Container(
+        decoration: BoxDecoration(
+          color: scheme.surface,
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: scheme.outlineVariant),
+        ),
+        child: ExpansionTile(
+          shape: const Border(),
+          title: Text(
+            'تخصيص متقدم',
+            textAlign: TextAlign.right,
+            style: TextStyle(
+              fontFamily: fontFamilyNotifier.value,
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          subtitle: Text(
+            'لون لون لكل عنصر على حدة',
+            textAlign: TextAlign.right,
+            style: TextStyle(
+              fontSize: 13,
+              color: scheme.onSurfaceVariant,
+              fontFamily: fontFamilyNotifier.value,
+            ),
+          ),
+          children: [
+            for (final title in SettingsScreen._sectionTitles())
+              Padding(
+                padding: const EdgeInsets.fromLTRB(8, 0, 8, 8),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(4, 8, 4, 8),
+                      child: Text(
+                        title,
+                        style: TextStyle(
+                          fontFamily: fontFamilyNotifier.value,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: scheme.primary,
+                        ),
+                        textAlign: TextAlign.right,
+                      ),
+                    ),
+                    for (final entry in kPaletteEntries
+                        .where((e) => e.section == title))
+                      _ColorRow(
+                        entry: entry,
+                        current: palette.valueOf(entry.key),
+                        onTap: () => onOpenEditor(entry),
+                      ),
+                  ],
                 ),
               ),
-            ],
-          ),
+          ],
         ),
       ),
     );
@@ -857,6 +1055,27 @@ class _ColorEditorState extends State<_ColorEditor> {
       _hexController.text = _toHex(c);
     });
     await updatePalette(paletteNotifier.value.withValue(widget.entry.key, c));
+    // Warn when white header text may turn unreadable on a light color.
+    final key = widget.entry.key;
+    final isHeaderSurface =
+        key.endsWith('Header') ||
+        key.endsWith('Nav') ||
+        key == 'homeHeaderStart' ||
+        key == 'homeHeaderEnd';
+    final lightChoice =
+        isHeaderSurface &&
+        ThemeData.estimateBrightnessForColor(c) == Brightness.light;
+    if (!mounted) return;
+    if (lightChoice) {
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('تنبيه: قد يكون النص الأبيض غير مقروء على هذا اللون'),
+            duration: Duration(seconds: 2),
+          ),
+        );
+    }
   }
 
   Widget _channelSlider({

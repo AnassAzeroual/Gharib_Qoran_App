@@ -37,6 +37,13 @@ void main() {
     // Cover home with settings + the color editor, change the color there.
     await tester.tap(find.byIcon(Icons.settings_outlined));
     await tester.pumpAndSettle();
+    // Individual rows live under the collapsed advanced editor.
+    await tester.ensureVisible(find.text('تخصيص متقدم'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('تخصيص متقدم'));
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.text('الرئيسية (بداية)'));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('الرئيسية (بداية)'));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('swatch_3')));

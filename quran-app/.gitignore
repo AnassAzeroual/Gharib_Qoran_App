@@ -21,6 +21,8 @@ assets/search_index.json
 android/key.properties
 android/app/*.jks
 android/app/*.keystore
+# Local Gradle daemon config (machine-specific, auto-generated)
+android/gradle/gradle-daemon-jvm.properties
 # Installer build artifacts (generated)
 installer/AlSiraj-Setup.exe
 installer/build_install.log

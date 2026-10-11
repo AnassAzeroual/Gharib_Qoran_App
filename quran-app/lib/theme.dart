@@ -745,6 +745,114 @@ PalettePreview previewForKey(String key) {
   throw ArgumentError('No preview for palette key: $key');
 }
 
+/// A curated full-app theme: one tap applies a coherent palette.
+/// Presets are defined as overrides on the defaults so only the handful of
+/// distinguishing colors is listed per preset.
+class PalettePreset {
+  final String id;
+  final String label;
+  final String description;
+  final AppPalette Function() build;
+
+  const PalettePreset({
+    required this.id,
+    required this.label,
+    required this.description,
+    required this.build,
+  });
+}
+
+final List<PalettePreset> kPalettePresets = [
+  PalettePreset(
+    id: 'default',
+    label: 'الافتراضي',
+    description: 'ألوان التطبيق الأصلية',
+    build: AppPalette.defaults,
+  ),
+  PalettePreset(
+    id: 'classic',
+    label: 'كلاسيك المصحف',
+    description: 'أخضر عميق وذهبي على ورق عاجي',
+    build: () => AppPalette.defaults().copyWith(
+      seed: const Color(0xFF1B5E20),
+      homeHeaderStart: const Color(0xFF1B5E20),
+      homeHeaderEnd: const Color(0xFF0B2E13),
+      gold: const Color(0xFFD4AF37),
+      lightScaffold: const Color(0xFFF7F0DC),
+      quizHeader: const Color(0xFF1B5E20),
+      quizGoldTop: const Color(0xFFD4AF37),
+      quizGoldBottom: const Color(0xFF9C7C1E),
+    ),
+  ),
+  PalettePreset(
+    id: 'sand',
+    label: 'رملي دافئ',
+    description: 'بني دافئ على بيج فاتح',
+    build: () => AppPalette.defaults().copyWith(
+      seed: const Color(0xFF8D6E63),
+      homeHeaderStart: const Color(0xFF8D6E63),
+      homeHeaderEnd: const Color(0xFF4E342E),
+      gold: const Color(0xFFFFB300),
+      lightScaffold: const Color(0xFFFAF3E8),
+      quizHeader: const Color(0xFF8D6E63),
+    ),
+  ),
+  PalettePreset(
+    id: 'midnight',
+    label: 'ليلي عميق',
+    description: 'كحلي داكن بلمسة كهرمانية',
+    build: () => AppPalette.defaults().copyWith(
+      seed: const Color(0xFF1E3A5F),
+      homeHeaderStart: const Color(0xFF1E3A5F),
+      homeHeaderEnd: const Color(0xFF0D1B2A),
+      gold: const Color(0xFFFBBF24),
+      darkScaffold: const Color(0xFF05080F),
+      darkSurface: const Color(0xFF0B1220),
+      darkPrimary: const Color(0xFF7DD3FC),
+      quizHeader: const Color(0xFF1E3A5F),
+    ),
+  ),
+  PalettePreset(
+    id: 'contrast',
+    label: 'تباين عالٍ',
+    description: 'أسود وأبيض صارخ لضعاف النظر',
+    build: () => AppPalette.defaults().copyWith(
+      seed: const Color(0xFF000000),
+      homeHeaderStart: const Color(0xFF000000),
+      homeHeaderEnd: const Color(0xFF000000),
+      gold: const Color(0xFFFFD600),
+      lightScaffold: const Color(0xFFFFFFFF),
+      lightSurface: const Color(0xFFFFFFFF),
+      lightText: const Color(0xFF000000),
+      darkScaffold: const Color(0xFF000000),
+      darkSurface: const Color(0xFF000000),
+      darkText: const Color(0xFFFFFFFF),
+      darkPrimary: const Color(0xFFFFD600),
+      quizHeader: const Color(0xFF000000),
+      quizCanvas: const Color(0xFFFFFFFF),
+      quizWord: const Color(0xFF000000),
+    ),
+  ),
+  PalettePreset(
+    id: 'material',
+    label: 'بنفسجي مادي',
+    description: 'درجات بنفسجية متناسقة',
+    build: () => AppPalette.defaults().copyWith(
+      seed: const Color(0xFF8A2D84),
+      homeHeaderStart: const Color(0xFF8A2D84),
+      homeHeaderEnd: const Color(0xFF3C1D38),
+      darkPrimary: const Color(0xFF8A2D84),
+      quizHeader: const Color(0xFF700D69),
+      quizVerse: const Color(0xFF520A4B),
+      quizRef: const Color(0xFF493C48),
+    ),
+  ),
+];
+
+/// Which preset the current palette came from, or 'custom' after any manual
+/// edit. Drives the preset-grid highlight in settings.
+final ValueNotifier<String> activePresetIdNotifier = ValueNotifier('default');
+
 /// The live palette. Assign a modified copy to apply new colors instantly
 /// across the whole app (MaterialApp rebuilds from this notifier).
 final ValueNotifier<AppPalette> paletteNotifier = ValueNotifier(

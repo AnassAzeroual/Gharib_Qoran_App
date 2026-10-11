@@ -12,6 +12,7 @@ void main() {
       quizScale: 1.2,
       menu: MenuMode.hizb,
       font: 'Rubik',
+      preset: 'midnight',
     );
     final restored = UiSettings.fromJson(settings.toJson());
     expect(restored.theme, ThemeMode.dark);
@@ -19,6 +20,7 @@ void main() {
     expect(restored.quizScale, 1.2);
     expect(restored.menu, MenuMode.hizb);
     expect(restored.font, 'Rubik');
+    expect(restored.preset, 'midnight');
 
     // Garbage in -> safe defaults out (never throws, never out of range).
     final fallback = UiSettings.fromJson(const {
@@ -33,5 +35,20 @@ void main() {
     expect(fallback.quizScale, lessThanOrEqualTo(kQuizScaleMax));
     expect(fallback.menu, MenuMode.surah);
     expect(fallback.font, kAppDefaultFont);
+    expect(fallback.preset, 'default');
+    expect(fallback.preset, 'default');
+  });
+
+  test('presets have unique ids and build complete palettes', () {
+    final ids = kPalettePresets.map((p) => p.id).toList();
+    expect(ids.toSet(), hasLength(ids.length));
+    for (final preset in kPalettePresets) {
+      final built = preset.build();
+      expect(
+        built.toJson().length,
+        kPaletteEntries.length,
+        reason: preset.id,
+      );
+    }
   });
 }

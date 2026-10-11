@@ -6,15 +6,16 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../theme.dart';
 
 /// Persisted UI settings (theme mode, numerals, quiz font scale, menu mode,
-/// app font). Loaded once at startup into the global notifiers; every later
-/// change is saved back automatically via listeners, so all existing call
-/// sites keep working untouched.
+/// app font, active preset). Loaded once at startup into the global
+/// notifiers; every later change is saved back automatically via listeners,
+/// so all existing call sites keep working untouched.
 class UiSettings {
   final ThemeMode theme;
   final NumeralSystem numeral;
   final double quizScale;
   final MenuMode menu;
   final String font;
+  final String preset;
 
   const UiSettings({
     required this.theme,
@@ -22,6 +23,7 @@ class UiSettings {
     required this.quizScale,
     required this.menu,
     required this.font,
+    required this.preset,
   });
 
   factory UiSettings.defaults() => const UiSettings(
@@ -30,6 +32,7 @@ class UiSettings {
     quizScale: 1.0,
     menu: MenuMode.surah,
     font: kAppDefaultFont,
+    preset: 'default',
   );
 
   static UiSettings snapshot() => UiSettings(
@@ -38,6 +41,7 @@ class UiSettings {
     quizScale: quizFontScaleNotifier.value,
     menu: menuModeNotifier.value,
     font: fontFamilyNotifier.value,
+    preset: activePresetIdNotifier.value,
   );
 
   Map<String, dynamic> toJson() => {
@@ -46,12 +50,14 @@ class UiSettings {
     'quizScale': quizScale,
     'menu': menu == MenuMode.hizb ? 'hizb' : 'surah',
     'font': font,
+    'preset': preset,
   };
 
   factory UiSettings.fromJson(Map<String, dynamic> json) {
     double scale = (json['quizScale'] as num?)?.toDouble() ?? 1.0;
     scale = scale.clamp(kQuizScaleMin, kQuizScaleMax);
     final font = json['font'] as String?;
+    final preset = json['preset'] as String?;
     return UiSettings(
       theme: json['theme'] == 'dark' ? ThemeMode.dark : ThemeMode.light,
       numeral: json['numeral'] == 'western'
@@ -63,6 +69,12 @@ class UiSettings {
           (font != null && kAppFonts.any((f) => f.family == font))
               ? font
               : kAppDefaultFont,
+      preset:
+          (preset != null &&
+              (preset == 'custom' ||
+                  kPalettePresets.any((p) => p.id == preset)))
+          ? preset
+          : 'default',
     );
   }
 }
@@ -87,6 +99,7 @@ class UiSettingsStore {
         quizFontScaleNotifier.value = settings.quizScale;
         menuModeNotifier.value = settings.menu;
         fontFamilyNotifier.value = settings.font;
+        activePresetIdNotifier.value = settings.preset;
       }
     } catch (_) {
       // Corrupt storage is ignored — the app keeps working with defaults.
@@ -105,5 +118,6 @@ class UiSettingsStore {
     quizFontScaleNotifier.addListener(persist);
     menuModeNotifier.addListener(persist);
     fontFamilyNotifier.addListener(persist);
+    activePresetIdNotifier.addListener(persist);
   }
 }

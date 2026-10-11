@@ -48,6 +48,39 @@ function Log([string]$Message) {
 
 if (Test-Path $LogFile) { Remove-Item $LogFile -Force }
 
+# Runs a native tool so NEITHER its stdout nor its stderr can poison the
+# session. Proven rules on this machine (PS 5.1, flutter + JDK print to
+# stderr constantly):
+# - uncaptured stdout inside a captured call pollutes the return value
+#   (re-emit via Write-Host, which never enters the pipeline);
+# - ANY redirected/merged native stderr (2>file, 2>&1) materializes into
+#   error records that detonate at a later innocent statement under
+#   $ErrorActionPreference = 'Stop' — even when the tool succeeded.
+# So: stdout streams via Write-Host, stderr goes to a temp log shown only
+# on failure. The exit code stays the only failure signal.
+function Invoke-NativeCode([string]$Exe, [string[]]$ToolArgs) {
+    $prevPref = $ErrorActionPreference
+    $ErrorActionPreference = 'Continue'
+    try {
+        $errLog = Join-Path ([System.IO.Path]::GetTempPath()) 'alsiraj_native_err.log'
+        if (Test-Path $errLog) { Remove-Item $errLog -Force }
+        & $Exe @ToolArgs 2>$errLog | ForEach-Object { Write-Host "$_" }
+        $code = $LASTEXITCODE
+        if ($code -ne 0 -and (Test-Path $errLog)) {
+            Get-Content $errLog | ForEach-Object { Log "ERR: $_" }
+        }
+        Remove-Item $errLog -Force -ErrorAction SilentlyContinue
+        return $code
+    } finally {
+        $ErrorActionPreference = $prevPref
+    }
+}
+
+function Invoke-Native([string]$Exe, [string[]]$ToolArgs, [string]$What) {
+    $code = Invoke-NativeCode $Exe $ToolArgs
+    if ($code -ne 0) { throw "$What failed (exit $code, see $LogFile)" }
+}
+
 # ---- Must run as administrator for the Windows install step ----
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
         [Security.Principal.WindowsBuiltInRole]::Administrator)) {
@@ -66,9 +99,11 @@ if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 
 Log '=== AlSiraj build + install ==='
 
-# 1) Stop the running app so install/upgrade is not blocked
-$proc = Get-Process -Name AlSiraj -ErrorAction SilentlyContinue
-if ($proc) {
+# 1) Stop the running app so install/upgrade is not blocked.
+# .NET API instead of Get-Process: it returns an empty array (never an
+# error record), keeping $Error clean for stream-merging callers.
+$proc = [System.Diagnostics.Process]::GetProcessesByName('AlSiraj')
+if ($proc -and $proc.Count -gt 0) {
     Log "Stopping running AlSiraj ($($proc.Count) process(es))..."
     $proc | Stop-Process -Force
     Start-Sleep -Seconds 2
@@ -89,8 +124,7 @@ if ($doWindows) {
 
 # 3) Build the Windows release
 Log 'Building Windows release (flutter build windows --release)...'
-& $Flutter build windows --release
-if ($LASTEXITCODE -ne 0) { throw 'Flutter build failed' }
+Invoke-Native $Flutter @('build', 'windows', '--release') 'Flutter Windows build'
 
 # 4) Compile the Inno Setup installer
 Log 'Compiling installer with Inno Setup...'
@@ -121,7 +155,7 @@ function Get-AlSirajUninstaller {
 $uninstaller = Get-AlSirajUninstaller
 if ($uninstaller -and (Test-Path $uninstaller)) {
     Log "Uninstalling old version ($uninstaller)..."
-    & $uninstaller /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
+    Invoke-NativeCode $uninstaller @('/VERYSILENT', '/SUPPRESSMSGBOXES', '/NORESTART') | Out-Null
     Start-Sleep -Seconds 3
 } else {
     Log 'No previous installation found — skipping uninstall.'
@@ -163,14 +197,13 @@ if ($doAndroidRelease -or $doAndroidDebug) {
     # one the APK stays ready for manual transfer, e.g. via WhatsApp).
     if ($doAndroidRelease) {
         Log 'Building release APK (arm64 + arm)...'
-        & $Flutter build apk --release --target-platform android-arm64,android-arm
+        Invoke-Native $Flutter @('build', 'apk', '--release', '--target-platform', 'android-arm64,android-arm') 'Flutter APK build'
         $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-release.apk'
     } else {
         Log 'Building debug APK (arm64 + arm)...'
-        & $Flutter build apk --debug --target-platform android-arm64,android-arm
+        Invoke-Native $Flutter @('build', 'apk', '--debug', '--target-platform', 'android-arm64,android-arm') 'Flutter APK build'
         $apk = Join-Path $ProjectRoot 'build\app\outputs\flutter-apk\app-debug.apk'
     }
-    if ($LASTEXITCODE -ne 0) { throw 'Flutter APK build failed' }
     if (-not (Test-Path $apk)) { throw "APK not produced: $apk" }
     Log "APK built: $apk"
     $adb = Find-Adb
@@ -184,12 +217,11 @@ if ($doAndroidRelease -or $doAndroidDebug) {
             foreach ($line in $devices) {
                 $serial = ($line -split '\s+')[0]
                 Log "Installing APK on $serial..."
-                & $adb -s $serial install -r $apk
-                if ($LASTEXITCODE -ne 0) {
-                    Log "Install failed (exit $LASTEXITCODE). Retrying after uninstall (signature mismatch after key rotation)..."
-                    & $adb -s $serial uninstall com.siraj.alsiraj | Out-Null
-                    & $adb -s $serial install -r $apk
-                    if ($LASTEXITCODE -ne 0) { throw "adb install failed on $serial" }
+                $code = Invoke-NativeCode $adb @('-s', $serial, 'install', '-r', $apk)
+                if ($code -ne 0) {
+                    Log "Install failed (exit $code). Retrying after uninstall (signature mismatch after key rotation)..."
+                    Invoke-NativeCode $adb @('-s', $serial, 'uninstall', 'com.siraj.alsiraj') | Out-Null
+                    Invoke-Native $adb @('-s', $serial, 'install', '-r', $apk) "adb install on $serial"
                 }
             }
             Log 'APK installed on device(s).'
@@ -199,13 +231,14 @@ if ($doAndroidRelease -or $doAndroidDebug) {
 
 if ($doAab) {
     Log 'Building release App Bundle (arm64 + arm)...'
-    & $Flutter build appbundle --release --target-platform android-arm64,android-arm
-    if ($LASTEXITCODE -ne 0) { throw 'Flutter AAB build failed' }
-    $aab = Join-Path $ProjectRoot 'build\app\outputs\bundle\release\app-release.aab'
-    if (-not (Test-Path $aab)) { throw "AAB not produced: $aab" }
+    Invoke-Native $Flutter @('build', 'appbundle', '--release', '--target-platform', 'android-arm64,android-arm') 'Flutter AAB build'
+    $aab = $ProjectRoot + '\build\app\outputs\bundle\release\app-release.aab'
+    if (-not [System.IO.File]::Exists($aab)) { throw "AAB not produced: $aab" }
     Log "AAB ready: $aab (upload to Google Play Console)"
 }
 
 if (-not ($doWindows -or $doAndroidRelease -or $doAndroidDebug -or $doAab)) {
     Log 'Nothing to do — pass at least one target (-Windows / -AndroidRelease / -AndroidDebug / -Aab).'
 }
+
+Log 'Done.'

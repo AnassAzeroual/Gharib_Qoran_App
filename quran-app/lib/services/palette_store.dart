@@ -45,9 +45,22 @@ class PaletteStore {
 }
 
 /// Assigns a new palette (applies it live) and persists it.
+/// Any manual edit marks the active preset as 'custom'.
 Future<void> updatePalette(AppPalette palette) async {
   paletteNotifier.value = palette;
+  activePresetIdNotifier.value = 'custom';
   await PaletteStore.save(palette);
+}
+
+/// Applies a curated preset by id (applies live) and persists it.
+Future<void> applyPreset(String id) async {
+  final preset = kPalettePresets.firstWhere(
+    (p) => p.id == id,
+    orElse: () => kPalettePresets.first,
+  );
+  paletteNotifier.value = preset.build();
+  activePresetIdNotifier.value = preset.id;
+  await PaletteStore.save(paletteNotifier.value);
 }
 
 /// Restores the factory defaults (applies live) and clears stored colors.
