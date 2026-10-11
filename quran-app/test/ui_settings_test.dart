@@ -13,6 +13,7 @@ void main() {
       menu: MenuMode.hizb,
       font: 'Rubik',
       preset: 'midnight',
+      textScale: 1.15,
     );
     final restored = UiSettings.fromJson(settings.toJson());
     expect(restored.theme, ThemeMode.dark);
@@ -21,6 +22,7 @@ void main() {
     expect(restored.menu, MenuMode.hizb);
     expect(restored.font, 'Rubik');
     expect(restored.preset, 'midnight');
+    expect(restored.textScale, 1.15);
 
     // Garbage in -> safe defaults out (never throws, never out of range).
     final fallback = UiSettings.fromJson(const {
@@ -36,6 +38,7 @@ void main() {
     expect(fallback.menu, MenuMode.surah);
     expect(fallback.font, kAppDefaultFont);
     expect(fallback.preset, 'default');
+    expect(fallback.textScale, 1.0);
     expect(fallback.preset, 'default');
   });
 

@@ -104,7 +104,11 @@ class SettingsScreen extends StatelessWidget {
             ],
           ),
           body: SingleChildScrollView(
-            padding: const EdgeInsets.only(bottom: 24),
+            // Bottom system inset (navigation bar) so the last rows are
+            // never hidden behind it — same pattern as the other screens.
+            padding: EdgeInsets.only(
+              bottom: 24 + MediaQuery.of(context).padding.bottom,
+            ),
             child: Column(
               children: [
                 _AppearanceSection(),
@@ -439,6 +443,59 @@ class _FontSection extends StatelessWidget {
                         ],
                       ),
                     ),
+                  ),
+                ),
+              ),
+              ValueListenableBuilder<double>(
+                valueListenable: textScaleNotifier,
+                builder: (context, scale, _) => Container(
+                  margin: const EdgeInsets.only(bottom: 8),
+                  padding: const EdgeInsets.fromLTRB(14, 10, 14, 6),
+                  decoration: BoxDecoration(
+                    color: scheme.surface,
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(color: scheme.outlineVariant),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Row(
+                        textDirection: TextDirection.rtl,
+                        children: [
+                          Expanded(
+                            child: Text(
+                              'حجم الخط',
+                              textAlign: TextAlign.right,
+                              style: TextStyle(
+                                fontFamily: fontFamilyNotifier.value,
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                                color: scheme.onSurface,
+                              ),
+                            ),
+                          ),
+                          Text(
+                            '%${displayNumber((scale * 100).round())}',
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: scheme.primary,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Slider(
+                        value: scale,
+                        min: kTextScaleMin,
+                        max: kTextScaleMax,
+                        divisions:
+                            ((kTextScaleMax - kTextScaleMin) / kTextScaleStep)
+                                .round(),
+                        label:
+                            '%${displayNumber((scale * 100).round())}',
+                        onChanged: (v) => textScaleNotifier.value = v,
+                      ),
+                    ],
                   ),
                 ),
               ),

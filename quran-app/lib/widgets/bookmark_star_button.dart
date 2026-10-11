@@ -38,11 +38,20 @@ class _BookmarkStarButtonState extends State<BookmarkStarButton>
     super.initState();
     _pop = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 450),
+      duration: const Duration(milliseconds: 350),
     );
-    _scale = Tween<double>(begin: 0.4, end: 1.0).animate(
-      CurvedAnimation(parent: _pop, curve: Curves.elasticOut),
-    );
+    // Resting scale is 1.0 (sequence starts there); a tap plays
+    // 1.0 -> 1.4 -> 1.0 so the star pops without ever shrinking first.
+    _scale = TweenSequence<double>([
+      TweenSequenceItem(
+        tween: Tween(begin: 1.0, end: 1.4),
+        weight: 35,
+      ),
+      TweenSequenceItem(
+        tween: Tween(begin: 1.4, end: 1.0),
+        weight: 65,
+      ),
+    ]).animate(CurvedAnimation(parent: _pop, curve: Curves.easeOut));
   }
 
   @override

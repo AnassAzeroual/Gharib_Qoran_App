@@ -889,6 +889,14 @@ enum NumeralSystem { arabicIndic, western }
 final ValueNotifier<NumeralSystem> numeralNotifier =
     ValueNotifier(NumeralSystem.arabicIndic);
 
+/// Global font-size multiplier applied to ALL text app-wide through the
+/// platform text scaler. 1.0 is the design default; clamped to
+/// [kTextScaleMin, kTextScaleMax]. Persisted via UiSettingsStore.
+const double kTextScaleMin = 0.85;
+const double kTextScaleMax = 1.3;
+const double kTextScaleStep = 0.05;
+final ValueNotifier<double> textScaleNotifier = ValueNotifier(1.0);
+
 /// A bundled font family the user can pick from in settings.
 class AppFont {
   final String family;

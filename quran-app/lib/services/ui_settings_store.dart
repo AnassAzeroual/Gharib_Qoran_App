@@ -16,6 +16,7 @@ class UiSettings {
   final MenuMode menu;
   final String font;
   final String preset;
+  final double textScale;
 
   const UiSettings({
     required this.theme,
@@ -24,6 +25,7 @@ class UiSettings {
     required this.menu,
     required this.font,
     required this.preset,
+    required this.textScale,
   });
 
   factory UiSettings.defaults() => const UiSettings(
@@ -33,6 +35,7 @@ class UiSettings {
     menu: MenuMode.surah,
     font: kAppDefaultFont,
     preset: 'default',
+    textScale: 1.0,
   );
 
   static UiSettings snapshot() => UiSettings(
@@ -42,6 +45,7 @@ class UiSettings {
     menu: menuModeNotifier.value,
     font: fontFamilyNotifier.value,
     preset: activePresetIdNotifier.value,
+    textScale: textScaleNotifier.value,
   );
 
   Map<String, dynamic> toJson() => {
@@ -51,11 +55,14 @@ class UiSettings {
     'menu': menu == MenuMode.hizb ? 'hizb' : 'surah',
     'font': font,
     'preset': preset,
+    'textScale': textScale,
   };
 
   factory UiSettings.fromJson(Map<String, dynamic> json) {
     double scale = (json['quizScale'] as num?)?.toDouble() ?? 1.0;
     scale = scale.clamp(kQuizScaleMin, kQuizScaleMax);
+    double textScale = (json['textScale'] as num?)?.toDouble() ?? 1.0;
+    textScale = textScale.clamp(kTextScaleMin, kTextScaleMax);
     final font = json['font'] as String?;
     final preset = json['preset'] as String?;
     return UiSettings(
@@ -75,6 +82,7 @@ class UiSettings {
                   kPalettePresets.any((p) => p.id == preset)))
           ? preset
           : 'default',
+      textScale: textScale,
     );
   }
 }
@@ -100,6 +108,7 @@ class UiSettingsStore {
         menuModeNotifier.value = settings.menu;
         fontFamilyNotifier.value = settings.font;
         activePresetIdNotifier.value = settings.preset;
+        textScaleNotifier.value = settings.textScale;
       }
     } catch (_) {
       // Corrupt storage is ignored — the app keeps working with defaults.
@@ -119,5 +128,6 @@ class UiSettingsStore {
     menuModeNotifier.addListener(persist);
     fontFamilyNotifier.addListener(persist);
     activePresetIdNotifier.addListener(persist);
+    textScaleNotifier.addListener(persist);
   }
 }

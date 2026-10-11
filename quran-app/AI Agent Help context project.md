@@ -157,7 +157,7 @@ Generated asset files are **gitignored**; to snapshot them into git (not normall
 ```
 lib/
 ├── main.dart                          entry point; RTL + Amiri font setup
-├── theme.dart                         light/dark mode; menuModeNotifier (surah/hizb); AppPalette (36 colors) + paletteNotifier + kPalettePresets (5 one-tap themes) + activePresetIdNotifier; fontFamilyNotifier (Amiri/Rubik) + kAppFonts
+├── theme.dart                         light/dark mode; menuModeNotifier (surah/hizb); AppPalette (36 colors) + paletteNotifier + kPalettePresets (6 one-tap themes) + activePresetIdNotifier; fontFamilyNotifier (Amiri/Rubik) + kAppFonts; textScaleNotifier (global 0.85-1.3 via TextScaler)
 ├── services/                           data_service, search, arabic_normalizer, quiz_service, sound_service, ayah_highlighter, palette_store + bookmarks_store + progress_store + ui_settings_store (SharedPreferences)
 ├── version.dart                        kAppVersion + appVersionLabel()
 ├── data/                               static lists (kQuranSurahs, etc.)
@@ -270,13 +270,16 @@ $c = [System.IO.File]::ReadAllText('script.ps1', [System.Text.Encoding]::UTF8)
 
 ---
 
-## 14. GOOGLE PLAY STATUS & CHECKLIST (publishing not finished)
+## 14. GOOGLE PLAY STATUS (production access GRANTED 2026-10-11)
 
-- Play Console account: **not yet fully set up**; publishing requires `app-release.aab` (built via `build_install.ps1 -Aab` or menu option 5).
-- New individual accounts must pass a **closed-testing track: 12+ testers for 14 days** before production access.
-- One-time $25 developer registration; signup at https://play.google.com/console/signup.
+- Production access approved after closed testing. Publishing path: select
+  countries → create production release (upload `app-release.aab`, bump `+N`
+  above any previously uploaded code) → preview/confirm → submit for review
+  → publish. Current local build: 1.1.3+9 (signed AAB, ~66MB).
 - Still needed before release: store listing assets (screenshots, feature graphic, icon), a **privacy policy URL** (the app is fully offline; host a simple page), content rating questionnaire.
-- `+N` (versionCode) must be bumped for EVERY upload — `bump_version.ps1 -Build` or the `-Build`/interactive prompt.
+
+- Closed-testing requirement is done (12+ testers, 14 days) — that is what unlocked production.
+- `+N` (versionCode) must be above every previously uploaded code — `bump_version.ps1 -Build` ticks only `+N`.
 - The app is offline-only, so there is no backend; the AAB must bundle everything (assets are included).
 
 ---

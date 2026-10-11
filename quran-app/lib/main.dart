@@ -28,23 +28,32 @@ class QuranApp extends StatelessWidget {
         valueListenable: paletteNotifier,
         builder: (context, palette, _) => ValueListenableBuilder<String>(
           valueListenable: fontFamilyNotifier,
-          builder: (context, _, _) => MaterialApp(
-          title: 'السراج في بيان غريب القرآن',
-          debugShowCheckedModeBanner: false,
-          locale: const Locale('ar'),
-          supportedLocales: const [Locale('ar'), Locale('en')],
-          localizationsDelegates: const [
-            GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-          ],
-          theme: buildLightTheme(palette),
-          darkTheme: buildDarkTheme(palette),
-          themeMode: mode,
-          home: const HomeScreen(),
+          builder: (context, _, _) => ValueListenableBuilder<double>(
+            valueListenable: textScaleNotifier,
+            builder: (context, textScale, _) => MaterialApp(
+              title: 'السراج في بيان غريب القرآن',
+              debugShowCheckedModeBanner: false,
+              locale: const Locale('ar'),
+              supportedLocales: const [Locale('ar'), Locale('en')],
+              localizationsDelegates: const [
+                GlobalMaterialLocalizations.delegate,
+                GlobalWidgetsLocalizations.delegate,
+                GlobalCupertinoLocalizations.delegate,
+              ],
+              theme: buildLightTheme(palette),
+              darkTheme: buildDarkTheme(palette),
+              themeMode: mode,
+              builder: (context, child) => MediaQuery(
+                data: MediaQuery.of(
+                  context,
+                ).copyWith(textScaler: TextScaler.linear(textScale)),
+                child: child!,
+              ),
+              home: const HomeScreen(),
+            ),
+          ),
         ),
       ),
-    ),
   );
   }
 }
